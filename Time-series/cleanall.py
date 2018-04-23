@@ -11,8 +11,6 @@
 Ameliorations possibles:
 
 '''
-import warnings
-warnings.filterwarnings('ignore')
 #################################################
 ###########        Imports      #################
 #################################################

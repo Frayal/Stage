@@ -34,6 +34,7 @@ import os
 import sys
 import scipy.stats
 import matplotlib
+from matplotlib.backends.backend_pdf import PdfPages
 
 #################################################
 ########### Global variables ####################
@@ -94,6 +95,8 @@ def shift_preprocess(data,noise_level=NOISE_LEVEL):
     dataframe.columns = ['t-3', 't-2', 't-1', 't']
     dataframe = dataframe.drop(dataframe.index[[0,1,2]])
     print(dataframe.head())
+    plt.plot(dataframe['t'].values)
+    plt.savefig('0.png')
     return dataframe
 
 
@@ -148,6 +151,7 @@ def processing(dataframe):
     ax=plt.gca()
     ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
     plt.xlabel('time (arbitrary)')
+    plt.savefig('1.png')
     return dataframe
 
 
@@ -178,7 +182,7 @@ def annomalie_detection(df,automatic_threshold = True):
         pass
         #TODO:Fix every threshold by yourself...i'll let you do it
     for i in df['t'].values:
-        if(i%100 == 0): print(i)
+        if(i%1000 == 0): print(i)
         count = 0
         for j in range(len(l)):
             if any(c == i for c in l[j]):
@@ -200,8 +204,8 @@ def plot_annomalies(annomalies,df):
     ax.scatter([i/60 for i in range(len(x))],x,c=annomalies)
     ax=plt.gca()
     ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-    plt.show()
-    print("quel joli graphe!")
+    plt.savefig('2.png')
+    print("quel jolis graphes!")
 
 #################################################
 ########### main with options ###################
@@ -212,9 +216,10 @@ def main(argv):
     df = load_timeserie(argv)
     df = shift_preprocess(df)
     df = processing(df)
+    df.to_csv(argv.split('.')[0]+"-processed.csv",index=False)
 
     annomalies = annomalie_detection(df)
-    #plot_annomalies(annomalies,df)
+    plot_annomalies(annomalies,df)
     return ("process achevé sans erreures")
 
 

@@ -15,6 +15,7 @@ warnings.filterwarnings('ignore')
 #################################################
 ###########        Imports      #################
 #################################################
+import os
 import sys
 
 #################################################
@@ -32,8 +33,10 @@ import sys
 ########### main with options ###################
 #################################################
 
-
 def main(argv):
+    files = os.listdir('/home/alexis/Bureau/Stage/Time-series/clean data')
+    for file in files:
+        os.system("python /home/alexis/Bureau/Stage/Time-series/processingdata.py "+str(file))
     return ("process achevé sans erreures")
 
 

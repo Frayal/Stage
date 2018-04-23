@@ -34,7 +34,8 @@ import os
 import sys
 import scipy.stats
 import matplotlib
-from matplotlib.backends.backend_pdf import PdfPages
+import pickle
+
 
 #################################################
 ########### Global variables ####################
@@ -81,7 +82,7 @@ def add_noise(l):
         res.append(np.random.normal(res[-1],max([res[-1]/10**8,1])))
     return res
 
-def shift_preprocess(data,noise_level=NOISE_LEVEL):
+def shift_preprocess(data,name,noise_level=NOISE_LEVEL):
     '''
     prend en entrée un dataframe contenant les valeurs d'audition
     renvoie un dataframe de 4 colonnes contenant les valeurs bruitées
@@ -93,15 +94,16 @@ def shift_preprocess(data,noise_level=NOISE_LEVEL):
     temps = DataFrame(temps)
     dataframe = concat([temps.shift(3), temps.shift(2), temps.shift(1), temps], axis=1)
     dataframe.columns = ['t-3', 't-2', 't-1', 't']
+    dataframe['minutes'] = dataframe.index
     dataframe = dataframe.drop(dataframe.index[[0,1,2]])
     print(dataframe.head())
     plt.plot(dataframe['t'].values)
-    plt.savefig('0.png')
+    plt.savefig('data/png/'+name+'-0.png')
     return dataframe
 
 
 
-def processing(dataframe):
+def processing(dataframe,name):
     '''
     prend en entrée un dataframe contenant les shifts
     renvoie en sortie un dataframe de features
@@ -139,7 +141,7 @@ def processing(dataframe):
                             +((dataframe['t-2']-dataframe["mean"])**3)/4+((dataframe['t-3']-dataframe["mean"])**3)/4)/(sd**3)
     dataframe["skewness"]= (((dataframe['t']-dataframe["mean"])**4)/4+((dataframe['t-1']-dataframe["mean"])**4)/4
                             +((dataframe['t-2']-dataframe["mean"])**4)/4+((dataframe['t-3']-dataframe["mean"])**4)/4)/(sd**4)
-    plt.figure(figsize=(25,15))
+   
     plt.subplot(2, 1, 1)
     plt.plot(time,prob, '-')
     ax=plt.gca()
@@ -151,7 +153,7 @@ def processing(dataframe):
     ax=plt.gca()
     ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
     plt.xlabel('time (arbitrary)')
-    plt.savefig('1.png')
+    plt.savefig('data/png/'+name+'-1.png')
     return dataframe
 
 
@@ -168,44 +170,52 @@ def annomalie_detection(df,automatic_threshold = True):
         res = []
         names = df.columns
         for n in names:
-            if any(c==n for c in ("t", "t-1", "t-2","t-3")):
+            if any(c==n for c in ("t", "t-1", "t-2","t-3","diff t-1 t-2","diff t-1 t-3","diff t t-1","diff t t-2","diff t t-3","diff t-2 t-3")):
                 pass
             else:
-                df[n]=df[n]/df[n].max()
+                df[n]=df[n]/(abs(df[n]).max())
         for n in names:
-            if any(c==n for c in ("t", "t-1", "t-2",'t-3')):
+            if any(c==n for c in ("t", "t-1", "t-2","t-3","diff t-1 t-2","diff t-1 t-3","diff t t-1","diff t t-2","diff t t-3","diff t-2 t-3")):
                 pass
             else:
-                df_temp = df.where(df[n]>0.5)
+                df_temp = df.where(df[n]>0.8)
                 l.append(df_temp['t'].values)
+        for i in df['t'].values:
+            if(i%1000 == 0): print(i)
+            count = 0
+            for j in range(len(l)):
+                if any(c == i for c in l[j]):
+                    count+=1
+            res.append(count)
     else:
         pass
-        #TODO:Fix every threshold by yourself...i'll let you do it
-    for i in df['t'].values:
-        if(i%1000 == 0): print(i)
-        count = 0
-        for j in range(len(l)):
-            if any(c == i for c in l[j]):
-                count+=1
-        res.append(count)
+        #TODO:implement a xgboost to determine annomalies
+        # load model from file
+        loaded_model = pickle.load(open("pima.pickle.dat", "rb"))
+        # make predictions for test data
+        y_pred = loaded_model.predict_proba(df.values)
+        
+    
     return res
 
 
-def plot_annomalies(annomalies,df):
+def plot_annomalies(annomalies,df,name):
     """
     prend en entrée le nombres d'indicateurs qui detectent une annomalie
     ainsi que le datafame contenant tous les features(on a effacé 3 lignes)
     renvoie un graph présentant les zones d'incertitudes quand a la présence
     d'un événement important dans la plage horaire
     """
-    annomalies = np.cos(annomalies)
+    c = np.cos([0.3*b for b in annomalies])
     x = df['t'].values
-    fig, ax = plt.subplots(figsize=(25,15))
-    ax.scatter([i/60 for i in range(len(x))],x,c=annomalies)
+    fig, ax = plt.subplots()
+    ax.scatter([i/60 for i in range(len(x))],x,c=c)
     ax=plt.gca()
     ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-    plt.savefig('2.png')
+    plt.savefig('data/png/'+name+'-2.png')
     print("quel jolis graphes!")
+
+
 
 #################################################
 ########### main with options ###################
@@ -214,12 +224,12 @@ import sys
 
 def main(argv):
     df = load_timeserie(argv)
-    df = shift_preprocess(df)
-    df = processing(df)
-    df.to_csv(argv.split('.')[0]+"-processed.csv",index=False)
+    df = shift_preprocess(df,argv.split('.')[0])
+    df = processing(df,argv.split('.')[0])
+    df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
 
     annomalies = annomalie_detection(df)
-    plot_annomalies(annomalies,df)
+    plot_annomalies(annomalies,df,argv)
     return ("process achevé sans erreures")
 
 

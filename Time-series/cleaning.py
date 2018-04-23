@@ -1,7 +1,8 @@
+#-*- coding: utf-8 -*-
 #################################################
 #created the 20/04/2018 12:57 by Alexis Blanchet#
 #################################################
-#-*- coding: utf-8 -*-
+
 '''
 pre-processing des datas
 fabrication des Times Series
@@ -29,12 +30,6 @@ warnings.filterwarnings('ignore')
 #################################################
 import warnings
 warnings.filterwarnings('ignore')
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from pandas import Series
-from pandas import DataFrame
-from pandas import concat
 import random
 import os
 
@@ -51,6 +46,9 @@ PATH = ''
 ########### main with options ###################
 #################################################
 import sys
+from os import listdir
+import pandas as pd
+from os.path import isfile, join
 
 def main(argv):
     file = argv[0]
@@ -70,7 +68,7 @@ def main(argv):
         df = df.loc[df["IDCIBLE"] == int(csp)]
     df = df.drop(["IDCST","DPT","IDCIBLE"])
     df.to_csv(PATH+"clean data/"+str(f[0])+"_"+str(f[1])+"_"+str(departement)+"_"+str(chaine)+"_"+str(csp)+"_cleandata.csv",header=['values'])
-    return ("process achevé sans erreures")
+    return 0
 
 
 if __name__ == "__main__":

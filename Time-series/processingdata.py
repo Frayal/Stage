@@ -39,7 +39,7 @@ import matplotlib
 ########### Global variables ####################
 #################################################
 
-PATH = '/home/alexis/Bureau/stage/Time-series/clean data/'
+PATH = '/home/alexis/Bureau/Stage/Time-series/clean data/'
 NOISE_LEVEL = 2
 #################################################
 ########### Important functions #################

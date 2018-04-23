@@ -167,6 +167,7 @@ def annomalie_detection(df,automatic_threshold = True):
     en fonction de l'historique de la chaîne/departement/regroupement(csp)
     '''
     if(automatic_threshold):
+        #TODO: rework the threshold to be finer and to thus create a better historic
         l = []
         res = []
         irrelevant = ('t-3', 't-2', 't-1', 't','minutes', 'diff t t-1', 'diff t t-2','diff t t-3', 'diff t-1 t-2', 'diff t-1 t-3', 'diff t-2 t-3','mean')

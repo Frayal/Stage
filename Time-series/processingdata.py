@@ -230,9 +230,9 @@ def main(argv):
     df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
     annomalies = annomalie_detection(df)
     plot_annomalies(annomalies,df,argv)
-    m = max(annoamlies)
-    y = [1 if b/(m+1)>0.5 else 0 for b in annomalies]
-    y = Dataframe(y)
+    m = max(annomalies)
+    y = [1 if b/(m)>0.5 else 0 for b in annomalies]
+    y = DataFrame(y)
     y.to_csv('data/processed/'+argv.split('.')[0]+"-y.csv",index=False)
     return ("process achevé sans erreures")
 

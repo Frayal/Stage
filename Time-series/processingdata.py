@@ -42,7 +42,7 @@ import pickle
 #################################################
 
 PATH = '/home/alexis/Bureau/Stage/Time-series/clean data/'
-NOISE_LEVEL = 2
+NOISE_LEVEL = 1
 #################################################
 ########### Important functions #################
 #################################################
@@ -154,6 +154,7 @@ def processing(dataframe,name):
     ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
     plt.xlabel('time (arbitrary)')
     plt.savefig('data/png/'+name+'-1.png')
+    plt.close()
     return dataframe
 
 
@@ -168,20 +169,20 @@ def annomalie_detection(df,automatic_threshold = True):
     if(automatic_threshold):
         l = []
         res = []
+        irrelevant = ('t-3', 't-2', 't-1', 't','minutes', 'diff t t-1', 'diff t t-2','diff t t-3', 'diff t-1 t-2', 'diff t-1 t-3', 'diff t-2 t-3','mean')
         names = df.columns
         for n in names:
-            if any(c==n for c in ("t", "t-1", "t-2","t-3","diff t-1 t-2","diff t-1 t-3","diff t t-1","diff t t-2","diff t t-3","diff t-2 t-3")):
+            if any(c==n for c in irrelevant):
                 pass
             else:
-                df[n]=df[n]/(abs(df[n]).max())
+                df[n]=abs(df[n])/(abs(df[n]).max())
         for n in names:
-            if any(c==n for c in ("t", "t-1", "t-2","t-3","diff t-1 t-2","diff t-1 t-3","diff t t-1","diff t t-2","diff t t-3","diff t-2 t-3")):
+            if any(c==n for c in irrelevant):
                 pass
             else:
-                df_temp = df.where(df[n]>0.8)
+                df_temp = df.where(df[n]>0.1)
                 l.append(df_temp['t'].values)
         for i in df['t'].values:
-            if(i%1000 == 0): print(i)
             count = 0
             for j in range(len(l)):
                 if any(c == i for c in l[j]):
@@ -194,8 +195,7 @@ def annomalie_detection(df,automatic_threshold = True):
         loaded_model = pickle.load(open("pima.pickle.dat", "rb"))
         # make predictions for test data
         y_pred = loaded_model.predict_proba(df.values)
-        
-    
+
     return res
 
 
@@ -206,14 +206,15 @@ def plot_annomalies(annomalies,df,name):
     renvoie un graph présentant les zones d'incertitudes quand a la présence
     d'un événement important dans la plage horaire
     """
-    c = np.cos([0.3*b for b in annomalies])
+    m = max(annomalies)
+    c = np.cos([(b)/m for b in annomalies])
     x = df['t'].values
     fig, ax = plt.subplots()
     ax.scatter([i/60 for i in range(len(x))],x,c=c)
     ax=plt.gca()
     ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
     plt.savefig('data/png/'+name+'-2.png')
-    print("quel jolis graphes!")
+    print("quels jolis graphes!")
 
 
 
@@ -227,9 +228,12 @@ def main(argv):
     df = shift_preprocess(df,argv.split('.')[0])
     df = processing(df,argv.split('.')[0])
     df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
-
     annomalies = annomalie_detection(df)
     plot_annomalies(annomalies,df,argv)
+    m = max(annoamlies)
+    y = [1 if b/(m+1)>0.5 else 0 for b in annomalies]
+    y = Dataframe(y)
+    y.to_csv('data/processed/'+argv.split('.')[0]+"-y.csv",index=False)
     return ("process achevé sans erreures")
 
 

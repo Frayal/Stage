@@ -127,7 +127,7 @@ def processing(dataframe,name):
     dataframe["diff t t-1"]=dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["t"]-x["t-1"])),axis = 1)
     dataframe["diff t t-2"]=dataframe.apply(lambda x:max(-THRESHOLD**2,min(THRESHOLD**2,x["t"]-x["t-2"])),axis = 1)
     dataframe["diff t t-3"]=dataframe.apply(lambda x:max(-THRESHOLD**2,min(THRESHOLD**2,x["t"]-x["t-3"])),axis = 1)
-    dataframe["diff t-1 t-2"]=dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["t-1"]-x["t-2"])),axis = 1)
+    dataframe["diff t-1 t-2"]=dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD**2,x["t-1"]-x["t-2"])),axis = 1)
     dataframe["diff t-1 t-3"]=dataframe.apply(lambda x:max(-THRESHOLD**2,min(THRESHOLD**2,x["t-1"]-x["t-3"])),axis = 1)
     dataframe["diff t-2 t-3"]=dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["t-2"]-x["t-3"])),axis = 1)
     
@@ -180,18 +180,17 @@ def annomalie_detection(df,automatic_threshold = True):
     en fonction de l'historique de la chaîne/departement/regroupement(csp)
     '''
     if(automatic_threshold):
-        #TODO: rework the threshold to be finer and to thus create a better historic
         res = []
-        irrelevant = ('t-3', 't-2', 't-1', 't','minutes', 'diff t t-1', 'diff t t-2','diff t t-3', 'diff t-1 t-2', 'diff t-1 t-3', 'diff t-2 t-3','mean')
+        irrelevant = ('t-3', 't-2', 't-1', 't','minutes', 'diff t t-1', 'diff t t-2','diff t t-3', 'diff t-1 t-3','mean')
         allnames = df.columns
         names = list(set(allnames) - set(irrelevant))
-        
+        #print(names)
         temp_df = df[names]
         info = df.describe()
         
-        temp_df['signe'] = np.sign(temp_df['pente t t-2']+temp_df['pente t-1 t-3']+temp_df['pente t t-3'])
-        #['pente t t-2', 'distribution', 'pente t-1 t-3', 'probability', 'pente t t-3', 'distance to mean']
-        poids = [2,3,1,3,2,3]
+        temp_df['signe'] = np.sign(temp_df['pente t t-2']+temp_df['pente t-1 t-3']+temp_df['pente t t-3']+temp_df['diff t-1 t-2'])
+        #['diff t-1 t-2', 'diff t-2 t-3', 'distance to mean', 'pente t t-2', 'skewness', 'pente t-1 t-3', 'distribution', 'probability', 'pente t t-3']
+        poids = [4,2,3,3,4,2,4,4,3]
         ptot = sum(poids)
         for name,p in zip(names,poids):
             m = info.loc[['mean']][name].values[0]
@@ -202,6 +201,7 @@ def annomalie_detection(df,automatic_threshold = True):
             
         temp_df['proba'] = temp_df[names].sum(axis = 1)
         temp_df['proba'] = temp_df['proba'].apply(lambda x: abs((x-ptot*0.5)/ptot))
+        #print(temp_df.head())
             
         temp_df['annomalies'] =  temp_df['proba'].apply(threshold) 
         
@@ -221,7 +221,7 @@ def annomalie_detection(df,automatic_threshold = True):
     return res
 
 def threshold(x):
-    if(x>0.30): 
+    if(x>0.3): 
         return 1
     else:
         return 0

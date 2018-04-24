@@ -106,8 +106,10 @@ def shift_preprocess(data,name,noise_level=NOISE_LEVEL):
     dataframe['minutes'] = dataframe.index
     dataframe = dataframe.drop(dataframe.index[[0,1,2]])
     print(dataframe.head())
+    '''
     plt.plot(dataframe['t'].values)
     plt.savefig('data/png/'+name+'-0.png')
+    '''
     return dataframe
 
 
@@ -150,7 +152,7 @@ def processing(dataframe,name):
                             +((dataframe['t-2']-dataframe["mean"])**3)/4+((dataframe['t-3']-dataframe["mean"])**3)/4)/(sd**3)
     dataframe["skewness"]= (((dataframe['t']-dataframe["mean"])**4)/4+((dataframe['t-1']-dataframe["mean"])**4)/4
                             +((dataframe['t-2']-dataframe["mean"])**4)/4+((dataframe['t-3']-dataframe["mean"])**4)/4)/(sd**4)
-   
+    '''
     plt.subplot(2, 1, 1)
     plt.plot(time,prob, '-')
     ax=plt.gca()
@@ -164,6 +166,7 @@ def processing(dataframe,name):
     plt.xlabel('time (arbitrary)')
     plt.savefig('data/png/'+name+'-1.png')
     plt.close()
+    '''
     return dataframe
 
 
@@ -278,7 +281,7 @@ def plot_annomalies(annomalies,df,name):
     fig.append_trace(trace3, 1, 1)
 
     fig['layout'].update(height=2000, width=2000, title='Annomalie detection')
-    plot(fig, filename='data/'+name+'.html')
+    plot(fig, filename='data/html'+name+'.html')
 
 
 #################################################
@@ -292,7 +295,7 @@ def main(argv):
     df = processing(df,argv.split('.')[0])
     df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
     annomalies = annomalie_detection(df)
-    plot_annomalies(annomalies,df,argv)
+    plot_annomalies(annomalies,df,argv.split('.')[0])
     m = max(annomalies)
     y = [1 if b/(m)>0.5 else 0 for b in annomalies]
     y = DataFrame(y)

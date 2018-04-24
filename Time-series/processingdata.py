@@ -47,7 +47,8 @@ from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 #################################################
 
 PATH = '/home/alexis/Bureau/Stage/Time-series/clean data/'
-NOISE_LEVEL = 3
+NOISE_LEVEL = 0
+THRESHOLD = 2e7
 '''
 import plotly
 plotly.tools.set_credentials_file(username='Frayal', api_key='xE0VNpTrevjHYOfQ8w4P')
@@ -88,7 +89,7 @@ def add_noise(l):
     res = []
     for i in range(len(l)):
         res.append(l[i])
-        res.append(np.random.normal(res[-1],max([res[-1]/10**8,1])))
+        res.append(np.random.normal(res[-1],max([(res[-1]/(10**3)),1])))
     return res
 
 def shift_preprocess(data,name,noise_level=NOISE_LEVEL):
@@ -105,7 +106,6 @@ def shift_preprocess(data,name,noise_level=NOISE_LEVEL):
     dataframe.columns = ['t-3', 't-2', 't-1', 't']
     dataframe['minutes'] = dataframe.index
     dataframe = dataframe.drop(dataframe.index[[0,1,2]])
-    print(dataframe.head())
     '''
     plt.plot(dataframe['t'].values)
     plt.savefig('data/png/'+name+'-0.png')
@@ -123,23 +123,24 @@ def processing(dataframe,name):
     considérer ou non.
 
     '''
-    dataframe["diff t t-1"]=dataframe["t"]-dataframe["t-1"]
-    dataframe["diff t t-2"]=dataframe["t"]-dataframe["t-2"]
-    dataframe["diff t t-3"]=dataframe["t"]-dataframe["t-3"]
-    dataframe["diff t-1 t-2"]=dataframe["t-1"]-dataframe["t-2"]
-    dataframe["diff t-1 t-3"]=dataframe["t-1"]-dataframe["t-3"]
-    dataframe["diff t-2 t-3"]=dataframe["t-2"]-dataframe["t-3"]
-    dataframe["diff t t-1"]=dataframe["t"]-dataframe["t-1"]
+    THRESHOLD = max(dataframe['t'].values)/100
+    dataframe["diff t t-1"]=dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["t"]-x["t-1"])),axis = 1)
+    dataframe["diff t t-2"]=dataframe.apply(lambda x:max(-THRESHOLD**2,min(THRESHOLD**2,x["t"]-x["t-2"])),axis = 1)
+    dataframe["diff t t-3"]=dataframe.apply(lambda x:max(-THRESHOLD**2,min(THRESHOLD**2,x["t"]-x["t-3"])),axis = 1)
+    dataframe["diff t-1 t-2"]=dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["t-1"]-x["t-2"])),axis = 1)
+    dataframe["diff t-1 t-3"]=dataframe.apply(lambda x:max(-THRESHOLD**2,min(THRESHOLD**2,x["t-1"]-x["t-3"])),axis = 1)
+    dataframe["diff t-2 t-3"]=dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["t-2"]-x["t-3"])),axis = 1)
+    
     dataframe["mean"]=(dataframe["t"]+dataframe["t-1"]+dataframe["t-2"]+dataframe["t-3"])/4
-    dataframe["distance to mean"] = dataframe["t"] - dataframe["mean"]
-    dataframe["pente t t-2"] = dataframe["diff t t-2"]/2
-    dataframe["pente t t-3"] = dataframe["diff t t-3"]/3
-    dataframe["pente t-1 t-3"] = dataframe["diff t-1 t-3"]/2
+    dataframe["distance to mean"] = dataframe.apply(lambda x:max(-THRESHOLD,min(10**7,x["t"]-x["mean"])),axis = 1)
+    dataframe["pente t t-2"] = dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["diff t t-2"]/2)),axis = 1)
+    dataframe["pente t t-3"] = dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["diff t t-3"]/3)),axis = 1)
+    dataframe["pente t-1 t-3"] = dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["diff t-1 t-3"]/2)),axis = 1)
 
     x = dataframe["diff t t-1"]
     m = np.mean(x)
     sd = sum([(y-m)**2 for y in x])/(len(x)-1)
-    print("moyenne: %s   standard deviation: %s" %(str(m),str(sd)))
+    #print("moyenne: %s   standard deviation: %s" %(str(m),str(sd)))
 
     d = scipy.stats.norm(m, sd)
     time = [i/((2**NOISE_LEVEL)*60) for i in range(len(x))]
@@ -220,7 +221,7 @@ def annomalie_detection(df,automatic_threshold = True):
     return res
 
 def threshold(x):
-    if(x>0.15):
+    if(x>0.30): 
         return 1
     else:
         return 0
@@ -232,7 +233,7 @@ def find_index(l,v):
             res.append(i)
     return res    
 
-def plot_annomalies(annomalies,df,name):
+def plot_annomalies(annomalies,df,name,real_data):
     """
     prend en entrée le nombres d'indicateurs qui detectent une annomalie
     ainsi que le datafame contenant tous les features(on a effacé 3 lignes)
@@ -246,7 +247,8 @@ def plot_annomalies(annomalies,df,name):
     l3 = find_index(annomalies,1)
 
     x = df['t'].values
-    t= [i/(60*2**(NOISE_LEVEL-1)) for i in range(len(x))]
+    t= [i/(60*2**(max([NOISE_LEVEL-1,0]))) for i in range(len(x))]
+    t2 = [i/(60) for i in range(len(real_data))]
     x1 = [t[i] for i in l1]
     x2 = [t[i] for i in l2]
     x3 = [t[i] for i in l3]
@@ -273,12 +275,19 @@ def plot_annomalies(annomalies,df,name):
         mode = 'markers',
         name = 'anormal gain',
     )
-    fig = tools.make_subplots(rows=3, cols=1, specs=[[{}], [{}], [{}]],
+    trace4 = go.Scatter(
+        x=t2,
+        y=real_data,
+        mode = 'ligne',
+        name = 'true data',
+    )
+    fig = tools.make_subplots(rows=4, cols=1, specs=[[{}], [{}], [{}], [{}]],
                               shared_xaxes=True, shared_yaxes=True,
                               vertical_spacing=0.001)
     fig.append_trace(trace1, 1, 1)
     fig.append_trace(trace2, 1, 1)
     fig.append_trace(trace3, 1, 1)
+    #fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=2000, width=2000, title='Annomalie detection')
     plot(fig, filename='data/html'+name+'.html')
@@ -291,11 +300,12 @@ import sys
 
 def main(argv):
     df = load_timeserie(argv)
+    real_data = df['values'][3:]
     df = shift_preprocess(df,argv.split('.')[0])
     df = processing(df,argv.split('.')[0])
     df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
     annomalies = annomalie_detection(df)
-    plot_annomalies(annomalies,df,argv.split('.')[0])
+    plot_annomalies(annomalies,df,argv.split('.')[0],real_data)
     m = max(annomalies)
     y = [1 if b/(m)>0.5 else 0 for b in annomalies]
     y = DataFrame(y)

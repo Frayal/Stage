@@ -35,6 +35,11 @@ import sys
 import scipy.stats
 import matplotlib
 import pickle
+import plotly
+import plotly.graph_objs as go
+import plotly.offline as offline
+from plotly import tools
+from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 
 
 #################################################
@@ -42,7 +47,11 @@ import pickle
 #################################################
 
 PATH = '/home/alexis/Bureau/Stage/Time-series/clean data/'
-NOISE_LEVEL = 1
+NOISE_LEVEL = 3
+'''
+import plotly
+plotly.tools.set_credentials_file(username='Frayal', api_key='xE0VNpTrevjHYOfQ8w4P')
+'''
 #################################################
 ########### Important functions #################
 #################################################
@@ -89,7 +98,7 @@ def shift_preprocess(data,name,noise_level=NOISE_LEVEL):
     et un shift permettant d'utiliser l'historique (fixé a 3 ici)
     '''
     temps = data['values'].values
-    for i in range(noise_level):
+    for i in range(noise_level-1):
         temps = add_noise(temps)
     temps = DataFrame(temps)
     dataframe = concat([temps.shift(3), temps.shift(2), temps.shift(1), temps], axis=1)
@@ -168,27 +177,35 @@ def annomalie_detection(df,automatic_threshold = True):
     '''
     if(automatic_threshold):
         #TODO: rework the threshold to be finer and to thus create a better historic
-        l = []
         res = []
         irrelevant = ('t-3', 't-2', 't-1', 't','minutes', 'diff t t-1', 'diff t t-2','diff t t-3', 'diff t-1 t-2', 'diff t-1 t-3', 'diff t-2 t-3','mean')
-        names = df.columns
-        for n in names:
-            if any(c==n for c in irrelevant):
-                pass
-            else:
-                df[n]=abs(df[n])/(abs(df[n]).max())
-        for n in names:
-            if any(c==n for c in irrelevant):
-                pass
-            else:
-                df_temp = df.where(df[n]>0.1)
-                l.append(df_temp['t'].values)
-        for i in df['t'].values:
-            count = 0
-            for j in range(len(l)):
-                if any(c == i for c in l[j]):
-                    count+=1
-            res.append(count)
+        allnames = df.columns
+        names = list(set(allnames) - set(irrelevant))
+        
+        temp_df = df[names]
+        info = df.describe()
+        
+        temp_df['signe'] = np.sign(temp_df['pente t t-2']+temp_df['pente t-1 t-3']+temp_df['pente t t-3'])
+        #['pente t t-2', 'distribution', 'pente t-1 t-3', 'probability', 'pente t t-3', 'distance to mean']
+        poids = [2,3,1,3,2,3]
+        ptot = sum(poids)
+        for name,p in zip(names,poids):
+            m = info.loc[['mean']][name].values[0]
+            sd = info.loc[['std']][name].values[0]
+            d = scipy.stats.norm(m, sd)
+            temp_df[name] = temp_df[name].apply(lambda x: p*d.cdf(x))
+            
+            
+        temp_df['proba'] = temp_df[names].sum(axis = 1)
+        temp_df['proba'] = temp_df['proba'].apply(lambda x: abs((x-ptot*0.5)/ptot))
+            
+        temp_df['annomalies'] =  temp_df['proba'].apply(threshold) 
+        
+        res = temp_df['annomalies']*temp_df['signe']
+        
+    
+        
+
     else:
         pass
         #TODO:implement a xgboost to determine annomalies
@@ -199,6 +216,18 @@ def annomalie_detection(df,automatic_threshold = True):
 
     return res
 
+def threshold(x):
+    if(x>0.15):
+        return 1
+    else:
+        return 0
+
+def find_index(l,v):
+    res = []
+    for i, j in enumerate(l):
+        if(j == v):
+            res.append(i)
+    return res    
 
 def plot_annomalies(annomalies,df,name):
     """
@@ -207,16 +236,49 @@ def plot_annomalies(annomalies,df,name):
     renvoie un graph présentant les zones d'incertitudes quand a la présence
     d'un événement important dans la plage horaire
     """
-    m = max(annomalies)
-    c = np.cos([(b)/m for b in annomalies])
-    x = df['t'].values
-    fig, ax = plt.subplots()
-    ax.scatter([i/60 for i in range(len(x))],x,c=c)
-    ax=plt.gca()
-    ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-    plt.savefig('data/png/'+name+'-2.png')
-    print("quels jolis graphes!")
+    
+    annomalies = list(annomalies)
+    l1 = find_index(annomalies,0)
+    l2 = find_index(annomalies,-1)
+    l3 = find_index(annomalies,1)
 
+    x = df['t'].values
+    t= [i/(60*2**(NOISE_LEVEL-1)) for i in range(len(x))]
+    x1 = [t[i] for i in l1]
+    x2 = [t[i] for i in l2]
+    x3 = [t[i] for i in l3]
+    y1 = [x[i] for i in l1]
+    y2 = [x[i] for i in l2]
+    y3 = [x[i] for i in l3]
+
+    trace1 = go.Scatter(
+        x=x1,
+        y=y1,
+        mode = 'markers',
+        name = 'regular',
+    
+    )
+    trace2 = go.Scatter(
+        x=x2,
+        y=y2,
+        mode = 'markers',
+        name ='anormal losses',
+    )
+    trace3 = go.Scatter(
+        x=x3,
+        y=y3,
+        mode = 'markers',
+        name = 'anormal gain',
+    )
+    fig = tools.make_subplots(rows=3, cols=1, specs=[[{}], [{}], [{}]],
+                              shared_xaxes=True, shared_yaxes=True,
+                              vertical_spacing=0.001)
+    fig.append_trace(trace1, 1, 1)
+    fig.append_trace(trace2, 1, 1)
+    fig.append_trace(trace3, 1, 1)
+
+    fig['layout'].update(height=2000, width=2000, title='Annomalie detection')
+    plot(fig, filename='data/'+name+'.html')
 
 
 #################################################

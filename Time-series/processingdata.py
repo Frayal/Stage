@@ -49,10 +49,7 @@ from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 PATH = '/home/alexis/Bureau/Stage/Time-series/clean data/'
 NOISE_LEVEL = 0
 THRESHOLD = 2e7
-'''
-import plotly
-plotly.tools.set_credentials_file(username='Frayal', api_key='xE0VNpTrevjHYOfQ8w4P')
-'''
+
 #################################################
 ########### Important functions #################
 #################################################
@@ -168,6 +165,7 @@ def processing(dataframe,name):
     plt.savefig('data/png/'+name+'-1.png')
     plt.close()
     '''
+    dataframe.to_csv()
     return dataframe
 
 
@@ -296,7 +294,7 @@ def plot_annomalies(annomalies,df,name,real_data,file):
     fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=2000, width=2000, title='Annomalie detection')
-    plot(fig, filename='data/html'+name+'.html')
+    plot(fig, filename='data/html/'+name+'.html')
 
 
 #################################################
@@ -309,9 +307,12 @@ def main(argv):
     real_data = df['values'][3:]
     df = shift_preprocess(df,argv.split('.')[0])
     df = processing(df,argv.split('.')[0])
-    df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
     annomalies = annomalie_detection(df)
-    plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_0192_2017-12-01_TF1.csv')
+    df["label"] = annomalies
+    df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
+    date = list(argv.split('.')[0].split('_')[1])
+    date = "".join(date[-2:])
+    plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_0192_2017-12-'+str(date)+'_TF1.csv')
     m = max(annomalies)
     y = [1 if b/(m)>0.5 else 0 for b in annomalies]
     y = DataFrame(y)

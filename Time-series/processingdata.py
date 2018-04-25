@@ -257,7 +257,7 @@ def plot_annomalies(annomalies,df,name,real_data,file):
     y2 = [x[i] for i in l2]
     y3 = [x[i] for i in l3]
     
-    dfy = [x[d]+5000000  for d in dfx]
+    dfy = [x[d]+10000000  for d in dfx]
     
     trace1 = go.Scatter(
         x=x1,
@@ -293,7 +293,7 @@ def plot_annomalies(annomalies,df,name,real_data,file):
     fig.append_trace(trace3, 1, 1)
     fig.append_trace(trace4, 1, 1)
 
-    fig['layout'].update(height=2000, width=2000, title='Annomalie detection')
+    fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
     plot(fig, filename='data/html/'+name+'.html')
 
 

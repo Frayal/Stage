@@ -233,13 +233,16 @@ def find_index(l,v):
             res.append(i)
     return res    
 
-def plot_annomalies(annomalies,df,name,real_data):
+def plot_annomalies(annomalies,df,name,real_data,file):
     """
     prend en entrée le nombres d'indicateurs qui detectent une annomalie
     ainsi que le datafame contenant tous les features(on a effacé 3 lignes)
     renvoie un graph présentant les zones d'incertitudes quand a la présence
     d'un événement important dans la plage horaire
+    en vert une montée d'audience, en orange une baisse d'audiance
     """
+    dfx = pd.read_csv(file)['minutes']
+    
     
     annomalies = list(annomalies)
     l1 = find_index(annomalies,0)
@@ -255,7 +258,9 @@ def plot_annomalies(annomalies,df,name,real_data):
     y1 = [x[i] for i in l1]
     y2 = [x[i] for i in l2]
     y3 = [x[i] for i in l3]
-
+    
+    dfy = [x[d]+5000000  for d in dfx]
+    
     trace1 = go.Scatter(
         x=x1,
         y=y1,
@@ -267,7 +272,7 @@ def plot_annomalies(annomalies,df,name,real_data):
         x=x2,
         y=y2,
         mode = 'markers',
-        name ='anormal losses',
+        name ='anormal loss',
     )
     trace3 = go.Scatter(
         x=x3,
@@ -276,18 +281,19 @@ def plot_annomalies(annomalies,df,name,real_data):
         name = 'anormal gain',
     )
     trace4 = go.Scatter(
-        x=t2,
-        y=real_data,
-        mode = 'ligne',
-        name = 'true data',
+        x=dfx/60,
+        y=dfy,
+        mode = 'markers',
+        name = 'begin of programmes',
     )
+        
     fig = tools.make_subplots(rows=4, cols=1, specs=[[{}], [{}], [{}], [{}]],
                               shared_xaxes=True, shared_yaxes=True,
                               vertical_spacing=0.001)
     fig.append_trace(trace1, 1, 1)
     fig.append_trace(trace2, 1, 1)
     fig.append_trace(trace3, 1, 1)
-    #fig.append_trace(trace4, 1, 1)
+    fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=2000, width=2000, title='Annomalie detection')
     plot(fig, filename='data/html'+name+'.html')
@@ -305,7 +311,7 @@ def main(argv):
     df = processing(df,argv.split('.')[0])
     df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
     annomalies = annomalie_detection(df)
-    plot_annomalies(annomalies,df,argv.split('.')[0],real_data)
+    plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_0192_2017-12-01_TF1.csv')
     m = max(annomalies)
     y = [1 if b/(m)>0.5 else 0 for b in annomalies]
     y = DataFrame(y)

@@ -137,12 +137,17 @@ def processPTV(file):
 def main(argv):
     chaine = argv
     current_path = str(os.path.dirname(os.path.abspath(__file__)))
+    c = list(chaine)
+    n = 4-len(c)
+    c = ['0']*n
+    a = "".join(c)
+    chaine = a+chaine
     
     files = os.listdir(current_path+'/pluri_201712')
     for file in files:
         date = file.split('_')[0]
         current_path = os.path.dirname(os.path.abspath(__file__))
-        f = str(current_path)+'/pluri_201712/'+file+'/IPTV_0192_'+str(date)+'_TF1.xml'
+        f = str(current_path)+'/pluri_201712/'+file+'/IPTV_'+chaine+'_'+str(date)+'_TF1.xml'
         data = processPTV(f)
         data.to_csv('IPTV_0192_'+str(date)+'_TF1.csv')
      
@@ -152,4 +157,4 @@ def main(argv):
 
 if __name__ == "__main__":
     # execute only if run as a script
-    main(sys.argv[1:])
+    main(sys.argv[1])

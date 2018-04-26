@@ -123,7 +123,7 @@ def processPTV(file):
 
     data['DATE'] = data['DATEHEURE'].apply(lambda x: x.split('T')[0])
     data['HEURE'] = data['DATEHEURE'].apply(lambda x: x.split('T')[1])
-    data['minutes'] = data['HEURE'].apply(lambda x: int(x.split(':')[0])*60 + int(x.split(':')[1]))
+    data['debut'] = data['HEURE'].apply(lambda x: int(x.split(':')[0])*60 + int(x.split(':')[1]))
     return data
 
 

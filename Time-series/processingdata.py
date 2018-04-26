@@ -239,16 +239,14 @@ def plot_annomalies(annomalies,df,name,real_data,file):
     d'un événement important dans la plage horaire
     en vert une montée d'audience, en orange une baisse d'audiance
     """
-    dfx = pd.read_csv(file)['minutes']
-    
-    
+    dfx = pd.read_csv(file)['debut']
     annomalies = list(annomalies)
     l1 = find_index(annomalies,0)
     l2 = find_index(annomalies,-1)
     l3 = find_index(annomalies,1)
 
     x = df['t'].values
-    t= [i/(60*2**(max([NOISE_LEVEL-1,0]))) for i in range(len(x))]
+    t= [i/(60*2**(max([NOISE_LEVEL-1,0])))+3 for i in range(len(x))]
     t2 = [i/(60) for i in range(len(real_data))]
     x1 = [t[i] for i in l1]
     x2 = [t[i] for i in l2]
@@ -257,7 +255,7 @@ def plot_annomalies(annomalies,df,name,real_data,file):
     y2 = [x[i] for i in l2]
     y3 = [x[i] for i in l3]
     
-    dfy = [x[d]+10000000  for d in dfx]
+    dfy = [x[(d - 3*60)%1440]+ 10000000  for d in dfx]
     
     trace1 = go.Scatter(
         x=x1,

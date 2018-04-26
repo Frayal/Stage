@@ -35,7 +35,7 @@ PATH =''
 
 
 def processPTV(file):
-    irrelevant = ['LESPERSONNES','LESTEXTES','PHOTO','MAGAZINEXY','SERIE','NATIONALITE','FILMTELEFILM']
+    irrelevant = ['LESPERSONNES','LESTEXTES','PHOTO','MAGAZINEXY','SERIE','NATIONALITE','FILMTELEFILM','GENRE','CS']
     tree = ET.parse(file)
     root = tree.getroot()
 

@@ -31,6 +31,13 @@ IRRELEVANT = ['@DATEMODIF','@CLEDIF','DATEHEURE','RATIO','HEURE','@CLEEMI']
 
 
 def updateargs(CHAINE,DATE):
+    '''
+    Join in diffent ways the date and the channel to match
+    the way files are named
+    ENTRY: take the two arguments pass to the program as strings
+    OUT: return two other strings that are modifications of the entries
+
+    '''
     JOINDATE = "".join(list(DATE.split('-')))
     c = list(CHAINE)
     n = 4-len(c)
@@ -40,22 +47,27 @@ def updateargs(CHAINE,DATE):
     return(JOINDATE,CHAINE2)
 
 def dfjoin(df,tdf):
+    '''
+    create a join subset of RTS and PTV on wich we will join the two files
+    IN: take in entrie two subsets of the RTS and PTV files
+    OUT: return a join dataframe in wich with have infos from PTV and RTS
+    '''
     for index, row in df.iterrows():
-    for index2, row2 in tdf.iterrows():
-        if(int(row2['debut']) < int(row['minutes']%1440) < int(row2['fin'])):
-            df.set_value(index, 'isinprogramme', 1)
-            df.set_value(index, 'fin', row2['fin'])
-            df.set_value(index, 'debut', int(row2['debut']))
-            df.ix[index,'TITRE']=row2['titre']
+        for index2, row2 in tdf.iterrows():
+            if(int(row2['debut']) < int(row['minutes']%1440) < int(row2['fin'])):
+                df.set_value(index, 'isinprogramme', 1)
+                df.set_value(index, 'fin', row2['fin'])
+                df.set_value(index, 'debut', int(row2['debut']))
+                df.ix[index,'TITRE']=row2['titre']
 
-        if(int(row2['debut']) < int(row['minutes']) < int(row2['fin'])):
-            df.set_value(index, 'isinprogramme', 1)
-            df.set_value(index, 'fin', row2['fin'])
-            df.set_value(index, 'debut', int(row2['debut']))
-            df.ix[index,'TITRE']=row2['titre']
+            if(int(row2['debut']) < int(row['minutes']) < int(row2['fin'])):
+                df.set_value(index, 'isinprogramme', 1)
+                df.set_value(index, 'fin', row2['fin'])
+                df.set_value(index, 'debut', int(row2['debut']))
+                df.ix[index,'TITRE']=row2['titre']
 
-        else:
-            pass
+            else:
+                pass
     df[df['isinprogramme']==0]['titre'] = 'en dehors de programmes'
     return df
 
@@ -63,6 +75,11 @@ def dfjoin(df,tdf):
 
 
 def get_features_from_join(df):
+    '''
+    Extraction of feature based of the merge of the two files RTS and PTV
+    IN: DataFrame of join files
+    OUT: modified dataframe of the two files
+    '''
     df['temps depuis debut'] = 0
     df['temps avant fin'] = 0
     df['pourcentage déjà vu'] = 0
@@ -78,6 +95,11 @@ def get_features_from_join(df):
 
 
 def processing(X_RTS,X_PTV):
+    '''
+    Process the two data files to get a join DataFrame with cross infos
+    IN: two DataFrame of RTS and PTV
+    OUT: a DataFrame of all the valuable infos
+    '''
     X_RTS['minutes'] = X_RTS['minutes']+180
     # Creating temp DataFrame to make the join possible
     tdf = pd.DataFrame()
@@ -96,6 +118,7 @@ def processing(X_RTS,X_PTV):
     df = df.drop(IRRELEVANT,axis=1)
     df = df = df.fillna(-1)
     df = get_features_from_join(df)
+    return df
 
 #################################################
 ########### main with options ###################

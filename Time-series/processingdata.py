@@ -111,6 +111,13 @@ def shift_preprocess(data,name,noise_level=NOISE_LEVEL):
 
 
 
+def KFDR(a,b):
+    GAMMA = 10
+    sigma = 0.5*a[1] + 0.5*b[1]
+    return (((4**2/8)*(a[0]-b[0])**2)/(sigma + GAMMA))
+
+
+
 def processing(dataframe,name):
     '''
     prend en entrée un dataframe contenant les shifts
@@ -120,6 +127,9 @@ def processing(dataframe,name):
     considérer ou non.
 
     '''
+    SIGMA = 1
+    L = 2000000
+    
     THRESHOLD = max(dataframe['t'].values)/100
     dataframe["diff t t-1"]=dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["t"]-x["t-1"])),axis = 1)
     dataframe["diff t t-2"]=dataframe.apply(lambda x:max(-THRESHOLD**2,min(THRESHOLD**2,x["t"]-x["t-2"])),axis = 1)
@@ -129,17 +139,25 @@ def processing(dataframe,name):
     dataframe["diff t-2 t-3"]=dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["t-2"]-x["t-3"])),axis = 1)
     
     dataframe["mean"]=(dataframe["t"]+dataframe["t-1"]+dataframe["t-2"]+dataframe["t-3"])/4
-    dataframe["distance to mean"] = dataframe.apply(lambda x:max(-THRESHOLD,min(10**7,x["t"]-x["mean"])),axis = 1)
-    
+    dataframe["distance to mean"] = dataframe.apply(lambda x:max(-THRESHOLD,min(10**7,(x["t"]-x["mean"])/x["t"])),axis = 1)
     dataframe["pente t t-2"] = dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["diff t t-2"]/2)),axis = 1)
     dataframe["pente t t-3"] = dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["diff t t-3"]/3)),axis = 1)
     dataframe["pente t-1 t-3"] = dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["diff t-1 t-3"]/2)),axis = 1)
+    
     
     dataframe["diff pente 1-2"] = (dataframe["diff t t-1"] - dataframe["diff t-1 t-2"])/dataframe["diff t t-1"]
     dataframe["diff pente 1-3"] = (dataframe["diff t t-1"] - dataframe["diff t-2 t-3"])/dataframe["diff t t-1"]
     dataframe["diff pente 2-3"] = (dataframe["diff t-1 t-2"] - dataframe["diff t-2 t-3"])/dataframe["diff t-1 t-2"]
     
-
+    dataframe['GP'] = (SIGMA**2)*(np.exp(-((dataframe['t']-dataframe['t-1'])**2)/dataframe['t']**2))
+    dataframe['covariance'] = 0.25*((dataframe['t']-dataframe['mean'])**2 + (dataframe['t-1']-dataframe['mean'])**2 +(dataframe['t-2']-dataframe['mean'])**2 + (dataframe['t-3']-dataframe['mean'])**2)
+    
+    h = [0,0]
+    for index, row in dataframe.iterrows():
+        dataframe.set_value(index, 'KDFR', KFDR([row['mean'],row['covariance']],h))
+        h = [row['mean'],row['covariance']]
+    dataframe.set_value(3, 'KDFR', 1.5)
+    
     x = dataframe["diff t t-1"]
     m = np.mean(x)
     sd = sum([(y-m)**2 for y in x])/(len(x)-1)
@@ -174,6 +192,7 @@ def processing(dataframe,name):
     return dataframe
 
 
+
 def annomalie_detection(df,automatic_threshold = True):
     '''
     prend en entrée un DataFrame
@@ -190,10 +209,9 @@ def annomalie_detection(df,automatic_threshold = True):
         #print(names)
         temp_df = df[names]
         info = df.describe()
-        
         temp_df['signe'] = np.sign(temp_df['pente t t-2']+temp_df['pente t-1 t-3']+temp_df['pente t t-3']+temp_df['diff t-1 t-2'])
-        #['diff t-1 t-2', 'diff t-2 t-3', 'distance to mean', 'pente t t-2', 'skewness', 'pente t-1 t-3', 'distribution', 'probability', 'pente t t-3']
-        poids = [4,2,3,3,4,2,4,4,3,3,3,3]
+        #['diff t-2 t-3', 'distribution', 'skewness', 'diff pente 1-3','covariance', 'KDFR', 'diff pente 1-2', 'pente t-1 t-3', 'diff t-1 t-2','pente t t-2', 'diff pente 2-3', 'distance to mean', 'pente t t-3','GP', 'probability']
+        poids = [2,3,3,2,3,3,2,2,2,2,2,3,2,3,3]
         ptot = sum(poids)
         for name,p in zip(names,poids):
             m = info.loc[['mean']][name].values[0]
@@ -224,7 +242,7 @@ def annomalie_detection(df,automatic_threshold = True):
     return res
 
 def threshold(x):
-    if(x>0.3): 
+    if(x>0.15): 
         return 1
     else:
         return 0

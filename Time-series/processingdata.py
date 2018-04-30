@@ -130,9 +130,15 @@ def processing(dataframe,name):
     
     dataframe["mean"]=(dataframe["t"]+dataframe["t-1"]+dataframe["t-2"]+dataframe["t-3"])/4
     dataframe["distance to mean"] = dataframe.apply(lambda x:max(-THRESHOLD,min(10**7,x["t"]-x["mean"])),axis = 1)
+    
     dataframe["pente t t-2"] = dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["diff t t-2"]/2)),axis = 1)
     dataframe["pente t t-3"] = dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["diff t t-3"]/3)),axis = 1)
     dataframe["pente t-1 t-3"] = dataframe.apply(lambda x:max(-THRESHOLD,min(THRESHOLD,x["diff t-1 t-3"]/2)),axis = 1)
+    
+    dataframe["diff pente 1-2"] = (dataframe["diff t t-1"] - dataframe["diff t-1 t-2"])/dataframe["diff t t-1"]
+    dataframe["diff pente 1-3"] = (dataframe["diff t t-1"] - dataframe["diff t-2 t-3"])/dataframe["diff t t-1"]
+    dataframe["diff pente 2-3"] = (dataframe["diff t-1 t-2"] - dataframe["diff t-2 t-3"])/dataframe["diff t-1 t-2"]
+    
 
     x = dataframe["diff t t-1"]
     m = np.mean(x)
@@ -165,7 +171,6 @@ def processing(dataframe,name):
     plt.savefig('data/png/'+name+'-1.png')
     plt.close()
     '''
-    dataframe.to_csv()
     return dataframe
 
 
@@ -188,7 +193,7 @@ def annomalie_detection(df,automatic_threshold = True):
         
         temp_df['signe'] = np.sign(temp_df['pente t t-2']+temp_df['pente t-1 t-3']+temp_df['pente t t-3']+temp_df['diff t-1 t-2'])
         #['diff t-1 t-2', 'diff t-2 t-3', 'distance to mean', 'pente t t-2', 'skewness', 'pente t-1 t-3', 'distribution', 'probability', 'pente t t-3']
-        poids = [4,2,3,3,4,2,4,4,3]
+        poids = [4,2,3,3,4,2,4,4,3,3,3,3]
         ptot = sum(poids)
         for name,p in zip(names,poids):
             m = info.loc[['mean']][name].values[0]

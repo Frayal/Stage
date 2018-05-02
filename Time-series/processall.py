@@ -36,6 +36,7 @@ import sys
 def main(argv):
     files = os.listdir('/home/alexis/Bureau/Stage/Time-series/clean data')
     for file in files:
+        print(str(file))
         os.system("python /home/alexis/Bureau/Stage/Time-series/processingdata.py "+str(file))
     return ("process achevé sans erreures")
 

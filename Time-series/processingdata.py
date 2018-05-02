@@ -153,7 +153,7 @@ def processing(dataframe,name):
     
     dataframe['GP'] = (SIGMA**2)*(np.exp(-((dataframe['t']-dataframe['t-1'])**2)/dataframe['t']**2))
     dataframe['covariance'] = 0.25*((dataframe['t']-dataframe['mean'])**2 + (dataframe['t-1']-dataframe['mean'])**2 +(dataframe['t-2']-dataframe['mean'])**2 + (dataframe['t-3']-dataframe['mean'])**2)
-    
+    dataframe['pics'] = dataframe.apply(lambda row: 1 if((row['t-2']<row['t-1']) & (row['t']<row['t-1'])) else -1 if((row['t-2']>row['t-1']) & (row['t']>row['t-1'])) else 0,axis =1)
     h = [0,0]
     for index, row in dataframe.iterrows():
         dataframe.set_value(index, 'KDFR', KFDR([row['mean'],row['covariance']],h))
@@ -215,7 +215,7 @@ def annomalie_detection(df,automatic_threshold = True):
         #['diff t-2 t-3', 'distribution', 'skewness', 'diff pente 1-3','covariance', 'KDFR', 'diff pente 1-2', 'pente t-1 t-3', 'diff t-1 t-2','pente t t-2', 'diff pente 2-3', 'distance to mean', 'pente t t-3','GP', 'probability']
         poids = [1,2,2,1,2,1,2,2,1,1,1,2,1,2,2]
         for i in range(len(names)-len(poids)):
-            poids.append(random.randint(1,10))
+            poids.append(random.randint(1,4))
         ptot = sum(poids)
         for name,p in zip(names,poids):
             m = info.loc[['mean']][name].values[0]
@@ -231,17 +231,12 @@ def annomalie_detection(df,automatic_threshold = True):
         temp_df['annomalies'] =  temp_df['proba'].apply(threshold) 
         
         res = temp_df['annomalies']*temp_df['signe']
-        
+        #res = df['pics']
     
         
 
     else:
         pass
-        #TODO:implement a xgboost to determine annomalies
-        # load model from file
-        loaded_model = pickle.load(open("pima.pickle.dat", "rb"))
-        # make predictions for test data
-        y_pred = loaded_model.predict_proba(df.values)
 
     return res
 
@@ -329,19 +324,23 @@ import sys
 
 def main(argv):
     df = load_timeserie(argv)
+    if(type(df) == int):
+        return("wrong imput file")
     real_data = df['values'][3:]
     df = shift_preprocess(df,argv.split('.')[0])
     df = processing(df,argv.split('.')[0])
     annomalies = annomalie_detection(df)
     df["label"] = annomalies
-    df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
+    df.to_csv('/home/alexis/Bureau/Stage/historique/RTS/'+argv.split('.')[0]+"-processed.csv",index=False)
+    df.to_csv('/home/alexis/Bureau/Stage/historique/RTS/'+argv.split('.')[0]+"-processed.csv",index=False)
     date = list(argv.split('.')[0].split('_')[1])
     date = "".join(date[-2:])
-    plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_0192_2017-12-'+str(date)+'_TF1.csv')
+    #plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_0192_2017-12-'+str(date)+'_TF1.csv')
     m = max(annomalies)
     y = [1 if b/(m)>0.5 else 0 for b in annomalies]
     y = DataFrame(y)
     y.to_csv('data/processed/'+argv.split('.')[0]+"-y.csv",index=False)
+    y.to_csv('d/home/alexis/Bureau/Stage/historique/RTS/'+argv.split('.')[0]+"-y.csv",index=False)
     return ("process achevé sans erreures")
 
 

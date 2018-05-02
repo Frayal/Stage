@@ -67,7 +67,7 @@ def main(argv):
     else:
         df = df.loc[df["IDCIBLE"] == int(csp)]
     df = df.drop(["IDCST","DPT","IDCIBLE"])
-    df.to_csv(PATH+"clean data/"+str(f[0])+"_"+str(f[1])+"_"+str(departement)+"_"+str(chaine)+"_"+str(csp)+"_cleandata.csv",header=['values'])
+    df.to_csv(PATH+"clean data/"+str(f[0])+"_"+str(f[1])+"_"+str(departement)+"_"+str(chaine)+"_"+str(csp)+"_cleandata.csv",header=['values'],index= False)
     return 0
 
 

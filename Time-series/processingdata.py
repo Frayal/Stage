@@ -40,6 +40,7 @@ import plotly.graph_objs as go
 import plotly.offline as offline
 from plotly import tools
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+import random
 
 
 #################################################
@@ -147,6 +148,7 @@ def processing(dataframe,name):
     
     dataframe["diff pente 1-2"] = (dataframe["diff t t-1"] - dataframe["diff t-1 t-2"])/dataframe["diff t t-1"]
     dataframe["diff pente 1-3"] = (dataframe["diff t t-1"] - dataframe["diff t-2 t-3"])/dataframe["diff t t-1"]
+    dataframe['diff pentes'] = dataframe.apply(lambda x:max(-50,min(50,x["diff pente 1-2"]-x["diff pente 1-3"])),axis = 1)
     dataframe["diff pente 2-3"] = (dataframe["diff t-1 t-2"] - dataframe["diff t-2 t-3"])/dataframe["diff t-1 t-2"]
     
     dataframe['GP'] = (SIGMA**2)*(np.exp(-((dataframe['t']-dataframe['t-1'])**2)/dataframe['t']**2))
@@ -211,7 +213,9 @@ def annomalie_detection(df,automatic_threshold = True):
         info = df.describe()
         temp_df['signe'] = np.sign(temp_df['pente t t-2']+temp_df['pente t-1 t-3']+temp_df['pente t t-3']+temp_df['diff t-1 t-2'])
         #['diff t-2 t-3', 'distribution', 'skewness', 'diff pente 1-3','covariance', 'KDFR', 'diff pente 1-2', 'pente t-1 t-3', 'diff t-1 t-2','pente t t-2', 'diff pente 2-3', 'distance to mean', 'pente t t-3','GP', 'probability']
-        poids = [2,3,3,2,3,3,2,2,2,2,2,3,2,3,3]
+        poids = [1,2,2,1,2,1,2,2,1,1,1,2,1,2,2]
+        for i in range(len(names)-len(poids)):
+            poids.append(random.randint(1,10))
         ptot = sum(poids)
         for name,p in zip(names,poids):
             m = info.loc[['mean']][name].values[0]

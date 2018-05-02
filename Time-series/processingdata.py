@@ -41,8 +41,9 @@ import plotly.offline as offline
 from plotly import tools
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import random
-
-
+import pickle
+import xgboost as xgb
+from catboost import CatBoostClassifier
 #################################################
 ########### Global variables ####################
 #################################################
@@ -72,7 +73,7 @@ def load_timeserie(file):
         data = [float(x) for x in datas[:-1]]
         return data
     if(temp[-1] == 'csv'):
-        data = pd.read_csv(PATH+str(file),index_col = 0)
+        data = pd.read_csv(PATH+str(file))
         return data
     else:
         print("mauvais format: veuillez fournir un .txt ou un .csv")
@@ -154,7 +155,9 @@ def processing(dataframe,name):
     dataframe['GP'] = (SIGMA**2)*(np.exp(-((dataframe['t']-dataframe['t-1'])**2)/dataframe['t']**2))
     dataframe['covariance'] = 0.25*((dataframe['t']-dataframe['mean'])**2 + (dataframe['t-1']-dataframe['mean'])**2 +(dataframe['t-2']-dataframe['mean'])**2 + (dataframe['t-3']-dataframe['mean'])**2)
     dataframe['pics'] = dataframe.apply(lambda row: 1 if((row['t-2']<row['t-1']) & (row['t']<row['t-1'])) else -1 if((row['t-2']>row['t-1']) & (row['t']>row['t-1'])) else 0,axis =1)
+    
     h = [0,0]
+    
     for index, row in dataframe.iterrows():
         dataframe.set_value(index, 'KDFR', KFDR([row['mean'],row['covariance']],h))
         h = [row['mean'],row['covariance']]
@@ -165,7 +168,7 @@ def processing(dataframe,name):
     sd = sum([(y-m)**2 for y in x])/(len(x)-1)
     #print("moyenne: %s   standard deviation: %s" %(str(m),str(sd)))
 
-    d = scipy.stats.norm(m, sd)
+    d = scipy.stats.norm(m, sd/1000)
     time = [i/((2**NOISE_LEVEL)*60) for i in range(len(x))]
     prob = [ d.pdf(y) for y in x]
     dist = [ d.cdf(y) for y in x]
@@ -195,7 +198,7 @@ def processing(dataframe,name):
 
 
 
-def annomalie_detection(df,automatic_threshold = True):
+def annomalie_detection(df,clf,automatic_threshold = True):
     '''
     prend en entrée un DataFrame
     renvoie en sortie une liste de points ou il y a annomalie
@@ -226,22 +229,28 @@ def annomalie_detection(df,automatic_threshold = True):
             
         temp_df['proba'] = temp_df[names].sum(axis = 1)
         temp_df['proba'] = temp_df['proba'].apply(lambda x: abs((x-ptot*0.5)/ptot))
+        temp_df['r'] = [ 1 if (v[1]+l[1])*0.5>0.05    else 0 for v,l in zip(clf[0].predict_proba(df.values),clf[1].predict_proba(df.values))]
+        temp_df['proba'] =  (temp_df['proba']+ temp_df['r'])*0.5
         #print(temp_df.head())
             
         temp_df['annomalies'] =  temp_df['proba'].apply(threshold) 
         
         res = temp_df['annomalies']*temp_df['signe']
         #res = df['pics']
-    
+        
         
 
     else:
-        pass
-
+        
+        #res1 = clf[0].predict(xgb.DMatrix(df.values), ntree_limit=clf[0].best_ntree_limit)
+        #res2 = clf[1].predict(xgb.DMatrix(df.values), ntree_limit=clf[1].best_ntree_limit)
+        #res = [(r1+r2)*0.5 for r1,r2 in zip(res1,res2)]
+        #res = [1 if l>0.17 else 0 for l in res]
+            res = [ 1 if (v[1]+l[1])*0.5>0.05    else 0 for v,l in zip(clf[0].predict_proba(df.values),clf[1].predict_proba(df.values))]
     return res
 
 def threshold(x):
-    if(x>0.15): 
+    if(x>0.17): 
         return 1
     else:
         return 0
@@ -329,18 +338,23 @@ def main(argv):
     real_data = df['values'][3:]
     df = shift_preprocess(df,argv.split('.')[0])
     df = processing(df,argv.split('.')[0])
-    annomalies = annomalie_detection(df)
+    clf1 = CatBoostClassifier().load_model("model1")
+    clf2 = CatBoostClassifier().load_model("model2")
+    #clf1 = pickle.load(open("pima.pickle.dat", "rb"))
+    #clf2 = pickle.load(open("pima2.pickle.dat", "rb"))
+    clf = [clf1,clf2]
+    annomalies = annomalie_detection(df,clf)#,False)
     df["label"] = annomalies
-    df.to_csv('/home/alexis/Bureau/Stage/historique/RTS/'+argv.split('.')[0]+"-processed.csv",index=False)
+    df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
     df.to_csv('/home/alexis/Bureau/Stage/historique/RTS/'+argv.split('.')[0]+"-processed.csv",index=False)
     date = list(argv.split('.')[0].split('_')[1])
     date = "".join(date[-2:])
-    #plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_0192_2017-12-'+str(date)+'_TF1.csv')
+    plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_0192_2017-12-'+str(date)+'_TF1.csv')
     m = max(annomalies)
     y = [1 if b/(m)>0.5 else 0 for b in annomalies]
     y = DataFrame(y)
     y.to_csv('data/processed/'+argv.split('.')[0]+"-y.csv",index=False)
-    y.to_csv('d/home/alexis/Bureau/Stage/historique/RTS/'+argv.split('.')[0]+"-y.csv",index=False)
+    y.to_csv('/home/alexis/Bureau/Stage/historique/RTS/'+argv.split('.')[0]+"-y.csv",index=False)
     return ("process achevé sans erreures")
 
 

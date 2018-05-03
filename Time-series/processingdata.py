@@ -44,6 +44,8 @@ import random
 import pickle
 import xgboost as xgb
 from catboost import CatBoostClassifier
+from keras.models import model_from_json
+from sklearn.preprocessing import MinMaxScaler
 #################################################
 ########### Global variables ####################
 #################################################
@@ -206,6 +208,7 @@ def annomalie_detection(df,clf,automatic_threshold = True):
     on peut cependant essayer de les fixer de manière automatique
     en fonction de l'historique de la chaîne/departement/regroupement(csp)
     '''
+    
     if(automatic_threshold):
         res = []
         irrelevant = ('t-3', 't-2', 't-1', 't','minutes', 'diff t t-1', 'diff t t-2','diff t t-3', 'diff t-1 t-3','mean')
@@ -229,8 +232,8 @@ def annomalie_detection(df,clf,automatic_threshold = True):
             
         temp_df['proba'] = temp_df[names].sum(axis = 1)
         temp_df['proba'] = temp_df['proba'].apply(lambda x: abs((x-ptot*0.5)/ptot))
-        temp_df['r'] = [ 1 if (v[1]+l[1])*0.5>0.05    else 0 for v,l in zip(clf[0].predict_proba(df.values),clf[1].predict_proba(df.values))]
-        temp_df['proba'] =  (temp_df['proba']+ temp_df['r'])*0.5
+        #temp_df['r'] = [ 1 if (v[1]+l[1])*0.5>0.05    else 0 for v,l in zip(clf[0].predict_proba(df.values),clf[1].predict_proba(df.values))]
+        #temp_df['proba'] =  (temp_df['proba']*0.8+ temp_df['r']*0.2)
         #print(temp_df.head())
             
         temp_df['annomalies'] =  temp_df['proba'].apply(threshold) 
@@ -241,13 +244,16 @@ def annomalie_detection(df,clf,automatic_threshold = True):
         
 
     else:
-        
+        scaler = MinMaxScaler(feature_range=(0, 1))
+        trainX = scaler.fit_transform(df)
+        trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
         #res1 = clf[0].predict(xgb.DMatrix(df.values), ntree_limit=clf[0].best_ntree_limit)
         #res2 = clf[1].predict(xgb.DMatrix(df.values), ntree_limit=clf[1].best_ntree_limit)
         #res = [(r1+r2)*0.5 for r1,r2 in zip(res1,res2)]
         #res = [1 if l>0.17 else 0 for l in res]
-            res = [ 1 if (v[1]+l[1])*0.5>0.05    else 0 for v,l in zip(clf[0].predict_proba(df.values),clf[1].predict_proba(df.values))]
-    return res
+        v = [1 if x[0]>0.17 else 0 for x in clf.predict(trainX)]
+            
+    return v
 
 def threshold(x):
     if(x>0.17): 
@@ -338,12 +344,19 @@ def main(argv):
     real_data = df['values'][3:]
     df = shift_preprocess(df,argv.split('.')[0])
     df = processing(df,argv.split('.')[0])
-    clf1 = CatBoostClassifier().load_model("model1")
-    clf2 = CatBoostClassifier().load_model("model2")
+    json_file = open('/home/alexis/Bureau/Stage/ML/model.json', 'r')
+    loaded_model_json = json_file.read()
+    json_file.close()
+    loaded_model = model_from_json(loaded_model_json)
+    # load weights into new model
+    loaded_model.load_weights("/home/alexis/Bureau/Stage/ML/model.h5")
+    loaded_model.compile(loss='binary_crossentropy', optimizer='adam')
+    #clf1 = CatBoostClassifier().load_model("model1")
+    #clf2 = CatBoostClassifier().load_model("model2")
     #clf1 = pickle.load(open("pima.pickle.dat", "rb"))
     #clf2 = pickle.load(open("pima2.pickle.dat", "rb"))
-    clf = [clf1,clf2]
-    annomalies = annomalie_detection(df,clf)#,False)
+    clf = loaded_model
+    annomalies = annomalie_detection(df,clf,False)
     df["label"] = annomalies
     df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
     df.to_csv('/home/alexis/Bureau/Stage/historique/RTS/'+argv.split('.')[0]+"-processed.csv",index=False)

@@ -111,7 +111,7 @@ def fbeta(y_true, y_pred, threshold_shift=0.33):
 
 
 def model_fit(X,y):
-    np.random.seed(99)
+    np.random.seed(42)
     # create and fit the LSTM network
     model = Sequential()
     model.add(LSTM(4, input_shape=(1, 28), dropout=0.4))
@@ -201,6 +201,7 @@ def save_model(model):
 
 
 def main(argv):
+    np.random.seed(42)
     X,y,df = load()
     trainX,testX,trainY,testY = process(X,y)
     model = model_fit(trainX,trainY)

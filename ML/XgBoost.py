@@ -99,8 +99,6 @@ def process(dataset,Y):
     test_size = len(dataset) - train_size
     trainX, testX = dataset[0:train_size,:], dataset[train_size:len(dataset),:]
     trainY, testY = Y[0:train_size], Y[train_size:len(dataset)]
-    trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
-    testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
     return trainX,testX,trainY,testY
 
 

@@ -131,7 +131,7 @@ def find_index(l,v):
 
 def plot_res(df,trainPredict,testPredict,y):
     x = df
-    t= [i for i in range(len(x))]
+    t= [i/60 +3 for i in range(len(x))]
 
 
     l1 = find_index(trainPredict,1)
@@ -170,7 +170,7 @@ def plot_res(df,trainPredict,testPredict,y):
             x=x3,
             y=y3,
             mode = 'markers',
-            name = 'begin of programmes',
+            name = 'true markers'
     )
 
     fig = tools.make_subplots(rows=4, cols=1, specs=[[{}], [{}], [{}], [{}]],
@@ -182,7 +182,7 @@ def plot_res(df,trainPredict,testPredict,y):
     fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    plot(fig, filename='data.html')
+    plot(fig, filename='LSTM.html')
 
 def save_model(model):
     model_json = model.to_json()

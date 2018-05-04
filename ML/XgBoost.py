@@ -34,27 +34,6 @@ import pickle
 #################################################
 ########### Global variables ####################
 #################################################
-
-def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/Stage/Time-series/y_true2.csv'):
-    df = pd.read_csv(fileX)
-    y = pd.read_csv(fileY)
-    df = df.replace([np.inf, -np.inf], np.nan)
-    df = df.fillna(1)
-    X_train = df.values
-    y_train = y['CP'][3:].values.reshape(-1, 1)
-    t = df['t']
-    scaler = MinMaxScaler(feature_range=(0, 1))
-    X_train = scaler.fit_transform(X_train)
-    return  X_train,y_train,t
-
-def process(dataset,Y):
-    train_size = int(len(dataset) * 0.67)
-    test_size = len(dataset) - train_size
-    trainX, testX = dataset[0:train_size,:], dataset[train_size:len(dataset),:]
-    trainY, testY = Y[0:train_size], Y[train_size:len(dataset)]
-    trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
-    testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
-    return trainX,testX,trainY,testY
 ### XGB modeling
 params = {'eta': 0.02,
           'max_depth': 20, 
@@ -78,6 +57,7 @@ params2 = {'eta': 0.02,
           'eval_metric': 'logloss',
           'seed': 99,
           'silent': False}
+
 ######################################################
 class Classifier(BaseEstimator):
     def __init__(self):
@@ -98,6 +78,30 @@ class Classifier(BaseEstimator):
         res2 = self.clf2.predict(xgb.DMatrix(X), ntree_limit=self.clf2.best_ntree_limit)
         res = [(r1+r2)*0.5 for r1,r2 in zip(res1,res2)]
         return np.array([ [1-c,c] for c in res])
+
+#################################################
+########### Important functions #################
+#################################################
+def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/Stage/Time-series/y_true2.csv'):
+    df = pd.read_csv(fileX)
+    y = pd.read_csv(fileY)
+    df = df.replace([np.inf, -np.inf], np.nan)
+    df = df.fillna(1)
+    X_train = df.values
+    y_train = y['CP'][3:].values.reshape(-1, 1)
+    t = df['t']
+    scaler = MinMaxScaler(feature_range=(0, 1))
+    X_train = scaler.fit_transform(X_train)
+    return  X_train,y_train,t
+
+def process(dataset,Y):
+    train_size = int(len(dataset) * 0.67)
+    test_size = len(dataset) - train_size
+    trainX, testX = dataset[0:train_size,:], dataset[train_size:len(dataset),:]
+    trainY, testY = Y[0:train_size], Y[train_size:len(dataset)]
+    trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
+    testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
+    return trainX,testX,trainY,testY
 
 
 def model_fit(X,y):
@@ -172,11 +176,6 @@ def save_model(model):
     pickle.dump(model.clf1, open("XGB1.pickle.dat", "wb"))
     pickle.dump(model.clf2, open("XGB2.pickle.dat", "wb"))
     
-#################################################
-########### Important functions #################
-#################################################
-
-
 
 #################################################
 ########### main with options ###################

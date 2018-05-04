@@ -33,7 +33,26 @@ from sklearn.model_selection import train_test_split
 #################################################
 ########### Global variables ####################
 #################################################
+class Classifier(BaseEstimator):
+    def __init__(self):
+        pass
 
+    def fit(self, X, y):
+        x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2, random_state=99)
+        self.clf1 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=7,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
+        self.clf1.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
+        self.clf2 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=8,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
+        self.clf2.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
+    def predict(self, X):
+        return self.clf.predict(X)
+
+    def predict_proba(self, X):
+        return np.array([[0,(v[1]+l[1])*0.5] for v,l in zip(self.clf2.predict_proba(X),self.clf1.predict_proba(X))])
+
+
+#################################################
+########### Important functions #################
+#################################################
 def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/Stage/Time-series/y_true2.csv'):
     df = pd.read_csv(fileX)
     y = pd.read_csv(fileY)
@@ -54,24 +73,6 @@ def process(dataset,Y):
     trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
     testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
     return trainX,testX,trainY,testY
-
-
-class Classifier(BaseEstimator):
-    def __init__(self):
-        pass
-
-    def fit(self, X, y):
-        x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2, random_state=99)
-        self.clf1 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=7,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
-        self.clf1.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
-        self.clf2 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=8,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
-        self.clf2.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
-    def predict(self, X):
-        return self.clf.predict(X)
-
-    def predict_proba(self, X):
-        return np.array([[0,(v[1]+l[1])*0.5] for v,l in zip(self.clf2.predict_proba(X),self.clf1.predict_proba(X))])
-
 
 
 def model_fit(X,y):
@@ -143,12 +144,10 @@ def plot_res(df,trainPredict,testPredict,y):
     plot(fig, filename='CatBoost.html')
 
 def save_model(model):
-    model.clf1.save_model("catbmodel1")
-    model.clf2.save_model("model2")
+    model.clf1.save_model("catboostmodel1")
+    model.clf2.save_model("catboostmodel2")
     
-#################################################
-########### Important functions #################
-#################################################
+
 
 
 

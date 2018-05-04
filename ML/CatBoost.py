@@ -143,7 +143,8 @@ def plot_res(df,trainPredict,testPredict,y):
     plot(fig, filename='CatBoost.html')
 
 def save_model(model):
-   
+    model.clf1.save_model("catbmodel1")
+    model.clf2.save_model("model2")
     
 #################################################
 ########### Important functions #################

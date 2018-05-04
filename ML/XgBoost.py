@@ -30,7 +30,7 @@ from sklearn.base import BaseEstimator
 from sklearn.ensemble import RandomForestClassifier
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
-
+import pickle
 #################################################
 ########### Global variables ####################
 #################################################
@@ -169,7 +169,8 @@ def plot_res(df,trainPredict,testPredict,y):
     plot(fig, filename='CatBoost.html')
 
 def save_model(model):
-   
+    pickle.dump(model.clf1, open("XGB1.pickle.dat", "wb"))
+    pickle.dump(model.clf2, open("XGB2.pickle.dat", "wb"))
     
 #################################################
 ########### Important functions #################

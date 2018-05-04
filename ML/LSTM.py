@@ -38,7 +38,6 @@ from keras import backend as K
 def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/Stage/Time-series/y_true2.csv'):
     df = pd.read_csv(fileX)
     y = pd.read_csv(fileY)
-    df = df.drop(['label'],axis=1)
     df = df.replace([np.inf, -np.inf], np.nan)
     df = df.fillna(1)
     X_train = df.values
@@ -115,7 +114,7 @@ def model_fit(X,y):
     np.random.seed(99)
     # create and fit the LSTM network
     model = Sequential()
-    model.add(LSTM(4, input_shape=(1, 27), dropout=0.4))
+    model.add(LSTM(4, input_shape=(1, 28), dropout=0.4))
     model.add(Dense(1))
     model.compile(loss='binary_crossentropy', optimizer='adam',metrics=[fbeta,precision,recall])
     model.fit(X, y, epochs=100, batch_size=1, verbose=2)

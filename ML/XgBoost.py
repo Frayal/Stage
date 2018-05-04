@@ -27,7 +27,8 @@ from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.base import BaseEstimator
-from catboost import CatBoostClassifier
+from sklearn.ensemble import RandomForestClassifier
+import xgboost as xgb
 from sklearn.model_selection import train_test_split
 
 #################################################
@@ -54,29 +55,54 @@ def process(dataset,Y):
     trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
     testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
     return trainX,testX,trainY,testY
-
-
+### XGB modeling
+params = {'eta': 0.02,
+          'max_depth': 20, 
+          'subsample': 0.9, 
+          'colsample_bytree': 0.9, 
+          'colsample_bylevel':0.9,
+          'min_child_weight':1,
+          'alpha':2,
+          'objective': 'binary:logistic',
+          'eval_metric': 'logloss',
+          'seed': 99,
+          'silent': False}
+params2 = {'eta': 0.02,
+          'max_depth': 15, 
+          'subsample': 0.9, 
+          'colsample_bytree': 0.9, 
+          'colsample_bylevel':0.9,
+          'min_child_weight':1,
+          'alpha':1,
+          'objective': 'binary:logistic',
+          'eval_metric': 'logloss',
+          'seed': 99,
+          'silent': False}
+######################################################
 class Classifier(BaseEstimator):
     def __init__(self):
         pass
-
+ 
     def fit(self, X, y):
-        x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2, random_state=99)
-        self.clf1 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=7,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
-        self.clf1.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
-        self.clf2 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=8,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
-        self.clf2.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
+        x1, x2, y1, y2 = train_test_split(X, y[:X.shape[0]], test_size=0.2, random_state=99)
+        watchlist = [(xgb.DMatrix(x1, y1), 'train'), (xgb.DMatrix(x2, y2), 'valid')]
+        self.clf1 = xgb.train(params, xgb.DMatrix(x1, y1), 5000,  watchlist, maximize = False,verbose_eval=100, early_stopping_rounds=300)
+        self.clf2 = xgb.train(params2, xgb.DMatrix(x1, y1), 5000,  watchlist, maximize = False,verbose_eval=100, early_stopping_rounds=300)
+        
+       
     def predict(self, X):
         return self.clf.predict(X)
-
+ 
     def predict_proba(self, X):
-        return np.array([[0,(v[1]+l[1])*0.5] for v,l in zip(self.clf2.predict_proba(X),self.clf1.predict_proba(X))])
-
+        res1 = self.clf1.predict(xgb.DMatrix(X), ntree_limit=self.clf1.best_ntree_limit)
+        res2 = self.clf2.predict(xgb.DMatrix(X), ntree_limit=self.clf2.best_ntree_limit)
+        res = [(r1+r2)*0.5 for r1,r2 in zip(res1,res2)]
+        return np.array([ [1-c,c] for c in res])
 
 
 def model_fit(X,y):
     clf = Classifier()
-    clf.fit(X,[Y[0] for y in y])
+    clf.fit(X,y)
     return clf
 
 def find_index(l,v):

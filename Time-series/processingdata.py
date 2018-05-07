@@ -72,10 +72,12 @@ def load_timeserie(file):
         data_file = open(PATH+str(file), 'r',os.O_NONBLOCK)
         data_file = data_file.read()
         datas = data_file.split('\n')
-        data = [float(x) for x in datas[:-1]]
+        data = pd.DataFrame([float(x) for x in datas[:-1]])
         return data
     if(temp[-1] == 'csv'):
         data = pd.read_csv(PATH+str(file))
+        data = data.replace([np.inf, -np.inf], np.nan)
+        data = data.fillna(1)
         return data
     else:
         print("mauvais format: veuillez fournir un .txt ou un .csv")
@@ -208,14 +210,14 @@ def annomalie_detection(df,clf,automatic_threshold = True):
     on peut cependant essayer de les fixer de manière automatique
     en fonction de l'historique de la chaîne/departement/regroupement(csp)
     '''
-    
+    res = []
+    irrelevant = ('t-3', 't-2', 't-1', 't','minutes', 'diff t t-1', 'diff t t-2','diff t t-3', 'diff t-1 t-3','mean')
+    allnames = df.columns
+    names = list(set(allnames) - set(irrelevant))
+    #print(names)
+    temp_df = df[names]
     if(automatic_threshold):
-        res = []
-        irrelevant = ('t-3', 't-2', 't-1', 't','minutes', 'diff t t-1', 'diff t t-2','diff t t-3', 'diff t-1 t-3','mean')
-        allnames = df.columns
-        names = list(set(allnames) - set(irrelevant))
-        #print(names)
-        temp_df = df[names]
+        
         info = df.describe()
         temp_df['signe'] = np.sign(temp_df['pente t t-2']+temp_df['pente t-1 t-3']+temp_df['pente t t-3']+temp_df['diff t-1 t-2'])
         #['diff t-2 t-3', 'distribution', 'skewness', 'diff pente 1-3','covariance', 'KDFR', 'diff pente 1-2', 'pente t-1 t-3', 'diff t-1 t-2','pente t t-2', 'diff pente 2-3', 'distance to mean', 'pente t t-3','GP', 'probability']
@@ -244,16 +246,18 @@ def annomalie_detection(df,clf,automatic_threshold = True):
         
 
     else:
+        df = df.replace([np.inf, -np.inf], np.nan)
+        df = df.fillna(0)
         scaler = MinMaxScaler(feature_range=(0, 1))
         trainX = scaler.fit_transform(df)
-        trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
-        #res1 = clf[0].predict(xgb.DMatrix(df.values), ntree_limit=clf[0].best_ntree_limit)
-        #res2 = clf[1].predict(xgb.DMatrix(df.values), ntree_limit=clf[1].best_ntree_limit)
-        #res = [(r1+r2)*0.5 for r1,r2 in zip(res1,res2)]
-        #res = [1 if l>0.17 else 0 for l in res]
-        v = [1 if x[0]>0.17 else 0 for x in clf.predict(trainX)]
+        #trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
+        res1 = clf[0].predict_proba(trainX)
+        res2 = clf[1].predict_proba(trainX)
+        res = [(r1[1]+r2[1])*0.5 for r1,r2 in zip(res1,res2)]
+        res = [1 if l>0.17 else 0 for l in res]
+        #v = [1 if x[0]>0.1 else 0 for x in clf.predict(trainX)]
             
-    return v
+    return res
 
 def threshold(x):
     if(x>0.17): 
@@ -344,18 +348,18 @@ def main(argv):
     real_data = df['values'][3:]
     df = shift_preprocess(df,argv.split('.')[0])
     df = processing(df,argv.split('.')[0])
-    json_file = open('/home/alexis/Bureau/Stage/ML/model.json', 'r')
-    loaded_model_json = json_file.read()
-    json_file.close()
-    loaded_model = model_from_json(loaded_model_json)
+    #json_file = open('/home/alexis/Bureau/Stage/ML/model.json', 'r')
+    #loaded_model_json = json_file.read()
+    #json_file.close()
+    #loaded_model = model_from_json(loaded_model_json)
     # load weights into new model
-    loaded_model.load_weights("/home/alexis/Bureau/Stage/ML/model.h5")
-    loaded_model.compile(loss='binary_crossentropy', optimizer='adam')
-    #clf1 = CatBoostClassifier().load_model("model1")
-    #clf2 = CatBoostClassifier().load_model("model2")
+    #loaded_model.load_weights("/home/alexis/Bureau/Stage/ML/model.h5")
+    #loaded_model.compile(loss='binary_crossentropy', optimizer='adam')
+    clf1 = CatBoostClassifier().load_model("model1")
+    clf2 = CatBoostClassifier().load_model("model2")
     #clf1 = pickle.load(open("pima.pickle.dat", "rb"))
     #clf2 = pickle.load(open("pima2.pickle.dat", "rb"))
-    clf = loaded_model
+    clf = [clf1,clf2]
     annomalies = annomalie_detection(df,clf,False)
     df["label"] = annomalies
     df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)

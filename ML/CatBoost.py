@@ -39,9 +39,9 @@ class Classifier(BaseEstimator):
 
     def fit(self, X, y):
         x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2, random_state=99)
-        self.clf1 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=7,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
+        self.clf1 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=10,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
         self.clf1.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
-        self.clf2 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=8,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
+        self.clf2 = CatBoostClassifier(iterations=2000,learning_rate=0.001, depth=8,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
         self.clf2.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
     def predict(self, X):
         return self.clf.predict(X)
@@ -49,7 +49,7 @@ class Classifier(BaseEstimator):
     def predict_proba(self, X):
         return np.array([[0,(v[1]+l[1])*0.5] for v,l in zip(self.clf2.predict_proba(X),self.clf1.predict_proba(X))])
 
-
+    
 #################################################
 ########### Important functions #################
 #################################################
@@ -70,14 +70,12 @@ def process(dataset,Y):
     test_size = len(dataset) - train_size
     trainX, testX = dataset[0:train_size,:], dataset[train_size:len(dataset),:]
     trainY, testY = Y[0:train_size], Y[train_size:len(dataset)]
-    trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
-    testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
     return trainX,testX,trainY,testY
 
 
 def model_fit(X,y):
     clf = Classifier()
-    clf.fit(X,[Y[0] for y in y])
+    clf.fit(X,[Y[0] for Y in y])
     return clf
 
 def find_index(l,v):
@@ -92,7 +90,20 @@ def plot_res(df,trainPredict,testPredict,y):
     x = df
     t= [i/60 +3 for i in range(len(x))]
 
-
+    pred = trainPredict+testPredict
+    tp = np.sum([z*x for z,x in zip(pred,y)])
+    fp = np.sum([np.clip(z-x,0,1) for z,x in zip(pred,y)])
+    fn = np.sum([np.clip(z-x,0,1) for z,x in zip(y,pred)])
+    
+    beta = 2
+    p = tp/np.sum(pred)
+    r = tp/np.sum(y)
+    beta_squared = beta ** 2
+    f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
+    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
+    
+    
+    
     l1 = find_index(trainPredict,1)
     l2 = find_index(testPredict,1)
 
@@ -141,7 +152,7 @@ def plot_res(df,trainPredict,testPredict,y):
     fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    plot(fig, filename='CatBoost.html')
+    #plot(fig, filename='CatBoost.html')
 
 def save_model(model):
     model.clf1.save_model("catboostmodel1")
@@ -163,8 +174,8 @@ def main(argv):
     # make predictions
     trainPredict = model.predict_proba(trainX)
     testPredict = model.predict_proba(testX)
-    testPredict = list([1 if i[1]>0.15 else 0 for i in testPredict])
-    trainPredict = list([1 if i[1]>0.15 else 0 for i in trainPredict])
+    testPredict = list([1 if i[1]>0.17 else 0 for i in testPredict])
+    trainPredict = list([1 if i[1]>0.1 else 0 for i in trainPredict])
     # plot results
     plot_res(df,trainPredict,testPredict,y)
     #save model

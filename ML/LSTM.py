@@ -84,14 +84,14 @@ def recall(y_true, y_pred, threshold_shift=0.33):
 
     tp = K.sum(K.round(y_true * y_pred_bin)) + K.epsilon()
     fp = K.sum(K.round(K.clip(y_pred_bin - y_true, 0, 1)))
-    fn = K.sum(K.round(K.clip(y_true - y_pred, 0, 1)))
+    fn = K.sum(K.round(K.clip(y_true - y_pred_bin, 0, 1)))
 
     recall = tp / (tp + fn)
     return recall
 
 
 def fbeta(y_true, y_pred, threshold_shift=0.33):
-    beta = 1
+    beta = 2
 
     # just in case of hipster activation at the final layer
     y_pred = K.clip(y_pred, 0, 1)
@@ -114,10 +114,10 @@ def model_fit(X,y):
     np.random.seed(42)
     # create and fit the LSTM network
     model = Sequential()
-    model.add(LSTM(4, input_shape=(1, 28), dropout=0.4))
+    model.add(LSTM(1, input_shape=(1, 29), dropout=0.4))
     model.add(Dense(1))
-    model.compile(loss='binary_crossentropy', optimizer='adam',metrics=[fbeta,precision,recall])
-    model.fit(X, y, epochs=100, batch_size=1, verbose=2)
+    model.compile(loss='binary_crossentropy', optimizer='Adamax',metrics=[fbeta,precision,recall])
+    model.fit(X, y, epochs=100, batch_size=5, verbose=2)
     return model
 
 def find_index(l,v):
@@ -131,7 +131,18 @@ def find_index(l,v):
 def plot_res(df,trainPredict,testPredict,y):
     x = df
     t= [i/60 +3 for i in range(len(x))]
-
+    
+    pred = trainPredict+testPredict
+    tp = np.sum([z*x for z,x in zip(pred,y)])
+    fp = np.sum([np.clip(z-x,0,1) for z,x in zip(pred,y)])
+    fn = np.sum([np.clip(z-x,0,1) for z,x in zip(y,pred)])
+    
+    beta = 2
+    p = tp/np.sum(pred)
+    r = tp/np.sum(y)
+    beta_squared = beta ** 2
+    f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
+    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
 
     l1 = find_index(trainPredict,1)
     l2 = find_index(testPredict,1)
@@ -181,7 +192,7 @@ def plot_res(df,trainPredict,testPredict,y):
     fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    plot(fig, filename='LSTM.html')
+    #plot(fig, filename='LSTM.html')
 
 def save_model(model):
     model_json = model.to_json()

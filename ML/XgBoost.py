@@ -35,18 +35,18 @@ import pickle
 ########### Global variables ####################
 #################################################
 ### XGB modeling
-params = {'eta': 0.02,
+params = {'eta': 0.45,
           'max_depth': 20, 
           'subsample': 0.9, 
           'colsample_bytree': 0.9, 
           'colsample_bylevel':0.9,
-          'min_child_weight':1,
-          'alpha':2,
+          'min_child_weight':5,
+          'alpha':0,
           'objective': 'binary:logistic',
           'eval_metric': 'logloss',
           'seed': 99,
           'silent': False}
-params2 = {'eta': 0.02,
+params2 = {'eta': 0.45,
           'max_depth': 15, 
           'subsample': 0.9, 
           'colsample_bytree': 0.9, 
@@ -118,7 +118,18 @@ def find_index(l,v):
 def plot_res(df,trainPredict,testPredict,y):
     x = df
     t= [i/60 +3 for i in range(len(x))]
-
+    
+    pred = trainPredict+testPredict
+    tp = np.sum([z*x for z,x in zip(pred,y)])
+    fp = np.sum([np.clip(z-x,0,1) for z,x in zip(pred,y)])
+    fn = np.sum([np.clip(z-x,0,1) for z,x in zip(y,pred)])
+    
+    beta = 2
+    p = tp/np.sum(pred)
+    r = tp/np.sum(y)
+    beta_squared = beta ** 2
+    f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
+    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
 
     l1 = find_index(trainPredict,1)
     l2 = find_index(testPredict,1)
@@ -168,7 +179,7 @@ def plot_res(df,trainPredict,testPredict,y):
     fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    plot(fig, filename='CatBoost.html')
+    #plot(fig, filename='CatBoost.html')
 
 def save_model(model):
     pickle.dump(model.clf1, open("XGB1.pickle.dat", "wb"))

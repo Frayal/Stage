@@ -128,9 +128,6 @@ def model_fit(X,y):
     model.add(Dense(1000, input_shape=(X.shape[1],)))
     model.add(Activation('relu'))
     model.add(Dropout(0.25))
-    model.add(Dense(750))
-    model.add(Activation('relu'))
-    model.add(Dropout(0.25))
     model.add(Dense(500))
     model.add(Activation('relu'))
     model.add(Dropout(0.25))
@@ -141,7 +138,7 @@ def model_fit(X,y):
     model.add(Activation('sigmoid'))
 
     model.compile(loss='binary_crossentropy', optimizer='adamax',metrics=["accuracy",fbeta,precision,recall])
-    model.fit(X, y, epochs=50, batch_size=50, verbose=2,class_weight = class_weight)
+    model.fit(X, y, epochs=500, batch_size=20, verbose=2,class_weight = class_weight)
     return model
 
 def find_index(l,v):

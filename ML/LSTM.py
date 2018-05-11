@@ -31,6 +31,8 @@ from keras.layers import LSTM
 from sklearn.preprocessing import MinMaxScaler
 import tensorflow as tf
 from keras import backend as K
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Activation
 #################################################
 ########### Global variables ####################
 #################################################
@@ -114,10 +116,17 @@ def model_fit(X,y):
     np.random.seed(42)
     # create and fit the LSTM network
     model = Sequential()
-    model.add(LSTM(1, input_shape=(1, 29), dropout=0.4))
+    model.add(LSTM(100, input_shape=(1, 29), dropout=0.25))
+    model.add(Dense(100))
+    model.add(Activation('relu'))
+    model.add(Dropout(0.25))
+    model.add(Dense(50))
+    model.add(Activation('relu'))
+    model.add(Dropout(0.25))
     model.add(Dense(1))
+    model.add(Activation('sigmoid'))
     model.compile(loss='binary_crossentropy', optimizer='Adamax',metrics=[fbeta,precision,recall])
-    model.fit(X, y, epochs=100, batch_size=5, verbose=2)
+    model.fit(X, y, epochs=300, batch_size=50, verbose=2)
     return model
 
 def find_index(l,v):
@@ -223,9 +232,7 @@ def main(argv):
     trainPredict = list([1 if i[0]>0.15 else 0 for i in trainPredict])
     # plot results
     plot_res(df,trainPredict,testPredict,y)
-    #save model
-    save_model(model)
-    return ("process achevé sans erreures")
+    return ([trainPredict,testPredict])
 
 
 if __name__ == "__main__":

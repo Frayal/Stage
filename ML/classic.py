@@ -175,14 +175,17 @@ def main(argv):
     # make predictions
     trainPredict = model.predict_proba(trainX)
     testPredict = model.predict_proba(testX)
+    res = []
     for i in range(len(trainPredict)):
         testPredict1 = list([1 if i[1]>0.15 else 0 for i in testPredict[i]])
         trainPredict1 = list([1 if i[1]>0.15 else 0 for i in trainPredict[i]])
         # plot results
         plot_res(df,trainPredict1,testPredict1,y)
-        #save model
-        save_model(model)
-    return ("process achevé sans erreures")
+        res.append(list(trainPredict[i][:,0])+list(testPredict[i][:,0]))
+        res.append(list(trainPredict[i][:,1])+list(testPredict[i][:,1]))
+    res = pd.DataFrame(res) 
+    res.to_csv('SVC.csv',index=False)
+    return (res)
 
 
 if __name__ == "__main__":

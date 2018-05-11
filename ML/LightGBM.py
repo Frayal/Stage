@@ -208,14 +208,13 @@ def main(argv):
     # make predictions
     trainPredict = model.predict_proba(trainX)
     testPredict = model.predict_proba(testX)
-    testPredict = list([1 if i[1]>0.15 else 0 for i in testPredict])
-    trainPredict = list([1 if i[1]>0.15 else 0 for i in trainPredict])
+    testPredict1 = list([1 if i[1]>0.15 else 0 for i in testPredict])
+    trainPredict1 = list([1 if i[1]>0.15 else 0 for i in trainPredict])
     # plot results
-    plot_res(df,trainPredict,testPredict,y)
-    #save model
-    save_model(model)
-    return ("process achevé sans erreures")
-
+    #plot_res(df,trainPredict1,testPredict1,y)
+    res = pd.DataFrame(np.concatenate((trainPredict,testPredict)))
+    res.to_csv('lightGBM.csv',index=False)
+    return res
 
 if __name__ == "__main__":
     # execute only if run as a script

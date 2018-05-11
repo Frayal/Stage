@@ -36,8 +36,8 @@ from keras.layers import Dense, Dropout, Activation
 #################################################
 ########### Global variables ####################
 #################################################
-
-def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/Stage/Time-series/y_true2.csv'):
+THRESHOLD = 0.5
+def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/historique/label-30-04.csv'):
     df = pd.read_csv(fileX)
     y = pd.read_csv(fileY)
     df = df.replace([np.inf, -np.inf], np.nan)
@@ -58,7 +58,7 @@ def process(dataset,Y):
     testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
     return trainX,testX,trainY,testY
 
-def precision(y_true, y_pred, threshold_shift=0.34):
+def precision(y_true, y_pred, threshold_shift=0.5-THRESHOLD):
     beta = 1
 
     # just in case of hipster activation at the final layer
@@ -75,7 +75,7 @@ def precision(y_true, y_pred, threshold_shift=0.34):
     return precision
     
 
-def recall(y_true, y_pred, threshold_shift=0.33):
+def recall(y_true, y_pred, threshold_shift=0.5-THRESHOLD):
     beta = 1
 
     # just in case of hipster activation at the final layer
@@ -92,7 +92,7 @@ def recall(y_true, y_pred, threshold_shift=0.33):
     return recall
 
 
-def fbeta(y_true, y_pred, threshold_shift=0.33):
+def fbeta(y_true, y_pred, threshold_shift=0.5-THRESHOLD):
     beta = 2
 
     # just in case of hipster activation at the final layer
@@ -113,20 +113,25 @@ def fbeta(y_true, y_pred, threshold_shift=0.33):
 
 
 def model_fit(X,y):
+    class_weight={
+    1: 1/(np.sum(y) / len(y)),
+    0:1}
     np.random.seed(42)
     # create and fit the LSTM network
     model = Sequential()
-    model.add(LSTM(100, input_shape=(1, 29), dropout=0.25))
-    model.add(Dense(100))
+    model.add(LSTM(400, input_shape=(1, 29), dropout=0.4))
+    model.add(Dense(1000))
     model.add(Activation('relu'))
-    model.add(Dropout(0.25))
-    model.add(Dense(50))
+    model.add(Dropout(0.35))
+    model.add(Dense(500))
     model.add(Activation('relu'))
-    model.add(Dropout(0.25))
+    model.add(Dropout(0.35))
+    model.add(Dense(250))
+    model.add(Activation('relu'))
+    model.add(Dropout(0.35))
     model.add(Dense(1))
-    model.add(Activation('sigmoid'))
     model.compile(loss='binary_crossentropy', optimizer='Adamax',metrics=[fbeta,precision,recall])
-    model.fit(X, y, epochs=300, batch_size=50, verbose=2)
+    model.fit(X, y, epochs=500, batch_size=20, verbose=2,class_weight = class_weight)
     return model
 
 def find_index(l,v):
@@ -221,6 +226,7 @@ def save_model(model):
 
 
 def main(argv):
+    THRESHOLD = float(argv)
     np.random.seed(42)
     X,y,df = load()
     trainX,testX,trainY,testY = process(X,y)
@@ -228,8 +234,8 @@ def main(argv):
     # make predictions
     trainPredict = model.predict(trainX)
     testPredict = model.predict(testX)
-    testPredict = list([1 if i[0]>0.15 else 0 for i in testPredict])
-    trainPredict = list([1 if i[0]>0.15 else 0 for i in trainPredict])
+    testPredict = list([1 if i[0]>THRESHOLD else 0 for i in testPredict])
+    trainPredict = list([1 if i[0]>THRESHOLD else 0 for i in trainPredict])
     # plot results
     plot_res(df,trainPredict,testPredict,y)
     return ([trainPredict,testPredict])
@@ -237,4 +243,4 @@ def main(argv):
 
 if __name__ == "__main__":
     # execute only if run as a script
-    main(sys.argv[1:])
+    main(sys.argv[1])

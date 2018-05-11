@@ -39,21 +39,21 @@ class Classifier(BaseEstimator):
 
     def fit(self, X, y):
         x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2, random_state=99)
-        self.clf1 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=10,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
-        self.clf1.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
-        self.clf2 = CatBoostClassifier(iterations=2000,learning_rate=0.001, depth=8,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100)
-        self.clf2.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
+        self.clf1 = CatBoostClassifier(iterations=2000,learning_rate=0.01, depth=10,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100,class_weights=[1,5])
+        self.clf1.fit(x1,y1,verbose=False,eval_set=(x2,y2),use_best_model=True)
+        self.clf2 = CatBoostClassifier(iterations=2000,learning_rate=0.001, depth=8,metric_period = 50, loss_function='Logloss', eval_metric='Logloss', random_seed=99, od_type='Iter', od_wait=100,class_weights=[1,5])
+        self.clf2.fit(x1,y1,verbose=False,eval_set=(x2,y2),use_best_model=True)
     def predict(self, X):
         return self.clf.predict(X)
 
     def predict_proba(self, X):
-        return np.array([[0,(v[1]+l[1])*0.5] for v,l in zip(self.clf2.predict_proba(X),self.clf1.predict_proba(X))])
+        return np.array([[1-(v[1]+l[1])*0.5,(v[1]+l[1])*0.5] for v,l in zip(self.clf2.predict_proba(X),self.clf1.predict_proba(X))])
 
     
 #################################################
 ########### Important functions #################
 #################################################
-def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/Stage/Time-series/y_true2.csv'):
+def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/historique/label-30-04.csv'):
     df = pd.read_csv(fileX)
     y = pd.read_csv(fileY)
     df = df.replace([np.inf, -np.inf], np.nan)
@@ -168,16 +168,17 @@ def save_model(model):
 
 
 def main(argv):
+    THRESHOLD = float(argv)
     X,y,df = load()
     trainX,testX,trainY,testY = process(X,y)
     model = model_fit(trainX,trainY)
     # make predictions
     trainPredict = model.predict_proba(trainX)
     testPredict = model.predict_proba(testX)
-    testPredict1 = list([1 if i[1]>0.17 else 0 for i in testPredict])
-    trainPredict1 = list([1 if i[1]>0.1 else 0 for i in trainPredict])
+    testPredict1 = list([1 if i[1]>THRESHOLD else 0 for i in testPredict])
+    trainPredict1 = list([1 if i[1]>THRESHOLD else 0 for i in trainPredict])
     # plot results
-    #plot_res(df,trainPredict1,testPredict1,y)
+    plot_res(df,trainPredict1,testPredict1,y)
     #save model
     save_model(model)
     res = pd.DataFrame(np.concatenate((trainPredict,testPredict)))
@@ -186,4 +187,4 @@ def main(argv):
 
 if __name__ == "__main__":
     # execute only if run as a script
-    main(sys.argv[1:])
+    main(sys.argv[1])

@@ -35,7 +35,7 @@ from sklearn.calibration import CalibratedClassifierCV
 #################################################
 ########### Global variables ####################
 #################################################
-C = 1.0
+C = 2
 
 ######################################################
 class Classifier(BaseEstimator):
@@ -59,7 +59,7 @@ class Classifier(BaseEstimator):
 #################################################
 ########### Important functions #################
 #################################################
-def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/Stage/Time-series/y_true2.csv'):
+def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/historique/label-30-04.csv'):
     df = pd.read_csv(fileX)
     y = pd.read_csv(fileY)
     df = df.replace([np.inf, -np.inf], np.nan)
@@ -169,6 +169,7 @@ def save_model(model):
 
 
 def main(argv):
+    THRESHOLD = float(argv)
     X,y,df = load()
     trainX,testX,trainY,testY = process(X,y)
     model = model_fit(trainX,trainY)
@@ -177,17 +178,17 @@ def main(argv):
     testPredict = model.predict_proba(testX)
     res = []
     for i in range(len(trainPredict)):
-        testPredict1 = list([1 if i[1]>0.15 else 0 for i in testPredict[i]])
-        trainPredict1 = list([1 if i[1]>0.15 else 0 for i in trainPredict[i]])
+        testPredict1 = list([1 if i[1]>THRESHOLD else 0 for i in testPredict[i]])
+        trainPredict1 = list([1 if i[1]>THRESHOLD else 0 for i in trainPredict[i]])
         # plot results
         plot_res(df,trainPredict1,testPredict1,y)
         res.append(list(trainPredict[i][:,0])+list(testPredict[i][:,0]))
         res.append(list(trainPredict[i][:,1])+list(testPredict[i][:,1]))
-    res = pd.DataFrame(res) 
+    res = pd.DataFrame(res).T 
     res.to_csv('SVC.csv',index=False)
-    return (res)
+    return res
 
 
 if __name__ == "__main__":
     # execute only if run as a script
-    main(sys.argv[1:])
+    main(sys.argv[1])

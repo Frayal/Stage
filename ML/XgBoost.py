@@ -66,8 +66,8 @@ class Classifier(BaseEstimator):
     def fit(self, X, y):
         x1, x2, y1, y2 = train_test_split(X, y[:X.shape[0]], test_size=0.2, random_state=99)
         watchlist = [(xgb.DMatrix(x1, y1), 'train'), (xgb.DMatrix(x2, y2), 'valid')]
-        self.clf1 = xgb.train(params, xgb.DMatrix(x1, y1), 5000,  watchlist, maximize = False,verbose_eval=100, early_stopping_rounds=300)
-        self.clf2 = xgb.train(params2, xgb.DMatrix(x1, y1), 5000,  watchlist, maximize = False,verbose_eval=100, early_stopping_rounds=300)
+        self.clf1 = xgb.train(params, xgb.DMatrix(x1, y1), 5000,  watchlist, maximize = False,verbose_eval=200, early_stopping_rounds=300)
+        self.clf2 = xgb.train(params2, xgb.DMatrix(x1, y1), 5000,  watchlist, maximize = False,verbose_eval=200, early_stopping_rounds=300)
         
        
     def predict(self, X):
@@ -82,7 +82,7 @@ class Classifier(BaseEstimator):
 #################################################
 ########### Important functions #################
 #################################################
-def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/Stage/Time-series/y_true2.csv'):
+def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/historique/label-30-04.csv'):
     df = pd.read_csv(fileX)
     y = pd.read_csv(fileY)
     df = df.replace([np.inf, -np.inf], np.nan)
@@ -192,16 +192,18 @@ def save_model(model):
 
 
 def main(argv):
+    THRESHOLD = float(argv)
+    print(THRESHOLD)
     X,y,df = load()
     trainX,testX,trainY,testY = process(X,y)
     model = model_fit(trainX,trainY)
     # make predictions
     trainPredict = model.predict_proba(trainX)
     testPredict = model.predict_proba(testX)
-    testPredict1 = list([1 if i[1]>0.15 else 0 for i in testPredict])
-    trainPredict1 = list([1 if i[1]>0.15 else 0 for i in trainPredict])
+    testPredict1 = list([1 if i[1]>THRESHOLD else 0 for i in testPredict])
+    trainPredict1 = list([1 if i[1]>THRESHOLD else 0 for i in trainPredict])
     # plot results
-    #plot_res(df,trainPredict1,testPredict1,y)
+    plot_res(df,trainPredict1,testPredict1,y)
     #save model
     save_model(model)
     res = pd.DataFrame(np.concatenate((trainPredict,testPredict)))
@@ -210,4 +212,4 @@ def main(argv):
 
 if __name__ == "__main__":
     # execute only if run as a script
-    main(sys.argv[1:])
+    main(sys.argv[1])

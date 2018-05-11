@@ -78,8 +78,8 @@ class Classifier(BaseEstimator):
         
         x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2, random_state=99)
         watchlist = [(lgb.Dataset(x1, label=y1), 'train'), (lgb.Dataset(x2, label=y2), 'valid')]
-        self.clf2 = lgb.train(params, lgb.Dataset(x1, label=y1), MAX_TREES, lgb.Dataset(x2, label=y2),verbose_eval=100, feval=logloss_lgbm, early_stopping_rounds=300)
-        self.clf1 = lgb.train(params1, lgb.Dataset(x1, label=y1), MAX_TREES, lgb.Dataset(x2, label=y2),verbose_eval=100, feval=logloss_lgbm, early_stopping_rounds=300)
+        self.clf2 = lgb.train(params, lgb.Dataset(x1, label=y1), MAX_TREES, lgb.Dataset(x2, label=y2),verbose_eval=500, feval=logloss_lgbm, early_stopping_rounds=300)
+        self.clf1 = lgb.train(params1, lgb.Dataset(x1, label=y1), MAX_TREES, lgb.Dataset(x2, label=y2),verbose_eval=500, feval=logloss_lgbm, early_stopping_rounds=300)
     def predict(self, X):
         return self.clf1.predict(X)
 
@@ -91,7 +91,7 @@ class Classifier(BaseEstimator):
 #################################################
 ########### Important functions #################
 #################################################
-def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/Stage/Time-series/y_true2.csv'):
+def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/historique/label-30-04.csv'):
     df = pd.read_csv(fileX)
     y = pd.read_csv(fileY)
     df = df.replace([np.inf, -np.inf], np.nan)
@@ -202,20 +202,21 @@ def logloss_lgbm(preds, dtrain):
 
 
 def main(argv):
+    THRESHOLD = float(argv)
     X,y,df = load()
     trainX,testX,trainY,testY = process(X,y)
     model = model_fit(trainX,[y[0] for y in trainY])
     # make predictions
     trainPredict = model.predict_proba(trainX)
     testPredict = model.predict_proba(testX)
-    testPredict1 = list([1 if i[1]>0.15 else 0 for i in testPredict])
-    trainPredict1 = list([1 if i[1]>0.15 else 0 for i in trainPredict])
+    testPredict1 = list([1 if i[1]>THRESHOLD else 0 for i in testPredict])
+    trainPredict1 = list([1 if i[1]>THRESHOLD else 0 for i in trainPredict])
     # plot results
-    #plot_res(df,trainPredict1,testPredict1,y)
+    plot_res(df,trainPredict1,testPredict1,y)
     res = pd.DataFrame(np.concatenate((trainPredict,testPredict)))
     res.to_csv('lightGBM.csv',index=False)
     return res
 
 if __name__ == "__main__":
     # execute only if run as a script
-    main(sys.argv[1:])
+    main(sys.argv[1])

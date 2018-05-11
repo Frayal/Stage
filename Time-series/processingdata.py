@@ -211,7 +211,7 @@ def annomalie_detection(df,clf,automatic_threshold = True):
     en fonction de l'historique de la chaîne/departement/regroupement(csp)
     '''
     res = []
-    irrelevant = ('t-3', 't-2', 't-1', 't','minutes', 'diff t t-1', 'diff t t-2','diff t t-3', 'diff t-1 t-3','mean')
+    irrelevant = ('t-3', 't-2', 't-1', 't')
     allnames = df.columns
     names = list(set(allnames) - set(irrelevant))
     #print(names)
@@ -221,7 +221,7 @@ def annomalie_detection(df,clf,automatic_threshold = True):
         info = df.describe()
         temp_df['signe'] = np.sign(temp_df['pente t t-2']+temp_df['pente t-1 t-3']+temp_df['pente t t-3']+temp_df['diff t-1 t-2'])
         #['diff t-2 t-3', 'distribution', 'skewness', 'diff pente 1-3','covariance', 'KDFR', 'diff pente 1-2', 'pente t-1 t-3', 'diff t-1 t-2','pente t t-2', 'diff pente 2-3', 'distance to mean', 'pente t t-3','GP', 'probability']
-        poids = [1,2,2,1,2,1,2,2,1,1,1,2,1,2,2]
+        poids = [ 0.01635393,0.03110482,  0.01142569,  0.00263594,  0.02041714,  0.04325364,0.00982603,  0.01245762,  0.02220948,  0.00309737,0.00173761,0.04263638,0.03090817,  0.00556751,  0.01292914,  0.0071749,0.04850749,0.01424759,0.0060423,0.03402776,0.00756308,0.0317241,0.00425174,0.0046664 ]
         for i in range(len(names)-len(poids)):
             poids.append(random.randint(1,4))
         ptot = sum(poids)
@@ -355,18 +355,18 @@ def main(argv):
     # load weights into new model
     #loaded_model.load_weights("/home/alexis/Bureau/Stage/ML/model.h5")
     #loaded_model.compile(loss='binary_crossentropy', optimizer='adam')
-    clf1 = CatBoostClassifier().load_model("model1")
-    clf2 = CatBoostClassifier().load_model("model2")
+    #clf1 = CatBoostClassifier().load_model("model1")
+    #clf2 = CatBoostClassifier().load_model("model2")
     #clf1 = pickle.load(open("pima.pickle.dat", "rb"))
     #clf2 = pickle.load(open("pima2.pickle.dat", "rb"))
-    clf = [clf1,clf2]
-    annomalies = annomalie_detection(df,clf,False)
+    clf = []
+    annomalies = annomalie_detection(df,clf,True)
     df["label"] = annomalies
     df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
     df.to_csv('/home/alexis/Bureau/Stage/historique/RTS/'+argv.split('.')[0]+"-processed.csv",index=False)
     date = list(argv.split('.')[0].split('_')[1])
     date = "".join(date[-2:])
-    plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_0192_2017-12-'+str(date)+'_TF1.csv')
+    #plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_0192_2017-12-'+str(date)+'_TF1.csv')
     m = max(annomalies)
     y = [1 if b/(m)>0.5 else 0 for b in annomalies]
     y = DataFrame(y)

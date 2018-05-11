@@ -56,7 +56,7 @@ h = .02  # step size in the mesh
 #################################################
 ########### Important functions #################
 #################################################
-def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/Stage/Time-series/y_true2.csv'):
+def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/historique/label-30-04.csv'):
     df = pd.read_csv(fileX)
     y = pd.read_csv(fileY)
     df = df.replace([np.inf, -np.inf], np.nan)
@@ -179,12 +179,12 @@ def main(argv):
     # make predictions
     
     for clf,name in zip(model,names):
+        print(name)
         trainPredict = clf.predict_proba(trainX)
         testPredict = clf.predict_proba(testX)
         testPredict = list([1 if i[1]>0.15 else 0 for i in testPredict])
         trainPredict = list([1 if i[1]>0.15 else 0 for i in trainPredict])
         # plot results
-        print(name)
         plot_res(df,trainPredict,testPredict,y)
     return ("process achevé sans erreures")
 

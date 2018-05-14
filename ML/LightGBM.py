@@ -157,7 +157,9 @@ def plot_res(df,pred,y):
     r = tp/np.sum(y)
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
-    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
+    print('--------------------------------------------------')
+    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    
     
     tp,fp,fn = mesure(pred,y)
     beta = 2
@@ -167,8 +169,8 @@ def plot_res(df,pred,y):
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
     
     
-    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
-    
+    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    print('--------------------------------------------------')
     l1 = find_index(pred,1)
 
     x1 = [t[i] for i in l1]
@@ -216,48 +218,6 @@ def plot_res(df,pred,y):
  
      
 
-def fi(gb,name):
-    trace = go.Scatter(
-        y = gb.feature_importances_,
-        x = features,
-        mode='markers',
-        marker=dict(
-            sizemode = 'diameter',
-            sizeref = 1,
-            size = 13,
-            #size= rf.feature_importances_,
-            #color = np.random.randn(500), #set color equal to a variable
-            color = gb.feature_importances_,
-            colorscale='Portland',
-            showscale=True
-        ),
-        text = features
-    )
-    data = [trace]
-
-    layout= go.Layout(
-        autosize= True,
-        title= name+' Feature Importance',
-        hovermode= 'closest',
-         xaxis= dict(
-             ticklen= 5,
-             showgrid=False,
-            zeroline=False,
-            showline=False
-         ),
-        yaxis=dict(
-            title= 'Feature Importance',
-            showgrid=False,
-            zeroline=False,
-            ticklen= 5,
-            gridwidth= 2
-        ),
-        showlegend= False
-    )
-    fig = go.Figure(data=data, layout=layout)
-    py.iplot(fig,filename='scatter2010')    
-    
-    
 def logloss_lgbm(preds, dtrain):
     labels = dtrain.get_label()
     score = 1-log_loss(labels, preds)
@@ -269,6 +229,8 @@ def logloss_lgbm(preds, dtrain):
 
 
 def main(argv):
+    if(len(argv)==0):
+        argv = [0.316]
     THRESHOLD = float(argv)
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)

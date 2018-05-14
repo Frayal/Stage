@@ -46,7 +46,8 @@ params = {'eta': 0.001,
           'eval_metric': 'logloss',
           'seed': 99,
           'silent': False,
-         'scale_pos_weight':20}
+         'scale_pos_weight':20,
+         'silent' : 1}
 params2 = {'eta': 0.001,
           'max_depth': 8, 
           'subsample': 0.9, 
@@ -58,7 +59,8 @@ params2 = {'eta': 0.001,
           'eval_metric': 'logloss',
           'seed': 99,
           'silent': False,
-         'scale_pos_weight':20}
+         'scale_pos_weight':20,
+          'silent' : 1}
 
 ######################################################
 class Classifier(BaseEstimator):
@@ -151,7 +153,8 @@ def plot_res(df,pred,y):
     r = tp/np.sum(y)
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
-    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
+    print('--------------------------------------------------')
+    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
     
     tp,fp,fn = mesure(pred,y)
     beta = 2
@@ -161,8 +164,8 @@ def plot_res(df,pred,y):
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
     
     
-    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
-    
+    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    print('--------------------------------------------------')
     l1 = find_index(pred,1)
 
     x1 = [t[i] for i in l1]
@@ -219,6 +222,8 @@ def save_model(model):
 
 
 def main(argv):
+    if(len(argv)==0):
+        argv = [0.04]
     THRESHOLD = float(argv)
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)

@@ -35,7 +35,7 @@ from sklearn.calibration import CalibratedClassifierCV
 #################################################
 ########### Global variables ####################
 #################################################
-C = 1.5
+C = 1
 
 ######################################################
 class Classifier(BaseEstimator):
@@ -43,11 +43,14 @@ class Classifier(BaseEstimator):
         pass
  
     def fit(self, X,y,X_test, y_test):
+        class_weight={
+        1: 1/(np.sum(y) / len(y)),
+        0:1}
         self.clf1 = svm.SVC(kernel='linear', C=C,probability = True).fit(X,y)
         self.clf1.score(X_test, y_test)
-        self.clf2 = CalibratedClassifierCV(svm.LinearSVC(C=C)).fit(X,y)
+        self.clf2 = svm.SVC(kernel='rbf', gamma=0.1, C=1,probability = True,class_weight=class_weight).fit(X,y)
         self.clf2.score(X_test, y_test)
-        self.clf3 = svm.SVC(kernel='rbf', gamma=0.7, C=C,probability = True).fit(X,y)
+        self.clf3 = svm.SVC(kernel='rbf', gamma=0.7, C=0.5,probability = True,class_weight=class_weight).fit(X,y)
         self.clf3.score(X_test, y_test)
         self.clf4 = svm.SVC(kernel='poly', degree=3, C=C,probability = True).fit(X,y)
         self.clf4.score(X_test, y_test)
@@ -132,7 +135,8 @@ def plot_res(df,pred,y):
     r = tp/np.sum(y)
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
-    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
+    print('--------------------------------------------------')
+    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
     
     tp,fp,fn = mesure(pred,y)
     beta = 2
@@ -142,8 +146,8 @@ def plot_res(df,pred,y):
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
     
     
-    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
-    
+    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    print('--------------------------------------------------')
     
     
     l1 = find_index(pred,1)
@@ -188,7 +192,7 @@ def plot_res(df,pred,y):
     fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    plot(fig, filename='SVC.html')
+    #plot(fig, filename='SVC.html')
 
 def save_model(model):
     pickle.dump(model.clf1, open("XGB1.pickle.dat", "wb"))
@@ -201,6 +205,8 @@ def save_model(model):
 
 
 def main(argv):
+    if(len(argv)==0):
+        argv = [0.15]
     THRESHOLD = float(argv)
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)

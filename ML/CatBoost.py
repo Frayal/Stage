@@ -120,7 +120,8 @@ def plot_res(df,pred,y):
     r = tp/np.sum(y)
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
-    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
+    print('--------------------------------------------------')
+    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
     
     tp,fp,fn = mesure(pred,y)
     beta = 2
@@ -129,9 +130,9 @@ def plot_res(df,pred,y):
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
     
-    
-    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
-    
+
+    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    print('--------------------------------------------------')
     l1 = find_index(pred,1)
 
     x1 = [t[i] for i in l1]
@@ -191,6 +192,8 @@ def save_model(model):
 
 
 def main(argv):
+    if(len(argv)==0):
+        argv = [0.2]
     THRESHOLD = float(argv)
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)

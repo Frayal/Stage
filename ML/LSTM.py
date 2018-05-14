@@ -25,39 +25,48 @@ import plotly.offline as offline
 from plotly import tools
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import matplotlib.pyplot as plt
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import LSTM
 from sklearn.preprocessing import MinMaxScaler
-import tensorflow as tf
-from keras import backend as K
-from keras.models import Sequential
+from sklearn.base import BaseEstimator
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
 from keras.layers import Dense, Dropout, Activation
 from keras.layers import Dense, LSTM, SimpleRNN
 #################################################
 ########### Global variables ####################
 #################################################
 THRESHOLD = 0.5
-def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/historique/label-30-04.csv'):
+
+######################################################
+from keras import backend as K
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Activation
+
+fileX_train ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv'
+fileY_train = '/home/alexis/Bureau/historique/label-30-04.csv'
+
+fileX_valid ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180507_0_192_0_cleandata-processed.csv'
+fileY_valid = '/home/alexis/Bureau/historique/label-07-05.csv'
+
+fileX_test ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180509_0_192_0_cleandata-processed.csv'
+fileY_test = '/home/alexis/Bureau/historique/label-09-05.csv'
+
+
+#################################################
+########### Important functions #################
+#################################################
+def load(fileX,fileY):
     df = pd.read_csv(fileX)
     y = pd.read_csv(fileY)
     df = df.replace([np.inf, -np.inf], np.nan)
     df = df.fillna(1)
     X_train = df.values
-    y_train = y['label'][3:].values.reshape(-1, 1)
     t = df['t']
+    y_train = y['label'][3:].values.reshape(-1, 1)
     scaler = MinMaxScaler(feature_range=(0, 1))
     X_train = scaler.fit_transform(X_train)
+    X_train = np.reshape(X_train, (X_train.shape[0], 1, X_train.shape[1]))
     return  X_train,y_train,t
 
-def process(dataset,Y):
-    train_size = int(len(dataset) * 0.67)
-    test_size = len(dataset) - train_size
-    trainX, testX = dataset[0:train_size,:], dataset[train_size:len(dataset),:]
-    trainY, testY = Y[0:train_size], Y[train_size:len(dataset)]
-    trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
-    testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
-    return trainX,testX,trainY,testY
 
 def precision(y_true, y_pred, threshold_shift=0.5-THRESHOLD):
     beta = 1
@@ -112,20 +121,38 @@ def fbeta(y_true, y_pred, threshold_shift=0.5-THRESHOLD):
     beta_squared = beta ** 2
     return (beta_squared + 1) * (precision * recall) / (beta_squared * precision + recall)
 
+def mesure(y_pred,y_true):
+    TP = 0
+    FP = 0
+    FN = 0
+    for i in range(len(y_pred)-1):
+        i = i+1
+        if(y_pred[i] == 1):
+            if(sum(y_true[i-1:i+1])>0):
+                TP += 1
+            else:
+                FP += 1
+    for i in range(len(y_true)-1):
+        i = i+1
+        if(y_true[i] == 1):
+            if(sum(y_pred[i-1:i+1])>0):
+                pass
+            else:
+                FN += 1
+    return TP,FP,FN
 
-def model_fit(X,y):
+def model_fit(X,y,X_test,y_test):
     class_weight={
     1: 1/(np.sum(y) / len(y)),
     0:1}
-    np.random.seed(42)
     # create and fit the LSTM network
     model = Sequential()
-    model.add(SimpleRNN(10,input_shape=(1, 29), return_sequences=True))
-    model.add(LSTM(3, return_sequences=True))
+    model.add(SimpleRNN(500,input_shape=(1, 29), return_sequences=True))
+    model.add(LSTM(30, return_sequences=True))
     model.add(LSTM(5))
     model.add(Dense(1))
-    model.compile(loss='binary_crossentropy', optimizer='Adam',metrics=[fbeta,precision,recall])
-    model.fit(X, y, epochs=100, batch_size=20, verbose=2,class_weight = class_weight)
+    model.compile(loss='binary_crossentropy', optimizer='Adamax',metrics=[fbeta,precision,recall])
+    model.fit(X, y,validation_data=(X_test,y_test), epochs=500, batch_size=50, verbose=2,class_weight = class_weight)
     return model
 
 def find_index(l,v):
@@ -136,11 +163,9 @@ def find_index(l,v):
     return res    
 
 
-def plot_res(df,trainPredict,testPredict,y):
+def plot_res(df,pred,y):
     x = df
     t= [i/60 +3 for i in range(len(x))]
-    
-    pred = trainPredict+testPredict
     tp = np.sum([z*x for z,x in zip(pred,y)])
     fp = np.sum([np.clip(z-x,0,1) for z,x in zip(pred,y)])
     fn = np.sum([np.clip(z-x,0,1) for z,x in zip(y,pred)])
@@ -150,17 +175,24 @@ def plot_res(df,trainPredict,testPredict,y):
     r = tp/np.sum(y)
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
-    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
-
-    l1 = find_index(trainPredict,1)
-    l2 = find_index(testPredict,1)
+    print('--------------------------------------------------')
+    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    
+    
+    tp,fp,fn = mesure(pred,y)
+    beta = 2
+    p = tp/(tp+fp)
+    r = tp/(tp+fn)
+    beta_squared = beta ** 2
+    f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
+    
+    
+    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    print('--------------------------------------------------')
+    l1 = find_index(pred,1)
 
     x1 = [t[i] for i in l1]
-    x2 = [t[i+len(trainPredict)] for i in l2]
-
     y1 = [x[i] for i in l1]
-    y2 = [x[i+len(trainPredict)] for i in l2]
-
     l3 = find_index(y,1)
     x3 = [t[i] for i in l3]
     y3 = [x[i] for i in l3]
@@ -179,8 +211,8 @@ def plot_res(df,trainPredict,testPredict,y):
             name ='train',
     )
     trace3 = go.Scatter(
-            x=x2,
-            y= y2,
+            x=0,
+            y= 0,
             mode = 'markers',
             name = 'test',
     )
@@ -202,16 +234,6 @@ def plot_res(df,trainPredict,testPredict,y):
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
     #plot(fig, filename='LSTM.html')
 
-def save_model(model):
-    model_json = model.to_json()
-    with open("model.json", "w") as json_file:
-        json_file.write(model_json)
-    model.save_weights("model.h5")
-    
-#################################################
-########### Important functions #################
-#################################################
-
 
 
 #################################################
@@ -220,20 +242,25 @@ def save_model(model):
 
 
 def main(argv):
+    if(len(argv)==0):
+        argv = [0.35]
     THRESHOLD = float(argv)
-    np.random.seed(42)
-    X,y,df = load()
-    trainX,testX,trainY,testY = process(X,y)
-    model = model_fit(trainX,trainY)
-    # make predictions
-    trainPredict = model.predict(trainX)
-    testPredict = model.predict(testX)
-    testPredict = list([1 if i[0]>THRESHOLD else 0 for i in testPredict])
-    trainPredict = list([1 if i[0]>THRESHOLD else 0 for i in trainPredict])
+    X_train,Y_train,_ = load(fileX_train,fileY_train)
+    X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
+    X_test,Y_test,t = load(fileX_test,fileY_test)
+    
+    model = model_fit(X_train,Y_train,X_valid,Y_valid)
+    pred = model.predict_proba(X_test)
+    pred = np.clip(pred,0,1)
+    testPredict = list([1 if i[0]>THRESHOLD else 0 for i in pred])
+    
+    
     # plot results
-    plot_res(df,trainPredict,testPredict,y)
-    return ([trainPredict,testPredict])
-
+    plot_res(t,testPredict,Y_test)
+    
+    res = pd.DataFrame(pred)
+    res.to_csv('LSTM.csv',index=False)
+    return res
 
 if __name__ == "__main__":
     # execute only if run as a script

@@ -29,17 +29,36 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.base import BaseEstimator
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-
+import pickle
+from sklearn import neighbors
+from sklearn.calibration import CalibratedClassifierCV
 #################################################
 ########### Global variables ####################
 #################################################
-THRESHOLD = 0.5
+C = 1.5
 
 ######################################################
-from keras import backend as K
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation
+class Classifier(BaseEstimator):
+    def __init__(self):
+        pass
+ 
+    def fit(self, X,y,X_test, y_test):
+        self.clf1 = neighbors.KNeighborsClassifier(5, weights='uniform').fit(X,y)
+        self.clf1.score(X_test, y_test)
+        self.clf2 = neighbors.KNeighborsClassifier(5, weights='distance').fit(X,y)
+        self.clf2.score(X_test, y_test)
+        self.clf3 = neighbors.KNeighborsClassifier(10, weights='uniform').fit(X,y)
+        self.clf3.score(X_test, y_test)
+        self.clf4 = neighbors.KNeighborsClassifier(10, weights='distance').fit(X,y)
+        self.clf4.score(X_test, y_test)
 
+       
+    def predict(self, X):
+        return self.clf.predict(X)
+ 
+    def predict_proba(self, X):
+        res = [self.clf1.predict_proba(X),self.clf2.predict_proba(X),self.clf3.predict_proba(X),self.clf4.predict_proba(X)]
+        return res
 fileX_train ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv'
 fileY_train = '/home/alexis/Bureau/historique/label-30-04.csv'
 
@@ -66,58 +85,19 @@ def load(fileX,fileY):
     return  X_train,y_train,t
 
 
-def precision(y_true, y_pred, threshold_shift=0.5-THRESHOLD):
-    beta = 1
 
-    # just in case of hipster activation at the final layer
-    y_pred = K.clip(y_pred, 0, 1)
+def model_fit(X1,y1,X2,y2):
+    clf = Classifier()
+    clf.fit(X1,[Y[0] for Y in y1],X2,[Y[0] for Y in y2])
+    return clf
 
-    # shifting the prediction threshold from .5 if needed
-    y_pred_bin = K.round(y_pred + threshold_shift)
+def find_index(l,v):
+    res = []
+    for i, j in enumerate(l):
+        if(j == v):
+            res.append(i)
+    return res    
 
-    tp = K.sum(K.round(y_true * y_pred_bin)) + K.epsilon()
-    fp = K.sum(K.round(K.clip(y_pred_bin - y_true, 0, 1)))
-    fn = K.sum(K.round(K.clip(y_true - y_pred, 0, 1)))
-
-    precision = tp / (tp + fp)
-    return precision
-    
-
-def recall(y_true, y_pred, threshold_shift=0.5-THRESHOLD):
-    beta = 1
-
-    # just in case of hipster activation at the final layer
-    y_pred = K.clip(y_pred, 0, 1)
-
-    # shifting the prediction threshold from .5 if needed
-    y_pred_bin = K.round(y_pred + threshold_shift)
-
-    tp = K.sum(K.round(y_true * y_pred_bin)) + K.epsilon()
-    fp = K.sum(K.round(K.clip(y_pred_bin - y_true, 0, 1)))
-    fn = K.sum(K.round(K.clip(y_true - y_pred_bin, 0, 1)))
-
-    recall = tp / (tp + fn)
-    return recall
-
-
-def fbeta(y_true, y_pred, threshold_shift=0.5-THRESHOLD):
-    beta = 2
-
-    # just in case of hipster activation at the final layer
-    y_pred = K.clip(y_pred, 0, 1)
-
-    # shifting the prediction threshold from .5 if needed
-    y_pred_bin = K.round(y_pred + threshold_shift)
-
-    tp = K.sum(K.round(y_true * y_pred_bin)) + K.epsilon()
-    fp = K.sum(K.round(K.clip(y_pred_bin - y_true, 0, 1)))
-    fn = K.sum(K.round(K.clip(y_true - y_pred, 0, 1)))
-
-    precision = tp / (tp + fp)
-    recall = tp / (tp + fn)
-
-    beta_squared = beta ** 2
-    return (beta_squared + 1) * (precision * recall) / (beta_squared * precision + recall)
 
 def mesure(y_pred,y_true):
     TP = 0
@@ -140,37 +120,6 @@ def mesure(y_pred,y_true):
     return TP,FP,FN
 
 
-
-def model_fit(X,y,X_test,y_test):
-    class_weight={
-    1: 1/(np.sum(y) / len(y)),
-    0:1}
-    np.random.seed(47)
-    model = Sequential()
-    model.add(Dense(1000, input_shape=(X.shape[1],)))
-    model.add(Activation('relu'))
-    model.add(Dropout(0.35))
-    model.add(Dense(500))
-    model.add(Activation('relu'))
-    model.add(Dropout(0.35))
-    model.add(Dense(250))
-    model.add(Activation('relu'))
-    model.add(Dropout(0.35))
-    model.add(Dense(1))
-    model.add(Activation('sigmoid'))
-
-    model.compile(loss='binary_crossentropy', optimizer='adamax',metrics=[fbeta,precision,recall])
-    model.fit(X, y,validation_data=(X_test,y_test), epochs=200, batch_size=50, verbose=2,class_weight = class_weight)
-    return model
-
-def find_index(l,v):
-    res = []
-    for i, j in enumerate(l):
-        if(j == v):
-            res.append(i)
-    return res    
-
-
 def plot_res(df,pred,y):
     x = df
     t= [i/60 +3 for i in range(len(x))]
@@ -186,7 +135,6 @@ def plot_res(df,pred,y):
     print('--------------------------------------------------')
     print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
     
-    
     tp,fp,fn = mesure(pred,y)
     beta = 2
     p = tp/(tp+fp)
@@ -194,9 +142,10 @@ def plot_res(df,pred,y):
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
     
-    
     print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
     print('--------------------------------------------------')
+    
+    
     l1 = find_index(pred,1)
 
     x1 = [t[i] for i in l1]
@@ -204,7 +153,6 @@ def plot_res(df,pred,y):
     l3 = find_index(y,1)
     x3 = [t[i] for i in l3]
     y3 = [x[i] for i in l3]
-
 
     trace1 = go.Scatter(
             x= t,
@@ -240,12 +188,10 @@ def plot_res(df,pred,y):
     fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    plot(fig, filename='NN.html')
+    #plot(fig, filename='KNN.html')
 
-def save_model(model):
-    pickle.dump(model.clf1, open("XGB1.pickle.dat", "wb"))
-    pickle.dump(model.clf2, open("XGB2.pickle.dat", "wb"))
-    return 0
+
+    
 
 #################################################
 ########### main with options ###################
@@ -254,23 +200,26 @@ def save_model(model):
 
 def main(argv):
     if(len(argv)==0):
-        argv = [0.35]
+        argv = [0.2]
     THRESHOLD = float(argv)
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
     X_test,Y_test,t = load(fileX_test,fileY_test)
-    
+    np.random.seed(7)
     model = model_fit(X_train,Y_train,X_valid,Y_valid)
     pred = model.predict_proba(X_test)
-    testPredict = list([1 if i[0]>THRESHOLD else 0 for i in pred])
+    res = []
+    for i in range(len(pred)):
+        testPredict = list([1 if i[1]>THRESHOLD else 0 for i in pred[i]])
+        # plot results
+        plot_res(t,testPredict,Y_test)
+        res.append(pred[i][:,0])
+        res.append(pred[i][:,1])
     
-    
-    # plot results
-    plot_res(t,testPredict,Y_test)
-    
-    res = pd.DataFrame(pred)
-    res.to_csv('NN.csv',index=False)
+    res = pd.DataFrame(res).T 
+    res.to_csv('KNN.csv',index=False)
     return res
+
 
 if __name__ == "__main__":
     # execute only if run as a script

@@ -35,36 +35,37 @@ import pickle
 ########### Global variables ####################
 #################################################
 ### XGB modeling
-params = {'eta': 0.45,
-          'max_depth': 20, 
+params = {'eta': 0.001,
+          'max_depth': 10, 
           'subsample': 0.9, 
-          'colsample_bytree': 0.9, 
-          'colsample_bylevel':0.9,
-          'min_child_weight':5,
-          'alpha':0,
-          'objective': 'binary:logistic',
-          'eval_metric': 'logloss',
-          'seed': 99,
-          'silent': False}
-params2 = {'eta': 0.45,
-          'max_depth': 15, 
-          'subsample': 0.9, 
-          'colsample_bytree': 0.9, 
-          'colsample_bylevel':0.9,
+          'colsample_bytree': 1, 
+          'colsample_bylevel':1,
           'min_child_weight':1,
           'alpha':1,
           'objective': 'binary:logistic',
           'eval_metric': 'logloss',
           'seed': 99,
-          'silent': False}
+          'silent': False,
+         'scale_pos_weight':20}
+params2 = {'eta': 0.001,
+          'max_depth': 8, 
+          'subsample': 0.9, 
+          'colsample_bytree': 1, 
+          'colsample_bylevel':1,
+          'min_child_weight':1,
+          'alpha':1,
+          'objective': 'binary:logistic',
+          'eval_metric': 'logloss',
+          'seed': 99,
+          'silent': False,
+         'scale_pos_weight':20}
 
 ######################################################
 class Classifier(BaseEstimator):
     def __init__(self):
         pass
  
-    def fit(self, X, y):
-        x1, x2, y1, y2 = train_test_split(X, y[:X.shape[0]], test_size=0.2, random_state=99)
+    def fit(self, x1, y1,x2,y2):
         watchlist = [(xgb.DMatrix(x1, y1), 'train'), (xgb.DMatrix(x2, y2), 'valid')]
         self.clf1 = xgb.train(params, xgb.DMatrix(x1, y1), 5000,  watchlist, maximize = False,verbose_eval=200, early_stopping_rounds=300)
         self.clf2 = xgb.train(params2, xgb.DMatrix(x1, y1), 5000,  watchlist, maximize = False,verbose_eval=200, early_stopping_rounds=300)
@@ -79,32 +80,36 @@ class Classifier(BaseEstimator):
         res = [(r1+r2)*0.5 for r1,r2 in zip(res1,res2)]
         return np.array([ [1-c,c] for c in res])
 
+fileX_train ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv'
+fileY_train = '/home/alexis/Bureau/historique/label-30-04.csv'
+
+fileX_valid ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180507_0_192_0_cleandata-processed.csv'
+fileY_valid = '/home/alexis/Bureau/historique/label-07-05.csv'
+
+fileX_test ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180509_0_192_0_cleandata-processed.csv'
+fileY_test = '/home/alexis/Bureau/historique/label-09-05.csv'
+
+
 #################################################
 ########### Important functions #################
 #################################################
-def load(fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv' ,fileY = '/home/alexis/Bureau/historique/label-30-04.csv'):
+def load(fileX,fileY):
     df = pd.read_csv(fileX)
     y = pd.read_csv(fileY)
     df = df.replace([np.inf, -np.inf], np.nan)
     df = df.fillna(1)
     X_train = df.values
-    y_train = y['CP'][3:].values.reshape(-1, 1)
     t = df['t']
+    y_train = y['label'][3:].values.reshape(-1, 1)
     scaler = MinMaxScaler(feature_range=(0, 1))
     X_train = scaler.fit_transform(X_train)
     return  X_train,y_train,t
 
-def process(dataset,Y):
-    train_size = int(len(dataset) * 0.67)
-    test_size = len(dataset) - train_size
-    trainX, testX = dataset[0:train_size,:], dataset[train_size:len(dataset),:]
-    trainY, testY = Y[0:train_size], Y[train_size:len(dataset)]
-    return trainX,testX,trainY,testY
 
 
-def model_fit(X,y):
+def model_fit(X1,y1,X2,y2):
     clf = Classifier()
-    clf.fit(X,y)
+    clf.fit(X1,[Y[0] for Y in y1],X2,[Y[0] for Y in y2])
     return clf
 
 def find_index(l,v):
@@ -114,12 +119,29 @@ def find_index(l,v):
             res.append(i)
     return res    
 
+def mesure(y_pred,y_true):
+    TP = 0
+    FP = 0
+    FN = 0
+    for i in range(len(y_pred)-1):
+        i = i+1
+        if(y_pred[i] == 1):
+            if(sum(y_true[i-1:i+1])>0):
+                TP += 1
+            else:
+                FP += 1
+    for i in range(len(y_true)-1):
+        i = i+1
+        if(y_true[i] == 1):
+            if(sum(y_pred[i-1:i+1])>0):
+                pass
+            else:
+                FN += 1
+    return TP,FP,FN
 
-def plot_res(df,trainPredict,testPredict,y):
+def plot_res(df,pred,y):
     x = df
     t= [i/60 +3 for i in range(len(x))]
-    
-    pred = trainPredict+testPredict
     tp = np.sum([z*x for z,x in zip(pred,y)])
     fp = np.sum([np.clip(z-x,0,1) for z,x in zip(pred,y)])
     fn = np.sum([np.clip(z-x,0,1) for z,x in zip(y,pred)])
@@ -130,16 +152,21 @@ def plot_res(df,trainPredict,testPredict,y):
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
     print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
-
-    l1 = find_index(trainPredict,1)
-    l2 = find_index(testPredict,1)
+    
+    tp,fp,fn = mesure(pred,y)
+    beta = 2
+    p = tp/(tp+fp)
+    r = tp/(tp+fn)
+    beta_squared = beta ** 2
+    f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
+    
+    
+    print("precison: "+str(p)+" recall: "+str(r)+" fbeta: "+str(f))
+    
+    l1 = find_index(pred,1)
 
     x1 = [t[i] for i in l1]
-    x2 = [t[i+len(trainPredict)] for i in l2]
-
     y1 = [x[i] for i in l1]
-    y2 = [x[i+len(trainPredict)] for i in l2]
-
     l3 = find_index(y,1)
     x3 = [t[i] for i in l3]
     y3 = [x[i] for i in l3]
@@ -158,8 +185,8 @@ def plot_res(df,trainPredict,testPredict,y):
             name ='train',
     )
     trace3 = go.Scatter(
-            x=x2,
-            y= y2,
+            x=0,
+            y= 0,
             mode = 'markers',
             name = 'test',
     )
@@ -179,7 +206,7 @@ def plot_res(df,trainPredict,testPredict,y):
     fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    #plot(fig, filename='CatBoost.html')
+    plot(fig, filename='xgb.html')
 
 def save_model(model):
     pickle.dump(model.clf1, open("XGB1.pickle.dat", "wb"))
@@ -193,20 +220,19 @@ def save_model(model):
 
 def main(argv):
     THRESHOLD = float(argv)
-    print(THRESHOLD)
-    X,y,df = load()
-    trainX,testX,trainY,testY = process(X,y)
-    model = model_fit(trainX,trainY)
-    # make predictions
-    trainPredict = model.predict_proba(trainX)
-    testPredict = model.predict_proba(testX)
-    testPredict1 = list([1 if i[1]>THRESHOLD else 0 for i in testPredict])
-    trainPredict1 = list([1 if i[1]>THRESHOLD else 0 for i in trainPredict])
+    X_train,Y_train,_ = load(fileX_train,fileY_train)
+    X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
+    X_test,Y_test,t = load(fileX_test,fileY_test)
+    
+    model = model_fit(X_train,Y_train,X_valid,Y_valid)
+    pred = model.predict_proba(X_test)
+    testPredict = list([1 if i[1]>THRESHOLD else 0 for i in pred])
+    
+    
     # plot results
-    plot_res(df,trainPredict1,testPredict1,y)
-    #save model
-    save_model(model)
-    res = pd.DataFrame(np.concatenate((trainPredict,testPredict)))
+    plot_res(t,testPredict,Y_test)
+    
+    res = pd.DataFrame(pred)
     res.to_csv('xgb.csv',index=False)
     return res
 

@@ -85,7 +85,9 @@ class Classifier(BaseEstimator):
         res1 = self.clf1.predict(X, num_iteration = self.clf1.best_iteration)
         res2 = self.clf2.predict(X,num_iteration = self.clf2.best_iteration)
         return np.array([[1-0.5*(a+b),0.5*(a+b)] for a,b in zip(res1,res2)])
-
+    def save_model(self):
+        self.clf1.save_model('model/LGBM1.txt')
+        self.clf2.save_model('model/LGBM2.txt')
 fileX_train ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv'
 fileY_train = '/home/alexis/Bureau/historique/label-30-04.csv'
 
@@ -253,6 +255,7 @@ def main(argv):
     
     res = pd.DataFrame(pred)
     res.to_csv('lightGBM.csv',index=False)
+    model.save_model()
     return res
 
 if __name__ == "__main__":

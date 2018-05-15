@@ -36,8 +36,9 @@ fileY_valid = '/home/alexis/Bureau/historique/label-07-05.csv'
 ########### Important functions #################
 #################################################
 def plot_res(df,predict,y,h = [3,27],threshold=0.5):
-    x = df
-    t= [i/60 +3+h[0] for i in range(len(x))]
+    x = df.values
+    x = x[(h[0]-3)*60:(h[1]-3)*60]
+    t= [(i+3)/60+h[0] for i in range(len(x))]
     
     pred = list([1 if i[-1]>threshold else 0 for i in predict])
     pred = pred[(h[0]-3)*60:(h[1]-3)*60]
@@ -66,9 +67,7 @@ def plot_res(df,predict,y,h = [3,27],threshold=0.5):
     print('----------------------------------------------------------------------------------------------------')
     
     l1 = find_index(pred,1)
-
-    x1 = [t[i+h[0]] for i in l1]
-
+    x1 = [t[i] for i in l1]
     y1 = [x[i]+10000 for i in l1]
 
     l3 = find_index(y,1)
@@ -109,8 +108,8 @@ def plot_res(df,predict,y,h = [3,27],threshold=0.5):
     fig.append_trace(trace3, 1, 1)
     fig.append_trace(trace4, 1, 1)
 
-    fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    #plot(fig, filename='Stack.html')
+    fig['layout'].update(height=3000, width=2000, title='Annomalie detection '+str(h[0])+'h-'+str(h[1])+'h')
+    #plot(fig, filename='Stack'+str(h[0])+'h-'+str(h[1])+'h.html')
 def mesure(y_pred,y_true):
     TP = 0
     FP = 0
@@ -187,7 +186,7 @@ def main(argv):
             np.random.seed(7)
             logistic = linear_model.LogisticRegression(C=i,class_weight='balanced',penalty='l2')
             logistic.fit(X_valid, Y_valid)
-            pickle.dump(logistic, open('logistic_regression.sav', 'wb'))
+            pickle.dump(logistic, open('model/logistic_regression.sav', 'wb'))
             os.system("python /home/alexis/Bureau/Stage/ML/Stack.py")
         return 0
     if(str(argv[0]) == 'trainall'):
@@ -210,13 +209,14 @@ def main(argv):
     
         X = pd.concat([l1,l2,l3,l4,l5,l6], axis=1).values
         np.random.seed(7)
-        logistic = pickle.load(open('logistic_regression.sav', 'rb'))
+        logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
         Predict = logistic.predict_proba(X)
         for j in [0.4]:
             print("Threshold="+str(j))
-            for h in [[3,27],[6,13],[13,20],[20,27],[6,24],[10,13],[12,15],[6,11],[13,16],[14,18],[16,19],[19,22],[20,23],[23,27]]:
+            for h in [[3,27],[6,13],[13,20],[20,27],[6,24],[10,13],[12,15],[6,11],[13,16],[14,18],[16,19],[19,22],[20,23],[23,27],[10,18]]:
                 print(h)
                 plot_res(pd.read_csv(fileX)['t'],Predict,Y,h,threshold = j)
+                pred = list([1 if i[-1]>j else 0 for i in Predict])
 
             #plot_res(pd.read_csv(fileX)['t'],Predict,Y,threshold = j)
     return ("process achevé sans erreures")

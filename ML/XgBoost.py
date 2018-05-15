@@ -212,8 +212,8 @@ def plot_res(df,pred,y):
     plot(fig, filename='xgb.html')
 
 def save_model(model):
-    pickle.dump(model.clf1, open("XGB1.pickle.dat", "wb"))
-    pickle.dump(model.clf2, open("XGB2.pickle.dat", "wb"))
+    pickle.dump(model.clf1, open("model/XGB1.pickle.dat", "wb"))
+    pickle.dump(model.clf2, open("model/XGB2.pickle.dat", "wb"))
     
 
 #################################################
@@ -241,6 +241,7 @@ def main(argv):
     pred_valid = model.predict_proba(X_valid)
     res_valid = pd.DataFrame(pred_valid)
     res_valid.to_csv('xgb_valid.csv',index=False)
+    save_model(model)
     return res
 
 if __name__ == "__main__":

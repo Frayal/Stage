@@ -31,7 +31,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import pickle
 from sklearn import neighbors
-from sklearn.calibration import CalibratedClassifierCV
+import pickle
 #################################################
 ########### Global variables ####################
 #################################################
@@ -225,7 +225,9 @@ def main(argv):
     res_valid.to_csv('KNN_valid.csv',index=False)
     res = pd.DataFrame(res).T 
     res.to_csv('KNN.csv',index=False)
+    pickle.dump(model, open('model/KNN.sav', 'wb'))
     return res
+    
 
 
 if __name__ == "__main__":

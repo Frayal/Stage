@@ -264,6 +264,12 @@ def main(argv):
     
     res = pd.DataFrame(pred)
     res.to_csv('LSTM.csv',index=False)
+    
+    model_json = model.to_json()
+    with open("model/LSTM.json", "w") as json_file:
+        json_file.write(model_json)
+        # serialize weights to HDF5
+    model.save_weights("model/LSTM.h5")
     return res
 
 if __name__ == "__main__":

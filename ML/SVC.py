@@ -230,6 +230,7 @@ def main(argv):
     res_valid = pd.DataFrame(res_valid).T
     res_valid.to_csv('SVC_valid.csv',index=False)
     res = pd.DataFrame(res).T 
+    pickle.dump(model, open('model/SVC.sav', 'wb'))
     res.to_csv('SVC.csv',index=False)
     
     return res

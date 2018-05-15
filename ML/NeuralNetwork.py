@@ -272,6 +272,12 @@ def main(argv):
     res_valid = pd.DataFrame(pred_valid)
     res_valid.to_csv('NN_valid.csv',index=False)
     
+    model_json = model.to_json()
+    with open("model/NN.json", "w") as json_file:
+        json_file.write(model_json)
+        # serialize weights to HDF5
+    model.save_weights("model/NN.h5")
+    
     res = pd.DataFrame(pred)
     res.to_csv('NN.csv',index=False)
     return res

@@ -179,8 +179,8 @@ def plot_res(df,pred,y):
     plot(fig, filename='CatBoost.html')
 
 def save_model(model):
-    model.clf1.save_model("catboostmodel1")
-    model.clf2.save_model("catboostmodel2")
+    model.clf1.save_model("model/catboostmodel1")
+    model.clf2.save_model("model/catboostmodel2")
     
 
 
@@ -213,6 +213,7 @@ def main(argv):
     
     res = pd.DataFrame(pred)
     res.to_csv('catboost.csv',index=False)
+    save_model(model)
     return res
 
 if __name__ == "__main__":

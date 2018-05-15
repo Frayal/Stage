@@ -215,7 +215,14 @@ def main(argv):
         plot_res(t,testPredict,Y_test)
         res.append(pred[i][:,0])
         res.append(pred[i][:,1])
+    pred_valid = model.predict_proba(X_valid)
+    res_valid = []
+    for i in range(len(pred_valid)):
+        res_valid.append(pred_valid[i][:,0])
+        res_valid.append(pred_valid[i][:,1])
     
+    res_valid = pd.DataFrame(res_valid).T
+    res_valid.to_csv('KNN_valid.csv',index=False)
     res = pd.DataFrame(res).T 
     res.to_csv('KNN.csv',index=False)
     return res

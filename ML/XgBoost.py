@@ -232,13 +232,15 @@ def main(argv):
     model = model_fit(X_train,Y_train,X_valid,Y_valid)
     pred = model.predict_proba(X_test)
     testPredict = list([1 if i[1]>THRESHOLD else 0 for i in pred])
-    
-    
     # plot results
     plot_res(t,testPredict,Y_test)
     
     res = pd.DataFrame(pred)
     res.to_csv('xgb.csv',index=False)
+    
+    pred_valid = model.predict_proba(X_valid)
+    res_valid = pd.DataFrame(pred_valid)
+    res_valid.to_csv('xgb_valid.csv',index=False)
     return res
 
 if __name__ == "__main__":

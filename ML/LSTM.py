@@ -258,6 +258,10 @@ def main(argv):
     # plot results
     plot_res(t,testPredict,Y_test)
     
+    pred_valid = model.predict_proba(X_valid)
+    res_valid = pd.DataFrame(pred_valid)
+    res_valid.to_csv('LSTM_valid.csv',index=False)
+    
     res = pd.DataFrame(pred)
     res.to_csv('LSTM.csv',index=False)
     return res

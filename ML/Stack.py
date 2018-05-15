@@ -25,21 +25,23 @@ import plotly.graph_objs as go
 import plotly.offline as offline
 from plotly import tools
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+import pickle
 #################################################
 ########### Global variables ####################
 #################################################
 fileY = '/home/alexis/Bureau/historique/label-09-05.csv'
 fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180509_0_192_0_cleandata-processed.csv'
+fileY_valid = '/home/alexis/Bureau/historique/label-07-05.csv'
 #################################################
 ########### Important functions #################
 #################################################
-def plot_res(df,trainPredict,testPredict,y,threshold=0.5):
+def plot_res(df,predict,y,h = [3,27],threshold=0.5):
     x = df
-    t= [i/60 +3 for i in range(len(x))]
+    t= [i/60 +3+h[0] for i in range(len(x))]
     
-    testPredict1 = list([1 if i[-1]>threshold else 0 for i in testPredict])
-    trainPredict1 = list([1 if i[-1]>threshold else 0 for i in trainPredict])
-    pred = trainPredict1+testPredict1
+    pred = list([1 if i[-1]>threshold else 0 for i in predict])
+    pred = pred[(h[0]-3)*60:(h[1]-3)*60]
+    y = y[(h[0]-3)*60:(h[1]-3)*60]
     tp = np.sum([z*x for z,x in zip(pred,y)])
     fp = np.sum([np.clip(z-x,0,1) for z,x in zip(pred,y)])
     fn = np.sum([np.clip(z-x,0,1) for z,x in zip(y,pred)])
@@ -63,14 +65,11 @@ def plot_res(df,trainPredict,testPredict,y,threshold=0.5):
     print("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
     print('----------------------------------------------------------------------------------------------------')
     
-    l1 = find_index(trainPredict1,1)
-    l2 = find_index(testPredict1,1)
+    l1 = find_index(pred,1)
 
-    x1 = [t[i] for i in l1]
-    x2 = [t[i+len(trainPredict1)] for i in l2]
+    x1 = [t[i+h[0]] for i in l1]
 
-    y1 = [x[i] for i in l1]
-    y2 = [x[i+len(trainPredict1)] for i in l2]
+    y1 = [x[i]+10000 for i in l1]
 
     l3 = find_index(y,1)
     x3 = [t[i] for i in l3]
@@ -90,8 +89,8 @@ def plot_res(df,trainPredict,testPredict,y,threshold=0.5):
             name ='train',
     )
     trace3 = go.Scatter(
-            x=x2,
-            y= y2,
+            x=0,
+            y=0,
             mode = 'markers',
             name = 'test',
     )
@@ -152,9 +151,11 @@ def find_index(l,v):
 def main(argv):
     y = pd.read_csv(fileY)
     Y = y['label'][3:].values.reshape(-1, 1)
+    y_valid = pd.read_csv(fileY_valid)
+    Y_valid = y_valid['label'][3:].values.reshape(-1, 1)
     if(len(argv)==0):
         argv = [0]
-    if(str(argv[0]) == 'train'):
+    if(str(argv[0]) == 'trainclf'):
         print("LGBM")
         l1 = os.system("python /home/alexis/Bureau/Stage/ML/LightGBM.py 0.316")
         print("catboost")
@@ -169,9 +170,34 @@ def main(argv):
         l6 = os.system("python /home/alexis/Bureau/Stage/ML/KNN.py 0.2")
         #print("LSTM")
         #l7 = os.system("python /home/alexis/Bureau/Stage/ML/LSTM.py 0.4")
-        print('stacking model and training logistic regression...')
-        os.system("python /home/alexis/Bureau/Stage/ML/Stack.py")
         return 0
+    if(str(argv[0]) == 'trainlogreg'):
+        l1 = pd.read_csv("lightGBM_valid.csv")
+        l2 = pd.read_csv("catboost_valid.csv")
+        l3 = pd.read_csv("SVC_valid.csv")
+        l4 = pd.read_csv("NN_valid.csv")
+        l5 = pd.read_csv("xgb_valid.csv")
+        l6 = pd.read_csv("KNN_valid.csv")
+        #l7 = pd.read_csv("LSTM_valid.csv")
+        
+        
+        X_valid = pd.concat([l1,l2,l3,l4,l5,l6], axis=1).values
+        for i in [0.001]:
+            print("C="+str(i))
+            np.random.seed(7)
+            logistic = linear_model.LogisticRegression(C=i,class_weight='balanced',penalty='l2')
+            logistic.fit(X_valid, Y_valid)
+            pickle.dump(logistic, open('logistic_regression.sav', 'wb'))
+            os.system("python /home/alexis/Bureau/Stage/ML/Stack.py")
+        return 0
+    if(str(argv[0]) == 'trainall'):
+        print('training models ...')
+        os.system("python /home/alexis/Bureau/Stage/ML/Stack.py trainclf")
+        print('training logistic regression...')
+        os.system("python /home/alexis/Bureau/Stage/ML/Stack.py trainlogreg")
+        print('Scoring...')
+        os.system("python /home/alexis/Bureau/Stage/ML/Stack.py")
+    
     else:
         l1 = pd.read_csv("lightGBM.csv")
         l2 = pd.read_csv("catboost.csv")
@@ -182,21 +208,17 @@ def main(argv):
         #l7 = pd.read_csv("LSTM.csv")
         
     
-    X = pd.concat([l1,l2,l3,l4,l5,l6], axis=1).values
-    train_size = int(len(X) * 0.67)
-    test_size = len(X) - train_size
-    trainX, testX = X[0:train_size:,], X[train_size:len(X):,]
-    trainY, testY = Y[0:train_size], Y[train_size:len(X[0])]
-    for i in range(1):
+        X = pd.concat([l1,l2,l3,l4,l5,l6], axis=1).values
         np.random.seed(7)
-        logistic = linear_model.LogisticRegression(C=1+0.1*i,class_weight='balanced',penalty='l2')
-        logistic.fit(trainX, trainY)
-        testPredict = logistic.predict_proba(testX)
-        trainPredict = logistic.predict_proba(trainX)
-        print("C="+str(1+0.1*i))
-        for j in range(1):
-            print(0.4)
-            plot_res(pd.read_csv(fileX)['t'],trainPredict,testPredict,Y,threshold = 0.4)
+        logistic = pickle.load(open('logistic_regression.sav', 'rb'))
+        Predict = logistic.predict_proba(X)
+        for j in [0.4]:
+            print("Threshold="+str(j))
+            for h in [[3,27],[6,13],[13,20],[20,27],[6,24],[10,13],[12,15],[6,11],[13,16],[14,18],[16,19],[19,22],[20,23],[23,27]]:
+                print(h)
+                plot_res(pd.read_csv(fileX)['t'],Predict,Y,h,threshold = j)
+
+            #plot_res(pd.read_csv(fileX)['t'],Predict,Y,threshold = j)
     return ("process achevé sans erreures")
 
 

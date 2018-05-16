@@ -101,9 +101,10 @@ def processing(X_RTS,X_PTV):
     IN: two DataFrame of RTS and PTV
     OUT: a DataFrame of all the valuable infos
     '''
-    X_RTS['minutes'] = X_RTS['minutes']+180
+    X_RTS['minutes'] = X_RTS.index+180+3
     # Creating temp DataFrame to make the join possible
     tdf = pd.DataFrame()
+    print(X_RTS.sum())
     tdf['debut'] = X_PTV['debut']
     tdf['fin'] = tdf['debut']+X_PTV['DUREE']
     tdf['titre'] = X_PTV['TITRE']
@@ -119,6 +120,7 @@ def processing(X_RTS,X_PTV):
     df = df.drop(IRRELEVANT,axis=1)
     df = df = df.fillna(-1)
     df = get_features_from_join(df)
+    df['heure'] = df['minutes'].apply(lambda x:str(int(x/60))+'h'+str(int(x%60)))
     return df
 
 #################################################
@@ -127,15 +129,32 @@ def processing(X_RTS,X_PTV):
 
 
 def main(argv):
-    CHAINE = argv[0]
-    DATE = argv[1]
-    JOINDATE,CHAINE2 = updateargs(CHAINE,DATE)
+    #CHAINE = argv[0]
+    DATE = argv[0]
+    #JOINDATE,CHAINE2 = updateargs(CHAINE,DATE)
+    JOINDATE = "".join(list(DATE.split('-')))
+    
+    labels = pd.read_csv('/home/alexis/Bureau/historique/label-'+DATE.split('-')[-1]+'-'+DATE.split('-')[-2]+'.csv')
+    labels['minutes'] = labels.index+180
+    l = labels[labels['label']==1].index
+    print(labels.sum())
+    for i in l:
+        labels['label'][i-1] = 1
+        labels['label'][i+1] = 1
+    
+    
+    filePTV = "IPTV_"+str(DATE)+"_TF1.csv"
+    fileRTS = "pred_"+str(JOINDATE)+".csv"
 
-    X_PTV = pd.read_csv(filePTV,index_col=False)
-    X_RTS = pd.read_csv(fileRTS,index_col=False)
+    X_PTV = pd.read_csv(filePTV)
+    X_RTS = pd.read_csv(fileRTS,names= ["CP"])
 
     df = processing(X_RTS,X_PTV)
-    df.to_csv('joined data/'+CHAINE+'_'+DATE+'.csv',index = False)
+    df = df[df['CP']==1]
+    
+    df = df.merge(labels)
+    
+    df.to_csv('merged_'+DATE+'.csv',index = False)
 
 
     return ("process achevé sans erreures")

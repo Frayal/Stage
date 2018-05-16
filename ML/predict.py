@@ -28,7 +28,7 @@ from sklearn.preprocessing import MinMaxScaler
 #################################################
 ########### Global variables ####################
 #################################################
-fileX ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv'
+fileX_train ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv'
 fileY_train = '/home/alexis/Bureau/historique/label-30-04.csv'
 
 fileX_valid ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180507_0_192_0_cleandata-processed.csv'
@@ -90,7 +90,7 @@ def load_models():
 
 def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN):
     #LGBM,CAT,SVC,NN,XGB,KNN
-    
+       
     res1 = LGBM[0].predict(X, num_iteration = LGBM[0].best_iteration)
     res2 = LGBM[1].predict(X,num_iteration = LGBM[1].best_iteration)
     l1 = pd.DataFrame([[1-0.5*(a+b),0.5*(a+b)] for a,b in zip(res1,res2)])
@@ -122,7 +122,50 @@ def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN):
 
     return pd.concat([l1,l2,l3,l4,l5,l6], axis=1)
     
+def scoring(predict,y,h = [3,27],threshold=0.5):     
+    pred = list([1 if i[-1]>threshold else 0 for i in predict])
+    pred = pred[(h[0]-3)*60:(h[1]-3)*60]
+    y = y[(h[0]-3)*60:(h[1]-3)*60]
+    tp = np.sum([z*x for z,x in zip(pred,y)])
+    fp = np.sum([np.clip(z-x,0,1) for z,x in zip(pred,y)])
+    fn = np.sum([np.clip(z-x,0,1) for z,x in zip(y,pred)])
     
+    beta = 2
+    p = tp/np.sum(pred)
+    r = tp/np.sum(y)
+    beta_squared = beta ** 2
+    f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
+    print('----------------------------------------------------------------------------------------------------')
+    print("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
+    tp,fp,fn = mesure(pred,y)
+    beta = 2
+    p = tp/(tp+fp)
+    r = tp/(tp+fn)
+    beta_squared = beta ** 2
+    f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
+    
+    print("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
+    print('----------------------------------------------------------------------------------------------------')
+    return 0
+def mesure(y_pred,y_true):
+    TP = 0
+    FP = 0
+    FN = 0
+    for i in range(len(y_pred)-1):
+        i = i+1
+        if(y_pred[i] == 1):
+            if(sum(y_true[i-1:i+1])>0):
+                TP += 1
+            else:
+                FP += 1
+    for i in range(len(y_true)-1):
+        i = i+1
+        if(y_true[i] == 1):
+            if(sum(y_pred[i-1:i+1])>0):
+                pass
+            else:
+                FN += 1
+    return TP,FP,FN
     
 
 #################################################
@@ -132,16 +175,23 @@ def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN):
 
 def main(argv):
     DATE = argv[0]
-    file = '/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_'+str(DATE)+'_0_192_0_cleandata-processed.csv'    
+    THRESHOLD = float(argv[1])
+    d = list(DATE)
+    d = str(d[-2])+str(d[-1])+"-"+str(d[-4])+str(d[-3])
+    fileX = '/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_'+str(DATE)+'_0_192_0_cleandata-processed.csv'
+    fileY = '/home/alexis/Bureau/historique/label-'+d+'.csv'
+    y = pd.read_csv(fileY)
+    Y = y['label'][3:].values.reshape(-1, 1)
     X,t = load(fileX)
     SVC,XGB,CatBoost,KNN,LGBM,NN,logistic = load_models()
     df = makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN)
-    df = df.replace([np.inf, -np.inf], np.nan)
-    df = df.fillna(1)
     X_train = df.values
+    print(X_train.shape)
     Predict = logistic.predict_proba(X_train)
-    pred = pd.DataFrame([1 if i[-1]>0.4 else 0 for i in Predict])
-    pred.to_csv('pred_'+str(DATE)+'.csv',index=False) 
+    
+    pred = pd.DataFrame([1 if i[-1]>THRESHOLD else 0 for i in Predict])
+    pred.to_csv('pred_'+str(DATE)+'.csv',index=False)
+    scoring(Predict,Y,h = [3,27],threshold=THRESHOLD) 
 
 if __name__ == "__main__":
     # execute only if run as a script

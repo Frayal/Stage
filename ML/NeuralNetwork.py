@@ -29,7 +29,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.base import BaseEstimator
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-
+from keras.backend import manual_variable_initialization 
 #################################################
 ########### Global variables ####################
 #################################################
@@ -253,6 +253,7 @@ def save_model(model):
 
 
 def main(argv):
+    
     if(len(argv)==0):
         argv = [0.35]
     THRESHOLD = float(argv)

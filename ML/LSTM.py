@@ -31,6 +31,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from keras.layers import Dense, Dropout, Activation
 from keras.layers import Dense, LSTM, SimpleRNN
+
+from keras.backend import manual_variable_initialization 
 #################################################
 ########### Global variables ####################
 #################################################
@@ -242,6 +244,7 @@ def plot_res(df,pred,y):
 
 
 def main(argv):
+    manual_variable_initialization(True)
     if(len(argv)==0):
         argv = [0.35]
     THRESHOLD = float(argv)

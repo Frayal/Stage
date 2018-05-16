@@ -81,9 +81,10 @@ def load_models():
     json_file.close()
     NN = model_from_json(loaded_model_json)
     # load weights into new model
+    NN.compile(loss='binary_crossentropy', optimizer='adamax',metrics=['accuracy'])
     NN.load_weights("model/NN.h5")
     print("Loaded model from disk")
-    NN.compile(loss='binary_crossentropy', optimizer='adamax',metrics=['accuracy'])
+    
     
     logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
     return(SVC,XGB,CatBoost,KNN,LGBM,NN,logistic)
@@ -94,10 +95,10 @@ def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN):
     res1 = LGBM[0].predict(X, num_iteration = LGBM[0].best_iteration)
     res2 = LGBM[1].predict(X,num_iteration = LGBM[1].best_iteration)
     l1 = pd.DataFrame([[1-0.5*(a+b),0.5*(a+b)] for a,b in zip(res1,res2)])
-    
-    
+  
     
     l2 =  pd.DataFrame([[1-(v[1]+l[1])*0.5,(v[1]+l[1])*0.5] for v,l in zip(CatBoost[0].predict_proba(X),CatBoost[1].predict_proba(X))])
+      
     
     res = [SVC[1].predict_proba(X),SVC[1].predict_proba(X),SVC[1].predict_proba(X),SVC[1].predict_proba(X)]
     l3 = []
@@ -120,7 +121,7 @@ def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN):
         l6.append(res[i][:,1])
     l6 = pd.DataFrame(l6).T
 
-    return pd.concat([l1,l2,l3,l4,l5,l6], axis=1)
+    return pd.concat([l2,l3,l4,l5,l6], axis=1) #################################""
     
 def scoring(predict,y,h = [3,27],threshold=0.5):     
     pred = list([1 if i[-1]>threshold else 0 for i in predict])
@@ -186,8 +187,11 @@ def main(argv):
     SVC,XGB,CatBoost,KNN,LGBM,NN,logistic = load_models()
     df = makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN)
     X_train = df.values
+    np.random.seed(7)
     print(X_train.shape)
+    np.random.seed(7)
     Predict = logistic.predict_proba(X_train)
+    np.random.seed(7)
     
     pred = pd.DataFrame([1 if i[-1]>THRESHOLD else 0 for i in Predict])
     pred.to_csv('pred_'+str(DATE)+'.csv',index=False)

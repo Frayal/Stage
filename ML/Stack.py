@@ -110,6 +110,8 @@ def plot_res(df,predict,y,h = [3,27],threshold=0.5):
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection '+str(h[0])+'h-'+str(h[1])+'h')
     #plot(fig, filename='Stack'+str(h[0])+'h-'+str(h[1])+'h.html')
+    
+
 def mesure(y_pred,y_true):
     TP = 0
     FP = 0
@@ -180,7 +182,7 @@ def main(argv):
         #l7 = pd.read_csv("LSTM_valid.csv")
         
         
-        X_valid = pd.concat([l1,l2,l3,l4,l5,l6], axis=1).values
+        X_valid = pd.concat([l2,l3,l4,l5,l6], axis=1).values #"****************"
         for i in [0.001]:
             print("C="+str(i))
             np.random.seed(7)
@@ -207,9 +209,10 @@ def main(argv):
         #l7 = pd.read_csv("LSTM.csv")
         
     
-        X = pd.concat([l1,l2,l3,l4,l5,l6], axis=1).values
+        X = pd.concat([l2,l3,l4,l5,l6], axis=1).values #"********************"
         np.random.seed(7)
         logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
+        np.random.seed(7)
         Predict = logistic.predict_proba(X)
         for j in [0.4]:
             print("Threshold="+str(j))

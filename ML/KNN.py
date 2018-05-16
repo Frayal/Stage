@@ -190,7 +190,11 @@ def plot_res(df,pred,y):
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
     #plot(fig, filename='KNN.html')
 
-
+def save_model(model):
+    pickle.dump(model.clf1, open('model/KNN1.sav', 'wb'))
+    pickle.dump(model.clf2, open('model/KNN2.sav', 'wb'))
+    pickle.dump(model.clf3, open('model/KNN3.sav', 'wb'))
+    pickle.dump(model.clf4, open('model/KNN4.sav', 'wb'))
     
 
 #################################################
@@ -225,7 +229,7 @@ def main(argv):
     res_valid.to_csv('KNN_valid.csv',index=False)
     res = pd.DataFrame(res).T 
     res.to_csv('KNN.csv',index=False)
-    pickle.dump(model, open('model/KNN.sav', 'wb'))
+    save_model(model)
     return res
     
 

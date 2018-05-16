@@ -217,8 +217,6 @@ def plot_res(df,pred,y):
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
     #plot(fig, filename='LGBM.html')
    
- 
-     
 
 def logloss_lgbm(preds, dtrain):
     labels = dtrain.get_label()

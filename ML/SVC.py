@@ -195,8 +195,10 @@ def plot_res(df,pred,y):
     #plot(fig, filename='SVC.html')
 
 def save_model(model):
-    pickle.dump(model.clf1, open("XGB1.pickle.dat", "wb"))
-    pickle.dump(model.clf2, open("XGB2.pickle.dat", "wb"))
+    pickle.dump(model.clf1, open('model/SVC1.sav', 'wb'))
+    pickle.dump(model.clf2, open('model/SVC2.sav', 'wb'))
+    pickle.dump(model.clf3, open('model/SVC3.sav', 'wb'))
+    pickle.dump(model.clf4, open('model/SVC4.sav', 'wb'))
     
 
 #################################################
@@ -230,7 +232,7 @@ def main(argv):
     res_valid = pd.DataFrame(res_valid).T
     res_valid.to_csv('SVC_valid.csv',index=False)
     res = pd.DataFrame(res).T 
-    pickle.dump(model, open('model/SVC.sav', 'wb'))
+    save_model(model)
     res.to_csv('SVC.csv',index=False)
     
     return res

@@ -32,41 +32,42 @@ import xgboost as xgb
 from sklearn.model_selection import train_test_split
 import lightgbm as lgb
 from sklearn.metrics import log_loss
+from sklearn.externals import joblib
 #################################################
 ########### Global variables ####################
 #################################################
 ### LGB modeling
-params = {'learning_rate': 0.0015,
+params = {'learning_rate': 0.015,
           'subsample': 0.9,
           #'subsample_freq': 1,
           'colsample_bytree': 0.9,
           'colsample_bylevel':0.9,
-          'reg_alpha': 0.0,
-          'reg_lambda': 0,
-          'max_depth' : 20,
-          'num_leaves': 15,        
-          'min_data_in_leaf': 2, 
+          'reg_alpha': 1,
+          'reg_lambda': 1,
+          'max_depth' : 10,
+          'min_data_in_leaf': 1, 
           'boosting': 'dart',#'rf','dart','goss','gbdt'
           'objective': 'binary',
           'metric': 'binary_logloss',
           'is_training_metric': True,
-          'seed': 99,}
+          'seed': 99,'silent' : True,"verbose":-1}
 
-params1 = {'learning_rate': 0.0015,
+params1 = {'learning_rate': 0.015,
           'subsample': 0.9,
           #'subsample_freq': 1,
           'colsample_bytree': 0.9,
           'colsample_bylevel':0.9,
-          'reg_alpha': 0.0,
-          'reg_lambda': 0,
-          'max_depth' : 20,
+          'reg_alpha': 1,
+          'reg_lambda': 1,
+          'max_depth' : 8,
           'num_leaves': 15,        
-          'min_data_in_leaf': 2, 
+          'min_data_in_leaf': 1, 
           'boosting': 'dart',#'rf','dart','goss','gbdt'
           'objective': 'binary',
           'metric': 'binary_logloss',
           'is_training_metric': True,
-          'seed': 99,}
+          'seed': 99,
+          'silent' : True,"verbose":-1}
 MAX_TREES = 5000
 
 ######################################################
@@ -85,9 +86,7 @@ class Classifier(BaseEstimator):
         res1 = self.clf1.predict(X, num_iteration = self.clf1.best_iteration)
         res2 = self.clf2.predict(X,num_iteration = self.clf2.best_iteration)
         return np.array([[1-0.5*(a+b),0.5*(a+b)] for a,b in zip(res1,res2)])
-    def save_model(self):
-        self.clf1.save_model('model/LGBM1.txt')
-        self.clf2.save_model('model/LGBM2.txt')
+    
 fileX_train ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv'
 fileY_train = '/home/alexis/Bureau/historique/label-30-04.csv'
 
@@ -216,7 +215,12 @@ def plot_res(df,pred,y):
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
     #plot(fig, filename='LGBM.html')
-   
+    return 0
+def save_model(model):
+    joblib.dump(model.clf1, 'model/LGBM1.pkl')
+    joblib.dump(model.clf2, 'model/LGBM2.pkl')
+    model.clf1.save_model('model/LGBM1.txt')
+    model.clf2.save_model('model/LGBM2.txt')
 
 def logloss_lgbm(preds, dtrain):
     labels = dtrain.get_label()
@@ -230,8 +234,8 @@ def logloss_lgbm(preds, dtrain):
 
 def main(argv):
     if(len(argv)==0):
-        argv = [0.316]
-    THRESHOLD = float(argv)
+        argv = [0.16]
+    THRESHOLD = float(argv[0])
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
     X_test,Y_test,t = load(fileX_test,fileY_test)
@@ -253,9 +257,9 @@ def main(argv):
     
     res = pd.DataFrame(pred)
     res.to_csv('lightGBM.csv',index=False)
-    model.save_model()
+    save_model(model)
     return res
 
 if __name__ == "__main__":
     # execute only if run as a script
-    main(sys.argv[1])
+    main(sys.argv[1:])

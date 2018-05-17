@@ -25,6 +25,7 @@ import xgboost as xgb
 import lightgbm as lgb
 from keras.models import model_from_json
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.externals import joblib
 #################################################
 ########### Global variables ####################
 #################################################
@@ -52,10 +53,10 @@ def load(fileX):
 
 def load_models():
     SVC = []
-    SVC.append(pickle.load(open('model/SVC1.sav', 'rb')))
-    SVC.append(pickle.load(open('model/SVC2.sav', 'rb')))
-    SVC.append(pickle.load(open('model/SVC3.sav', 'rb')))
-    SVC.append(pickle.load(open('model/SVC4.sav', 'rb')))
+    SVC.append(joblib.load('model/SVC1.joblib.pkl'))
+    SVC.append(joblib.load('model/SVC2.joblib.pkl'))
+    SVC.append(joblib.load('model/SVC3.joblib.pkl'))
+    SVC.append(joblib.load('model/SVC4.joblib.pkl'))
     
     XGB = []
     XGB.append(pickle.load(open("model/XGB1.pickle.dat", "rb")))
@@ -71,9 +72,12 @@ def load_models():
     KNN.append(pickle.load(open('model/KNN3.sav', 'rb')))
     KNN.append(pickle.load(open('model/KNN4.sav', 'rb')))
     
+    
+    
     LGBM = []
-    LGBM.append(lgb.Booster(model_file='model/LGBM1.txt'))
-    LGBM.append(lgb.Booster(model_file='model/LGBM2.txt'))
+    LGBM.append(joblib.load('model/LGBM1.pkl'))
+    LGBM.append(joblib.load('model/LGBM2.pkl'))
+    
     
     
     json_file = open("model/NN.json", 'r')
@@ -95,17 +99,18 @@ def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN):
     res1 = LGBM[0].predict(X, num_iteration = LGBM[0].best_iteration)
     res2 = LGBM[1].predict(X,num_iteration = LGBM[1].best_iteration)
     l1 = pd.DataFrame([[1-0.5*(a+b),0.5*(a+b)] for a,b in zip(res1,res2)])
-  
+    
     
     l2 =  pd.DataFrame([[1-(v[1]+l[1])*0.5,(v[1]+l[1])*0.5] for v,l in zip(CatBoost[0].predict_proba(X),CatBoost[1].predict_proba(X))])
       
     
-    res = [SVC[1].predict_proba(X),SVC[1].predict_proba(X),SVC[1].predict_proba(X),SVC[1].predict_proba(X)]
+    res = [SVC[0].predict_proba(X),SVC[1].predict_proba(X),SVC[2].predict_proba(X),SVC[3].predict_proba(X)]
     l3 = []
     for i in range(len(res)):
         l3.append(res[i][:,0])
         l3.append(res[i][:,1])
     l3 = pd.DataFrame(l3).T
+    
     
     l4 = pd.DataFrame(NN.predict_proba(X))
     
@@ -114,14 +119,19 @@ def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN):
     res = [[1-(r1+r2)*0.5,(r1+r2)*0.5] for r1,r2 in zip(res1,res2)]
     l5 = pd.DataFrame(res)
     
-    res = [KNN[1].predict_proba(X),KNN[1].predict_proba(X),KNN[1].predict_proba(X),KNN[1].predict_proba(X)]
+    res = [KNN[0].predict_proba(X),KNN[1].predict_proba(X),KNN[2].predict_proba(X),KNN[3].predict_proba(X)]
     l6 = []
     for i in range(len(res)):
         l6.append(res[i][:,0])
         l6.append(res[i][:,1])
     l6 = pd.DataFrame(l6).T
 
-    return pd.concat([l2,l3,l4,l5,l6], axis=1) #################################""
+    
+   
+    print(l1.sum())
+    
+    
+    return pd.concat([l1,l2,l3,l4,l5,l6], axis=1) #################################""
     
 def scoring(predict,y,h = [3,27],threshold=0.5):     
     pred = list([1 if i[-1]>threshold else 0 for i in predict])

@@ -32,6 +32,7 @@ from sklearn.model_selection import train_test_split
 import pickle
 from sklearn import svm
 from sklearn.calibration import CalibratedClassifierCV
+from sklearn.externals import joblib
 #################################################
 ########### Global variables ####################
 #################################################
@@ -47,13 +48,13 @@ class Classifier(BaseEstimator):
         1: 1/(np.sum(y) / len(y)),
         0:1}
         self.clf1 = svm.SVC(kernel='linear', C=C,probability = True).fit(X,y)
-        self.clf1.score(X_test, y_test)
+        print(self.clf1.score(X_test, y_test))
         self.clf2 = svm.SVC(kernel='rbf', gamma=0.1, C=1,probability = True,class_weight=class_weight).fit(X,y)
-        self.clf2.score(X_test, y_test)
+        print(self.clf2.score(X_test, y_test))
         self.clf3 = svm.SVC(kernel='rbf', gamma=0.7, C=0.5,probability = True,class_weight=class_weight).fit(X,y)
-        self.clf3.score(X_test, y_test)
+        print(self.clf3.score(X_test, y_test))
         self.clf4 = svm.SVC(kernel='poly', degree=3, C=C,probability = True).fit(X,y)
-        self.clf4.score(X_test, y_test)
+        print(self.clf4.score(X_test, y_test))
 
        
     def predict(self, X):
@@ -195,6 +196,11 @@ def plot_res(df,pred,y):
     #plot(fig, filename='SVC.html')
 
 def save_model(model):
+    joblib.dump(model.clf1, 'model/SVC1.joblib.pkl', compress=9)
+    joblib.dump(model.clf2, 'model/SVC2.joblib.pkl', compress=9)
+    joblib.dump(model.clf3, 'model/SVC3.joblib.pkl', compress=9)
+    joblib.dump(model.clf4, 'model/SVC4.joblib.pkl', compress=9)
+    
     pickle.dump(model.clf1, open('model/SVC1.sav', 'wb'))
     pickle.dump(model.clf2, open('model/SVC2.sav', 'wb'))
     pickle.dump(model.clf3, open('model/SVC3.sav', 'wb'))

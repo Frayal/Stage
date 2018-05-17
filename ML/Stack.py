@@ -26,6 +26,7 @@ import plotly.offline as offline
 from plotly import tools
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import pickle
+from sklearn.externals import joblib
 #################################################
 ########### Global variables ####################
 #################################################
@@ -182,7 +183,7 @@ def main(argv):
         #l7 = pd.read_csv("LSTM_valid.csv")
         
         
-        X_valid = pd.concat([l2,l3,l4,l5,l6], axis=1).values #"****************"
+        X_valid = pd.concat([l1,l2,l3,l4,l5,l6], axis=1).values #"****************"
         for i in [0.001]:
             print("C="+str(i))
             np.random.seed(7)
@@ -208,8 +209,10 @@ def main(argv):
         l6 = pd.read_csv("KNN.csv")
         #l7 = pd.read_csv("LSTM.csv")
         
+        
+        print(l1.sum())
     
-        X = pd.concat([l2,l3,l4,l5,l6], axis=1).values #"********************"
+        X = pd.concat([l1,l2,l3,l4,l5,l6], axis=1).values #"********************"
         np.random.seed(7)
         logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
         np.random.seed(7)

@@ -95,8 +95,8 @@ class Classifier(BaseEstimator):
         pass
  
     def fit(self,X,y):
-        np.random.seed(99)
-        x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2)
+        np.random.seed(47)
+        x1, x2, y1, y2 = train_test_split(X, y, test_size=0.15)
         watchlist = [(xgb.DMatrix(x1, y1), 'train'), (xgb.DMatrix(x2, y2), 'valid')]
         self.clf1 = xgb.train(params, xgb.DMatrix(x1, y1), 50000,  watchlist, maximize = False,verbose_eval=5000, early_stopping_rounds=3000)
         self.clf2 = xgb.train(params2, xgb.DMatrix(x1, y1), 50000,  watchlist, maximize = False,verbose_eval=5000, early_stopping_rounds=3000)

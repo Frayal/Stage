@@ -28,8 +28,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.base import BaseEstimator
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
-from keras.backend import manual_variable_initialization 
+from sklearn.model_selection import train_test_split 
 #################################################
 ########### Global variables ####################
 #################################################
@@ -242,10 +241,7 @@ def plot_res(df,pred,y):
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
     plot(fig, filename='NN.html')
 
-def save_model(model):
-    pickle.dump(model.clf1, open("XGB1.pickle.dat", "wb"))
-    pickle.dump(model.clf2, open("XGB2.pickle.dat", "wb"))
-    return 0
+
 
 #################################################
 ########### main with options ###################
@@ -257,6 +253,15 @@ def main(argv):
     if(len(argv)==0):
         argv = [0.35]
     THRESHOLD = float(argv)
+    #### get files names ###
+    names = pd.read_csv('files.csv')
+    fileX_train = names['fileX_train'][0]
+    fileY_train = names['fileY_train'][0]
+
+    fileX_valid =names['fileX_valid'][0]
+    fileY_valid = names['fileY_valid'][0]
+    fileX_test =names['fileX_test'][0]
+    fileY_test = names['fileY_test'][0]
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
     X_test,Y_test,t = load(fileX_test,fileY_test)

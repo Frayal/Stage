@@ -218,6 +218,16 @@ def find_index(l,v):
 
 
 def main(argv):
+    #### get files names ###
+    names = pd.read_csv('files.csv')
+    fileX_train = names['fileX_train'][0]
+    fileY_train = names['fileY_train'][0]
+
+    fileX_valid =names['fileX_valid'][0]
+    fileY_valid = names['fileY_valid'][0]
+    fileX =names['fileX_test'][0]
+    fileY = names['fileY_test'][0]
+    
     y = pd.read_csv(fileY)
     Y = y['label'][3:].values.reshape(-1, 1)
     y_valid = pd.read_csv(fileY_valid)
@@ -225,6 +235,7 @@ def main(argv):
     if(len(argv)==0):
         argv = [0]
     if(str(argv[0]) == 'trainclf'):
+        print('training models ...')
         print("LGBM")
         l1 = os.system("python /home/alexis/Bureau/Stage/ML/LightGBM.py 0.316")
         print("catboost")
@@ -237,20 +248,21 @@ def main(argv):
         l5 = os.system("python /home/alexis/Bureau/Stage/ML/XgBoost.py 0.04")
         print("KNN")
         l6 = os.system("python /home/alexis/Bureau/Stage/ML/KNN.py 0.2")
-        #print("LSTM")
-        #l7 = os.system("python /home/alexis/Bureau/Stage/ML/LSTM.py 0.4")
+        print("LSTM")
+        l7 = os.system("python /home/alexis/Bureau/Stage/ML/LSTM.py 0.4")
         return 0
     if(str(argv[0]) == 'trainlogreg'):
+        print('training logistic regression...')
         l1 = pd.read_csv("lightGBM_valid.csv")
         l2 = pd.read_csv("catboost_valid.csv")
         l3 = pd.read_csv("SVC_valid.csv")
         l4 = pd.read_csv("NN_valid.csv")
         l5 = pd.read_csv("xgb_valid.csv")
         l6 = pd.read_csv("KNN_valid.csv")
-        #l7 = pd.read_csv("LSTM_valid.csv")
+        l7 = pd.read_csv("LSTM_valid.csv")
         
         
-        X_valid = pd.concat([l1,l2,l3,l4,l5,l6], axis=1).values #"****************"
+        X_valid = pd.concat([l2,l3,l4,l5,l6,l7], axis=1).values #"****************"
         for i in [0.001]:
             print("C="+str(i))
             np.random.seed(7)
@@ -260,38 +272,35 @@ def main(argv):
             os.system("python /home/alexis/Bureau/Stage/ML/Stack.py")
         return 0
     if(str(argv[0]) == 'trainall'):
-        print('training models ...')
         os.system("python /home/alexis/Bureau/Stage/ML/Stack.py trainclf")
-        print('training logistic regression...')
         os.system("python /home/alexis/Bureau/Stage/ML/Stack.py trainlogreg")
-        print('Scoring...')
-        os.system("python /home/alexis/Bureau/Stage/ML/Stack.py")
     
     else:
+        print('Scoring...')
         l1 = pd.read_csv("lightGBM.csv")
         l2 = pd.read_csv("catboost.csv")
         l3 = pd.read_csv("SVC.csv")
         l4 = pd.read_csv("NN.csv")
         l5 = pd.read_csv("xgb.csv")
         l6 = pd.read_csv("KNN.csv")
-        #l7 = pd.read_csv("LSTM.csv")
+        l7 = pd.read_csv("LSTM.csv")
         
         
         print(l1.sum())
     
-        X = pd.concat([l1,l2,l3,l4,l5,l6], axis=1).values #"********************"
+        X = pd.concat([l2,l3,l4,l5,l6,l7], axis=1).values #"********************"
         np.random.seed(7)
         logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
         np.random.seed(7)
         Predict = logistic.predict_proba(X)
-        for j in [0.4]:
+        for j in [0.5]:
             print("Threshold="+str(j))
-            #for h in [[3,27],[6,13],[13,20],[20,27],[6,24],[10,13],[12,15],[6,11],[13,16],[14,18],[16,19],[19,22],[20,23],[23,27],[10,18]]:
-                #print(h)
-                #plot_res(pd.read_csv(fileX)['t'],Predict,Y,h,threshold = j)
-                #pred = list([1 if i[-1]>j else 0 for i in Predict])
+            for h in [[3,27],[6,13],[13,20],[20,27],[6,24],[10,13],[12,15],[6,11],[13,16],[14,18],[16,19],[19,22],[20,23],[23,27],[10,18]]:
+                print(h)
+                plot_res(pd.read_csv(fileX)['t'],Predict,Y,h,threshold = j)
+                pred = list([1 if i[-1]>j else 0 for i in Predict])
 
-            plot_res(pd.read_csv(fileX)['t'],Predict,Y,threshold = j)
+            #plot_res(pd.read_csv(fileX)['t'],Predict,Y,threshold = j)
         #ROC_curve(Y,Predict)
     return ("process achevé sans erreures")
 

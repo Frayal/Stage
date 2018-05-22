@@ -225,6 +225,15 @@ def main(argv):
     if(len(argv)==0):
         argv = [0.04]
     THRESHOLD = float(argv)
+    #### get files names ###
+    names = pd.read_csv('files.csv')
+    fileX_train = names['fileX_train'][0]
+    fileY_train = names['fileY_train'][0]
+
+    fileX_valid =names['fileX_valid'][0]
+    fileY_valid = names['fileY_valid'][0]
+    fileX_test =names['fileX_test'][0]
+    fileY_test = names['fileY_test'][0]
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
     X_test,Y_test,t = load(fileX_test,fileY_test)

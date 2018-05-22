@@ -59,14 +59,6 @@ class Classifier(BaseEstimator):
     def predict_proba(self, X):
         res = [self.clf1.predict_proba(X),self.clf2.predict_proba(X),self.clf3.predict_proba(X),self.clf4.predict_proba(X)]
         return res
-fileX_train ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv'
-fileY_train = '/home/alexis/Bureau/historique/label-30-04.csv'
-
-fileX_valid ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180507_0_192_0_cleandata-processed.csv'
-fileY_valid = '/home/alexis/Bureau/historique/label-07-05.csv'
-
-fileX_test ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180509_0_192_0_cleandata-processed.csv'
-fileY_test = '/home/alexis/Bureau/historique/label-09-05.csv'
 
 
 #################################################
@@ -206,6 +198,15 @@ def main(argv):
     if(len(argv)==0):
         argv = [0.2]
     THRESHOLD = float(argv)
+    #### get files names ###
+    names = pd.read_csv('files.csv')
+    fileX_train = names['fileX_train'][0]
+    fileY_train = names['fileY_train'][0]
+
+    fileX_valid =names['fileX_valid'][0]
+    fileY_valid = names['fileY_valid'][0]
+    fileX_test =names['fileX_test'][0]
+    fileY_test = names['fileY_test'][0]
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
     X_test,Y_test,t = load(fileX_test,fileY_test)

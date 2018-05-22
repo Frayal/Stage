@@ -32,7 +32,7 @@ from sklearn.model_selection import train_test_split
 from keras.layers import Dense, Dropout, Activation
 from keras.layers import Dense, LSTM, SimpleRNN
 
-from keras.backend import manual_variable_initialization 
+
 #################################################
 ########### Global variables ####################
 #################################################
@@ -143,18 +143,19 @@ def mesure(y_pred,y_true):
                 FN += 1
     return TP,FP,FN
 
-def model_fit(X,y,X_test,y_test):
+def model_fit(X,y,X_t,y_t):
     class_weight={
     1: 1/(np.sum(y) / len(y)),
     0:1}
     # create and fit the LSTM network
     model = Sequential()
     model.add(SimpleRNN(500,input_shape=(1, 29), return_sequences=True))
-    model.add(LSTM(30, return_sequences=True))
-    model.add(LSTM(5))
+    model.add(LSTM(32, return_sequences=True))  # returns a sequence of vectors of dimension 32
+    model.add(LSTM(32, return_sequences=True))  # returns a sequence of vectors of dimension 32
+    model.add(LSTM(32))  # return a single vector of dimension 32
     model.add(Dense(1))
-    model.compile(loss='binary_crossentropy', optimizer='Adamax',metrics=[fbeta,precision,recall])
-    model.fit(X, y,validation_data=(X_test,y_test), epochs=500, batch_size=50, verbose=2,class_weight = class_weight)
+    model.compile(loss='binary_crossentropy', optimizer='adamax',metrics=[fbeta,precision,recall])
+    model.fit(X, y,validation_data=(X_t,y_t), epochs=500, batch_size=50, verbose=2,class_weight = class_weight)
     return model
 
 def find_index(l,v):
@@ -244,10 +245,19 @@ def plot_res(df,pred,y):
 
 
 def main(argv):
-    manual_variable_initialization(True)
     if(len(argv)==0):
         argv = [0.35]
     THRESHOLD = float(argv)
+    ##### get files names ###
+    names = pd.read_csv('files.csv')
+    fileX_train = names['fileX_train'][0]
+    fileY_train = names['fileY_train'][0]
+
+    fileX_valid =names['fileX_valid'][0]
+    fileY_valid = names['fileY_valid'][0]
+    fileX_test =names['fileX_test'][0]
+    fileY_test = names['fileY_test'][0]
+    
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
     X_test,Y_test,t = load(fileX_test,fileY_test)

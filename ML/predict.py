@@ -87,13 +87,22 @@ def load_models():
     # load weights into new model
     NN.compile(loss='binary_crossentropy', optimizer='adamax',metrics=['accuracy'])
     NN.load_weights("model/NN.h5")
-    print("Loaded model from disk")
+    print("Loaded NN from disk")
+    
+    json_file = open("model/LSTM.json", 'r')
+    loaded_model_json = json_file.read()
+    json_file.close()
+    LSTM = model_from_json(loaded_model_json)
+    # load weights into new model
+    LSTM.compile(loss='binary_crossentropy', optimizer='adamax',metrics=['accuracy'])
+    LSTM.load_weights("model/LSTM.h5")
+    print("Loaded LSTM from disk")
     
     
     logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
-    return(SVC,XGB,CatBoost,KNN,LGBM,NN,logistic)
+    return(SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM)
 
-def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN):
+def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM):
     #LGBM,CAT,SVC,NN,XGB,KNN
        
     res1 = LGBM[0].predict(X, num_iteration = LGBM[0].best_iteration)
@@ -127,11 +136,11 @@ def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN):
     l6 = pd.DataFrame(l6).T
 
     
-   
+    l7 = pd.DataFrame(LSTM.predict_proba(X))
     print(l1.sum())
     
     
-    return pd.concat([l1,l2,l3,l4,l5,l6], axis=1) #################################""
+    return pd.concat([l2,l3,l4,l5,l6,l7], axis=1) #################################""
     
 def scoring(predict,y,h = [3,27],threshold=0.5):     
     pred = list([1 if i[-1]>threshold else 0 for i in predict])
@@ -187,6 +196,7 @@ def mesure(y_pred,y_true):
 def main(argv):
     DATE = argv[0]
     THRESHOLD = float(argv[1])
+    
     d = list(DATE)
     d = str(d[-2])+str(d[-1])+"-"+str(d[-4])+str(d[-3])
     fileX = '/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_'+str(DATE)+'_0_192_0_cleandata-processed.csv'
@@ -194,8 +204,8 @@ def main(argv):
     y = pd.read_csv(fileY)
     Y = y['label'][3:].values.reshape(-1, 1)
     X,t = load(fileX)
-    SVC,XGB,CatBoost,KNN,LGBM,NN,logistic = load_models()
-    df = makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN)
+    SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM = load_models()
+    df = makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM)
     X_train = df.values
     np.random.seed(7)
     print(X_train.shape)

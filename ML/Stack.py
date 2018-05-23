@@ -36,6 +36,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import label_binarize
 from sklearn.multiclass import OneVsRestClassifier
 from scipy import interp
+from ast import literal_eval
 #################################################
 ########### Global variables ####################
 #################################################
@@ -220,17 +221,17 @@ def find_index(l,v):
 def main(argv):
     #### get files names ###
     names = pd.read_csv('files.csv')
-    fileX_train = names['fileX_train'][0]
-    fileY_train = names['fileY_train'][0]
+    fileX_train = literal_eval(names['fileX_train'][0])
+    fileY_train = literal_eval(names['fileY_train'][0])
 
-    fileX_valid =names['fileX_valid'][0]
-    fileY_valid = names['fileY_valid'][0]
-    fileX =names['fileX_test'][0]
-    fileY = names['fileY_test'][0]
+    fileX_valid =literal_eval(names['fileX_valid'][0])
+    fileY_valid = literal_eval(names['fileY_valid'][0])
+    fileX =literal_eval(names['fileX_test'][0])
+    fileY = literal_eval(names['fileY_test'][0])
     
-    y = pd.read_csv(fileY)
+    y = pd.read_csv(fileY[0])
     Y = y['label'][3:].values.reshape(-1, 1)
-    y_valid = pd.read_csv(fileY_valid)
+    y_valid = pd.read_csv(fileY_valid[0])
     Y_valid = y_valid['label'][3:].values.reshape(-1, 1)
     if(len(argv)==0):
         argv = [0]

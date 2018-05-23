@@ -33,6 +33,7 @@ import pickle
 from sklearn import svm
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.externals import joblib
+from ast import literal_eval
 #################################################
 ########### Global variables ####################
 #################################################
@@ -77,16 +78,22 @@ fileY_test = '/home/alexis/Bureau/historique/label-09-05.csv'
 ########### Important functions #################
 #################################################
 def load(fileX,fileY):
-    df = pd.read_csv(fileX)
-    y = pd.read_csv(fileY)
-    df = df.replace([np.inf, -np.inf], np.nan)
-    df = df.fillna(1)
-    X_train = df.values
-    t = df['t']
-    y_train = y['label'][3:].values.reshape(-1, 1)
+    X = pd.DataFrame()
+    y = pd.DataFrame()
+    for filex,filey in zip(fileX,fileY):
+        df = pd.read_csv(filex)
+        y_ = pd.read_csv(filey)
+        df = df.replace([np.inf, -np.inf], np.nan)
+        df = df.fillna(1)
+        X_train = df
+        y_train = y_['label'][3:]
+        X = pd.concat([X,X_train])
+        y = pd.concat([y,y_train])
+    t = X['t']
+   
     scaler = MinMaxScaler(feature_range=(0, 1))
-    X_train = scaler.fit_transform(X_train)
-    return  X_train,y_train,t
+    X = scaler.fit_transform(X.values)
+    return  X,y.values.reshape(-1, 1),t
 
 
 
@@ -219,13 +226,13 @@ def main(argv):
     
     #### get files names ###
     names = pd.read_csv('files.csv')
-    fileX_train = names['fileX_train'][0]
-    fileY_train = names['fileY_train'][0]
+    fileX_train = literal_eval(names['fileX_train'][0])
+    fileY_train = literal_eval(names['fileY_train'][0])
 
-    fileX_valid =names['fileX_valid'][0]
-    fileY_valid = names['fileY_valid'][0]
-    fileX_test =names['fileX_test'][0]
-    fileY_test = names['fileY_test'][0]
+    fileX_valid =literal_eval(names['fileX_valid'][0])
+    fileY_valid = literal_eval(names['fileY_valid'][0])
+    fileX_test =literal_eval(names['fileX_test'][0])
+    fileY_test = literal_eval(names['fileY_test'][0])
     X_train,Y_train,_ = load(fileX_train,fileY_train)
     X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
     X_test,Y_test,t = load(fileX_test,fileY_test)

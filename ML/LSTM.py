@@ -72,6 +72,7 @@ def load(fileX,fileY):
    
     scaler = MinMaxScaler(feature_range=(0, 1))
     X = scaler.fit_transform(X.values)
+    X = np.reshape(X,(X.shape[0],1,X.shape[1]))
     return  X,y.values.reshape(-1, 1),t
 
 
@@ -154,6 +155,7 @@ def model_fit(X,y,X_t,y_t):
     1: 1/(np.sum(y) / len(y)),
     0:1}
     # create and fit the LSTM network
+    np.random.seed(42)
     model = Sequential()
     model.add(SimpleRNN(500,input_shape=(1, 29), return_sequences=True))
     model.add(LSTM(32, return_sequences=True))  # returns a sequence of vectors of dimension 32

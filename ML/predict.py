@@ -48,7 +48,7 @@ def load(fileX):
     X_train = df.values
     t = df['t']
     scaler = MinMaxScaler(feature_range=(0, 1))#StandardScaler()
-    s = StandardScaler
+    s = StandardScaler()
     X_train_minmax = scaler.fit_transform(X_train)
     X_train_meanvar = s.fit_transform(X_train)
     return  X_train_minmax,X_train_meanvar,t
@@ -138,8 +138,7 @@ def makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM):
     l6 = pd.DataFrame(l6).T
 
     
-    l7 = pd.DataFrame(LSTM.predict_proba(X_minmax))
-    print(l1.sum())
+    l7 = pd.DataFrame(LSTM.predict_proba(np.reshape(X_minmax,(X_minmax.shape[0],1,X_minmax.shape[1]))))
     
     
     return pd.concat([l2,l3,l4,l5,l6,l7], axis=1) #################################""

@@ -24,7 +24,7 @@ from catboost import CatBoostClassifier
 import xgboost as xgb
 import lightgbm as lgb
 from keras.models import model_from_json
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler,StandardScaler
 from sklearn.externals import joblib
 #################################################
 ########### Global variables ####################
@@ -47,9 +47,11 @@ def load(fileX):
     df = df.fillna(1)
     X_train = df.values
     t = df['t']
-    scaler = MinMaxScaler(feature_range=(0, 1))
-    X_train = scaler.fit_transform(X_train)
-    return  X_train,t
+    scaler = MinMaxScaler(feature_range=(0, 1))#StandardScaler()
+    s = StandardScaler
+    X_train_minmax = scaler.fit_transform(X_train)
+    X_train_meanvar = s.fit_transform(X_train)
+    return  X_train_minmax,X_train_meanvar,t
 
 def load_models():
     SVC = []
@@ -102,18 +104,18 @@ def load_models():
     logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
     return(SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM)
 
-def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM):
+def makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM):
     #LGBM,CAT,SVC,NN,XGB,KNN
        
-    res1 = LGBM[0].predict(X, num_iteration = LGBM[0].best_iteration)
-    res2 = LGBM[1].predict(X,num_iteration = LGBM[1].best_iteration)
+    res1 = LGBM[0].predict(X_meanvar, num_iteration = LGBM[0].best_iteration)
+    res2 = LGBM[1].predict(X_meanvar,num_iteration = LGBM[1].best_iteration)
     l1 = pd.DataFrame([[1-0.5*(a+b),0.5*(a+b)] for a,b in zip(res1,res2)])
     
     
-    l2 =  pd.DataFrame([[1-(v[1]+l[1])*0.5,(v[1]+l[1])*0.5] for v,l in zip(CatBoost[0].predict_proba(X),CatBoost[1].predict_proba(X))])
+    l2 =  pd.DataFrame([[1-(v[1]+l[1])*0.5,(v[1]+l[1])*0.5] for v,l in zip(CatBoost[0].predict_proba(X_meanvar),CatBoost[1].predict_proba(X_meanvar))])
       
     
-    res = [SVC[0].predict_proba(X),SVC[1].predict_proba(X),SVC[2].predict_proba(X),SVC[3].predict_proba(X)]
+    res = [SVC[0].predict_proba(X_minmax),SVC[1].predict_proba(X_minmax),SVC[2].predict_proba(X_minmax),SVC[3].predict_proba(X_minmax)]
     l3 = []
     for i in range(len(res)):
         l3.append(res[i][:,0])
@@ -121,14 +123,14 @@ def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM):
     l3 = pd.DataFrame(l3).T
     
     
-    l4 = pd.DataFrame(NN.predict_proba(X))
+    l4 = pd.DataFrame(NN.predict_proba(X_minmax))
     
-    res1 = XGB[0].predict(xgb.DMatrix(X), ntree_limit=XGB[0].best_ntree_limit)
-    res2 = XGB[1].predict(xgb.DMatrix(X), ntree_limit=XGB[1].best_ntree_limit)
+    res1 = XGB[0].predict(xgb.DMatrix(X_meanvar), ntree_limit=XGB[0].best_ntree_limit)
+    res2 = XGB[1].predict(xgb.DMatrix(X_meanvar), ntree_limit=XGB[1].best_ntree_limit)
     res = [[1-(r1+r2)*0.5,(r1+r2)*0.5] for r1,r2 in zip(res1,res2)]
     l5 = pd.DataFrame(res)
     
-    res = [KNN[0].predict_proba(X),KNN[1].predict_proba(X),KNN[2].predict_proba(X),KNN[3].predict_proba(X)]
+    res = [KNN[0].predict_proba(X_minmax),KNN[1].predict_proba(X_minmax),KNN[2].predict_proba(X_minmax),KNN[3].predict_proba(X_minmax)]
     l6 = []
     for i in range(len(res)):
         l6.append(res[i][:,0])
@@ -136,7 +138,7 @@ def makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM):
     l6 = pd.DataFrame(l6).T
 
     
-    l7 = pd.DataFrame(LSTM.predict_proba(X))
+    l7 = pd.DataFrame(LSTM.predict_proba(X_minmax))
     print(l1.sum())
     
     
@@ -203,9 +205,9 @@ def main(argv):
     fileY = '/home/alexis/Bureau/historique/label-'+d+'.csv'
     y = pd.read_csv(fileY)
     Y = y['label'][3:].values.reshape(-1, 1)
-    X,t = load(fileX)
+    X_minmax,X_meanvar,t = load(fileX)
     SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM = load_models()
-    df = makepredictions(X,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM)
+    df = makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM)
     X_train = df.values
     np.random.seed(7)
     print(X_train.shape)

@@ -25,7 +25,7 @@ import plotly.offline as offline
 from plotly import tools
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler,StandardScaler
 from sklearn.base import BaseEstimator
 from sklearn.ensemble import RandomForestClassifier
 import xgboost as xgb
@@ -110,7 +110,7 @@ def load(fileX,fileY):
         y = pd.concat([y,y_train])
     t = X['t']
    
-    scaler = MinMaxScaler(feature_range=(0, 1))
+    scaler = StandardScaler()
     X = scaler.fit_transform(X.values)
     return  X,y.values.reshape(-1, 1),t
 

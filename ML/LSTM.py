@@ -25,7 +25,7 @@ import plotly.offline as offline
 from plotly import tools
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler,StandardScaler
 from sklearn.base import BaseEstimator
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -70,7 +70,7 @@ def load(fileX,fileY):
         y = pd.concat([y,y_train])
     t = X['t']
    
-    scaler = MinMaxScaler(feature_range=(0, 1))
+    scaler = MinMaxScaler(feature_range=(0, 1))#StandardScaler()
     X = scaler.fit_transform(X.values)
     X = np.reshape(X,(X.shape[0],1,X.shape[1]))
     return  X,y.values.reshape(-1, 1),t
@@ -163,7 +163,7 @@ def model_fit(X,y,X_t,y_t):
     model.add(LSTM(32))  # return a single vector of dimension 32
     model.add(Dense(1))
     model.compile(loss='binary_crossentropy', optimizer='adamax',metrics=[fbeta,precision,recall])
-    model.fit(X, y,validation_data=(X_t,y_t), epochs=500, batch_size=50, verbose=2,class_weight = class_weight)
+    model.fit(X, y,validation_data=(X_t,y_t), epochs=300, batch_size=50, verbose=2,class_weight = class_weight)
     return model
 
 def find_index(l,v):

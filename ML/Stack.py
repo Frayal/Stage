@@ -111,15 +111,15 @@ def plot_res(df,predict,y,h = [3,27],threshold=0.5):
             name = 'true markers'
     )
 
-    fig = tools.make_subplots(rows=4, cols=1, specs=[[{}], [{}], [{}], [{}]],
-                                  shared_xaxes=True, shared_yaxes=True,
-                                  vertical_spacing=0.001)
-    fig.append_trace(trace1, 1, 1)
-    fig.append_trace(trace2, 1, 1)
-    fig.append_trace(trace3, 1, 1)
-    fig.append_trace(trace4, 1, 1)
+    #fig = tools.make_subplots(rows=4, cols=1, specs=[[{}], [{}], [{}], [{}]],
+                                  #shared_xaxes=True, shared_yaxes=True,
+                                  #vertical_spacing=0.001)
+    #fig.append_trace(trace1, 1, 1)
+    #fig.append_trace(trace2, 1, 1)
+    #fig.append_trace(trace3, 1, 1)
+    #fig.append_trace(trace4, 1, 1)
 
-    fig['layout'].update(height=3000, width=2000, title='Annomalie detection '+str(h[0])+'h-'+str(h[1])+'h')
+    #fig['layout'].update(height=3000, width=2000, title='Annomalie detection '+str(h[0])+'h-'+str(h[1])+'h')
     #plot(fig, filename='Stack'+str(h[0])+'h-'+str(h[1])+'h.html')
     
 def ROC_curve(Y_test,y_score):
@@ -238,19 +238,19 @@ def main(argv):
     if(str(argv[0]) == 'trainclf'):
         print('training models ...')
         print("LGBM")
-        l1 = os.system("python /home/alexis/Bureau/Stage/ML/LightGBM.py 0.316")
+        l1 = os.system("python /home/alexis/Bureau/Stage/ML/LightGBM.py 0.5")
         print("catboost")
-        l2 = os.system("python /home/alexis/Bureau/Stage/ML/CatBoost.py 0.2")
+        l2 = os.system("python /home/alexis/Bureau/Stage/ML/CatBoost.py 0.5")
         print("classic")
-        l3 = os.system("python /home/alexis/Bureau/Stage/ML/SVC.py 0.15")
+        l3 = os.system("python /home/alexis/Bureau/Stage/ML/SVC.py 0.5")
         print("NN")
-        l4 = os.system("python /home/alexis/Bureau/Stage/ML/NeuralNetwork.py 0.35")
+        l4 = os.system("python /home/alexis/Bureau/Stage/ML/NeuralNetwork.py 0.5")
         print("XGB")
-        l5 = os.system("python /home/alexis/Bureau/Stage/ML/XgBoost.py 0.04")
+        l5 = os.system("python /home/alexis/Bureau/Stage/ML/XgBoost.py 0.5")
         print("KNN")
-        l6 = os.system("python /home/alexis/Bureau/Stage/ML/KNN.py 0.2")
+        l6 = os.system("python /home/alexis/Bureau/Stage/ML/KNN.py 0.5")
         print("LSTM")
-        l7 = os.system("python /home/alexis/Bureau/Stage/ML/LSTM.py 0.4")
+        l7 = os.system("python /home/alexis/Bureau/Stage/ML/LSTM.py 0.5")
         return 0
     if(str(argv[0]) == 'trainlogreg'):
         print('training logistic regression...')
@@ -294,7 +294,7 @@ def main(argv):
         logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
         np.random.seed(7)
         Predict = logistic.predict_proba(X)
-        for j in [0.6]:
+        for j in [0.5]:
             print("Threshold="+str(j))
             for h in [[3,27],[6,13],[13,20],[20,27],[6,24],[10,13],[12,15],[6,11],[13,16],[14,18],[16,19],[19,22],[20,23],[23,27],[10,18]]:
                 print(h)
@@ -302,7 +302,7 @@ def main(argv):
                 pred = list([1 if i[-1]>j else 0 for i in Predict])
 
             #plot_res(pd.read_csv(fileX)['t'],Predict,Y,threshold = j)
-        #ROC_curve(Y,Predict)
+        ROC_curve(Y,Predict)
     return ("process achevé sans erreures")
 
 

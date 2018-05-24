@@ -217,7 +217,7 @@ def plot_res(df,pred,y):
     fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    plot(fig, filename='xgb.html')
+    #plot(fig, filename='xgb.html')
 
 def save_model(model):
     pickle.dump(model.clf1, open("model/XGB1.pickle.dat", "wb"))

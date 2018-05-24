@@ -175,7 +175,7 @@ def plot_res(df,pred,y):
     fig.append_trace(trace4, 1, 1)
 
     fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    plot(fig, filename='CatBoost.html')
+    #plot(fig, filename='CatBoost.html')
 
 def save_model(model):
     model.clf1.save_model("model/catboostmodel1")

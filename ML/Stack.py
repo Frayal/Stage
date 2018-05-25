@@ -291,7 +291,7 @@ def main(argv):
         logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
         np.random.seed(7)
         Predict = logistic.predict_proba(X)
-        for j in [0.45]:
+        for j in [0.4+0.01*i for i in range(11)]:
             print("Threshold="+str(j))
             #for h in [[3,27],[6,13],[13,20],[20,27],[6,24],[10,13],[12,15],[6,11],[13,16],[14,18],[16,19],[19,22],[20,23],[23,27],[10,18]]:
                 #print(h)

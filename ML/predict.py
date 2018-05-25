@@ -196,6 +196,8 @@ def mesure(y_pred,y_true):
 
 def main(argv):
     DATE = argv[0]
+    if(len(argv)==1):
+        argv.append(0.44)
     THRESHOLD = float(argv[1])
     
     d = list(DATE)

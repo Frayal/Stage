@@ -144,11 +144,11 @@ def main(argv):
         labels['label'][i+1] = 1
     
     
-    filePTV = "PTV_"+str(DATE)+"_TF1.csv"
+    filePTV = "IPTV_"+str(DATE)+"_TF1.csv"
     fileRTS = "pred_"+str(JOINDATE)+".csv"
     fileLAB = "label_"+str(DATE)+".csv"
 
-    X_PTV = pd.read_csv(filePTV).drop(['fin'],axis=1)
+    X_PTV = pd.read_csv(filePTV)
     X_RTS = pd.read_csv(fileRTS,names= ["CP"])
 
     df = processing(X_RTS,X_PTV)
@@ -157,10 +157,10 @@ def main(argv):
     df = df.merge(labels)
     
     ########### If label exist ##############
-    lab = pd.read_csv(fileLAB)
+    lab = pd.read_csv(fileLAB,header=None)
     
     df["label"] = lab
-    df = df.fillna(0)
+    
     df.to_csv('merged_'+DATE+'.csv',index = False)
     
 

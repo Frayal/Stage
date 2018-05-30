@@ -91,6 +91,57 @@ def find_ifChangePoint(i,cp):
     else:
         return 0
 
+def categorize_duree(duree):
+    if(duree<10):
+        return("très court")
+    elif(10<=duree<30):
+        return("court")
+    elif(30<=duree<60):
+        return("moyen")
+    elif(60<=duree<=100):
+        return("long")
+    else:
+        return("très long")
+
+def categorize_type(description):
+    mots = description.split(" ")
+    if(mots[0] == "Série"):
+        return "Série"
+    if(mots[0] == "Téléfilm"):
+        return "film"
+    if(description == 'Magazine jeunesse'):
+        return 'dessins animés'
+    if(mots[0] == "Magazine"):
+        return "magazine"
+    if(mots[0]=="Feuilleton"):
+        return "Feuilleton"
+    else:
+        return description
+
+
+
+
+
+def categorize_pub(name,debut):
+    if(name in["Météo,Journal,Magazine"]):
+        return 0
+    if(name == 'dessins animés'):
+        return 3
+    if(name in ['Jeu']):
+        return 1
+    if(name in ['Feuilleton','film','Téléréalité']):
+        return 2
+    else:
+        return 10
+
+
+def categorize_programme(programme):
+    p = []
+    p.append(categorize_duree(programme['DUREE']))
+    p.append(categorize_type(programme['description programme']))
+    p.append(categorize_pub(p[-1]))
+
+
 
 
 

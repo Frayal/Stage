@@ -40,19 +40,19 @@ def init_newPTV(PTV):
     OnlinePTV['minute'] = [180]
     OnlinePTV['TITRE'] = 'Programmes de la nuit'
     OnlinePTV['Change Point'] = 'Non'
-    OnlinePTV['pourcentage de la durée'] = 0
+    OnlinePTV['pourcentage vu'] = 0
     OnlinePTV['Évenement'] = 'Début de Détection'
 
 def init_history():
     h = pd.DataFrame()
-    h['minute'] = [180]
+    h['minute'] = [179]
     h['partie de la journée'] = 'nuit'
     h['Change Point'] = 0
     h['pourcentage'] = 0
     h['partie du programme'] = 0
     h['programme'] = "programme de nuit"
-
-    h['']
+    h['duree'] = 0
+    h['nombre de pub potentiel'] =  0
 
 def find_position(seen_percentage):
     if(seen_percentage<=0.25):
@@ -118,10 +118,6 @@ def categorize_type(description):
     else:
         return description
 
-
-
-
-
 def categorize_pub(name,debut):
     if(name in["Météo,Journal,Magazine"]):
         return 0
@@ -131,15 +127,19 @@ def categorize_pub(name,debut):
         return 1
     if(name in ['Feuilleton','film','Téléréalité']):
         return 2
+    if(name == 'Série' and 180<debut<12*60):
+        return 1
+    if(name == 'Série'):
+        return 2
     else:
         return 10
 
 
 def categorize_programme(programme):
     p = []
-    p.append(categorize_duree(programme['DUREE']))
     p.append(categorize_type(programme['description programme']))
-    p.append(categorize_pub(p[-1]))
+    p.append(categorize_duree(programme['DUREE']))
+    p.append(categorize_pub(p[0]),programme['debut'])
 
 
 
@@ -152,13 +152,15 @@ def get_context(i,programme,Points,index_CP,lastCP,lastPub,lastend,lastduree,pla
     context = [i]
     context.append(find_partofday(i))
     # Is the Point a Change Point
-    context.append(i,Points['minutes'].iloc[index_CP])
+    context.append(find_ifChangePoint(i,Points['minutes'].iloc[index_CP]))
     # Where is the Point in the programme:
     seen_percentage = (i-lastend)/lastduree
     context.append(seen_percentage)
     context.append(find_position(seen_percentage))
     # which type of programme we are watching
-    context.append(programme['description programme'].split(' ')[0])
+    p = categorize_programme(programme)
+    for i in range(len(p)):
+        context.append(p[i])
 
     return context
 
@@ -188,19 +190,52 @@ def make_newPTV(PTV,Points):
     historyofpoints = init_history()
     ######################
     for i in range(180,1620):
-        #Update time of commercials
+        #Update time of commercials (Reset)
         if(i%60 == 0):
             Pubinhour = 0
         #Update timmers
         lastPub+=1
         lastCP+=1
-        #Update Prediction timer
-        if(Predictiontimer<30):
-            Predictiontimer-=1
         if(index_CP==Points.shape[0]):
             index_CP -=1
         #let's get the context:
         context = get_context(i,PTV.iloc[index_PTV],Points,index_CP,lastCP,lastPub,lastend,lastduree,planifiedend)
+        historyofpoints.iloc[historyofpoints.shape[0]] = context
+        if(historyofpoints['Change Point'].iloc[(historyofpoints.shape[0]-1)]):
+            #Change Point ==> Decide what to do with it
+
+
+
+        else:
+            #Not a Change Point, we'll just check that nothing is wrong in the PTV at this time
+            if(Predictiontimer == 0):
+                OnlinePTV.loc[OnlinePTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',percentage,"fin d'un programme court"]
+                lastend = i
+                lastCP=0
+                index_PTV += 1
+                index_PTV = index_PTV%(PTV.shape[0])
+                lastduree = PTV['DUREE'].iloc[index_PTV]
+                planifiedend = (lastend + lastduree)
+            if(historyofpoints['pourcentage'].iloc[(historyofpoints.shape[0]-1)] == 1):
+                elif(60<=duree<=100):
+                    return("long")
+                else:
+                    return("très long")
+                if(context[-2] == "très court")
+                    Predictiontimer = 2
+                if(context[-2] == "court")
+                    Predictiontimer = 6
+                if(context[-2] == "moyen")
+                    Predictiontimer = 12
+                else:
+                    Predictiontimer = 15
+            if(historyofpoints['pourcentage'].iloc[(historyofpoints.shape[0]-1)]>1):
+                Predictiontimer -= 1
+
+
+
+
+
 
 
 

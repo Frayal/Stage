@@ -157,9 +157,9 @@ def main(argv):
     df = df.merge(labels)
     
     ########### If label exist ##############
-    lab = pd.read_csv(fileLAB,header=None)
+    #lab = pd.read_csv(fileLAB,header=None)
     
-    df["label"] = lab
+    #df["label"] = lab
     
     df.to_csv('merged_'+DATE+'.csv',index = False)
     

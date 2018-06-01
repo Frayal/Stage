@@ -34,14 +34,14 @@ def load_file(date):
     return PTV,Points
 
 def init_newPTV(PTV):
-    begin = (pd.DataFrame(PTV.loc[(PTV.shape[0]-1)]).T).reset_index().drop(['index'],axis=1)
     #Initialisation du NewPTV
-    OnlinePTV = pd.DataFrame()
-    OnlinePTV['minute'] = [180]
-    OnlinePTV['TITRE'] = 'Programmes de la nuit'
-    OnlinePTV['Change Point'] = 'Non'
-    OnlinePTV['pourcentage vu'] = 0
-    OnlinePTV['Évenement'] = 'Début de Détection'
+    newPTV = pd.DataFrame()
+    newPTV['minute'] = [180]
+    newPTV['TITRE'] = 'Programmes de la nuit'
+    newPTV['Change Point'] = 'Non'
+    newPTV['pourcentage vu'] = 0
+    newPTV['Évenement'] = 'Début de Détection'
+    return newPTV
 
 def init_history():
     h = pd.DataFrame()
@@ -53,6 +53,7 @@ def init_history():
     h['programme'] = "programme de nuit"
     h['duree'] = 0
     h['nombre de pub potentiel'] =  0
+    return h
 
 def find_position(seen_percentage):
     if(seen_percentage<=0.25):
@@ -139,7 +140,8 @@ def categorize_programme(programme):
     p = []
     p.append(categorize_type(programme['description programme']))
     p.append(categorize_duree(programme['DUREE']))
-    p.append(categorize_pub(p[0]),programme['debut'])
+    p.append(categorize_pub(p[0],programme['debut']))
+    return p
 
 
 
@@ -159,7 +161,7 @@ def get_context(i,programme,Points,index_CP,lastCP,lastPub,lastend,lastduree,pla
     context.append(find_position(seen_percentage))
     # which type of programme we are watching
     p = categorize_programme(programme)
-    for i in range(len(p)):
+    for i in range(len(p)):#3
         context.append(p[i])
 
     return context
@@ -169,7 +171,7 @@ def get_context(i,programme,Points,index_CP,lastCP,lastPub,lastend,lastduree,pla
 
 def make_modification():
     #TODO: réécrire le programme quand on sait a l'avance certaines chose (début des journaux par exemple)
-
+    return 0
 
 def make_newPTV(PTV,Points):
     #Initialisation des Variables
@@ -186,10 +188,11 @@ def make_newPTV(PTV,Points):
     planifiedend = 385
     begin = True
     nbpub = 0
-    Recall = 200
+    Recall = -1
     ######################
     newPTV = init_newPTV(PTV)
     historyofpoints = init_history()
+    labels = []
     ######################
     for i in range(180,1620):
         #Update time of commercials (Reset)
@@ -202,13 +205,86 @@ def make_newPTV(PTV,Points):
             index_CP -=1
         #let's get the context:
         context = get_context(i,PTV.iloc[index_PTV],Points,index_CP,lastCP,lastPub,lastend,lastduree,planifiedend)
-        historyofpoints.iloc[historyofpoints.shape[0]] = context
-        if(historyofpoints['Change Point'].iloc[(historyofpoints.shape[0]-1)]):
+        historyofpoints.loc[historyofpoints.shape[0]] = context
+        if(historyofpoints['Change Point'].loc[(historyofpoints.shape[0]-1)]):
+            if(lastCP < min(lastduree,5)):
+                labels.append(labels[-lastCP])
+                continue
             #Change Point ==> Decide what to do with it
-            if(nbpub=>context[-1]):
+            if(nbpub>=context[-1] or Pubinhour >= 12):
                 # La pub n'est plus possible dans le programme ==> Soit il s'agit de la fin dans le programme, Soit c'est un faux Change Points
-                if(historyofpoints['duree'].iloc[(historyofpoints.shape[0]-1)] == "très court"):
-                    OnlinePTV.loc[OnlinePTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',percentage,"fin d'un programme très court"]
+                if(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "très court"):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                    lastend = i
+                    lastCP=0
+                    index_PTV += 1
+                    index_PTV = index_PTV%(PTV.shape[0])
+                    lastduree = PTV['DUREE'].iloc[index_PTV]
+                    planifiedend = (lastend + lastduree)
+                    labels.append(2)
+
+                elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "court"):
+                    if(context[3]>0.5):
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        lastduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + lastduree)
+                        labels.append(2)
+                    else:
+                        labels.append(0)
+
+
+
+                elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "moyen"):
+                    if(context[3]>0.75):
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        lastduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + lastduree)
+                    else:
+                        labels.append(0)
+
+                elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "long"):
+                    if(context[3]>0.90):
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        lastduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + lastduree)
+                    else:
+                        labels.append(0)
+
+
+                elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "très long"):
+                    if(context[3]>0.95):
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        lastduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + lastduree)
+                    else:
+                        labels.append(0)
+
+            else:
+                #la pub est encore possible dans le programme mais pas certaine
+                if(context[3]<=0.85 and lastPub>=20 and (i-lastend)>=6):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
+                    lastCP=0
+                    lastPub = 0
+                    Pubinhour+=4
+                    label.append(1)
+                elif(context[3]>0.85):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme "]
                     lastend = i
                     lastCP=0
                     index_PTV += 1
@@ -216,13 +292,8 @@ def make_newPTV(PTV,Points):
                     lastduree = PTV['DUREE'].iloc[index_PTV]
                     planifiedend = (lastend + lastduree)
 
-                elif(historyofpoints['duree'].iloc[(historyofpoints.shape[0]-1)] == "court"):
 
-                elif(historyofpoints['duree'].iloc[(historyofpoints.shape[0]-1)] == "moyen"):
 
-                elif(historyofpoints['duree'].iloc[(historyofpoints.shape[0]-1)] == "long"):
-
-                elif(historyofpoints['duree'].iloc[(historyofpoints.shape[0]-1)] == "très long"):
 
 
 
@@ -246,29 +317,32 @@ def make_newPTV(PTV,Points):
 
 
         else:
+            labels.append(0)
             #Not a Change Point, we'll just check that nothing is wrong in the PTV at this time
             if(Predictiontimer == 0):
-                OnlinePTV.loc[OnlinePTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',percentage,"fin non détectée d'un programme"]
+                newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin non détectée d'un programme"]
                 lastend = i
                 lastCP=0
                 index_PTV += 1
                 index_PTV = index_PTV%(PTV.shape[0])
                 lastduree = PTV['DUREE'].iloc[index_PTV]
                 planifiedend = (lastend + lastduree)
-            if(historyofpoints['pourcentage'].iloc[(historyofpoints.shape[0]-1)] == 1):
+            elif(historyofpoints['pourcentage'].loc[(historyofpoints.shape[0]-1)] == 1):
                 #Dépassement autorisé: Modulable en fonction de la journée si besoin
-                if(context[-2] == "très court")
+                if(context[-2] == "très court"):
                     Predictiontimer = 2
-                elif(context[-2] == "court")
+                elif(context[-2] == "court"):
                     Predictiontimer = 6
-                elif(context[-2] == "moyen")
+                elif(context[-2] == "moyen"):
                     Predictiontimer = 12
                 else:
                     Predictiontimer = 15
-                if(12.50*60<i<14*60):
+                if(12.50*60<i<14*60 or 19.5*60<i<21*60):
                     Predictiontimer = 2
-            if(historyofpoints['pourcentage'].iloc[(historyofpoints.shape[0]-1)]>1):
+            elif(historyofpoints['pourcentage'].loc[(historyofpoints.shape[0]-1)]>1):
                 Predictiontimer -= 1
+            else:
+                pass
 
 
 
@@ -308,6 +382,7 @@ def main(argv):
     date = argv[0]
     PTV,Points = load_file(date)
     new_PTV = make_newPTV(PTV,Points)
+    new_PTV.to_html('new_PTV.html')
     return ("process achevé sans erreures")
 
 

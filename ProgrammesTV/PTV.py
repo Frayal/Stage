@@ -16,6 +16,7 @@ warnings.filterwarnings('ignore')
 ###########        Imports      #################
 #################################################
 import sys
+import os
 import pandas as pd
 import numpy as np
 
@@ -395,16 +396,21 @@ def make_newPTV(PTV,Points):
 #################################################
 ########### main with options ###################
 #################################################
-
+dates = ['2018-04-30','2018-05-07','2018-05-09','2018-05-18','2018-05-23']
 
 def main(argv):
-    date = argv[0]
-    PTV,Points = load_file(date)
-    new_PTV,historyofpoints = make_newPTV(PTV,Points)
-    new_PTV['Heure'] = new_PTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
-    historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
-    new_PTV.to_html('new_PTV.html')
-    historyofpoints.to_html('historyofpoints.html')
+    if(len(argv) == 0):
+        for date in dates:
+            print(date)
+            os.system(' python /home/alexis/Bureau/Stage/ProgrammesTV/PTV.py '+str(date))
+    else:
+        date = argv[0]
+        PTV,Points = load_file(date)
+        new_PTV,historyofpoints = make_newPTV(PTV,Points)
+        new_PTV['Heure'] = new_PTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
+        historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
+        new_PTV.to_html('new_PTV-'+date+'.html')
+        historyofpoints.to_html('historyofpoints.html')
     return ("process achevé sans erreures")
 
 

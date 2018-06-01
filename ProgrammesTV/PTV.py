@@ -227,6 +227,7 @@ def make_newPTV(PTV,Points):
                     lastduree = PTV['DUREE'].iloc[index_PTV]
                     planifiedend = (lastend + lastduree)
                     Predictiontimer = 200
+                    nbpub = 0
                     labels.append(2)
 
                 elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "court"):
@@ -239,6 +240,7 @@ def make_newPTV(PTV,Points):
                         lastduree = PTV['DUREE'].iloc[index_PTV]
                         planifiedend = (lastend + lastduree)
                         Predictiontimer = 200
+                        nbpub = 0
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -255,6 +257,7 @@ def make_newPTV(PTV,Points):
                         lastduree = PTV['DUREE'].iloc[index_PTV]
                         planifiedend = (lastend + lastduree)
                         Predictiontimer = 200
+                        nbpub = 0
                     else:
                         labels.append(0)
 
@@ -268,11 +271,92 @@ def make_newPTV(PTV,Points):
                         lastduree = PTV['DUREE'].iloc[index_PTV]
                         planifiedend = (lastend + lastduree)
                         Predictiontimer = 200
+                        nbpub = 0
                     else:
                         labels.append(0)
 
 
                 elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "très long"):
+                    if(context[3]>0.95):
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        lastduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + lastduree)
+                        Predictiontimer = 200
+                        nbpub = 0
+                    else:
+                        labels.append(0)
+
+            else:
+                #la pub est encore possible dans le programme mais pas certaine
+                if(context[3]<=0.90 and lastPub>=20 and (i-lastend)>=10 and historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] != "très long"):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
+                    lastCP=0
+                    lastPub = 0
+                    Pubinhour+=4
+                    nbpub+=1
+                    labels.append(1)
+                elif(context[3]<=0.98 and lastPub>=20 and (i-lastend)>=10 and historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "très long"):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
+                    lastCP=0
+                    lastPub = 0
+                    Pubinhour+=4
+                    nbpub+=1
+                    labels.append(1)
+                elif(context[3]<=0.95 and lastPub>=20 and (historyofpoints['programme'].loc[(historyofpoints.shape[0]-1)] in ["Téléréalité","Feuilleton"]) ):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
+                    lastCP=0
+                    lastPub = 0
+                    Pubinhour+=4
+                    nbpub+=1
+                    labels.append(1)
+                elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "très court"):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                    lastend = i
+                    lastCP=0
+                    index_PTV += 1
+                    index_PTV = index_PTV%(PTV.shape[0])
+                    lastduree = PTV['DUREE'].iloc[index_PTV]
+                    planifiedend = (lastend + lastduree)
+                    Predictiontimer = 200
+                    nbpub = 0
+                    labels.append(2)
+
+                elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "court"):
+                    if(context[3]>0.5):
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        lastduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + lastduree)
+                        Predictiontimer = 200
+                        nbpub = 0
+                        labels.append(2)
+                    else:
+                        labels.append(0)
+
+
+
+                elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "moyen"):
+                    if(context[3]>0.7):
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        lastduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + lastduree)
+                        Predictiontimer = 200
+                        nbpub = 0
+                    else:
+                        labels.append(0)
+
+                elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "long"):
                     if(context[3]>0.75):
                         newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
                         lastend = i
@@ -282,57 +366,22 @@ def make_newPTV(PTV,Points):
                         lastduree = PTV['DUREE'].iloc[index_PTV]
                         planifiedend = (lastend + lastduree)
                         Predictiontimer = 200
+                        nbpub = 0
                     else:
                         labels.append(0)
-
-            else:
-                #la pub est encore possible dans le programme mais pas certaine
-                if(context[3]<=0.95 and lastPub>=20 and (i-lastend)>=20):
-                    newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
-                    lastCP=0
-                    lastPub = 0
-                    Pubinhour+=4
-                    labels.append(1)
-                elif(context[3]<=0.95 and lastPub>=20 and historyofpoints['programme'].loc[(historyofpoints.shape[0]-1)] == "Téléréalité"):
-                    newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
-                    lastCP=0
-                    lastPub = 0
-                    Pubinhour+=4
-                    labels.append(1)
-                elif(context[3]>0.75):
-                    newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme "]
-                    lastend = i
-                    lastCP=0
-                    index_PTV += 1
-                    index_PTV = index_PTV%(PTV.shape[0])
-                    lastduree = PTV['DUREE'].iloc[index_PTV]
-                    planifiedend = (lastend + lastduree)
-                    Predictiontimer = 200
+                elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "très long"):
+                    if(context[3]>0.95):
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        lastduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + lastduree)
+                        Predictiontimer = 200
+                        nbpub = 0
                 else:
                     pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             index_CP+=1
         else:
@@ -347,8 +396,9 @@ def make_newPTV(PTV,Points):
                 lastduree = PTV['DUREE'].iloc[index_PTV]
                 planifiedend = (lastend + lastduree)
                 Predictiontimer = 200
+                nbpub = 0
             elif(historyofpoints['pourcentage'].loc[(historyofpoints.shape[0]-1)] == 1):
-                #Dépassement autorisé: Modulable en fonction de la journée si besoin
+                #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
                 if(context[-2] == "très court"):
                     Predictiontimer = 0
                 elif(context[-2] == "court"):
@@ -357,7 +407,7 @@ def make_newPTV(PTV,Points):
                     Predictiontimer = 11
                 else:
                     Predictiontimer = 14
-                if(12.50*60<i<14*60 or 19.5*60<i<21*60):
+                if(11.5*60<i<14*60 or 19.5*60<i<21*60):
                     Predictiontimer = 1
             elif(historyofpoints['pourcentage'].loc[(historyofpoints.shape[0]-1)]>1):
                 Predictiontimer -= 1
@@ -410,7 +460,7 @@ def main(argv):
         new_PTV['Heure'] = new_PTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         new_PTV.to_html('new_PTV-'+date+'.html')
-        historyofpoints.to_html('historyofpoints.html')
+        historyofpoints.to_html('historyofpoints-'+date+'.html')
     return ("process achevé sans erreures")
 
 

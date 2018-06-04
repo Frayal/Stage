@@ -46,7 +46,8 @@ def load(fileX):
     df = df.replace([np.inf, -np.inf], np.nan)
     df = df.fillna(1)
     X_train = df.values
-    t = df['t']
+    t = df.index.values
+
     scaler = MinMaxScaler(feature_range=(0, 1))#StandardScaler()
     s = StandardScaler()
     X_train_minmax = scaler.fit_transform(X_train)
@@ -195,30 +196,38 @@ def mesure(y_pred,y_true):
 
 
 def main(argv):
-    DATE = argv[0]
-    if(len(argv)==1):
-        argv.append(0.44)
-    THRESHOLD = float(argv[1])
+    if(len(argv) == 0):
+        DATES = ['20180430','20180507','20180509','20180518','20180523','20180528','20180531']
+        for date in DATES:
+            print(date)
+            os.system("python /home/alexis/Bureau/Stage/ML/predict.py "+str(date))
+    else:
+        DATE = argv[0]
+        if(len(argv)==1):
+            argv.append(0.5)
+        THRESHOLD = float(argv[1])
     
-    d = list(DATE)
-    d = str(d[-2])+str(d[-1])+"-"+str(d[-4])+str(d[-3])
-    fileX = '/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_'+str(DATE)+'_0_192_0_cleandata-processed.csv'
-    fileY = '/home/alexis/Bureau/historique/label-'+d+'.csv'
-    y = pd.read_csv(fileY)
-    Y = y['label'][3:].values.reshape(-1, 1)
-    X_minmax,X_meanvar,t = load(fileX)
-    SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM = load_models()
-    df = makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM)
-    X_train = df.values
-    np.random.seed(7)
-    print(X_train.shape)
-    np.random.seed(7)
-    Predict = logistic.predict_proba(X_train)
-    np.random.seed(7)
     
-    pred = pd.DataFrame([1 if i[-1]>THRESHOLD else 0 for i in Predict])
-    pred.to_csv('pred_'+str(DATE)+'.csv',index=False)
-    scoring(Predict,Y,h = [3,27],threshold=THRESHOLD) 
+        d = list(DATE)
+        d = str(d[-2])+str(d[-1])+"-"+str(d[-4])+str(d[-3])
+        fileX = '/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_'+str(DATE)+'_0_192_0_cleandata-processed.csv'
+        fileY = '/home/alexis/Bureau/historique/label-'+d+'.csv'
+        y = pd.read_csv(fileY)
+        Y = y['label'][3:].values.reshape(-1, 1)
+        X_minmax,X_meanvar,t = load(fileX)
+        SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM = load_models()
+        df = makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM)
+        X_train = df.values
+        np.random.seed(7)
+        print(X_train.shape)
+        np.random.seed(7)
+        Predict = logistic.predict_proba(X_train)
+        np.random.seed(7)
+
+        pred = pd.DataFrame([1 if i[-1]>THRESHOLD else 0 for i in Predict])
+        pred.to_csv('pred_'+str(DATE)+'.csv',index=False)
+        pred.to_csv('/home/alexis/Bureau/Stage/ProgrammesTV/pred_'+str(DATE)+'.csv',index=False)
+        scoring(Predict,Y,h = [3,27],threshold=THRESHOLD) 
 
 if __name__ == "__main__":
     # execute only if run as a script

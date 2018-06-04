@@ -108,7 +108,7 @@ def load(fileX,fileY):
         y_train = y_['label'][3:]
         X = pd.concat([X,X_train])
         y = pd.concat([y,y_train])
-    t = X['t']
+    t = X.index.values
    
     scaler = StandardScaler()
     X = scaler.fit_transform(X.values)

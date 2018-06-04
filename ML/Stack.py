@@ -228,13 +228,21 @@ def main(argv):
     fileY_valid = literal_eval(names['fileY_valid'][0])
     fileX =literal_eval(names['fileX_test'][0])
     fileY = literal_eval(names['fileY_test'][0])
+    y = pd.DataFrame()
+    for filex,filey in zip(fileX,fileY  ):
+        y_ = pd.read_csv(filey)
+        y_train = y_['label'][3:]
+        y = pd.concat([y,y_train])
+    Y = y.values.reshape(-1, 1)
     
-    y = pd.read_csv(fileY[0])
-    Y = y['label'][3:].values.reshape(-1, 1)
-    y_valid = pd.read_csv(fileY_valid[0])
-    Y_valid = y_valid['label'][3:].values.reshape(-1, 1)
+    y_valid = pd.DataFrame()
+    for filex,filey in zip(fileX_valid,fileY_valid):
+        y_ = pd.read_csv(filey)
+        y_train = y_['label'][3:]
+        y_valid = pd.concat([y_valid,y_train])
+    Y  _valid = y_valid.values.reshape(-1, 1)
     if(len(argv)==0):
-        argv = [0]
+        argv = [0.5]
     if(str(argv[0]) == 'trainclf'):
         print('training models ...')
         print("LGBM")
@@ -277,6 +285,7 @@ def main(argv):
         os.system("python /home/alexis/Bureau/Stage/ML/Stack.py trainlogreg")
     
     else:
+        T = argv
         print('Scoring...')
         l1 = pd.read_csv("lightGBM.csv")
         l2 = pd.read_csv("catboost.csv")
@@ -291,15 +300,15 @@ def main(argv):
         logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
         np.random.seed(7)
         Predict = logistic.predict_proba(X)
-        for j in [0.46]:
+        for j in T:
             print("Threshold="+str(j))
-            for h in [[3,27],[6,13],[13,20],[20,27],[6,24],[10,13],[12,15],[6,11],[13,16],[14,18],[16,19],[19,22],[20,23],[23,27],[10,18]]:
-                print(h)
-                plot_res(pd.read_csv(fileX[0])['t'],Predict,Y,h,threshold = j)
-                pred = list([1 if i[-1]>j else 0 for i in Predict])
+            #for h in [[3,27],[6,13],[13,20],[20,27],[6,24],[10,13],[12,15],[6,11],[13,16],[14,18],[16,19],[19,22],[20,23],[23,27],[10,18]]:
+                #print(h)
+                #plot_res(pd.read_csv(fileX[0])['t'],Predict,Y,h,threshold = float(j))
+                #pred = list([1 if i[-1]>float(j) else 0 for i in Predict])
 
-            #plot_res(pd.read_csv(fileX[0])['t'],Predict,Y,threshold = j)
-        ROC_curve(Y,Predict)
+            plot_res(pd.read_csv(fileX[0])['t'],Predict,Y,threshold = float(j))
+        #ROC_curve(Y,Predict)
     return ("process achevé sans erreures")
 
 

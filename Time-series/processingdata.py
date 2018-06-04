@@ -44,8 +44,8 @@ import random
 import pickle
 import xgboost as xgb
 from catboost import CatBoostClassifier
-from keras.models import model_from_json
-from sklearn.preprocessing import MinMaxScaler
+#from keras.models import model_from_json
+#from sklearn.preprocessing import MinMaxScaler
 #################################################
 ########### Global variables ####################
 #################################################

@@ -26,7 +26,6 @@ import pandas as pd
 
 IRRELEVANT = ['@DATEMODIF','@CLEDIF','DATEHEURE','RATIO','HEURE','@CLEEMI']
 IRRELEVANT = ['HEURE']
-
 #################################################
 ########### Important functions #################
 #################################################
@@ -130,39 +129,44 @@ def processing(X_RTS,X_PTV):
 
 
 def main(argv):
-    #CHAINE = argv[0]
-    DATE = argv[0]
-    #JOINDATE,CHAINE2 = updateargs(CHAINE,DATE)
-    JOINDATE = "".join(list(DATE.split('-')))
-    
-    labels = pd.read_csv('/home/alexis/Bureau/historique/label-'+DATE.split('-')[-1]+'-'+DATE.split('-')[-2]+'.csv')
-    labels['minutes'] = labels.index+180
-    l = labels[labels['label']==1].index
-    print(labels.sum())
-    for i in l:
-        labels['label'][i-1] = 1
-        labels['label'][i+1] = 1
-    
-    
-    filePTV = "IPTV_"+str(DATE)+"_TF1.csv"
-    fileRTS = "pred_"+str(JOINDATE)+".csv"
-    fileLAB = "label_"+str(DATE)+".csv"
+    if(len(argv) == 0):
+        DATES = ['2018-04-30','2018-05-07','2018-05-09','2018-05-18','2018-05-23','2018-05-28','2018-05-31']
+        for date in DATES:
+            os.system("python /home/alexis/Bureau/Stage/ProgrammesTV/merge.py "+str(date))
+    else:
+        #CHAINE = argv[0]
+        DATE = argv[0]
+        #JOINDATE,CHAINE2 = updateargs(CHAINE,DATE)
+        JOINDATE = "".join(list(DATE.split('-')))
 
-    X_PTV = pd.read_csv(filePTV)
-    X_RTS = pd.read_csv(fileRTS,names= ["CP"])
+        labels = pd.read_csv('/home/alexis/Bureau/historique/label-'+DATE.split('-')[-1]+'-'+DATE.split('-')[-2]+'.csv')
+        labels['minutes'] = labels.index+180
+        l = labels[labels['label']==1].index
+        print(labels.sum())
+        for i in l:
+            labels['label'][i-1] = 1
+            labels['label'][i+1] = 1
 
-    df = processing(X_RTS,X_PTV)
-    df = df[df['CP']==1]
-    
-    df = df.merge(labels)
-    
-    ########### If label exist ##############
-    #lab = pd.read_csv(fileLAB,header=None)
-    
-    #df["label"] = lab
-    
-    df.to_csv('merged_'+DATE+'.csv',index = False)
-    
+
+        filePTV = "IPTV_"+str(DATE)+"_TF1.csv"
+        fileRTS = "pred_"+str(JOINDATE)+".csv"
+        fileLAB = "label_"+str(DATE)+".csv"
+
+        X_PTV = pd.read_csv(filePTV)
+        X_RTS = pd.read_csv(fileRTS,names= ["CP"])
+
+        df = processing(X_RTS,X_PTV)
+        df = df[df['CP']==1]
+
+        df = df.merge(labels)
+
+        ########### If label exist ##############
+        #lab = pd.read_csv(fileLAB,header=None)
+
+        #df["label"] = lab
+
+        df.to_csv('merged_'+DATE+'.csv',index = False)
+
 
 
     return ("process achevé sans erreures")

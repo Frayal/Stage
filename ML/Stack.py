@@ -240,9 +240,9 @@ def main(argv):
         y_ = pd.read_csv(filey)
         y_train = y_['label'][3:]
         y_valid = pd.concat([y_valid,y_train])
-    Y  _valid = y_valid.values.reshape(-1, 1)
+    Y_valid = y_valid.values.reshape(-1, 1)
     if(len(argv)==0):
-        argv = [0.5]
+        argv = [0.46]
     if(str(argv[0]) == 'trainclf'):
         print('training models ...')
         print("LGBM")

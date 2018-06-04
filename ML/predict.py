@@ -204,7 +204,7 @@ def main(argv):
     else:
         DATE = argv[0]
         if(len(argv)==1):
-            argv.append(0.5)
+            argv.append(0.45)
         THRESHOLD = float(argv[1])
     
     

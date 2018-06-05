@@ -271,7 +271,7 @@ def make_newPTV(PTV,Points):
 
 
 
-         if(context[2]):
+        if(context[2]):
             historyofpoints.loc[historyofpoints.shape[0]] = context
             if(lastCP < min(currentduree,4)):
                 labels.append(0)

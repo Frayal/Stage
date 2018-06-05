@@ -197,10 +197,16 @@ def mesure(y_pred,y_true):
 
 def main(argv):
     if(len(argv) == 0):
-        DATES = ['20180430','20180507','20180509','20180518','20180523','20180528','20180531']
+        DATES = ['20180430','20180507','20180509','20180518','20180523','20180528']
         for date in DATES:
             print(date)
             os.system("python /home/alexis/Bureau/Stage/ML/predict.py "+str(date))
+                      
+    elif(float((argv[0].split('-'))[0])<1):
+        DATES = ['20180430','20180507','20180509','20180518','20180523','20180528']
+        for date in DATES:
+            print(date)
+            os.system("python /home/alexis/Bureau/Stage/ML/predict.py "+str(date) + " "+argv[0])
     else:
         DATE = argv[0]
         if(len(argv)==1):

@@ -130,7 +130,7 @@ def processing(X_RTS,X_PTV):
 
 def main(argv):
     if(len(argv) == 0):
-        DATES = ['2018-04-30','2018-05-07','2018-05-09','2018-05-18','2018-05-23','2018-05-28','2018-05-31']
+        DATES = ['2018-04-30','2018-05-07','2018-05-09','2018-05-18','2018-05-23','2018-05-28']
         for date in DATES:
             os.system("python /home/alexis/Bureau/Stage/ProgrammesTV/merge.py "+str(date))
     else:

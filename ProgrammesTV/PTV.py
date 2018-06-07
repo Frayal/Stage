@@ -55,6 +55,11 @@ def init_history():
     h['programme'] = "programme de nuit"
     h['duree'] = 0
     h['nombre de pub potentiel'] =  0
+    h['lastCP'] =  0
+    h['lastPub'] =  0
+    h['lastend'] =  0
+    h['currentduree'] =  0
+    h['Pubinhour'] =  0
     return h
 
 def find_position(seen_percentage):
@@ -158,7 +163,7 @@ def categorize_programme(programme):
 
 
 
-def get_context(i,programme,Points,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend):
+def get_context(i,programme,Points,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour):
     #we create a list with different notes to understand the context
     # minute of the point and its situation in the day
     context = [i]
@@ -173,10 +178,11 @@ def get_context(i,programme,Points,index_CP,lastCP,lastPub,lastend,currentduree,
     p = categorize_programme(programme)
     for i in range(len(p)):#3
         context.append(p[i])
-    p.append(lastCP)
-    p.append(lastPub)
-    p.append(lastend)
-    p.append(currentduree)
+    context.append(lastCP)
+    context.append(lastPub)
+    context.append(lastend)
+    context.append(currentduree)
+    context.append(Pubinhour)
     return context
 
 
@@ -218,7 +224,7 @@ def make_newPTV(PTV,Points):
         if(index_CP==Points.shape[0]):
             index_CP -=1
         #let's get the context:
-        context = get_context(i,PTV.iloc[index_PTV],Points,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend)
+        context = get_context(i,PTV.iloc[index_PTV],Points,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour)
         ###### Let's verify that the algo is not doing a crappy predicitions and if this the case, clean his historic #####
         if(i in [j[0] for j in importantpts]):
             p = [j[0] for j in importantpts].index(i)

@@ -1,0 +1,76 @@
+#-*- coding: utf-8 -*-
+#################################################
+#created the 20/04/2018 12:57 by Alexis Blanchet#
+#################################################
+
+'''
+pre-processing des datas
+fabrication des Times Series
+selection et agrégation de flux
+prend en entrée:
+    un fichier .csv
+    un département(si 0 tous les départements, 99 étranger)
+    une chaîne
+    une catégorie csp (si 0 agrégation de toutes les csp)
+
+renvoie:
+    un fichier csp contenant la colonne d'index correspondant
+    aux minutes de la journée et la colonne des valeurs d'audition
+'''
+
+'''
+Améliorations possibles:
+mettre en entrée des listes pour permettre l'agrégation de plusieures
+csp ou départements
+'''
+import warnings
+warnings.filterwarnings('ignore')
+#################################################
+###########        Imports      #################
+#################################################
+import warnings
+warnings.filterwarnings('ignore')
+import random
+import os
+
+#################################################
+########### Global variables ####################
+#################################################
+PATH = '/home/alexis/Bureau/Project/Datas/RTS/'
+
+#################################################
+########### Important functions #################
+#################################################
+
+#################################################
+########### main with options ###################
+#################################################
+import sys
+from os import listdir
+import pandas as pd
+from os.path import isfile, join
+
+def main(argv):
+    file = argv[0]
+    departement = argv[1]
+    chaine = argv[2]
+    csp = argv[3]
+
+    f = file.split(".")[0]
+    f = f.split('_')
+
+    df = pd.read_csv(PATH+'brut/'+str(file),sep=';')
+    df = df.loc[df["IDCST"]== int(chaine)]
+    df = df.loc[df["DPT"]== int(departement)]
+    if(int(csp) == 0):
+        df = df.sum(axis = 0)
+    else:
+        df = df.loc[df["IDCIBLE"] == int(csp)]
+    df = df.drop(["IDCST","DPT","IDCIBLE"])
+    df.to_csv(PATH+"processed/"+str(f[0])+"_"+str(f[1])+"_"+str(departement)+"_"+str(chaine)+"_"+str(csp)+"_cleandata.csv",header=['values'],index= False)
+    return 0
+
+
+if __name__ == "__main__":
+    # execute only if run as a script
+    main(sys.argv[1:])

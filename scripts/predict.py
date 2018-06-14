@@ -29,7 +29,7 @@ from sklearn.externals import joblib
 #################################################
 ########### Global variables ####################
 #################################################
-THRESHOLD = float(0.47)
+
 #################################################
 ########### Important functions #################
 #################################################
@@ -196,11 +196,11 @@ def main(argv):
 
 
     elif(argv[0] == 'train'):
-        Dates = ['2018-04-30','2018-05-07','2018-05-09','2018-05-18','2018-05-23','2018-05-28']
+        Dates = ['2018-04-30','2018-05-07','2018-05-09','2018-05-18','2018-05-23','2018-05-28','2018-06-06']
         for date in Dates:
-            d = str(d[-2])+str(d[-1])+"-"+str(d[-4])+str(d[-3])
+            DATE = "".join(date.split('-'))
             fileX = 'sfrdaily_'+str(DATE)+'_0_192_0_cleandata.csv'
-            os.system('python /home/alexis/Bureau/Project/scripts ' + fileX + " train")
+            os.system('python /home/alexis/Bureau/Project/scripts/predict.py ' + fileX + " train")
 
 
     else:
@@ -208,7 +208,14 @@ def main(argv):
             PATH ='/home/alexis/Bureau/Project/Datas/train/'
         if(argv[1] == 'test'):
             PATH = '/home/alexis/Bureau/Project/Datas/RTS/processed/'
+
         fileX = PATH+str(argv[0])
+        CHAINE = (argv[0].split('_'))[-3]
+        if(CHAINE == '118'):
+            THRESHOLD = float(0.47)
+        if(CHAINE == '192'):
+            THRESHOLD = float(0.46)
+
         X_minmax,X_meanvar,t = load(fileX)
         SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM = load_models()
         df = makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM)
@@ -222,8 +229,8 @@ def main(argv):
         #two options: We predict the class or we work with proba
         pred = pd.DataFrame([1 if i[-1]>THRESHOLD else 0 for i in Predict])
         pred_proba = pd.DataFrame([i[-1] for i in Predict])
-        pred.to_csv('/home/alexis/Bureau/Project/results/pred/pred_'+str(DATE)+'.csv',index=False)
-        pred_proba.to_csv('/home/alexis/Bureau/Project/results/pred/pred_proba_'+str(DATE)+'.csv',index=False)
+        pred.to_csv('/home/alexis/Bureau/Project/results/pred/pred_'+str(DATE)+'_'+str(CHAINE)+'.csv',index=False)
+        pred_proba.to_csv('/home/alexis/Bureau/Project/results/pred/pred_proba_'+str(DATE)+'_'+str(CHAINE)+'.csv',index=False)
         #scoring(Predict,Y,h = [3,27],threshold=THRESHOLD)
 
 if __name__ == "__main__":

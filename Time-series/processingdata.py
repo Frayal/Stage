@@ -321,7 +321,7 @@ def plot_annomalies(annomalies,df,name,real_data,file):
         x=dfx/60,
         y=dfy,
         mode = 'markers',
-        name = 'begin of programmes',
+        name = 'begining of programmes',
     )
         
     fig = tools.make_subplots(rows=4, cols=1, specs=[[{}], [{}], [{}], [{}]],
@@ -364,9 +364,8 @@ def main(argv):
     df["label"] = annomalies
     df.to_csv('data/processed/'+argv.split('.')[0]+"-processed.csv",index=False)
     df.to_csv('/home/alexis/Bureau/Stage/historique/RTS/'+argv.split('.')[0]+"-processed.csv",index=False)
-    date = list(argv.split('.')[0].split('_')[1])
-    date = "".join(date[-2:])
-    #plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_0192_2017-12-'+str(date)+'_TF1.csv')
+    date = '2018-05-07'
+    plot_annomalies(annomalies,df,argv.split('.')[0],real_data,'/home/alexis/Bureau/Stage/ProgrammesTV/IPTV_'+str(date)+'_TF1.csv')
     m = max(annomalies)
     y = [1 if b/(m)>0.5 else 0 for b in annomalies]
     y = DataFrame(y)

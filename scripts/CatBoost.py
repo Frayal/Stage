@@ -195,7 +195,7 @@ def save_model(model):
 def main(argv):
     if(len(argv)==0):
         argv = [0.2]
-    THRESHOLD = float(argv)
+    THRESHOLD = float(argv[0])
     #### get files names ###
     names = pd.read_csv('files.csv')
     fileX_train = literal_eval(names['fileX_train'][0])
@@ -230,4 +230,4 @@ def main(argv):
 
 if __name__ == "__main__":
     # execute only if run as a script
-    main(sys.argv[1])
+    main(sys.argv[1:])

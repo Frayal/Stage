@@ -146,9 +146,9 @@ def main(argv):
     for file in files:
         print(file)
         date = file.split('_')[0]
-        f = str(PATH)+'/pluri_201712/'+file+'/IPTV_'+chaine+'_'+str(date)+'_TF1.xml'
+        f = str(PATH)+'/pluri_201712/'+file+'/IPTV_'+chaine+'_'+str(date)+'_M6.xml'
         data = processPTV(f)
-        data.to_csv(PATH+'extracted/IPTV_0192_'+str(date)+'_TF1.csv')
+        data.to_csv(PATH+'extracted/IPTV_'+str(chaine)+'_'+str(date)+'_M6.csv')
 
 
     return ("process achevé sans erreures")

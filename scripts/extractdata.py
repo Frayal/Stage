@@ -35,7 +35,8 @@ PATH ='/home/alexis/Bureau/Project/Datas/PTV/'
 
 
 def processPTV(file):
-    irrelevant = ['LESPERSONNES','LESTEXTES','PHOTO','MAGAZINEXY','SERIE','NATIONALITE','FILMTELEFILM','GENRE','CS']
+    irrelevant = ['LESPERSONNES','LESTEXTES','PHOTO','MAGAZINEXY','SERIE','NATIONALITE','FILMTELEFILM','CS','DOLBY51','PT2','VM','RATIO','PT1','DIRECT','INEDIT_CRYPTE','REDIF','HD','CSA','STM','@CLEDIF','DOLBY','@CLEEMI','CLAIR','DERDIF'
+                ,'OCCULTATIONMOBILE','PREMDIF','GENRE','RESUME','TEMPSFORT','VOST','INEDIT_EN_CLAIR','@DATEMODIF','STEREO','NOUVEAUTE','PT3','DIFFERE','SURTITRE','SOUSTITREDIF','TITREEMISSION','DATE']
     tree = ET.parse(file)
     root = tree.getroot()
 
@@ -110,20 +111,21 @@ def processPTV(file):
         #print(df2.head())
         temp_data = [temp_data,df2]
         temp_data = pd.concat(temp_data,axis = 1)
-        temp_data = temp_data.drop(['@GENRESIMPLE'])
+        #temp_data = temp_data.drop(['@GENRESIMPLE'])
 
-    temp_data = temp_data.T.rename(columns={"@CLE": "CLE-GENRE","#text":"description programme"})
+    temp_data = temp_data.T.rename(columns={"@CLE": "CLE-GENRE","#text":"description programme","@GENRESIMPLE":"GENRESIMPLE"})
     temp_data.head()
     data = data.join(temp_data)
     temp_data = pd.DataFrame()
 
-    names = data.columns.values
-    n = list(set(names) - set(irrelevant))
-    data = data[n]
+
 
     data['DATE'] = data['DATEHEURE'].apply(lambda x: x.split('T')[0])
     data['HEURE'] = data['DATEHEURE'].apply(lambda x: x.split('T')[1])
     data['debut'] = data['HEURE'].apply(lambda x: int(x.split(':')[0])*60 + int(x.split(':')[1]))
+    names = data.columns.values
+    n = list(set(names) - set(irrelevant))
+    data = data[n]
     return data
 
 
@@ -146,9 +148,15 @@ def main(argv):
     for file in files:
         print(file)
         date = file.split('_')[0]
-        f = str(PATH)+'/pluri_201712/'+file+'/IPTV_'+chaine+'_'+str(date)+'_M6.xml'
-        data = processPTV(f)
-        data.to_csv(PATH+'extracted/IPTV_'+str(chaine)+'_'+str(date)+'_M6.csv')
+        if(chaine == '0118'):
+            f = str(PATH)+'/pluri_201712/'+file+'/IPTV_'+chaine+'_'+str(date)+'_M6.xml'
+            data = processPTV(f)
+            data.to_csv(PATH+'extracted/IPTV_'+str(chaine)+'_'+str(date)+'_M6.csv',index=False)
+        if(chaine == '0192'):
+            f = str(PATH)+'/pluri_201712/'+file+'/IPTV_'+chaine+'_'+str(date)+'_TF1.xml'
+            data = processPTV(f)
+            data.to_csv(PATH+'extracted/IPTV_'+str(chaine)+'_'+str(date)+'_TF1.csv',index=False)
+
 
 
     return ("process achevé sans erreures")

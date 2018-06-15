@@ -19,7 +19,7 @@ import sys
 import os
 import pandas as pd
 import numpy as np
-
+from tqdm import tqdm
 #################################################
 ########### Global variables ####################
 #################################################
@@ -30,7 +30,7 @@ import numpy as np
 #################################################
 def load_file(date):
     try:
-        PTV = pd.read_csv('/home/alexis/Bureau/Project/Datas/PTV/extracted/IPTV_0192_'+date+'_TF1.csv')[['TITRE','DUREE','description programme','HEURE','debut']]
+        PTV = pd.read_csv('/home/alexis/Bureau/Project/Datas/PTV/extracted/IPTV_0192_'+date+'_TF1.csv')
         PTV['fin'] = PTV['debut']+PTV['DUREE']
         JOINDATE = "".join(date.split('-'))
         Points = pd.read_csv('/home/alexis/Bureau/Project/results/pred/pred_'+str(JOINDATE)+'_192.csv').values
@@ -68,6 +68,8 @@ def init_history():
     h['probability of CP'] = 0
     h['nb de pubs encore possible'] = 0
     h['chaine'] = 'TF1'
+    h['CLE-FORMAT'] = 0
+    h['CLE-GENRE'] = 0
     return h
 
 def find_position(seen_percentage):
@@ -169,18 +171,12 @@ def categorize_pub(name,debut,duree,titre):
     else:
         return 4
 
-
 def categorize_programme(programme):
     p = []
     p.append(categorize_type(programme['description programme']))
     p.append(categorize_duree(programme['DUREE']))
     p.append(categorize_pub(p[0],programme['debut'],p[-1],programme['TITRE']))
     return p
-
-
-
-
-
 
 def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub):
     #we create a list with different notes to understand the context
@@ -205,6 +201,8 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append(probas[i-183][0])
     context.append(context[7]-nbpub)
     context.append('TF1')
+    context.append(programme['CLE-FORMAT'])
+    context.append(programme['CLE-GENRE'])
     return context
 
 
@@ -231,7 +229,7 @@ def make_newPTV(PTV,Points,proba):
     historyofpoints = init_history()
     labels = [0]
     ######################
-    for i in range(183,1620):
+    for i in tqdm(range(183,1620)):
         #Update time of commercials (Reset)
         if(i%60 == 0):
             Pubinhour = 0
@@ -829,14 +827,14 @@ def make_newPTV(PTV,Points,proba):
                 nbpub = 0
             elif(context[3] == 1):
                 #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
-                if(11.5*60<=i<=14*60 or 19.5*60<i<21*60):
+                if(11.5*60<=i<=13*60 or 13*60+40<i<14*60+15 or 19.5*60<i<21*60):
                     Predictiontimer = 0
                 elif(context[6] == "très court"):
                     Predictiontimer = 0
                 elif(PTV['TITRE'].iloc[index_PTV] == 'Téléshopping'):
                     Predictiontimer = 10
                 elif(context[6] == "court"):
-                    Predictiontimer = 5
+                    Predictiontimer = 2
                 elif(context[6] == "moyen"):
                     Predictiontimer = 15
                 elif(context[6] == "très long" or context[6] == "long"):
@@ -879,9 +877,11 @@ def main(argv):
         new_PTV['Heure'] = new_PTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         new_PTV.to_html('/home/alexis/Bureau/Project/results/newPTV/PTV/TF1/new_PTV-'+date+'_TF1.html')
+        new_PTV.to_csv('/home/alexis/Bureau/Project/results/newPTV/PTV/TF1/new_PTV-'+date+'_TF1.csv',index=False)
         historyofpoints.to_html('/home/alexis/Bureau/Project/results/newPTV/historyofpts/TF1/historyofpoints-'+date+'_TF1.html')
-        print(date,historyofpoints.shape,len(labels))
         historyofpoints['labels'] = labels
+        print(date,historyofpoints.shape,len(labels))
+
         historyofpoints.to_csv('/home/alexis/Bureau/Project/results/truemerge/TF1/true_merge_'+str(date)+'_TF1.csv',index=False)
 
 

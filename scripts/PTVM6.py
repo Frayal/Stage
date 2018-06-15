@@ -19,7 +19,7 @@ import sys
 import os
 import pandas as pd
 import numpy as np
-
+from tqdm import tqdm
 #################################################
 ########### Global variables ####################
 #################################################
@@ -30,7 +30,7 @@ import numpy as np
 #################################################
 def load_file(date):
     try:
-        PTV = pd.read_csv('/home/alexis/Bureau/Project/Datas/PTV/extracted/IPTV_0118_'+date+'_M6.csv')[['TITRE','DUREE','description programme','HEURE','debut']]
+        PTV = pd.read_csv('/home/alexis/Bureau/Project/Datas/PTV/extracted/IPTV_0118_'+date+'_M6.csv')
         PTV['fin'] = PTV['debut']+PTV['DUREE']
         JOINDATE = "".join(date.split('-'))
         Points = pd.read_csv('/home/alexis/Bureau/Project/results/pred/pred_'+str(JOINDATE)+'_118.csv').values
@@ -68,6 +68,8 @@ def init_history():
     h['probability of CP'] = 0
     h['nb de pubs encore possible'] = 0
     h["chaine"]= 'M6'
+    h['CLE-FORMAT'] = 0
+    h['CLE-GENRE'] = 0
     return h
 
 def find_position(seen_percentage):
@@ -139,6 +141,10 @@ def categorize_type(description):
 def categorize_pub(name,debut,duree,titre):
     if(titre in ['Nos chers voisins']):
         return 2
+    elif(titre in ['Les aventures de Tintin','Absolument stars']):
+        return 0
+    elif(name in ['Dessin animé']):
+        return 1
     elif(name in ['Journal']):
         return 0
     elif(titre == '50mn Inside'):
@@ -207,6 +213,8 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append(probas[i-183][0])
     context.append(context[7]-nbpub)
     context.append('M6')
+    context.append(programme['CLE-FORMAT'])
+    context.append(programme['CLE-GENRE'])
     return context
 
 
@@ -233,7 +241,7 @@ def make_newPTV(PTV,Points,proba):
     historyofpoints = init_history()
     labels = [0]
     ######################
-    for i in range(183,1620):
+    for i in tqdm(range(183,1620)):
         #Update time of commercials (Reset)
         if(i%60 == 0):
             Pubinhour = 0
@@ -328,7 +336,7 @@ def make_newPTV(PTV,Points,proba):
             #Change Point ==> Decide what to do with it
             if(nbpub>=context[7] or Pubinhour >= 12):
                 # La pub n'est plus possible dans le programme ==> Soit il s'agit de la fin dans le programme, Soit c'est un faux Change Points
-                if(historyofpoints['programme'].loc[(historyofpoints.shape[0]-1)] == "magazine" and PTV['TITRE'].iloc[index_PTV] == 'M6 boutique' and context[3]<0.95):
+                if(PTV['TITRE'].iloc[index_PTV] in ['M6 boutique','Absolument stars'] and context[3]<0.95):
                     labels.append(0)
                 elif(historyofpoints['programme'].loc[(historyofpoints.shape[0]-1)] == "Journal"):
                     if(context[3]>0.70 and i<15*60):
@@ -848,7 +856,7 @@ def make_newPTV(PTV,Points,proba):
                 elif(PTV['TITRE'].iloc[index_PTV] == 'Téléshopping'):
                     Predictiontimer = 2
                 elif(context[6] == "court"):
-                    Predictiontimer = 1
+                    Predictiontimer = 5
                 elif(context[6] == "moyen"):
                     Predictiontimer = 7
                 elif(context[6] == "très long" or context[6] == "long"):
@@ -892,9 +900,11 @@ def main(argv):
         new_PTV['Heure'] = new_PTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         new_PTV.to_html('/home/alexis/Bureau/Project/results/newPTV/PTV/M6/new_PTV-'+date+'_M6.html')
+        new_PTV.to_csv('/home/alexis/Bureau/Project/results/newPTV/PTV/M6/new_PTV-'+date+'_M6.csv',index=False)
         historyofpoints.to_html('/home/alexis/Bureau/Project/results/newPTV/historyofpts/M6/historyofpoints-'+date+'_M6.html')
-        print(date,historyofpoints.shape,len(labels))
         historyofpoints['labels'] = labels
+        print(date,historyofpoints.shape,len(labels))
+
         historyofpoints.to_csv('/home/alexis/Bureau/Project/results/truemerge/M6/true_merge_'+str(date)+'_M6.csv',index=False)
 
 

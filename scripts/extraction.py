@@ -3,7 +3,7 @@
 #################################################
 #-*- coding: utf-8 -*-
 '''
-
+DEPRECIATED IN CURRENT VERSION: file directory is made for test only
 '''
 
 '''
@@ -35,7 +35,7 @@ PATH ='/home/alexis/Bureau/Project/Datas/train/'
 
 
 def processPTV(file):
-    irrelevant = ['LESPERSONNES','LESTEXTES','PHOTO','MAGAZINEXY','SERIE','NATIONALITE','FILMTELEFILM','GENRE','CS']
+    irrelevant = ['LESPERSONNES','LESTEXTES','PHOTO','MAGAZINEXY','SERIE','NATIONALITE','FILMTELEFILM','CS']
     tree = ET.parse(file)
     root = tree.getroot()
 

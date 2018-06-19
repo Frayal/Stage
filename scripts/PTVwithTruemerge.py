@@ -19,6 +19,9 @@ import sys
 import os
 import pandas as pd
 import numpy as np
+import pickle
+from catboost import CatBoostClassifier
+import xgboost as xgb
 
 #################################################
 ########### Global variables ####################
@@ -28,17 +31,103 @@ import numpy as np
 #################################################
 ########### Important functions #################
 #################################################
+def encoding_partoftheday(x):
+    if(x == 'nuit'):
+        return 1
+    if(x == 'fin de nuit'):
+        return 2
+    if(x == 'début de matinée'):
+        return 3
+    if(x == 'matinée'):
+        return 4
+    if(x == 'midi'):
+        return 5
+    if(x == 'après-midi'):
+        return 6
+    if(x == "fin d'après-midi"):
+        return 7
+    if(x == 'prime time'):
+        return 8
+    elif(type(x) == str):
+        return 0
+    else:
+        return x
+
+def encoding_partofprogramme(x):
+    if(x == 'début de programme'):
+        return 1
+    if(x == 'milieu de programme'):
+        return 2
+    if(x == 'début de fin de programme'):
+        return 3
+    if(x == 'fin de programme'):
+        return 4
+    if(x == 'en dehors du programme'):
+        return 5
+    elif(type(x) == str):
+        return 0
+    else:
+        return x
+
+
+def encoding_duree(x):
+    if(x == 'très court'):
+        return 1
+    if(x == 'court'):
+        return 2
+    if(x == 'moyen'):
+        return 3
+    if(x == 'long'):
+        return 4
+    if(x == 'très long'):
+        return 5
+    if(x == 'super long'):
+        return 6
+    elif(type(x) == str):
+        return 0
+    else:
+        return x
+
+def encoding_chaine(x):
+    if(x == 'TF1'):
+        return 1
+    if(x == 'M6'):
+        return 2
+    elif(type(x) == str):
+        return 0
+    else:
+        return x
+
+
+def process(df):
+    df['Heure'] = df['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
+    df['partie de la journée'] = df['partie de la journée'].apply(lambda x: encoding_partoftheday(x))
+    df['partie du programme'] = df['partie du programme'].apply(lambda x: encoding_partofprogramme(x))
+    df["duree"] = df['duree'].apply(lambda x: encoding_duree(x))
+    df['chaine'] = df['chaine'].apply(lambda x: encoding_chaine(x))
+    if('Heure' in df.columns.values):
+        df['Time-h'] = df['Heure'].apply(lambda x: int((x.split(':'))[0]))
+        df['Time-m'] = df['Heure'].apply(lambda x: int((x.split(':'))[1]))
+        df = df.drop(['Heure'],axis = 1)
+    if('programme' in df.columns.values):
+        df = df.drop(['programme'],axis = 1)
+    return df
+
+
+
+
+#################################################
 def load_file(date,c):
     try:
         if(c == 'TF1'):
-            PTV = pd.read_csv('/home/alexis/Bureau/Project/Datas/PTV/extracted/IPTV_0192_'+date+'_TF1.csv')[['TITRE','DUREE','description programme','HEURE','debut']]
+            PTV = pd.read_csv('/home/alexis/Bureau/Project/Datas/PTV/extracted/IPTV_0192_'+date+'_TF1.csv')
             PTV['fin'] = PTV['debut']+PTV['DUREE']
             JOINDATE = "".join(date.split('-'))
             Points = pd.read_csv('/home/alexis/Bureau/Project/results/pred/pred_'+str(JOINDATE)+'_192.csv').values
             proba = pd.read_csv('/home/alexis/Bureau/Project/results/pred/pred_proba_'+str(JOINDATE)+'_192.csv').values
             return PTV,Points,proba
         elif(c== 'M6'):
-            PTV = pd.read_csv('/home/alexis/Bureau/Project/Datas/PTV/extracted/IPTV_0118_'+date+'_M6.csv')[['TITRE','DUREE','description programme','HEURE','debut']]
+            PTV = pd.read_csv('/home/alexis/Bureau/Project/Datas/PTV/extracted/IPTV_0118_'+date+'_M6.csv')
             PTV['fin'] = PTV['debut']+PTV['DUREE']
             JOINDATE = "".join(date.split('-'))
             Points = pd.read_csv('/home/alexis/Bureau/Project/results/pred/pred_'+str(JOINDATE)+'_118.csv').values
@@ -48,17 +137,26 @@ def load_file(date,c):
         print("Fichier Non existant")
         return [],[],[]
 
-def init_newPTV(PTV):
-    #Initialisation du NewPTV
-    newPTV = pd.DataFrame()
-    newPTV['minute'] = [180]
-    newPTV['TITRE'] = 'Programmes de la nuit'
-    newPTV['Change Point'] = 'Non'
-    newPTV['pourcentage vu'] = 0
-    newPTV['Évenement'] = 'Début de Détection'
-    return newPTV
+def init_newPTV(PTV,chaine):
+    if(chaine == 'TF1'):
+        #Initialisation du NewPTV
+        newPTV = pd.DataFrame()
+        newPTV['minute'] = [180]
+        newPTV['TITRE'] = 'Programmes de la nuit'
+        newPTV['Change Point'] = 'Non'
+        newPTV['pourcentage vu'] = 0
+        newPTV['Évenement'] = 'Début de Détection'
+        return newPTV
+    if(chaine == 'M6'):
+        newPTV = pd.DataFrame()
+        newPTV['minute'] = [180]
+        newPTV['TITRE'] = 'M6 Music'
+        newPTV['Change Point'] = 'Non'
+        newPTV['pourcentage vu'] = 0
+        newPTV['Évenement'] = 'Début de Détection'
+        return newPTV
 
-def init_history():
+def init_history(chaine):
     h = pd.DataFrame()
     h['minute'] = [179]
     h['partie de la journée'] = 'nuit'
@@ -75,6 +173,9 @@ def init_history():
     h['Pubinhour'] =  0
     h['probability of CP'] = 0
     h['nb de pubs encore possible'] = 0
+    h["chaine"]= chaine
+    h['CLE-FORMAT'] = 0
+    h['CLE-GENRE'] = 0
     return h
 
 def find_position(seen_percentage):
@@ -143,45 +244,90 @@ def categorize_type(description):
     else:
         return description
 
-def categorize_pub(name,debut,duree,titre):
-    if(titre in ['Nos chers voisins']):
-        return 2
-    elif(titre in ['Journal']):
-        return 0
-    elif(titre == '50mn Inside'):
-        if(duree in ["moyen","long"]):
+def categorize_pub(name,debut,duree,titre,chaine):
+    if(chaine == 'TF1'):
+        if(titre in ['Nos chers voisins']):
             return 2
+        elif(titre in ['Journal']):
+            return 0
+        elif(titre == '50mn Inside'):
+            if(duree in ["moyen","long"]):
+                return 2
+            else:
+                return 4
+        elif(name in["Météo","Magazine","magazine"] and duree in ["court","très court"]):
+            return 0
+        elif(name in ['dessins animés'] and duree != "super long"):
+            return 3
+        elif(name in ['Jeu']):
+            return 1
+        elif(name in ['Feuilleton','film','Drame','Thriller']):
+            return 2
+        elif(name == 'Série' and 180<debut<12*60):
+            return 1
+        elif(name == 'Série'and 12*60<debut<21*60):
+            return 0
+        elif(name == 'Série'):
+            return 2
+        elif(name in ['Téléréalité'] and debut < 20.5*60):
+            return 2
+        elif(name in ['Téléréalité'] and debut > 20.5*60):
+            return 3
+        elif(duree in ["très court","court"]):
+            return 0
         else:
             return 4
-    elif(name in["Météo","Magazine","magazine"] and duree in ["court","très court"]):
-        return 0
-    elif(name in ['dessins animés'] and duree != "super long"):
-        return 3
-    elif(name in ['Jeu']):
-        return 1
-    elif(name in ['Feuilleton','film','Drame','Thriller']):
-        return 2
-    elif(name == 'Série' and 180<debut<12*60):
-        return 1
-    elif(name == 'Série'and 12*60<debut<21*60):
-        return 0
-    elif(name == 'Série'):
-        return 2
-    elif(name in ['Téléréalité'] and debut < 20.5*60):
-        return 2
-    elif(name in ['Téléréalité'] and debut > 20.5*60):
-        return 3
-    elif(duree in ["très court","court"]):
-        return 0
-    else:
-        return 4
+    if(chaine == 'M6'):
+        if(titre in ['Nos chers voisins']):
+            return 2
+        elif(titre in ['En famille']):
+            return 3
+        elif(titre in ['Les aventures de Tintin','Absolument stars','Les Sisters','M6 boutique','Scènes de ménages']):
+            return 0
+        elif(titre in ['66 minutes : grand format']):
+            return 1
+        elif(titre =='Turbo' and debut<11*60):
+            return 1
+        elif(titre in ['66 minutes']):
+            return 4
+        elif(name in ['Dessin animé','dessins animés']):
+            return 0
+        elif(name in ['Journal']):
+            return 0
+        elif(titre == '50mn Inside'):
+            if(duree in ["moyen","long"]):
+                return 2
+            else:
+                return 4
+        elif(name in ['magazine']):
+            return 2
+        elif(name in["Météo","Magazine","magazine"] and duree in ["court","très court"]):
+            return 0
+        elif(name in ['dessins animés'] and duree != "super long"):
+            return 3
+        elif(name in ['Jeu'] and duree in ['court','très court','moyen']):
+            return 2
+        elif(name in ['Feuilleton','film','Drame','Thriller']):
+            return 2
+        elif(name == 'Série' and 180<debut<12*60):
+            return 1
+        elif(name == 'Série'):
+            return 2
+        elif(name in ['Téléréalité'] and debut < 20.5*60):
+            return 2
+        elif(name in ['Téléréalité'] and debut > 20.5*60):
+            return 3
+        elif(duree in ["très court","court"]):
+            return 0
+        else:
+            return 10
 
 
-def categorize_programme(programme):
+def categorize_programme(programme,chaine):
     p = []
     p.append(categorize_type(programme['description programme']))
     p.append(categorize_duree(programme['DUREE']))
-    p.append(categorize_pub(p[0],programme['debut'],p[-1],programme['TITRE']))
+    p.append(categorize_pub(p[0],programme['debut'],p[-1],programme['TITRE'],chaine))
     return p
 
 
@@ -201,7 +347,7 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append(seen_percentage)
     context.append(find_position(seen_percentage))
     # which type of programme we are watching
-    p = categorize_programme(programme)
+    p = categorize_programme(programme,chaine)
     for j in range(len(p)):#3
         context.append(p[j])
     context.append(lastCP)
@@ -212,8 +358,19 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append(probas[i-183][0])
     context.append(context[7]-nbpub)
     context.append(chaine)
+    context.append(programme['CLE-FORMAT'])
+    context.append(programme['CLE-GENRE'])
     return context
 
+def load_models():
+    XGB = []
+    XGB.append(pickle.load(open("model_PTV/XGB1.pickle.dat", "rb")))
+    XGB.append(pickle.load(open("model_PTV/XGB2.pickle.dat", "rb")))
+
+    CatBoost = []
+    CatBoost.append(CatBoostClassifier().load_model(fname="model_PTV/catboostmodel1"))
+    CatBoost.append(CatBoostClassifier().load_model(fname="model_PTV/catboostmodel2"))
+    return XGB,CatBoost
 
 def make_newPTV(PTV,Points,proba,chaine):
     #Initialisation des Variables
@@ -225,20 +382,26 @@ def make_newPTV(PTV,Points,proba,chaine):
     Pubinhour = 0
     lastCP = 200
     lastPub= 500
-    lastend = 130
-    currentduree = 255
-    planifiedend = 385
+    lastend = 180
+    currentduree = PTV['debut'].loc[0]-180
+    planifiedend = PTV['debut'].loc[0]
     begin = True
     nbpub = 0
-    Recall = -1
-    importantpts = [[13*60,"Journal"],[20*60,"Journal"]]
+    Recall = 1
+    if(chaine == 'TF1'):
+        importantpts = [[13*60,"Journal"],[20*60,"Journal"]]
+        help = [8*60+25,8*60+30,10*60+55,12*60+50,19*60+50,11*60+52]
+    if(chaine == 'M6'):
+        importantpts = [[12*60+45,"Le 12.45"],[19*60+45,"Le 19.45"]]
+        help = [6*60,6*60+50,8*60+57,10*60]
     index_ipts = 0
     ######################
-    newPTV = init_newPTV(PTV)
-    historyofpoints = init_history()
+    newPTV = init_newPTV(PTV,chaine)
+    historyofpoints = init_history(chaine)
     labels = [0]
     #########init Classifier#############
-
+    XGB,CatBoost = load_models()
+    ####################################
     for i in range(183,1620):
         #Update time of commercials (Reset)
         if(i%60 == 0):
@@ -250,13 +413,22 @@ def make_newPTV(PTV,Points,proba,chaine):
             index_ipts-=1
         #let's get the context:
         context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine)
+        #Sur M6 il y a 16 minutes de pub entre deux films!!!!!!!!!!!!.....!!!!!!!....!!.!.!.!.!....!.!...!..!.!.!.!
+        if(PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == PTV['GENRESIMPLE'].iloc[index_PTV-1].split(' ')[0] and PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == 'Téléfilm'
+                and (i-lastend)<2 and Recall == 1 and chaine == 'M6'):
+            lastend = i+20
+            Recall = -1
+
+
+
+
         ###### Let's verify that the algo is not doing a crappy predicitions and if this the case, clean his historic #####
-        if(i == importantpts[index_ipts][0]):
+        elif(i == importantpts[index_ipts][0]):
             #### we are at an important point, let's now see what the algo has predict
             if(PTV['TITRE'].iloc[index_PTV] == importantpts[index_ipts][1]):
                 #Well he doesn't have the programme wrong, that's a good start
                 #let's now find out if we are at a logical point of the programme
-                if(context[3]>0.5):
+                if(context[3]>0.75):
                     #Wellllll, the programme began way too early...something went wrong before...Let's rest for now, we'll correct the algo later
                     Predictiontimer = 200
                     Pubinhour = 0
@@ -306,7 +478,7 @@ def make_newPTV(PTV,Points,proba,chaine):
                 else:
                     #well the programme is wrong, and we are not even close to it, let's terminate this thing before it goes completly south. REBOOT The algo, erase the memory, just like in Westworld.
                     #BUT FIRST LET'S VERIFY THAT THERE IS INDEED AN IMPORTANT PROGRAMME THAT DAY...Don't go fuck everything up for no reason
-                    l = PTV.index[(PTV['TITRE']=="Journal") & (PTV['debut'] == i)].tolist()
+                    l = PTV.index[(PTV['TITRE']==importantpts[index_ipts][1]) & (PTV['debut'] == i)].tolist()
                     if(len(l)>0):
                         index_PTV = l[0]
                         ##########################
@@ -327,18 +499,76 @@ def make_newPTV(PTV,Points,proba,chaine):
 
         if(context[2]):
             historyofpoints.loc[historyofpoints.shape[0]] = context
-            if(lastCP < min(currentduree,4)):
+            if(lastCP < min(max(currentduree/2,4),8)):
                 labels.append(0)
                 index_CP+=1
                 continue
+            else:
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
+                res1 = CatBoost[0].predict_proba(X)
+                res2 = CatBoost[1].predict_proba(X)
+                res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
+                res4 = XGB[1].predict(xgb.DMatrix(X), ntree_limit= XGB[1].best_ntree_limit)
+                res = [(res1[0][0]+res2[0][0]+res3[0][0]+res4[0][0])*0.25,(res1[0][1]+res2[0][1]+res3[0][1]+res4[0][1])*0.25,(res1[0][2]+res2[0][2]+res3[0][2]+res4[0][2])*0.25]
+                cla = np.argmax(res)
+
+                if(cla == 1):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
+                    lastCP=0
+                    lastPub = 0
+                    Pubinhour+=4
+                    nbpub+=1
+                    labels.append(1)
+                elif(cla == 2):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                    lastend = i
+                    lastCP=0
+                    index_PTV += 1
+                    index_PTV = index_PTV%(PTV.shape[0])
+                    currentduree = PTV['DUREE'].iloc[index_PTV]
+                    planifiedend = (lastend + currentduree)
+                    Predictiontimer = 200
+                    nbpub = 0
+                    labels.append(2)
+                else:
+                    labels.append(0)
+
 
             index_CP+=1
-        elif(i in [8*60+25,8*60+30,10*60+55,12*60+50,19*60+50,11*60+52]):
+        elif(i in help):
             historyofpoints.loc[historyofpoints.shape[0]] = context
-            if(lastCP < min(currentduree,4)):
+            if(lastCP < min(max(currentduree/2,4),8)):
                 labels.append(0)
-                index_CP+=1
                 continue
+            else:
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
+                res1 = CatBoost[0].predict_proba(X)
+                res2 = CatBoost[1].predict_proba(X)
+                res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
+                res4 = XGB[1].predict(xgb.DMatrix(X), ntree_limit= XGB[1].best_ntree_limit)
+                res = [(res1[0][0]+res2[0][0]+res3[0][0]+res4[0][0])*0.25,(res1[0][1]+res2[0][1]+res3[0][1]+res4[0][1])*0.25,(res1[0][2]+res2[0][2]+res3[0][2]+res4[0][2])*0.25]
+                cla = np.argmax(res)
+
+                if(cla == 1):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
+                    lastCP=0
+                    lastPub = 0
+                    Pubinhour+=4
+                    nbpub+=1
+                    labels.append(1)
+                elif(cla == 2):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                    lastend = i
+                    lastCP=0
+                    index_PTV += 1
+                    index_PTV = index_PTV%(PTV.shape[0])
+                    currentduree = PTV['DUREE'].iloc[index_PTV]
+                    planifiedend = (lastend + currentduree)
+                    Predictiontimer = 200
+                    nbpub = 0
+                    labels.append(2)
+                else:
+                    labels.append(0)
 
 
         else:
@@ -356,20 +586,46 @@ def make_newPTV(PTV,Points,proba,chaine):
                 nbpub = 0
             elif(context[3] == 1):
                 #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
-                if(11.5*60<=i<=14*60 or 19.5*60<i<21*60):
-                    Predictiontimer = 0
-                elif(context[6] == "très court"):
-                    Predictiontimer = 0
-                elif(PTV['TITRE'].iloc[index_PTV] == 'Téléshopping'):
-                    Predictiontimer = 10
-                elif(context[6] == "court"):
-                    Predictiontimer = 5
-                elif(context[6] == "moyen"):
-                    Predictiontimer = 15
-                elif(context[6] == "très long" or context[6] == "long"):
-                    Predictiontimer = 9
-                else:
-                    Predictiontimer = 10
+                # C'est sur ces valeurs que l'on va jouer pour avoir le meilleur PTV possible
+                # Plus les valeurs sont grandes, plus on fait confiance a l'algo
+                # Il est important de bien découper la journée celon les périodes horaires que l'on qualifie
+                # de "sous tension" si plusieurs programmes courts se succédent. Bien évidement une telle analyse sera
+                #plus tard fait automatiquement.
+                if(chaine == 'TF1'):
+                    if(11.5*60<=i<=14*60 or 19.5*60<i<21*60):
+                        Predictiontimer = 0
+                    elif(context[6] == "très court"):
+                        Predictiontimer = 0
+                    elif(PTV['TITRE'].iloc[index_PTV] == 'Téléshopping'):
+                        Predictiontimer = 10
+                    elif(context[6] == "court"):
+                        Predictiontimer = 5
+                    elif(context[6] == "moyen"):
+                        Predictiontimer = 15
+                    elif(context[6] == "très long" or context[6] == "long"):
+                        Predictiontimer = 9
+                    else:
+                        Predictiontimer = 10
+                elif(chaine =='M6'):
+                    #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
+                    if(i<8*60+56 or 12*60+30<i<13*60):
+                        Predictiontimer = 1
+                    elif(PTV['TITRE'].iloc[index_PTV] in ['M6 boutique']):
+                        Predictiontimer = 0
+                    elif(context[6] == "très court"):
+                        Predictiontimer = 0
+                    elif(PTV['TITRE'].iloc[index_PTV] == 'Téléshopping'):
+                        Predictiontimer = 2
+                    elif(context[6] == "court"):
+                        Predictiontimer = 5
+                    elif(context[6] == "moyen"):
+                        Predictiontimer = 7
+                    elif(context[6] == "très long"):
+                        Predictiontimer = 5
+                    elif(context[6] == 'long'):
+                        Predictiontimer = 15
+                    else:
+                        Predictiontimer = 5
 
             elif(context[3]>1):
                 Predictiontimer -= 1
@@ -389,28 +645,28 @@ def make_newPTV(PTV,Points,proba,chaine):
 
 
 def main(argv):
-    if(argv[0] == 'test'):
+    if(len(argv) == 0):
         files = os.listdir('/home/alexis/Bureau/Project/Datas/PTV/extracted')
         for file in files:
-            os.system('python /home/alexis/Bureau/Project/scripts/PTVwithTruemerge.py '+str(file))
+            f = ((file.split('.'))[0].split('_'))[2]
+            c = ((file.split('.'))[0].split('_'))[-1]
+            os.system('python /home/alexis/Bureau/Project/scripts/PTVwithTruemerge.py '+str(c)+' '+str(f))
     else:
-        f = ((file.split('.'))[0].split('_'))[2]
-        c = ((file.split('.'))[0].split('_'))[-1]
-
-        PTV,Points,proba = load_file(date,c)
+        chaine = argv[0]
+        date = argv[1]
+        d = "".join(date.split('-'))
+        PTV,Points,proba = load_file(date,chaine)
         if(len(PTV) == 0):
             return 0
-        new_PTV,historyofpoints,labels = make_newPTV(PTV,Points,proba)
+        new_PTV,historyofpoints,labels = make_newPTV(PTV,Points,proba,chaine)
         new_PTV['Heure'] = new_PTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
-        new_PTV.to_html('/home/alexis/Bureau/Project/results/newPTV/PTV/TF1/new_PTV-'+date+'_TF1.html')
-        historyofpoints.to_html('/home/alexis/Bureau/Project/results/newPTV/historyofpts/TF1/historyofpoints-'+date+'_TF1.html')
-        print(date,historyofpoints.shape,len(labels))
+        new_PTV.to_html('/home/alexis/Bureau/Project/results/ptvbyml/PTV/new_PTV-'+date+'_'+chaine+'.html')
+        new_PTV.to_csv('/home/alexis/Bureau/Project/results/ptvbyml/csv/new_PTV-'+date+'_'+chaine+'.csv',index=False)
         historyofpoints['labels'] = labels
-        historyofpoints.to_csv('/home/alexis/Bureau/Project/results/truemerge/TF1/true_merge_'+str(date)+'_TF1.csv',index=False)
+        historyofpoints.to_html('/home/alexis/Bureau/Project/results/ptvbyml/historyofpoints/historyofpoints-'+date+'_'+chaine+'.html')
 
-
-
+        print(date,historyofpoints.shape,len(labels))
 
 if __name__ == "__main__":
     # execute only if run as a script

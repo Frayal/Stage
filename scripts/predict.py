@@ -212,7 +212,7 @@ def main(argv):
         fileX = PATH+str(argv[0])
         CHAINE = (argv[0].split('_'))[-3]
         if(CHAINE == '118'):
-            THRESHOLD = float(0.47)
+            THRESHOLD = float(0.45)
         if(CHAINE == '192'):
             THRESHOLD = float(0.46)
 

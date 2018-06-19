@@ -104,7 +104,7 @@ def process(df):
     df['partie de la journée'] = df['partie de la journée'].apply(lambda x: encoding_partoftheday(x))
     df['partie du programme'] = df['partie du programme'].apply(lambda x: encoding_partofprogramme(x))
     df["duree"] = df['duree'].apply(lambda x: encoding_duree(x))
-    df['chaine'] = df['chaine'].apply(lamdba x: encoding_chaine(x))
+    df['chaine'] = df['chaine'].apply(lambda x: encoding_chaine(x))
     if('Heure' in df.columns.values):
         df['Time-h'] = df['Heure'].apply(lambda x: (x.split(':'))[0])
         df['Time-m'] = df['Heure'].apply(lambda x: (x.split(':'))[1])
@@ -120,13 +120,17 @@ def process(df):
 
 
 def main(argv):
-    chaine = argv[0]
-    files = os.listdir('/home/alexis/Bureau/Project/results/truemerge/'+chaine)
-    for file in files:
-        print(file)
-        datas = pd.read_csv('/home/alexis/Bureau/Project/results/truemerge/'+chaine+'/'+file)
-        datas = process(datas)
-        datas.to_csv('/home/alexis/Bureau/Project/results/truemerge/'+chaine+'/'+file,index=False)
+    if(len(argv) == 0):
+        os.system('python /home/alexis/Bureau/Project/scripts/feature_encoding.py M6')
+        os.system('python /home/alexis/Bureau/Project/scripts/feature_encoding.py TF1')
+    else:
+        chaine = argv[0]
+        files = os.listdir('/home/alexis/Bureau/Project/results/truemerge/'+chaine)
+        for file in files:
+            print(file)
+            datas = pd.read_csv('/home/alexis/Bureau/Project/results/truemerge/'+chaine+'/'+file)
+            datas = process(datas)
+            datas.to_csv('/home/alexis/Bureau/Project/results/truemerge/'+chaine+'/'+file,index=False)
 
 
 if __name__ == "__main__":

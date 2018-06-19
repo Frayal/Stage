@@ -317,7 +317,7 @@ def make_newPTV(PTV,Points,proba):
 
         if(context[2]):
             historyofpoints.loc[historyofpoints.shape[0]] = context
-            if(lastCP < min(currentduree,4)):
+            if(lastCP < min(max(currentduree/2,4),8)):
                 labels.append(0)
                 index_CP+=1
                 continue
@@ -583,9 +583,8 @@ def make_newPTV(PTV,Points,proba):
             index_CP+=1
         elif(i in [8*60+25,8*60+30,10*60+55,12*60+50,19*60+50,11*60+52]):
             historyofpoints.loc[historyofpoints.shape[0]] = context
-            if(lastCP < min(currentduree,4)):
+            if(lastCP < min(max(currentduree/2,4),8)):
                 labels.append(0)
-                index_CP+=1
                 continue
             #Change Point ==> Decide what to do with it
             if(nbpub>=context[7] or Pubinhour >= 12):

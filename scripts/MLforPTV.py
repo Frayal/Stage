@@ -69,7 +69,7 @@ def load(fileX,c):
     return df.drop(['labels'],axis=1),y
 
 def load_all(CHAINE):
-    wrong_dates = ['2017-12-06','2017-12-09','2017-12-20','2017-12-03','2017-12-23']
+    wrong_dates = ['2017-12-06','2017-12-09','2017-12-20']
     X = pd.DataFrame()
     Y = pd.DataFrame()
     if(CHAINE in ['TF1','all']):
@@ -158,9 +158,9 @@ class Classifier2(BaseEstimator):
 
     def fit(self, X,y):
         x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2, random_state=99)
-        self.clf1 = CatBoostClassifier(iterations=5000,learning_rate=0.01, depth=7,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300,class_weights = [1,3,5])
+        self.clf1 = CatBoostClassifier(iterations=5000,learning_rate=0.01, depth=7,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300)
         self.clf1.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
-        self.clf2 = CatBoostClassifier(iterations=5000,learning_rate=0.01, depth=8,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300,class_weights = [1,3,5])
+        self.clf2 = CatBoostClassifier(iterations=5000,learning_rate=0.01, depth=8,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300)
         self.clf2.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
     def predict(self, X):
         return self.clf.predict(X)
@@ -178,16 +178,19 @@ def find_index(l,v):
     return res
 
 def get_label(y_score,p1=0.5,p2=0.5):
-    res = []
-    for i in range(len(y_score)):
-        #res.append(np.argmax(y_score[i]))
-        if(y_score[i][1]>p1):
-            res.append(1)
-        elif(y_score[i][0]>p2):
-            res.append(0)
-        else:
-            res.append(2)
-    return res
+    if(p1 == 0):
+        return [np.argmax(y) for y in y_score]
+    else:
+        res = []
+        for i in range(len(y_score)):
+            #res.append(np.argmax(y_score[i]))
+            if(y_score[i][1]>p1):
+                res.append(1)
+            elif(y_score[i][0]>p2):
+                res.append(0)
+            else:
+                res.append(2)
+        return res
 
 def mesure_class(y_pred,y_true,j):
     TP = 0
@@ -345,8 +348,8 @@ def main(argv):
         y_pred2 = pd.read_csv('y_pred2.csv').values
         y_pred4 = pd.read_csv('y_pred4.csv').values
         y_pred5 = pd.read_csv('y_pred5.csv').values
-        for p1 in [0.5]:
-            for p2 in [0.45]:
+        for p1 in [0]:
+            for p2 in [0]:
                 print('################### '+str(p1)+' ### '+str(p2)+'###################')
                 print('############XGB##############')
                 mesure(y_pred,Y_test,p1,p2)

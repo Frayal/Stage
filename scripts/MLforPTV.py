@@ -61,7 +61,7 @@ from sklearn import linear_model
 #################################################
 def load(fileX,c):
     df = pd.read_csv('/home/alexis/Bureau/Project/results/truemerge/'+str(c)+'/'+fileX)
-    if('Heure' in df.columns.values or 'programme' in df.columns.values or 'chaine' in df.columns.values ):
+    if('Heure' in df.columns.values or 'programme' in df.columns.values):
         print('colonnes en trop',fileX)
     if('labels' not in df.columns.values):
         print('pas de labels',fileX)
@@ -69,13 +69,12 @@ def load(fileX,c):
     return df.drop(['labels'],axis=1),y
 
 def load_all(CHAINE):
-    wrong_dates = ['2017-12-06','2017-12-09','2017-12-20']
     X = pd.DataFrame()
     Y = pd.DataFrame()
     if(CHAINE in ['TF1','all']):
         files = os.listdir('/home/alexis/Bureau/Project/results/truemerge/TF1/')
         for file in files:
-            if(file.split('_')[-2] in wrong_dates):
+            if(file.split('_')[-2] in ['2017-12-06','2017-12-09','2017-12-20','2017-12-28','2017-12-14'] or (file.split('_')[-2]).split('-')[0] == '2018'):
                 print(file.split('_')[-2])
             else:
                 df,y = load(file,'TF1')
@@ -88,7 +87,7 @@ def load_all(CHAINE):
     if(CHAINE in ['M6','all']):
         files = os.listdir('/home/alexis/Bureau/Project/results/truemerge/M6/')
         for file in files:
-            if(file.split('_')[-2] in wrong_dates):
+            if(file.split('_')[-2] in ['2017-12-20'] or (file.split('_')[-2]).split('-')[0] == '2018'):
                 print(file.split('_')[-2])
             else:
                 df,y = load(file,'M6')
@@ -134,11 +133,10 @@ class Classifier(BaseEstimator):
         pass
 
     def fit(self,X,y):
-        np.random.seed(42)
         x1, x2, y1, y2 = train_test_split(X.values, y.values, test_size=0.2)
         watchlist = [(xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1]), 'train'), (xgb.DMatrix(x2, y2,weight = [int(y)*2+1 for y in y2]), 'valid')]
-        self.clf1 = xgb.train(params, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 5000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
-        self.clf2 = xgb.train(params2, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 5000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
+        self.clf1 = xgb.train(params, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 7000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
+        self.clf2 = xgb.train(params2, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 7000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
 
 
     def predict(self, X):
@@ -157,10 +155,10 @@ class Classifier2(BaseEstimator):
         pass
 
     def fit(self, X,y):
-        x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2, random_state=99)
-        self.clf1 = CatBoostClassifier(iterations=5000,learning_rate=0.01, depth=7,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300)
+        x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2)
+        self.clf1 = CatBoostClassifier(iterations=7000,learning_rate=0.01, depth=7,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300,class_weights = [1,3,3])
         self.clf1.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
-        self.clf2 = CatBoostClassifier(iterations=5000,learning_rate=0.01, depth=8,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300)
+        self.clf2 = CatBoostClassifier(iterations=7000,learning_rate=0.01, depth=8,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300,class_weights = [1,3,3])
         self.clf2.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
     def predict(self, X):
         return self.clf.predict(X)
@@ -335,7 +333,8 @@ def save_model_xgb(model):
     pickle.dump(model.clf1, open("model_PTV/XGB1.pickle.dat", "wb"))
     pickle.dump(model.clf2, open("model_PTV/XGB2.pickle.dat", "wb"))
 
-
+def save_model(clf,name):
+    pickle.dump(clf, open("model_PTV/"+name+".pickle.dat", "wb"))
 
 
 #################################################################
@@ -376,6 +375,7 @@ def main(argv):
         X_test = X_test.fillna(0)
         Y_test  = [Y[0] for Y in Y_test.values]
         ##########################################
+        np.random.seed(42)
         clf = Classifier()
         clf.fit(X_train,Y_train)
         y_pred = clf.predict_proba(X_test)
@@ -396,9 +396,11 @@ def main(argv):
         ##########################################
         save_model_xgb(clf)
         save_model_cat(clf2)
+        save_model(dtree_model,"DT")
+        save_model(RF_model,"RF")
         pickle.dump(tpot, open("model_PTV/GradientBoostingClassifier.pickle.dat", "wb"))
         pickle.dump(RF_model, open("model_PTV/RandomForestClassifier.pickle.dat", "wb"))
-        for p1,p2 in zip([0.5],[0.45]):
+        for p1,p2 in zip([0],[0]):
             print('############XGB##############')
             mesure(y_pred,Y_test,p1,p2)
             mismatch(y_pred,Y_test,p1,p2)
@@ -421,7 +423,7 @@ def main(argv):
             acc(y_pred5,Y_test,p1,p2)
 
         #ROC_curve(y_pred,Y_test)
-        ROC_curve(y_pred2,Y_test)
+        #ROC_curve(y_pred2,Y_test)
         pd.DataFrame(Y_test).to_csv('results.csv',index=False)
         pd.DataFrame(y_pred).to_csv('y_pred.csv',index=False)
         pd.DataFrame(y_pred2).to_csv('y_pred2.csv',index=False)

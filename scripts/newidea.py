@@ -383,6 +383,276 @@ def load_models():
 
     return XGB,CatBoost,rf,dt
 
+
+
+def make_predictedPTV(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt):
+    #Initialisation des Variables
+    verbose = False
+    index_CP = index_CP
+    index_PTV = index_PTV
+    ##########################
+    Predictiontimer = 200
+    Pubinhour = Pubinhour
+    lastCP = lastCP
+    lastPub= lastPub
+    lastend = lastend
+    currentduree = currentduree
+    planifiedend = planifiedend
+    begin = True
+    nbpub = nbpub
+    Recall = 1
+    wait = 4
+    error = 0
+    if(chaine == 'TF1'):
+        importantpts = [[13*60,"Journal"],[20*60,"Journal"]]
+        help = [6*60+30,8*60+25,8*60+30,10*60+55,12*60+50,19*60+50,11*60+52]
+    if(chaine == 'M6'):
+        importantpts = [[12*60+45,"Le 12.45"],[19*60+45,"Le 19.45"]]
+        help = [6*60,6*60+50,8*60+57,10*60]
+
+    if(j> importantpts[0][0]):
+        end = importantpts[1][0]
+        index_ipts = 1
+    else:
+        end = importantpts[0][0]
+        index_ipts = 0
+    #####################################
+    if(actu == 0):
+        pass
+    elif(actu == 1):
+        lastCP=0
+        lastPub = 0
+        Pubinhour+=4
+        nbpub+=1
+    elif(actu == 2):
+        lastend = j
+        lastCP=0
+        index_PTV += 1
+        index_PTV = index_PTV%(PTV.shape[0])
+        currentduree = PTV['DUREE'].iloc[index_PTV]
+        planifiedend = (lastend + currentduree)
+        Predictiontimer = 200
+        nbpub = 0
+    #####################################
+    for i in range(j,end+1):
+        #Update time of commercials (Reset)
+        if(i%60 == 0):
+            Pubinhour = 0
+        #Update timmers
+        lastPub+=1
+        lastCP+=1
+        if(index_ipts==len(importantpts)):
+            index_ipts-=1
+        #let's get the context:
+        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine)
+        #Sur M6 il y a 16 minutes de pub entre deux films!!!!!!!!!!!!.....!!!!!!!....!!.!.!.!.!....!.!...!..!.!.!.!
+        if(PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == PTV['GENRESIMPLE'].iloc[index_PTV-1].split(' ')[0] and PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == 'Téléfilm'
+                and (i-lastend)<2 and Recall == 1 and chaine == 'M6'):
+            lastend = i+5
+            Recall = -1
+        ###### Let's verify that the algo is not doing a crappy predicitions and if this the case, clean his historic #####
+        elif(i == importantpts[index_ipts][0]):
+            #### we are at an important point, let's now see what the algo has predict
+            if(PTV['TITRE'].iloc[index_PTV] == importantpts[index_ipts][1]):
+                #Well he doesn't have the programme wrong, that's a good start
+                #let's now find out if we are at a logical point of the programme
+                if(context[3]>0.75):
+                    #Wellllll, the programme began way too early...something went wrong before...Let's rest for now, we'll correct the algo later
+                    Predictiontimer = 200
+                    Pubinhour = 0
+                    lastCP = 0
+                    lastPub = 0
+                    lastend = i
+                    currentduree = PTV['DUREE'].iloc[index_PTV]
+                    planifiedend = (lastend + currentduree)
+                    nbpub = 0
+                    #we can now keep going throw the process like before
+                    #we just add a line to the history to say that a reset occured
+                    return 1
+                else:
+                    # OMG the ALGO IS RIGHT...here is a candy, let's rest a litle just in case...we never know....
+                    Predictiontimer = 200
+                    Pubinhour = 0
+                    lastCP = 0
+                    lastPub= 0
+                    lastend = i
+                    currentduree = PTV['DUREE'].iloc[index_PTV]
+                    planifiedend = (lastend + currentduree)
+                    nbpub = 0
+                    #we can now keep going throw the process like before
+                    #we just add a line to the history to say that a reset occured
+                    return 0
+
+
+
+            else:
+                #maybe it's the next programme so calme the fuck down!
+                if(PTV['TITRE'].iloc[index_PTV+1] == importantpts[index_ipts][1]):
+                    #here you go, it's the next one...just terminate this one and we're good to go
+                    lastend = i
+                    lastCP=0
+                    index_PTV += 1
+                    index_PTV = index_PTV%(PTV.shape[0])
+                    currentduree = PTV['DUREE'].iloc[index_PTV]
+                    planifiedend = (lastend + currentduree)
+                    Predictiontimer = 200
+                    nbpub = 0
+                    return 0
+
+                else:
+                    #well the programme is wrong, and we are not even close to it, let's terminate this thing before it goes completly south. REBOOT The algo, erase the memory, just like in Westworld.
+                    #BUT FIRST LET'S VERIFY THAT THERE IS INDEED AN IMPORTANT PROGRAMME THAT DAY...Don't go fuck everything up for no reason
+                    l = PTV.index[(PTV['TITRE']==importantpts[index_ipts][1]) & (PTV['debut'] == i)].tolist()
+                    if(len(l)>0):
+                        index_PTV = l[0]
+                        ##########################
+                        Predictiontimer = 200
+                        Pubinhour = 0
+                        lastCP = 0
+                        lastPub= 0
+                        lastend = i
+                        currentduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + currentduree)
+                        nbpub = 0
+                        #we can now keep going throw the process like before
+                        #we just add a line to the history to say that a reset occured
+                        return 2
+                    else:
+                        return 0
+
+        if(context[2]):
+            if(lastCP < min(4,currentduree)):
+                index_CP+=1
+                continue
+            else:
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
+                res1 = CatBoost[0].predict_proba(X)
+                res2 = CatBoost[1].predict_proba(X)
+                res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
+                res4 = XGB[1].predict(xgb.DMatrix(X), ntree_limit= XGB[1].best_ntree_limit)
+                res5 = rf.predict_proba(X)
+                res6 = dt.predict_proba(X)
+                res = [(res1[0][0]+res2[0][0]+res3[0][0]+res4[0][0]+res5[0][0]+res6[0][0])/6,(res1[0][1]+res2[0][1]+res3[0][1]+res4[0][1]+res5[0][1]+res6[0][1])/6,(res1[0][2]+res2[0][2]+res3[0][2]+res4[0][2]+res5[0][2]+res6[0][2])/6]
+                cla = np.argmax(res)
+
+                if(cla == 1):
+                    lastCP=0
+                    lastPub = 0
+                    Pubinhour+=4
+                    nbpub+=1
+                    wait = 4
+                elif(cla == 2):
+                    lastend = i
+                    lastCP=0
+                    index_PTV += 1
+                    index_PTV = index_PTV%(PTV.shape[0])
+                    currentduree = PTV['DUREE'].iloc[index_PTV]
+                    planifiedend = (lastend + currentduree)
+                    Predictiontimer = 200
+                    nbpub = 0
+                    wait = 5
+                else:
+                    pass
+
+
+
+            index_CP+=1
+        elif(i in help):
+            if(lastCP < min(4,currentduree)):
+                continue
+            else:
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
+                res1 = CatBoost[0].predict_proba(X)
+                res2 = CatBoost[1].predict_proba(X)
+                res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
+                res4 = XGB[1].predict(xgb.DMatrix(X), ntree_limit= XGB[1].best_ntree_limit)
+                res5 = rf.predict_proba(X)
+                res6 = dt.predict_proba(X)
+                res = [(res1[0][0]+res2[0][0]+res3[0][0]+res4[0][0]+res5[0][0]+res6[0][0])/6,(res1[0][1]+res2[0][1]+res3[0][1]+res4[0][1]+res5[0][1]+res6[0][1])/6,(res1[0][2]+res2[0][2]+res3[0][2]+res4[0][2]+res5[0][2]+res6[0][2])/6]
+                cla = np.argmax(res)
+
+                if(cla == 1):
+                    lastCP=0
+                    lastPub = 0
+                    Pubinhour+=4
+                    nbpub+=1
+                    wait = 4
+                elif(cla == 2):
+                    lastend = i
+                    lastCP=0
+                    index_PTV += 1
+                    index_PTV = index_PTV%(PTV.shape[0])
+                    currentduree = PTV['DUREE'].iloc[index_PTV]
+                    planifiedend = (lastend + currentduree)
+                    Predictiontimer = 200
+                    nbpub = 0
+                    wait = 5
+                else:
+                    pass
+
+
+        else:
+            #labels.append(0)
+            #Not a Change Point, we'll just check that nothing is wrong in the PTV at this time
+            if(Predictiontimer == 0):
+                lastend = i
+                lastCP=0
+                index_PTV += 1
+                index_PTV = index_PTV%(PTV.shape[0])
+                currentduree = PTV['DUREE'].iloc[index_PTV]
+                planifiedend = (lastend + currentduree)
+                Predictiontimer = 200
+                nbpub = 0
+            elif(context[3] == 1):
+                #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
+                # C'est sur ces valeurs que l'on va jouer pour avoir le meilleur PTV possible
+                # Plus les valeurs sont grandes, plus on fait confiance a l'algo
+                # Il est important de bien découper la journée celon les périodes horaires que l'on qualifie
+                # de "sous tension" si plusieurs programmes courts se succédent. Bien évidement une telle analyse sera
+                #plus tard fait automatiquement.
+                if(chaine == 'TF1'):
+                    if(11.5*60<=i<=14*60 or 19.5*60<i<21*60):
+                        Predictiontimer = 1
+                    elif(context[6] == "très court"):
+                        Predictiontimer = 0
+                    elif(PTV['TITRE'].iloc[index_PTV] == 'Téléshopping'):
+                        Predictiontimer = 5
+                    elif(context[6] == "court"):
+                        Predictiontimer = 5
+                    elif(context[6] == "moyen"):
+                        Predictiontimer = 5
+                    elif(context[6] == "très long" or context[6] == "long"):
+                        Predictiontimer = 15
+                    else:
+                        Predictiontimer = 5
+                elif(chaine =='M6'):
+                    #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
+                    #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
+                    if(i<9*60+56 or 12*60+30<i<13*60):
+                        Predictiontimer = 2
+                    elif(PTV['TITRE'].iloc[index_PTV] in ['M6 boutique']):
+                        Predictiontimer = 2
+                    elif(context[6] == "très court"):
+                        Predictiontimer = 0
+                    elif(context[6] == "court"):
+                        Predictiontimer = 2
+                    elif(context[6] == "moyen"):
+                        Predictiontimer = 5
+                    elif(context[6] == "très long"):
+                        Predictiontimer = 5
+                    elif(context[6] == 'long'):
+                        Predictiontimer = 10
+                    else:
+                        Predictiontimer = 5
+            elif(context[3]>1):
+                Predictiontimer -= 1
+            else:
+                pass
+    return error
+
+
+
+
 def make_newPTV(PTV,Points,proba,chaine):
     #Initialisation des Variables
     verbose = False
@@ -507,7 +777,6 @@ def make_newPTV(PTV,Points,proba,chaine):
                         index_ipts+=1
                     else:
                         index_ipts+=1
-
         if(context[2]):
             historyofpoints.loc[historyofpoints.shape[0]] = context
             if(lastCP < min(4,currentduree)):
@@ -515,15 +784,56 @@ def make_newPTV(PTV,Points,proba,chaine):
                 index_CP+=1
                 continue
             else:
-                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
-                res1 = CatBoost[0].predict_proba(X)
-                res2 = CatBoost[1].predict_proba(X)
-                res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
-                res4 = XGB[1].predict(xgb.DMatrix(X), ntree_limit= XGB[1].best_ntree_limit)
-                res5 = rf.predict_proba(X)
-                res6 = dt.predict_proba(X)
-                res = [(res1[0][0]+res2[0][0]+res3[0][0]+res4[0][0]+res5[0][0]+res6[0][0])/6,(res1[0][1]+res2[0][1]+res3[0][1]+res4[0][1]+res5[0][1]+res6[0][1])/6,(res1[0][2]+res2[0][2]+res3[0][2]+res4[0][2]+res5[0][2]+res6[0][2])/6]
-                cla = np.argmax(res)
+                if(i<importantpts[1][0]):
+                    test_0 = make_predictedPTV(0,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt)
+                    test_1 = make_predictedPTV(1,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt)
+                    test_2 = make_predictedPTV(2,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt)
+
+                    if(test_0 == 0 and test_1 > 0 and test_2 > 0):
+                        cla = 0
+                    elif(test_1 == 0 and test_0 > 0 and test_2 > 0):
+                        cla = 1
+                    elif(test_2 == 0 and test_0 > 0 and test_1 > 0):
+                        cla = 2
+                    elif(test_0 == 1 and test_1 == 2 and test_2 == 2):
+                        cla = 0
+                    elif(test_1 == 1 and test_0 == 2 and test_2 == 2):
+                        cla = 1
+                    elif(test_2 == 1 and test_0 == 2 and test_1 == 2):
+                        cla = 2
+                    else:
+                        possibles = []
+                        if(test_0 == 0):
+                            possibles.append(0)
+                        if(test_1 == 0):
+                            possibles.append(1)
+                        if(test_2 == 0):
+                            possibles.append(2)
+                        if(len(possibles) == 0):
+                            print("pas de bonne solution")
+                            possibles = [0,1,2]
+                        X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
+                        res1 = CatBoost[0].predict_proba(X)
+                        res2 = CatBoost[1].predict_proba(X)
+                        res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
+                        res4 = XGB[1].predict(xgb.DMatrix(X), ntree_limit= XGB[1].best_ntree_limit)
+                        res5 = rf.predict_proba(X)
+                        res6 = dt.predict_proba(X)
+                        res = [(res1[0][0]+res2[0][0]+res3[0][0]+res4[0][0]+res5[0][0]+res6[0][0])/6,(res1[0][1]+res2[0][1]+res3[0][1]+res4[0][1]+res5[0][1]+res6[0][1])/6,(res1[0][2]+res2[0][2]+res3[0][2]+res4[0][2]+res5[0][2]+res6[0][2])/6]
+
+                        cl = [[res[i],i] for i in possibles]
+                        cla = cl[np.argmax([l[0] for l in cl])][1]
+
+                else:
+                    X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
+                    res1 = CatBoost[0].predict_proba(X)
+                    res2 = CatBoost[1].predict_proba(X)
+                    res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
+                    res4 = XGB[1].predict(xgb.DMatrix(X), ntree_limit= XGB[1].best_ntree_limit)
+                    res5 = rf.predict_proba(X)
+                    res6 = dt.predict_proba(X)
+                    res = [(res1[0][0]+res2[0][0]+res3[0][0]+res4[0][0]+res5[0][0]+res6[0][0])/6,(res1[0][1]+res2[0][1]+res3[0][1]+res4[0][1]+res5[0][1]+res6[0][1])/6,(res1[0][2]+res2[0][2]+res3[0][2]+res4[0][2]+res5[0][2]+res6[0][2])/6]
+                    cla = np.argmax(res)
 
                 if(cla == 1):
                     newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
@@ -555,17 +865,59 @@ def make_newPTV(PTV,Points,proba,chaine):
             historyofpoints.loc[historyofpoints.shape[0]] = context
             if(lastCP < min(4,currentduree)):
                 labels.append(0)
+                index_CP+=1
                 continue
             else:
-                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
-                res1 = CatBoost[0].predict_proba(X)
-                res2 = CatBoost[1].predict_proba(X)
-                res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
-                res4 = XGB[1].predict(xgb.DMatrix(X), ntree_limit= XGB[1].best_ntree_limit)
-                res5 = rf.predict_proba(X)
-                res6 = dt.predict_proba(X)
-                res = [(res1[0][0]+res2[0][0]+res3[0][0]+res4[0][0]+res5[0][0]+res6[0][0])/6,(res1[0][1]+res2[0][1]+res3[0][1]+res4[0][1]+res5[0][1]+res6[0][1])/6,(res1[0][2]+res2[0][2]+res3[0][2]+res4[0][2]+res5[0][2]+res6[0][2])/6]
-                cla = np.argmax(res)
+                if(i<importantpts[1][0]):
+                    test_0 = make_predictedPTV(0,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt)
+                    test_1 = make_predictedPTV(1,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt)
+                    test_2 = make_predictedPTV(2,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt)
+
+                    if(test_0 == 0 and test_1 > 0 and test_2 > 0):
+                        cla = 0
+                    elif(test_1 == 0 and test_0 > 0 and test_2 > 0):
+                        cla = 1
+                    elif(test_2 == 0 and test_0 > 0 and test_1 > 0):
+                        cla = 2
+                    elif(test_0 == 1 and test_1 == 2 and test_2 == 2):
+                        cla = 0
+                    elif(test_1 == 1 and test_0 == 2 and test_2 == 2):
+                        cla = 1
+                    elif(test_2 == 1 and test_0 == 2 and test_1 == 2):
+                        cla = 2
+                    else:
+                        possibles = []
+                        if(test_0 == 0):
+                            possibles.append(0)
+                        if(test_1 == 0):
+                            possibles.append(1)
+                        if(test_2 == 0):
+                            possibles.append(2)
+                        if(len(possibles) == 0):
+                            print("pas de bonne solution")
+                            possibles = [0,1,2]
+                        X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
+                        res1 = CatBoost[0].predict_proba(X)
+                        res2 = CatBoost[1].predict_proba(X)
+                        res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
+                        res4 = XGB[1].predict(xgb.DMatrix(X), ntree_limit= XGB[1].best_ntree_limit)
+                        res5 = rf.predict_proba(X)
+                        res6 = dt.predict_proba(X)
+                        res = [(res1[0][0]+res2[0][0]+res3[0][0]+res4[0][0]+res5[0][0]+res6[0][0])/6,(res1[0][1]+res2[0][1]+res3[0][1]+res4[0][1]+res5[0][1]+res6[0][1])/6,(res1[0][2]+res2[0][2]+res3[0][2]+res4[0][2]+res5[0][2]+res6[0][2])/6]
+
+                        cl = [[res[i],i] for i in possibles]
+                        cla = cl[np.argmax([l[0] for l in cl])][1]
+                else:
+                    X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
+                    res1 = CatBoost[0].predict_proba(X)
+                    res2 = CatBoost[1].predict_proba(X)
+                    res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
+                    res4 = XGB[1].predict(xgb.DMatrix(X), ntree_limit= XGB[1].best_ntree_limit)
+                    res5 = rf.predict_proba(X)
+                    res6 = dt.predict_proba(X)
+                    res = [(res1[0][0]+res2[0][0]+res3[0][0]+res4[0][0]+res5[0][0]+res6[0][0])/6,(res1[0][1]+res2[0][1]+res3[0][1]+res4[0][1]+res5[0][1]+res6[0][1])/6,(res1[0][2]+res2[0][2]+res3[0][2]+res4[0][2]+res5[0][2]+res6[0][2])/6]
+                    cla = np.argmax(res)
+
 
                 if(cla == 1):
                     newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
@@ -589,6 +941,7 @@ def make_newPTV(PTV,Points,proba,chaine):
                     labels.append(2)
                 else:
                     labels.append(0)
+
 
 
         else:
@@ -629,14 +982,14 @@ def make_newPTV(PTV,Points,proba,chaine):
                 elif(chaine =='M6'):
                     #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
                     #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
-                    if(i<8*60+56 or 12*60+30<i<13*60):
+                    if(i<9*60+56 or 12*60+30<i<13*60):
                         Predictiontimer = 2
                     elif(PTV['TITRE'].iloc[index_PTV] in ['M6 boutique']):
-                        Predictiontimer = 5
+                        Predictiontimer = 2
                     elif(context[6] == "très court"):
                         Predictiontimer = 0
                     elif(context[6] == "court"):
-                        Predictiontimer = 5
+                        Predictiontimer = 2
                     elif(context[6] == "moyen"):
                         Predictiontimer = 5
                     elif(context[6] == "très long"):
@@ -652,13 +1005,9 @@ def make_newPTV(PTV,Points,proba,chaine):
     return newPTV,historyofpoints,labels,error
 
 
-
-
 #################################################
 ########### main with options ###################
 #################################################
-
-
 
 def main(argv):
 
@@ -675,14 +1024,14 @@ def main(argv):
         for file in files:
             f = ((file.split('.'))[0].split('_'))[2]
             c = ((file.split('.'))[0].split('_'))[-1]
-            if(f=='2017-12-20' or (f in ['2017-12-09','2017-12-06'] and c=='TF1') or f.split('-')[0] == '2017'):
+            if(f=='2017-12-20' or (f in ['2017-12-09','2017-12-06'] and c=='TF1') or f.split('-')[0] == '2018'):
                 pass
-            elif(c =='TF1'):
+            elif(c ==''):
                 pass
             else:
 
                 print(c)
-                l = os.system('python /home/alexis/Bureau/Project/scripts/PTVwithTruemerge.py '+str(c)+' '+str(f))
+                l = os.system('python /home/alexis/Bureau/Project/scripts/newidea.py '+str(c)+' '+str(f))
                 if(l/256 == 4):
                     pass
                 else:

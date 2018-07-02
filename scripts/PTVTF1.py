@@ -255,7 +255,7 @@ def make_newPTV(PTV,Points,proba):
             if(PTV['TITRE'].iloc[index_PTV] == importantpts[index_ipts][1]):
                 #Well he doesn't have the programme wrong, that's a good start
                 #let's now find out if we are at a logical point of the programme
-                if(context[3]>0.5):
+                if(i-lastend>10):
                     #Wellllll, the programme began way too early...something went wrong before...Let's rest for now, we'll correct the algo later
                     Predictiontimer = 200
                     Pubinhour = 0
@@ -472,7 +472,7 @@ def make_newPTV(PTV,Points,proba):
                     nbpub+=1
                     labels.append(1)
 
-                elif(context[3]<=0.95 and lastPub>=20 and (i-lastend)>=20 and context[5] == "film"):
+                elif(context[3]<=0.90 and lastPub>=20 and (i-lastend)>=20 and context[5] == "film"):
                     newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
                     lastCP=0
                     lastPub = 0
@@ -738,7 +738,7 @@ def make_newPTV(PTV,Points,proba):
                     nbpub+=1
                     labels.append(1)
 
-                elif(context[3]<=0.95 and lastPub>=20 and (i-lastend)>=20 and context[5] == "film"):
+                elif(context[3]<=0.90 and lastPub>=20 and (i-lastend)>=20 and context[5] == "film"):
                     newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
                     lastCP=0
                     lastPub = 0

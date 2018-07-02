@@ -74,7 +74,7 @@ def load_all(CHAINE):
     if(CHAINE in ['TF1','all']):
         files = os.listdir('/home/alexis/Bureau/Project/results/truemerge/TF1/')
         for file in files:
-            if(file.split('_')[-2] in ['2017-12-06','2017-12-09','2017-12-20','2017-12-28','2017-12-14'] or (file.split('_')[-2]).split('-')[0] == '2018'):
+            if(file.split('_')[-2] in ['2017-12-09','2017-12-20','2017-12-08','2017-12-14'] or (file.split('_')[-2]).split('-')[0] == '2018'):
                 print(file.split('_')[-2])
             else:
                 df,y = load(file,'TF1')
@@ -87,7 +87,7 @@ def load_all(CHAINE):
     if(CHAINE in ['M6','all']):
         files = os.listdir('/home/alexis/Bureau/Project/results/truemerge/M6/')
         for file in files:
-            if(file.split('_')[-2] in ['2017-12-20'] or (file.split('_')[-2]).split('-')[0] == '2018'):
+            if(file.split('_')[-2] in ['2017-12-20','2017-12-25','2017-12-10','2017-12-09','2017-12-29','2017-12-26'] or (file.split('_')[-2]).split('-')[0] == '2018'):
                 print(file.split('_')[-2])
             else:
                 df,y = load(file,'M6')
@@ -102,7 +102,7 @@ def load_all(CHAINE):
 ######################################################
 ### XGB modeling
 params = {'eta': 0.001,
-          'max_depth': 15,
+          'max_depth': 18,
           'subsample': 0.9,
           'colsample_bytree': 1,
           'colsample_bylevel':1,
@@ -115,7 +115,7 @@ params = {'eta': 0.001,
          'num_class' : 3,
          }
 params2 = {'eta': 0.001,
-          'max_depth': 16,
+          'max_depth': 19,
           'subsample': 0.9,
           'colsample_bytree': 0.9,
           'colsample_bylevel':0.9,
@@ -133,10 +133,10 @@ class Classifier(BaseEstimator):
         pass
 
     def fit(self,X,y):
-        x1, x2, y1, y2 = train_test_split(X.values, y.values, test_size=0.2)
+        x1, x2, y1, y2 = train_test_split(X.values, y.values, test_size=0.2,random_state = 99)
         watchlist = [(xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1]), 'train'), (xgb.DMatrix(x2, y2,weight = [int(y)*2+1 for y in y2]), 'valid')]
-        self.clf1 = xgb.train(params, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 7000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
-        self.clf2 = xgb.train(params2, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 7000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
+        self.clf1 = xgb.train(params, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 10000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
+        self.clf2 = xgb.train(params2, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 10000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
 
 
     def predict(self, X):
@@ -155,10 +155,10 @@ class Classifier2(BaseEstimator):
         pass
 
     def fit(self, X,y):
-        x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2)
-        self.clf1 = CatBoostClassifier(iterations=7000,learning_rate=0.01, depth=7,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300,class_weights = [1,3,3])
+        x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2,random_state = 7)
+        self.clf1 = CatBoostClassifier(iterations=7000,learning_rate=0.01, depth=10,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300,class_weights = [1,2,3])
         self.clf1.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
-        self.clf2 = CatBoostClassifier(iterations=7000,learning_rate=0.01, depth=8,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300,class_weights = [1,3,3])
+        self.clf2 = CatBoostClassifier(iterations=7000,learning_rate=0.01, depth=11,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300,class_weights = [1,2,3])
         self.clf2.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
     def predict(self, X):
         return self.clf.predict(X)
@@ -176,6 +176,7 @@ def find_index(l,v):
     return res
 
 def get_label(y_score,p1=0.5,p2=0.5):
+    return [np.argmax(y) for y in y_score]
     if(p1 == 0):
         return [np.argmax(y) for y in y_score]
     else:
@@ -347,6 +348,8 @@ def main(argv):
         y_pred2 = pd.read_csv('y_pred2.csv').values
         y_pred4 = pd.read_csv('y_pred4.csv').values
         y_pred5 = pd.read_csv('y_pred5.csv').values
+        res = [[(res1[0]+res2[0]+res3[0]+res4[0]+res5[0]+res6[0])/6,(res1[1]+res2[1]+res3[1]+res4[1]+res5[1]+res6[1])/6,(res1[2]+res2[2]+res3[2]+res4[2]+res5[2]+res6[2])/6] for res1,res2,res3,res4,res5,res6 in zip(y_pred,y_pred2,y_pred2,y_pred4,y_pred5,y_pred)]
+
         for p1 in [0]:
             for p2 in [0]:
                 print('################### '+str(p1)+' ### '+str(p2)+'###################')
@@ -366,6 +369,11 @@ def main(argv):
                 mesure(y_pred5,Y_test,p1,p2)
                 mismatch(y_pred5,Y_test,p1,p2)
                 acc(y_pred5,Y_test,p1,p2)
+                print('############Stack##############')
+                mesure(res,Y_test,p1,p2)
+                mismatch(res,Y_test,p1,p2)
+                acc(res,Y_test,p1,p2)
+
     elif(len(argv) == 1):
         X,Y = load_all(argv[0])
         X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
@@ -386,12 +394,12 @@ def main(argv):
         dtree_model = DecisionTreeClassifier(max_depth = 10).fit(X_train,Y_train)
         y_pred3 = dtree_model.predict_proba(X_test)
 
-        tpot = GradientBoostingClassifier(learning_rate=0.5, max_depth=10, max_features=0.75, min_samples_leaf=7, min_samples_split=16, n_estimators=100, subsample=0.8)
+        tpot = GradientBoostingClassifier(learning_rate=0.05, max_depth=10, max_features=0.75, min_samples_leaf=7, min_samples_split=16, n_estimators=500, subsample=0.9)
         tpot.fit(X_train,Y_train)
         print(tpot.score(X_test, Y_test))
         y_pred4 = tpot.predict_proba(X_test)
 
-        RF_model = RandomForestClassifier(max_depth = 10).fit(X_train,Y_train)
+        RF_model = RandomForestClassifier(max_depth = 15).fit(X_train,Y_train)
         y_pred5 = RF_model.predict_proba(X_test)
         ##########################################
         save_model_xgb(clf)
@@ -400,6 +408,7 @@ def main(argv):
         save_model(RF_model,"RF")
         pickle.dump(tpot, open("model_PTV/GradientBoostingClassifier.pickle.dat", "wb"))
         pickle.dump(RF_model, open("model_PTV/RandomForestClassifier.pickle.dat", "wb"))
+        res = [[(res1[0]+res2[0]+res3[0]+res4[0]+res5[0]+res6[0])/6,(res1[1]+res2[1]+res3[1]+res4[1]+res5[1]+res6[1])/6,(res1[2]+res2[2]+res3[2]+res4[2]+res5[2]+res6[2])/6] for res1,res2,res3,res4,res5,res6 in zip(y_pred,y_pred2,y_pred3,y_pred4,y_pred5,y_pred)]
         for p1,p2 in zip([0],[0]):
             print('############XGB##############')
             mesure(y_pred,Y_test,p1,p2)
@@ -421,6 +430,10 @@ def main(argv):
             mesure(y_pred5,Y_test,p1,p2)
             mismatch(y_pred5,Y_test,p1,p2)
             acc(y_pred5,Y_test,p1,p2)
+            print('############Stack##############')
+            mesure(res,Y_test,p1,p2)
+            mismatch(res,Y_test,p1,p2)
+            acc(res,Y_test,p1,p2)
 
         #ROC_curve(y_pred,Y_test)
         #ROC_curve(y_pred2,Y_test)

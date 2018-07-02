@@ -37,6 +37,8 @@ import subprocess
 
 
 def main(argv):
+    if(len(argv)==0):
+        argv = ['2015']
     EPSILON = 1e-15
     err = 0
     m = 0
@@ -49,9 +51,9 @@ def main(argv):
     for file in files:
         f = ((file.split('.'))[0].split('_'))[2]
         c = ((file.split('.'))[0].split('_'))[-1]
-        if(f=='2017-12-20' or f.split('-')[0]=='2017'):
+        if(f=='2017-12-20' or f.split('-')[0]==str(argv[0])):
             pass
-        elif(c ==''):
+        elif(c =='TF1'):
             pass
         else:
             print(c)

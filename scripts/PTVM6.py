@@ -141,7 +141,7 @@ def categorize_type(description):
 def categorize_pub(name,debut,duree,titre):
     if(titre in ['Nos chers voisins','Les reines du shopping']):
         return 2
-    elif(titre in ['En famille']):
+    elif(titre in ['En famille','Une superstar pour Noël']):
         return 3
     elif(titre in ['Les aventures de Tintin','Absolument stars','Martine','Les Sisters','M6 boutique','Scènes de ménages']):
         return 0
@@ -160,7 +160,7 @@ def categorize_pub(name,debut,duree,titre):
             return 2
         else:
             return 4
-    elif(name in ['magazine']):
+    elif(name in ['magazine'] and duree not in ["court","très court"]):
         return 2
     elif(name in["Météo","Magazine","magazine"] and duree in ["court","très court"]):
         return 0
@@ -170,7 +170,7 @@ def categorize_pub(name,debut,duree,titre):
         return 2
     elif(name in ['Feuilleton','film','Drame','Thriller']):
         return 2
-    elif(name == 'Série' and 180<debut<12*60):
+    elif(name == 'Série' and 180<debut<13*60):
         return 1
     elif(name == 'Série'):
         return 2
@@ -263,6 +263,7 @@ def make_newPTV(PTV,Points,proba):
         if(PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == PTV['GENRESIMPLE'].iloc[index_PTV-1].split(' ')[0] and PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == 'Téléfilm' and (i-lastend)<2 and Recall == 1):
             print(i,PTV['GENRESIMPLE'].iloc[index_PTV])
             lastend = i+5
+            lastPub = -25
             Recall = -1
 
         ###### Let's verify that 'M6 boutique',the algo is not doing a crappy predicitions and if this the case, clean his historic #####
@@ -271,7 +272,7 @@ def make_newPTV(PTV,Points,proba):
             if(PTV['TITRE'].iloc[index_PTV] == importantpts[index_ipts][1]):
                 #Well he doesn't have the programme wrong, that's a good start
                 #let's now find out if we are at a logical point of the programme
-                if(context[3]>0.75):
+                if(i-lastend>13):
                     #Wellllll, the programme began way too early...something went wrong before...Let's rest for now, we'll correct the algo later
                     Predictiontimer = 200
                     Pubinhour = 0
@@ -306,17 +307,31 @@ def make_newPTV(PTV,Points,proba):
             else:
                 #maybe it's the next programme so calme the fuck down!
                 if(PTV['TITRE'].iloc[index_PTV+1] == importantpts[index_ipts][1]):
-                    #here you go, it's the next one...just terminate this one and we're good to go
-                    newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
-                    lastend = i
-                    lastCP=0
-                    index_PTV += 1
-                    index_PTV = index_PTV%(PTV.shape[0])
-                    currentduree = PTV['DUREE'].iloc[index_PTV]
-                    planifiedend = (lastend + currentduree)
-                    Predictiontimer = 200
-                    nbpub = 0
-                    index_ipts+=1
+                    if(planifiedend-i<10):
+                        #here you go, it's the next one...just terminate this one and we're good to go
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        currentduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + currentduree)
+                        Predictiontimer = 200
+                        nbpub = 0
+                        index_ipts+=1
+                    else:
+                        #here you go, it's the next one...just terminate this one and we're good to go
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"--HARD RESET OF ALGORITHM--(Oups)"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        currentduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + currentduree)
+                        Predictiontimer = 200
+                        nbpub = 0
+                        index_ipts+=1
+                        error+=1
 
 
                 else:
@@ -348,12 +363,16 @@ def make_newPTV(PTV,Points,proba):
                 labels.append(0)
                 index_CP+=1
                 continue
+            elif(lastPub<=6):
+                labels.append(0)
+                index_CP+=1
+                continue
             #Change Point ==> Decide what to do with it
             if(nbpub>=context[7] or Pubinhour >= 12):
                 # La pub n'est plus possible dans le programme ==> Soit il s'agit de la fin dans le programme, Soit c'est un faux Change Points
-                if(PTV['TITRE'].iloc[index_PTV] in ['M6 boutique','Absolument stars','Les Sisters'] and context[3]<0.98):
+                if(PTV['TITRE'].iloc[index_PTV] in ['M6 boutique'] and context[3]<0.98):
                     labels.append(0)
-                elif(PTV['TITRE'].iloc[index_PTV] in ['Les reines du shopping'] and context[3]<0.95):
+                elif(PTV['TITRE'].iloc[index_PTV] in ['Les reines du shopping','Absolument stars','Les Sisters'] and context[3]<0.95):
                     labels.append(0)
                 elif(PTV['TITRE'].iloc[index_PTV] in ['Desperate Housewives'] and context[3]<0.65):
                     labels.append(0)
@@ -370,6 +389,20 @@ def make_newPTV(PTV,Points,proba):
                         nbpub = 0
                         labels.append(2)
                     elif(context[3]>0.90 and i>15*60):
+                        newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
+                        lastend = i
+                        lastCP=0
+                        index_PTV += 1
+                        index_PTV = index_PTV%(PTV.shape[0])
+                        currentduree = PTV['DUREE'].iloc[index_PTV]
+                        planifiedend = (lastend + currentduree)
+                        Predictiontimer = 200
+                        nbpub = 0
+                        labels.append(2)
+                    else:
+                        labels.append(0)
+                elif(historyofpoints['programme'].loc[(historyofpoints.shape[0]-1)] == "film"):
+                    if(context[3]>0.75 and context[13]>=0.6):
                         newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
                         lastend = i
                         lastCP=0
@@ -485,7 +518,14 @@ def make_newPTV(PTV,Points,proba):
 
             else:
                 #la pub est encore possible dans le programme mais pas certaine
-                if(context[3]<0.85 and lastPub>=20 and (i-lastend)>10 and  context[5] in ["Feuilleton","Série"]):
+                if(context[3]<0.95 and lastPub>=20 and (i-lastend)>15 and  context[5] in ["Feuilleton","Série"]):
+                    newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
+                    lastCP=0
+                    lastPub = 0
+                    Pubinhour+=4
+                    nbpub+=1
+                    labels.append(1)
+                elif(context[3]<0.88 and lastPub>=20 and (i-lastend)>=10 and  context[5] in ["Feuilleton","Série"] and context[13]>0.6):
                     newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
                     lastCP=0
                     lastPub = 0
@@ -506,8 +546,7 @@ def make_newPTV(PTV,Points,proba):
                     Pubinhour+=4
                     nbpub+=1
                     labels.append(1)
-
-                elif(context[3]<=0.95 and lastPub>=20 and (i-lastend)>=25 and context[5] == "film"):
+                elif(context[3]<=0.95 and lastPub>22 and (i-lastend)>=15 and context[5] == "film"):
                     newPTV.loc[newPTV.shape[0]] = [i%1440,"publicité",'oui',context[3],"publicité dans un programme"]
                     lastCP=0
                     lastPub = 0
@@ -874,8 +913,10 @@ def make_newPTV(PTV,Points,proba):
                 nbpub = 0
             elif(context[3] == 1):
                 #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
-                if(i<8*60+56 or 12*60+30<i<13*60):
+                if(i<8*60+56):
                     Predictiontimer = 0
+                elif(13*60<i<14*60):
+                    Predictiontimer = 5
                 elif(PTV['TITRE'].iloc[index_PTV] in ['M6 boutique']):
                     Predictiontimer = 0
                 elif(context[6] == "très court"):

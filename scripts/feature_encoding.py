@@ -26,7 +26,7 @@ import os
 ########### Global variables ####################
 #################################################
 names = ['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel',
- 'lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','Heure','labels']
+ 'lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','per','Heure','labels']
 irrelevant = ['']
 
 #################################################
@@ -98,6 +98,11 @@ def encoding_chaine(x):
         return 0
     else:
         return x
+def encoding_per(x):
+    if(x>=1):
+        return 1
+    if(x<1):
+        return 0
 
 
 def process(df):
@@ -105,6 +110,8 @@ def process(df):
     df['partie du programme'] = df['partie du programme'].apply(lambda x: encoding_partofprogramme(x))
     df["duree"] = df['duree'].apply(lambda x: encoding_duree(x))
     df['chaine'] = df['chaine'].apply(lambda x: encoding_chaine(x))
+    if('per' in df.columns.values):
+        df['per'] = df['per'].apply(lambda x: encoding_per(x))
     if('Heure' in df.columns.values):
         df['Time-h'] = df['Heure'].apply(lambda x: (x.split(':'))[0])
         df['Time-m'] = df['Heure'].apply(lambda x: (x.split(':'))[1])

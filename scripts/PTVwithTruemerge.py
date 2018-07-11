@@ -25,6 +25,7 @@ import xgboost as xgb
 from tqdm import tqdm
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
+import time
 
 #################################################
 ########### Global variables ####################
@@ -71,7 +72,11 @@ def encoding_partofprogramme(x):
         return 0
     else:
         return x
-
+def encoding_per(x):
+    if(x>=1):
+        return 1
+    if(x<1):
+        return 0
 
 def encoding_duree(x):
     if(x == 'très court'):
@@ -108,6 +113,8 @@ def process(df):
     df['partie du programme'] = df['partie du programme'].apply(lambda x: encoding_partofprogramme(x))
     df["duree"] = df['duree'].apply(lambda x: encoding_duree(x))
     df['chaine'] = df['chaine'].apply(lambda x: encoding_chaine(x))
+    if('per' in df.columns.values):
+        df['per'] = df['per'].apply(lambda x: encoding_per(x))
     if('Heure' in df.columns.values):
         df['Time-h'] = df['Heure'].apply(lambda x: int((x.split(':'))[0]))
         df['Time-m'] = df['Heure'].apply(lambda x: int((x.split(':'))[1]))
@@ -179,6 +186,7 @@ def init_history(chaine):
     h["chaine"]= chaine
     h['CLE-FORMAT'] = 0
     h['CLE-GENRE'] = 0
+    #h['per'] = 1
     return h
 
 def find_position(seen_percentage):
@@ -286,15 +294,25 @@ def categorize_pub(name,debut,duree,titre,chaine):
     if(chaine == 'M6'):
         if(titre in ['Nos chers voisins','Les reines du shopping']):
             return 2
-        elif(titre in ['En famille','Une superstar pour Noël']):
+        elif(titre in ['Une superstar pour Noël']):
             return 3
+        elif(titre in ['En famille']):
+            if(duree in ["court","moyen",'très court','long']):
+                return 0
+            else:
+                return 2
+        elif(titre in ["Chasseurs d'appart'"]):
+            if(duree in ["très long","super long"] ):
+                return 12
+            else:
+                return 1
         elif(titre in ['Les aventures de Tintin','Absolument stars','Martine','Les Sisters','M6 boutique','Scènes de ménages']):
             return 0
         elif(titre in ['66 minutes : grand format']):
             return 1
         elif(titre =='Turbo' and debut<11*60):
             return 1
-        elif(titre in ['66 minutes']):
+        elif(titre in ['66 minutes','M6 Music']):
             return 4
         elif(name in ['Dessin animé','dessins animés']):
             return 0
@@ -320,9 +338,10 @@ def categorize_pub(name,debut,duree,titre,chaine):
         elif(name == 'Série'):
             return 2
         elif(name in ['Téléréalité'] and debut < 20.5*60):
-            return 2
-        elif(name in ['Téléréalité'] and debut > 20.5*60):
-            return 3
+            if( duree in ["court","moyen"]):
+                return 1
+            else:
+                return 2
         elif(duree in ["très court","court"]):
             return 0
         else:
@@ -342,7 +361,7 @@ def categorize_programme(programme,chaine):
 
 
 
-def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,chaine):
+def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,chaine,per):
     #we create a list with different notes to understand the context
     # minute of the point and its situation in the day
     context = [i]
@@ -367,6 +386,7 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append(chaine)
     context.append(programme['CLE-FORMAT'])
     context.append(programme['CLE-GENRE'])
+    #context.append(per)
     return context
 
 def load_models():
@@ -401,6 +421,7 @@ def make_newPTV(PTV,Points,proba,chaine):
     Recall = 1
     wait = 4
     error = 0
+    per = 1
     if(chaine == 'TF1'):
         importantpts = [[13*60,"Journal"],[20*60,"Journal"]]
         help = [6*60+30,8*60+25,8*60+30,10*60+55,12*60+50,19*60+50,11*60+52]
@@ -408,6 +429,7 @@ def make_newPTV(PTV,Points,proba,chaine):
         importantpts = [[12*60+45,"Le 12.45"],[19*60+45,"Le 19.45"]]
         help = [6*60,6*60+50,8*60+57,10*60]
     index_ipts = 0
+    importantpts.append([(int(PTV['HEURE'].loc[PTV.shape[0]-1].split(':')[0])+24)*60+int(PTV['HEURE'].loc[PTV.shape[0]-1].split(':')[1]),PTV['TITRE'].loc[PTV.shape[0]-1]])
     ######################
     newPTV = init_newPTV(PTV,chaine)
     historyofpoints = init_history(chaine)
@@ -425,12 +447,21 @@ def make_newPTV(PTV,Points,proba,chaine):
         if(index_ipts==len(importantpts)):
             index_ipts-=1
         #let's get the context:
-        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine)
+        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine,per)
         #Sur M6 il y a 16 minutes de pub entre deux films!!!!!!!!!!!!.....!!!!!!!....!!.!.!.!.!....!.!...!..!.!.!.!
         if(PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == PTV['GENRESIMPLE'].iloc[index_PTV-1].split(' ')[0] and PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == 'Téléfilm'
-                and (i-lastend)<2 and Recall == 1 and chaine == 'M6'):
+            and (i-lastend)<2 and Recall > 0 and per<0.97 and chaine == 'M6'):
+            print(i,PTV['GENRESIMPLE'].iloc[index_PTV])
             lastend = i+5
-            Recall = -1
+            lastPub = -25
+            Recall -= 0.5
+        elif((i-lastend)<2 and Recall > 0 and per<0.97 and chaine == 'M6' and 15*60<i<16*60):
+            print(i,PTV['GENRESIMPLE'].iloc[index_PTV],PTV['GENRESIMPLE'].iloc[index_PTV-1])
+            lastend = i+5
+            lastPub = -25
+            Recall -= 0.5
+
+
         ###### Let's verify that the algo is not doing a crappy predicitions and if this the case, clean his historic #####
         elif(i == importantpts[index_ipts][0]):
             #### we are at an important point, let's now see what the algo has predict
@@ -447,14 +478,17 @@ def make_newPTV(PTV,Points,proba,chaine):
                     currentduree = PTV['DUREE'].iloc[index_PTV]
                     planifiedend = (lastend + currentduree)
                     nbpub = 0
-                    if(index_ipts):
+                    if(index_ipts == 0):
                         print("erreur sur l'après midi")
-                    else:
+                    elif(index_ipts == 1):
                         print("erreur sur la matinée")
+                    else:
+                        print("erreur sur la soirée")
+                    error+=1*10**index_ipts
                     #we can now keep going throw the process like before
                     #we just add a line to the history to say that a reset occured
                     newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'non',context[3],"--HARD RESET OF ALGORITHM--(in programme)"]
-                    error+=1
+
                     index_ipts+=1
 
                 else:
@@ -500,12 +534,15 @@ def make_newPTV(PTV,Points,proba,chaine):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
-                        index_ipts+=1
-                        if(index_ipts):
+                        if(index_ipts == 0):
                             print("erreur sur l'après midi")
-                        else:
+                        elif(index_ipts == 1):
                             print("erreur sur la matinée")
-                        error+=1
+                        else:
+                            print("erreur sur la soirée")
+                        error+=1*10**index_ipts
+                        index_ipts+=1
+
 
 
                 else:
@@ -525,11 +562,13 @@ def make_newPTV(PTV,Points,proba,chaine):
                         nbpub = 0
                         #we can now keep going throw the process like before
                         #we just add a line to the history to say that a reset occured
-                        if(index_ipts):
+                        if(index_ipts == 0):
                             print("erreur sur l'après midi")
-                        else:
+                        elif(index_ipts == 1):
                             print("erreur sur la matinée")
-                        error+=1
+                        else:
+                            print("erreur sur la soirée")
+                        error+=1*10**index_ipts
                         newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'non',context[3],"--HARD RESET OF ALGORITHM--(out of programme)"]
                         index_ipts+=1
                     else:
@@ -542,7 +581,7 @@ def make_newPTV(PTV,Points,proba,chaine):
                 index_CP+=1
                 continue
             else:
-                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values #,'per'
                 res1 = CatBoost[0].predict_proba(X)
                 res2 = CatBoost[1].predict_proba(X)
                 res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
@@ -557,6 +596,8 @@ def make_newPTV(PTV,Points,proba,chaine):
                 if(cla == 2 and context[3]<0.5 and context[11]>30):
                     cla = 0
                 if(cla == 2 and context[3]<0.9 and context[11]>=180):
+                    cla = 0
+                if( cla == 2 and PTV['TITRE'].loc[index_PTV] == 'Programmes de la nuit' and context[3]<1):
                     cla = 0
 
                 if(cla == 1):
@@ -578,6 +619,7 @@ def make_newPTV(PTV,Points,proba,chaine):
                     Predictiontimer = 200
                     nbpub = 0
                     wait = 5
+                    per = context[3]
                     labels.append(2)
                 else:
                     labels.append(0)
@@ -591,7 +633,7 @@ def make_newPTV(PTV,Points,proba,chaine):
                 labels.append(0)
                 continue
             else:
-                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values #,'per'
                 res1 = CatBoost[0].predict_proba(X)
                 res2 = CatBoost[1].predict_proba(X)
                 res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
@@ -606,6 +648,8 @@ def make_newPTV(PTV,Points,proba,chaine):
                 if(cla == 2 and context[3]<0.5 and context[11]>30):
                     cla = 0
                 if(cla == 2 and context[3]<0.9 and context[11]>=180):
+                    cla = 0
+                if( cla == 2 and PTV['TITRE'].loc[index_PTV] == 'Programmes de la nuit' and context[3]<1):
                     cla = 0
 
                 if(cla == 1):
@@ -627,6 +671,7 @@ def make_newPTV(PTV,Points,proba,chaine):
                     Predictiontimer = 200
                     nbpub = 0
                     wait = 5
+                    per = context[3]
                     labels.append(2)
                 else:
                     labels.append(0)
@@ -635,7 +680,7 @@ def make_newPTV(PTV,Points,proba,chaine):
         else:
             #labels.append(0)
             #Not a Change Point, we'll just check that nothing is wrong in the PTV at this time
-            if(Predictiontimer == 0):
+            if(Predictiontimer <= 0):
                 newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'non',context[3],"fin non détectée d'un programme"]
                 lastend = i
                 lastCP=0
@@ -645,6 +690,7 @@ def make_newPTV(PTV,Points,proba,chaine):
                 planifiedend = (lastend + currentduree)
                 Predictiontimer = 200
                 nbpub = 0
+                per = context[3]
             elif(context[3] == 1):
                 #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
                 # C'est sur ces valeurs que l'on va jouer pour avoir le meilleur PTV possible
@@ -704,11 +750,12 @@ def make_newPTV(PTV,Points,proba,chaine):
 
 
 def main(argv):
+    t = time.time()
     if(len(argv) ==0):
         argv = ['2015']
 
     if(len(argv) == 1):
-        relecture = False
+        relecture = True
         EPSILON = 1e-15
         err = 0
         m = 0
@@ -721,7 +768,7 @@ def main(argv):
         for file in files:
             f = ((file.split('.'))[0].split('_'))[2]
             c = ((file.split('.'))[0].split('_'))[-1]
-            if(f in ['2017-12-20','2018-02-22'] or (f in ['2017-12-09','2017-12-06'] and c=='TF1')  or f.split('-')[0] == str(argv[0])):
+            if(f=='2017-12-20' or (f in ['2017-12-09','2017-12-06','2018-02-22'] and c=='TF1') or (f in ['2018-02-22'] and c=='M6') or  f.split('-')[0] == str(argv[0])):
                 #or (f in ['2018-02-22'] and c=='M6')
                 pass
             elif(c ==''):
@@ -730,13 +777,14 @@ def main(argv):
 
                 print(c)
                 l = os.system('python /home/alexis/Bureau/Project/scripts/PTVwithTruemerge.py '+str(c)+' '+str(f))
-                if(4>l/256>0 and relecture):
+                if(l/256>0 and relecture):
                     print("Utilisation de la relecture",f,c)
                     l = os.system('python /home/alexis/Bureau/Project/scripts/newidea.py '+str(c)+' '+str(f))
-                    if(4>l/256>=1):
+                    print(l)
+                    if(l/256>=1):
                         print("Utilisation de l'arbre de décision",f,c)
                         p = os.system('python /home/alexis/Bureau/Project/scripts/PTV'+str(c)+'.py '+str(f))
-                        if(4>m/256>0):
+                        if(p/256>0):
                             print("AUCUNE DÉCISION NE CONVIENT",f,c)
                         else:
                             l = p
@@ -747,19 +795,21 @@ def main(argv):
                     pass
                 else:
                     err += l/256
-                    m+=2
+                    m+=3
                     if(c == 'M6'):
                         err_M6 += l/256
-                        m_M6 += 2
+                        m_M6 += 3
                     if(c == 'TF1'):
                         err_TF1 += l/256
-                        m_TF1 += 2
+                        m_TF1 += 3
 
             print(err)
         print(m)
+        err = int(err/100)+int((err%100)/10)+int((err%10))
         print("score Total",1-(err/(m+EPSILON)))
         print("score TF1",1-(err_TF1/(m_TF1+EPSILON)))
         print("score M6",1-(err_M6/(m_M6+EPSILON)))
+        print("temps de calcul: ",time.time()-t)
     else:
         chaine = argv[0]
         date = argv[1]

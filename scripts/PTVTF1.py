@@ -71,6 +71,7 @@ def init_history():
     h['chaine'] = 'TF1'
     h['CLE-FORMAT'] = 0
     h['CLE-GENRE'] = 0
+    #h['per'] = 1
     return h
 
 def find_position(seen_percentage):
@@ -181,7 +182,7 @@ def categorize_programme(programme):
     p.append(categorize_pub(p[0],programme['debut'],p[-1],programme['TITRE']))
     return p
 
-def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub):
+def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,per):
     #we create a list with different notes to understand the context
     # minute of the point and its situation in the day
     context = [i]
@@ -206,6 +207,7 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append('TF1')
     context.append(programme['CLE-FORMAT'])
     context.append(programme['CLE-GENRE'])
+    #context.append(per)
     return context
 
 
@@ -225,9 +227,10 @@ def make_newPTV(PTV,Points,proba):
     begin = True
     nbpub = 0
     Recall = -1
-    importantpts = [[13*60,"Journal"],[20*60,"Journal"]]
+    importantpts = [[13*60,"Journal"],[20*60,"Journal"],[(int(PTV['HEURE'].loc[PTV.shape[0]-1].split(':')[0])+24)*60+int(PTV['HEURE'].loc[PTV.shape[0]-1].split(':')[1]),PTV['TITRE'].loc[PTV.shape[0]-1]]]
     index_ipts = 0
     error = 0
+    per = 1
     ######################
     newPTV = init_newPTV(PTV)
     historyofpoints = init_history()
@@ -248,7 +251,7 @@ def make_newPTV(PTV,Points,proba):
         if(index_ipts==len(importantpts)):
             index_ipts-=1
         #let's get the context:
-        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub)
+        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,per)
         ###### Let's verify that the algo is not doing a crappy predicitions and if this the case, clean his historic #####
         if(i == importantpts[index_ipts][0]):
             #### we are at an important point, let's now see what the algo has predict
@@ -265,7 +268,13 @@ def make_newPTV(PTV,Points,proba):
                     currentduree = PTV['DUREE'].iloc[index_PTV]
                     planifiedend = (lastend + currentduree)
                     nbpub = 0
-                    error+=1
+                    if(index_ipts == 0):
+                        print("erreur sur l'après midi")
+                    elif(index_ipts == 1):
+                        print("erreur sur la matinée")
+                    else:
+                        print("erreur sur la soirée")
+                    error+=1*10**index_ipts
                     #we can now keep going throw the process like before
                     #we just add a line to the history to say that a reset occured
                     newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'non',context[3],"--HARD RESET OF ALGORITHM--(in programme)"]
@@ -318,7 +327,13 @@ def make_newPTV(PTV,Points,proba):
                         currentduree = PTV['DUREE'].iloc[index_PTV]
                         planifiedend = (lastend + currentduree)
                         nbpub = 0
-                        error+=1
+                        if(index_ipts == 0):
+                            print("erreur sur l'après midi")
+                        elif(index_ipts == 1):
+                            print("erreur sur la matinée")
+                        else:
+                            print("erreur sur la soirée")
+                        error+=1*10**index_ipts
                         #we can now keep going throw the process like before
                         #we just add a line to the history to say that a reset occured
                         newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'non',context[3],"--HARD RESET OF ALGORITHM--(out of programme)"]
@@ -351,6 +366,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -364,6 +380,7 @@ def make_newPTV(PTV,Points,proba):
                     planifiedend = (lastend + currentduree)
                     Predictiontimer = 200
                     nbpub = 0
+                    per = context[3]
                     labels.append(2)
 
                 elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "court"):
@@ -377,6 +394,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -394,6 +412,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     elif(context[3]>0.5 and context[5] != 'magazine'):
                         newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
@@ -405,6 +424,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -420,6 +440,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -435,6 +456,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -451,6 +473,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -515,6 +538,7 @@ def make_newPTV(PTV,Points,proba):
                     planifiedend = (lastend + currentduree)
                     Predictiontimer = 200
                     nbpub = 0
+                    per = context[3]
                     labels.append(2)
 
                 elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "court" and lastPub>10):
@@ -528,6 +552,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -545,6 +570,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -560,6 +586,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -574,6 +601,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -588,6 +616,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -602,6 +631,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -626,6 +656,7 @@ def make_newPTV(PTV,Points,proba):
                     planifiedend = (lastend + currentduree)
                     Predictiontimer = 200
                     nbpub = 0
+                    per = context[3]
                     labels.append(2)
 
                 elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "court"):
@@ -639,6 +670,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -656,6 +688,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     elif(context[3]>0.5 and context[5] != 'magazine'):
                         newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
@@ -667,6 +700,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -682,6 +716,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     elif(context[3]>=0.60 and context[5] == "Feuilleton"):
                         newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'oui',context[3],"fin d'un programme"]
@@ -693,6 +728,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -708,6 +744,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -724,6 +761,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -769,6 +807,7 @@ def make_newPTV(PTV,Points,proba):
                     planifiedend = (lastend + currentduree)
                     Predictiontimer = 200
                     nbpub = 0
+                    per = context[3]
                     labels.append(2)
 
                 elif(historyofpoints['duree'].loc[(historyofpoints.shape[0]-1)] == "court"):
@@ -782,6 +821,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -799,6 +839,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -814,6 +855,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -828,6 +870,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -842,6 +885,7 @@ def make_newPTV(PTV,Points,proba):
                         planifiedend = (lastend + currentduree)
                         Predictiontimer = 200
                         nbpub = 0
+                        per = context[3]
                         labels.append(2)
                     else:
                         labels.append(0)
@@ -852,7 +896,7 @@ def make_newPTV(PTV,Points,proba):
         else:
             #labels.append(0)
             #Not a Change Point, we'll just check that nothing is wrong in the PTV at this time
-            if(Predictiontimer == 0):
+            if(Predictiontimer <= 0):
                 newPTV.loc[newPTV.shape[0]] = [i%1440,PTV['TITRE'].iloc[index_PTV],'non',context[3],"fin non détectée d'un programme"]
                 lastend = i
                 lastCP=0
@@ -862,6 +906,7 @@ def make_newPTV(PTV,Points,proba):
                 planifiedend = (lastend + currentduree)
                 Predictiontimer = 200
                 nbpub = 0
+                per = context[3]
             elif(context[3] == 1):
                 #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
                 if(11.5*60<=i<=14*60 or 19.5*60<i<21*60):

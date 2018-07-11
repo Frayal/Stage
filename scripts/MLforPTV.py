@@ -87,7 +87,7 @@ def load_all(CHAINE):
     if(CHAINE in ['M6','all']):
         files = os.listdir('/home/alexis/Bureau/Project/results/truemerge/M6/')
         for file in files:
-            if(file.split('_')[-2] in ['2017-12-20','2017-12-25','2017-12-10','2017-12-09','2017-12-29','2017-12-26'] or (file.split('_')[-2]).split('-')[0] == '2018'):
+            if(file.split('_')[-2] in ['2017-12-20','2017-12-10','2017-12-30','2017-12-29','2017-12-26'] or (file.split('_')[-2]).split('-')[0] == '2018'):
                 print(file.split('_')[-2])
             else:
                 df,y = load(file,'M6')
@@ -133,7 +133,7 @@ class Classifier(BaseEstimator):
         pass
 
     def fit(self,X,y):
-        x1, x2, y1, y2 = train_test_split(X.values, y.values, test_size=0.2,random_state = 99)
+        x1, x2, y1, y2 = train_test_split(X.values, y.values, test_size=0.2,random_state = 7)
         watchlist = [(xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1]), 'train'), (xgb.DMatrix(x2, y2,weight = [int(y)*2+1 for y in y2]), 'valid')]
         self.clf1 = xgb.train(params, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 10000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
         self.clf2 = xgb.train(params2, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 10000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)

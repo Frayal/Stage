@@ -337,6 +337,13 @@ def save_model_xgb(model):
 def save_model(clf,name):
     pickle.dump(clf, open("model_PTV/"+name+".pickle.dat", "wb"))
 
+def use_logisticreg(l1,l2,l3,l4,l5,Y_train):
+    X_valid = pd.concat([pd.DataFrame(l1),pd.DataFrame(l2),pd.DataFrame(l3),pd.DataFrame(l4),pd.DataFrame(l5)],axis = 1).values
+    np.random.seed(7)
+    logistic = linear_model.LogisticRegression(C=1,class_weight='balanced',penalty='l2')
+    logistic.fit(X_valid, Y_train)
+    pickle.dump(logistic, open('model_PTV/logistic_regression.sav', 'wb'))
+    return logistic
 
 #################################################################
 def main(argv):
@@ -344,31 +351,34 @@ def main(argv):
         argv = ['all']
     if(argv[0] == 'test'):
         Y_test = pd.read_csv('results.csv').values
-        y_pred = pd.read_csv('y_pred.csv').values
-        y_pred2 = pd.read_csv('y_pred2.csv').values
-        y_pred4 = pd.read_csv('y_pred4.csv').values
-        y_pred5 = pd.read_csv('y_pred5.csv').values
-        res = [[(res1[0]+res2[0]+res3[0]+res4[0]+res5[0]+res6[0])/6,(res1[1]+res2[1]+res3[1]+res4[1]+res5[1]+res6[1])/6,(res1[2]+res2[2]+res3[2]+res4[2]+res5[2]+res6[2])/6] for res1,res2,res3,res4,res5,res6 in zip(y_pred,y_pred2,y_pred2,y_pred4,y_pred5,y_pred)]
+        y_pred = pd.read_csv('y_pred.csv')
+        y_pred2 = pd.read_csv('y_pred2.csv')
+        y_pred3 = pd.read_csv('y_pred2.csv')
+        y_pred4 = pd.read_csv('y_pred4.csv')
+        y_pred5 = pd.read_csv('y_pred5.csv')
 
+        logreg = use_logisticreg(y_pred,y_pred2,y_pred3,y_pred4,y_pred5,Y_test)
+        res = pd.concat([y_pred,y_pred2,y_pred3,y_pred4,y_pred5],axis=1).values
+        res = logreg.predict_proba(res)
         for p1 in [0]:
             for p2 in [0]:
                 print('################### '+str(p1)+' ### '+str(p2)+'###################')
                 print('############XGB##############')
-                mesure(y_pred,Y_test,p1,p2)
-                mismatch(y_pred,Y_test,p1,p2)
-                acc(y_pred,Y_test,p1,p2)
+                mesure(y_pred.values,Y_test,p1,p2)
+                mismatch(y_pred.values,Y_test,p1,p2)
+                acc(y_pred.values,Y_test,p1,p2)
                 print('############CatBoost##############')
-                mesure(y_pred2,Y_test,p1,p2)
-                mismatch(y_pred2,Y_test,p1,p2)
-                acc(y_pred2,Y_test,p1,p2)
+                mesure(y_pred2.values,Y_test,p1,p2)
+                mismatch(y_pred2.values,Y_test,p1,p2)
+                acc(y_pred2.values,Y_test,p1,p2)
                 print('############GradientBoostingClassifier##############')
-                mesure(y_pred4,Y_test,p1,p2)
-                mismatch(y_pred4,Y_test,p1,p2)
-                acc(y_pred4,Y_test,p1,p2)
+                mesure(y_pred4.values,Y_test,p1,p2)
+                mismatch(y_pred4.values,Y_test,p1,p2)
+                acc(y_pred4.values,Y_test,p1,p2)
                 print('############RandomForestClassifier##############')
-                mesure(y_pred5,Y_test,p1,p2)
-                mismatch(y_pred5,Y_test,p1,p2)
-                acc(y_pred5,Y_test,p1,p2)
+                mesure(y_pred5.values,Y_test,p1,p2)
+                mismatch(y_pred5.values,Y_test,p1,p2)
+                acc(y_pred5.values,Y_test,p1,p2)
                 print('############Stack##############')
                 mesure(res,Y_test,p1,p2)
                 mismatch(res,Y_test,p1,p2)
@@ -401,6 +411,15 @@ def main(argv):
 
         RF_model = RandomForestClassifier(max_depth = 15).fit(X_train,Y_train)
         y_pred5 = RF_model.predict_proba(X_test)
+
+        y_p = clf.predict_proba(X_train)
+        y_p2 = clf2.predict_proba(X_train)
+        y_p3 = dtree_model.predict_proba(X_train)
+        y_p4 = tpot.predict_proba(X_train)
+        y_p5 = RF_model.predict_proba(X_train)
+
+        logreg = use_logisticreg(y_p,y_p2,y_p3,y_p4,y_p5,Y_train)
+
         ##########################################
         save_model_xgb(clf)
         save_model_cat(clf2)
@@ -408,7 +427,8 @@ def main(argv):
         save_model(RF_model,"RF")
         pickle.dump(tpot, open("model_PTV/GradientBoostingClassifier.pickle.dat", "wb"))
         pickle.dump(RF_model, open("model_PTV/RandomForestClassifier.pickle.dat", "wb"))
-        res = [[(res1[0]+res2[0]+res3[0]+res4[0]+res5[0]+res6[0])/6,(res1[1]+res2[1]+res3[1]+res4[1]+res5[1]+res6[1])/6,(res1[2]+res2[2]+res3[2]+res4[2]+res5[2]+res6[2])/6] for res1,res2,res3,res4,res5,res6 in zip(y_pred,y_pred2,y_pred3,y_pred4,y_pred5,y_pred)]
+        X = pd.concat([pd.DataFrame(y_pred),pd.DataFrame(y_pred2),pd.DataFrame(y_pred3),pd.DataFrame(y_pred4),pd.DataFrame(y_pred5)],axis = 1).values
+        res = logreg.predict_proba(X)
         for p1,p2 in zip([0],[0]):
             print('############XGB##############')
             mesure(y_pred,Y_test,p1,p2)
@@ -440,6 +460,7 @@ def main(argv):
         pd.DataFrame(Y_test).to_csv('results.csv',index=False)
         pd.DataFrame(y_pred).to_csv('y_pred.csv',index=False)
         pd.DataFrame(y_pred2).to_csv('y_pred2.csv',index=False)
+        pd.DataFrame(y_pred3).to_csv('y_pred3.csv',index=False)
         pd.DataFrame(y_pred4).to_csv('y_pred4.csv',index=False)
         pd.DataFrame(y_pred5).to_csv('y_pred5.csv',index=False)
 

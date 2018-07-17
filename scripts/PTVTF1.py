@@ -140,49 +140,205 @@ def categorize_type(description):
     else:
         return description
 
-def categorize_pub(name,debut,duree,titre):
-    if(titre in ['Nos chers voisins']):
-        return 2
-    elif(titre in ['Journal']):
-        return 0
-    elif(titre == '50mn Inside'):
-        if(duree in ["moyen","long"]):
+def categorize_pub(name,debut,duree,titre,PTV,index_PTV,chaine='TF1'):
+    if(chaine == 'TF1' and (debut>20*60 or debut<180)):
+        if(titre in ['Nos chers voisins'] and debut>20*60):
+            return 0
+        elif(titre in ['Nos chers voisins','Reportages découverte']):
             return 2
-        if(duree in ["court"]):
+        elif(titre in ['Journal','Téléshopping','Tirage du Loto']):
+            return 0
+        elif(titre in ['50mn Inside','Téléfoot']):
+            if(duree in ['moyen']):
+                return 1
+            elif(duree in ["long"]):
+                return 2
+            elif(duree in ["court"]):
+                return 1
+            else:
+                return 4
+        elif(name in["Météo","Magazine","magazine"] and duree in ["court","très court"]):
+            return 0
+        elif(name in ['dessins animés'] and duree != "super long"):
+            return 3
+        elif(name in ['Jeu']):
             return 1
+        elif(name in ['Feuilleton','film','Drame','Thriller']):
+            return 2
+        elif(name == 'Série' and (debut>21*60) and titre == PTV['TITRE'].loc[index_PTV-1]):
+            return 2
+        elif(name == 'Série' and (debut>21*60 or debut<180)):
+            return 1
+        elif(name == 'Série' and 180<debut<12*60):
+            return 1
+        elif(name == 'Série'and 12*60<debut<21*60):
+            return 0
+        elif(name == 'Série'):
+            return 2
+        elif(name in ['Téléréalité'] and debut < 20.5*60):
+            return 2
+        elif(name in ['Téléréalité'] and debut > 20.5*60):
+            return 3
+        elif(duree in ["très court","court"]):
+            return 0
         else:
             return 4
-    elif(name in["Météo","Magazine","magazine"] and duree in ["court","très court"]):
-        return 0
-    elif(name in ['dessins animés'] and duree != "super long"):
-        return 3
-    elif(name in ['Jeu']):
-        return 1
-    elif(name in ['Feuilleton','film','Drame','Thriller']):
-        return 2
-    elif(name == 'Série' and 180<debut<12*60):
-        return 1
-    elif(name == 'Série'and 12*60<debut<21*60):
-        return 0
-    elif(name == 'Série'):
-        return 2
-    elif(name in ['Téléréalité'] and debut < 20.5*60):
-        return 2
-    elif(name in ['Téléréalité'] and debut > 20.5*60):
-        return 3
-    elif(duree in ["très court","court"]):
-        return 0
-    else:
-        return 4
+    if(chaine == 'TF1' and 180<=debut<=20*60):
+        if(titre in ['Nos chers voisins']):
+            return 2
+        elif(titre in ['Journal']):
+            return 0
+        elif(titre == '50mn Inside'):
+            if(duree in ["moyen","long"]):
+                return 2
+            if(duree in ["court"]):
+                return 1
+            else:
+                return 4
+        elif(name in["Météo","Magazine","magazine"] and duree in ["court","très court"]):
+            return 0
+        elif(name in ['dessins animés'] and duree != "super long"):
+            return 3
+        elif(name in ['Jeu']):
+            return 1
+        elif(name in ['Feuilleton','film','Drame','Thriller']):
+            return 2
+        elif(name == 'Série' and 180<debut<12*60):
+            return 1
+        elif(name == 'Série'and 12*60<debut<21*60):
+            return 0
+        elif(name == 'Série'):
+            return 2
+        elif(name in ['Téléréalité'] and debut < 20.5*60):
+            return 2
+        elif(name in ['Téléréalité'] and debut > 20.5*60):
+            return 3
+        elif(duree in ["très court","court"]):
+            return 0
+        else:
+            return 4
 
-def categorize_programme(programme):
+    if(chaine == 'M6' and (debut>20*60 or debut <180)):
+        if(titre in ['Nos chers voisins','Les reines du shopping']):
+            return 2
+        elif(titre in ['Une superstar pour Noël']):
+            return 3
+        elif(titre in ['En famille']):
+            if(duree in ["court","moyen",'très court','long']):
+                return 0
+            else:
+                return 2
+        elif(titre in ["Chasseurs d'appart'"]):
+            if(duree in ["très long","super long"] ):
+                return 12
+            else:
+                return 1
+        elif(titre in ['Les aventures de Tintin','Absolument stars','Martine','Les Sisters','M6 boutique','Scènes de ménages','M6 Music']):
+            return 0
+        elif(titre in ['66 minutes : grand format']):
+            return 1
+        elif(titre =='Turbo' and debut<11*60):
+            return 2
+        elif(titre in ['66 minutes']):
+            return 4
+        elif(name in ['Dessin animé','dessins animés']):
+            return 0
+        elif(name in ['Journal']):
+            return 0
+        elif(titre == '50mn Inside'):
+            if(duree in ["moyen","long"]):
+                return 2
+            else:
+                return 4
+        elif(name in ['magazine'] and duree not in ["court","très court"]):
+            return 2
+        elif(name in["Météo","Magazine","magazine"] and duree in ["court","très court"]):
+            return 0
+        elif(name in ['dessins animés'] and duree != "super long"):
+            return 3
+        elif(name in ['Jeu'] and duree in ['court','très court','moyen']):
+            return 2
+        elif(name in ['Feuilleton','film','Drame','Thriller']):
+            return 2
+        elif(name == 'Série' and (debut<13*60 or 25*60>debut>22*60+20)):
+            return 1
+        elif(name == 'Série'):
+            return 2
+        elif(name in ['Téléréalité'] and debut < 20.5*60):
+            if( duree in ["court","moyen"]):
+                return 1
+            else:
+                return 2
+        elif(duree in ["très court","court"]):
+            return 0
+        else:
+            return 10
+    if(chaine == 'M6' and 180<=debut<=20*60):
+        if(titre in ['Nos chers voisins','Les reines du shopping']):
+            return 2
+        elif(titre in ['Une superstar pour Noël']):
+            return 3
+        elif(titre in ['En famille']):
+            if(duree in ["court","moyen",'très court','long']):
+                return 0
+            else:
+                return 2
+        elif(titre in ["Chasseurs d'appart'"]):
+            if(duree in ["très long","super long"] ):
+                return 12
+            else:
+                return 1
+        elif(titre in ['Les aventures de Tintin','Absolument stars','Martine','Les Sisters','M6 boutique','Scènes de ménages']):
+            return 0
+        elif(titre in ['66 minutes : grand format']):
+            return 1
+        elif(titre =='Turbo' and debut<11*60):
+            return 1
+        elif(titre in ['66 minutes','M6 Music']):
+            return 4
+        elif(name in ['Dessin animé','dessins animés']):
+            return 0
+        elif(name in ['Journal']):
+            return 0
+        elif(titre == '50mn Inside'):
+            if(duree in ["moyen","long"]):
+                return 2
+            else:
+                return 4
+        elif(name in ['magazine'] and duree not in ["court","très court"]):
+            return 2
+        elif(name in["Météo","Magazine","magazine"] and duree in ["court","très court"]):
+            return 0
+        elif(name in ['dessins animés'] and duree != "super long"):
+            return 3
+        elif(name in ['Jeu'] and duree in ['court','très court','moyen']):
+            return 2
+        elif(name in ['Feuilleton','film','Drame','Thriller']):
+            return 2
+        elif(name == 'Série' and 180<debut<13*60):
+            return 1
+        elif(name == 'Série'):
+            return 2
+        elif(name in ['Téléréalité'] and debut < 20.5*60):
+            if( duree in ["court","moyen"]):
+                return 1
+            else:
+                return 2
+        elif(name in ['Téléréalité'] and debut > 20.5*60):
+            return 3
+        elif(duree in ["très court","court"]):
+            return 0
+        else:
+            return 10
+
+def categorize_programme(programme,PTV,index_PTV):
     p = []
     p.append(categorize_type(programme['description programme']))
     p.append(categorize_duree(programme['DUREE']))
-    p.append(categorize_pub(p[0],programme['debut'],p[-1],programme['TITRE']))
+    p.append(categorize_pub(p[0],programme['debut'],p[-1],programme['TITRE'],PTV,index_PTV))
     return p
 
-def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,per):
+def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,per,PTV,index_PTV):
     #we create a list with different notes to understand the context
     # minute of the point and its situation in the day
     context = [i]
@@ -194,7 +350,7 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append(seen_percentage)
     context.append(find_position(seen_percentage))
     # which type of programme we are watching
-    p = categorize_programme(programme)
+    p = categorize_programme(programme,PTV,index_PTV)
     for j in range(len(p)):#3
         context.append(p[j])
     context.append(lastCP)
@@ -251,7 +407,7 @@ def make_newPTV(PTV,Points,proba):
         if(index_ipts==len(importantpts)):
             index_ipts-=1
         #let's get the context:
-        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,per)
+        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,per,PTV,index_PTV)
         ###### Let's verify that the algo is not doing a crappy predicitions and if this the case, clean his historic #####
         if(i == importantpts[index_ipts][0]):
             #### we are at an important point, let's now see what the algo has predict
@@ -908,21 +1064,78 @@ def make_newPTV(PTV,Points,proba):
                 nbpub = 0
                 per = context[3]
             elif(context[3] == 1):
-                #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
-                if(11.5*60<=i<=14*60 or 19.5*60<i<21*60):
-                    Predictiontimer = 1
-                elif(context[6] == "très court"):
-                    Predictiontimer = 0
-                elif(PTV['TITRE'].iloc[index_PTV] == 'Téléshopping'):
-                    Predictiontimer = 5
-                elif(context[6] == "court"):
-                    Predictiontimer = 5
-                elif(context[6] == "moyen"):
-                    Predictiontimer = 5
-                elif(context[6] == "très long" or context[6] == "long"):
-                    Predictiontimer = 15
+                chaine = 'TF1'
+                if(i<20*60+30):
+                    if(chaine == 'TF1'):
+                        if(11.5*60<=i<=14*60 or 19.5*60<i<21*60):
+                            Predictiontimer = 1
+                        elif(context[6] == "très court"):
+                            Predictiontimer = 0
+                        elif(PTV['TITRE'].iloc[index_PTV] == 'Téléshopping'):
+                            Predictiontimer = 5
+                        elif(context[6] == "court"):
+                            Predictiontimer = 5
+                        elif(context[6] == "moyen"):
+                            Predictiontimer = 5
+                        elif(context[6] == "très long" or context[6] == "long"):
+                            Predictiontimer = 15
+                        else:
+                            Predictiontimer = 5
+                    elif(chaine =='M6'):
+                        #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
+                        #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
+                        if(i<8*60+56):
+                            Predictiontimer = 0
+                        elif(13*60<i<14*60):
+                            Predictiontimer = 5
+                        elif(PTV['TITRE'].iloc[index_PTV] in ['M6 boutique']):
+                            Predictiontimer = 0
+                        elif(context[6] == "très court"):
+                            Predictiontimer = 0
+                        elif(context[6] == "court"):
+                            Predictiontimer = 2
+                        elif(context[6] == "moyen"):
+                            Predictiontimer = 5
+                        elif(context[6] == "très long"):
+                            Predictiontimer = 5
+                        elif(context[6] == 'long'):
+                            Predictiontimer = 15
+                        else:
+                            Predictiontimer = 5
                 else:
-                    Predictiontimer = 5
+                    if(chaine == 'TF1'):
+                        if(context[5] == 'Journal'):
+                            if(i<20*60):
+                                Predictiontimer = 10
+                            else:
+                                Predictiontimer = 0
+                        elif(context[6] == "très court"):
+                            Predictiontimer = 4
+                        elif(context[6] == "court"):
+                            Predictiontimer = 5
+                        elif(context[6] == "moyen"):
+                            Predictiontimer = 5
+                        elif(context[6] == "très long"):
+                            Predictiontimer = 5
+                        elif(context[6] == 'long'):
+                            Predictiontimer = 15
+                        else:
+                            Predictiontimer = 5
+                    elif(chaine =='M6'):
+                        #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
+                        #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
+                        if(context[6] == "très court"):
+                            Predictiontimer = 15
+                        elif(context[6] == "court"):
+                            Predictiontimer = 15
+                        elif(context[6] == "moyen"):
+                            Predictiontimer = 15
+                        elif(context[6] == "très long"):
+                            Predictiontimer = 15
+                        elif(context[6] == 'long'):
+                            Predictiontimer = 15
+                        else:
+                            Predictiontimer = 5
             elif(context[3]>1):
                 Predictiontimer -= 1
             else:

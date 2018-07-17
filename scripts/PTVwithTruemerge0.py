@@ -1,4 +1,4 @@
-############################################
+#######################################################################
 #created the 30/05/2018 11:56 by Alexis Blanchet#
 #################################################
 #-*- coding: utf-8 -*-
@@ -491,8 +491,6 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     return context
 
 def load_models():
-    import warnings
-    warnings.simplefilter("ignore")
     XGB = []
     XGB.append(pickle.load(open("model_PTV/XGB1.pickle.dat", "rb")))
     XGB.append(pickle.load(open("model_PTV/XGB2.pickle.dat", "rb")))
@@ -898,9 +896,6 @@ def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index
                 pass
     return newPTV,historyofpoints,labels,error,index_CP,index_PTV,context
 
-
-
-
 #################################################
 ########### main with options ###################
 #################################################
@@ -908,11 +903,36 @@ def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index
 
 
 def main(argv):
-    import warnings
-    warnings.filterwarnings("ignore")
+    import pandas as pd
+    createfile = True
     t = time.time()
     if(len(argv) ==0):
         argv = ['2015']
+    if(argv[0] == 'start'):
+        if(createfile):
+            df= pd.DataFrame()
+            df['score TF1'] = [0]
+            df['score M6'] = 0
+            df['score Total'] = 0
+            df['score sur la matinée'] = 0
+            df["score sur l'après midi"] = 0
+            df['score sur la soirée'] = 0
+            df['part de relecture'] = 0
+            df['temps de calcul'] = 0
+            df['istest'] = 0
+
+            df.to_csv('scores.csv',index=False)
+            time.sleep(10)
+        for i in range(50):
+            os.system('python /home/alexis/Bureau/Project/scripts/feature_encoding.py')
+            time.sleep(60)
+            os.system('python /home/alexis/Bureau/Project/scripts/MLforPTV.py')
+            time.sleep(60)
+            os.system('python /home/alexis/Bureau/Project/scripts/PTVwithTruemerge0.py 2018')
+            time.sleep(60)
+            os.system('python /home/alexis/Bureau/Project/scripts/PTVwithTruemerge0.py 2017')
+            time.sleep(60)
+
 
     if(len(argv) == 1):
         import pandas as pd
@@ -955,11 +975,10 @@ def main(argv):
                         from newidea import main as RL
                         l2,temp_newPTV2,temp_history2,index_CP2,index_PTV2,temp_context2 = RL([str(c),str(f),i,newPTV.loc[newPTV.shape[0]-1],temp_context,index_CP,index_PTV])
                         if(l2>5):
-                            print(l2)
                             print("Utilisation de l'arbre de décision",f,c,i)
-                            if(c == 'TF1'):
+                            if(chaine == 'TF1'):
                                 from PTVTF1 import main as arbre
-                            elif(c == 'M6'):
+                            elif(chaine == 'M6'):
                                 from PTVM6 import main as arbre
                             l3,temp_newPTV3,temp_history3,index_CP3,index_PTV3,temp_context3 = arbre([str(c),str(f),i,newPTV.loc[newPTV.shape[0]-1],temp_context,index_CP,index_PTV])
                             if(l3>0):
@@ -990,10 +1009,10 @@ def main(argv):
                         if(c == 'TF1'):
                             err_TF1 += l
                             m_TF1 += 1
-                newPTV.to_html('/home/alexis/Bureau/Project/results/ptvbyml/PTV/new_PTV-'+str(f)+'_'+str(c)+'.html')
-                newPTV.to_csv('/home/alexis/Bureau/Project/results/ptvbyml/csv/new_PTV-'+str(f)+'_'+str(c)+'.csv',index=False)
-                historyofpoints.to_html('/home/alexis/Bureau/Project/results/ptvbyml/historyofpoints/historyofpoints-'+str(f)+'_'+str(c)+'.html')
-                historyofpoints.to_csv('/home/alexis/Bureau/Project/results/truemerge/'+str(c)+'/true_merge_'+str(f)+'_'+str(c)+'.csv',index=False)
+                newPTV.to_html('/home/alexis/Bureau/Project/results/ptvbyml/PTV/new_PTV-'+date+'_'+chaine+'.html')
+                newPTV.to_csv('/home/alexis/Bureau/Project/results/ptvbyml/csv/new_PTV-'+date+'_'+chaine+'.csv',index=False)
+                historyofpoints.to_html('/home/alexis/Bureau/Project/results/ptvbyml/historyofpoints/historyofpoints-'+date+'_'+chaine+'.html')
+                historyofpoints.to_csv('/home/alexis/Bureau/Project/results/truemerge/'+chaine+'/true_merge_'+str(date)+'_'+chaine+'.csv',index=False)
 
             print(err)
 
@@ -1047,7 +1066,6 @@ def main(argv):
             sys.exit(4)
             return 0
         new_PTV,historyofpoints,labels,error,index_CP,index_PTV,temp_context = make_newPTV(PTV,Points,proba,chaine,index,argv[3],argv[4],argv[5],argv[6])
-
         #new_PTV.to_html('/home/alexis/Bureau/Project/results/ptvbyml/PTV/new_PTV-'+date+'_'+chaine+'.html')
         #new_PTV.to_csv('/home/alexis/Bureau/Project/results/ptvbyml/csv/new_PTV-'+date+'_'+chaine+'.csv',index=False)
         print(len(labels),historyofpoints.shape)

@@ -83,14 +83,6 @@ class Classifier(BaseEstimator):
         res = [(r1+r2)*0.5 for r1,r2 in zip(res1,res2)]
         return np.array([ [1-c,c] for c in res])
 
-fileX_train ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv'
-fileY_train = '/home/alexis/Bureau/historique/label-30-04.csv'
-
-fileX_valid ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180507_0_192_0_cleandata-processed.csv'
-fileY_valid = '/home/alexis/Bureau/historique/label-07-05.csv'
-
-fileX_test ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180509_0_192_0_cleandata-processed.csv'
-fileY_test = '/home/alexis/Bureau/historique/label-09-05.csv'
 
 
 #################################################

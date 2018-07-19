@@ -19,6 +19,7 @@ import sys
 import os
 import pandas as pd
 import numpy as np
+import datetime
 from tqdm import tqdm
 #################################################
 ########### Global variables ####################
@@ -70,6 +71,7 @@ def init_history():
     h["chaine"]= 'M6'
     h['CLE-FORMAT'] = 0
     h['CLE-GENRE'] = 0
+    h['day'] = 0
     #h['per'] = 1
     return h
 
@@ -343,7 +345,7 @@ def categorize_programme(programme,PTV,index_PTV):
 
 
 
-def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,per,PTV,index_PTV):
+def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,per,PTV,index_PTV,date):
     #we create a list with different notes to understand the context
     # minute of the point and its situation in the day
     context = [i]
@@ -368,11 +370,13 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append('M6')
     context.append(programme['CLE-FORMAT'])
     context.append(programme['CLE-GENRE'])
+    day = datetime.datetime(int(date.split('-')[0]), int(date.split('-')[1]), int(date.split('-')[2]))
+    context.append(day.weekday())
     #context.append(per)
     return context
 
 
-def make_newPTV(PTV,Points,proba):
+def make_newPTV(PTV,Points,proba,date):
     #Initialisation des Variables
     verbose = False
     index_CP = 0
@@ -408,7 +412,7 @@ def make_newPTV(PTV,Points,proba):
         if(index_ipts==len(importantpts)):
             index_ipts-=1
         #let's get the context:
-        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,per,PTV,index_PTV)
+        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,per,PTV,index_PTV,date)
 
         #Sur M6 il y a 16 minutes de pub entre deux films!!!!!!!!!!!!.....!!!!!!!....!!.!.!.!.!....!.!...!..!.!.!.!
         if(PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == PTV['GENRESIMPLE'].iloc[index_PTV-1].split(' ')[0] and PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == 'Téléfilm'
@@ -1232,7 +1236,7 @@ def main(argv):
         if(len(PTV) == 0):
             sys.exit(4)
             return 0
-        new_PTV,historyofpoints,labels,error = make_newPTV(PTV,Points,proba)
+        new_PTV,historyofpoints,labels,error = make_newPTV(PTV,Points,proba,date)
 
         new_PTV['Heure'] = new_PTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))

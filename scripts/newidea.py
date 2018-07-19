@@ -27,6 +27,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 import time
 from sklearn import linear_model
+import datetime
 #################################################
 ########### Global variables ####################
 #################################################
@@ -182,6 +183,7 @@ def init_history(chaine,PTV):
     h["chaine"]= chaine
     h['CLE-FORMAT'] = 0
     h['CLE-GENRE'] = 0
+    h['day'] = 0
     #h['per'] = 1
     return h
 
@@ -456,7 +458,7 @@ def categorize_programme(programme,chaine,PTV,index_PTV):
 
 
 
-def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,chaine,per,PTV,index_PTV):
+def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,chaine,per,PTV,index_PTV,date):
     #we create a list with different notes to understand the context
     # minute of the point and its situation in the day
     context = [i]
@@ -481,6 +483,8 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append(chaine)
     context.append(programme['CLE-FORMAT'])
     context.append(programme['CLE-GENRE'])
+    day = datetime.datetime(int(date.split('-')[0]), int(date.split('-')[1]), int(date.split('-')[2]))
+    context.append(day.weekday())
     #context.append(per)
     return context
 
@@ -501,7 +505,7 @@ def load_models():
 
 
 
-def make_predictedPTV(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context):
+def make_predictedPTV(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date):
     #Initialisation des Variables
     starting_index = index_PTV
     verbose = False
@@ -591,7 +595,7 @@ def make_predictedPTV(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPub
         if(index_ipts==len(importantpts)):
             index_ipts-=1
         #let's get the context:
-        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine,per,PTV,index_PTV)
+        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine,per,PTV,index_PTV,date)
         #Sur M6 il y a 16 minutes de pub entre deux films!!!!!!!!!!!!.....!!!!!!!....!!.!.!.!.!....!.!...!..!.!.!.!
         if(PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == PTV['GENRESIMPLE'].iloc[index_PTV-1].split(' ')[0] and PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == 'Téléfilm'
             and (i-lastend)<2 and Recall > 0 and per<0.97 and chaine == 'M6'):
@@ -624,7 +628,7 @@ def make_predictedPTV(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPub
 
             else:
                 #maybe it's the next programme so calme the fuck down!
-                if(PTV['TITRE'].iloc[index_PTV+1] == importantpts[index_ipts][1]):
+                if(PTV['TITRE'].iloc[(index_PTV+1)%(PTV.shape[0])] == importantpts[index_ipts][1]):
                     if(planifiedend-i<10):
                         error_type_2 += abs(planifiedend-i)*5
                         per = context[3]
@@ -660,7 +664,7 @@ def make_predictedPTV(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPub
                     error_type_3+= abs((context[13]-0.46)*a_4*(0.95*(4-lastCP)))
 
             else:
-                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values #,'per'
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','day'])).values #,'per'
                 res1 = CatBoost[0].predict_proba(X)
                 res2 = CatBoost[1].predict_proba(X)
                 res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
@@ -729,7 +733,7 @@ def make_predictedPTV(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPub
             if(lastCP < min(6,currentduree)):
                 error_type_3-= 5
             else:
-                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values #,'per'
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','day'])).values #,'per'
                 res1 = CatBoost[0].predict_proba(X)
                 res2 = CatBoost[1].predict_proba(X)
                 res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
@@ -881,7 +885,7 @@ def make_predictedPTV(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPub
 
 
 
-def make_predictedPTV2(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context):
+def make_predictedPTV2(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date):
     #Initialisation des Variables
     starting_index = index_PTV
     verbose = False
@@ -892,7 +896,7 @@ def make_predictedPTV2(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPu
     a_1 = 10                                       #Coefficient pour le fait de manquer une publicité
     a_2 = 10                                       #Coeffeicient de la pénalité si le journal commence trop tôt
     a_3 = 2                                        #Coeffeicent de péanlité pour ne pas détecter une fin de programme
-    a_4 = 20                                       #Paramètre de régularisation -- utilisation des points les plus probables.
+    a_4 = 40                                       #Paramètre de régularisation -- utilisation des points les plus probables.
     a_5 = 0                                        #Pénalitasion du la valeur absolue de l'éloignement du point prévu de fin.
     error_type_1 = 0                               # erreur sur les programmes de la demi journée
     error_type_2 = 0                               # erreur sur les Points de Contrôle
@@ -967,7 +971,7 @@ def make_predictedPTV2(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPu
         if(index_ipts==len(importantpts)):
             index_ipts-=1
         #let's get the context:
-        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine,per,PTV,index_PTV)
+        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine,per,PTV,index_PTV,date)
         ###### Let's verify that the algo is not doing a crappy predicitions and if this the case, clean his historic #####
         if(i == importantpts[index_ipts][0]):
             #### we are at an important point, let's now see what the algo has predict
@@ -1021,7 +1025,7 @@ def make_predictedPTV2(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPu
                     error_type_3+= abs((context[13]-0.46)*a_4)
 
             else:
-                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values #,'per'
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','day'])).values #,'per'
                 res1 = CatBoost[0].predict_proba(X)
                 res2 = CatBoost[1].predict_proba(X)
                 res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
@@ -1088,7 +1092,7 @@ def make_predictedPTV2(actu,PTV,Points,chaine,j,index_PTV,index_CP,lastCP,lastPu
             if(lastCP < min(6,currentduree)):
                 error_type_3-= 5
             else:
-                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values #,'per'
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','day'])).values #,'per'
                 res1 = CatBoost[0].predict_proba(X)
                 res2 = CatBoost[1].predict_proba(X)
                 res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
@@ -1259,7 +1263,7 @@ def most_pobable_path(error_0,error_1,error_2,XGB,CatBoost,rf,dt,gb,logistic,con
             print("pas de bonne solution",str(int(context[0]/60))+':'+str(context[0]%60))
             possibles = [0,1,2]
 
-        X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values #,'per'
+        X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','day'])).values #,'per'
         res1 = CatBoost[0].predict_proba(X)
         res2 = CatBoost[1].predict_proba(X)
         res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
@@ -1294,7 +1298,7 @@ def most_pobable_path(error_0,error_1,error_2,XGB,CatBoost,rf,dt,gb,logistic,con
 
 
 
-def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index_PTV):
+def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index_PTV,date):
     #Initialisation des Variables
     verbose = False
     index_CP = index_CP
@@ -1342,7 +1346,7 @@ def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index
         if(index_ipts==len(importantpts)):
             index_ipts-=1
         #let's get the context:
-        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine,per,PTV,index_PTV)
+        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine,per,PTV,index_PTV,date)
         #Sur M6 il y a 16 minutes de pub entre deux films!!!!!!!!!!!!.....!!!!!!!....!!.!.!.!.!....!.!...!..!.!.!.!
         if(PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == PTV['GENRESIMPLE'].iloc[index_PTV-1].split(' ')[0] and PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == 'Téléfilm'
             and (i-lastend)<2 and Recall > 0 and per<0.97 and chaine == 'M6'):
@@ -1474,18 +1478,18 @@ def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index
             else:
                 if(i<importantpts[1][0]):
                     # Ne fonctionne qu'avec un Point de Contrôle et donc qu'avec des points avant 20h
-                    error_0,sub_error_0 = make_predictedPTV(0,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
-                    error_1,sub_error_1 = make_predictedPTV(1,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
-                    error_2,sub_error_2 = make_predictedPTV(2,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
+                    error_0,sub_error_0 = make_predictedPTV(0,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
+                    error_1,sub_error_1 = make_predictedPTV(1,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
+                    error_2,sub_error_2 = make_predictedPTV(2,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
                     cla = most_pobable_path(error_0,error_1,error_2,XGB,CatBoost,rf,dt,gb,logistic,context)
                     print()
                     print(error_0,sub_error_0,'|',error_1,sub_error_1,'|',error_2,sub_error_2,'|',str(int(context[0]/60))+':'+str(context[0]%60),cla)
 
 
                 else:
-                    error_0,sub_error_0 = make_predictedPTV2(0,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
-                    error_1,sub_error_1 = make_predictedPTV2(1,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
-                    error_2,sub_error_2 = make_predictedPTV2(2,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
+                    error_0,sub_error_0 = make_predictedPTV2(0,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
+                    error_1,sub_error_1 = make_predictedPTV2(1,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
+                    error_2,sub_error_2 = make_predictedPTV2(2,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
                     cla = most_pobable_path(error_0,error_1,error_2,XGB,CatBoost,rf,dt,gb,logistic,context)
                     print()
                     print(error_0,sub_error_0,'|',error_1,sub_error_1,'|',error_2,sub_error_2,'|',str(int(context[0]/60))+':'+str(context[0]%60),cla)
@@ -1535,17 +1539,17 @@ def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index
             else:
                 if(i<importantpts[1][0]):
                     #print("utilisation de l'algo 1")
-                    error_0,sub_error_0 = make_predictedPTV(0,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
-                    error_1,sub_error_1 = make_predictedPTV(1,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
-                    error_2,sub_error_2 = make_predictedPTV(2,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
+                    error_0,sub_error_0 = make_predictedPTV(0,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
+                    error_1,sub_error_1 = make_predictedPTV(1,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
+                    error_2,sub_error_2 = make_predictedPTV(2,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
                     cla = most_pobable_path(error_0,error_1,error_2,XGB,CatBoost,rf,dt,gb,logistic,context)
                     print()
                     print(error_0,sub_error_0,'|',error_1,sub_error_1,'|',error_2,sub_error_2,'|',str(int(context[0]/60))+':'+str(context[0]%60),cla)
                 else:
                     #print("utilisation de l'algo 2")
-                    error_0,sub_error_0 = make_predictedPTV2(0,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
-                    error_1,sub_error_1 = make_predictedPTV2(1,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
-                    error_2,sub_error_2 = make_predictedPTV2(2,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context)
+                    error_0,sub_error_0 = make_predictedPTV2(0,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
+                    error_1,sub_error_1 = make_predictedPTV2(1,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
+                    error_2,sub_error_2 = make_predictedPTV2(2,PTV,Points,chaine,i,index_PTV,index_CP,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,Predictiontimer,per,context,date)
                     cla = most_pobable_path(error_0,error_1,error_2,XGB,CatBoost,rf,dt,gb,logistic,context)
                     print()
                     print(error_0,sub_error_0,'|',error_1,sub_error_1,'|',error_2,sub_error_2,'|',str(int(context[0]/60))+':'+str(context[0]%60),cla)
@@ -1727,6 +1731,8 @@ def main(argv):
 
 
                     PTV,Points,proba = load_file(str(f),str(c))
+                    if(len(PTV) == 0):
+                        continue
                     newPTV = init_newPTV(PTV,str(c))
                     historyofpoints = init_history(str(c),PTV)
                     index_CP = 0
@@ -1738,8 +1744,8 @@ def main(argv):
                         if(l == 4):
                             pass
                         else:
-                            newPTV = pd.concat([newPTV,temp_newPTV],axis=1)
-                            historyofpoints = pd.concat([historyofpoints,temp_history],axis=1)
+                            newPTV = pd.concat([newPTV,temp_newPTV.iloc[1:]])
+                            historyofpoints = pd.concat([historyofpoints,temp_history])
                             err += l
                             if(i == 0):
                                 err_type_1 += 1
@@ -1773,6 +1779,8 @@ def main(argv):
         c = argv[0]
         f = argv[1]
         PTV,Points,proba = load_file(str(f),str(c))
+        if(len(PTV) == 0):
+            return('Fichier Manquant')
         newPTV = init_newPTV(PTV,str(c))
         historyofpoints = init_history(str(c),PTV)
         index_CP = 0
@@ -1790,7 +1798,7 @@ def main(argv):
                         print("erreur sur l'après midi")
                     else:
                         print("erreur sur la soirée")
-                newPTV = pd.concat([newPTV,temp_newPTV],axis=1)
+                newPTV = pd.concat([newPTV,temp_newPTV.iloc[1:]])
                 historyofpoints = pd.concat([historyofpoints,temp_history])
         new_PTV['Heure'] = new_PTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
@@ -1807,9 +1815,8 @@ def main(argv):
         d = "".join(date.split('-'))
         PTV,Points,proba = load_file(date,chaine)
         if(len(PTV) == 0):
-            sys.exit(4)
-            return 0
-        new_PTV,historyofpoints,labels,error,index_CP,index_PTV,temp_context = make_newPTV(PTV,Points,proba,chaine,index,argv[3],argv[4],argv[5],argv[6])
+            return 4,0,0,0,0,0
+        new_PTV,historyofpoints,labels,error,index_CP,index_PTV,temp_context = make_newPTV(PTV,Points,proba,chaine,index,argv[3],argv[4],argv[5],argv[6],date)
         print(len(labels),historyofpoints.shape)
         historyofpoints['labels'] = labels
         print(chaine,date,historyofpoints.shape,len(labels))

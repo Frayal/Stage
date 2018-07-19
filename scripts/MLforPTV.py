@@ -66,6 +66,7 @@ def load(fileX,c):
     if('labels' not in df.columns.values):
         print('pas de labels',fileX)
     y = df['labels']
+    y = y.fillna(0)
     return df.drop(['labels'],axis=1),y
 
 def load_all(CHAINE):

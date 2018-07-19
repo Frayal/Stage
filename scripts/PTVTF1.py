@@ -21,6 +21,7 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 import subprocess
+import datetime
 #################################################
 ########### Global variables ####################
 #################################################
@@ -71,6 +72,7 @@ def init_history():
     h['chaine'] = 'TF1'
     h['CLE-FORMAT'] = 0
     h['CLE-GENRE'] = 0
+    h['day'] = 0
     #h['per'] = 1
     return h
 
@@ -338,7 +340,7 @@ def categorize_programme(programme,PTV,index_PTV):
     p.append(categorize_pub(p[0],programme['debut'],p[-1],programme['TITRE'],PTV,index_PTV))
     return p
 
-def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,per,PTV,index_PTV):
+def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,per,PTV,index_PTV,date):
     #we create a list with different notes to understand the context
     # minute of the point and its situation in the day
     context = [i]
@@ -363,11 +365,13 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append('TF1')
     context.append(programme['CLE-FORMAT'])
     context.append(programme['CLE-GENRE'])
+    day = datetime.datetime(int(date.split('-')[0]), int(date.split('-')[1]), int(date.split('-')[2]))
+    context.append(day.weekday())
     #context.append(per)
     return context
 
 
-def make_newPTV(PTV,Points,proba):
+def make_newPTV(PTV,Points,proba,date):
     #Initialisation des Variables
     verbose = False
     index_CP = 0
@@ -407,7 +411,7 @@ def make_newPTV(PTV,Points,proba):
         if(index_ipts==len(importantpts)):
             index_ipts-=1
         #let's get the context:
-        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,per,PTV,index_PTV)
+        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,per,PTV,index_PTV,date)
         ###### Let's verify that the algo is not doing a crappy predicitions and if this the case, clean his historic #####
         if(i == importantpts[index_ipts][0]):
             #### we are at an important point, let's now see what the algo has predict
@@ -1168,7 +1172,7 @@ def main(argv):
         if(len(PTV) == 0):
             sys.exit(4)
             return 0
-        new_PTV,historyofpoints,labels,error = make_newPTV(PTV,Points,proba)
+        new_PTV,historyofpoints,labels,error = make_newPTV(PTV,Points,proba,date)
         new_PTV['Heure'] = new_PTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         new_PTV.to_html('/home/alexis/Bureau/Project/results/newPTV/PTV/TF1/new_PTV-'+date+'_TF1.html')

@@ -27,6 +27,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 import time
 from sklearn import linear_model
+import datetime
 #################################################
 ########### Global variables ####################
 #################################################
@@ -186,6 +187,7 @@ def init_history(chaine,PTV):
     h["chaine"]= chaine
     h['CLE-FORMAT'] = 0
     h['CLE-GENRE'] = 0
+    h['day'] = 0
     #h['per'] = 1
     return h
 
@@ -462,7 +464,7 @@ def categorize_programme(programme,chaine,PTV,index_PTV):
 
 
 
-def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,chaine,per,PTV,index_PTV):
+def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,probas,nbpub,chaine,per,PTV,index_PTV,date):
     #we create a list with different notes to understand the context
     # minute of the point and its situation in the day
     context = [i]
@@ -487,6 +489,8 @@ def get_context(i,programme,Points,lastCP,lastPub,lastend,currentduree,planified
     context.append(chaine)
     context.append(programme['CLE-FORMAT'])
     context.append(programme['CLE-GENRE'])
+    day = datetime.datetime(int(date.split('-')[0]), int(date.split('-')[1]), int(date.split('-')[2]))
+    context.append(day.weekday())
     #context.append(per)
     return context
 
@@ -505,7 +509,7 @@ def load_models():
     logistic = pickle.load(open('model_PTV/logistic_regression.sav', "rb"))
     return XGB,CatBoost,rf,dt,gb,logistic
 
-def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index_PTV):
+def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index_PTV,date):
     #Initialisation des Variables
     verbose = False
     index_CP = index_CP
@@ -552,7 +556,7 @@ def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index
         if(index_ipts==len(importantpts)):
             index_ipts-=1
         #let's get the context:
-        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine,per,PTV,index_PTV)
+        context = get_context(i,PTV.iloc[index_PTV],Points,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,chaine,per,PTV,index_PTV,date)
         #Sur M6 il y a 16 minutes de pub entre deux films!!!!!!!!!!!!.....!!!!!!!....!!.!.!.!.!....!.!...!..!.!.!.!
         if(PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == PTV['GENRESIMPLE'].iloc[index_PTV-1].split(' ')[0] and PTV['GENRESIMPLE'].iloc[index_PTV].split(' ')[0] == 'Téléfilm'
             and (i-lastend)<2 and Recall > 0 and per<0.97 and chaine == 'M6'):
@@ -686,7 +690,7 @@ def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index
                 index_CP+=1
                 continue
             else:
-                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values #,'per'
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','day'])).values #,'per'
                 res1 = CatBoost[0].predict_proba(X)
                 res2 = CatBoost[1].predict_proba(X)
                 res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
@@ -746,7 +750,7 @@ def make_newPTV(PTV,Points,proba,chaine,index,lastPTV,lastcontext,index_CP,index
                 labels.append(0)
                 continue
             else:
-                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE'])).values #,'per'
+                X = process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','day'])).values #,'per'
                 res1 = CatBoost[0].predict_proba(X)
                 res2 = CatBoost[1].predict_proba(X)
                 res3 = XGB[0].predict(xgb.DMatrix(X), ntree_limit= XGB[0].best_ntree_limit)
@@ -924,18 +928,20 @@ def main(argv):
             df.to_csv('scores.csv',index=False)
             time.sleep(10)
         for i in range(50):
-            os.system('python /home/alexis/Bureau/Project/scripts/feature_encoding.py')
-            time.sleep(60)
-            os.system('python /home/alexis/Bureau/Project/scripts/MLforPTV.py')
-            time.sleep(60)
             os.system('python /home/alexis/Bureau/Project/scripts/PTVwithTruemerge0.py 2018')
             time.sleep(60)
             os.system('python /home/alexis/Bureau/Project/scripts/PTVwithTruemerge0.py 2017')
             time.sleep(60)
+            os.system('python /home/alexis/Bureau/Project/scripts/feature_encoding.py')
+            time.sleep(60)
+            os.system('python /home/alexis/Bureau/Project/scripts/MLforPTV.py')
+            time.sleep(60)
+            print("fin du tour ",i)
 
 
     if(len(argv) == 1):
         import pandas as pd
+        import random
         relecture = True
         EPSILON = 1e-15
         err = 0
@@ -947,6 +953,7 @@ def main(argv):
         err_type_1 = 0
         err_type_2 = 0
         err_type_3 = 0
+        nb_rel= 0
 
         files = os.listdir('/home/alexis/Bureau/Project/Datas/PTV/extracted')
         for file in files:
@@ -958,9 +965,9 @@ def main(argv):
             elif(c ==''):
                 pass
             else:
-
-
                 PTV,Points,proba = load_file(str(f),str(c))
+                if(len(PTV) == 0):
+                    continue
                 newPTV = init_newPTV(PTV,str(c))
                 historyofpoints = init_history(str(c),PTV)
                 index_CP = 0
@@ -968,12 +975,13 @@ def main(argv):
                 temp_context = historyofpoints.iloc[0]
 
                 for i in range(3):
-                    l1,temp_newPTV1,temp_history1,index_CP1,index_PTV1,temp_context1 = main([str(c),str(f),i,newPTV.loc[newPTV.shape[0]-1],temp_context,index_CP,index_PTV])
-
+                    print(i,c,f)
+                    l1,temp_newPTV1,temp_history1,index_CP1,index_PTV1,temp_context1 = main([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_CP,index_PTV])
                     if(l1>0 and relecture):
+                        nb_rel+=1
                         print("Utilisation de la relecture",f,c,i)
                         from newidea import main as RL
-                        l2,temp_newPTV2,temp_history2,index_CP2,index_PTV2,temp_context2 = RL([str(c),str(f),i,newPTV.loc[newPTV.shape[0]-1],temp_context,index_CP,index_PTV])
+                        l2,temp_newPTV2,temp_history2,index_CP2,index_PTV2,temp_context2 = RL([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_CP,index_PTV])
                         if(l2>5):
                             print("Utilisation de l'arbre de décision",f,c,i)
                             if(chaine == 'TF1'):
@@ -993,15 +1001,15 @@ def main(argv):
                     if(l == 4):
                         pass
                     else:
-                        newPTV = pd.concat([newPTV,temp_newPTV],axis=1)
-                        historyofpoints = pd.concat([historyofpoints,temp_history],axis=1)
+                        newPTV = pd.concat([newPTV,temp_newPTV.iloc[1:]])
+                        historyofpoints = pd.concat([historyofpoints,temp_history])
                         err += l
                         if(i == 0):
-                            err_type_1 += 1
+                            err_type_1 += l
                         if(i == 1):
-                            err_type_2 += 1
+                            err_type_2 += l
                         if(i == 2):
-                            err_type_3 += 1
+                            err_type_3 += l
                         m+=1
                         if(c == 'M6'):
                             err_M6 += l
@@ -1009,10 +1017,12 @@ def main(argv):
                         if(c == 'TF1'):
                             err_TF1 += l
                             m_TF1 += 1
-                newPTV.to_html('/home/alexis/Bureau/Project/results/ptvbyml/PTV/new_PTV-'+date+'_'+chaine+'.html')
-                newPTV.to_csv('/home/alexis/Bureau/Project/results/ptvbyml/csv/new_PTV-'+date+'_'+chaine+'.csv',index=False)
-                historyofpoints.to_html('/home/alexis/Bureau/Project/results/ptvbyml/historyofpoints/historyofpoints-'+date+'_'+chaine+'.html')
-                historyofpoints.to_csv('/home/alexis/Bureau/Project/results/truemerge/'+chaine+'/true_merge_'+str(date)+'_'+chaine+'.csv',index=False)
+                newPTV['Heure'] = newPTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
+                historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
+                newPTV.to_html('/home/alexis/Bureau/Project/results/ptvbyml/PTV/new_PTV-'+str(f)+'_'+str(c)+'.html')
+                newPTV.to_csv('/home/alexis/Bureau/Project/results/ptvbyml/csv/new_PTV-'+str(f)+'_'+str(c)+'.csv',index=False)
+                historyofpoints.to_html('/home/alexis/Bureau/Project/results/ptvbyml/historyofpoints/historyofpoints-'+str(f)+'_'+str(c)+'.html')
+                historyofpoints.to_csv('/home/alexis/Bureau/Project/results/truemerge/'+str(c)+'/true_merge_'+str(f)+'_'+str(c)+'.csv',index=False)
 
             print(err)
 
@@ -1023,39 +1033,58 @@ def main(argv):
         print("score sur la matinée",1-((err_type_1*3)/(m+EPSILON)))
         print("score sur l'après midi",1-((err_type_2*3)/(m+EPSILON)))
         print("score sur la soirée",1-((err_type_3*3)/(m+EPSILON)))
+        print("Pourcentage de relecture",nb_rel/(m+EPSILON))
         print("temps de calcul: ",time.time()-t)
-
-
+        df = pd.read_csv('scores.csv')
+        df.loc[df.shape[0]] = [1-(err_TF1/(m_TF1+EPSILON)),1-(err_M6/(m_M6+EPSILON)),1-(err/(m+EPSILON)),1-((err_type_1*3)/(m+EPSILON)),1-((err_type_2*3)/(m+EPSILON)),1-((err_type_3*3)/(m+EPSILON)),nb_rel/(m+EPSILON),time.time()-t,abs(2018-int(argv[0]))]
+        df.to_csv('scores.csv',index=False)
     elif(len(argv) == 2):
         import pandas as pd
         c = argv[0]
         f = argv[1]
         PTV,Points,proba = load_file(str(f),str(c))
+        if(len(PTV) == 0):
+            return("Fichier manquant")
         newPTV = init_newPTV(PTV,str(c))
         historyofpoints = init_history(str(c),PTV)
         index_CP = 0
         index_PTV = PTV.shape[0]-1
         temp_context = historyofpoints.iloc[0]
         for i in range(3):
-            l,temp_newPTV,temp_history,index_CP,index_PTV,temp_context = main([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_CP,index_PTV])
+            print(i,c,f)
+            l1,temp_newPTV1,temp_history1,index_CP1,index_PTV1,temp_context1 = main([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_CP,index_PTV])
+            if(l1>0 ):
+                print("Utilisation de la relecture",f,c,i)
+                from newidea import main as RL
+                l2,temp_newPTV2,temp_history2,index_CP2,index_PTV2,temp_context2 = RL([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_CP,index_PTV])
+                if(l2>5):
+                    print("Utilisation de l'arbre de décision",f,c,i)
+                    if(chaine == 'TF1'):
+                        from PTVTF1 import main as arbre
+                    elif(chaine == 'M6'):
+                        from PTVM6 import main as arbre
+                    l3,temp_newPTV3,temp_history3,index_CP3,index_PTV3,temp_context3 = arbre([str(c),str(f),i,newPTV.loc[newPTV.shape[0]-1],temp_context,index_CP,index_PTV])
+                    if(l3>0):
+                        print("AUCUNE DÉCISION NE CONVIENT",f,c)
+                        l,temp_newPTV,temp_history,index_CP,index_PTV,temp_context = l2,temp_newPTV2,temp_history2,index_CP2,index_PTV2,temp_context2
+                    else:
+                        l,temp_newPTV,temp_history,index_CP,index_PTV,temp_context = l3,temp_newPTV3,temp_history3,index_CP3,index_PTV3,temp_context3
+                else:
+                    l,temp_newPTV,temp_history,index_CP,index_PTV,temp_context = l2,temp_newPTV2,temp_history2,index_CP2,index_PTV2,temp_context2
+            else:
+                l,temp_newPTV,temp_history,index_CP,index_PTV,temp_context = l1,temp_newPTV1,temp_history1,index_CP1,index_PTV1,temp_context1
             if(l == 4):
                 pass
             else:
-                if(l>0):
-                    if(i == 0):
-                        print("erreur sur la matinée")
-                    elif(i == 1):
-                        print("erreur sur l'après midi")
-                    else:
-                        print("erreur sur la soirée")
-                newPTV = pd.concat([newPTV,temp_newPTV],axis=1)
+                newPTV = pd.concat([newPTV,temp_newPTV.iloc[1:]])
                 historyofpoints = pd.concat([historyofpoints,temp_history])
-        new_PTV['Heure'] = new_PTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
+        newPTV['Heure'] = newPTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
         newPTV.to_html('/home/alexis/Bureau/Project/results/ptvbyml/PTV/new_PTV-'+str(f)+'_'+str(c)+'.html')
         newPTV.to_csv('/home/alexis/Bureau/Project/results/ptvbyml/csv/new_PTV-'+str(f)+'_'+str(c)+'.csv',index=False)
         historyofpoints.to_html('/home/alexis/Bureau/Project/results/ptvbyml/historyofpoints/historyofpoints-'+str(f)+'_'+str(c)+'.html')
         historyofpoints.to_csv('/home/alexis/Bureau/Project/results/truemerge/'+str(c)+'/true_merge_'+str(f)+'_'+str(c)+'.csv',index=False)
+
     else:
         chaine = argv[0]
         date = argv[1]
@@ -1064,15 +1093,9 @@ def main(argv):
         PTV,Points,proba = load_file(date,chaine)
         if(len(PTV) == 0):
             sys.exit(4)
-            return 0
-        new_PTV,historyofpoints,labels,error,index_CP,index_PTV,temp_context = make_newPTV(PTV,Points,proba,chaine,index,argv[3],argv[4],argv[5],argv[6])
-        #new_PTV.to_html('/home/alexis/Bureau/Project/results/ptvbyml/PTV/new_PTV-'+date+'_'+chaine+'.html')
-        #new_PTV.to_csv('/home/alexis/Bureau/Project/results/ptvbyml/csv/new_PTV-'+date+'_'+chaine+'.csv',index=False)
-        print(len(labels),historyofpoints.shape)
+            return 4,0,0,0,0,0
+        new_PTV,historyofpoints,labels,error,index_CP,index_PTV,temp_context = make_newPTV(PTV,Points,proba,chaine,index,argv[3],argv[4],argv[5],argv[6],date)
         historyofpoints['labels'] = labels
-        #historyofpoints.to_html('/home/alexis/Bureau/Project/results/ptvbyml/historyofpoints/historyofpoints-'+date+'_'+chaine+'.html')
-        #historyofpoints.to_csv('/home/alexis/Bureau/Project/results/truemerge/'+chaine+'/true_merge_'+str(date)+'_'+chaine+'.csv',index=False)
-        print(chaine,date,historyofpoints.shape,len(labels))
         return error,new_PTV,historyofpoints,index_CP,index_PTV,temp_context
 if __name__ == "__main__":
     # execute only if run as a script

@@ -50,12 +50,22 @@ class Classifier(BaseEstimator):
     def predict_proba(self, X):
         return np.array([[1-(v[1]+l[1])*0.5,(v[1]+l[1])*0.5] for v,l in zip(self.clf2.predict_proba(X),self.clf1.predict_proba(X))])
 
-
-
+PATH_IN = '/home/alexis/Bureau/finalproject/DatasIn/RTS/'
+PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
+PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
+LOG = "log.txt"
 
 #################################################
 ########### Important functions #################
 #################################################
+def Report(error):
+    with open(LOG,'a+') as file:
+        file.write(str(error)+' \n')
+        print(str(error))
+def get_path():
+    datas = pd.read_csv('path.csv')
+    return datas['PathtoDatasIn'].values[0],datas['PathtoScripts'].values[0],datas['PathtoTempDatas'].values[0]
+
 def load(fileX,fileY):
     X = pd.DataFrame()
     y = pd.DataFrame()
@@ -121,8 +131,8 @@ def plot_res(df,pred,y):
     r = tp/np.sum(y)
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
-    print('--------------------------------------------------')
-    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    Report('-----------------<CatBoost>---------------------------')
+    Report("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
 
     tp,fp,fn = mesure(pred,y)
     beta = 2
@@ -132,52 +142,9 @@ def plot_res(df,pred,y):
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
 
 
-    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
-    print('--------------------------------------------------')
-    l1 = find_index(pred,1)
+    Report("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    Report('--------------------------------------------------')
 
-    x1 = [t[i] for i in l1]
-    y1 = [x[i] for i in l1]
-    l3 = find_index(y,1)
-    x3 = [t[i] for i in l3]
-    y3 = [x[i] for i in l3]
-
-
-    trace1 = go.Scatter(
-            x= t,
-            y= x,
-            name = 'true',
-
-    )
-    trace2 = go.Scatter(
-            x =x1,
-            y=y1,
-            mode = 'markers',
-            name ='train',
-    )
-    trace3 = go.Scatter(
-            x=0,
-            y= 0,
-            mode = 'markers',
-            name = 'test',
-    )
-    trace4 = go.Scatter(
-            x=x3,
-            y=y3,
-            mode = 'markers',
-            name = 'true markers'
-    )
-
-    fig = tools.make_subplots(rows=4, cols=1, specs=[[{}], [{}], [{}], [{}]],
-                                  shared_xaxes=True, shared_yaxes=True,
-                                  vertical_spacing=0.001)
-    fig.append_trace(trace1, 1, 1)
-    fig.append_trace(trace2, 1, 1)
-    fig.append_trace(trace3, 1, 1)
-    fig.append_trace(trace4, 1, 1)
-
-    fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    #plot(fig, filename='CatBoost.html')
 
 def save_model(model):
     model.clf1.save_model("model/catboostmodel1")
@@ -193,6 +160,8 @@ def save_model(model):
 
 
 def main(argv):
+    global PATH_IN,PATH_SCRIPT,PATH_OUT
+    PATH_IN,PATH_SCRIPT,PATH_OUT = get_path()
     if(len(argv)==0):
         argv = [0.2]
     THRESHOLD = float(argv[0])

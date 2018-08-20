@@ -20,12 +20,6 @@ import os
 import numpy as np
 import pandas as pd
 import scipy.stats
-import plotly
-import plotly.graph_objs as go
-import plotly.offline as offline
-from plotly import tools
-from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.base import BaseEstimator
 from sklearn.ensemble import RandomForestClassifier
@@ -50,8 +44,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier,GradientBoostingClassifier
 import pickle
-from tpot import TPOTClassifier
 from sklearn import linear_model
+import def_context
 #################################################
 ########### Global variables ####################
 #################################################
@@ -59,12 +53,14 @@ from sklearn import linear_model
 #################################################
 ########### Important functions #################
 #################################################
-def load(fileX,c):
-    df = pd.read_csv('/home/alexis/Bureau/Project/results/truemerge/'+str(c)+'/'+fileX)
-    if('Heure' in df.columns.values or 'programme' in df.columns.values):
-        print('colonnes en trop',fileX)
+def get_temp_path():
+    datas = pd.read_csv('path.csv')
+    return datas['temp_path'].values[0]
+
+def load(fileX):
+    df = pd.read_csv(PATH_IN+'hop/'+fileX)
     if('labels' not in df.columns.values):
-        print('pas de labels',fileX)
+        def_context.Report('Pas de labels pour le fichier '+str(fileX))
     y = df['labels']
     y = y.fillna(0)
     return df.drop(['labels'],axis=1),y
@@ -72,56 +68,48 @@ def load(fileX,c):
 def load_all(CHAINE):
     X = pd.DataFrame()
     Y = pd.DataFrame()
-    if(CHAINE in ['TF1','all']):
-        files = os.listdir('/home/alexis/Bureau/Project/results/truemerge/TF1/')
-        for file in files:
-            if(file.split('_')[-2] in ['2017-12-09','2017-12-20','2017-12-08','2017-12-14'] or (file.split('_')[-2]).split('-')[0] == '2018'):
-                print(file.split('_')[-2])
-            else:
-                df,y = load(file,'TF1')
-                df = df.replace([np.inf, -np.inf], np.nan)
-                df = df.fillna(0)
-                X_train = df
-                y_train = y
-                X = pd.concat([X,X_train])
-                Y = pd.concat([Y,y_train])
-    if(CHAINE in ['M6','all']):
-        files = os.listdir('/home/alexis/Bureau/Project/results/truemerge/M6/')
-        for file in files:
-            if(file.split('_')[-2] in ['2017-12-20','2017-12-10','2017-12-30','2017-12-29','2017-12-26'] or (file.split('_')[-2]).split('-')[0] == '2018'):
-                print(file.split('_')[-2])
-            else:
-                df,y = load(file,'M6')
-                df = df.replace([np.inf, -np.inf], np.nan)
-                df = df.fillna(0)
-                X_train = df
-                y_train = y
-                X = pd.concat([X,X_train])
-                Y = pd.concat([Y,y_train])
-    return X,Y
+    files = os.listdir(PATH_IN+'hop/')
+    for file in files:
+        if(file.split('.')[-1] != 'csv'):
+            pass
+        elif(file.split('_')[-2] in ['2017-12-20'] or (file.split('_')[-2]).split('-')[0] == '2018'):
+            pass
+
+        else:
+            def_context.Report(file.split('_')[-2])
+            df,y = load(file)
+            if(len(df)==1):
+                continue
+            df = df.replace([np.inf, -np.inf], np.nan)
+            df = df.fillna(0)
+            X_train = df
+            y_train = y
+            X = pd.concat([X,X_train])
+            Y = pd.concat([Y,y_train])
+    return def_context.process(X),Y
 ######################################################
 ######################################################
 ### XGB modeling
-params = {'eta': 0.001,
-          'max_depth': 18,
+params = {'eta': 0.01,
+          'max_depth': 10,
           'subsample': 0.9,
-          'colsample_bytree': 1,
-          'colsample_bylevel':1,
-          'min_child_weight':1,
-          'alpha':1,
+          'colsample_bytree': 0.9,
+          'colsample_bylevel':0.9,
+          'min_child_weight':0.9,
+          'alpha':10,
           'objective': 'multi:softprob',
           'eval_metric': 'mlogloss',
           'seed': 99,
           'silent': 1,
          'num_class' : 3,
          }
-params2 = {'eta': 0.001,
-          'max_depth': 19,
+params2 = {'eta': 0.01,
+          'max_depth': 11,
           'subsample': 0.9,
           'colsample_bytree': 0.9,
           'colsample_bylevel':0.9,
           'min_child_weight':0.9,
-          'alpha':1,
+          'alpha':5,
           'objective': 'multi:softprob',
           'eval_metric': 'mlogloss',
           'seed': 42,
@@ -136,8 +124,8 @@ class Classifier(BaseEstimator):
     def fit(self,X,y):
         x1, x2, y1, y2 = train_test_split(X.values, y.values, test_size=0.2,random_state = 7)
         watchlist = [(xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1]), 'train'), (xgb.DMatrix(x2, y2,weight = [int(y)*2+1 for y in y2]), 'valid')]
-        self.clf1 = xgb.train(params, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 10000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
-        self.clf2 = xgb.train(params2, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 10000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
+        self.clf1 = xgb.train(params, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 2000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
+        self.clf2 = xgb.train(params2, (xgb.DMatrix(x1, y1, weight = [int(y)*2+1 for y in y1])), 2000,  watchlist, maximize = False,verbose_eval=500, early_stopping_rounds=300)
 
 
     def predict(self, X):
@@ -157,9 +145,9 @@ class Classifier2(BaseEstimator):
 
     def fit(self, X,y):
         x1, x2, y1, y2 = train_test_split(X, y, test_size=0.2,random_state = 7)
-        self.clf1 = CatBoostClassifier(iterations=7000,learning_rate=0.01, depth=10,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300,class_weights = [1,2,3])
+        self.clf1 = CatBoostClassifier(iterations=2000,learning_rate=0.1,l2_leaf_reg=1, depth=11,metric_period = 200, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300)
         self.clf1.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
-        self.clf2 = CatBoostClassifier(iterations=7000,learning_rate=0.01, depth=11,metric_period = 500, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300,class_weights = [1,2,3])
+        self.clf2 = CatBoostClassifier(iterations=2000,learning_rate=0.1, depth=10,metric_period = 200, loss_function='MultiClass', eval_metric='MultiClass', random_seed=99, od_type='Iter', od_wait=300)
         self.clf2.fit(x1,y1,verbose=True,eval_set=(x2,y2),use_best_model=True)
     def predict(self, X):
         return self.clf.predict(X)
@@ -217,19 +205,19 @@ def score(tp,fp,fn,epsilon=10**-5):
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r+epsilon)
 
-    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
-    print('--------------------------------------------------')
+    def_context.Report("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    def_context.Report('--------------------------------------------------')
 
 def mesure(y_score,y_test,p1=0.5,p2=0.5):
     y = get_label(y_score,p1,p2)
     TP1,FP1,FN1 = mesure_class(y,y_test,0)
     TP2,FP2,FN2 = mesure_class(y,y_test,1)
     TP3,FP3,FN3 = mesure_class(y,y_test,2)
-    print("pour la classe 0")
+    def_context.Report("pour la classe 0")
     score(TP1,FP1,FN1)
-    print("pour la classe 1")
+    def_context.Report("pour la classe 1")
     score(TP2,FP2,FN2)
-    print("pour la classe 2")
+    def_context.Report("pour la classe 2")
     score(TP3,FP3,FN3)
 
 def mismatch(y_score,y_test,p1=0.5,p2=0.5):
@@ -249,10 +237,10 @@ def mismatch(y_score,y_test,p1=0.5,p2=0.5):
                 pass
         else:
             pass
-    print("fausses publicités")
-    print(FP)
-    print("fausses fins")
-    print(FF)
+    def_context.Report("fausses publicités")
+    def_context.Report(FP)
+    def_context.Report("fausses fins")
+    def_context.Report(FF)
     return 0
 def acc(y_score,y_test,p1=0.5,p2=0.5):
     res = 0
@@ -262,7 +250,7 @@ def acc(y_score,y_test,p1=0.5,p2=0.5):
             res+=1
         else:
             pass
-    print("accuracy: "+str(res/len(y)))
+    def_context.Report("accuracy: "+str(res/len(y)))
 
 def ROC_curve(y_score,Y_test):
     y_test = label_binarize(Y_test, classes=[0, 1, 2])
@@ -328,26 +316,31 @@ def ROC_curve(y_score,Y_test):
 
 
 def save_model_cat(model):
-    model.clf1.save_model("model_PTV/catboostmodel1")
-    model.clf2.save_model("model_PTV/catboostmodel2")
+    model.clf1.save_model(PATH_OUT+"model_PTV/catboostmodel1")
+    model.clf2.save_model(PATH_OUT+"model_PTV/catboostmodel2")
 
 def save_model_xgb(model):
-    pickle.dump(model.clf1, open("model_PTV/XGB1.pickle.dat", "wb"))
-    pickle.dump(model.clf2, open("model_PTV/XGB2.pickle.dat", "wb"))
+    pickle.dump(model.clf1, open(PATH_OUT+"model_PTV/XGB1.pickle.dat", "wb"))
+    pickle.dump(model.clf2, open(PATH_OUT+"model_PTV/XGB2.pickle.dat", "wb"))
 
 def save_model(clf,name):
-    pickle.dump(clf, open("model_PTV/"+name+".pickle.dat", "wb"))
+    pickle.dump(clf, open(PATH_OUT+"model_PTV/"+name+".pickle.dat", "wb"))
 
 def use_logisticreg(l1,l2,l3,l4,l5,Y_train):
     X_valid = pd.concat([pd.DataFrame(l1),pd.DataFrame(l2),pd.DataFrame(l3),pd.DataFrame(l4),pd.DataFrame(l5)],axis = 1).values
     np.random.seed(7)
     logistic = linear_model.LogisticRegression(C=1,class_weight='balanced',penalty='l2')
     logistic.fit(X_valid, Y_train)
-    pickle.dump(logistic, open('model_PTV/logistic_regression.sav', 'wb'))
+    pickle.dump(logistic, open(PATH_OUT+'model_PTV/logistic_regression.sav', 'wb'))
     return logistic
 
 #################################################################
 def main(argv):
+    global PATH_IN,PATH_SCRIPT,PATH_OUT
+    PATH_IN,PATH_SCRIPT,PATH_OUT = def_context.get_path()
+    PATH_OUT = get_temp_path()
+    if not os.path.exists(PATH_OUT+'model_PTV/'):
+        os.makedirs(PATH_OUT+'model_PTV/')
     if(len(argv) == 0):
         argv = ['all']
     if(argv[0] == 'test'):
@@ -363,24 +356,24 @@ def main(argv):
         res = logreg.predict_proba(res)
         for p1 in [0]:
             for p2 in [0]:
-                print('################### '+str(p1)+' ### '+str(p2)+'###################')
-                print('############XGB##############')
+                def_context.Report('################### '+str(p1)+' ### '+str(p2)+'###################')
+                def_context.Report('############XGB##############')
                 mesure(y_pred.values,Y_test,p1,p2)
                 mismatch(y_pred.values,Y_test,p1,p2)
                 acc(y_pred.values,Y_test,p1,p2)
-                print('############CatBoost##############')
+                def_context.Report('############CatBoost##############')
                 mesure(y_pred2.values,Y_test,p1,p2)
                 mismatch(y_pred2.values,Y_test,p1,p2)
                 acc(y_pred2.values,Y_test,p1,p2)
-                print('############GradientBoostingClassifier##############')
+                def_context.Report('############GradientBoostingClassifier##############')
                 mesure(y_pred4.values,Y_test,p1,p2)
                 mismatch(y_pred4.values,Y_test,p1,p2)
                 acc(y_pred4.values,Y_test,p1,p2)
-                print('############RandomForestClassifier##############')
+                def_context.Report('############RandomForestClassifier##############')
                 mesure(y_pred5.values,Y_test,p1,p2)
                 mismatch(y_pred5.values,Y_test,p1,p2)
                 acc(y_pred5.values,Y_test,p1,p2)
-                print('############Stack##############')
+                def_context.Report('############Stack##############')
                 mesure(res,Y_test,p1,p2)
                 mismatch(res,Y_test,p1,p2)
                 acc(res,Y_test,p1,p2)
@@ -407,10 +400,10 @@ def main(argv):
 
         tpot = GradientBoostingClassifier(learning_rate=0.05, max_depth=10, max_features=0.75, min_samples_leaf=7, min_samples_split=16, n_estimators=500, subsample=0.9)
         tpot.fit(X_train,Y_train)
-        print(tpot.score(X_test, Y_test))
+        def_context.Report(tpot.score(X_test, Y_test))
         y_pred4 = tpot.predict_proba(X_test)
 
-        RF_model = RandomForestClassifier(max_depth = 15).fit(X_train,Y_train)
+        RF_model = RandomForestClassifier(max_depth = 10).fit(X_train,Y_train)
         y_pred5 = RF_model.predict_proba(X_test)
 
         y_p = clf.predict_proba(X_train)
@@ -426,32 +419,32 @@ def main(argv):
         save_model_cat(clf2)
         save_model(dtree_model,"DT")
         save_model(RF_model,"RF")
-        pickle.dump(tpot, open("model_PTV/GradientBoostingClassifier.pickle.dat", "wb"))
-        pickle.dump(RF_model, open("model_PTV/RandomForestClassifier.pickle.dat", "wb"))
+        pickle.dump(tpot, open(PATH_OUT+"model_PTV/GradientBoostingClassifier.pickle.dat", "wb"))
+        pickle.dump(RF_model, open(PATH_OUT+"model_PTV/RandomForestClassifier.pickle.dat", "wb"))
         X = pd.concat([pd.DataFrame(y_pred),pd.DataFrame(y_pred2),pd.DataFrame(y_pred3),pd.DataFrame(y_pred4),pd.DataFrame(y_pred5)],axis = 1).values
         res = logreg.predict_proba(X)
         for p1,p2 in zip([0],[0]):
-            print('############XGB##############')
+            def_context.Report('############XGB##############')
             mesure(y_pred,Y_test,p1,p2)
             mismatch(y_pred,Y_test,p1,p2)
             acc(y_pred,Y_test,p1,p2)
-            print('############CatBoost##############')
+            def_context.Report('############CatBoost##############')
             mesure(y_pred2,Y_test,p1,p2)
             mismatch(y_pred2,Y_test,p1,p2)
             acc(y_pred2,Y_test,p1,p2)
-            print('############DecisionTreeClassifier##############')
+            def_context.Report('############DecisionTreeClassifier##############')
             mesure(y_pred3,Y_test,p1,p2)
             mismatch(y_pred3,Y_test,p1,p2)
             acc(y_pred3,Y_test,p1,p2)
-            print('############GradientBoostingClassifier##############')
+            def_context.Report('############GradientBoostingClassifier##############')
             mesure(y_pred4,Y_test,p1,p2)
             mismatch(y_pred4,Y_test,p1,p2)
             acc(y_pred4,Y_test,p1,p2)
-            print('############RandomForestClassifier##############')
+            def_context.Report('############RandomForestClassifier##############')
             mesure(y_pred5,Y_test,p1,p2)
             mismatch(y_pred5,Y_test,p1,p2)
             acc(y_pred5,Y_test,p1,p2)
-            print('############Stack##############')
+            def_context.Report('############Stack##############')
             mesure(res,Y_test,p1,p2)
             mismatch(res,Y_test,p1,p2)
             acc(res,Y_test,p1,p2)

@@ -25,39 +25,37 @@ warnings.filterwarnings('ignore')
 #################################################
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from pandas import Series
 from pandas import DataFrame
 from pandas import concat
 import random
 import os
 import sys
 import scipy.stats
-import matplotlib
-import pickle
-import plotly
-import plotly.graph_objs as go
-import plotly.offline as offline
-from plotly import tools
-from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+import time
+
 import random
-import pickle
-import xgboost as xgb
-from catboost import CatBoostClassifier
-#from keras.models import model_from_json
-#from sklearn.preprocessing import MinMaxScaler
+
 #################################################
 ########### Global variables ####################
 #################################################
-
-
 NOISE_LEVEL = 0
 THRESHOLD = 2e7
 
+PATH_IN = '/home/alexis/Bureau/Project/Datas/RTS/'
+PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
+PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
+LOG = "log.txt"
 #################################################
 ########### Important functions #################
 #################################################
 
+def get_path():
+    datas = pd.read_csv('path.csv')
+    return datas['PathtoTempDatas'].values[0],datas['PathtoScripts'].values[0],datas['PathtoTempDatas'].values[0]
+def Report(error):
+    with open(LOG,'a+') as file:
+        file.write(str(error)+' \n')
+        print(str(error))
 def load_timeserie(file,PATH):
     '''
     prend en entrée le nom d'un fichier se trouvant dans le dossier
@@ -83,27 +81,13 @@ def load_timeserie(file,PATH):
         print("mauvais format: veuillez fournir un .txt ou un .csv")
         return 0
 
-def add_noise(l):
-    '''
-    prend en entrée une liste
-    rajout après chaque point un point légèrement bruité
-    renvoie la nouvelle liste avec l'information bruitée
-    '''
-    res = []
-    for i in range(len(l)):
-        res.append(l[i])
-        res.append(np.random.normal(res[-1],max([(res[-1]/(10**3)),1])))
-    return res
-
-def shift_preprocess(data,name,noise_level=NOISE_LEVEL):
+def shift_preprocess(data,name):
     '''
     prend en entrée un dataframe contenant les valeurs d'audition
     renvoie un dataframe de 4 colonnes contenant les valeurs bruitées
     et un shift permettant d'utiliser l'historique (fixé a 3 ici)
     '''
     temps = data['values'].values
-    for i in range(noise_level-1):
-        temps = add_noise(temps)
     temps = DataFrame(temps)
     dataframe = concat([temps.shift(3), temps.shift(2), temps.shift(1), temps], axis=1)
     dataframe.columns = ['t-3', 't-2', 't-1', 't']
@@ -173,7 +157,7 @@ def processing(dataframe,name):
     #print("moyenne: %s   standard deviation: %s" %(str(m),str(sd)))
 
     d = scipy.stats.norm(m, sd/1000)
-    time = [i/((2**NOISE_LEVEL)*60) for i in range(len(x))]
+    time = [i/((2*60)) for i in range(len(x))]
     prob = [ d.pdf(y) for y in x]
     dist = [ d.cdf(y) for y in x]
     dataframe["probability"] = prob
@@ -183,21 +167,7 @@ def processing(dataframe,name):
                             +((dataframe['t-2']-dataframe["mean"])**3)/4+((dataframe['t-3']-dataframe["mean"])**3)/4)/(sd**3)
     dataframe["kurtosis"]= (((dataframe['t']-dataframe["mean"])**4)/4+((dataframe['t-1']-dataframe["mean"])**4)/4
                             +((dataframe['t-2']-dataframe["mean"])**4)/4+((dataframe['t-3']-dataframe["mean"])**4)/4)/(sd**4)
-    '''
-    plt.subplot(2, 1, 1)
-    plt.plot(time,prob, '-')
-    ax=plt.gca()
-    ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-    plt.title('probability and distribution of the change in the number of viewers')
 
-    plt.subplot(2, 1, 2)
-    plt.plot(time,dist, '.-')
-    ax=plt.gca()
-    ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.5))
-    plt.xlabel('time (arbitrary)')
-    plt.savefig('data/png/'+name+'-1.png')
-    plt.close()
-    '''
     return dataframe
 
 
@@ -236,12 +206,10 @@ def annomalie_detection(df,clf,automatic_threshold = True):
         temp_df['proba'] = temp_df['proba'].apply(lambda x: abs((x-ptot*0.5)/ptot))
         #temp_df['r'] = [ 1 if (v[1]+l[1])*0.5>0.05    else 0 for v,l in zip(clf[0].predict_proba(df.values),clf[1].predict_proba(df.values))]
         #temp_df['proba'] =  (temp_df['proba']*0.8+ temp_df['r']*0.2)
-        #print(temp_df.head())
 
         temp_df['annomalies'] =  temp_df['proba'].apply(threshold)
 
         res = temp_df['annomalies']*temp_df['signe']
-        #res = df['pics']
 
 
 
@@ -250,12 +218,11 @@ def annomalie_detection(df,clf,automatic_threshold = True):
         df = df.fillna(0)
         scaler = MinMaxScaler(feature_range=(0, 1))
         trainX = scaler.fit_transform(df)
-        #trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
         res1 = clf[0].predict_proba(trainX)
         res2 = clf[1].predict_proba(trainX)
         res = [(r1[1]+r2[1])*0.5 for r1,r2 in zip(res1,res2)]
         res = [1 if l>0.17 else 0 for l in res]
-        #v = [1 if x[0]>0.1 else 0 for x in clf.predict(trainX)]
+
 
     return res
 
@@ -272,108 +239,84 @@ def find_index(l,v):
             res.append(i)
     return res
 
-def plot_annomalies(annomalies,df,name,real_data,file):
-    """
-    prend en entrée le nombres d'indicateurs qui detectent une annomalie
-    ainsi que le datafame contenant tous les features(on a effacé 3 lignes)
-    renvoie un graph présentant les zones d'incertitudes quand a la présence
-    d'un événement important dans la plage horaire
-    en vert une montée d'audience, en orange une baisse d'audiance
-    """
-    dfx = pd.read_csv(file)['debut']
-    annomalies = list(annomalies)
-    l1 = find_index(annomalies,0)
-    l2 = find_index(annomalies,-1)
-    l3 = find_index(annomalies,1)
-
-    x = df['t'].values
-    t= [i/(60*2**(max([NOISE_LEVEL-1,0])))+3 for i in range(len(x))]
-    t2 = [i/(60) for i in range(len(real_data))]
-    x1 = [t[i] for i in l1]
-    x2 = [t[i] for i in l2]
-    x3 = [t[i] for i in l3]
-    y1 = [x[i] for i in l1]
-    y2 = [x[i] for i in l2]
-    y3 = [x[i] for i in l3]
-
-    dfy = [x[(d - 3*60)%1440]+ 10000000  for d in dfx]
-
-    trace1 = go.Scatter(
-        x=x1,
-        y=y1,
-        mode = 'markers',
-        name = 'regular',
-
-    )
-    trace2 = go.Scatter(
-        x=x2,
-        y=y2,
-        mode = 'markers',
-        name ='anormal loss',
-    )
-    trace3 = go.Scatter(
-        x=x3,
-        y=y3,
-        mode = 'markers',
-        name = 'anormal gain',
-    )
-    trace4 = go.Scatter(
-        x=dfx/60,
-        y=dfy,
-        mode = 'markers',
-        name = 'begin of programmes',
-    )
-
-    fig = tools.make_subplots(rows=4, cols=1, specs=[[{}], [{}], [{}], [{}]],
-                              shared_xaxes=True, shared_yaxes=True,
-                              vertical_spacing=0.001)
-    fig.append_trace(trace1, 1, 1)
-    fig.append_trace(trace2, 1, 1)
-    fig.append_trace(trace3, 1, 1)
-    fig.append_trace(trace4, 1, 1)
-
-    #fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    #plot(fig, filename='data/html/'+name+'.html')
-
-
 #################################################
 ########### main with options ###################
 #################################################
-import sys
 
 def main(argv):
-    if(argv[1] == 'train'):
-        PATH = '/home/alexis/Bureau/Project/Datas/train/'
-        df = load_timeserie(argv[0],PATH)
-        if(type(df) == int):
-            return("wrong imput file")
-        real_data = df['values'][3:]
-        df = shift_preprocess(df,argv[0].split('.')[0])
-        df = processing(df,argv[0].split('.')[0])
-        clf = []
-        annomalies = annomalie_detection(df,clf,True)
-        df["label"] = annomalies
-        df.to_csv(PATH+argv[0].split('.')[0]+".csv",index=False)
-        return ("process achevé sans erreures")
+    global PATH_IN,PATH_SCRIPT,PATH_OUT
+    PATH_IN,PATH_SCRIPT,PATH_OUT = get_path()
+    if(len(argv) == 0):
+        argv = ['test']
+    if(len(argv)==1):
+        T = time.time()
+        if(argv[0] == "train"):
+            files = os.listdir(PATH_IN+'train')
+            for file in files:
+                if((file.split('.'))[-1] == 'csv'):
+                    if(((file.split('.'))[0].split('-'))[0] == 'label'):
+                        pass
+                    else:
+                        print(str(file))
+                        os.system("python "+PATH_SCRIPT+"processingdata.py "+str(file) +" train")
+                else:
+                    pass
+            Report("Éxecution du scripte processingdata sur le train(%s fichiers) en %s" %(len(files),time.time()-T))
+            return ("process achevé sans erreurs")
+        else:
+            files = os.listdir(PATH_IN+'RTS/')
+            for file in files:
+                if((file.split('.'))[-1] == 'csv' and file.split('_')[0] != 'pred'):
+                    print(str(file))
+                    os.system("python "+PATH_SCRIPT+"processingdata.py "+str(file)+" test")
+                else:
+                    pass
+            Report("Éxecution du scripte processingdata sur le test(%s fichiers) en %s" %(len(files),time.time()-T))
+            return ("process achevé sans erreurs")
+    if(len(argv)==2):
+        try:
+            if(argv[1] == 'train'):
+                df = load_timeserie(argv[0],PATH_IN+'train/')
+                if(type(df) == int):
+                    return("wrong imput file")
+                if(df.shape[1]>5):
+                    Report("already treated file: "+str(argv[0]))
+                    return 0
+                real_data = df['values'][3:]
+                df = shift_preprocess(df,argv[0].split('.')[0])
+                df = processing(df,argv[0].split('.')[0])
+                clf = []
+                annomalies = annomalie_detection(df,clf,True)
+                df["label"] = annomalies
+                df.to_csv(PATH_OUT+'RTS/'+argv[0].split('.')[0]+".csv",index=False)
+                return ("process achevé sans erreurs")
 
 
 
 
 
-    elif(argv[1] == 'test'):
-        PATH = '/home/alexis/Bureau/Project/Datas/RTS/processed/'
-        df = load_timeserie(argv[0],PATH)
-        if(type(df) == int):
-            return("wrong imput file")
-        real_data = df['values'][3:]
-        df = shift_preprocess(df,argv[0].split('.')[0])
-        df = processing(df,argv[0].split('.')[0])
-        clf = []
-        annomalies = annomalie_detection(df,clf,True)
-        df["label"] = annomalies
-        df.to_csv(PATH+argv[0].split('.')[0]+".csv",index=False)
-        return ("process achevé sans erreures")
+            elif(argv[1] == 'test'):
 
+                df = load_timeserie(argv[0],PATH_IN+'RTS/')
+                if(type(df) == int):
+                    return("wrong imput file")
+                if(df.shape[1]>5):
+                    Report("already treated file: "+str(argv[0]))
+                    return 0
+                real_data = df['values'][3:]
+                df = shift_preprocess(df,argv[0].split('.')[0])
+                df = processing(df,argv[0].split('.')[0])
+                clf = []
+                annomalies = annomalie_detection(df,clf,True)
+                df["label"] = annomalies
+                df.to_csv(PATH_OUT+'RTS/'+argv[0].split('.')[0]+".csv",index=False)
+                return ("process achevé sans erreurs")
+        except Exception as e:
+            Report("Failed to process {0} {1}: {2}".format(str(argv[0]),str(argv[1]),str(e)))
+
+    else:
+        Report("Wrong imputs arguments, please see the doc and give us something good to wotk with")
+        return 0
 
 
 if __name__ == "__main__":

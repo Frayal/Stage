@@ -3,10 +3,30 @@ import numpy as np
 import sys
 from random import shuffle
 
+
+PATH_IN ='/home/alexis/Bureau/finalproject/DatasIn/'
+PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
+PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
+LOG = "log.txt"
+
+
+#################################################
+########### Important functions #################
+#################################################
+
+def get_path():
+    datas = pd.read_csv('path.csv')
+    return datas['PathtoTempDatas'].values[0],datas['PathtoScripts'].values[0],datas['PathtoTempDatas'].values[0]
+
+def Report(error):
+    with open(LOG,'a+') as file:
+        file.write(str(error)+' \n')
+        print(str(error))
+
 def make_names(date):
     d = str((date.split('-'))[1])+str((date.split('-'))[0])
-    X = '/home/alexis/Bureau/Project/Datas/train/sfrdaily_2018'+d+'_0_192_0_cleandata.csv'
-    y = '/home/alexis/Bureau/Project/Datas/train/label-'+date+'.csv'
+    X = PATH_IN+'train/sfrdaily_2018'+d+'_0_192_0_cleandata.csv'
+    y = PATH_IN+'train/label-'+date+'.csv'
     return X,y
 
 
@@ -59,6 +79,8 @@ def make_dataframe(dates):
 
 
 def main(argv):
+    global PATH_IN,PATH_SCRIPT,PATH_OUT
+    PATH_IN,PATH_SCRIPT,PATH_OUT = get_path()
     Dates = ['30-04','07-05','09-05','18-05','23-05','28-05']
     make_dataframe(Dates)
 

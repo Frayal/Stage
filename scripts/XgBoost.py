@@ -19,12 +19,6 @@ import sys
 import numpy as np
 import pandas as pd
 import scipy.stats
-import plotly
-import plotly.graph_objs as go
-import plotly.offline as offline
-from plotly import tools
-from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler,StandardScaler
 from sklearn.base import BaseEstimator
 from sklearn.ensemble import RandomForestClassifier
@@ -83,11 +77,22 @@ class Classifier(BaseEstimator):
         res = [(r1+r2)*0.5 for r1,r2 in zip(res1,res2)]
         return np.array([ [1-c,c] for c in res])
 
-
+PATH_IN = '/home/alexis/Bureau/finalproject/DatasIn/RTS/'
+PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
+PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
+LOG = "log.txt"
 
 #################################################
 ########### Important functions #################
 #################################################
+def Report(error):
+    with open(LOG,'a+') as file:
+        file.write(str(error)+' \n')
+        print(str(error))
+def get_path():
+    datas = pd.read_csv('path.csv')
+    return datas['PathtoDatasIn'].values[0],datas['PathtoScripts'].values[0],datas['PathtoTempDatas'].values[0]
+
 def load(fileX,fileY):
     X = pd.DataFrame()
     y = pd.DataFrame()
@@ -153,8 +158,8 @@ def plot_res(df,pred,y):
     r = tp/np.sum(y)
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
-    print('--------------------------------------------------')
-    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    Report('-------------------<XGBoost>----------------------')
+    Report("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
 
     tp,fp,fn = mesure(pred,y)
     beta = 2
@@ -164,52 +169,9 @@ def plot_res(df,pred,y):
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
 
 
-    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
-    print('--------------------------------------------------')
-    l1 = find_index(pred,1)
+    Report("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    Report('--------------------------------------------------')
 
-    x1 = [t[i] for i in l1]
-    y1 = [x[i] for i in l1]
-    l3 = find_index(y,1)
-    x3 = [t[i] for i in l3]
-    y3 = [x[i] for i in l3]
-
-
-    trace1 = go.Scatter(
-            x= t,
-            y= x,
-            name = 'true',
-
-    )
-    trace2 = go.Scatter(
-            x =x1,
-            y=y1,
-            mode = 'markers',
-            name ='train',
-    )
-    trace3 = go.Scatter(
-            x=0,
-            y= 0,
-            mode = 'markers',
-            name = 'test',
-    )
-    trace4 = go.Scatter(
-            x=x3,
-            y=y3,
-            mode = 'markers',
-            name = 'true markers'
-    )
-
-    fig = tools.make_subplots(rows=4, cols=1, specs=[[{}], [{}], [{}], [{}]],
-                                  shared_xaxes=True, shared_yaxes=True,
-                                  vertical_spacing=0.001)
-    fig.append_trace(trace1, 1, 1)
-    fig.append_trace(trace2, 1, 1)
-    fig.append_trace(trace3, 1, 1)
-    fig.append_trace(trace4, 1, 1)
-
-    fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    #plot(fig, filename='xgb.html')
 
 def save_model(model):
     pickle.dump(model.clf1, open("model/XGB1.pickle.dat", "wb"))
@@ -222,6 +184,8 @@ def save_model(model):
 
 
 def main(argv):
+    global PATH_IN,PATH_SCRIPT,PATH_OUT
+    PATH_IN,PATH_SCRIPT,PATH_OUT = get_path()
     if(len(argv)==0):
         argv = [0.04]
     THRESHOLD = float(argv)

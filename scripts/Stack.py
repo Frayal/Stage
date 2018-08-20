@@ -3,7 +3,8 @@
 #################################################
 #-*- coding: utf-8 -*-
 '''
-
+Stack des différents algorithms
+Automatique thresholding avec une logistic Regression
 '''
 
 '''
@@ -20,15 +21,9 @@ import os
 from sklearn import linear_model
 import pandas as pd
 import numpy as np
-import plotly
-import plotly.graph_objs as go
-import plotly.offline as offline
-from plotly import tools
-from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import pickle
 from sklearn.externals import joblib
 import numpy as np
-import matplotlib.pyplot as plt
 from itertools import cycle
 from sklearn import svm, datasets
 from sklearn.metrics import roc_curve, auc
@@ -37,13 +32,25 @@ from sklearn.preprocessing import label_binarize
 from sklearn.multiclass import OneVsRestClassifier
 from scipy import interp
 from ast import literal_eval
+import time
 #################################################
 ########### Global variables ####################
 #################################################
-
+PATH_IN = '/home/alexis/Bureau/finalproject/DatasIn/RTS/'
+PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
+PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
+LOG = "log.txt"
 #################################################
 ########### Important functions #################
 #################################################
+def get_path():
+    datas = pd.read_csv('path.csv')
+    return datas['PathtoTempDatas'].values[0],datas['PathtoScripts'].values[0],datas['PathtoTempDatas'].values[0]
+def Report(error):
+    with open(LOG,'a+') as file:
+        file.write(str(error)+' \n')
+        print(str(error))
+
 def plot_res(df,predict,y,h = [3,27],threshold=0.5):
     x = df.values
     x = x[(h[0]-3)*60:(h[1]-3)*60]
@@ -63,8 +70,8 @@ def plot_res(df,predict,y,h = [3,27],threshold=0.5):
     r = tp/np.sum(y)
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
-    print('----------------------------------------------------------------------------------------------------')
-    print("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
+    Report('---------------------------------<Stack>------------------------------------------------------------')
+    Report("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
     tp,fp,fn = mesure(pred,y)
     beta = 2
     p = tp/(tp+fp)
@@ -72,102 +79,8 @@ def plot_res(df,predict,y,h = [3,27],threshold=0.5):
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
 
-    print("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
-    print('----------------------------------------------------------------------------------------------------')
-
-    l1 = find_index(pred,1)
-    x1 = [t[i] for i in l1]
-    y1 = [x[i]+10000 for i in l1]
-
-    l3 = find_index(y,1)
-    x3 = [t[i] for i in l3]
-    y3 = [x[i] for i in l3]
-
-
-    trace1 = go.Scatter(
-            x= t,
-            y= x,
-            name = 'true',
-
-    )
-    trace2 = go.Scatter(
-            x =x1,
-            y=y1,
-            mode = 'markers',
-            name ='train',
-    )
-    trace3 = go.Scatter(
-            x=0,
-            y=0,
-            mode = 'markers',
-            name = 'test',
-    )
-    trace4 = go.Scatter(
-            x=x3,
-            y=y3,
-            mode = 'markers',
-            name = 'true markers'
-    )
-
-
-def ROC_curve(Y_test,y_score):
-    y_test = np.array([[0,1] if i==1 else [1,0] for i in Y_test])
-    n_classes = y_test.shape[1]
-    fpr = dict()
-    tpr = dict()
-    roc_auc = dict()
-    for i in range(n_classes):
-        fpr[i], tpr[i], _ = roc_curve(y_test[:, i], y_score[:, i])
-        roc_auc[i] = auc(fpr[i], tpr[i])
-
-    # Compute micro-average ROC curve and ROC area
-    fpr["micro"], tpr["micro"], _ = roc_curve(y_test.ravel(), y_score.ravel())
-    roc_auc["micro"] = auc(fpr["micro"], tpr["micro"])
-
-    # First aggregate all false positive rates
-    all_fpr = np.unique(np.concatenate([fpr[i] for i in range(n_classes)]))
-
-    # Then interpolate all ROC curves at this points
-    mean_tpr = np.zeros_like(all_fpr)
-    for i in range(n_classes):
-        mean_tpr += interp(all_fpr, fpr[i], tpr[i])
-
-    # Finally average it and compute AUC
-    mean_tpr /= n_classes
-
-    fpr["macro"] = all_fpr
-    tpr["macro"] = mean_tpr
-    roc_auc["macro"] = auc(fpr["macro"], tpr["macro"])
-
-    # Plot all ROC curves
-    plt.figure(figsize=(15,15))
-    plt.plot(fpr["micro"], tpr["micro"],
-             label='micro-average ROC curve (area = {0:0.2f})'
-                   ''.format(roc_auc["micro"]),
-             color='deeppink', linestyle=':', linewidth=4)
-
-    plt.plot(fpr["macro"], tpr["macro"],
-             label='macro-average ROC curve (area = {0:0.2f})'
-                   ''.format(roc_auc["macro"]),
-             color='navy', linestyle=':', linewidth=4)
-
-    colors = cycle(['aqua', 'darkorange', 'cornflowerblue'])
-    for i, color in zip(range(n_classes), colors):
-        plt.plot(fpr[i], tpr[i], color=color, lw=2,
-                 label='ROC curve of class {0} (area = {1:0.2f})'
-                 ''.format(i, roc_auc[i]))
-
-
-
-    plt.plot([0, 1], [0, 1], 'k--', lw=2)
-    plt.xlim([0.0, 1.0])
-    plt.ylim([0.0, 1.05])
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title('Some extension of Receiver operating characteristic to multi-class')
-    plt.legend(loc="lower right")
-    plt.savefig('auc.png')
-    plt.show()
+    Report("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
+    Report('----------------------------------------------------------------------------------------------------')
 
 def mesure(y_pred,y_true):
     TP = 0
@@ -207,6 +120,8 @@ def find_index(l,v):
 
 
 def main(argv):
+    global PATH_IN,PATH_SCRIPT,PATH_OUT
+    PATH_IN,PATH_SCRIPT,PATH_OUT = get_path()
     #### get files names ###
     names = pd.read_csv('files.csv')
     fileX_train = literal_eval(names['fileX_train'][0])
@@ -232,24 +147,24 @@ def main(argv):
     if(len(argv)==0):
         argv = [0.46]
     if(str(argv[0]) == 'trainclf'):
-        print('training models ...')
-        print("LGBM")
-        l1 = os.system("python /home/alexis/Bureau/Project/scripts/LightGBM.py 0.5")
-        print("catboost")
-        l2 = os.system("python /home/alexis/Bureau/Project/scripts/CatBoost.py 0.5")
-        print("classic")
-        l3 = os.system("python /home/alexis/Bureau/Project/scripts/SVC.py 0.5")
-        print("NN")
-        l4 = os.system("python /home/alexis/Bureau/Project/scripts/NeuralNetwork.py 0.5")
-        print("XGB")
-        l5 = os.system("python /home/alexis/Bureau/Project/scripts/XgBoost.py 0.5")
-        print("KNN")
-        l6 = os.system("python /home/alexis/Bureau/Project/scripts/KNN.py 0.5")
-        print("LSTM")
-        l7 = os.system("python /home/alexis/Bureau/Project/scripts/LSTM.py 0.5")
+        Report('training models ...')
+        Report("LGBM")
+        l1 = os.system("python "+PATH_SCRIPT+"LightGBM.py 0.5")
+        Report("catboost")
+        l2 = os.system("python "+PATH_SCRIPT+"CatBoost.py 0.5")
+        Report("classic")
+        l3 = os.system("python "+PATH_SCRIPT+"SVC.py 0.5")
+        Report("NN")
+        l4 = os.system("python "+PATH_SCRIPT+"NeuralNetwork.py 0.5")
+        Report("XGB")
+        l5 = os.system("python "+PATH_SCRIPT+"XgBoost.py 0.5")
+        Report("KNN")
+        l6 = os.system("python "+PATH_SCRIPT+"KNN.py 0.5")
+        Report("LSTM")
+        l7 = os.system("python "+PATH_SCRIPT+"LSTM.py 0.5")
         return 0
     if(str(argv[0]) == 'trainlogreg'):
-        print('training logistic regression...')
+        Report('training logistic regression...')
         l1 = pd.read_csv("lightGBM_valid.csv")
         l2 = pd.read_csv("catboost_valid.csv")
         l3 = pd.read_csv("SVC_valid.csv")
@@ -261,20 +176,23 @@ def main(argv):
 
         X_valid = pd.concat([l2,l3,l4,l5,l6,l7], axis=1).values #"****************"
         for i in [0.001]:
-            print("C="+str(i))
+            Report("C="+str(i))
             np.random.seed(7)
             logistic = linear_model.LogisticRegression(C=i,class_weight='balanced',penalty='l2')
             logistic.fit(X_valid, Y_valid)
             pickle.dump(logistic, open('model/logistic_regression.sav', 'wb'))
-            os.system("python /home/alexis/Bureau/Project/scripts/Stack.py")
+            time.sleep(20)
+            os.system("python "+PATH_SCRIPT+"Stack.py")
         return 0
     if(str(argv[0]) == 'trainall'):
-        os.system("python /home/alexis/Bureau/Project/scripts/Stack.py trainclf")
-        os.system("python /home/alexis/Bureau/Project/scripts/Stack.py trainlogreg")
+        t = time.time()
+        os.system("python "+PATH_SCRIPT+"Stack.py trainclf")
+        Report("temps d'entraînement de l'ensemble des modèles: "+str(time.time()-t))
+        os.system("python "+PATH_SCRIPT+"Stack.py trainlogreg")
 
     else:
         T = argv
-        print('Scoring...')
+        Report('Scoring...')
         l1 = pd.read_csv("lightGBM.csv")
         l2 = pd.read_csv("catboost.csv")
         l3 = pd.read_csv("SVC.csv")
@@ -289,14 +207,13 @@ def main(argv):
         np.random.seed(7)
         Predict = logistic.predict_proba(X)
         for j in T:
-            print("Threshold="+str(j))
+            Report("Threshold="+str(j))
             #for h in [[3,27],[6,13],[13,20],[20,27],[6,24],[10,13],[12,15],[6,11],[13,16],[14,18],[16,19],[19,22],[20,23],[23,27],[10,18]]:
-                #print(h)
+                #Report(h)
                 #plot_res(pd.read_csv(fileX[0])['t'],Predict,Y,h,threshold = float(j))
                 #pred = list([1 if i[-1]>float(j) else 0 for i in Predict])
 
             plot_res(pd.read_csv(fileX[0])['t'],Predict,Y,threshold = float(j))
-        #ROC_curve(Y,Predict)
     return ("process achevé sans erreures")
 
 

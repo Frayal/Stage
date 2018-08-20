@@ -70,7 +70,7 @@ params1 = {'learning_rate': 0.015,
           'seed': 99,
           'silent' : True,"verbose":-1}
 MAX_TREES = 5000
-
+LOG = "log.txt"
 ######################################################
 class Classifier(BaseEstimator):
     def __init__(self):
@@ -88,19 +88,19 @@ class Classifier(BaseEstimator):
         res2 = self.clf2.predict(X,num_iteration = self.clf2.best_iteration)
         return np.array([[1-0.5*(a+b),0.5*(a+b)] for a,b in zip(res1,res2)])
 
-fileX_train ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180430_0_192_0_cleandata-processed.csv'
-fileY_train = '/home/alexis/Bureau/historique/label-30-04.csv'
-
-fileX_valid ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180507_0_192_0_cleandata-processed.csv'
-fileY_valid = '/home/alexis/Bureau/historique/label-07-05.csv'
-
-fileX_test ='/home/alexis/Bureau/Stage/Time-series/data/processed/sfrdaily_20180509_0_192_0_cleandata-processed.csv'
-fileY_test = '/home/alexis/Bureau/historique/label-09-05.csv'
-
-
 #################################################
 ########### Important functions #################
 #################################################
+
+def Report(error):
+    with open(LOG,'a+') as file:
+        file.write(str(error)+' \n')
+        print(str(error))
+def get_path():
+    datas = pd.read_csv('path.csv')
+    return datas['PathtoDatasIn'].values[0],datas['PathtoScripts'].values[0],datas['PathtoTempDatas'].values[0]
+
+
 def load(fileX,fileY):
     X = pd.DataFrame()
     y = pd.DataFrame()
@@ -165,8 +165,8 @@ def plot_res(df,pred,y):
     r = tp/np.sum(y)
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
-    print('--------------------------------------------------')
-    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    Report('----------------<LightGBM>------------------------')
+    Report("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
 
 
     tp,fp,fn = mesure(pred,y)
@@ -177,52 +177,8 @@ def plot_res(df,pred,y):
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
 
 
-    print("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
-    print('--------------------------------------------------')
-    l1 = find_index(pred,1)
-
-    x1 = [t[i] for i in l1]
-    y1 = [x[i] for i in l1]
-    l3 = find_index(y,1)
-    x3 = [t[i] for i in l3]
-    y3 = [x[i] for i in l3]
-
-    trace1 = go.Scatter(
-            x= t,
-            y= x,
-            name = 'true',
-
-    )
-    trace2 = go.Scatter(
-            x =x1,
-            y=y1,
-            mode = 'markers',
-            name ='train',
-    )
-    trace3 = go.Scatter(
-            x=0,
-            y= 0,
-            mode = 'markers',
-            name = 'test',
-    )
-    trace4 = go.Scatter(
-            x=x3,
-            y=y3,
-            mode = 'markers',
-            name = 'true markers'
-    )
-
-    fig = tools.make_subplots(rows=4, cols=1, specs=[[{}], [{}], [{}], [{}]],
-                                  shared_xaxes=True, shared_yaxes=True,
-                                  vertical_spacing=0.001)
-    fig.append_trace(trace1, 1, 1)
-    fig.append_trace(trace2, 1, 1)
-    fig.append_trace(trace3, 1, 1)
-    fig.append_trace(trace4, 1, 1)
-
-    fig['layout'].update(height=3000, width=2000, title='Annomalie detection')
-    #plot(fig, filename='LGBM.html')
-    return 0
+    Report("|| precison: "+str(p)+"|| recall: "+str(r)+"|| fbeta: "+str(f))
+    Report('--------------------------------------------------')
 def save_model(model):
     joblib.dump(model.clf1, 'model/LGBM1.pkl')
     joblib.dump(model.clf2, 'model/LGBM2.pkl')

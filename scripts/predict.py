@@ -26,14 +26,28 @@ import lightgbm as lgb
 from keras.models import model_from_json
 from sklearn.preprocessing import MinMaxScaler,StandardScaler
 from sklearn.externals import joblib
+import time
 #################################################
 ########### Global variables ####################
 #################################################
-
+#################################################
+########### Global variables ####################
+#################################################
+PATH_IN = '/home/alexis/Bureau/finalproject/DatasIn/RTS/'
+PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
+PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
+LOG = "log.txt"
 #################################################
 ########### Important functions #################
 #################################################
 
+def get_path():
+    datas = pd.read_csv('path.csv')
+    return datas['PathtoTempDatas'].values[0],datas['PathtoScripts'].values[0],datas['PathtoTempDatas'].values[0]
+def Report(error):
+    with open(LOG,'a+') as file:
+        file.write(str(error)+' \n')
+        print(str(error))
 def load(fileX):
     df = pd.read_csv(fileX)
     df = df.replace([np.inf, -np.inf], np.nan)
@@ -83,7 +97,7 @@ def load_models():
     # load weights into new model
     NN.compile(loss='binary_crossentropy', optimizer='adamax',metrics=['accuracy'])
     NN.load_weights("model/NN.h5")
-    print("Loaded NN from disk")
+    #Report("Loaded NN from disk")
 
     json_file = open("model/LSTM.json", 'r')
     loaded_model_json = json_file.read()
@@ -92,7 +106,7 @@ def load_models():
     # load weights into new model
     LSTM.compile(loss='binary_crossentropy', optimizer='adamax',metrics=['accuracy'])
     LSTM.load_weights("model/LSTM.h5")
-    print("Loaded LSTM from disk")
+    #Report("Loaded LSTM from disk")
 
 
     logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
@@ -150,8 +164,8 @@ def scoring(predict,y,h = [3,27],threshold=0.5):
     r = tp/np.sum(y)
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
-    print('----------------------------------------------------------------------------------------------------')
-    print("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
+    Report('----------------------------------------------------------------------------------------------------')
+    Report("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
     tp,fp,fn = mesure(pred,y)
     beta = 2
     p = tp/(tp+fp)
@@ -159,8 +173,8 @@ def scoring(predict,y,h = [3,27],threshold=0.5):
     beta_squared = beta ** 2
     f = (beta_squared + 1) * (p * r) / (beta_squared * p + r)
 
-    print("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
-    print('----------------------------------------------------------------------------------------------------')
+    Report("||precison: "+str(p)+"||recall: "+str(r)+"||fbeta: "+str(f))
+    Report('----------------------------------------------------------------------------------------------------')
     return 0
 def mesure(y_pred,y_true):
     TP = 0
@@ -189,49 +203,39 @@ def mesure(y_pred,y_true):
 
 
 def main(argv):
-    if(argv[0] == 'test'):
-        files = os.listdir('/home/alexis/Bureau/Project/Datas/RTS/processed')
-        for file in files:
-            os.system('python /home/alexis/Bureau/Project/scripts/predict.py '+str(file)+" test")
+    global PATH_IN,PATH_SCRIPT,PATH_OUT
+    PATH_IN,PATH_SCRIPT,PATH_OUT = get_path()
+    files = os.listdir(PATH_IN+'RTS/')
+    count = 0
+    t = time.time()
+    for file in files:
+        if(file.split('_')[0] == 'sfrdaily'):
+            count+=1
+            print(count)
+            fileX = PATH_IN+'RTS/'+str(file)
+            CHAINE = (file.split('_'))[-3]
+            DATE = (file.split('_'))[1]
+            try:
+                hum = pd.read_csv(PATH_OUT+'RTS/pred_proba_'+str(DATE)+'_'+str(CHAINE)+'.csv')
+                Report("Fichier déjà prédit: passage au fichier suivant")
+            except Exception as e:
+                X_minmax,X_meanvar,t = load(fileX)
+                SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM = load_models()
+                df = makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM)
+                X_train = df.values
+                np.random.seed(7)
+                #Report(X_train.shape)
+                np.random.seed(7)
+                Predict = logistic.predict_proba(X_train)
+                np.random.seed(7)
 
+                pred_proba = pd.DataFrame([i[-1] for i in Predict])
+                pred_proba.to_csv(PATH_OUT+'RTS/pred_proba_'+str(DATE)+'_'+str(CHAINE)+'.csv',index=False)
+        else:
+            pass
+    t = time.time()-t
+    Report('Temps de calcul pour %s fichiers: %s'%(count,t))
 
-    elif(argv[0] == 'train'):
-        Dates = ['2018-04-30','2018-05-07','2018-05-09','2018-05-18','2018-05-23','2018-05-28','2018-06-06']
-        for date in Dates:
-            DATE = "".join(date.split('-'))
-            fileX = 'sfrdaily_'+str(DATE)+'_0_192_0_cleandata.csv'
-            os.system('python /home/alexis/Bureau/Project/scripts/predict.py ' + fileX + " train")
-
-
-    else:
-        if(argv[1] == 'train'):
-            PATH ='/home/alexis/Bureau/Project/Datas/train/'
-        if(argv[1] == 'test'):
-            PATH = '/home/alexis/Bureau/Project/Datas/RTS/processed/'
-
-        fileX = PATH+str(argv[0])
-        CHAINE = (argv[0].split('_'))[-3]
-        if(CHAINE == '118'):
-            THRESHOLD = float(0.46)
-        if(CHAINE == '192'):
-            THRESHOLD = float(0.46)
-
-        X_minmax,X_meanvar,t = load(fileX)
-        SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM = load_models()
-        df = makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM)
-        X_train = df.values
-        np.random.seed(7)
-        print(X_train.shape)
-        np.random.seed(7)
-        Predict = logistic.predict_proba(X_train)
-        np.random.seed(7)
-        DATE = (argv[0].split('_'))[1]
-        #two options: We predict the class or we work with proba
-        pred = pd.DataFrame([1 if i[-1]>THRESHOLD else 0 for i in Predict])
-        pred_proba = pd.DataFrame([i[-1] for i in Predict])
-        pred.to_csv('/home/alexis/Bureau/Project/results/pred/pred_'+str(DATE)+'_'+str(CHAINE)+'.csv',index=False)
-        pred_proba.to_csv('/home/alexis/Bureau/Project/results/pred/pred_proba_'+str(DATE)+'_'+str(CHAINE)+'.csv',index=False)
-        #scoring(Predict,Y,h = [3,27],threshold=THRESHOLD)
 
 if __name__ == "__main__":
     # execute only if run as a script

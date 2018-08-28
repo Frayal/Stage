@@ -82,7 +82,7 @@ def make_predictedPTV(actu,PTV,chaine,j,index_PTV,lastCP,lastPub,lastend,current
         index_ipts = 0
     #####################################
     if(actu == 0):
-        error_type_4+= abs(((context[13]-0.46)*a_4)*context[2])
+        error_type_4+= abs(((context[13]-THRESHOLD)*a_4)*context[2])
     elif(actu == 1):
         lastCP=0
         lastPub = 0
@@ -192,7 +192,7 @@ def make_predictedPTV(actu,PTV,chaine,j,index_PTV,lastCP,lastPub,lastend,current
                 if(lastCP == 1):
                     continue
                 else:
-                    error_type_3+= abs((context[13]-0.46)*a_4*(0.95*(4-lastCP)))
+                    error_type_3+= abs((context[13]-THRESHOLD)*a_4*(0.95*(4-lastCP)))
 
             else:
                 X = def_context.process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','day','part'])).values #,'per'
@@ -258,7 +258,7 @@ def make_predictedPTV(actu,PTV,chaine,j,index_PTV,lastCP,lastPub,lastend,current
                                 error_type_2 -= (importantpts[index_ipts][0]-i)*0.5
 
                 else:
-                    error_type_3+= abs((context[13]-0.46)*a_4)
+                    error_type_3+= abs((context[13]-THRESHOLD)*a_4)
 
 
 
@@ -411,6 +411,24 @@ def make_predictedPTV(actu,PTV,chaine,j,index_PTV,lastCP,lastPub,lastend,current
                         Predictiontimer = 15
                     else:
                         Predictiontimer = 5
+                else:
+                    if(context[5] == 'Journal'):
+                        if(i<20*60):
+                            Predictiontimer = 10
+                        else:
+                            Predictiontimer = 0
+                    elif(context[6] == "très court"):
+                        Predictiontimer = 4
+                    elif(context[6] == "court"):
+                        Predictiontimer = 5
+                    elif(context[6] == "moyen"):
+                        Predictiontimer = 5
+                    elif(context[6] == "très long"):
+                        Predictiontimer = 5
+                    elif(context[6] == 'long'):
+                        Predictiontimer = 15
+                    else:
+                        Predictiontimer = 5
             elif(context[3]>1):
                 Predictiontimer -= 1
             else:
@@ -459,7 +477,7 @@ def make_predictedPTV2(actu,PTV,chaine,j,index_PTV,lastCP,lastPub,lastend,curren
     end = importantpts[2][0]
     #####################################
     if(actu == 0):
-        error_type_4+= abs(((context[13]-0.46)*a_4)*context[2])
+        error_type_4+= abs(((context[13]-THRESHOLD)*a_4)*context[2])
     elif(actu == 1):
         lastCP=0
         lastPub = 0
@@ -554,7 +572,7 @@ def make_predictedPTV2(actu,PTV,chaine,j,index_PTV,lastCP,lastPub,lastend,curren
                 if(lastCP == 1):
                     continue
                 else:
-                    error_type_3+= abs((context[13]-0.46)*a_4)
+                    error_type_3+= abs((context[13]-THRESHOLD)*a_4)
 
             else:
                 X = def_context.process(pd.DataFrame([context],index=[0],columns=['minute','partie de la journée','Change Point','pourcentage','partie du programme','programme','duree','nombre de pub potentiel','lastCP','lastPub','lastend','currentduree','Pubinhour','probability of CP','nb de pubs encore possible','chaine','CLE-FORMAT','CLE-GENRE','day','part'])).values #,'per'
@@ -616,7 +634,7 @@ def make_predictedPTV2(actu,PTV,chaine,j,index_PTV,lastCP,lastPub,lastend,curren
                                 pass
 
                 else:
-                    error_type_3+= abs((context[13]-0.46)*a_4)
+                    error_type_3+= abs((context[13]-THRESHOLD)*a_4)
 
 
 
@@ -765,6 +783,24 @@ def make_predictedPTV2(actu,PTV,chaine,j,index_PTV,lastCP,lastPub,lastend,curren
                         Predictiontimer = 15
                     else:
                         Predictiontimer = 5
+                else:
+                    if(context[5] == 'Journal'):
+                        if(i<20*60):
+                            Predictiontimer = 10
+                        else:
+                            Predictiontimer = 0
+                    elif(context[6] == "très court"):
+                        Predictiontimer = 4
+                    elif(context[6] == "court"):
+                        Predictiontimer = 5
+                    elif(context[6] == "moyen"):
+                        Predictiontimer = 5
+                    elif(context[6] == "très long"):
+                        Predictiontimer = 5
+                    elif(context[6] == 'long'):
+                        Predictiontimer = 15
+                    else:
+                        Predictiontimer = 5
             elif(context[3]>1):
                 Predictiontimer -= 1
             else:
@@ -837,6 +873,7 @@ def most_pobable_path(error_0,error_1,error_2,XGB,CatBoost,rf,dt,gb,logistic,con
 
 def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpts,date):
     #Initialisation des Variables
+    global THRESHOLD
     automatic_predtimer = True
     verbose = False
     index_PTV = index_PTV
@@ -870,6 +907,8 @@ def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpt
     ####################################
     for i in tqdm(range(start,end+5)):
         #Update time of commercials (Reset)
+        if(i == end+5 and index == 2):
+            newPTV.loc[newPTV.shape[0]] = [(i+currentduree)%1440,PTV['TITRE'].iloc[index_PTV],'non',1,"fin d'un programme"]
         if(i%60 == 0):
             Pubinhour = 0
         #Update timmers
@@ -1238,13 +1277,13 @@ def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpt
                         def_context.Report("Utilisation de la prediction de dépassement")
                         preds = []
                         if(i<importantpts[1][0]):
-                            for p in range(int(max(6,min(16,currentduree*0.5)))):
+                            for p in range(20):
                                 error_0,sub_error_0 = make_predictedPTV(0,PTV,chaine,i,index_PTV,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,p,per,context,date,importantpts)
                                 preds.append(error_0)
 
 
                         else:
-                            for p in range(int(max(6,min(16,currentduree*0.5)))):
+                            for p in range(20):
                                 error_0,sub_error_0 = make_predictedPTV2(0,PTV,chaine,i,index_PTV,lastCP,lastPub,lastend,currentduree,planifiedend,Pubinhour,proba,nbpub,XGB,CatBoost,rf,dt,gb,logistic,p,per,context,date,importantpts)
                                 preds.append(error_0)
 
@@ -1334,7 +1373,7 @@ def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpt
                     #Dépassement autorisé: Modulable en fonction de la position dans la journée si besoin
                     # C'est sur ces valeurs que l'on va jouer pour avoir le meilleur PTV possible
                     # Plus les valeurs sont grandes, plus on fait confiance a l'algo
-                    # Il est important de bien découper	15	215	577	30	0	0.490790	1	TF1	3	1026	9:52	2 la journée celon les périodes horaires que l'on qualifie
+                    # Il est important de bien découper la journée celon les périodes horaires que l'on qualifie
                     # de "sous tension" si plusieurs programmes courts se succédent. Bien évidement une telle analyse sera
                     #plus tard fait automatiquement.
                     if(i<20*60+30):
@@ -1366,6 +1405,24 @@ def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpt
                                 Predictiontimer = 0
                             elif(context[6] == "court"):
                                 Predictiontimer = 2
+                            elif(context[6] == "moyen"):
+                                Predictiontimer = 5
+                            elif(context[6] == "très long"):
+                                Predictiontimer = 5
+                            elif(context[6] == 'long'):
+                                Predictiontimer = 15
+                            else:
+                                Predictiontimer = 5
+                        else:
+                            if(context[5] == 'Journal'):
+                                if(i<20*60):
+                                    Predictiontimer = 10
+                                else:
+                                    Predictiontimer = 0
+                            elif(context[6] == "très court"):
+                                Predictiontimer = 4
+                            elif(context[6] == "court"):
+                                Predictiontimer = 5
                             elif(context[6] == "moyen"):
                                 Predictiontimer = 5
                             elif(context[6] == "très long"):
@@ -1408,6 +1465,24 @@ def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpt
                                 Predictiontimer = 15
                             else:
                                 Predictiontimer = 5
+                        else:
+                            if(context[5] == 'Journal'):
+                                if(i<20*60):
+                                    Predictiontimer = 10
+                                else:
+                                    Predictiontimer = 0
+                            elif(context[6] == "très court"):
+                                Predictiontimer = 4
+                            elif(context[6] == "court"):
+                                Predictiontimer = 5
+                            elif(context[6] == "moyen"):
+                                Predictiontimer = 5
+                            elif(context[6] == "très long"):
+                                Predictiontimer = 5
+                            elif(context[6] == 'long'):
+                                Predictiontimer = 15
+                            else:
+                                Predictiontimer = 5
 
             elif(context[3]>1):
                 Predictiontimer -= 1
@@ -1421,7 +1496,7 @@ def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpt
 #################################################
 
 def main(argv):
-    global PATH_IN,PATH_SCRIPT,PATH_OUT
+    global PATH_IN,PATH_SCRIPT,PATH_OUT,THRESHOLD
     PATH_IN,PATH_SCRIPT,PATH_OUT = def_context.get_path()
     if(len(argv) == 2):
         import pandas as pd
@@ -1440,6 +1515,7 @@ def main(argv):
         historyofpoints = def_context.init_history(str(c),PTV,lastend,currentduree)
         importantpts = def_context.get_important_points(c,PTV,index_PTV)
         temp_context = historyofpoints.iloc[0]
+        THRESHOLD = def_context.find_threshold(proba,0.46)
         for i in range(3):
             l,temp_newPTV,temp_history,index_PTV,temp_context = main([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts])
             if(l == 4):

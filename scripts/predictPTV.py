@@ -70,6 +70,8 @@ def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpt
     XGB,CatBoost,rf,dt,gb,logistic = def_context.load_models()
     ####################################
     for i in tqdm(range(start,min(end+5,1620))):
+        if(i == end+5 and index == 2):
+            newPTV.loc[newPTV.shape[0]] = [(i+currentduree)%1440,PTV['TITRE'].iloc[index_PTV],'non',1,"fin d'un programme"]
         #Update time of commercials (Reset)
         if(i%60 == 0):
             Pubinhour = 0

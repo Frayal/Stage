@@ -28,6 +28,7 @@ import datetime
 import time
 import def_context
 import pickle
+from subprocess import Popen
 #################################################
 ########### Global variables ####################
 #################################################
@@ -106,17 +107,33 @@ def main(argv):
             except Exception as e:
                 pass
             if(createfile and i == 0):
+                p1 = Popen(['python',PATH_SCRIPT+'PTVall.py','2017-12'])
+                p2 = Popen(['python',PATH_SCRIPT+'PTVall.py','2018-02'])
+                p3 = Popen(['python',PATH_SCRIPT+'PTVall.py','2018-03'])
+                p1.wait()
+                p2.wait()
+                p3.wait()
+                """
                 os.system('python '+PATH_SCRIPT+'PTVall.py 2017-12')
                 os.system('python '+PATH_SCRIPT+'PTVall.py 2018-02')
                 os.system('python '+PATH_SCRIPT+'PTVall.py 2018-03')
+                """
                 time.sleep(60)
                 os.system('python '+PATH_SCRIPT+'MLforPTV.py')
                 time.sleep(60)
                 def_context.Report("fin du tour "+str(i))
             else:
+                p1 = Popen(['python',PATH_SCRIPT+'makenewPTV.py','2017-12'])
+                p2 = Popen(['python',PATH_SCRIPT+'makenewPTV.py','2018-02'])
+                p3 = Popen(['python',PATH_SCRIPT+'makenewPTV.py','2018-03'])
+                p1.wait()
+                p2.wait()
+                p3.wait()
+                """
                 os.system('python '+PATH_SCRIPT+'makenewPTV.py 2017-12')
                 os.system('python '+PATH_SCRIPT+'makenewPTV.py 2018-02')
                 os.system('python '+PATH_SCRIPT+'makenewPTV.py 2018-03')
+                """
                 time.sleep(60)
                 os.system('python '+PATH_SCRIPT+'MLforPTV.py')
                 time.sleep(60)
@@ -169,8 +186,8 @@ def main(argv):
                     historyofpoints = def_context.init_history(str(c),PTV,lastend,currentduree)
                     temp_context = historyofpoints.iloc[0]
                     importantpts = def_context.get_important_points(c,PTV,index_PTV)
-                    file = open(PATH_OUT+'res.txt', 'a+')
-                    file.write(str(f+' '+c+':').rstrip('\n'))
+                    file_ = open(PATH_OUT+'res.txt', 'a+')
+                    file_.write(str(f+' '+c+':').rstrip('\n'))
                     for i in range(3):
                         def_context.Report(str(i)+' '+str(c)+' '+str(f))
                         from predictPTV import main as pred
@@ -223,8 +240,8 @@ def main(argv):
                             if(c == 'France 3'):
                                 err_F3 += l
                                 m_F3 += 1
-                            file.write(str(l).rstrip('\n'))
-                            file.write(" ".rstrip('\n'))
+                            file_.write(str(l).rstrip('\n'))
+                            file_.write(" ".rstrip('\n'))
 
                     newPTV['Heure'] = newPTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
                     historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
@@ -237,8 +254,8 @@ def main(argv):
                     #newPTV.to_csv(PATH_OUT+'new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.csv',index=False)
                     #historyofpoints.to_html(PATH_OUT+'hop/historyofpoints_'+str(f)+'_'+str(c)+'.html')
                     #historyofpoints.to_csv(PATH_OUT+'hop/historyofpoints_'+str(f)+'_'+str(c)+'.csv',index=False)
-                    file.write("\n")
-                    file.close()
+                    file_.write("\n")
+                    file_.close()
 
                 def_context.Report(err)
             except Exception as e:
@@ -259,6 +276,7 @@ def main(argv):
         df = pd.read_csv('scores.csv')
         df.loc[df.shape[0]] = [1-(err_TF1/(m_TF1+EPSILON)),1-(err_M6/(m_M6+EPSILON)),1-(err_F2/(m_F2+EPSILON)),1-(err_F3/(m_F3+EPSILON)),1-(err/(m+EPSILON)),1-((err_type_1*3)/(m+EPSILON)),1-((err_type_2*3)/(m+EPSILON)),1-((err_type_3*3)/(m+EPSILON)),nb_rel/(m+EPSILON),(time.time()-t)*3/(m+EPSILON),argv[0]]
         df.to_csv('scores.csv',index=False)
+
     elif(len(argv) == 2):
         relecture = True
         import pandas as pd

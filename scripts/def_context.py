@@ -1,7 +1,8 @@
+#-*- coding: utf-8 -*-
 #################################################
 #created the 27/07/2018 16:52 by Alexis Blanchet#
 #################################################
-#-*- coding: utf-8 -*-
+
 '''
 Objectif:
 réunir et unifer les façcon d'extraire le context et de la traiter
@@ -41,6 +42,7 @@ PATH_IN = '/home/alexis/Bureau/finalproject/Datas/'
 PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
 PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
 LOG = "log.txt"
+THRESHOLD = 0.46
 #################################################
 ########### Important functions #################
 #################################################
@@ -183,8 +185,24 @@ def find_partofday(i):
     else:
         return('nuit')
 
+def find_threshold(cp,threshold):
+    global THRESHOLD
+    num = 0
+    for c in cp:
+        if(cp>THRESHOLD):
+            num+=1
+        else:
+            pass
+    if(60<num<100):
+        THRESHOLD = threshold
+    elif(num<60):
+        return find_threshold(cp,threshold-0.01)
+    elif(100<num):
+        return find_threshold(cp,threshold+0.01)
+
+
 def find_ifChangePoint(i,cp):
-    if(cp[i-183]>0.46):
+    if(cp[i-183]>THRESHOLD):
         return 1
     else:
         return 0
@@ -226,6 +244,8 @@ def categorize_pub(name,debut,duree,titre,chaine,PTV,index_PTV):
             return 0
         elif(titre in ['Nos chers voisins','Reportages découverte']):
             return 2
+        elif(titre in ['Automoto']):
+            return 1
         elif(titre in ['Journal','Téléshopping','Tirage du Loto']):
             return 0
         elif(titre in ['50mn Inside','Téléfoot']):
@@ -413,7 +433,7 @@ def categorize_pub(name,debut,duree,titre,chaine,PTV,index_PTV):
     elif(chaine in ['France 2','France 3'] and 6*60>debut>20*60 ):
         return 0
     elif(chaine in ['France 2','France 3']):
-        return 0
+        return 1.5
     else:
         return(categorize_pub(name,debut,duree,titre,'TF1',PTV,index_PTV))
 

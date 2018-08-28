@@ -6,6 +6,7 @@ import pandas as pd
 import plotly.graph_objs as go
 import numpy as np
 from datetime import datetime as dt
+from datetime import date, timedelta
 
 app = dash.Dash()
 df = pd.read_csv('cout.csv')
@@ -31,9 +32,12 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
     }),
     html.Div([
     html.Label('Date'),
-        dcc.DatePickerSingle(
+        dcc.DatePickerRange(
         id='date-input',
-        date='2017-12-02'
+        min_date_allowed=dt(2017, 12, 1),
+        max_date_allowed=dt(2018, 4, 1),
+        initial_visible_month=dt(2017, 12, 1),
+        end_date=dt(2017,12,31)
         ),
     html.Label('Chaîne'),
     dcc.Dropdown(
@@ -79,46 +83,55 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
 
 
 @app.callback(
-    dash.dependencies.Output('score', 'figure'),
-    [dash.dependencies.Input('date-input','date'),
+    dash.dependencies.Output('controls-container1', 'children'),
+    [dash.dependencies.Input('date-input','start_date'),
+    dash.dependencies.Input('date-input','end_date'),
     dash.dependencies.Input('Chaîne','value'),
     dash.dependencies.Input('toggle1','value')]
 )
 
-def Update(value,value_d,value_c):
+def Update(start,end,value_d,value_c):
     df = pd.read_csv('cout.csv')
-    here = []
-    not_here = []
-    for v in value_d:
-        try:
-            y = df[value+'_'+v+'_'+value_c]
-            here.append(v)
-        except Exception as e:
-            not_here.append(v)
+    a = date(int(start.split('-')[0]),int(start.split('-')[1]),int(start.split('-')[2]))
+    b = date(int(end.split('-')[0]),int(end.split('-')[1]),int(end.split('-')[2]))
+    l = []
+    for i in range((b-a).days+1):
+        here = []
+        not_here = []
+        for v in value_d:
+            try:
+                y = df[str(a+timedelta(i))+'_'+v+'_'+value_c]
+                here.append(v)
+            except Exception as e:
+                not_here.append(v)
+        if(len(here)==0):
+            pass
+        else:
+            l.append(dcc.Graph(
+                id='score'+str(i),
+                figure={
+                    'data': [
+                    go.Scatter(
+                        y=df[str(a+timedelta(i))+'_'+v+'_'+value_c],
+                        mode='lines+markers',
+                        name = str(v),
+                        opacity=0.7,
+                        marker={
+                            'size': 15,
+                            'line': {'width': 0.5, 'color': 'white'}
+                        },
+                    ) for v in here],
+                    'layout': go.Layout(
+                        xaxis={'title': 'Tours de l algorithme pour le '+str(a+timedelta(i))},
+                        yaxis={'title': 'Score'},
+                        margin={'l': 40, 'b': 40, 't': 10, 'r': 10},
+                        legend={'x': 0, 'y': 1},
+                        hovermode='closest'
+                    )
+                }
+            ))
 
-
-    return({'data': [
-        go.Scatter(
-            y=df[value+'_'+v+'_'+value_c],
-            mode='lines+markers',
-            name = str(v),
-            opacity=0.7,
-            marker={
-                'size': 15,
-                'line': {'width': 0.5, 'color': 'white'}
-            },
-        ) for v in here
-
-    ],
-    'layout': go.Layout(
-        xaxis={'title': 'Tours de l algorithme'},
-        yaxis={'title': 'Score'},
-        margin={'l': 40, 'b': 40, 't': 10, 'r': 10},
-        legend={'x': 0, 'y': 1},
-        hovermode='closest'
-    )
-    }
-    )
+    return(l)
 
 if __name__ == '__main__':
     app.run_server(debug=True,port=3004)

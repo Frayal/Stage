@@ -1,0 +1,1293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:14:39-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1079">
+    <NOMCHAINE>Télé Kréol</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="172163408" DATEMODIF="2018-02-06T11:42:39">
+      <DATEHEURE>2018-02-21T04:00:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Zone australe</TITRE>
+      <SOUSTITREDIF>A Maurice</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987763" DATEMODIF="2018-02-06T11:42:39">
+        <TITREEMISSION>Zone australe</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="20031365">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Zone australe</NOM>
+          </COLLECTION>
+          <SOUSTITRE>A Maurice</SOUSTITRE>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163409" DATEMODIF="2018-02-06T11:42:39">
+      <DATEHEURE>2018-02-21T04:05:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Clips</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987764" DATEMODIF="2018-02-06T11:42:39">
+        <TITREEMISSION>Clips</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="961" GENRESIMPLE="Clips">Clips</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3961558">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Clips</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163410" DATEMODIF="2018-02-06T11:42:39">
+      <DATEHEURE>2018-02-21T04:15:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987765" DATEMODIF="2018-02-06T11:42:39">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172164052" DATEMODIF="2018-02-06T11:42:39">
+      <DATEHEURE>2018-02-21T04:30:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Plante</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125988093" DATEMODIF="2018-02-06T11:42:39">
+        <TITREEMISSION>Plante</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="21152124">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Plante</NOM>
+          </COLLECTION>
+        </DOCUMENTAIRE>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163412" DATEMODIF="2018-02-06T11:42:39">
+      <DATEHEURE>2018-02-21T04:40:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Secrets de filles</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987767" DATEMODIF="2018-02-06T11:42:39">
+        <TITREEMISSION>Secrets de filles</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="396" GENRESIMPLE="Magazine de société">Magazine de la femme</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152887">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Secrets de filles</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163413" DATEMODIF="2018-02-06T11:42:39">
+      <DATEHEURE>2018-02-21T05:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Klip kréol</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987768" DATEMODIF="2018-02-06T11:42:39">
+        <TITREEMISSION>Klip kréol</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="961" GENRESIMPLE="Clips">Clips</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27988405">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Klip kréol</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163414" DATEMODIF="2018-02-06T11:42:39">
+      <DATEHEURE>2018-02-21T06:00:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Clips</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987769" DATEMODIF="2018-02-06T11:42:39">
+        <TITREEMISSION>Clips</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="961" GENRESIMPLE="Clips">Clips</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3961558">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Clips</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163415" DATEMODIF="2018-02-06T11:42:39">
+      <DATEHEURE>2018-02-21T06:25:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987770" DATEMODIF="2018-02-06T11:42:39">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163416" DATEMODIF="2018-02-06T11:42:39">
+      <DATEHEURE>2018-02-21T06:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>TV Caddy</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987771" DATEMODIF="2018-02-06T11:42:39">
+        <TITREEMISSION>TV Caddy</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="425" GENRESIMPLE="Magazine de services">Magazine de télé-achat</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152910">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / TV Caddy</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163417" DATEMODIF="2018-02-06T11:42:39">
+      <DATEHEURE>2018-02-21T08:00:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Anniversaire à domicile</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987772" DATEMODIF="2018-02-06T11:42:39">
+        <TITREEMISSION>Anniversaire à domicile</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152929">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Anniversaire à domicile</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163418" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T08:25:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Clips</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987773" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Clips</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="961" GENRESIMPLE="Clips">Clips</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3961558">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Clips</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163419" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T09:05:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Inn ti grin en +</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987774" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Inn ti grin en +</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152815">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Inn ti grin en +</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172164053" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T09:30:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Plante</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125988094" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Plante</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="21152124">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Plante</NOM>
+          </COLLECTION>
+        </DOCUMENTAIRE>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163421" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T09:40:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Secrets de filles</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987776" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Secrets de filles</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="396" GENRESIMPLE="Magazine de société">Magazine de la femme</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152887">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Secrets de filles</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163422" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T10:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Padel</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987777" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Padel</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="417" GENRESIMPLE="Magazine de société">Magazine religieux</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152873">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Padel</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163423" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T10:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Le journal du cinéma</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987778" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Le journal du cinéma</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152843">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le journal du cinéma</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163424" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T11:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>974 TV</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987779" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>974 TV</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152924">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / 974 TV</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163425" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T12:00:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Tropical Sun Mix</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987780" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Tropical Sun Mix</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="956" GENRESIMPLE="Emission musicale">Emission musicale</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21153155">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Tropical Sun Mix</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163426" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T13:35:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Clips</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987781" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Clips</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="961" GENRESIMPLE="Clips">Clips</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3961558">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Clips</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163427" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T14:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>LO-DAI MUZIK</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987782" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>LO-DAI MUZIK</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27538880">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / LO-DAI MUZIK</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163428" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T14:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Clips</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987783" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Clips</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="961" GENRESIMPLE="Clips">Clips</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3961558">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Clips</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163429" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T15:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>La Réunion lé la</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987784" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>La Réunion lé la</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="30252089">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / La Réunion lé la</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163430" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T16:00:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987785" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163431" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T16:10:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Clin d'oeil bien-être</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987786" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Clin d'oeil bien-être</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="419" GENRESIMPLE="Magazine scientifique">Magazine de la santé</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152755">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Clin d'oeil bien-être</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163432" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T16:20:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Secrets de filles</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987787" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Secrets de filles</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="396" GENRESIMPLE="Magazine de société">Magazine de la femme</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152887">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Secrets de filles</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163433" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T16:30:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Drone Models 974</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987788" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Drone Models 974</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="26856422">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Drone Models 974</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163434" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T16:40:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>Clips</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987789" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Clips</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="961" GENRESIMPLE="Clips">Clips</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3961558">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Clips</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163435" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T17:50:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987790" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163436" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T18:00:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Clips</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987791" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Clips</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="961" GENRESIMPLE="Clips">Clips</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3961558">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Clips</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163437" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T20:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>974 TV</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987792" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>974 TV</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21152924">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / 974 TV</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163438" DATEMODIF="2018-02-06T11:42:40">
+      <DATEHEURE>2018-02-21T21:00:00</DATEHEURE>
+      <DUREE>435</DUREE>
+      <TITRE>Clips</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125987793" DATEMODIF="2018-02-06T11:42:40">
+        <TITREEMISSION>Clips</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="961" GENRESIMPLE="Clips">Clips</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3961558">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Clips</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

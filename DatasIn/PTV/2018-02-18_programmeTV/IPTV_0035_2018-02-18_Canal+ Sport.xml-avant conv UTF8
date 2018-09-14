@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:55:42-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="35">
+    <NOMCHAINE>Canal+ Sport</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-18">
+    <DIFFUSION CLEDIF="172193027" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T07:15:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Basket Champions League, le mag</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="126010088" DATEMODIF="2018-02-06T16:08:17">
+        <TITREEMISSION>Basket Champions League, le mag</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="558" GENRESIMPLE="Magazine sportif">Basket-ball</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661375" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T07:45:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>Sport Reporter</TITRE>
+      <SOUSTITREDIF>Commotions : le rugby au bord du KO ?</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125629746" DATEMODIF="2018-02-06T11:57:48">
+        <TITREEMISSION>Sport Reporter</TITREEMISSION>
+        <FORMAT CLE="15">Documentaire sportif</FORMAT>
+        <GENRE CLE="742" GENRESIMPLE="Documentaire sportif">Multisports</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661376" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T08:20:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Football</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619752" DATEMODIF="2018-02-05T16:03:31">
+        <TITREEMISSION>Football</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="641" GENRESIMPLE="Football">Football</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Ligue 1 Conforama</LIBELLE>
+            <MANCHE>26e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Paris-SG / Strasbourg</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_C125619752.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661377" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T10:00:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Rugby</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125629731" DATEMODIF="2018-01-30T16:06:57">
+        <TITREEMISSION>Rugby</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="797" GENRESIMPLE="Rugby">Rugby</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Top 14</LIBELLE>
+            <MANCHE>17e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Lyon / Clermont-Auvergne</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_P125629731.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661378" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T11:35:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Jour de rugby</TITRE>
+      <SOUSTITREDIF>17e journée de Top 14</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125629026" DATEMODIF="2018-01-31T15:04:26">
+        <TITREEMISSION>Jour de rugby</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="798" GENRESIMPLE="Magazine sportif">Rugby</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125629026.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="1346700">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Garrigues</NOM>
+          <PRENOM>Guilhem</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661379" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T12:20:00</DATEHEURE>
+      <DUREE>130</DUREE>
+      <TITRE>Rugby</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Emmenée par son demi d'ouverture fidjien Ben Volavola, l'Union Bordeaux-Bègles peut encore espérer décrocher une place en play-offs, mais il lui faudra réaliser un sans-faute et réaliser au moins un «coup» hors de ses bases pour y parvenir.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125629729" DATEMODIF="2018-01-31T15:22:29">
+        <TITREEMISSION>Rugby</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="797" GENRESIMPLE="Rugby">Rugby</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Top 14</LIBELLE>
+            <MANCHE>17e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Bordeaux-Bègles / Castres</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_P125629729.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661380" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T14:30:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Rugby</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125629763" DATEMODIF="2018-01-26T12:31:29">
+        <TITREEMISSION>Rugby</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="797" GENRESIMPLE="Rugby">Rugby</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Super Rugby 2018</LIBELLE>
+            <MANCHE>1re journée</MANCHE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_C125629763.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661381" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T16:05:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Fight+</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390219" DATEMODIF="2018-01-19T13:02:18">
+        <TITREEMISSION>Fight+</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="585" GENRESIMPLE="Magazine sportif">Boxe</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_E125390219.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="406337">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Velghe</NOM>
+          <PRENOM>Philippe</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661382" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T17:50:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Zapsport</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125389255" DATEMODIF="2018-02-06T16:09:09">
+        <TITREEMISSION>Zapsport</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="741" GENRESIMPLE="Magazine sportif">Multisports</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>L'actualité du sport sous forme de zapping</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_C125389255.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661383" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T18:00:00</DATEHEURE>
+      <DUREE>170</DUREE>
+      <TITRE>Hockey sur glace</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>La course aux play-offs s'annonce palpitante en Conférence Est de la NHL, où les équipes susceptibles de participer à la phase finale se tiennent toutes dans un mouchoir de poche. C'est le cas notamment des New York Rangers et des Philadelphia Flyers qui s'affrontent sur la glace du Madison Square Garden.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125629681" DATEMODIF="2018-02-02T10:24:48">
+        <TITREEMISSION>Hockey sur glace</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="674" GENRESIMPLE="Hockey sur glace">Hockey sur glace</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>NHL</LIBELLE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>New York Rangers / Philadelphia Flyers</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_P125629681.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661384" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-18T20:50:00</DATEHEURE>
+      <DUREE>220</DUREE>
+      <TITRE>Golf</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Le golfeur belge Thomas Pieters avait réalisé un exploit monumental lors de la précédente édition de cet Open, en décrochant la 2e place de cette épreuve californienne derrière l'Américain Dustin Johnson, le n°1 mondial. Avec une carte de 63 lors du dernier tour, le natif de Geel s'était offert une spectaculaire remontée au classement.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125619204" DATEMODIF="2018-01-31T15:40:09">
+        <TITREEMISSION>Golf</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="653" GENRESIMPLE="Golf">Golf</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Circuit américain 2017/2018</LIBELLE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Open de Pacific Palisades</LIBELLE>
+            <MANCHE>4e tour</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Californie</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125619204.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661385" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-19T00:30:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Rugby</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Vainqueur à Castres lors de la précédente journée (13-18), Teddy Iribaren et les Racingmen occupent la 2e place du Top 14 à égalité de points avec La Rochelle. Le duel s'annonce ainsi féroce entre ces deux prétendants au Bouclier de Brennus.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125620070" DATEMODIF="2018-01-29T14:27:18">
+        <TITREEMISSION>Rugby</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="797" GENRESIMPLE="Rugby">Rugby</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Top 14</LIBELLE>
+            <MANCHE>17e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Racing 92 / La Rochelle</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_P125620070.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171661386" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-19T02:05:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Canal Rugby Club 2e partie</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619042" DATEMODIF="2018-01-30T17:56:46">
+        <TITREEMISSION>Canal Rugby Club 2e partie</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="798" GENRESIMPLE="Magazine sportif">Rugby</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_E125619042.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="506917">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Ithurburu</NOM>
+          <PRENOM>Isabelle</PRENOM>
+        </PERSONNE>
+        <PERSONNE CLE="281160">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Chabal</NOM>
+          <PRENOM>Sébastien</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170712869" DATEMODIF="2018-02-07T10:12:49">
+      <DATEHEURE>2018-02-19T02:35:00</DATEHEURE>
+      <DUREE>270</DUREE>
+      <TITRE>Fin des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125009559" DATEMODIF="2018-01-09T17:29:21">
+        <TITREEMISSION>Fin des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

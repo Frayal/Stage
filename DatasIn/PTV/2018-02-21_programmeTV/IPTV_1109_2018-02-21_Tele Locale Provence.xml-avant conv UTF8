@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:14:40-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1109">
+    <NOMCHAINE>Télé Locale Provence</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="171632738" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T06:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Grand reportage</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609014" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Grand reportage</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632739" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T07:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Festif</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609015" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Festif</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY />
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Captation d'un concert ou d'un spectacle donné dans la région.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632740" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T09:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Reportage local</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609016" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Reportage local</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <DOCUMENTAIRE />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632741" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T09:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Reportage</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609017" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Reportage</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <DOCUMENTAIRE />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632742" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T10:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>A Côté</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609018" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>A Côté</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Reportage sur une autre région de France.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632743" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T10:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Reportage local</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609019" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Reportage local</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <DOCUMENTAIRE />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632744" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T11:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Champ libre</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609020" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Champ libre</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632745" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T11:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>La Cour du Court</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609021" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>La Cour du Court</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="387" GENRESIMPLE="Magazine culturel">Magazine du court métrage</GENRE>
+        <MAGAZINEXY />
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>La chance est donnée par TLP à un vidéaste amateur de la région.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632746" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T12:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Cuisine et vous</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609022" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Cuisine et vous</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY />
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Les recettes traditionnelles de la Provence.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632747" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T12:30:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Mag local</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609023" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Mag local</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632748" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T14:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Proximédia</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609024" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Proximédia</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission en plateau, avec des invités, dans un lieu pittoresque de la Provence, ou depuis une manifestation sportive ou culturelle.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632749" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T16:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Mag local</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609025" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Mag local</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632750" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T16:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Grand reportage</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609026" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Grand reportage</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632751" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T17:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Reportage</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609027" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Reportage</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <DOCUMENTAIRE />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632752" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T18:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Champ libre</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609028" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Champ libre</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632753" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T18:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Reportage local</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609029" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Reportage local</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <DOCUMENTAIRE />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632754" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T19:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>A Côté</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609030" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>A Côté</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Reportage sur une autre région de France.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632755" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T19:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Cuisine et vous</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609031" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Cuisine et vous</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY />
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Les recettes traditionnelles de la Provence.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632756" DATEMODIF="2018-01-26T06:08:27">
+      <DATEHEURE>2018-02-21T20:00:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Festif</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609032" DATEMODIF="2018-01-26T06:08:27">
+        <TITREEMISSION>Festif</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY />
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Captation d'un concert ou d'un spectacle donné dans la région.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632757" DATEMODIF="2018-01-26T06:08:28">
+      <DATEHEURE>2018-02-21T21:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>La Cour du Court</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609033" DATEMODIF="2018-01-26T06:08:28">
+        <TITREEMISSION>La Cour du Court</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="387" GENRESIMPLE="Magazine culturel">Magazine du court métrage</GENRE>
+        <MAGAZINEXY />
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>La chance est donnée par TLP à un vidéaste amateur de la région.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632758" DATEMODIF="2018-01-26T06:08:28">
+      <DATEHEURE>2018-02-21T22:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Mag local</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609034" DATEMODIF="2018-01-26T06:08:28">
+        <TITREEMISSION>Mag local</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632759" DATEMODIF="2018-01-26T06:08:28">
+      <DATEHEURE>2018-02-21T22:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Reportage local</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609035" DATEMODIF="2018-01-26T06:08:28">
+        <TITREEMISSION>Reportage local</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <DOCUMENTAIRE />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632760" DATEMODIF="2018-01-26T06:08:28">
+      <DATEHEURE>2018-02-21T23:00:00</DATEHEURE>
+      <DUREE>210</DUREE>
+      <TITRE>Mag local</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125609036" DATEMODIF="2018-01-26T06:08:28">
+        <TITREEMISSION>Mag local</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171632761" DATEMODIF="2018-01-26T06:08:28">
+      <DATEHEURE>2018-02-22T02:30:00</DATEHEURE>
+      <DUREE>240</DUREE>
+      <TITRE>Interruption des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="927667" DATEMODIF="2018-01-04T12:35:03">
+        <TITREEMISSION>Interruption des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

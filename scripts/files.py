@@ -1,12 +1,17 @@
+# DON T RUN THIS THING IT WILL BREAK MY MODEL 
+# I REPEAT DON T RUN IT
+# ACHTUNG CAREFULL DO NOT RUN THIS THING
+
+
 import pandas as pd
 import numpy as np
 import sys
 from random import shuffle
 
 
-PATH_IN ='/home/alexis/Bureau/finalproject/DatasIn/'
-PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
-PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
+PATH_IN ='../DatasIn/'
+PATH_SCRIPT = '../scripts/'
+PATH_OUT = '../Datas/'
 LOG = "log.txt"
 
 

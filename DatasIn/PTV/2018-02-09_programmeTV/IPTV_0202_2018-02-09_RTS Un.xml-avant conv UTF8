@@ -1,0 +1,2933 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:13:14-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="202">
+    <NOMCHAINE>RTS Un</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-09">
+    <DIFFUSION CLEDIF="171083936" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T07:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>7h-8h de La Première</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214583" DATEMODIF="2018-01-29T11:08:59">
+        <TITREEMISSION>7h-8h de La Première</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="24884978">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / 7h-8h de La Première</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083937" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T08:00:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Euronews</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="74868428" DATEMODIF="2018-02-07T11:41:40">
+        <TITREEMISSION>Euronews</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8255">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / EuroNews</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083938" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T08:20:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Top Models</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125219398" DATEMODIF="2018-01-15T16:15:38">
+        <TITREEMISSION>Amour, gloire et beauté</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6479">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Amour, gloire et beauté</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="17080252">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Amour, gloire et beauté / 0</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Bold and the Beautiful</TITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7681</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="218324">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Benedeti</NOM>
+            <PRENOM>Paulo</PRENOM>
+            <ROLE>Antonio Dominguez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="201043">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lindsey</NOM>
+            <PRENOM>Tracy</PRENOM>
+            <ROLE>Kristen Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="206905">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Torkildsen</NOM>
+            <PRENOM>Justin</PRENOM>
+            <ROLE>Rick Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4253">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moss</NOM>
+            <PRENOM>Ronn</PRENOM>
+            <ROLE>Ridge Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4257">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flannery</NOM>
+            <PRENOM>Susan</PRENOM>
+            <ROLE>Stephanie Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91137">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frantz</NOM>
+            <PRENOM>Adrienne</PRENOM>
+            <ROLE>Ambre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4255">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lang</NOM>
+            <PRENOM>Katherine Kelly</PRENOM>
+            <ROLE>Brooke</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4256">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tylo</NOM>
+            <PRENOM>Hunter</PRENOM>
+            <ROLE>Taylor</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Passion, gloire et succès sont autant de défis qui animent le quotidien des Forrester, famille qui attire bien des convoitises tant elle domine avec autorité le monde de la haute couture.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125219398.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083939" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T08:45:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>C'est ma question !</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214574" DATEMODIF="2018-02-01T09:54:30">
+        <TITREEMISSION>C'est ma question !</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="950" GENRESIMPLE="Jeu">Jeu</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21802626">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / C'est ma question !</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1238951">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Schneiter</NOM>
+            <PRENOM>Jonas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Ce jeu de culture générale reflète la diversité et les passions des Romands. C'est en effet le public, représenté sur le plateau par un mur d'images, qui interroge les quatre candidats en lice. Chacun peut poser une question en relation avec son métier, sa région ou ses centres d'intérêts. Face à une multitude de portraits, qui choisir ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083940" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T09:15:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Quel temps fait-il ?</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="74877387" DATEMODIF="2018-02-07T11:41:40">
+        <TITREEMISSION>Quel temps fait-il ?</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083941" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T09:30:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Suits, avocats sur mesure</TITRE>
+      <SOUSTITREDIF>Rien ne va plus</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="104283531" DATEMODIF="2016-04-22T15:48:54">
+        <TITREEMISSION>Suits, avocats sur mesure</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="10663195">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Suits, avocats sur mesure</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="19692090">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Suits, avocats sur mesure / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Suits</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Rien ne va plus</SOUSTITRE>
+          <SOUSTITREORIGINAL>Blowback</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="53013">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Nowlan</NOM>
+            <PRENOM>Cherie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="118042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macht</NOM>
+            <PRENOM>Gabriel</PRENOM>
+            <ROLE>Harvey Specter</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="413048">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adams</NOM>
+            <PRENOM>Patrick J</PRENOM>
+            <ROLE>Mike Ross</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="168612">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hoffman</NOM>
+            <PRENOM>Rick</PRENOM>
+            <ROLE>Louis Litt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="504189">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Markle</NOM>
+            <PRENOM>Meghan</PRENOM>
+            <ROLE>Rachel Zane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27244">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Torres</NOM>
+            <PRENOM>Gina</PRENOM>
+            <ROLE>Jessica Pearson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pyper-Ferguson</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Jack Soloff</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="52436">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pierce</NOM>
+            <PRENOM>Wendell</PRENOM>
+            <ROLE>Robert Zane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="200971">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rafferty</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Donna Paulsen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="483036">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Zuckerman</NOM>
+            <PRENOM>Nora</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1289417">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Zuckerman</NOM>
+            <PRENOM>Lilla</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Rachel redoute que les plans de mariage de sa mère dévoilent le secret de Mike. Jessica, Harvey, Louis et Mike cherchent comment contrer Hardman et Jack.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Rachel redoute que les plans de mariage de sa mère, Laura Zane, dévoilent le secret de Mike. Jack Soloff et Daniel Hardman lancent une offensive contre le cabinet. Jessica, Harvey, Louis et Mike doivent coopérer pour trouver un moyen de contrer Hardman et Jack : Louis se démène pour trouver une faiblesse...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E104283531.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083942" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T10:15:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Suits, avocats sur mesure</TITRE>
+      <SOUSTITREDIF>Coup de poker</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="104520109" DATEMODIF="2016-04-23T04:59:24">
+        <TITREEMISSION>Suits, avocats sur mesure</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="10663195">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Suits, avocats sur mesure</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="19692090">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Suits, avocats sur mesure / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Suits</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Coup de poker</SOUSTITRE>
+          <SOUSTITREORIGINAL>Live to Fight...</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>12</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1208765">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Seidenglanz</NOM>
+            <PRENOM>Rob</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="118042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macht</NOM>
+            <PRENOM>Gabriel</PRENOM>
+            <ROLE>Harvey Specter</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="413048">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adams</NOM>
+            <PRENOM>Patrick J</PRENOM>
+            <ROLE>Mike Ross</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="168612">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hoffman</NOM>
+            <PRENOM>Rick</PRENOM>
+            <ROLE>Louis Litt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="504189">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Markle</NOM>
+            <PRENOM>Meghan</PRENOM>
+            <ROLE>Rachel Zane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27244">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Torres</NOM>
+            <PRENOM>Gina</PRENOM>
+            <ROLE>Jessica Pearson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pyper-Ferguson</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Jack Soloff</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="52436">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pierce</NOM>
+            <PRENOM>Wendell</PRENOM>
+            <ROLE>Robert Zane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="135929">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Woodside</NOM>
+            <PRENOM>DB</PRENOM>
+            <ROLE>Jeff Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1292615">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Rothstein</NOM>
+            <PRENOM>Sharyn</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Louis s'investit pour aider Mike, car il réalise que c'est tout le cabinet qui est en danger. La procureure Gibbs envisage en effet de faire tomber Harvey.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Mike et Louis doivent identifier un informateur anonyme afin de faire disparaître une preuve accablante. Louis s'investit pour aider Mike, car il réalise que c'est tout le cabinet qui est en danger. En effet, la procureure Gibbs ne se contente pas de Mike et espère bien prendre Jessica et Harvey dans les mailles de son enquête...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E104520109.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083943" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T11:00:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <TITRE>Le court du jour</TITRE>
+      <SOUSTITREDIF>Combinaison - Vreni Schneider - Suisse (Lillehammer 1994)</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214584" DATEMODIF="2018-01-29T11:08:59">
+        <TITREEMISSION>Le court du jour</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="1865312">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le court du jour</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Combinaison - Vreni Schneider - Suisse (Lillehammer 1994)</SOUSTITRE>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171660812" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T11:03:00</DATEHEURE>
+      <DUREE>2</DUREE>
+      <TITRE>Le court du jour</TITRE>
+      <SOUSTITREDIF>Patins - Thomas Gustfson - Suède (Calgary 1988)</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125629741" DATEMODIF="2018-01-26T12:09:00">
+        <TITREEMISSION>Le court du jour</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="1865312">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le court du jour</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Patins - Thomas Gustfson - Suède (Calgary 1988)</SOUSTITRE>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083944" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T11:05:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Les feux de l'amour</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125219087" DATEMODIF="2018-01-23T11:47:49">
+        <TITREEMISSION>Les feux de l'amour</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6475">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Les feux de l'amour</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="17080258">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Les feux de l'amour / 0</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Young and the Restless</TITREORIGINAL>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7419</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="58219">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morrow</NOM>
+            <PRENOM>Joshua</PRENOM>
+            <ROLE>Nicholas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91263">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Case</NOM>
+            <PRENOM>Sharon</PRENOM>
+            <ROLE>Sharon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="262561">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tognoni</NOM>
+            <PRENOM>Gina</PRENOM>
+            <ROLE>Phyllis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171167">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LeBlanc</NOM>
+            <PRENOM>Christian</PRENOM>
+            <ROLE>Michael</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22299">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braeden</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Victor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1255645">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>King</NOM>
+            <PRENOM>Hunter</PRENOM>
+            <ROLE>Summer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="615996">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lind</NOM>
+            <PRENOM>Alyvia Alyn</PRENOM>
+            <ROLE>Faith</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="145750">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Grimes</NOM>
+            <PRENOM>Camryn</PRENOM>
+            <ROLE>Mariah</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>A Genoa City, la vie se déroule au rythme des luttes de pouvoir et des histoires d'amour des membres de la famille Abbot. Propriétaire d'une importante société, ce clan entretient une sempiternelle rivalité avec l'influent homme d'affaires Victor Newman. D'alliances en ruptures, les illusions de chacun se heurtent à l'hostilité, à la jalousie et à la haine des autres. Entre amour et pouvoir, le choix est souvent celui de la puissance.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125219087.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083945" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T11:45:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Demain nous appartient</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125216441" DATEMODIF="2018-01-23T11:01:13">
+        <TITREEMISSION>Demain nous appartient</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26743151">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Demain nous appartient</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26743124">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Demain nous appartient / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>150</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="149049">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Barraud</NOM>
+            <PRENOM>Christophe</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1359194">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Perrin</NOM>
+            <PRENOM>Sandra</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="118531">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Navarro</NOM>
+            <PRENOM>Jérôme</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="61457">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mouchel</NOM>
+            <PRENOM>Luce</PRENOM>
+            <ROLE>Marianne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365224">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Salaûn</NOM>
+            <PRENOM>William</PRENOM>
+            <ROLE>Anthony</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5662">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chauvin</NOM>
+            <PRENOM>Ingrid</PRENOM>
+            <ROLE>Chloé Delcourt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1363699">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bellin</NOM>
+            <PRENOM>Coline</PRENOM>
+            <ROLE>Judith</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="42952">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brasseur</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Alex</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="159369">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caillon</NOM>
+            <PRENOM>Anne</PRENOM>
+            <ROLE>Flore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="569">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Valandrey</NOM>
+            <PRENOM>Charlotte</PRENOM>
+            <ROLE>Laurence</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1359198">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fossi</NOM>
+            <PRENOM>Joaquim</PRENOM>
+            <ROLE>Dylan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1343547">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cipolla</NOM>
+            <PRENOM>Sabine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="146528">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Baron</NOM>
+            <PRENOM>Gaëlle</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1309065">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Decroisette</NOM>
+            <PRENOM>Sophie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Opérée par Marianne, Agnès est tirée d'affaire. Anthony est heureux : sa famille peut enfin reprendre une vie normale. Jessica, elle, est retrouvée en sanglots dans un couloir du lycée...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125216441.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083946" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T12:15:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Plus belle la vie</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125219373" DATEMODIF="2018-01-23T18:29:28">
+        <TITREEMISSION>Plus belle la vie</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="1028" GENRESIMPLE="Série">Feuilleton réaliste</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6478">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28201899">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie / 14</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>14</NUMERO>
+          </SAISON>
+          <DUREEEMI>25</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3472</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="104933">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hassan</NOM>
+            <PRENOM>Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="75450">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>François</NOM>
+            <PRENOM>Léa</PRENOM>
+            <ROLE>Barbara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1232269">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Trésor</NOM>
+            <PRENOM>Bryan</PRENOM>
+            <ROLE>Baptiste</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="46941">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hornus</NOM>
+            <PRENOM>Cécilia</PRENOM>
+            <ROLE>Blanche</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10532">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flepp</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Mirta</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fabre</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Frémont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1200936">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Delorme</NOM>
+            <PRENOM>Léa</PRENOM>
+            <ROLE>Pauline</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1281786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laforêt</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Laetitia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="180433">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cordes</NOM>
+            <PRENOM>Michel</PRENOM>
+            <ROLE>Roland</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298742">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Besson</NOM>
+            <PRENOM>Hubert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Barbara ignore tout de ce qui se déroule en cuisine pour Baptiste. De son côté, Blanche commande des fruits de mer au goût amer...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125219373.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083947" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T12:45:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Le 12h45</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214585" DATEMODIF="2018-01-29T11:08:59">
+        <TITREEMISSION>Le 12h45</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14112419">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Le 12h45</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083948" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T13:15:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214586" DATEMODIF="2018-01-29T11:08:59">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083949" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T13:20:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Un fiancé qui tombe à pic</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113070886" DATEMODIF="2017-01-18T11:49:56">
+        <TITREEMISSION>Un fiancé qui tombe à pic</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="340" GENRESIMPLE="Téléfilm mélodramatique">Téléfilm sentimental</GENRE>
+        <NATIONALITE CLE="155">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Convenient Groom</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="9518">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Winning</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="166730">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sutcliffe</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Lucas Wright</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7281">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marcil</NOM>
+            <PRENOM>Vanessa</PRENOM>
+            <ROLE>Kate Lawrence</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="180373">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Holness</NOM>
+            <PRENOM>Karen</PRENOM>
+            <ROLE>Pam</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91618">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Craven</NOM>
+            <PRENOM>Aaron</PRENOM>
+            <ROLE>Bryan Pankhurst</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1253194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Durupt</NOM>
+            <PRENOM>Lisa</PRENOM>
+            <ROLE>Stephanie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="431543">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Barrett</NOM>
+            <PRENOM>Eileen</PRENOM>
+            <ROLE>Phyllis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1324260">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Miles</NOM>
+            <PRENOM>Kalyn</PRENOM>
+            <ROLE>Anna</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1324261">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Obiajunwa</NOM>
+            <PRENOM>Austin</PRENOM>
+            <ROLE>Henry</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Abandonné par son futur mari, une bloggeuse se voit contrainte d'accepter la proposition d'une ancienne connaissance qui se fait passer pour son fiancé</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Kate est psychologue et anime un blog spécialisé dans les conseils amoureux. Alors qu'elle s'apprête à présenter à ses fans son futur mari Bryan devant la caméra, une dispute éclate, et le couple rompt. C'est alors que surgit Lucas, son rival lorsqu'ils étaient au lycée, qui se présente comme son fiancé. Kate n'ose pas démentir et continue d'étaler sur son blog les préparatifs de mariage avec son faux fiancé...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un téléfilm quelconque, pour les fans de David Sutcliffe (Gilmore Girls) uniquement.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E113070886.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083950" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T14:55:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Inspecteur Lewis</TITRE>
+      <SOUSTITREDIF>Justice sauvage</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="37894665" DATEMODIF="2015-06-20T11:17:24">
+        <TITREEMISSION>Inspecteur Lewis</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="8237307">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Inspecteur Lewis / Vrai</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Lewis : Wild Justice</TITREORIGINAL>
+          <SOUSTITRE>Justice sauvage</SOUSTITRE>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>80</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="15843">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>MacDonald</NOM>
+            <PRENOM>Hettie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1407">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whately</NOM>
+            <PRENOM>Kevin</PRENOM>
+            <ROLE>Robert Lewis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="208227">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fox</NOM>
+            <PRENOM>Laurence</PRENOM>
+            <ROLE>James Hathaway</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24801">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Holman</NOM>
+            <PRENOM>Clare</PRENOM>
+            <ROLE>Laura Hobson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8888">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Front</NOM>
+            <PRENOM>Rebecca</PRENOM>
+            <ROLE>Jean Innocent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="464676">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nomvete</NOM>
+            <PRENOM>Pamela</PRENOM>
+            <ROLE>Helen Parsons</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="113740">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Timothy</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Barry Winter</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="34947">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Phillips</NOM>
+            <PRENOM>Siân</PRENOM>
+            <ROLE>Adele Goffe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="206082">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ryan</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Felix Sansome</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88889">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Pheloung</NOM>
+            <PRENOM>Barrington</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une évêque est retrouvée morte peu après avoir assisté à une conférence oecuménique. Lewis et Hathaway se retrouvent face à une tragédie datant de trente ans.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Evêque apprécié de Grande-Bretagne, Helen Parsons fait malgré elle la une des journaux. Cette femme respectable est en effet retrouvée morte à la suite d'un crime unanimement condamné. Lewis et Hathaway sont immédiatement chargés de l'enquête. Ils épluchent l'agenda de l'évêque et constatent que sa mort survient peu de temps après une conférence oecuménique organisée par la fondation religieuse Saint-Gérard. L'information n'est pas anodine, car on est en pleine période d'élection pour le titre de vice-régent de la fondation. Tout se complique pour les deux limiers lorsque plusieurs candidats en lice sont mystérieusement éliminés. Alors que l'opinion s'émeut, Lewis et Hathaway comprennent qu'ils sont confrontés à une tragédie datant d'il y a trente ans. Fait particulier : la vengeance s'exerce selon des codes précis...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une enquête palpitante, qui offre une plongée dans les cercles religieux de Grande-Bretagne.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E37894665.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083951" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T16:35:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Friends</TITRE>
+      <SOUSTITREDIF>Celui qui a fait on ne sait quoi avec Rachel</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="25086" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Friends</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7743">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Friends</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2834549">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Friends / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Friends</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Celui qui a fait on ne sait quoi avec Rachel</SOUSTITRE>
+          <SOUSTITREORIGINAL>The One Where Ross and Rachel... You Know</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1996</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>15</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1223">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lembeck</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3024">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Selleck</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Richard Burke</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="51783">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aniston</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Rachel Greene</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="31060">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cox</NOM>
+            <PRENOM>Courteney</PRENOM>
+            <ROLE>Monica Geller</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1226">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kudrow</NOM>
+            <PRENOM>Lisa</PRENOM>
+            <ROLE>Phoebe Buffay</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1227">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schwimmer</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Ross Geller</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1229">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Perry</NOM>
+            <PRENOM>Matthew</PRENOM>
+            <ROLE>Chandler Bing</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1228">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LeBlanc</NOM>
+            <PRENOM>Matt</PRENOM>
+            <ROLE>Joey Tribbiani</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3024">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Selleck</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Richard Burke</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="144781">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Curtis</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Ross et Rachel sortent enfin ensemble, mais leur amour doit encore affronter des obstacles. Monica tombe amoureuse du docteur Richard Burke.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ross et Rachel sortent enfin ensemble, mais leur amour doit encore affronter des obstacles. Monica tombe amoureuse du docteur Richard Burke, un ami de son père. Leur différence d'âge la conduit à cacher sa liaison au reste de la bande. Bientôt, la situation devient intenable pour tout le monde...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C25086.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083952" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T17:00:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Cherif</TITRE>
+      <SOUSTITREDIF>Désaccords majeurs</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="84832698" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Cherif</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="11818528">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Cherif</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="15130515">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Cherif / 2</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Désaccords majeurs</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="352286">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Metalsi</NOM>
+            <PRENOM>Abdelhafid</PRENOM>
+            <ROLE>Kader Cherif</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="539977">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bianic</NOM>
+            <PRENOM>Carole</PRENOM>
+            <ROLE>Adeline Briard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="307462">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bouzid</NOM>
+            <PRENOM>Mélèze</PRENOM>
+            <ROLE>Sarah Chérif</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="117685">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hesme</NOM>
+            <PRENOM>Elodie</PRENOM>
+            <ROLE>Deborah Atlan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3157">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Germain</NOM>
+            <PRENOM>Greg</PRENOM>
+            <ROLE>Jean-Paul Doucet</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="411000">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bureloup</NOM>
+            <PRENOM>François</PRENOM>
+            <ROLE>Joël Baudemont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="288488">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thioly</NOM>
+            <PRENOM>Clémence</PRENOM>
+            <ROLE>Stéphanie Giraud</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18331">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Charmetant</NOM>
+            <PRENOM>Christian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le violon rouge, l'instrument mythique de Georges Delayrac, a disparu. Valentin, un jeune prodige de la lutherie, l'a payé de sa vie : il est retrouvé mort.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le violon rouge, l'instrument mythique du grand Georges Delayrac, a mystérieusement disparu. Valentin, un jeune prodige de la lutherie, l'a payé de sa vie : il est retrouvé mort, et les premiers indices laissent penser à un meurtre. Enfermés dans l'impossible deuil de l'icône paternelle et dans les rancoeurs fraternelles, Antoine, le soliste de réputation mondiale, et Marc, le luthier aux mains d'or, sont les principaux suspects. Mesurant la lourdeur de l'héritage et le poids de la transmission, Kader Cherif et Adeline Briard savent qu'ils s'engagent dans une enquête difficile. Perceront-ils les secrets du violon rouge ?...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E84832698.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171660813" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T17:55:00</DATEHEURE>
+      <DUREE>2</DUREE>
+      <TITRE>Le court du jour</TITRE>
+      <SOUSTITREDIF>Patins - Thomas Gustfson - Suède (Calgary 1988)</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125629741" DATEMODIF="2018-01-26T12:09:00">
+        <TITREEMISSION>Le court du jour</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="1865312">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le court du jour</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Patins - Thomas Gustfson - Suède (Calgary 1988)</SOUSTITRE>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083953" DATEMODIF="2018-01-29T11:08:59">
+      <DATEHEURE>2018-02-09T17:57:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <TITRE>Le court du jour</TITRE>
+      <SOUSTITREDIF>Combinaison - Vreni Schneider - Suisse (Lillehammer 1994)</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214584" DATEMODIF="2018-01-29T11:08:59">
+        <TITREEMISSION>Le court du jour</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="1865312">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le court du jour</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Combinaison - Vreni Schneider - Suisse (Lillehammer 1994)</SOUSTITRE>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083954" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T18:00:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Top Models</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125219399" DATEMODIF="2018-01-23T11:59:43">
+        <TITREEMISSION>Amour, gloire et beauté</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6479">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Amour, gloire et beauté</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="17080252">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Amour, gloire et beauté / 0</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Bold and the Beautiful</TITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7682</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="218324">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Benedeti</NOM>
+            <PRENOM>Paulo</PRENOM>
+            <ROLE>Antonio Dominguez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="201043">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lindsey</NOM>
+            <PRENOM>Tracy</PRENOM>
+            <ROLE>Kristen Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="206905">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Torkildsen</NOM>
+            <PRENOM>Justin</PRENOM>
+            <ROLE>Rick Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4253">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moss</NOM>
+            <PRENOM>Ronn</PRENOM>
+            <ROLE>Ridge Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4257">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flannery</NOM>
+            <PRENOM>Susan</PRENOM>
+            <ROLE>Stephanie Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91137">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frantz</NOM>
+            <PRENOM>Adrienne</PRENOM>
+            <ROLE>Ambre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4255">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lang</NOM>
+            <PRENOM>Katherine Kelly</PRENOM>
+            <ROLE>Brooke</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4256">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tylo</NOM>
+            <PRENOM>Hunter</PRENOM>
+            <ROLE>Taylor</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Passion, gloire et succès sont autant de défis qui animent le quotidien des Forrester, famille qui attire bien des convoitises tant elle domine avec autorité le monde de la haute couture.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125219399.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083955" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T18:25:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>C'est ma question !</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214587" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>C'est ma question !</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="950" GENRESIMPLE="Jeu">Jeu</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21802626">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / C'est ma question !</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1238951">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Schneiter</NOM>
+            <PRENOM>Jonas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Ce jeu de culture générale reflète la diversité et les passions des Romands. C'est en effet le public, représenté sur le plateau par un mur d'images, qui interroge les quatre candidats en lice. Chacun peut poser une question en relation avec son métier, sa région ou ses centres d'intérêts. Face à une multitude de portraits, qui choisir ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083956" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T18:50:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Météo régionale</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214588" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Météo régionale</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083957" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T18:55:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Les titres du 19h30</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214589" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Les titres du 19h30</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27380377">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les titres du 19h30</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083958" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T19:00:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Couleurs locales</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214590" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Couleurs locales</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2058613">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Couleurs locales</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="429252">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Pambianco</NOM>
+            <PRENOM>Fabienne</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="551346">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Pantet</NOM>
+            <PRENOM>Carole</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1346988">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Poncioni</NOM>
+            <PRENOM>Rafaël</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1262413">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>von Roten</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Tour à tour, les quatre présentateurs, Fabienne Pambianco, Carole Pantet, Rafaël Poncioni et Julien von Roten, partent sur le terrain à la découverte d'un lieu qui fait l'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083959" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T19:20:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214591" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083960" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T19:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Le 19h30</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214592" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Le 19h30</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="12944705">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Le 19h30</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083961" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T20:00:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214593" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083962" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T20:10:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Gens d'hiver</TITRE>
+      <SOUSTITREDIF>Martin Grünig, propriétaire d'une station de ski, Nods (BE)</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124322338" DATEMODIF="2018-01-29T11:08:51">
+        <TITREEMISSION>Gens d'hiver</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="564">
+          <PAYS>Suisse</PAYS>
+          <LIBELLE>suisse</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="29611985">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Gens d'hiver</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Martin Grünig, propriétaire d'une station de ski, Nods (BE)</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>50</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>7</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="427535">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Léger</NOM>
+            <PRENOM>Patrick</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Martin Grünig gère la petite station de ski de Nods : depuis 24 ans, ce Biennois d'origine est à la fois propriétaire, directeur, exploitant de son domaine.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Martin Grünig, de Nods,Martin gère la petite station de ski de Nods. Depuis 24 ans, ce Biennois d'origine est à la fois propriétaire, directeur, exploitant ou encore main-d'oeuvre de son domaine ouvert en moyenne 35 jours par année. Située à 970 mètres d'altitude dans le massif du Jura, la station familiale manque parfois de neige, c'est pourquoi Martin diversifie ses activités : il s'occupe de l'entretien du funiculaire du Mont-Soleil et dirige en été une entreprise de terrassement. C'est au coeur du Parc du Chasseral que Martin donne rendez-vous à ses invités. Et ce n'est pas parce qu'on travaille la neige qu'on est à l'aise en ski de fond ! Chutes et glissades au menu de la matinée, avant de déguster une soupe à la courge et au gingembre.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083963" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T21:00:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Capitaine Marleau</TITRE>
+      <SOUSTITREDIF>Le jeune homme et la mort</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125216157" DATEMODIF="2018-01-16T12:00:50">
+        <TITREEMISSION>Capitaine Marleau</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="25934517">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Capitaine Marleau</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="30038639">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Capitaine Marleau / 2</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le jeune homme et la mort</SOUSTITRE>
+          <DUREEEMI>90</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="385034">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Masiero</NOM>
+            <PRENOM>Corinne</PRENOM>
+            <ROLE>le capitaine Marleau</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33102">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Anglade</NOM>
+            <PRENOM>Jean-Hugues</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="16482">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bouix</NOM>
+            <PRENOM>Evelyne</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1364938">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berling</NOM>
+            <PRENOM>Emilie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1364939">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kamaroh</NOM>
+            <PRENOM>Lindsay</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="16419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Denicourt</NOM>
+            <PRENOM>Marianne</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Marleau enquête sur un meurtre survenu sur un chantier de fouilles archéologiques. Une mère et son fils font partie des principaux suspects.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une mère porte le poids de la mort de son mari, tué par son fils qui n'avait alors que 7 ans. Vingt ans plus tard, ils sont suspectés d'un autre meurtre survenu sur le chantier de fouilles archéologiques sur lequel tous deux travaillent. Crime passionnel ou crime crapuleux, Marleau doit obliger les suspects à se débarrasser de leurs fantômes pour faire éclater la vérité...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125216157.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083964" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T22:40:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Outlander</TITRE>
+      <SOUSTITREDIF>Le Jonas</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120316916" DATEMODIF="2018-01-16T12:01:42">
+        <TITREEMISSION>Outlander</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="17820799">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Outlander</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="27599661">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Outlander / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Outlander</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le Jonas</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Doldrums</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="149819">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Moore</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="600304">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Balfe</NOM>
+            <PRENOM>Caitriona</PRENOM>
+            <ROLE>Claire Randall</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="474004">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Heughan</NOM>
+            <PRENOM>Sam</PRENOM>
+            <ROLE>Jamie Fraser</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27000">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bell</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Ian Murray Jr</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="337589">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Domboy</NOM>
+            <PRENOM>César</PRENOM>
+            <ROLE>Fergus Fraser</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="160388">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dillane</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>le capitaine Raines</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365041">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hiett</NOM>
+            <PRENOM>Charlie</PRENOM>
+            <ROLE>le capitaine Leonard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364257">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fleming</NOM>
+            <PRENOM>Keith</PRENOM>
+            <ROLE>Lesley</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364258">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Allenby-Kirk</NOM>
+            <PRENOM>James</PRENOM>
+            <ROLE>Hayes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="303653">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Goss</NOM>
+            <PRENOM>Shannon</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Claire et Jamie embarquent pour les Antilles et se lancent dans une quête majeure. La traversée n'est pas de tout repos. L'équipage cherche un bouc émissaire.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Volant au secours de Ian, Jamie et Claire embarquent en hâte pour les Antilles, mais la traversée ne manque ni de remous ni de mauvaises surprises. Inquiet et surperstitieux, l'équipage cherche un bouc émissaire pour lui imputer les récentes avaries et les très nombreux problèmes qui compliquent la traversée...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120316916.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083965" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-09T23:40:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Outlander</TITRE>
+      <SOUSTITREDIF>L'appât</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120316919" DATEMODIF="2018-01-16T10:05:12">
+        <TITREEMISSION>Outlander</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="17820799">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Outlander</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="27599661">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Outlander / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Outlander</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'appât</SOUSTITRE>
+          <SOUSTITREORIGINAL>Heaven &amp; Earth</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>10</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="149819">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Moore</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="600304">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Balfe</NOM>
+            <PRENOM>Caitriona</PRENOM>
+            <ROLE>Claire Randall</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="474004">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Heughan</NOM>
+            <PRENOM>Sam</PRENOM>
+            <ROLE>Jamie Fraser</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="337589">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Domboy</NOM>
+            <PRENOM>César</PRENOM>
+            <ROLE>Fergus Fraser</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="160388">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dillane</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>le capitaine Raines</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365041">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hiett</NOM>
+            <PRENOM>Charlie</PRENOM>
+            <ROLE>le capitaine Leonard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364259">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lyle</NOM>
+            <PRENOM>Lauren</PRENOM>
+            <ROLE>Marsali</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364257">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fleming</NOM>
+            <PRENOM>Keith</PRENOM>
+            <ROLE>Lesley</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364258">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Allenby-Kirk</NOM>
+            <PRENOM>James</PRENOM>
+            <ROLE>Hayes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="244094">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Schelhaas</NOM>
+            <PRENOM>Luke</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors qu'elle lutte pour stopper l'épidémie qui ravage le navire, Claire fait une découverte troublante. Une requête de Jamie place Fergus face à un choix difficile.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Claire enquête pour découvrir la source de l'épidémie qui ravage le navire avant que des centaines de marins ne décèdent. Jamie est en conflit avec le capitaine Raines. Fergus est déchiré entre la loyauté et l'amour...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120316919.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083966" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-10T00:35:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <SURTITRE>Film de minuit</SURTITRE>
+      <TITRE>Insidious : chapitre 2</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="67423098" DATEMODIF="2018-01-11T19:06:59">
+        <TITREEMISSION>Insidious : chapitre 2</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="230" GENRESIMPLE="Film d'horreur">Film d'horreur</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Insidious : Chapter 2</TITREORIGINAL>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>106</DUREEEMI>
+          <CENSURE CLE="12">Interdit aux moins de 12</CENSURE>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="318953">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Wan</NOM>
+            <PRENOM>James</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="209042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilson</NOM>
+            <PRENOM>Patrick</PRENOM>
+            <ROLE>Josh Lambert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="209594">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Byrne</NOM>
+            <PRENOM>Rose</PRENOM>
+            <ROLE>Renai Lambert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1302">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hershey</NOM>
+            <PRENOM>Barbara</PRENOM>
+            <ROLE>Lorraine Lambert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="86996">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shaye</NOM>
+            <PRENOM>Lin</PRENOM>
+            <ROLE>Elise Rainier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="403004">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Simpkins</NOM>
+            <PRENOM>Ty</PRENOM>
+            <ROLE>Dalton Lambert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="318954">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whannell</NOM>
+            <PRENOM>Leigh</PRENOM>
+            <ROLE>Specs</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="319636">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bisutti</NOM>
+            <PRENOM>Danielle</PRENOM>
+            <ROLE>Michelle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4492">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Beach</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Sendal</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="357321">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Bishara</NOM>
+            <PRENOM>Joseph</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Après avoir sauvé son fils du royaume des ombres, une petite famille tente de reprendre une vie normale mais le monde des esprits en a décidé autrement.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Josh Lambert a sauvé in extremis son jeune fils Dalton du royaume des ombres. Malheureusement, ce père de famille courageux n'est pas revenu seul de ce monde effrayant. Une créature maléfique l'a suivi et a pris possession de son corps physique. Au début, les membres de sa famille ne remarquent rien. Mais bientôt de nouveaux phénomènes paranormaux se manifestent aux yeux de Renai, l'épouse de Josh et mère de Danton. Pour en avoir le coeur net, Lorraine, la mère de Josh, et trois de ses amis excentriques décident de se replonger dans le passé afin de découvrir le terrible secret qui relie les membres de sa famille au monde dangereux des esprits....</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Ce thriller est une suite fidèle à la première réalisation «Insidious» et utilisant les même ressorts.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E67423098.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083967" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-10T02:20:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Couleurs locales</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214590" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Couleurs locales</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2058613">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Couleurs locales</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="429252">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Pambianco</NOM>
+            <PRENOM>Fabienne</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="551346">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Pantet</NOM>
+            <PRENOM>Carole</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1346988">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Poncioni</NOM>
+            <PRENOM>Rafaël</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1262413">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>von Roten</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Tour à tour, les quatre présentateurs, Fabienne Pambianco, Carole Pantet, Rafaël Poncioni et Julien von Roten, partent sur le terrain à la découverte d'un lieu qui fait l'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083968" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-10T02:35:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Le 19h30</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214592" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Le 19h30</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="12944705">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Le 19h30</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171083969" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-10T03:05:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125214591" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171088188" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-10T03:10:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Euronews</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125254595" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Euronews</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8255">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / EuroNews</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171088189" DATEMODIF="2018-01-29T11:09:00">
+      <DATEHEURE>2018-02-10T03:15:00</DATEHEURE>
+      <DUREE>225</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125254596" DATEMODIF="2018-01-29T11:09:00">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

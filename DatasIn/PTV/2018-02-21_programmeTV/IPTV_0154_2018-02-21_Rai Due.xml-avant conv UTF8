@@ -1,0 +1,1217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:12:10-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="154">
+    <NOMCHAINE>Rai Due</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="172109038" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T06:00:00</DATEHEURE>
+      <DUREE>240</DUREE>
+      <SURTITRE>Rai Sport</SURTITRE>
+      <TITRE>PyeongChang (Corea del Sud)</TITRE>
+      <SOUSTITREDIF>XXIII edizione dei Giochi Olimpici Invernali</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944770" DATEMODIF="2018-02-05T11:53:17">
+        <TITREEMISSION>PyeongChang (Corea del Sud)</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="741" GENRESIMPLE="Magazine sportif">Multisports</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109039" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T10:00:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>TG 2 : Lavori in corso</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944771" DATEMODIF="2018-02-05T11:53:17">
+        <TITREEMISSION>TG 2 : Lavori in corso</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="401" GENRESIMPLE="Magazine d'information">Magazine d'information</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165133">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / TG 2 : Lavori in corso</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109040" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T10:55:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>TG 2 Flash</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944772" DATEMODIF="2018-02-05T11:53:17">
+        <TITREEMISSION>TG 2 Flash</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165538">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / TG 2 Flash</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109041" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T11:00:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>I Fatti Vostri</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944773" DATEMODIF="2018-02-05T11:53:17">
+        <TITREEMISSION>I Fatti Vostri</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165346">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / I Fatti Vostri</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="114079">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Magalli</NOM>
+            <PRENOM>Giancarlo</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109042" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T13:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>TG2</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944774" DATEMODIF="2018-02-05T11:53:17">
+        <TITREEMISSION>TG2</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165544">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / TG2</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109043" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T13:30:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>TG 2 Costume e società</TITRE>
+      <SOUSTITREDIF>Attualità politica e sociale</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944775" DATEMODIF="2018-02-05T11:53:17">
+        <TITREEMISSION>TG 2 Costume e società</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165140">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / TG 2 Costume e società</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Attualità politica e sociale</SOUSTITRE>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109044" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T13:50:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Medicina 33</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944776" DATEMODIF="2018-02-05T11:53:17">
+        <TITREEMISSION>Medicina 33</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="407" GENRESIMPLE="Magazine scientifique">Magazine médical</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165010">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Medicina 33</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="301062">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marroni</NOM>
+            <PRENOM>Stefano</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109045" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T14:00:00</DATEHEURE>
+      <DUREE>160</DUREE>
+      <TITRE>Detto fatto</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944777" DATEMODIF="2018-02-05T11:53:17">
+        <TITREEMISSION>Detto fatto</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="1103" GENRESIMPLE="Magazine de l'art de vivre">Magazine de l'art de vivre</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23164872">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Detto fatto</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="327165">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Balivo</NOM>
+            <PRENOM>Caterina</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109046" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T16:40:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Castle : Detective tra le righe</TITRE>
+      <SOUSTITREDIF>Un covo di ladri</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="15393355" DATEMODIF="2015-08-12T16:49:36">
+        <TITREEMISSION>Castle</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="3500427">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Castle</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4033997">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Castle / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Castle</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le flic fantôme</SOUSTITRE>
+          <SOUSTITREORIGINAL>Den of Thieves</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2010</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>21</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="37467">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Terlesky</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="7164">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ironside</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Victor Racine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="167631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fillion</NOM>
+            <PRENOM>Nathan</PRENOM>
+            <ROLE>Richard Castle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="324795">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Katic</NOM>
+            <PRENOM>Stana</PRENOM>
+            <ROLE>Kate Beckett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="159463">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Huertas</NOM>
+            <PRENOM>Jon</PRENOM>
+            <ROLE>Javier Esposito</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="163377">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sullivan</NOM>
+            <PRENOM>Susan</PRENOM>
+            <ROLE>Martha Rodgers</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="491088">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Quinn</NOM>
+            <PRENOM>Molly C</PRENOM>
+            <ROLE>Alexis Castle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334046">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dever</NOM>
+            <PRENOM>Seamus</PRENOM>
+            <ROLE>Kevin Ryan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Trucco</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Tom Demming</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7164">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Ironside</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Victor Racine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="520345">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Beall</NOM>
+            <PRENOM>Will</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un ancien voleur a été électrocuté avec la batterie de sa voiture. Sur cette affaire, Beckett reçoit l'aide de Tom Demming, un ancien collègue d'Esposito.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Castle et Beckett enquêtent sur l'assassinat d'un ancien voleur, électrocuté avec la batterie de sa voiture. Sur cette affaire, Beckett reçoit l'aide de Tom Demming, un ancien collègue d'Esposito. Elle n'est pas insensible au charme de cet inspecteur, qu'elle vient justement de croiser à la salle de sport. Demming les informe qu'un holp-up récent dans une banque pourrait être relié au meurtre. Il ne visait qu'un seul coffre-fort, dont le propriétaire est Fred Cana, un collecteur de fonds de Victor Racine, un parrain de la mafia. Esposito révèle que Racine a tué son ancien partenaire...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109047" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T17:25:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Madam Secretary</TITRE>
+      <SOUSTITREDIF>Blocco governativo</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944778" DATEMODIF="2018-02-05T11:53:17">
+        <TITREEMISSION>Madam Secretary</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <SERIE>
+          <COLLECTION CLE="18985054">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Madam Secretary</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22093564">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Madam Secretary / 0</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Blocco governativo</SOUSTITRE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </SERIE>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109048" DATEMODIF="2018-02-05T11:53:17">
+      <DATEHEURE>2018-02-21T18:10:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>TG 2 Flash L.I.S</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944779" DATEMODIF="2018-02-05T11:53:17">
+        <TITREEMISSION>TG 2 Flash L.I.S</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165539">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / TG 2 Flash L.I.S</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109049" DATEMODIF="2018-02-05T11:53:18">
+      <DATEHEURE>2018-02-21T18:15:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>TG2</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944780" DATEMODIF="2018-02-05T11:53:18">
+        <TITREEMISSION>TG2</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165544">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / TG2</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109050" DATEMODIF="2018-02-05T11:53:18">
+      <DATEHEURE>2018-02-21T18:30:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Rai TG Sport</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944781" DATEMODIF="2018-02-05T11:53:18">
+        <TITREEMISSION>Rai TG Sport</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="424" GENRESIMPLE="Magazine sportif">Magazine sportif</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165077">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Rai TG Sport</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109051" DATEMODIF="2018-02-05T11:53:18">
+      <DATEHEURE>2018-02-21T18:50:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <SURTITRE>Rai Sport</SURTITRE>
+      <TITRE>PyeongChang (Corea del Sud)</TITRE>
+      <SOUSTITREDIF>XXIII edizione dei Giochi Olimpici Invernali Magazine Olimpico</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944782" DATEMODIF="2018-02-05T11:53:18">
+        <TITREEMISSION>PyeongChang (Corea del Sud)</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="741" GENRESIMPLE="Magazine sportif">Multisports</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109052" DATEMODIF="2018-02-05T11:53:18">
+      <DATEHEURE>2018-02-21T19:40:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>N.C.I.S. : Unità anticrimine</TITRE>
+      <SOUSTITREDIF>Tossico</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="13456392" DATEMODIF="2015-08-28T02:51:10">
+        <TITREEMISSION>NCIS : enquêtes spéciales</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7926">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / NCIS : enquêtes spéciales</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3900161">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / NCIS : enquêtes spéciales / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>NCIS</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Echec et mat</SOUSTITRE>
+          <SOUSTITREORIGINAL>Toxic</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>21</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="9726">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Wright</NOM>
+            <PRENOM>Thomas J</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="91918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Perrette</NOM>
+            <PRENOM>Pauley</PRENOM>
+            <ROLE>Abby Sciuto</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="509921">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Borba</NOM>
+            <PRENOM>Andrew</PRENOM>
+            <ROLE>Philip Heller</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="259967">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Harmon</NOM>
+            <PRENOM>Mark</PRENOM>
+            <ROLE>Leroy Jethro Gibbs</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Weatherly</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Tony DiNozzo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3820">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McCallum</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Donald «Ducky» Mallard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="345524">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>de Pablo</NOM>
+            <PRENOM>Cote</PRENOM>
+            <ROLE>Ziva David</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="38903">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murray</NOM>
+            <PRENOM>Sean</PRENOM>
+            <ROLE>Tim McGee</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19035">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Carroll</NOM>
+            <PRENOM>Rocky</PRENOM>
+            <ROLE>Leon Vance</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="178843">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Binder</NOM>
+            <PRENOM>Steven D</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Abby est réquisitionnée par l'armée pour travailler sur des études portant sur l'ADN : elle court un grand danger, son prédécesseur ayant failli être tué.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Abby est réquisitionnée par l'armée pour travailler sur un projet ultra-secret. Gibbs et son équipe, en pleine enquête sur un meurtre, doivent donc se passer de ses services. Gibbs découvre alors qu'Abby a été sélectionnée en remplacement de Philip Heller, un scientifique militaire qui est porté disparu. Il comprend également que le crime sur lequel il travaille, celui de Marco Riggs, est peut-être lié au projet auquel participe Abby. En effet, Marco Riggs a visiblement été engagé pour assassiner Philip Heller, lequel s'en est sorti en le tuant avec un pistolet électrique. Gibbs est convaincu que les études sur l'ADN menées par l'armée n'ont pas seulement pour but de soigner des soldats malades...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109053" DATEMODIF="2018-02-05T11:53:18">
+      <DATEHEURE>2018-02-21T20:30:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>TG2</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944783" DATEMODIF="2018-02-05T11:53:18">
+        <TITREEMISSION>TG2</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165544">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / TG2</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109054" DATEMODIF="2018-02-05T11:53:18">
+      <DATEHEURE>2018-02-21T21:05:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>LOL</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944784" DATEMODIF="2018-02-05T11:53:18">
+        <TITREEMISSION>LOL</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <SERIE>
+          <COLLECTION CLE="9327412">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / LOL</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="20355836">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / LOL / 0</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Lol :)</TITREORIGINAL>
+          <DUREEEMI>15</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1359446">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Paquin</NOM>
+            <PRENOM>Pierre</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1359447">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Saint-Amant</NOM>
+            <PRENOM>François</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="186614">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bossé</NOM>
+            <PRENOM>Réal</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1359445">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Drainville</NOM>
+            <PRENOM>Marin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="255394">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Menard</NOM>
+            <PRENOM>Julie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="186611">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moreau</NOM>
+            <PRENOM>Sylvie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="555164">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vézina</NOM>
+            <PRENOM>Antoine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109055" DATEMODIF="2018-02-05T11:53:18">
+      <DATEHEURE>2018-02-21T21:20:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Film</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944785" DATEMODIF="2018-02-05T11:53:18">
+        <TITREEMISSION>Film</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="324" GENRESIMPLE="Téléfilm dramatique">Téléfilm dramatique</GENRE>
+        <FILMTELEFILM>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>115</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="195958">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Shankman</NOM>
+            <PRENOM>Adam</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109056" DATEMODIF="2018-02-05T11:53:18">
+      <DATEHEURE>2018-02-21T23:15:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Film</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944786" DATEMODIF="2018-02-05T11:53:18">
+        <TITREEMISSION>Film</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="324" GENRESIMPLE="Téléfilm dramatique">Téléfilm dramatique</GENRE>
+        <FILMTELEFILM>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>95</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="155084">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Schwentke</NOM>
+            <PRENOM>Robert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109057" DATEMODIF="2018-02-05T11:53:24">
+      <DATEHEURE>2018-02-22T00:50:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Sulla via di Damasco</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944787" DATEMODIF="2018-02-05T11:53:18">
+        <TITREEMISSION>Sulla via di Damasco</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="937" GENRESIMPLE="Emission religieuse">Emission religieuse</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23165530">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Sulla via di Damasco</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="223367">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>D'Ercole</NOM>
+            <PRENOM>Don Giovanni</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109058" DATEMODIF="2018-02-05T11:53:24">
+      <DATEHEURE>2018-02-22T01:05:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>N.C.I.S. : Unità anticrimine</TITRE>
+      <SOUSTITREDIF>La talpa</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944788" DATEMODIF="2018-02-05T11:53:24">
+        <TITREEMISSION>N.C.I.S. : Unità anticrimine</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <SERIE>
+          <COLLECTION CLE="23162220">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / N.C.I.S. : Unità anticrimine</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="23162160">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / N.C.I.S. : Unità anticrimine / 0</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>NCIS : Naval Criminal Investigative Service</TITREORIGINAL>
+          <SOUSTITRE>La talpa</SOUSTITRE>
+          <DUREEEMI>70</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </SERIE>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172109059" DATEMODIF="2018-02-05T11:53:24">
+      <DATEHEURE>2018-02-22T02:15:00</DATEHEURE>
+      <DUREE>225</DUREE>
+      <SURTITRE>Rai Sport</SURTITRE>
+      <TITRE>PyeongChang (Corea del Sud)</TITRE>
+      <SOUSTITREDIF>XXIII edizione dei Giochi Olimpici Invernali</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125944789" DATEMODIF="2018-02-05T11:53:24">
+        <TITREEMISSION>PyeongChang (Corea del Sud)</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="741" GENRESIMPLE="Magazine sportif">Multisports</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

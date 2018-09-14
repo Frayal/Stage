@@ -88,31 +88,30 @@ def load_models():
     LGBM.append(joblib.load('model/LGBM1.pkl'))
     LGBM.append(joblib.load('model/LGBM2.pkl'))
 
-
-
-    json_file = open("model/NN.json", 'r')
-    loaded_model_json = json_file.read()
-    json_file.close()
-    NN = model_from_json(loaded_model_json)
+    # TODO: add NN,LSTM back
+    #json_file = open("model/NN.json", 'r')
+    #loaded_model_json = json_file.read()
+    #json_file.close()
+    #NN = model_from_json(loaded_model_json)
     # load weights into new model
-    NN.compile(loss='binary_crossentropy', optimizer='adamax',metrics=['accuracy'])
-    NN.load_weights("model/NN.h5")
+    #NN.compile(loss='binary_crossentropy', optimizer='adamax',metrics=['accuracy'])
+    #NN.load_weights("model/NN.h5")
     #Report("Loaded NN from disk")
 
-    json_file = open("model/LSTM.json", 'r')
-    loaded_model_json = json_file.read()
-    json_file.close()
-    LSTM = model_from_json(loaded_model_json)
+    #json_file = open("model/LSTM.json", 'r')
+    #loaded_model_json = json_file.read()
+    #json_file.close()
+    #LSTM = model_from_json(loaded_model_json)
     # load weights into new model
-    LSTM.compile(loss='binary_crossentropy', optimizer='adamax',metrics=['accuracy'])
-    LSTM.load_weights("model/LSTM.h5")
+    #LSTM.compile(loss='binary_crossentropy', optimizer='adamax',metrics=['accuracy'])
+    #LSTM.load_weights("model/LSTM.h5")
     #Report("Loaded LSTM from disk")
 
 
     logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
-    return(SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM)
+    return(SVC,XGB,CatBoost,KNN,LGBM,logistic)#NN,LSTM)#TODO: add NN,LSTM back
 
-def makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM):
+def makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM):#,NN,LSTM):
     #LGBM,CAT,SVC,NN,XGB,KNN
 
     res1 = LGBM[0].predict(X_meanvar, num_iteration = LGBM[0].best_iteration)
@@ -131,7 +130,7 @@ def makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM):
     l3 = pd.DataFrame(l3).T
 
 
-    l4 = pd.DataFrame(NN.predict_proba(X_minmax))
+    #l4 = pd.DataFrame(NN.predict_proba(X_minmax))#TODO: add NN,LSTM back
 
     res1 = XGB[0].predict(xgb.DMatrix(X_meanvar), ntree_limit=XGB[0].best_ntree_limit)
     res2 = XGB[1].predict(xgb.DMatrix(X_meanvar), ntree_limit=XGB[1].best_ntree_limit)
@@ -146,10 +145,10 @@ def makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM):
     l6 = pd.DataFrame(l6).T
 
 
-    l7 = pd.DataFrame(LSTM.predict_proba(np.reshape(X_minmax,(X_minmax.shape[0],1,X_minmax.shape[1]))))
+    #l7 = pd.DataFrame(LSTM.predict_proba(np.reshape(X_minmax,(X_minmax.shape[0],1,X_minmax.shape[1]))))#TODO: add NN,LSTM back
 
 
-    return pd.concat([l2,l3,l4,l5,l6,l7], axis=1) #################################""
+    return pd.concat([l2,l3,l4,l5,l6,l7], axis=1) #TODO: add NN,LSTM back
 
 def scoring(predict,y,h = [3,27],threshold=0.5):
     pred = list([1 if i[-1]>threshold else 0 for i in predict])
@@ -220,8 +219,8 @@ def main(argv):
                 Report("Fichier déjà prédit: passage au fichier suivant")
             except Exception as e:
                 X_minmax,X_meanvar,t = load(fileX)
-                SVC,XGB,CatBoost,KNN,LGBM,NN,logistic,LSTM = load_models()
-                df = makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM,NN,LSTM)
+                SVC,XGB,CatBoost,KNN,LGBM,logistic = load_models() #TODO: add NN,LSTM back
+                df = makepredictions(X_minmax,X_meanvar,SVC,XGB,CatBoost,KNN,LGBM)#,NN,LSTM)#TODO: add NN,LSTM back
                 X_train = df.values
                 np.random.seed(7)
                 #Report(X_train.shape)

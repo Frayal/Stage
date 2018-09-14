@@ -1,0 +1,1824 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:56:45-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="283">
+    <NOMCHAINE>Ciné+ Emotion</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-15">
+    <DIFFUSION CLEDIF="172102405" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T05:15:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>En coulisses Ciné+</TITRE>
+      <SOUSTITREDIF>Bonus «Madame Hyde»</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118545126" DATEMODIF="2017-06-30T13:53:39">
+        <TITREEMISSION>En coulisses Ciné+</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="26745717">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / En coulisses Ciné+</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Bonus «Madame Hyde»</SOUSTITRE>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172102406" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T05:20:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>Cinéast(e)s</TITRE>
+      <SOUSTITREDIF>Les femmes</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="69036467" DATEMODIF="2017-01-02T12:08:11">
+        <TITREEMISSION>Cinéast(e)s</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="357" GENRESIMPLE="Documentaire culturel">Cinéma</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <SOUSTITRE>Les femmes</SOUSTITRE>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <DUREEEMI>75</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="4865">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gayet</NOM>
+            <PRENOM>Julie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="11858">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Busson</NOM>
+            <PRENOM>Mathieu</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Julie Gayet part à la rencontre d'Alice Guy-Blaché, figure ignorée de l'histoire du cinéma, et des femmes, nombreuses, qui font le 7e art d'aujourd'hui.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Pour la première fois, une vingtaine de réalisatrices françaises sont réunies devant une même caméra, s'exprimant sur l'exercice de leur métier et la place qu'elles occupent dans le cinéma. Les femmes ont-elles un regard différent de celui des hommes ? Existe-t-il un cinéma de femmes, à l'opposé de celui des hommes ? Fascinée par Alice Guy-Blaché, la première femme à avoir dirigé des acteurs devant une caméra, Julie Gayet part à la rencontre de cette figure ignorée de l'histoire du cinéma et des autres femmes, nombreuses ces dernières années, qui font le 7e art d'aujourd'hui.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314692" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T06:35:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Françoise Sagan</TITRE>
+      <SOUSTITREDIF>Un charmant petit monstre</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="8125701" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Françoise Sagan</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="310" GENRESIMPLE="Téléfilm historique">Téléfilm biographique</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </PARTIE>
+          <SOUSTITRE>Un charmant petit monstre</SOUSTITRE>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="10066">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kurys</NOM>
+            <PRENOM>Diane</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="12000">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Testud</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Françoise Sagan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="49152">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Palmade</NOM>
+            <PRENOM>Pierre</PRENOM>
+            <ROLE>Jacques Chazot</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="31273">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Abelanski</NOM>
+            <PRENOM>Lionel</PRENOM>
+            <ROLE>Bernard Franck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="26735">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Balibar</NOM>
+            <PRENOM>Jeanne</PRENOM>
+            <ROLE>Peggy Roche</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9107">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dombasle</NOM>
+            <PRENOM>Arielle</PRENOM>
+            <ROLE>Astrid</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="305820">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Podalydès</NOM>
+            <PRENOM>Denis</PRENOM>
+            <ROLE>Guy Schoeller</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="172443">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gallienne</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Jacques Quoirez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3342">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wolkowitch</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>Philippe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="198900">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Amar</NOM>
+            <PRENOM>Armand</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les débuts littéraires de Françoise Sagan, avec la publication de «Bonjour Tristesse» en 1954, et sa vie entre Paris, Deauville et Saint-Tropez, avec ses amis.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ses premiers romans l'ont rendue riche et célèbre. En 1954, la France et le monde faisaient un succès et un scandale de «Bonjour Tristesse», de ces plaisirs sans péchés. Depuis, Françoise Sagan mène une vie légère et tapageuse, entourée de sa bande d'amis, «la bande à Sagan», de Deauville à Saint-Tropez. A Deauville, ce 8 août 1958 à 8h du matin, Françoise, qui n'a pas encore 30 ans, mise ses derniers jetons sur le 8 et rafle 8 millions de francs, somme avec laquelle, quelques heures plus tard, elle achète une propriété de 8 hectares qu'elle louait l'été près d'Honfleur, en Normandie. Elle jure alors que personne ne viendra la déloger de cet endroit...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une vision un peu nostalgique de la vie de la célèbre romancière. Sylvie Testud est parfaite dans le rôle, qui lui vaut le titre de Meilleure interprète féminine au Festival 2008 de la Fiction TV de La Rochelle.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314693" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T08:10:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Hollywood Live</TITRE>
+      <SOUSTITREDIF>Episode 18</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125373643" DATEMODIF="2018-01-26T15:49:57">
+        <TITREEMISSION>Hollywood Live</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6692">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Hollywood Live</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Episode 18</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="120158">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Malouki</NOM>
+            <PRENOM>Ramzi</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une exploration très personnelle du microcosme hollywoodien, présentée à la sauce de Ramzi : tonus, impertinence et humour décalé sont au rendez-vous.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125373643.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314694" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T08:25:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>L'amour dure trois ans</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="32583544" DATEMODIF="2017-02-14T14:28:17">
+        <TITREEMISSION>L'amour dure trois ans</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="141" GENRESIMPLE="Comédie">Comédie sentimentale</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="122870">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Beigbeder</NOM>
+            <PRENOM>Frédéric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="478127">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Proust</NOM>
+            <PRENOM>Gaspard</PRENOM>
+            <ROLE>Marc Marronnier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="411928">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bourgoin</NOM>
+            <PRENOM>Louise</PRENOM>
+            <ROLE>Alice</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="404754">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>JoeyStarr</NOM>
+            <ROLE>Jean-Georges</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="154570">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lambert</NOM>
+            <PRENOM>Jonathan</PRENOM>
+            <ROLE>Pierre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="263458">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bel</NOM>
+            <PRENOM>Frédérique</PRENOM>
+            <ROLE>Kathy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="60660">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bedos</NOM>
+            <PRENOM>Nicolas</PRENOM>
+            <ROLE>Antoine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="520715">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sednaoui</NOM>
+            <PRENOM>Elisa</PRENOM>
+            <ROLE>Anne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12429">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Menez</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>le père de Marc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="273391">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Rappeneau</NOM>
+            <PRENOM>Martin</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un quadragénaire divorcé est convaincu que la durée de vie de l'amour est limitée à trois ans. Lorsqu'il rencontre une belle jeune femme, il change d'avis.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Marc Marronnier, un jeune quadragénaire, vient de divorcer d'Anne, avec qui il a vécu une belle romance. Depuis cet événement, cet homme sombre et pessimiste a perdu toute foi en l'amour. Critique littéraire et chroniqueur mondain, il n'a qu'un seul crédo qu'il martèle à tue-tête : l'amour ne dure que trois ans. Passé cette période, même la plus belle des idylles laisse place à l'ennui et la lassitude. Pour démontrer toute la perspicacité de son raisonnement, il a écrit un pamphlet sur le sujet. Alors que son éditrice accepte de le publier, Marc rencontre la charmante Alice, dont il tombe amoureux. Il est alors contraint de revoir toute sa théorie...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Frédéric Beigbeder adapte là son roman éponyme et passe pour la première fois derrière la caméra.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E32583544.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314695" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T10:00:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>L'amour extra-large</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="1702800" DATEMODIF="2016-05-20T23:29:49">
+        <TITREEMISSION>L'amour extra-large</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="10">
+          <PAYS>Etats-Unis - Allemagne</PAYS>
+          <LIBELLE>américano-allemande</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Shallow Hal</TITREORIGINAL>
+          <ANNEEREALISATION>2001</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>113</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="50888">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Farrelly</NOM>
+            <PRENOM>Bobby</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="34932">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Farrelly</NOM>
+            <PRENOM>Peter</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="11929">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Paltrow</NOM>
+            <PRENOM>Gwyneth</PRENOM>
+            <ROLE>Rosemary Shanahan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33246">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Black</NOM>
+            <PRENOM>Jack</PRENOM>
+            <ROLE>Hal Larson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27218">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alexander</NOM>
+            <PRENOM>Jason</PRENOM>
+            <ROLE>Mauricio Wilson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="60461">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Viterelli</NOM>
+            <PRENOM>Joe</PRENOM>
+            <ROLE>Steve Shanahan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="242949">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kirby</NOM>
+            <PRENOM>Rene</PRENOM>
+            <ROLE>Walt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14656">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGill</NOM>
+            <PRENOM>Bruce</PRENOM>
+            <ROLE>le révérend Larson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="242950">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Robbins</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Tony Robbins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="152276">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ward</NOM>
+            <PRENOM>Susan</PRENOM>
+            <ROLE>Jill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="397731">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Goodrum</NOM>
+            <PRENOM>William</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un play-boy jouisseur et machiste est conditionné par un hypnotiseur pour ne plus voir que la beauté intérieure. Il tombe amoureux d'une femme obèse.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A la mort de son père, le petit Hal, 9 ans, est traumatisé par le dernier conseil que lui prodigue son géniteur : fréquenter exclusivement de belles et sveltes jeunes femmes. A 30 ans, détenteur d'un record du nombre d'aventures avec de superbes créatures, Hal reste un célibataire compulsif. Afin de mettre fin au vide affectif qui le ronge, il consulte le gourou Tony Robbins qui, au cours d'une séance d'hypnose, le conditionne afin qu'il ne perçoive plus que la beauté intérieure des femmes qu'il rencontre. La thérapie fonctionne à merveille et Hal tombe rapidement amoureux de l'adorable Rosemary, 135 kilos de charme...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Les frères iconoclastes de la comédie américaine ont cette fois-ci bridé leur verve, pour livrer une comédie romantique attachante.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E1702800.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314696" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T11:50:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Allumeuses !</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2008825" DATEMODIF="2017-01-11T14:09:23">
+        <TITREEMISSION>Allumeuses !</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="141" GENRESIMPLE="Comédie">Comédie sentimentale</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Sweetest Thing</TITREORIGINAL>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>85</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="258449">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kumble</NOM>
+            <PRENOM>Roger</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="39561">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Diaz</NOM>
+            <PRENOM>Cameron</PRENOM>
+            <ROLE>Christina Walters</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61394">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Applegate</NOM>
+            <PRENOM>Christina</PRENOM>
+            <ROLE>Courtney Rockcliffe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29263">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jane</NOM>
+            <PRENOM>Thomas</PRENOM>
+            <ROLE>Peter Donahue</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="90769">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blair</NOM>
+            <PRENOM>Selma</PRENOM>
+            <ROLE>Jane Burns</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="41065">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Posey</NOM>
+            <PRENOM>Parker</PRENOM>
+            <ROLE>Judith Katherine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="207935">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adams</NOM>
+            <PRENOM>Lillian</PRENOM>
+            <ROLE>tante Frida</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="26138">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bateman</NOM>
+            <PRENOM>Jason</PRENOM>
+            <ROLE>Roger Donahue</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="115422">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bellan</NOM>
+            <PRENOM>Joe</PRENOM>
+            <ROLE>monsieur Martin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="258452">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Shearmur</NOM>
+            <PRENOM>Ed</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une croqueuse d'hommes, célibataire impénitente, tombe amoureuse pour la première fois. Mais à peine rencontré, l'heureux élu disparaît subitement.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Christina, Courtney et Jane, trois colocataires, toutes plus jolies les unes que les autres, alignent sans peine les conquêtes masculines. Un soir, elles sortent en discothèque pour dérider Jane, qui vient de se faire abandonner par son petit ami. Christina fait la connaissance de Peter, un homme qui a plus de répondant que ceux à qui elle a généralement affaire. Il l'invite à le rejoindre, plus tard, dans un hôtel où se fête l'enterrement de vie de garçon de son frère. Christina n'y va pas mais elle se surprend la nuit même à rêver du beau Peter. Ses amies détectent quelque chose de nouveau dans le comportement de la jeune femme, jusqu'à présent incorrigible célibataire...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une comédie sentimentale gentillette qui bénéficie de l'abattage et du talent comique de Cameron Diaz.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2008825.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314697" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T13:20:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>La culotte</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="102961023" DATEMODIF="2018-01-12T15:24:08">
+        <TITREEMISSION>La culotte</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="153" GENRESIMPLE="Court métrage">Court métrage</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>7</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="84011">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Firode</NOM>
+            <PRENOM>Laurent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="108034">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Buquet</NOM>
+            <PRENOM>Maud</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="406185">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Baptist</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="87524">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marnet</NOM>
+            <PRENOM>Jean-Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1294813">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agaeva</NOM>
+            <PRENOM>Darina</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="528967">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dross</NOM>
+            <PRENOM>Patrick</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="108297">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ismaïloff</NOM>
+            <PRENOM>Irène</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un dessous s'interpose entre un homme, en très mauvaise posture, et la mort, pendant un très court instant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E102961023.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314698" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T13:25:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>L'homme du train</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="1968365" DATEMODIF="2017-12-06T13:11:53">
+        <TITREEMISSION>L'homme du train</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="603">
+          <PAYS>France - Allemagne - Grande-Bretagne</PAYS>
+          <LIBELLE>franco-germano-britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="19756">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Leconte</NOM>
+            <PRENOM>Patrice</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1957">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rochefort</NOM>
+            <PRENOM>Jean</PRENOM>
+            <ROLE>monsieur Manesquier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11625">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hallyday</NOM>
+            <PRENOM>Johnny</PRENOM>
+            <ROLE>Milan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="272457">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stévenin</NOM>
+            <PRENOM>Jean-François</PRENOM>
+            <ROLE>Luigi</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="56562">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nelson</NOM>
+            <PRENOM>Charlie</PRENOM>
+            <ROLE>Max</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="256147">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Parmentier</NOM>
+            <PRENOM>Pascal</PRENOM>
+            <ROLE>Sadko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4552">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Petit-Jacques</NOM>
+            <PRENOM>Isabelle</PRENOM>
+            <ROLE>Viviane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15037">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scob</NOM>
+            <PRENOM>Edith</PRENOM>
+            <ROLE>la soeur de Manesquier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21798">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chevit</NOM>
+            <PRENOM>Maurice</PRENOM>
+            <ROLE>le coiffeur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="48470">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Estève</NOM>
+            <PRENOM>Pascal</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans une petite ville, un mystérieux individu rencontre un professeur de français à la retraite. Une complicité surprenante unit bientôt les deux hommes.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans une petite ville de province, Milan, un homme à l'allure étrange, descend d'un train, avec un sac de voyage pour unique bagage. En quête d'aspirine, il se rend aussitôt dans la pharmacie de la bourgade où il fait la connaissance de monsieur Manesquier, un professeur de français à la retraite. Le seul hôtel de la ville étant fermé, l'enseignant offre alors l'hospitalité au mystérieux voyageur. Manesquier, un vieux célibataire, est fasciné par son invité, qu'il interroge, se livrant lui aussi en retour. Une étonnante complicité unit bientôt ces deux hommes que tout oppose, et qui auraient pourtant chacun souhaité pouvoir mener la vie de l'autre...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un long métrage positivement surprenant qui vaut surtout par la présence du duo formé par Jean Rochefort et Johnny Hallyday. «L'Homme du train» comptait parmi les films sélectionnés lors du Festival de Venise, en 2002.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E1968365.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314699" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T14:55:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Dérapage</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="5445945" DATEMODIF="2016-05-20T20:16:38">
+        <TITREEMISSION>Dérapage</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="307" GENRESIMPLE="Film de suspense">Thriller</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Derailed</TITREORIGINAL>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>103</DUREEEMI>
+          <CENSURE CLE="12">Interdit aux moins de 12</CENSURE>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="294130">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hafström</NOM>
+            <PRENOM>Mikael</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="7108">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Owen</NOM>
+            <PRENOM>Clive</PRENOM>
+            <ROLE>Charles Schine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="51783">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aniston</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Lucinda Harris</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2983">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cassel</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>LaRoche</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="358923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Timlin</NOM>
+            <PRENOM>Addison</PRENOM>
+            <ROLE>Amy Schine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="118491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>George</NOM>
+            <PRENOM>Melissa</PRENOM>
+            <ROLE>Deanna Schine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="405075">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bee</NOM>
+            <PRENOM>Sandra</PRENOM>
+            <ROLE>la conductrice du train</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141661">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>RZA</NOM>
+            <ROLE>Winston Boyko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18155">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Esposito</NOM>
+            <PRENOM>Giancarlo</PRENOM>
+            <ROLE>l'inspecteur Church</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="258452">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Shearmur</NOM>
+            <PRENOM>Ed</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un homme tombe amoureux d'une femme rencontrée dans le train. Ils se retrouvent dans une chambre d'hôtel, où ils sont attaqués par un tueur.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ce matin-là, Charles rate de peu son train et se trouve obligé de prendre le suivant. C'est là qu'il rencontre la belle et troublante Lucinda. C'est le coup de foudre. Et pourtant, ils sont mariés l'un et l'autre et n'ont apparemment jamais trompé leurs conjoints. Peu après, ils se retrouvent dans une chambre d'hôtel. Un Français nommé LaRoche surgit brusquement. Armé, il a vite fait de tabasser Charles et de le dépouiller. Ensuite, sous ses yeux, il viole Lucinda. En partant, il menace Charles de faire du mal à sa famille s'il ne lui donne pas 100 000 dollars. C'est justement la somme que Charles avait économisée pour faire soigner sa fille diabétique...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un scénario très travaillé soutenu par une interprétation solide. Mis à part le dernier quart d'heure, un thriller réussi.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E5445945.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314700" DATEMODIF="2018-02-07T09:33:14">
+      <DATEHEURE>2018-02-15T16:40:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>A/K</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="104614514" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>A/K</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="153" GENRESIMPLE="Court métrage">Court métrage</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>12</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="61507">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Van Hoofstadt</NOM>
+            <PRENOM>Olivier</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1161202">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blaise</NOM>
+            <PRENOM>Ariane</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1184148">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dambrin</NOM>
+            <PRENOM>Maxime</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="284197">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maunier</NOM>
+            <PRENOM>Jean-Baptiste</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="591433">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Studer</NOM>
+            <PRENOM>Milena</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Kim et Anouk attendent un bus qui tarde à venir. Pour passer le temps, elles inventent une histoire, mettant en scène Ted, un policier cowboy, et Joe.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Kim et Anouk attendent un bus qui tarde à venir. Pour passer le temps, elles inventent une histoire, mettant en scène Ted, un policier cowboy, et Joe...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E104614514.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314701" DATEMODIF="2018-02-07T09:33:14">
+      <DATEHEURE>2018-02-15T16:50:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Augustine</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="42274755" DATEMODIF="2017-02-20T13:09:47">
+        <TITREEMISSION>Augustine</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>102</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="340481">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Winocour</NOM>
+            <PRENOM>Alice</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="16282">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lindon</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>le professeur Charcot</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="546154">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Soko</NOM>
+            <ROLE>Augustine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4867">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mastroianni</NOM>
+            <PRENOM>Chiara</PRENOM>
+            <ROLE>Constance Charcot</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8776">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rabourdin</NOM>
+            <PRENOM>Olivier</PRENOM>
+            <ROLE>Bourneville</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="565247">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duran</NOM>
+            <PRENOM>Roxane</PRENOM>
+            <ROLE>Rosalie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="214427">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ruzé</NOM>
+            <PRENOM>Ange</PRENOM>
+            <ROLE>Pierre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="388882">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lamétrie</NOM>
+            <PRENOM>Lise</PRENOM>
+            <ROLE>l'infirmière principale de la Salpêtrière</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="320534">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cattani</NOM>
+            <PRENOM>Sophie</PRENOM>
+            <ROLE>Blanche</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La relation particulière unissant le professeur Charcot, spécialisé dans le traitement de l'hystérie, et sa jeune patiente Augustine, internée à la Salpêtrière.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Durant l'hiver 1885, Augustine travaille avec Rosalie comme domestique pour le compte d'une famille bourgeoise parisienne. Au moment de servir le dîner, elle est prise convulsions et se jette au sol, incapable de contrôler son corps. La jeune femme de 19 ans est alors internée à la Salpêtrière, dans le service dirigé par le professeur Charcot, qui soigne les hystériques. Sous les yeux du spécialiste, Augustine fait une nouvelle crise, qui laisse une partie de son visage paralysée. Charcot lui accorde bientôt toute son attention et fait d'elle la vedette de ses démonstrations d'hypnose. Entre le médecin et sa patiente, une relation particulière se noue...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Pour son premier long métrage, Alice Winocour choisit un sujet original, l'hystérie féminine à la fin du XIXe siècle, qu'elle traite avec sobriété et élégance. Les prestations de Stéphanie Sokolinski et Vincent Lindon sont, elles aussi, remarquables.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E42274755.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314702" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T18:30:00</DATEHEURE>
+      <DUREE>135</DUREE>
+      <TITRE>Royal Affair</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="41713460" DATEMODIF="2015-12-10T10:30:36">
+        <TITREEMISSION>Royal Affair</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="182">
+          <PAYS>Danemark</PAYS>
+          <LIBELLE>danois</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>En kongelig affaere</TITREORIGINAL>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>137</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="432521">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Arcel</NOM>
+            <PRENOM>Nikolaj</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="107181">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mikkelsen</NOM>
+            <PRENOM>Mads</PRENOM>
+            <ROLE>Johann Friedrich Struensee</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="570220">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vikander</NOM>
+            <PRENOM>Alicia</PRENOM>
+            <ROLE>Caroline Mathilde</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="458504">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dencik</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Ove Hoegh-Guldberg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88789">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dyrholm</NOM>
+            <PRENOM>Trine</PRENOM>
+            <ROLE>Juliane Marie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="304672">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gabrielsson</NOM>
+            <PRENOM>Thomas W</PRENOM>
+            <ROLE>Schack Carl Rantzau</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="601484">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Folsgaard</NOM>
+            <PRENOM>Mikkel Boe</PRENOM>
+            <ROLE>Christian VII</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="557095">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nielsen</NOM>
+            <PRENOM>William Johnk</PRENOM>
+            <ROLE>Frederik VI</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="434108">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Melville</NOM>
+            <PRENOM>Cyron Bjorn</PRENOM>
+            <ROLE>Enevold Brandt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="382765">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Aufort</NOM>
+            <PRENOM>Cyrille</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="614">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Yared</NOM>
+            <PRENOM>Gabriel</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au XVIIIe siècle, au Danemark. Le roi étant mentalement instable, son médecin devient le régent officieux du royaume ainsi que l'amant de la reine.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Depuis 1766, le roi Christian VII règne sur le Danemark. Mais son instabilité mentale le rend incapable d'exercer sa charge. Pour essayer de le soigner, il est fait appel au docteur Struensee, praticien imprégné des idées révolutionnaires des Lumières. La maladie de son patient fait du médecin un intime de la famille. Il devient l'amant de la reine, Caroline Mathilde, à qui l'immature roi Christian ne portait guère d'attention, préférant fréquenter les maisons closes. Struensee va distraire et manipuler le monarque, rallier la reine à ses idées et la pousser à guider le royaume sur la voie d'importantes réformes sociales, vingt ans avant la révolution française...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un drame historique qui permet de découvrir l'histoire méconnue du royaume du Danemark.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E41713460.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314703" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T20:45:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Diana</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="67422931" DATEMODIF="2017-08-29T23:18:23">
+        <TITREEMISSION>Diana</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="110" GENRESIMPLE="Film historique">Biographie</GENRE>
+        <NATIONALITE CLE="130">
+          <PAYS>Grande-Bretagne - France</PAYS>
+          <LIBELLE>britannico-française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Diana</TITREORIGINAL>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>113</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="25947">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hirschbiegel</NOM>
+            <PRENOM>Oliver</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="28154">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Watts</NOM>
+            <PRENOM>Naomi</PRENOM>
+            <ROLE>la princesse Diana</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="34208">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Andrews</NOM>
+            <PRENOM>Naveen</PRENOM>
+            <ROLE>Hasnat Khan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19943">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hodge</NOM>
+            <PRENOM>Douglas</PRENOM>
+            <ROLE>Paul Burrell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>James</NOM>
+            <PRENOM>Geraldine</PRENOM>
+            <ROLE>Oonagh Toffolo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298169">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Edwards</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Patrick Jephson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="587398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pirrie</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Jason Fraser</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="81117">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Anvar</NOM>
+            <PRENOM>Cas</PRENOM>
+            <ROLE>Dodi Al-Fayed</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4600">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stevenson</NOM>
+            <PRENOM>Juliet</PRENOM>
+            <ROLE>Sonia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1133123">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Ciancia</NOM>
+            <PRENOM>Keefus</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="86227">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Holmes</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Deux ans avant de mourir à Paris dans un accident de voiture, lady Diana Spencer entame une liaison avec Hasnat Khan, un chirurgien-cardiologue.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>On l'appelait la Princesse du peuple. Adulée en Grande-Bretagne, idole de la presse people, lady Diana Spencer meurt dans un accident de voiture sous le pont de l'Alma, le 31 août 1997. Elle était accompagnée de Dodi Al-fayed, amant supposé et fils du propriétaire du Ritz, où elle séjournait à Paris. Les deux années qui précèdent son décès sont particulièrement douloureuses pour elle, marquées par son divorce d'avec le prince Charles. Elle trouve alors du réconfort auprès de Hasnat Khan, un chirurgien pakistanais. Leur histoire s'épanouit tandis qu'elle s'implique de plus en plus dans le combat contre les mines antipersonnels. Mais quand leur liaison est révélée dans la presse, Diana doit faire un choix...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Naomi Watts tire son épingle du jeu dans ce portrait sans relief de la princesse Diana, pourtant signé par le réalisateur de «La Chute».</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E67422931.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314704" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-15T22:30:00</DATEHEURE>
+      <DUREE>125</DUREE>
+      <TITRE>Mon roi</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="84608949" DATEMODIF="2017-04-11T15:14:33">
+        <TITREEMISSION>Mon roi</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>124</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+          <PALMARES>
+            <ANNEE>2015</ANNEE>
+            <FESTIVAL CLE="1">
+              <NOM>Festival International du Film de Cannes</NOM>
+              <LIEU>Cannes</LIEU>
+              <PAYS>France</PAYS>
+              <PARTICIPANT>
+                <PERSONNE CLE="24614">
+                  <NOM>Bercot</NOM>
+                  <PRENOM>Emmanuelle</PRENOM>
+                </PERSONNE>
+                <RECOMPENSE CLE="4">Prix d'interprétation féminine</RECOMPENSE>
+              </PARTICIPANT>
+            </FESTIVAL>
+          </PALMARES>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="563526">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Maïwenn</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="2983">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cassel</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>Georgio</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24614">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bercot</NOM>
+            <PRENOM>Emmanuelle</PRENOM>
+            <ROLE>Tony</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="217686">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garrel</NOM>
+            <PRENOM>Louis</PRENOM>
+            <ROLE>Solal</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="154871">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Besco</NOM>
+            <PRENOM>Isild</PRENOM>
+            <ROLE>Babeth</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="613736">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thavaud</NOM>
+            <PRENOM>Norman</PRENOM>
+            <ROLE>Nico</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="628631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hamy</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>Pascal</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1271372">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Saint Louis Augustin</NOM>
+            <PRENOM>Chrystèle</PRENOM>
+            <ROLE>Agnès</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raynal</NOM>
+            <PRENOM>Patrick</PRENOM>
+            <ROLE>Denis Jézéquel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="64333">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Warbeck</NOM>
+            <PRENOM>Stephen</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En séjour de rééducation après une chute de ski, une jeune femme se souvient de sa rencontre et de sa relation avec un homme aussi séduisant que manipulateur.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Tony vient d'être admise dans un centre de rééducation sportif après une chute de ski. Lors d'un entretien avec la psychologue de l'établissement, la jeune femme accepte l'idée que sa blessure au genou, qui nécessitera une longue et difficile rééducation, est probablement liée à l'état dans lequel elle se trouve. Tony se remémore alors les dernières années : elle se souvient d'abord de sa rencontre, au cours d'une soirée, avec Georgio, un restaurateur séduisant et impulsif. Au départ conquise par ce personnage hors norme, elle constate peu à peu qu'il peut se montrer aussi égoïste que manipulateur...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film présenté en compétition au Festival de Cannes en 2015, lors duquel Emmanuelle Bercot a reçu le Prix d'interprétation féminine.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E84608949.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314705" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-16T00:35:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Eperdument</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="98397162" DATEMODIF="2017-05-15T16:34:12">
+        <TITREEMISSION>Eperdument</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>110</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="629185">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Godeau</NOM>
+            <PRENOM>Pierre</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="172443">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gallienne</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Jean Firmino</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="460407">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Exarchopoulos</NOM>
+            <PRENOM>Adèle</PRENOM>
+            <ROLE>Anna Amari</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1202018">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cléau</NOM>
+            <PRENOM>Stéphanie</PRENOM>
+            <ROLE>Elise Firmino</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1284704">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Poisson</NOM>
+            <PRENOM>Aliénor</PRENOM>
+            <ROLE>Louise firmino</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1284705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martinez</NOM>
+            <PRENOM>Cyrielle</PRENOM>
+            <ROLE>Zoé</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1284706">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mansouri</NOM>
+            <PRENOM>Selma</PRENOM>
+            <ROLE>Sonia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="514781">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moussadek</NOM>
+            <PRENOM>Sabila</PRENOM>
+            <ROLE>Aïda</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18475">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rivière</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>la mère d'Anna</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="350636">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Rob</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une jeune femme est incarcérée en attendant son procès. Très vite, elle entretient une liaison avec le directeur de la prison. Leurs vies basculent.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Anna Amari est incarcérée en attendant la tenue de son procès. La jeune femme, condamnée pour un crime qu'elle a commis alors qu'elle était encore mineure, s'entretient rapidement avec Jean Firmino, le directeur de la prison. Celui-ci lui propose, en plus de son travail, de s'occuper de la gestion informatique d'un programme novateur. Une complicité s'installe rapidement entre Anna et Jean. Mais cette complicité se transforme vite en attirance, à laquelle ils cèdent. Jean, obsédé par la jeune femme, fait tout pour passer le plus de temps possible avec elle. Dans la prison, beaucoup se doutent de leur relation...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Si les deux acteurs principaux sont irréprochables, on ne peut en dire autant du scénario, qui bride quelque peu le film.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E98397162.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171314706" DATEMODIF="2018-02-07T09:33:13">
+      <DATEHEURE>2018-02-16T02:20:00</DATEHEURE>
+      <DUREE>169</DUREE>
+      <TITRE>Tess</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="63978" DATEMODIF="2016-07-21T15:32:52">
+        <TITREEMISSION>Tess</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="232">
+          <PAYS>France - Grande-Bretagne</PAYS>
+          <LIBELLE>franco-britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Tess</TITREORIGINAL>
+          <ANNEEREALISATION>1979</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>164</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+          <PALMARES>
+            <ANNEE>1980</ANNEE>
+            <FESTIVAL CLE="23">
+              <NOM>César</NOM>
+              <PAYS>France</PAYS>
+              <RECOMPENSE CLE="24">Meilleur Film</RECOMPENSE>
+              <PARTICIPANT>
+                <PERSONNE CLE="12776">
+                  <NOM>Polanski</NOM>
+                  <PRENOM>Roman</PRENOM>
+                </PERSONNE>
+                <RECOMPENSE CLE="25">Meilleur Réalisateur</RECOMPENSE>
+              </PARTICIPANT>
+            </FESTIVAL>
+          </PALMARES>
+          <PALMARES>
+            <ANNEE>1981</ANNEE>
+            <FESTIVAL CLE="47">
+              <NOM>Golden Globes Awards</NOM>
+              <PAYS>Etats-Unis</PAYS>
+              <RECOMPENSE CLE="54">Meilleur film en langue étrangère</RECOMPENSE>
+            </FESTIVAL>
+          </PALMARES>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="12776">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Polanski</NOM>
+            <PRENOM>Roman</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="9136">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kinski</NOM>
+            <PRENOM>Nastassja</PRENOM>
+            <ROLE>Tess</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13583">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Firth</NOM>
+            <PRENOM>Peter</PRENOM>
+            <ROLE>Angel Clare</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3812">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lawson</NOM>
+            <PRENOM>Leigh</PRENOM>
+            <ROLE>Alec d'Urberville</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73098">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Collin</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>John Durbeyfield</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73099">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martin</NOM>
+            <PRENOM>Rosemary</PRENOM>
+            <ROLE>madame Durbeyfield</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73100">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Church</NOM>
+            <PRENOM>Tony</PRENOM>
+            <ROLE>le pasteur Tringham</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="64614">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bett</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Felix Clare</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219632">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pearson</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>le pasteur Marlott</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="257908">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Sarde</NOM>
+            <PRENOM>Philippe</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans l'Angleterre du XIXe siècle, une jeune fille innocente, abusée par un séducteur, perd l'amour de son mari et sombre dans la déchéance et le crime.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En Angleterre, à la fin du XIXe siècle. Le pasteur Marlott révèle à John Durbeyfield, un paysan ignare et misérable, qu'il est apparenté, ainsi que le prouve son nom de famille, à la noble et riche famille d'Urberville. John perçoit aussitôt les avantages qu'il peut tirer de cette nouvelle situation et décide d'envoyer sans tarder sa fille Tess au manoir de Trantridge. Quelque peu surpris de se découvrir soudain une cousine jusque-là inconnue, les d'Urberville acceptent finalement d'accueillir Tess, mais la relèguent au rang de vulgaire domestique. Séduite par Alec d'Urberville, Tess attend bientôt un enfant de lui. Elle en cache la naissance dans la maison de ses parents, mais le nourrisson meurt en bas âge...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Thomas Hardy adapté par Polanski. Entre la fresque sociale et le lyrisme brûlant, le film balance, indécis. De belles envolées dans un océan de langueur distinguée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E63978.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

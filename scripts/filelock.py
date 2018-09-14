@@ -1,3 +1,13 @@
+#################################################
+#created the 25/04/2018 15:41 by Alexis Blanchet#
+#################################################
+#-*- coding: utf-8 -*-
+'''
+Bon aller! j'avoue! ce fichier n'est pas du tout de moi.
+MERCI STACK OVERFLOW! Merci pour mon diplôme et tout le reste!
+'''
+
+
 import os
 import time
 import errno

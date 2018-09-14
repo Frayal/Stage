@@ -1,0 +1,1779 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:06:38-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="88">
+    <NOMCHAINE>Histoire</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-17">
+    <DIFFUSION CLEDIF="171648355" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T06:40:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Les heures chaudes de Montparnasse</TITRE>
+      <SOUSTITREDIF>Enquête sur la vie, l'oeuvre et de destin de Modigliani</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="103693" DATEMODIF="2013-07-13T11:27:53">
+        <TITREEMISSION>Les heures chaudes de Montparnasse</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="1826534">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Les heures chaudes de Montparnasse</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Enquête sur la vie, l'oeuvre et de destin de Modigliani</SOUSTITRE>
+          <ANNEEREALISATION>1992</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>14</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="93306">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Drot</NOM>
+            <PRENOM>Jean-Marie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La vie du peintre Modigliani a souvent donné lieu à des affabulations, des mensonges et des mythes : ceux qui l'ont côtoyé tentent de rétablir la vérité.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Qui fut Modigliani, né en 1884 à Livourne, dans une famille de banquiers, mort en 1920 à Paris, après une tumultueuse carrière de peintre maudit ? Blaise Cendrars, André Salmon, Léopold Lévy, Jean Cocteau, madame Sauvage, Pierre Bertin et Jeanne Modigliani tentent de rétablir une certaine vérité sur la vie et l'oeuvre du maître.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E103693.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648356" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T07:30:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Notes d'histoire</TITRE>
+      <SOUSTITREDIF>«Noël à la cour», Robert Rocca</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="101375807" DATEMODIF="2016-01-28T10:20:39">
+        <TITREEMISSION>Notes d'histoire</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="400" GENRESIMPLE="Magazine culturel">Magazine historique</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="18118680">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Notes d'histoire</NOM>
+          </COLLECTION>
+          <SOUSTITRE>«Noël à la cour», Robert Rocca</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="19059">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bourseiller</NOM>
+            <PRENOM>Christophe</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>De «La Complainte de Mandrin» au «Chant des partisans», de «Pauvre Jacques» au «Temps des cerises», la genèse de chansons liées à l'Histoire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C101375807.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648357" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T07:40:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Histoire de comprendre</TITRE>
+      <SOUSTITREDIF>Portugal 1974 : la révolution des oeillets</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2548127" DATEMODIF="2012-05-25T09:55:25">
+        <TITREEMISSION>Histoire de comprendre </TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5386">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Histoire de comprendre</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Portugal 1974 : la révolution des oeillets</SOUSTITRE>
+          <ANNEEREALISATION>1997</ANNEEREALISATION>
+          <DUREEEMI>13</DUREEEMI>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>36</NUMERO>
+            <NOMBRE>80</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="94007">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Mugnerot</NOM>
+            <PRENOM>Robert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le 25 avril 1974, au Portugal, un putsch, mené par de jeunes officiers commandés par Antonio Spinola, renverse Marcello Caetano, successeur de Salazar.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Au Portugal, la révolution des Oeillets, largement soutenue par la population, met fin à une dictature de plus de quarante ans. Grâce à des documents d'archives inédits et au témoignage d'Otelo Carvalho, leader de la gauche révolutionnaire, une reconstitution de ces folles journées et une analyse des faits.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648358" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T07:55:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Historiquement show</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125392069" DATEMODIF="2018-01-25T16:56:10">
+        <TITREEMISSION>Historiquement show</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="400" GENRESIMPLE="Magazine culturel">Magazine historique</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2175200">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Historiquement Show</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="626966">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Buisson</NOM>
+            <PRENOM>Jean-Christophe</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission sur les faits historiques animée par Jean-Christophe Buisson : livres, films, expositions sont décortiqués par des spécialistes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125392069.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648359" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T08:40:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Mad Men : les hommes de la pub</TITRE>
+      <SOUSTITREDIF>Les années 1950</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125148068" DATEMODIF="2018-01-24T14:45:24">
+        <TITREEMISSION>Mad Men : les hommes de la pub</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="972" GENRESIMPLE="Documentaire de société">Economie</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30088530">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Mad Men : les hommes de la pub</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Real Mad Men of Advertising</TITREORIGINAL>
+          <SOUSTITRE>Les années 1950</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>50</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>4</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="588521">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hermann</NOM>
+            <PRENOM>Molly</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="588521">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Hermann</NOM>
+            <PRENOM>Molly</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les «vrais» Mad Men de la publicité de Madison Avenue et les créateurs de la série décortiquent la création de la culture de consommation américaine des années 50.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Au sortir de la Seconde Guerre mondiale, la publicité évolue et vante de nouvelles technologies : voitures futuristes et électroménager high-tech envahissent les encarts. La consommation enregistre une très nette hausse.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125148068.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648360" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T09:35:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Les Seventies</TITRE>
+      <SOUSTITREDIF>Crimes et sectes</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="107057693" DATEMODIF="2017-07-11T10:19:41">
+        <TITREEMISSION>Les Seventies</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="21948006">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Les Seventies</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Seventies</TITREORIGINAL>
+          <SOUSTITRE>Crimes et sectes</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>8</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les tragédies liées à la famille Manson, ainsi qu'au tueur en série surnommé le Zodiac, plongent les Etats-Unis dans la peur et la crainte des crimes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E107057693.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648361" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T10:20:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>24 heures en 1913</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="72294879" DATEMODIF="2017-01-05T15:48:23">
+        <TITREEMISSION>24 heures en 1913</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="103619">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bergère</NOM>
+            <PRENOM>Sylvain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="103619">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Bergère</NOM>
+            <PRENOM>Sylvain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1201210">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Gautier</NOM>
+            <PRENOM>Benoît</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une immersion dans le quotidien et l'art de vivre des années 1910 : une époque qui clôt le XIXe siècle avant le traumatisme de la Grande Guerre.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La Belle Epoque a la passion du style. Des villes comme Paris s'ouvrent à la flânerie et au commerce, dont les grands magasins signent le triomphe. Les lieux de villégiature, que l'on rallie désormais en train, en paquebot ou même en automobile, inventent le tourisme. Des produits de beauté industriels font leur apparition. De nouvelles marques partent à la conquête de marchés internationaux. La haute couture, elle, s'internationalise, communique par la publicité, se représente au théâtre, dans la littérature, la peinture, le cinéma. Personne ne se doute de la catastrophe à venir. Films amateurs, actualités, photos et archives font revivre cette ambiance insouciante.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E72294879.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648362" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T11:15:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Saint Colomban, le chemin européen</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="110853038" DATEMODIF="2016-11-09T17:08:42">
+        <TITREEMISSION>Saint Colomban, le chemin européen</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="457">
+          <PAYS>Irlande</PAYS>
+          <LIBELLE>irlandais</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>50</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1315373">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>McGrath</NOM>
+            <PRENOM>Declan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'oeuvre évangélique du moine irlandais Colomban de Luxeuil a été capitale dans l'Europe du VIe siècle après les troubles apportés par les invasions germaniques.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E110853038.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648363" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T12:15:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Elizabeth I</TITRE>
+      <SOUSTITREDIF>Bataille pour un trône</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125392193" DATEMODIF="2018-01-19T23:10:47">
+        <TITREEMISSION>Elizabeth I</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1030" GENRESIMPLE="Documentaire">fiction</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30087298">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Elizabeth I</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Elizabeth I</TITREORIGINAL>
+          <SOUSTITRE>Bataille pour un trône</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>3</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1360477">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Holt</NOM>
+            <PRENOM>Christopher</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1360477">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Holt</NOM>
+            <PRENOM>Christopher</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="206123">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Jones</NOM>
+            <PRENOM>Dan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les historiens Suzannah Lipscomb et Dan Jones font revivre la vie de la souveraine Elizabeth Ire d'Angleterre et son parcours parsemé de jalousies et de tragédies.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125392193.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648364" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T13:05:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Notes d'histoire</TITRE>
+      <SOUSTITREDIF>«Noël à la cour», Robert Rocca</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="101375807" DATEMODIF="2016-01-28T10:20:39">
+        <TITREEMISSION>Notes d'histoire</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="400" GENRESIMPLE="Magazine culturel">Magazine historique</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="18118680">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Notes d'histoire</NOM>
+          </COLLECTION>
+          <SOUSTITRE>«Noël à la cour», Robert Rocca</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="19059">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bourseiller</NOM>
+            <PRENOM>Christophe</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>De «La Complainte de Mandrin» au «Chant des partisans», de «Pauvre Jacques» au «Temps des cerises», la genèse de chansons liées à l'Histoire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C101375807.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172194002" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T13:30:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>L'homme qui a fait tomber Nixon</TITRE>
+      <SOUSTITREDIF>Daniel Ellsberg et les dossiers secrets du Pentagone</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="15254828" DATEMODIF="2015-01-06T08:54:24">
+        <TITREEMISSION>L'homme qui a fait tomber Nixon</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="155">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <TITREORIGINAL>The Most Dangerous Man in America</TITREORIGINAL>
+          <SOUSTITRE>Daniel Ellsberg et les dossiers secrets du Pentagone</SOUSTITRE>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <DUREEEMI>90</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="528153">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Ehrlich</NOM>
+            <PRENOM>Judith</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="528154">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Goldsmith</NOM>
+            <PRENOM>Rick</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Comment, grâce au conseiller du Pentagone Daniel Ellsberg, les Américains ont appris que Eisenhower, Kennedy, Johnson et Nixon avaient menti sur le Viêtnam.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En 1971, Daniel Ellsberg, un brillant analyste employé comme consultant par le Pentagone, fait parvenir au New York Times un rapport confidentiel de 7000 pages sur la guerre du Viêtnam. Ces documents, Ellsberg les a photocopiés avec ses deux enfants pendant des nuits entières. Ils mettent directement en cause l'intégrité des gouvernements Eisenhower, Kennedy et Johnson, qui ont accumulé les mensonges pour poursuivre une guerre qu'ils savaient perdue d'avance. Le rapport montre aussi que les Etats-Unis s'enfoncent encore davantage dans le conflit avec Richard Nixon, même si celui-ci affirme le contraire. Ces révélations font l'effet d'une bombe. En l'espace de quelques jours, tandis que se profile une véritable bataille constitutionnelle, Daniel Ellsberg devient l'homme le plus recherché en Amérique.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E15254828.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648367" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T15:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Chine, «Justes parmi les nations»</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="109789372" DATEMODIF="2016-10-28T15:07:36">
+        <TITREEMISSION>Chine, «Justes parmi les nations»</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <TITREORIGINAL>China im 2. Weltkrieg - Die unbekannten Tagebücher</TITREORIGINAL>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="165594">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Talley</NOM>
+            <PRENOM>Steven R</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A la fin des années 1930, le diplomate chinois Feng Shan Ho, horrifié par la persécution des juifs, fournit des visas pour leur permettre de fuir les persécutions nazies.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E109789372.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648368" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T16:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Mad Men : les hommes de la pub</TITRE>
+      <SOUSTITREDIF>Les années 1960</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125393405" DATEMODIF="2018-01-26T10:31:27">
+        <TITREEMISSION>Mad Men : les hommes de la pub</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="972" GENRESIMPLE="Documentaire de société">Economie</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30088530">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Mad Men : les hommes de la pub</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Real Mad Men of Advertising</TITREORIGINAL>
+          <SOUSTITRE>Les années 1960</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>50</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>4</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="588521">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hermann</NOM>
+            <PRENOM>Molly</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="588521">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Hermann</NOM>
+            <PRENOM>Molly</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans les années 1960, les publicitaires utilisent l'ironie et une certaine forme de finesse pour relancer et révolutionner l'art de la communication.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125393405.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648369" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T17:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Ex-hôtesse des sixties</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="76361747" DATEMODIF="2016-10-25T10:54:56">
+        <TITREEMISSION>Ex-hôtesse des sixties</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <TITREORIGINAL>I Was a Jet Set Stewardess</TITREORIGINAL>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1220460">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Harding</NOM>
+            <PRENOM>Joe</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des ex-hôtesses des sixties de la British Overseas Airways Corporation et de la British European Airways racontent cette période à la fois glamour et stylée.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Avant l'ère des vols low cost, le métier d'hôtesse de l'air était aussi glamour que celui d'actrice. En compagnie de celles qui ont fait les grandes heures de l'aviation civile britannique, ce documentaire évoque l'âge d'or de la profession : l'abandon d'un style martial hérité de la guerre au profit d'un autre, plus décontracté, imprégné de pop culture.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E76361747.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648370" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T17:50:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Napoléon, la campagne de Russie</TITRE>
+      <SOUSTITREDIF>La Moscova</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="87474884" DATEMODIF="2017-04-07T11:58:31">
+        <TITREEMISSION>Napoléon, la campagne de Russie</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1030" GENRESIMPLE="Documentaire">fiction</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="15195144">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Napoléon, la campagne de Russie</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La Moscova</SOUSTITRE>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="402368">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hourlier</NOM>
+            <PRENOM>Fabrice</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 1812, Napoléon mobilise la plus grande armée de l'histoire européenne pour envahir la Russie ; son but : forcer son ancien allié à appliquer le blocus contre les Anglais.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>1811. La Russie et la France sont alliées, mais Napoléon reproche au tsar Alexandre Ier sa politique commerciale favorable aux Anglais. Voulant, à terme, affaiblir ses ennemis jurés d'outre-Manche, Napoléon prépare une guerre punitive contre la Russie, qu'il espère ramener à la raison en deux mois. Juin 1812 : la plus grande armée jamais vue dans l'histoire européenne pénètre sur la terre des tsars. Mais les Russes refusent le combat et reculent, pratiquant la politique de la terre brûlée pour épuiser et affamer l'envahisseur. Les Français arrivent en vue de Moscou sans avoir obtenu la victoire diplomatique attendue.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E87474884.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648371" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T18:45:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Historiquement show</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125392069" DATEMODIF="2018-01-25T16:56:10">
+        <TITREEMISSION>Historiquement show</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="400" GENRESIMPLE="Magazine culturel">Magazine historique</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2175200">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Historiquement Show</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="626966">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Buisson</NOM>
+            <PRENOM>Jean-Christophe</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission sur les faits historiques animée par Jean-Christophe Buisson : livres, films, expositions sont décortiqués par des spécialistes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125392069.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648372" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T19:25:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Notes d'histoire</TITRE>
+      <SOUSTITREDIF>«Mes belles amourettes», Nana Mouskouri</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="101375805" DATEMODIF="2016-01-21T15:40:04">
+        <TITREEMISSION>Notes d'histoire</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="400" GENRESIMPLE="Magazine culturel">Magazine historique</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="18118680">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Notes d'histoire</NOM>
+          </COLLECTION>
+          <SOUSTITRE>«Mes belles amourettes», Nana Mouskouri</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="19059">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bourseiller</NOM>
+            <PRENOM>Christophe</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>De «La Complainte de Mandrin» au «Chant des partisans», de «Pauvre Jacques» au «Temps des cerises», la genèse de chansons liées à l'Histoire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C101375805.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648373" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T19:35:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>William Dobson, la guerre civile en peintures</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="108793864" DATEMODIF="2016-09-08T09:19:55">
+        <TITREEMISSION>William Dobson, la guerre civile en peintures</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <TITREORIGINAL>A Call to Arms</TITREORIGINAL>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <DUREEEMI>50</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="557251">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Januszczak</NOM>
+            <PRENOM>Waldemar</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Pour Waldemar Januszczak, William Dobson (1610-1646) a été le premier peintre anglais de génie, pendant la période de la guerre civile britannique.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E108793864.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648374" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T20:40:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Le rêve inachevé de Léonard de Vinci</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="93941984" DATEMODIF="2017-06-02T23:02:55">
+        <TITREEMISSION>Le rêve inachevé de Léonard de Vinci</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="519876">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Foch</NOM>
+            <PRENOM>Patrick</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A travers l'Europe, historiens, archéologues et architectes enquêtent sur l'énigme du Palais Royal de Romarantin, commandé par François 1er à Léonard de Vinci.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E93941984.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648375" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T21:35:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Les Beaux-Arts, effervescence dans la ville</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="96701110" DATEMODIF="2017-07-23T23:19:17">
+        <TITREEMISSION>Les Beaux-Arts, effervescence dans la ville</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="361" GENRESIMPLE="Documentaire culturel">Culture</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>53</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="585959">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Paugam</NOM>
+            <PRENOM>Sandra</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="585959">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Paugam</NOM>
+            <PRENOM>Sandra</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Rencontre avec des élèves de l'école des Beaux-arts de Paris, à Saint-Germain-des-Prés, qui réunit des bâtiments de diverses époques et de styles différents.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E96701110.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648376" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T22:30:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Amours en temps de guerre</TITRE>
+      <SOUSTITREDIF>Retour à la terre</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="48978688" DATEMODIF="2016-05-13T15:33:47">
+        <TITREEMISSION>Amours en temps de guerre</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="10393741">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Amours en temps de guerre</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Love and War</TITREORIGINAL>
+          <SOUSTITRE>Retour à la terre</SOUSTITRE>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <DUREEEMI>23</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="38786">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Williams</NOM>
+            <PRENOM>Peter</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des soldats, des résistants, des civils, hommes ou femmes, se confient sur la manière dont ils ont pu vivre une passion ou une séparation en période de guerre.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E48978688.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648377" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-17T22:55:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Karsh, un regard sur l'histoire</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="24145555" DATEMODIF="2017-01-30T09:51:15">
+        <TITREEMISSION>Karsh, un regard sur l'histoire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="155">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="556144">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hilel</NOM>
+            <PRENOM>Joseph</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Canadien d'origine arménienne, Yousuf Karsh fut l'un des grands portraitistes du XXe siècle : il a constitué un album de plus de 15 000 clichés.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E24145555.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648378" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-18T00:00:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Enquêtes royales</TITRE>
+      <SOUSTITREDIF>Louis II de Bavière : le roi fou</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125393099" DATEMODIF="2018-01-26T10:11:40">
+        <TITREEMISSION>Enquêtes royales</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1112" GENRESIMPLE="Documentaire">Justice</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="8006618">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Enquêtes royales</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Royal Murder Mysteries</TITREORIGINAL>
+          <SOUSTITRE>Louis II de Bavière : le roi fou</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>50</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>4</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une enquête approfondie sur le décès du roi Louis II de Bavière à la psychologie fragile, passionné d'architecture, adepte de dépenses pharaoniques.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125393099.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648379" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-18T00:55:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Boris Eltsine</TITRE>
+      <SOUSTITREDIF>L'enfance d'un chef</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="277378" DATEMODIF="2015-01-06T08:54:24">
+        <TITREEMISSION>Boris Eltsine</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <SOUSTITRE>L'enfance d'un chef</SOUSTITRE>
+          <ANNEEREALISATION>2001</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="174568">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Alfandari</NOM>
+            <PRENOM>Alante</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="93481">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Leconte</NOM>
+            <PRENOM>Daniel</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Du héros incontesté, responsable de la chute de l'Empire soviétique, au despote corrompu et alcoolique : retour sur le parcours de Boris Eltsine, disparu le 23 avril 2007.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>1991 : le putsch des nostalgiques du communisme échoue à Moscou. A la tête de la résistance, un homme, Boris Eltsine, Président de la Fédération de Russie. Fin des années 50 : un jeune ingénieur des travaux publics, parfois colérique mais enthousiaste, est nommé à la tête du combinat de Sverdlosk. Pour les besoins de sa réussite, il commence une carrière d'apparatchik au sein du parti communiste. A l'occasion, il n'hésite pas à critiquer les incohérences de la bureaucratie soviétique. En 1984, après de longues hésitations, le nouveau secrétaire général du parti communiste russe, Michaël Gorbatchev, appelle Boris Eltsine au bureau politique moscovite. Celui-ci se fait rapidement exclure mais, le moment venu, il sait profiter de son image de victime. Sa carrière politique commence alors véritablement.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E277378.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648380" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-18T01:55:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Hemingway inconnu, les années italiennes</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="89800456" DATEMODIF="2017-12-20T14:43:47">
+        <TITREEMISSION>Hemingway inconnu, les années italiennes</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="361" GENRESIMPLE="Documentaire culturel">Culture</GENRE>
+        <NATIONALITE CLE="467">
+          <PAYS>Italie</PAYS>
+          <LIBELLE>italien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1248905">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Pittarello</NOM>
+            <PRENOM>Nicola</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1248906">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Carbonera</NOM>
+            <PRENOM>Renzo</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1248906">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Carbonera</NOM>
+            <PRENOM>Renzo</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Ernest Hemingway, l'écrivain voyageur, évoque Cuba, Paris, l'Afrique, l'Italie, les guerres civiles et les conflits mondiaux, la fascination des femmes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648381" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-18T02:45:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Historiquement show</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125392069" DATEMODIF="2018-01-25T16:56:10">
+        <TITREEMISSION>Historiquement show</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="400" GENRESIMPLE="Magazine culturel">Magazine historique</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2175200">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Historiquement Show</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="626966">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Buisson</NOM>
+            <PRENOM>Jean-Christophe</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission sur les faits historiques animée par Jean-Christophe Buisson : livres, films, expositions sont décortiqués par des spécialistes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125392069.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648382" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-18T03:25:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Histoire de comprendre</TITRE>
+      <SOUSTITREDIF>Reykjavik 1986, la fin de la guerre froide</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125265" DATEMODIF="2012-01-27T11:50:24">
+        <TITREEMISSION>Histoire de comprendre </TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5386">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Histoire de comprendre</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Reykjavik 1986, la fin de la guerre froide</SOUSTITRE>
+          <ANNEEREALISATION>1997</ANNEEREALISATION>
+          <DUREEEMI>13</DUREEEMI>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>34</NUMERO>
+            <NOMBRE>80</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="94007">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Mugnerot</NOM>
+            <PRENOM>Robert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Contre toute attente, le sommet de Reykjavik, en 1986, a permis de mettre un terme à la guerre froide à laquelle se livraient les blocs américain et russe.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171649283" DATEMODIF="2018-02-06T16:26:49">
+      <DATEHEURE>2018-02-18T03:40:00</DATEHEURE>
+      <DUREE>125</DUREE>
+      <TITRE>Fin des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125622786" DATEMODIF="2018-01-26T10:43:25">
+        <TITREEMISSION>Fin des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

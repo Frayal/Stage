@@ -1,0 +1,1631 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:14:52-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="192">
+    <NOMCHAINE>TF1</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-11">
+    <DIFFUSION CLEDIF="171485626" DATEMODIF="2018-01-25T16:48:32">
+      <DATEHEURE>2018-02-11T06:30:00</DATEHEURE>
+      <DUREE>230</DUREE>
+      <TITRE>TFou</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125506572" DATEMODIF="2018-01-30T16:48:31">
+        <TITREEMISSION>TFou</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="403" GENRESIMPLE="Magazine jeunesse">Magazine jeunesse</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6999">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / TFou</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Julius Jr</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Chuggington</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Ranger Rob</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Rusty Rivets</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>La tribu Monchhichi</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Les enquêtes de Mirette</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>Oum le dauphin blanc</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="8">
+            <LETEXTE />
+            <SOUSTITRE>Robin des bois</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="9">
+            <LETEXTE />
+            <SOUSTITRE>Les Légendaires</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125506572.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171478266" DATEMODIF="2018-01-30T16:46:57">
+      <DATEHEURE>2018-02-11T10:20:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Automoto</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Une émission dédiée aux amateurs d'auto et de moto, avec les rubriques habituelles. Au sommaire : Grand format. -  No limit. - Plein phare. - Essais. - 200 Chrono conso.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125506198" DATEMODIF="2018-01-30T16:46:57">
+        <TITREEMISSION>Automoto</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="921" GENRESIMPLE="Magazine sportif">Sports mécaniques</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125506198.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="208799">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Brogniart</NOM>
+          <PRENOM>Denis</PRENOM>
+        </PERSONNE>
+        <PERSONNE CLE="600066">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Jollès-Grosjean</NOM>
+          <PRENOM>Marion</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171478267" DATEMODIF="2018-01-30T16:47:48">
+      <DATEHEURE>2018-02-11T11:05:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Téléfoot</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Une émission pour les amateurs de ballon rond, avec des informations, des décryptages, des analyses, des commentaires et des reportages exclusifs.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125506199" DATEMODIF="2018-01-30T16:47:48">
+        <TITREEMISSION>Téléfoot</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125506199.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="101640">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Jeanpierre</NOM>
+          <PRENOM>Christian</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485627" DATEMODIF="2018-01-25T16:48:32">
+      <DATEHEURE>2018-02-11T11:55:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>L'affiche du jour</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125506649" DATEMODIF="2018-01-25T16:48:32">
+        <TITREEMISSION>L'affiche du jour</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="424" GENRESIMPLE="Magazine sportif">Magazine sportif</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3201344">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'affiche du jour</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="600066">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Jollès-Grosjean</NOM>
+            <PRENOM>Marion</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="101640">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Jeanpierre</NOM>
+            <PRENOM>Christian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un consultant raconte une histoire autour d'une rencontre sportive.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125506649.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485628" DATEMODIF="2018-01-25T16:48:32">
+      <DATEHEURE>2018-02-11T12:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Les douze coups de midi</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125506650" DATEMODIF="2018-01-25T16:48:32">
+        <TITREEMISSION>Les douze coups de midi</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="950" GENRESIMPLE="Jeu">Jeu</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="4188704">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les douze coups de midi</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="125961">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Reichmann</NOM>
+            <PRENOM>Jean-Luc</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Chaque jour, des candidats tentent de répondre à des questions ludiques et culturelles afin de gagner jusqu'à 30 000 euros. Mais attention, ils devront avoir décroché la mystérieuse étoile aux cadeaux avant que ne retentissent «Les Douze Coups de midi».</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125506650.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485629" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T12:50:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125506651" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <PHOTO>IPTV_C125506651.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485630" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T12:55:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Du côté de chez vous</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125506652" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>Du côté de chez vous</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="1104" GENRESIMPLE="Magazine de l'art de vivre">Magazine de la décoration</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6638">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Du côté de chez vous</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>A la découverte de demeures aménagées avec imagination et ingéniosité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125506652.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485631" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T13:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Journal</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125508104" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>Journal</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8310">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="333079">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Coudray</NOM>
+            <PRENOM>Anne-Claire</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C125508104.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485632" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T13:30:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>Reportages découverte</TITRE>
+      <SOUSTITREDIF>A travers le monde pour des produits rares</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125596008" DATEMODIF="2018-02-06T17:32:45">
+        <TITREEMISSION>Reportages découverte</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="418" GENRESIMPLE="Magazine de société">Magazine de reportages</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21396564">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Reportages découverte</NOM>
+          </COLLECTION>
+          <SOUSTITRE>A travers le monde pour des produits rares</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="333079">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Coudray</NOM>
+            <PRENOM>Anne-Claire</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Prêts à courir le monde pour dénicher un produit unique, des aventuriers des temps modernes sillonnent les bords de l'Amazone, la Thaïlande ou la Brière.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125596008.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485633" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T14:45:00</DATEHEURE>
+      <DUREE>80</DUREE>
+      <TITRE>Grands reportages</TITRE>
+      <SOUSTITREDIF>Jour de foire</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="105251368" DATEMODIF="2017-07-18T16:59:24">
+        <TITREEMISSION>Grands reportages</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="418" GENRESIMPLE="Magazine de société">Magazine de reportages</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="15249149">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Grands reportages</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Jour de foire</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="333079">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Coudray</NOM>
+            <PRENOM>Anne-Claire</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une foire, c'est une scène où se côtoient démonstrateurs, concouristes, clients, mais aussi un lieu de travail. Les camelots doivent vendre un maximum de marchandises en quelques jours, et ceux qui participent aux concours espèrent voir la récompense de mois d'entraînement. Des équipes ont passé un an aux côtés de vendeurs, qui parcourent le pays de foires en foires, mais aussi de quelques individus prêts à tenter l'aventure à l'autre bout de la planète.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C105251368.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485634" DATEMODIF="2018-01-29T03:18:22">
+      <DATEHEURE>2018-02-11T16:05:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>Vétérinaires, leur vie en direct</TITRE>
+      <SOUSTITREDIF>Que sont-ils devenus ?</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125541899" DATEMODIF="2018-01-24T14:22:10">
+        <TITREEMISSION>Vétérinaires, leur vie en direct</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="980" GENRESIMPLE="Téléréalité">Téléréalité</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="19095039">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Vétérinaires, leur vie en direct</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Que sont-ils devenus ?</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Que sont devenus les animaux de la saison 1 ? Crochette, le berger allemand, a-t-elle retrouvé l'usage de ses pattes ? Nina s'est-elle remise de ses brûlures ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125541899.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485635" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T17:15:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Sept à huit Life</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125508342" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>Sept à huit Life</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21048216">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Sept à huit life</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="340225">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Roselmack</NOM>
+            <PRENOM>Harry</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>A travers plusieurs reportages, ce magazine, qui se veut le reflet d'une société en pleine évolution, propose une immersion dans le quotidien des Français ainsi que des gros plan sur des parcours de vie ou des tendances émergentes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125508342.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485636" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T18:15:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Sept à huit</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125508345" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>Sept à huit</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="19934">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Sept à huit</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="340225">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Roselmack</NOM>
+            <PRENOM>Harry</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Des reportages sur la société et l'actualité nationale et internationale, des zooms sur des faits divers ou des gros plan sur des événements marquants du moment invitent à découvrir le monde d'aujourd'hui. Le portrait de la semaine, signé Thierry Demaizière, clôt le rendez-vous.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125508345.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485637" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T19:45:00</DATEHEURE>
+      <DUREE>7</DUREE>
+      <TITRE>Les apprentis du goût</TITRE>
+      <SOUSTITREDIF>Episode 2</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125508231" DATEMODIF="2018-01-30T16:59:58">
+        <TITREEMISSION>Les apprentis du goût</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="30149857">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les apprentis du goût</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Episode 2</SOUSTITRE>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485638" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T19:52:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <TITRE>Saga hippique</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125508340" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>Saga hippique</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="399" GENRESIMPLE="Magazine sportif">Magazine hippique</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="20598675">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Saga hippique</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <PHOTO>IPTV_C125508340.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485639" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T19:55:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125506653" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <PHOTO>IPTV_C125506653.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485640" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T20:00:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>Journal</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125508116" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>Journal</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8310">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="333079">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Coudray</NOM>
+            <PRENOM>Anne-Claire</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C125508116.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485641" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T20:35:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>TF1, rendez-vous sport</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125508347" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>TF1, rendez-vous sport</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1142" GENRESIMPLE="Magazine sportif">JT sport</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27713115">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / TF1, rendez-vous sport</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="102984">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Margotton</NOM>
+            <PRENOM>Grégoire</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C125508347.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485642" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T20:40:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Du côté de chez vous</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125506654" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>Du côté de chez vous</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="1104" GENRESIMPLE="Magazine de l'art de vivre">Magazine de la décoration</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6638">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Du côté de chez vous</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>A la découverte de demeures aménagées avec imagination et ingéniosité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125506654.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485643" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T20:45:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>A chacun sa ville</TITRE>
+      <SOUSTITREDIF>Les bonnes recettes</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123429993" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>A chacun sa ville</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="421" GENRESIMPLE="Magazine de services">Magazine de services</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="19555950">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / A chacun sa ville</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Les bonnes recettes</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Les différentes problématiques immobilières que l'on peut rencontrer à différentes étapes de sa vie.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123429993.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485644" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T20:50:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125506655" DATEMODIF="2018-01-25T16:48:33">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <PHOTO>IPTV_C125506655.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171478686" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T21:00:00</DATEHEURE>
+      <DUREE>130</DUREE>
+      <TITRE>Le labyrinthe</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="80188581" DATEMODIF="2018-01-30T17:42:02">
+        <TITREEMISSION>Le labyrinthe</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="248" GENRESIMPLE="Film de science fiction">Film de science-fiction</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Maze Runner</TITREORIGINAL>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>113</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="630790">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Ball</NOM>
+            <PRENOM>Wes</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="572002">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>O'Brien</NOM>
+            <PRENOM>Dylan</PRENOM>
+            <ROLE>Thomas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="496438">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Poulter</NOM>
+            <PRENOM>Will</PRENOM>
+            <ROLE>Gally</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="441026">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scodelario</NOM>
+            <PRENOM>Kaya</PRENOM>
+            <ROLE>Teresa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="550509">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brodie-Sangster</NOM>
+            <PRENOM>Thomas</PRENOM>
+            <ROLE>Newt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11975">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Clarkson</NOM>
+            <PRENOM>Patricia</PRENOM>
+            <ROLE>Ava Paige</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1264775">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ki Hong</NOM>
+            <PRENOM>Lee</PRENOM>
+            <ROLE>Minho</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1226491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cooper</NOM>
+            <PRENOM>Blake</PRENOM>
+            <ROLE>Chuck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="556725">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Latimore</NOM>
+            <PRENOM>Jacob</PRENOM>
+            <ROLE>Jeff</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="550463">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Paesano</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un adolescent se réveille amnésique dans un labyrinthe géant où vivent cinquante garçons. Ensemble, ils vont tenter de trouver un moyen pour s'échapper.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Thomas, un adolescent, se réveille amnésique dans un étrange endroit à ciel ouvert entouré de hauts murs, et où vivent cinquante autres garçons. Comment a-t-il atterri ici ? Ce lieu mystérieux donne accès à un labyrinthe, dont les plans sont modifiés chaque nuit. L'inquiétude plane sur le camp : quiconque s'y est aventuré n'est jamais reparu et des créatures menaçantes y rôdent. Grâce à quelques bribes de mémoire qui lui reviennent à travers des rêves concernant une organisation secrète appelée W.C.K.D., et à des indices trouvés au sein du labyrinthe, Thomas s'efforce de trouver un moyen de s'échapper. Il demande l'aide à ses nouveaux coéquipiers, qui refusent obstinément de franchir les portes du labyrinthe...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Le jeune héros du film est interprété par Dylan O'Brien, révélé par la série «Teen Wolf».</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E80188581.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171478687" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-11T23:10:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Destination finale 5</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="29065431" DATEMODIF="2018-02-06T14:37:53">
+        <TITREEMISSION>Destination finale 5</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="230" GENRESIMPLE="Film d'horreur">Film d'horreur</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Final Destination 5</TITREORIGINAL>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>95</DUREEEMI>
+          <CENSURE CLE="12">Interdit aux moins de 12</CENSURE>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="226089">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Quale</NOM>
+            <PRENOM>Steven</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="386700">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>D'Agosto</NOM>
+            <PRENOM>Nicholas</PRENOM>
+            <ROLE>Sam Lawton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="348578">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bell</NOM>
+            <PRENOM>Emma</PRENOM>
+            <ROLE>Molly</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="600080">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fisher</NOM>
+            <PRENOM>Miles</PRENOM>
+            <ROLE>Peter Friedkin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="572884">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wroe</NOM>
+            <PRENOM>Elle</PRENOM>
+            <ROLE>Candice Hooper</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="508720">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>MacInnes Wood</NOM>
+            <PRENOM>Jacqueline</PRENOM>
+            <ROLE>Olivia Castle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="570398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Byrne</NOM>
+            <PRENOM>PJ</PRENOM>
+            <ROLE>Isaac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="263944">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Koechner</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Dennis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="278144">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Escarpeta</NOM>
+            <PRENOM>Arlen</PRENOM>
+            <ROLE>Nathan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="256491">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Tyler</NOM>
+            <PRENOM>Brian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors qu'ils ont miraculeusement échappé à un terrible accident de la route, des jeunes gens voient la mort les rattraper les uns après les autres.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alors qu'il est dans un bus sur un pont suspendu où des ouvriers sont en train de travailler, Sam Lawton a le pressentiment que le pont va s'effondrer. Pris de panique, le jeune homme ordonne à tout le monde de sortir au moment où le pont s'écroule effectivement. Lui, Molly, sa petite amie, et quelques autres passagers survivent donc miraculeusement à l'affaissement inexplicable du pont. Mais très vite, les jeunes gens prennent conscience qu'on ne détourne pas impunément les plans de la Grande Faucheuse. La Mort commence alors à rattraper, un par un, les survivants du drame. De son côté, Sam est persuadé qu'il existe un moyen d'échapper à ce terrible destin...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un cinquième opus, toujours dans la parfaite lignée des quatre premiers, et toujours aussi efficace.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E29065431.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485645" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-12T01:00:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>New York police judiciaire</TITRE>
+      <SOUSTITREDIF>Astérisque</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="3325657" DATEMODIF="2016-12-07T09:55:01">
+        <TITREEMISSION>New York police judiciaire</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7929">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York police judiciaire</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3981873">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York police judiciaire / 13</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>13</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Astérisque</SOUSTITRE>
+          <SOUSTITREORIGINAL>Asterisk</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="190389">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Shill</NOM>
+            <PRENOM>Steve</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="7777">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Orbach</NOM>
+            <PRENOM>Jerry</PRENOM>
+            <ROLE>Lennie Briscoe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Waterston</NOM>
+            <PRENOM>Sam</PRENOM>
+            <ROLE>Jack McCoy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91023">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martin</NOM>
+            <PRENOM>Jesse L</PRENOM>
+            <ROLE>Eddie Green</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25330">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Merkerson</NOM>
+            <PRENOM>S Epatha</PRENOM>
+            <ROLE>Anita Van Buren</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="86189">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dawes</NOM>
+            <PRENOM>Bill</PRENOM>
+            <ROLE>David Arkuss</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18420">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sanders</NOM>
+            <PRENOM>Jay O</PRENOM>
+            <ROLE>Alan Fenwick</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="246064">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stamberg</NOM>
+            <PRENOM>Josh</PRENOM>
+            <ROLE>Martin Stanley</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="154230">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McRobbie</NOM>
+            <PRENOM>Peter</PRENOM>
+            <ROLE>le juge Walter Bradley</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="174520">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Kopp</NOM>
+            <PRENOM>Terri</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le chauffeur d'une voiture de luxe est retrouvé assassiné à Central Park. Le principal suspect est un champion de base-ball, a priori victime d'un chantage.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le corps d'un homme est retrouvé à Central Park, le cou cassé. Les enquêteurs finissent par identifier le défunt grâce à ses tatouages : il s'agit de Norman Pratt, un chauffeur de limousines. Son dernier client a été Kevin Seleeby, une champion de base-ball. Interrogé par Briscoe et Green, le joueur affirme s'être rendu à Atlantic City avec son agent et son cousin puis être rentré aux alentours de minuit. Il prétend ignorer ce qui a pu, ensuite, arriver à Norman. Les inspecteurs découvrent bientôt que Norman Pratt fournissait Kevin en anabolisants...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E3325657.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485646" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-12T01:45:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>New York police judiciaire</TITRE>
+      <SOUSTITREDIF>La roue</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="3325918" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>New York police judiciaire</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7929">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York police judiciaire</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3981873">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York police judiciaire / 13</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>13</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La roue</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Wheel</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="134334">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dobbs</NOM>
+            <PRENOM>Richard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="7777">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Orbach</NOM>
+            <PRENOM>Jerry</PRENOM>
+            <ROLE>Lennie Briscoe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Waterston</NOM>
+            <PRENOM>Sam</PRENOM>
+            <ROLE>Jack McCoy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24531">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ma</NOM>
+            <PRENOM>Tzi</PRENOM>
+            <ROLE>Li Chen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91023">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martin</NOM>
+            <PRENOM>Jesse L</PRENOM>
+            <ROLE>Eddie Green</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25330">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Merkerson</NOM>
+            <PRENOM>S Epatha</PRENOM>
+            <ROLE>Anita Van Buren</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11634">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sarandon</NOM>
+            <PRENOM>Chris</PRENOM>
+            <ROLE>Howard Pincham</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="304146">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chang</NOM>
+            <PRENOM>Grant</PRENOM>
+            <ROLE>Akai Yuen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="90271">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Leung</NOM>
+            <PRENOM>Ken</PRENOM>
+            <ROLE>Tommy Wong</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171756">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Goldsmith</NOM>
+            <PRENOM>Jill</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La découverte du cadavre calciné d'une jeune Asiatique, près de la demeure du consul général de Chine, conduit la police à s'immiscer dans une guerre des gangs.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le corps calciné d'une jeune Asiatique est retrouvé près de la luxueuse demeure de Li Chen, le consul général de Chine. La police pense tout d'abord à un acte politique : la victime se serait immolée pour protester contre l'attitude du gouvernement chinois. La position des enquêteurs change sensiblement lorsque l'autopsie révèle que la jeune femme a été assassinée avant d'être la proie des flammes. L'affaire est donc bien plus complexe que ce à quoi ils s'attendaient. Les policiers sont contraints de s'immiscer dans une véritable guerre des gangs...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E3325918.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485647" DATEMODIF="2018-01-25T16:48:33">
+      <DATEHEURE>2018-02-12T02:45:00</DATEHEURE>
+      <DUREE>220</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="108980346" DATEMODIF="2018-02-07T12:02:48">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

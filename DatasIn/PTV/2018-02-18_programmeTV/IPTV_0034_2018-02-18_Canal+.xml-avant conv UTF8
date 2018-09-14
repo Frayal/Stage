@@ -1,0 +1,2282 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:53:21-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="34">
+    <NOMCHAINE>Canal+</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-18">
+    <DIFFUSION CLEDIF="171650515" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T06:05:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Le tube</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623772" DATEMODIF="2018-01-26T10:56:41">
+        <TITREEMISSION>Le tube</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="11609899">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le tube</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="506917">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Ithurburu</NOM>
+            <PRENOM>Isabelle</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Télévision, radio, web, print, réseaux sociaux, Isabelle Ithurburu décrypte et analyse l'actualité des médias, reçoit en plateau un acteur clé de l'actualité médiatique et interroge un invité issu de la scène musicale ou de l'univers cinématographique sur son rapport aux médias.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623772.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650516" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T06:55:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <SURTITRE>Cartoon+</SURTITRE>
+      <TITRE>Paf le chien</TITRE>
+      <SOUSTITREDIF>La tour infernale</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118467986" DATEMODIF="2017-10-11T17:14:23">
+        <TITREEMISSION>Paf le chien</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="25145719">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Paf le chien</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La tour infernale</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>25</NUMERO>
+            <NOMBRE>78</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="596856">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Vaucelle</NOM>
+            <PRENOM>Charles</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Lola visite un chantier de sa maman. Malheureusement, Paf et Capuche ne sont pas admis...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C118467986.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650517" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T07:05:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <SURTITRE>Cartoon+</SURTITRE>
+      <TITRE>Paf le chien</TITRE>
+      <SOUSTITREDIF>Lieutenant Sandy</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118467993" DATEMODIF="2017-10-13T10:10:50">
+        <TITREEMISSION>Paf le chien</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="25145719">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Paf le chien</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Lieutenant Sandy</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>29</NUMERO>
+            <NOMBRE>78</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="596856">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Vaucelle</NOM>
+            <PRENOM>Charles</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Paf, le chien de la petite Lola, est en réalité un super-héros canin, qui vole au secours de sa jeune maîtresse et de tous ceux qu'il aime.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C118467993.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650518" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T07:10:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <SURTITRE>Cartoon+</SURTITRE>
+      <TITRE>Mon chevalier et moi</TITRE>
+      <SOUSTITREDIF>A la recherche de la star épique</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="109927200" DATEMODIF="2017-03-13T14:50:16">
+        <TITREEMISSION>Mon chevalier et moi</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="220">
+          <PAYS>France - Belgique</PAYS>
+          <LIBELLE>franco-belge</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="21799812">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Mon chevalier et moi</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="21799792">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Mon chevalier et moi / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>A la recherche de la star épique</SOUSTITRE>
+          <DUREEEMI>11</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>19</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="626769">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Christiaen</NOM>
+            <PRENOM>Joeri</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Quand Henri propose d'aider Jimmy à gagner un concours de talents, il apprend à son fils l'art de la mandoline zen...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C109927200.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650519" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T07:20:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <SURTITRE>Cartoon+</SURTITRE>
+      <TITRE>Mon chevalier et moi</TITRE>
+      <SOUSTITREDIF>Brave Jack</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="109927201" DATEMODIF="2017-12-01T12:28:12">
+        <TITREEMISSION>Mon chevalier et moi</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="220">
+          <PAYS>France - Belgique</PAYS>
+          <LIBELLE>franco-belge</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="21799812">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Mon chevalier et moi</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="21799792">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Mon chevalier et moi / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Brave Jack</SOUSTITRE>
+          <DUREEEMI>11</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>20</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="626769">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Christiaen</NOM>
+            <PRENOM>Joeri</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Quand Jimmy fait un pacte avec Jeff, le frère banni de Bad Jack, il parvient à chasser ce dernier du royaume. Mais Jeff se révèle être encore plus dangereux que son frère...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C109927201.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650520" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T07:35:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <SURTITRE>Cartoon+</SURTITRE>
+      <TITRE>Les p'tits diables</TITRE>
+      <SOUSTITREDIF>Les p'tits malades</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111695569" DATEMODIF="2016-12-15T16:15:45">
+        <TITREEMISSION>Les p'tits diables</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="5953511">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les p'tits diables</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="23657860">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les p'tits diables / 3</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les p'tits malades</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>10</NUMERO>
+            <NOMBRE>50</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Chamailleries, disputes, traquenards, trahisons, coups montés, entourloupes. Tom, 6 ans et sa soeur Nina, 8 ans, sont comme chien et chat. Cette rivalité fraternelle les embarque dans de trépidantes aventures.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C111695569.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172052077" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T07:45:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <SURTITRE>Cartoon+</SURTITRE>
+      <TITRE>Les p'tits diables</TITRE>
+      <SOUSTITREDIF>Les tutos de Nina</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111828182" DATEMODIF="2017-09-19T16:50:17">
+        <TITREEMISSION>Les p'tits diables</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="5953511">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les p'tits diables</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="23657860">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les p'tits diables / 3</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les tutos de Nina</SOUSTITRE>
+          <DUREEEMI>10</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>50</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Chamailleries, disputes, traquenards, trahisons, coups montés, entourloupes. Tom, 6 ans et sa soeur Nina, 8 ans, sont comme chien et chat. Cette rivalité fraternelle les embarque dans de trépidantes aventures.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C111828182.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650521" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T07:55:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <SURTITRE>Cartoon+</SURTITRE>
+      <TITRE>Kaeloo</TITRE>
+      <SOUSTITREDIF>Si on jouait à se faire peur</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="20692268" DATEMODIF="2017-08-16T15:17:32">
+        <TITREEMISSION>Kaeloo</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="4132492">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Kaeloo</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="12205449">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Kaeloo / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Si on jouait à se faire peur</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2010</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>20</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="516291">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Chapotot</NOM>
+            <PRENOM>Rémi</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les zamis se racontent des histoires horrifiques...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C20692268.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650522" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T08:05:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <SURTITRE>Cartoon+</SURTITRE>
+      <TITRE>Kaeloo</TITRE>
+      <SOUSTITREDIF>Si on jouait au baby-sitting</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="20479325" DATEMODIF="2017-08-16T15:17:32">
+        <TITREEMISSION>Kaeloo</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="4132492">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Kaeloo</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="12205449">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Kaeloo / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Si on jouait au baby-sitting</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2010</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>21</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="516291">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Chapotot</NOM>
+            <PRENOM>Rémi</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Moignon, qui veut gagner un peu d'argent de poche, décide de faire du baby-sitting. Pour s'entraîner, il convainc Coin-Coin de faire le bébé...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E20479325.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688628" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T08:10:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Ballerina</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="94314577" DATEMODIF="2017-12-11T16:01:29">
+        <TITREEMISSION>Ballerina</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="219" GENRESIMPLE="Film d'animation">Film d'animation</GENRE>
+        <NATIONALITE CLE="240">
+          <PAYS>France - Canada</PAYS>
+          <LIBELLE>franco-canadien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Ballerina</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>89</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="3575">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Summer</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1262105">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Warin</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une apprentie ballerine et son meilleur ami, un inventeur, fuient leur orphelinat breton pour Paris, où ils se donnent les moyens de réaliser leurs rêves.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Depuis qu'elle est toute petite, Félicie ne rêve que de danse et d'intégrer l'Opéra de Paris. Victor, son meilleur ami, orphelin comme elle, veut devenir un grand inventeur. Pour atteindre leurs ambitions, ils décident de s'échapper ensemble de leur orphelinat situé à Quimper en Bretagne. Ils prennent la direction de la ville Lumière, une ville en pleine transformation avec les nouvelles avenue du baron Haussmann et la construction de la tour Eiffel. Sur place, ils se rendent vite compte qu'il va falloir beaucoup travailler. Félicie convoite un rôle et compte bien faire mieux que la très talentueuse Camille. Elle se donne les moyens d'y arriver avec un entraînement très dur...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un dessin animé plein de charme, qui rend hommage à la danse classique dans un Paris 1900 très bien reconstitué.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E94314577.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172052078" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T09:40:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Canal Esport Club</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124640464" DATEMODIF="2018-02-02T16:53:39">
+        <TITREEMISSION>Canal Esport Club</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="1137" GENRESIMPLE="Magazine sportif">e-sport</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C124640464.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="451634">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Morin</NOM>
+          <PRENOM>Olivier</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688630" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T10:05:00</DATEHEURE>
+      <DUREE>98</DUREE>
+      <TITRE>Gangsterdam</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="112162763" DATEMODIF="2018-01-20T11:20:12">
+        <TITREEMISSION>Gangsterdam</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>100</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="513987">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Levy</NOM>
+            <PRENOM>Romain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="512369">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adams</NOM>
+            <PRENOM>Kev</PRENOM>
+            <ROLE>Ruben Jablonski</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="524778">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Azem</NOM>
+            <PRENOM>Manon</PRENOM>
+            <ROLE>Nora</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="335151">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Levin</NOM>
+            <PRENOM>Côme</PRENOM>
+            <ROLE>Durex</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37206">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Koundé</NOM>
+            <PRENOM>Hubert</PRENOM>
+            <ROLE>Ulysse Abraham Bakel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1136237">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Walravens</NOM>
+            <PRENOM>Mona</PRENOM>
+            <ROLE>June</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6696">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hauer</NOM>
+            <PRENOM>Rutger</PRENOM>
+            <ROLE>Dolph Van Tannen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="622857">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hendrickx</NOM>
+            <PRENOM>Alex</PRENOM>
+            <ROLE>Caspar Van Tannen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="522954">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mosseri</NOM>
+            <PRENOM>Ido</PRENOM>
+            <ROLE>Amos Ben Soussan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="350636">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Rob</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Partis pour Amsterdam récupérer un nouveau type de drogue, trois étudiants français se retrouvent confrontés aux plus grands criminels de la ville.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Par manque de confiance en lui, Ruben, un étudiant en dernière année d'université, a déja raté une fois ses examens. Nora, une ravissante camarade dont il est follement épris, a le même genre de déconvenues. Quand il découvre qu'elle vend de la drogue au sein de l'établissement et qu'elle s'apprête à partir pour Amsterdam afin de récupérer une toute nouvelle substance, Ruben décide de l'accompagner, espérant la séduire enfin. Mais c'était sans compter son ami d'enfance, l'envahissant Durex. Sur place, les trois jeunes Français découvrent la capitale la plus incroyable d'Europe. Mais, rapidement, Ruben, Nora et Durex se retrouvent confrontés aux plus grand criminels de la ville...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une comédie endiablée, rythmée par une bande originale qui enchaîne les morceaux cultes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E112162763.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650524" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T11:43:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <TITRE>Catherine et Liliane</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380845" DATEMODIF="2018-01-23T08:18:34">
+        <TITREEMISSION>Catherine et Liliane</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="17311315">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Catherine et Liliane</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Toujours bon pied bon oeil, Catherine et Liliane vivent leur vie sans se soucier du qu'en-dira-t-on. Malgré les années qui passent, elles persistent à voir la vie du bon côté. Les deux amies ne manquent pas d'exprimer leur agacement face à toutes les petites tracasseries du quotidien. Heureusement, Catherine et Liliane sont astucieuses et ne s'en laissent pas conter.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380845.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650525" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T11:46:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>La météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125737766" DATEMODIF="2018-02-05T11:20:16">
+        <TITREEMISSION>La météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650526" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T11:51:00</DATEHEURE>
+      <DUREE>4</DUREE>
+      <TITRE>Message à caractère informatif sexy</TITRE>
+      <SOUSTITREDIF>Soyez les bienvenus</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124207964" DATEMODIF="2018-02-07T09:05:45">
+        <TITREEMISSION>Message à caractère informatif sexy</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="153" GENRESIMPLE="Court métrage">Court métrage</GENRE>
+        <FILMTELEFILM>
+          <SOUSTITRE>Soyez les bienvenus</SOUSTITRE>
+          <DUREEEMI>4</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650527" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T11:55:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Jamel Comedy Kids</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623644" DATEMODIF="2018-01-30T16:28:20">
+        <TITREEMISSION>Jamel Comedy Kids</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22685218">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Jamel Comedy Kids</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="62672">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Debbouze</NOM>
+            <PRENOM>Jamel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="588542">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Dia</NOM>
+            <PRENOM>Waly</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Le comédien et humoriste français Waly Dia a rejoint la troupe «Jamel Comedy Club» en 2012. Sur scène, il change de voix de manière très surprenante. En 2016, il a obtenu un rôle récurrent dans la série «Commissariat Central», avant de tenir le rôle principal dans le film «Père fils thérapie».</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623644.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650528" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T12:50:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>L'effet papillon</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977176" DATEMODIF="2018-01-09T11:03:43">
+        <TITREEMISSION>L'effet papillon</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2058687">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'effet papillon</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="161949">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Roulier</NOM>
+            <PRENOM>Daphné</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Fidèle à son slogan, «Ce qui arrive aux uns a toujours des conséquences pour d'autres...», le magazine de l'actualité internationale propose un voyage à destination des endroits de la planète où il se passe quelque chose qui pourrait bien avoir des répercussions sur l'ensemble de la population mondiale. En plateau, Daphné Roulier reçoit le journaliste à l'origine du reportage diffusé pour évoquer le sujet proposé. Egalement au programme, le traditionnel biopic qui dresse le portrait d'une personnalité internationale qui fait l'actualité du moment et les rubriques et séries habituelles, «Comment j'ai pécho» et «Dictature Tour et Fuck le système».</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124977176.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650529" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T13:50:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Clique dimanche</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623455" DATEMODIF="2018-01-26T10:50:36">
+        <TITREEMISSION>Clique dimanche</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27538557">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Clique dimanche</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="251439">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Achour</NOM>
+            <PRENOM>Mouloud</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Après avoir défriché le monde des cultures et des idées et offert une expérience nouvelle sur le digital, «Clique dimanche» s'attaque à l'actualité chaude. Entouré de ses reporters, Mouloud Achour traite l'actualité de la semaine avec pédagogie, impertinence et différence dans une émission qui se veut ouverte au monde.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623455.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650530" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T14:50:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>La semaine des Guignols</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623768" DATEMODIF="2018-01-26T10:56:04">
+        <TITREEMISSION>La semaine des Guignols</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2059013">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / La semaine des Guignols</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Jour après jour, les célèbres marionnettes en latex déclinent l'actualité avec beaucoup d'humour et un brin d'ironie : infos, interviews, fausses publicités, bandes-annonces détournées sont au programme de ce rendez-vous hebdomadaire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623768.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650531" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T15:15:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>La semaine de Catherine et Liliane</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623766" DATEMODIF="2018-01-26T10:55:43">
+        <TITREEMISSION>La semaine de Catherine et Liliane</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23042889">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / La semaine de Catherine et Liliane</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Catherine et Liliane proposent un rendez-vous hebdomadaire au cours duquel elles enchaînent avec malice blagues potaches, facéties et critiques cinglantes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623766.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650532" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T15:25:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Groland le zapoï</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623479" DATEMODIF="2018-01-26T10:51:56">
+        <TITREEMISSION>Groland le zapoï</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22052810">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Groland le zapoï</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Le très flegmatique Jules-Edouard Moustic présente les meilleurs moments des émissions diffusées sur le bouquet satellite grolandais, d'après une sélection méticuleusement réalisée par Benoît Delépine, Gustave Kervern et Francis Kuntz. Ensemble, les experts débattent et commentent leur choix.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623479.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650533" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T15:45:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Sport Reporter</TITRE>
+      <SOUSTITREDIF>Commotions : le rugby au bord du KO ?</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>«Sport reporter» s'intéresse aux effets des chocs à la tête et des commotions cérébrales dans le rugby. Début janvier, les images du jeune ailier clermontois Samuel Ezeala, allongé sur la pelouse de l'U Arena de Nanterre, entouré du staff médical, K.-O. après avoir été heurté par un Virmi Vakatawa lancé à pleine vitesse, ont impressionné. Victime d'une commotion cérébrale, le rugbymen de 18 ans est désormais hors de danger. Mais Ezeala est venu allonger la liste de plus en plus longue de rugbymen victimes de commotions cérébrales.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125629746" DATEMODIF="2018-02-06T11:57:48">
+        <TITREEMISSION>Sport Reporter</TITREEMISSION>
+        <FORMAT CLE="15">Documentaire sportif</FORMAT>
+        <GENRE CLE="742" GENRESIMPLE="Documentaire sportif">Multisports</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650534" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T16:15:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Canal Rugby Club 1re partie</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619041" DATEMODIF="2018-01-26T10:14:01">
+        <TITREEMISSION>Canal Rugby Club 1re partie</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="798" GENRESIMPLE="Magazine sportif">Rugby</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125619041.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="506917">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Ithurburu</NOM>
+          <PRENOM>Isabelle</PRENOM>
+        </PERSONNE>
+        <PERSONNE CLE="281160">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Chabal</NOM>
+          <PRENOM>Sébastien</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650535" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T16:45:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Avant-match</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619022" DATEMODIF="2018-02-05T11:20:16">
+        <TITREEMISSION>Avant-match</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="798" GENRESIMPLE="Magazine sportif">Rugby</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650536" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T16:50:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Rugby</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Vainqueur à Castres lors de la précédente journée (13-18), Teddy Iribaren et les Racingmen occupent la 2e place du Top 14 à égalité de points avec La Rochelle. Le duel s'annonce ainsi féroce entre ces deux prétendants au Bouclier de Brennus.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125620070" DATEMODIF="2018-01-29T14:27:18">
+        <TITREEMISSION>Rugby</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="797" GENRESIMPLE="Rugby">Rugby</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Top 14</LIBELLE>
+            <MANCHE>17e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Racing 92 / La Rochelle</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_P125620070.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650537" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T18:35:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Canal Rugby Club 2e partie</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619042" DATEMODIF="2018-01-30T17:56:46">
+        <TITREEMISSION>Canal Rugby Club 2e partie</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="798" GENRESIMPLE="Magazine sportif">Rugby</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_E125619042.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="506917">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Ithurburu</NOM>
+          <PRENOM>Isabelle</PRENOM>
+        </PERSONNE>
+        <PERSONNE CLE="281160">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Chabal</NOM>
+          <PRENOM>Sébastien</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650538" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T19:15:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Canal Football Club 1re partie</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619036" DATEMODIF="2018-01-26T10:12:51">
+        <TITREEMISSION>Canal Football Club 1re partie</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125619036.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="200900">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Mathoux</NOM>
+          <PRENOM>Hervé</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650539" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T19:40:00</DATEHEURE>
+      <DUREE>76</DUREE>
+      <TITRE>Canal Football Club 2e partie</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619038" DATEMODIF="2018-01-26T10:13:21">
+        <TITREEMISSION>Canal Football Club 2e partie</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125619038.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="200900">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Mathoux</NOM>
+          <PRENOM>Hervé</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650540" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T20:56:00</DATEHEURE>
+      <DUREE>4</DUREE>
+      <TITRE>Avant-match</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619021" DATEMODIF="2018-02-05T11:20:16">
+        <TITREEMISSION>Avant-match</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650541" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T21:00:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Football</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Le départ de Jocelyn Gourvennec et l'arrivée de Gustavo Poyet à la tête du club bordelais ont semble-t-il fait du bien aux Girondins, qui ont retrouvé le chemin de la victoire, d'abord sur la pelouse de la Beaujoire, à Nantes (0-1), puis à domicile face à l'Olympique Lyonnais (3-1) et enfin, à Strasbourg (0-2). Les coéquipiers de Malcolm passent un nouveau test en défiant une formation marseillaise de plus en plus solide cette année et déterminée à décrocher la 2e place du classement à la fin de la saison. Au match aller, les Phocéens de Rudi Garcia avaient arraché le point du match dans le temps additionnel grâce à un but de Morgan Sanson (1-1).</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125619806" DATEMODIF="2018-02-06T11:47:51">
+        <TITREEMISSION>Football</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="641" GENRESIMPLE="Football">Football</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Ligue 1 Conforama</LIBELLE>
+            <MANCHE>26e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Marseille / Bordeaux</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_E125619806.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650542" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T22:55:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Canal Football Club Le débrief</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619040" DATEMODIF="2018-01-26T10:13:42">
+        <TITREEMISSION>Canal Football Club Le débrief</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125619040.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="200900">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Mathoux</NOM>
+          <PRENOM>Hervé</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650543" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-18T23:10:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>J+1</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Le magazine 100% foot revisite l'actualité de la Ligue 1, en présence d'un invité prêt à affronter l'interview et les quiz de Nicolas Tourriol, mais aussi les frasques de Julien Cazarre, l'abonné 93227. «Bande de Confs», «Version originale» et la palette technique figurent parmi les principales rubriques de ce magazine au regard franchement décalé sur le petit monde du ballon rond et de ses protagonistes.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125620002" DATEMODIF="2018-01-26T10:23:44">
+        <TITREEMISSION>J+1</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_E125620002.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="1264286">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Tourriol</NOM>
+          <PRENOM>Nicolas</PRENOM>
+        </PERSONNE>
+        <PERSONNE CLE="506918">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Lorenzo</NOM>
+          <PRENOM>Marina</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650544" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-19T00:10:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Canal Esport Club</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619035" DATEMODIF="2018-01-26T10:12:31">
+        <TITREEMISSION>Canal Esport Club</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="1137" GENRESIMPLE="Magazine sportif">e-sport</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125619035.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="451634">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Morin</NOM>
+          <PRENOM>Olivier</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650545" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-19T00:35:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>Album de la semaine</TITRE>
+      <SOUSTITREDIF>Hollie Cook</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623769" DATEMODIF="2018-01-30T17:20:29">
+        <TITREEMISSION>Album de la semaine</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="412" GENRESIMPLE="Magazine culturel">Magazine musical</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6520">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Album de la semaine</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Hollie Cook</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="105281">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Saunier</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Du rap au métal en passant par le rock, le blues ou la pop, ce rendez-vous musical part à la rencontre d'artistes qui débutent ou de groupes confirmés qui sont au coeur de l'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623769.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688650" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-19T01:10:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>Arès</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="94093884" DATEMODIF="2017-12-26T16:59:53">
+        <TITREEMISSION>Arès</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="248" GENRESIMPLE="Film de science fiction">Film de science-fiction</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>80</DUREEEMI>
+          <CENSURE CLE="12">Interdit aux moins de 12</CENSURE>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="88686">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Benes</NOM>
+            <PRENOM>Jean-Patrick</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="369324">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rapace</NOM>
+            <PRENOM>Ola</PRENOM>
+            <ROLE>Reda / Arès</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1241844">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lallier</NOM>
+            <PRENOM>Eva</PRENOM>
+            <ROLE>Anouk</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="274074">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fillières</NOM>
+            <PRENOM>Hélène</PRENOM>
+            <ROLE>Altman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11860">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lescot</NOM>
+            <PRENOM>Micha</PRENOM>
+            <ROLE>Myosotis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="28470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hancisse</NOM>
+            <PRENOM>Thierry</PRENOM>
+            <ROLE>l'entraîneur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="599376">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fernandez</NOM>
+            <PRENOM>Ruth Vega</PRENOM>
+            <ROLE>Anna</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="119029">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lencquesaing</NOM>
+            <PRENOM>Louis-Do de</PRENOM>
+            <ROLE>le Pdg de Donevia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1274718">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Solomon</NOM>
+            <PRENOM>Elina</PRENOM>
+            <ROLE>Mae</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1156654">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Cortes</NOM>
+            <PRENOM>Alexandra</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A Paris, en 2035, un boxeur sans principes se prête aux essais d'un laboratoire pharmaceutique. Quand il finit par se rebeller, il en devient la cible.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A Paris, en 2035, le dopage est devenu légal. Le corps humain est une marchandise. Un laboratoire pharmaceutique cherche un cobaye pour tester son nouveau produit. Il jette son dévolu sur Reda, qui gagne sa vie en combattant sur un ring. Puissant physiquement, il est le seul capable d'assimiler le produit. Pendant ce temps, la colère gronde dans les rues. La France compte dix millions de chômeurs, la misère est endémique. La nièce du boxeur est très impliquée dans ces mouvements de rébellion et finit par lui ouvrir les yeux. Désormais la cible du laboratoire, il va tout tenter pour protéger les siens...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une oeuvre d'anticipation très noire, plutôt réussie, qui fait écho à certains aspects de la société de notre époque.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E94093884.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688651" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-19T02:25:00</DATEHEURE>
+      <DUREE>125</DUREE>
+      <TITRE>Nocturama</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="95001977" DATEMODIF="2017-12-12T12:05:09">
+        <TITREEMISSION>Nocturama</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="307" GENRESIMPLE="Film de suspense">Thriller</GENRE>
+        <NATIONALITE CLE="203">
+          <PAYS>France - Allemagne</PAYS>
+          <LIBELLE>franco-allemand</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>130</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="84050">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bonello</NOM>
+            <PRENOM>Bertrand</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="347270">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Oldfield</NOM>
+            <PRENOM>Finnegan</PRENOM>
+            <ROLE>David</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="266236">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rottiers</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>Greg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1243950">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Meziani</NOM>
+            <PRENOM>Hamza</PRENOM>
+            <ROLE>Yacine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1256152">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Issa</NOM>
+            <PRENOM>Manal</PRENOM>
+            <ROLE>Sabrina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1293717">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McCraven</NOM>
+            <PRENOM>Jamil</PRENOM>
+            <ROLE>Mika</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83122">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guyot</NOM>
+            <PRENOM>Martin</PRENOM>
+            <ROLE>André</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1273770">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Oufella</NOM>
+            <PRENOM>Rabah Nait</PRENOM>
+            <ROLE>Omar</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1304506">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Valentinelli</NOM>
+            <PRENOM>Laure</PRENOM>
+            <ROLE>Sarah</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="84050">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Bonello</NOM>
+            <PRENOM>Bertrand</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A Paris, de nos jours, des jeunes gens, accomplissant un plan mystérieux, déposent des bombes qui explosent bientôt en différents endroits de la capitale.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A Paris, de nos jours, des jeunes gens déambulent dans le métro et dans les rues de la capitale. Chacun d'entre eux accomplit des tâches aussi précises que mystérieuses, répondant à des messages cryptiques reçus sur leurs téléphones portables. Soudain, plusieurs bombes explosent dans Paris. Les jeunes gens, parmis lesquels David, Yacine, Sabrina, Mika, Sarah et Omar, se retrouvent à la nuit tombée dans un grand magasin. Avec la complicité d'un vigile, ils entrent dans le bâtiment fermé au public. Pendant ce temps, la panique a envahi la ville et les politiques se perdent en conjectures...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Le portrait d'une jeunesse sans repères. Un film radical, porté par des acteurs incandescents, qui tient toutes ses promesses.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E95001977.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650546" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-19T04:30:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Déguste</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123450879" DATEMODIF="2018-01-31T23:01:05">
+        <TITREEMISSION>Déguste</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="153" GENRESIMPLE="Court métrage">Court métrage</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>5</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1363146">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Baz</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une journée au sommet de la chaîne alimentaire, au plus proche de la matière, une journée dans le fracas culinaire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E123450879.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171650547" DATEMODIF="2018-02-07T09:15:00">
+      <DATEHEURE>2018-02-19T04:35:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Golf</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619204" DATEMODIF="2018-01-31T15:40:09">
+        <TITREEMISSION>Golf</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="653" GENRESIMPLE="Golf">Golf</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Circuit américain 2017/2018</LIBELLE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Open de Pacific Palisades</LIBELLE>
+            <MANCHE>4e tour</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Californie</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125619204.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

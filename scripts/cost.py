@@ -7,7 +7,8 @@
 Calcul de la fonction de coût sur l'ensemble des propositions de programmes TV
 afin de renvoyer le plus probable. N'est appelé qu'après calcul de toutes les
 possibilités.
-/!\ WIP /!\ A NE PAS UTILISER. A MODIFIER. A TESTER.
+/!| WIP /!| A NE PAS UTILISER. A MODIFIER. A TESTER.
+En cours de test alors on se calme svp!
 '''
 
 '''
@@ -60,6 +61,10 @@ def coef(x):
 def find_cost(date,numero,nom_chaine,i):
 	'''
 	création et remplissage d'un DataFrame pour calculer simplement le coûte
+	enfin....simplement est un grand mot...certain PTV sont tellement WTF qu'on arrive
+	même pas à calculer l'erreur. On devrait peut être directement les jeter. Enfin bref
+	c'est pas simple d'être nul...
+
 	'''
 	####
 	file = PATH_IN+'PTV/IPTV_'+numero+'_'+date+'_'+nom_chaine+'.csv'
@@ -71,7 +76,7 @@ def find_cost(date,numero,nom_chaine,i):
 		df = pd.DataFrame()
 	except Exception as e:
 		def_context.Report('petit problème: '+str(e))
-		return [0,0,0,0]
+		return [3+i/2000,1+i/2000,1+i/2000,1+i/2000]
 
 	df['titre'] = ptv['TITRE']
 	df['debut'] = ptv['debut']%1440
@@ -81,42 +86,55 @@ def find_cost(date,numero,nom_chaine,i):
 	df['coef'] = df['fin'].apply(lambda x:coef(x))
 	df['ND'] = 0
 	df['pourcentage vu'] = 0
-	j = 0
-	for i in range(new_ptv.shape[0]):
-		if(new_ptv['TITRE'].iloc[i] == df['titre'].iloc[j]):
-			df['vrai fin'].iloc[j] = new_ptv['minute'].iloc[j]
-			df['pourcentage vu'].iloc[j] = new_ptv['pourcentage vu'].iloc[j]
-			if(new_ptv['Évenement'].iloc[j] == "fin d'un programme" ):
-				df['ND'].iloc[j] = 0
-			else:
-				df['ND'].iloc[j] = 1
-			j +=1
-			j = j%df.shape[0]
-		else:
-			pass
+	new_ptv_ = new_ptv[new_ptv['Évenement'].apply(lambda x: x.split(' ')[0]) == 'fin']
+	current = 0
+	for j in range(df.shape[0]):
+	    for i in range(current,new_ptv_.shape[0]):
+	        if(new_ptv_['TITRE'].iloc[i] == df['titre'].iloc[j]):
+	            if(abs(df['fin'].iloc[j] - new_ptv_['minute'].iloc[i])<40 or df[df['titre'] == df['titre'].iloc[j]].shape[0] == 1):
+	                df['vrai fin'].iloc[j] = new_ptv_['minute'].iloc[i]
+	                df['pourcentage vu'].iloc[j] = new_ptv_['pourcentage vu'].iloc[i]
+	                if(new_ptv_['Évenement'].iloc[i] == "fin d'un programme" ):
+	                    df['ND'].iloc[j] = 0
+	                else:
+	                    df['ND'].iloc[j] = 1
+	                current = i
+	                break
+	            else:
+	                pass
+
+	        else:
+	            pass
+
 	df['vrai debut'] = (df['vrai fin'] - df['duree']*df['pourcentage vu'])%1440
+	df['vrai fin'].iloc[df.shape[0]-1] = df['vrai fin'].iloc[df.shape[0]-2] + df['duree'].iloc[df.shape[0]-1]
+	df2 = df[df['pourcentage vu']==0]
 	df = df[df['pourcentage vu']>0]
 	df['cout'] = 0
+	df2['cout'] = 1
+	df = df.reset_index(drop = True)
+	df2 = df2.reset_index(drop = True)
 	for index, row in df.iterrows():
 		df['cout'].iloc[index-1] = (min(abs(row['debut']-row['vrai debut'])%1440,abs(row['debut']%1440-row['vrai debut']%1440)) + min(abs(row['fin']-row['vrai fin'])%1440,abs(row['fin']%1440-row['vrai fin']%1440)))*row['coef']
-	cout = np.sum(df['cout'])
-	cout_matin = np.sum(df[(df['fin']<=13*60+40) & (df['fin']>180)]['cout'])
-	cout_aprem = np.sum(df[(df['fin']<=20*60+35) & (df['fin']>13*60+40)]['cout'])
-	cout_soir = np.sum(df[df['fin']>20*60+35]['cout'])+np.sum(df[df['fin']<=180]['cout'])
+	cout = np.sum(df['cout']) + 20*np.sum(df2['cout'])
+	cout_matin = np.sum(df[(df['fin']<=13*60+40) & (df['fin']>180)]['cout']) + np.sum(df2[(df2['fin']<=13*60+40) & (df2['fin']>180)]['cout'])*20
+	cout_aprem = np.sum(df[(df['fin']<=20*60+35) & (df['fin']>13*60+40)]['cout']) + 100*np.sum(df2[(df2['fin']<=20*60+35) & (df2['fin']>13*60+40)]['cout'])
+	cout_soir = np.sum(df[df['fin']>20*60+35]['cout'])+np.sum(df[df['fin']<=180]['cout']) +100*(np.sum(df2[df2['fin']>20*60+35]['cout'])+np.sum(df2[df2['fin']<=180]['cout']))
 
-	f = 0
 	for index,x in new_ptv[['Évenement','minute']].iterrows():
 		if 'HARD RESET OF ALGORITHM' in x['Évenement']:
-			f += 1
-			if(180<x['minute']<=13*60+15):
-				cout_matin += 10000
-			elif(x['minute']<20*60+35):
-				cout_aprem += 10000
+			if(x['minute']<=13*60+40 and x['minute']>180):
+				cout_matin += 2000+i
+				cout += 2000+i
+			elif(x['minute']<20*60+35 and x['minute']>13*60+40):
+				cout_aprem += 2000+i
+				cout += 2000+i
 			else:
-				cout_soir += 10000
-
+				cout_soir += 2000+i
+				cout += 2000+i
+	df['cout'] = df['cout']/2000
 	df.to_html('test/'+date+'_'+nom_chaine+'_'+str(i)+'.html')
-	return([cout + f*10000,cout_matin,cout_aprem,cout_soir])
+	return([cout/2000,cout_matin/2000,cout_aprem/2000,cout_soir/2000])
 
 
 #################################################
@@ -134,8 +152,9 @@ def main(argv):
 		for i in range(len(files_)):
 			res.append(find_cost(date,numero,nom_chaine,i))
 		def_context.Report(res)
+		LOCK.acquire()
 		try:
-			LOCK.acquire()
+
 			couts = pd.read_csv('cout.csv')
 		except Exception as e:
 			couts = pd.DataFrame()
@@ -152,7 +171,6 @@ def main(argv):
 		Processes = []
 		files = os.listdir(PATH_IN+'PTV/')
 		for file in files:
-			print(len(Processes))
 			date = file.split('_')[2]
 			chaine = file.split('_')[-1].split('.')[0]
 			print(type(date),type(chaine),date,chaine)
@@ -170,10 +188,10 @@ def main(argv):
 					Processes.pop(0)
 					Processes.append(Popen(['python','cost.py',str(chaine),str(date)]))
 				def_context.Report('calcul des coûts pour la journée du %s sur la chaîne %s'%(date,chaine))
-				time.sleep(2)
 			else:
 				continue
 	else:
+		t = time.time()
 		Processes = []
 		files = os.listdir(PATH_IN+'PTV/')
 		for file in files:
@@ -186,6 +204,7 @@ def main(argv):
 				for p in range(len(Processes)): # Check the processes in reverse order
 					if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
 						del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
+						break
 			if(len(Processes)<MAX_PROCESSES):
 				Processes.append(Popen(['python','cost.py',str(chaine),str(date)]))
 			else:
@@ -194,6 +213,13 @@ def main(argv):
 				Processes.append(Popen(['python','cost.py',str(chaine),str(date)]))
 			def_context.Report('calcul des coûts pour la journée du %s sur la chaîne %s'%(date,chaine))
 			time.sleep(2)
+		while(len(Processes)):
+			time.sleep(5)
+			for p in range(len(Processes)): # Check the processes in reverse order
+				if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
+					del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
+		def_context.Report(len(files))
+		def_context.Report(time.time()-t)
 
 if __name__ == "__main__":
 	# execute only if run as a script

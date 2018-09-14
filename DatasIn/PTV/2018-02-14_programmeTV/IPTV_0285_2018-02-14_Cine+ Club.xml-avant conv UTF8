@@ -1,0 +1,1769 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:56:35-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="285">
+    <NOMCHAINE>Ciné+ Club</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-14">
+    <DIFFUSION CLEDIF="172092367" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T05:15:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Le repas dominical</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92610990" DATEMODIF="2017-01-27T11:03:15">
+        <TITREEMISSION>Le repas dominical</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="155" GENRESIMPLE="Court métrage">Court métrage d'animation</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>13</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1191329">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Devaux</NOM>
+            <PRENOM>Céline</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1285958">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Berger</NOM>
+            <PRENOM>Flavien</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au cours du repas dominical, Jean observe sa famille, qui lui pose des questions sans écouter les réponses et qui lui donne des conseils sans les suivre.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Au cours du repas dominical, Jean observe les membre de sa famille, qui lui posent des questions sans écouter les réponses et qui lui donnent des conseils sans les suivre...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>César du meilleur court métrage d'animation en 2016, «Le Repas dominical» a été sélectionné en compétition au Festival de Cannes 2016.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E92610990.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172092368" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T05:30:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Tous cinéma</TITRE>
+      <SOUSTITREDIF>Episode 21</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124502516" DATEMODIF="2018-01-20T12:35:55">
+        <TITREEMISSION>Tous cinéma</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14355307">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Tous cinéma</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Episode 21</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="129088">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Zéni</NOM>
+            <PRENOM>Pierre</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="9496">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Cornillac</NOM>
+            <PRENOM>Clovis</PRENOM>
+            <ROLE>pour le film «Belle et Sébastien 3, le dernier chapitre»</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="296968">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Karyo</NOM>
+            <PRENOM>Tchéky</PRENOM>
+            <ROLE>pour le film «Belle et Sébastien 3, le dernier chapitre»</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="110082">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Benoît</NOM>
+            <PRENOM>Anne</PRENOM>
+            <ROLE>pour le film «Belle et Sébastien 3, le dernier chapitre»</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88983">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Tirard</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>pour le film «Le Retour du héros»</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="48213">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Giannoli</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>pour le film «L'Apparition»</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un programme entièrement consacré à l'actualité du 7e Art.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C124502516.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309034" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T06:15:00</DATEHEURE>
+      <DUREE>135</DUREE>
+      <TITRE>Une histoire de fou</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92351217" DATEMODIF="2017-04-11T14:39:32">
+        <TITREEMISSION>Une histoire de fou</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>134</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="316016">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Guédiguian</NOM>
+            <PRENOM>Robert</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="62515">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Abkarian</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>Hovannès Alexandrian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10418">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ascaride</NOM>
+            <PRENOM>Ariane</PRENOM>
+            <ROLE>Anouch Alexandrian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="263366">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Leprince-Ringuet</NOM>
+            <PRENOM>Grégoire</PRENOM>
+            <ROLE>Gilles Teissier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1220740">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shahidi</NOM>
+            <PRENOM>Syrus</PRENOM>
+            <ROLE>Aram Alexandrian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1256107">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jammal</NOM>
+            <PRENOM>Razane</PRENOM>
+            <ROLE>Anahit</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39718">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stévenin</NOM>
+            <PRENOM>Robinson</PRENOM>
+            <ROLE>Soghomon Tehlirian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="624656">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Avédikian</NOM>
+            <PRENOM>Serge</PRENOM>
+            <ROLE>Armenak</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1322614">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kalemkerian</NOM>
+            <PRENOM>Hrayr</PRENOM>
+            <ROLE>Haig</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="28795">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Desplat</NOM>
+            <PRENOM>Alexandre</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune Arménien participe à un attentat visant l'ambassadeur turc à Paris. Un étudiant est blessé, ce qui bouleverse la mère du jeune homme.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A Berlin en 1921, Soghomon Tehlirian tue Talaat Pacha, principal responsable du génocide arménien. Lors de son procès, il témoigne tant et si bien du premier génocide du XXe siècle que le jury populaire l'acquitte. Des années plus tard, à Marseille, le jeune Aram est un idéaliste qui veut que la Turquie reconnaisse les crimes commis. S'il est soutenu par Anouch, sa mère, Hovannes, son père, veut vivre en paix en France. Aram est impliqué dans un attentat visant l'ambassadeur de Turquie. Le diplomate est tué  mais Gilles, un étudiant en médecine qui passait par là, perd l'usage de ses jambes. Alors qu'Anouch est dévastée, Aram part pour le Liban en camp d'entraînement...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un message universel porté par la justesse de ton de Robert Guédiguian. Et sa muse de toujours, Ariane Ascaride, porte à bout de bras un personnage d'une humanité bouleversante.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E92351217.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309035" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T08:30:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Lettres de la guerre</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114802967" DATEMODIF="2018-01-19T15:28:01">
+        <TITREEMISSION>Lettres de la guerre</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="542">
+          <PAYS>Portugal</PAYS>
+          <LIBELLE>portugais</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Cartas da Guerra</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="2">en noir et blanc</COULEUR>
+          <DUREEEMI>105</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="510333">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Ferreira</NOM>
+            <PRENOM>Ivo</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1329946">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nunes</NOM>
+            <PRENOM>Miguel</PRENOM>
+            <ROLE>António</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="299860">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vila-Nova</NOM>
+            <PRENOM>Margarida</PRENOM>
+            <ROLE>Maria José</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298146">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pereira</NOM>
+            <PRENOM>Ricardo</PRENOM>
+            <ROLE>le major</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="511733">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vaz</NOM>
+            <PRENOM>João Pedro</PRENOM>
+            <ROLE>le capitaine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="612760">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cayatte</NOM>
+            <PRENOM>Simão</PRENOM>
+            <ROLE>Alferes Eleutério</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1329947">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graça</NOM>
+            <PRENOM>Isac</PRENOM>
+            <ROLE>Cabo Graça</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1329948">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hestnes</NOM>
+            <PRENOM>Francisco</PRENOM>
+            <ROLE>Cabo Carica</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1329949">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mamede</NOM>
+            <PRENOM>João Pedro</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Envoyé en Angola pendant la guerre coloniale entre 1971 et 1973, un jeune médecin, aspirant écrivain, envoie des lettres d'amour passionnées à sa femme.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Antonio, un jeune médecin portugais, est envoyé comme soldat pendant la guerre coloniale en Angola entre 1971 et 1973. Sa femme et leur enfant lui manquent terriblement. Aspirant écrivain, il envoie des lettres enflammées et pleine de poésie à son épouse restée au pays. La vie est dure dans le camp : entre deux nouvelles du Benfica, les hommes se battent pour leur survie, ou perdent la tête - l'un s'enfuit nu dans la nature, l'autre cherche son briquet comme si sa vie en dépendait...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une adaptation des lettres effectivement envoyées depuis l'Angloa par l'écrivain Antonio Lobo Antunes. Un beau noir et blanc, gâché par l'omniprésence de la voix off.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E114802967.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309036" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T10:15:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Firefox, l'arme absolue</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="25670" DATEMODIF="2017-08-01T11:45:08">
+        <TITREEMISSION>Firefox, l'arme absolue</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="218" GENRESIMPLE="Film d'aventures">Film d'action</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Firefox</TITREORIGINAL>
+          <ANNEEREALISATION>1982</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>136</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="17204">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Eastwood</NOM>
+            <PRENOM>Clint</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="17204">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Eastwood</NOM>
+            <PRENOM>Clint</PRENOM>
+            <ROLE>Mitchell Grant</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19714">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jones</NOM>
+            <PRENOM>Freddie</PRENOM>
+            <ROLE>Kenneth Aubrey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="20872">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Huffman</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Buckholz</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11281">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Clarke</NOM>
+            <PRENOM>Warren</PRENOM>
+            <ROLE>Pavel Upenskoy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13747">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacey</NOM>
+            <PRENOM>Ronald</PRENOM>
+            <ROLE>Semelovsky</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="40736">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Colley</NOM>
+            <PRENOM>Kenneth</PRENOM>
+            <ROLE>le colonel Kontarsky</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6528">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Löwitsch</NOM>
+            <PRENOM>Klaus</PRENOM>
+            <ROLE>le général Vladimirov</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21296">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hawthorne</NOM>
+            <PRENOM>Nigel</PRENOM>
+            <ROLE>Pyotr Baranovich</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3896">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Jarre</NOM>
+            <PRENOM>Maurice</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un aviateur d'élite américain doit s'emparer d'un nouvel avion de guerre soviétique, doté d'un système de commandes directement relié au cerveau du pilote.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les chercheurs soviétiques viennent de mettre au point un redoutable avion de guerre, le MIG 31. Cet engin extrêmement sophistiqué dépasse tous les appareils existants par sa rapidité et par son invisibilité aux radars. Suprême raffinement technologique : le tir des missiles nucléaires est commandé par les impulsions psychiques du pilote. Réunis en conseil extraordinaire, les services secrets occidentaux décident de tenter une opération d'une audace incroyable, voler le MIG 31 aux Soviétiques. La mission a pour nom de code «Firefox». Reste à trouver le pilote d'élite qui pourra la remplir. En raison de ses états de service, Mitchell Grant est l'homme de la situation...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Clint Eastwood est en forme dans ce film d'action aux ambitions ouvertement commerciales.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E25670.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309037" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T12:15:00</DATEHEURE>
+      <DUREE>69</DUREE>
+      <TITRE>Jean-Luc Godard, le désordre exposé</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="49293562" DATEMODIF="2013-10-18T11:49:52">
+        <TITREEMISSION>Jean-Luc Godard, le désordre exposé</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="357" GENRESIMPLE="Documentaire culturel">Cinéma</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>65</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="620500">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gailleurd</NOM>
+            <PRENOM>Céline</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="525570">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bohler</NOM>
+            <PRENOM>Olivier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>André S Labarthe raconte la genèse de l'exposition «Voyage(s) en utopie : JLG, 1946-2006, à la recherche du théorème perdu», conçue par Godard pour Beaubourg.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>André S Labarthe raconte la genèse de l'exposition «Voyage(s) en utopie : JLG, 1946-2006, à la recherche du théorème perdu», conçue en 2006 par Jean-Luc Godard pour Beaubourg.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E49293562.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309038" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T13:24:00</DATEHEURE>
+      <DUREE>6</DUREE>
+      <TITRE>Journal animé</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="102053454" DATEMODIF="2016-11-08T23:06:31">
+        <TITREEMISSION>Journal animé</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="155" GENRESIMPLE="Court métrage">Court métrage d'animation</GENRE>
+        <NATIONALITE CLE="467">
+          <PAYS>Italie</PAYS>
+          <LIBELLE>italien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Portrait</TITREORIGINAL>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>3</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="610058">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Sansone</NOM>
+            <PRENOM>Donato</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Inspirée par l'actualité internationale, une improvisation artistique menée au jour le jour à partir du quotidien Libération.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Inspirée par l'actualité internationale, une improvisation artistique menée au jour le jour à partir du quotidien Libération.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309039" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T13:30:00</DATEHEURE>
+      <DUREE>140</DUREE>
+      <TITRE>Chaplin</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="11309" DATEMODIF="2016-08-04T15:26:18">
+        <TITREEMISSION>Chaplin</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="110" GENRESIMPLE="Film historique">Biographie</GENRE>
+        <NATIONALITE CLE="1487">
+          <PAYS>Grande-Bretagne - France - Etats-Unis</PAYS>
+          <LIBELLE>britannico-franco-américaine</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Chaplin</TITREORIGINAL>
+          <ANNEEREALISATION>1992</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>140</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="10114">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Attenborough</NOM>
+            <PRENOM>Richard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="282788">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Downey Jr</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Charlie Chaplin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2781">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chaplin</NOM>
+            <PRENOM>Geraldine</PRENOM>
+            <ROLE>Hannah Chaplin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rhys</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>Sydney Chaplin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1406">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thaw</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Fred Karno</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7254">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kelly</NOM>
+            <PRENOM>Moira</PRENOM>
+            <ROLE>Hetty Kelly / Oona O'Neill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="837">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hopkins</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>George Hayden</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="275">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aykroyd</NOM>
+            <PRENOM>Dan</PRENOM>
+            <ROLE>Mack Sennett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8435">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tomei</NOM>
+            <PRENOM>Marisa</PRENOM>
+            <ROLE>Mabel Normand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="257955">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Barry</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La vie de Charles Chaplin, de son enfance difficile dans l'Angleterre de la fin du XIXe siècle à la fin de ses jours dans sa retraite suisse.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Né en 1889 à Londres, le petit Charles Spencer Chaplin perd son père alors qu'il n'a qu'une dizaine d'années et se retrouve livré à lui-même. La rue sera son école. Alors que sa mère erre d'établissement spécialisé en hôpital psychiatrique, l'enfant traîne dans le quartier pauvre de l'East End londonien. Il y côtoie quotidiennement la misère urbaine et observe, lucide, les personnages, pittoresques ou pitoyables qui peuplent son univers. Mais déjà le jeune Charles, gamin pourtant timide, pressent que le comique sera la voie de son salut, qui le conduira plus tard sur les plateaux de cinéma. Le génie de Charlie Chaplin se révèle alors...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une pléiade d'acteurs reconnus figés dans un portrait convenu et sans saveur du génial Charlot.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E11309.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309040" DATEMODIF="2018-02-07T09:42:54">
+      <DATEHEURE>2018-02-14T15:50:00</DATEHEURE>
+      <DUREE>135</DUREE>
+      <TITRE>Le pont des espions</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="91650120" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Le pont des espions</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="229" GENRESIMPLE="Film policier">Film d'espionnage</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Bridge of Spies</TITREORIGINAL>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>141</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+          <PALMARES>
+            <ANNEE>2016</ANNEE>
+            <FESTIVAL CLE="37">
+              <NOM>Oscars</NOM>
+              <PAYS>Etats-Unis</PAYS>
+              <PARTICIPANT>
+                <PERSONNE CLE="26994">
+                  <NOM>Rylance</NOM>
+                  <PRENOM>Mark</PRENOM>
+                </PERSONNE>
+                <RECOMPENSE CLE="43">Meilleur Second rôle Masculin</RECOMPENSE>
+              </PARTICIPANT>
+            </FESTIVAL>
+          </PALMARES>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="274">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Spielberg</NOM>
+            <PRENOM>Steven</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="9802">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hanks</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>James B Donovan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14971">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alda</NOM>
+            <PRENOM>Alan</PRENOM>
+            <ROLE>Thomas Watters Jr</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11221">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ryan</NOM>
+            <PRENOM>Amy</PRENOM>
+            <ROLE>Mary Donovan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="26994">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rylance</NOM>
+            <PRENOM>Mark</PRENOM>
+            <ROLE>Rudolf Abel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="566677">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Magnussen</NOM>
+            <PRENOM>Billy</PRENOM>
+            <ROLE>Doug Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="266160">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lombardozzi</NOM>
+            <PRENOM>Domenick</PRENOM>
+            <ROLE>l'agent Blasco</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="576181">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stowell</NOM>
+            <PRENOM>Austin</PRENOM>
+            <ROLE>Francis Gary Powers</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="568996">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hewson</NOM>
+            <PRENOM>Eve</PRENOM>
+            <ROLE>Carol Donovan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16034">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Newman</NOM>
+            <PRENOM>Thomas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Durant la guerre froide, un avocat new-yorkais est recruté par la CIA pour tenter de tirer d'affaire un pilote américain détenu en Union soviétique.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En 1960, James B. Donovan, un avocat new-yorkais spécialisé dans les assurances, doit défendre Rudolf Abel, un espion russe que la CIA vient d'arrêter. D'abord surpris qu'on le choisisse, il a à coeur de le défendre tandis que son épouse ne voit que les ennuis que cela peut causer à leurs familles. Homme de loi habile, il parvient à commuer la peine de mort de son client en prison à vie.  Donovan est ensuite recruté par la CIA. Il a pour mission de négocier la libération de Francis Gary Powers, le pilote de l'avion espion américain U-2, que les Soviétiques ont abattu au-dessus de leur territoire. Il se retrouve plongé en pleine guerre froide...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Steven Spielberg maîtrise son art et livre un film d'espionnage passionnant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E91650120.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309041" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T18:05:00</DATEHEURE>
+      <DUREE>125</DUREE>
+      <TITRE>Contre-enquête</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="14497" DATEMODIF="2016-05-20T16:33:38">
+        <TITREEMISSION>Contre-enquête</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="267" GENRESIMPLE="Film policier">Film policier</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Q &amp; A</TITREORIGINAL>
+          <ANNEEREALISATION>1990</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>130</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1216">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lumet</NOM>
+            <PRENOM>Sidney</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="672">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nolte</NOM>
+            <PRENOM>Nick</PRENOM>
+            <ROLE>Mike Brennan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15837">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hutton</NOM>
+            <PRENOM>Timothy</PRENOM>
+            <ROLE>Al Reilly</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="154">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Assante</NOM>
+            <PRENOM>Armand</PRENOM>
+            <ROLE>Bobby Texador</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6222">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>O'Neal</NOM>
+            <PRENOM>Patrick</PRENOM>
+            <ROLE>Kevin Quinn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27600">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Richardson</NOM>
+            <PRENOM>Lee</PRENOM>
+            <ROLE>Leo Bloomenfeld</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="113786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guzmán</NOM>
+            <PRENOM>Luis</PRENOM>
+            <ROLE>Luis Valentin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19406">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dutton</NOM>
+            <PRENOM>Charles S</PRENOM>
+            <ROLE>Sam Chapman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="154066">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lumet</NOM>
+            <PRENOM>Jenny</PRENOM>
+            <ROLE>Nancy Bosch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27601">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Blades</NOM>
+            <PRENOM>Rubén</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune juge d'instruction tente de mettre fin aux activités illégales d'un policier corrompu, qui bénéficie, semble-t-il, du soutien du procureur.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Al Reilly, un juge d'instruction jeune et naïf, est chargé par son patron, le très ambitieux procureur Kevin Quinn, de classer en douceur la dernière irrégularité commise par le lieutenant Brennan, un irascible policier new-yorkais. Un vieux magistrat désabusé, Leo Bloomenfeld, se charge d'expliquer à Reilly combien Brennan est corrompu et dangereux, et quelles douteuses relations l'unissent à Quinn. Loin d'être prêt à blanchir l'expéditif inspecteur, Reilly décide de tout mettre en oeuvre pour faire cesser à ses activités. Afin de réunir les preuves dont il a besoin, le jeune magistrat plonge au coeur de la mafia new-yorkaise et décide de mettre habilement à profit les rivalités ethniques qui la divisent...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>«Serpico» d'abord, «Le Prince de New York» ensuite : Sidney Lumet retrouve un univers qu'il connaît bien, en dénonçant une nouvelle fois la corruption de la police et de la justice.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E14497.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309042" DATEMODIF="2018-02-07T09:42:54">
+      <DATEHEURE>2018-02-14T20:10:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>Le dernier des Céfrans</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="97661330" DATEMODIF="2016-09-12T17:01:09">
+        <TITREEMISSION>Le dernier des Céfrans</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="153" GENRESIMPLE="Court métrage">Court métrage</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>30</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1261086">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Urcun</NOM>
+            <PRENOM>Pierre-Emmanuel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1256804">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferreira</NOM>
+            <PRENOM>Rémy</PRENOM>
+            <ROLE>Rémi</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1270447">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bellawell</NOM>
+            <PRENOM>Ridwane</PRENOM>
+            <ROLE>Redouane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1270448">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bouguettouche</NOM>
+            <PRENOM>Mehdi</PRENOM>
+            <ROLE>Boom</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1244009">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sylla</NOM>
+            <PRENOM>Moussa</PRENOM>
+            <ROLE>Moussa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1270449">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bessalah</NOM>
+            <PRENOM>Nasser</PRENOM>
+            <ROLE>Nasser</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="523524">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cardona</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>le sergent Bedovski</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="461978">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bastide</NOM>
+            <PRENOM>Ludovic</PRENOM>
+            <ROLE>Richard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1270450">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pyvert</NOM>
+            <PRENOM>Ephygénie</PRENOM>
+            <ROLE>Sonia</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Pour sortir de la galère, Rémi est bien décidé à s'engager dans l'armée. Il n'ose cependant pas en parler à ses quatre meilleurs amis.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Pour sortir de la galère, Rémi est bien décidé à s'engager dans l'armée. Il n'ose cependant pas en parler à Boom, Nasser, Redouane et Moussa, ses quatre meilleurs amis.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Ce documentaire a reçu le prix Jean-Vigo en 2015.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E97661330.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309043" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T20:45:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Le défi</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121067127" DATEMODIF="2018-01-19T15:36:33">
+        <TITREEMISSION>Le défi</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="807">
+          <PAYS>France - Italie - Suisse</PAYS>
+          <LIBELLE>franco-italo-suisse</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <TITREORIGINAL>Al-Tahaddi</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>67</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1193747">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Ancarani</NOM>
+            <PRENOM>Yuri</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le temps d'un week-end dans le désert du Qatar, un cercle fermé d'hommes fortunés perpétue, sous le signe de la démesure, la tradition de la chasse au faucon.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>De riches Qataris accompagnés de leurs animaux de compagnie peu ordinaires, léopard tenu en laisse et faucon muselé, traversent le désert du Qatar en voiture de luxe pour se rendre à un tournoi de fauconnerie le temps d'un week-end dans le désert. Richesse illimitée, démesure, technologie la plus sophistiquées coexistent avec les traditions les plus ancestrales.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E121067127.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309044" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T21:50:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Working Girl</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="73314" DATEMODIF="2016-05-21T20:06:33">
+        <TITREEMISSION>Working Girl</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Working Girl</TITREORIGINAL>
+          <ANNEEREALISATION>1988</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>115</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+          <PALMARES>
+            <ANNEE>1989</ANNEE>
+            <FESTIVAL CLE="47">
+              <NOM>Golden Globes Awards</NOM>
+              <PAYS>Etats-Unis</PAYS>
+              <RECOMPENSE CLE="55">Meilleur film musical ou comédie</RECOMPENSE>
+              <PARTICIPANT>
+                <PERSONNE CLE="155">
+                  <NOM>Weaver</NOM>
+                  <PRENOM>Sigourney</PRENOM>
+                </PERSONNE>
+                <RECOMPENSE CLE="53">Meilleure actrice dans un second rôle</RECOMPENSE>
+              </PARTICIPANT>
+              <PARTICIPANT>
+                <PERSONNE CLE="151221">
+                  <NOM>Griffith</NOM>
+                  <PRENOM>Melanie</PRENOM>
+                </PERSONNE>
+                <RECOMPENSE CLE="57">Meilleure actrice dans une comédie ou une comédie musicale</RECOMPENSE>
+              </PARTICIPANT>
+            </FESTIVAL>
+          </PALMARES>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="10043">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Nichols</NOM>
+            <PRENOM>Mike</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="151221">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Griffith</NOM>
+            <PRENOM>Melanie</PRENOM>
+            <ROLE>Tess McGill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4730">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ford</NOM>
+            <PRENOM>Harrison</PRENOM>
+            <ROLE>Jack Trainer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="155">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Weaver</NOM>
+            <PRENOM>Sigourney</PRENOM>
+            <ROLE>Katharine Parker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="20592">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cusack</NOM>
+            <PRENOM>Joan</PRENOM>
+            <ROLE>Cyn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Baldwin</NOM>
+            <PRENOM>Alec</PRENOM>
+            <ROLE>Mick Dugan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bosco</NOM>
+            <PRENOM>Philip</PRENOM>
+            <ROLE>Oren Trask</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6020">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dukakis</NOM>
+            <PRENOM>Olympia</PRENOM>
+            <ROLE>le chef du personnel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="56159">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dunn</NOM>
+            <PRENOM>Nora</PRENOM>
+            <ROLE>Ginny</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="142449">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Simon</NOM>
+            <PRENOM>Carly</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une secrétaire ambitieuse et dégourdie profite de l'absence de sa patronne, une femme d'affaires aux dents longues, pour diriger sa société.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Tess McGill, secrétaire dans une société de courtage new-yorkaise, enrage de ne pas être estimée à sa juste valeur et rêve de promotion. Sa rébellion lui vaut d'être mutée au service «fusions et acquisitions», dont Katharine Parker, une femme ambitieuse et au premier abord sympathique, vient de prendre la tête. Jamais à court d'idées ou d'initiatives, Tess propose un important accord commercial à Katharine, qui le refuse, le jugeant peu sûr. En réalité, elle s'en approprie sans vergogne l'idée. Profitant d'un accident de ski qui immobilise l'indélicate patronne, Tess décide de prendre sa place et de mener l'affaire à sa guise...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un divertissement vif et enjoué. Réjouissant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E73314.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309045" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-14T23:40:00</DATEHEURE>
+      <DUREE>85</DUREE>
+      <TITRE>Voluptés secrètes</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124678750" DATEMODIF="2017-12-29T12:34:14">
+        <TITREEMISSION>Voluptés secrètes</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="282" GENRESIMPLE="Film érotique">Film érotique</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Ich, das Abenteuer, heute eine Frau zu sein</TITREORIGINAL>
+          <ANNEEREALISATION>1972</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <CENSURE CLE="16">Interdit aux moins de 16</CENSURE>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1363360">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>vom Bruck</NOM>
+            <PRENOM>Rosewitha</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1363362">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Carol</NOM>
+            <PRENOM>Renate</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="63737">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Glaubrecht</NOM>
+            <PRENOM>Frank</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1363363">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Baerow</NOM>
+            <PRENOM>Harald</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1363364">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hochschwarzer</NOM>
+            <PRENOM>Bert</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1363365">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lebeau</NOM>
+            <PRENOM>Marianne</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1363366">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pflüger</NOM>
+            <PRENOM>Erich Joey</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="439684">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Kiessling</NOM>
+            <PRENOM>Heinz</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Monika se sent délaissée par son mari, Kai, un ingénieur toujours très occupé. Jusqu'au jour où une amie l'introduit dans un cercle de nymphomanes.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Monika se sent délaissée par son mari, Kai, un ingénieur toujours très occupé, toujours en voyage. Frustrée, elle s'essaie d'abord à la masturbation, jusqu'au jour où une amie l'introduit dans un cercle de nymphomanes. C'est là que Monika trouve tout ce que Kai était incapable de lui donner...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un grand classique du cinéma érotique ouest-allemand des annés 70, avec la plantureuse Renate Carol.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124678750.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309046" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-15T01:05:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>L'ornithologue</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="103982391" DATEMODIF="2018-01-10T16:27:28">
+        <TITREEMISSION>L'ornithologue</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="322">
+          <PAYS>France - Portugal</PAYS>
+          <LIBELLE>franco-portugaise</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>O Ornitólogo</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>117</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="258687">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Rodrigues</NOM>
+            <PRENOM>João Pedro</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="628631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hamy</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>Fernando</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1290658">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Suan</NOM>
+            <PRENOM>Chan</PRENOM>
+            <ROLE>Ling</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="258687">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rodrigues</NOM>
+            <PRENOM>João Pedro</PRENOM>
+            <ROLE>Antonio</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1316652">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wen</NOM>
+            <PRENOM>Han</PRENOM>
+            <ROLE>Fei</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1316653">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Elting</NOM>
+            <PRENOM>Juliane</PRENOM>
+            <ROLE>la chasseuse blonde</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1316655">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cagiao</NOM>
+            <PRENOM>Xelo</PRENOM>
+            <ROLE>Jésus/Tomé</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un ornithologue, qui a failli se noyer dans une rivière, est sauvé par deux Chinoises avant de subir des métamorphoses où il devient un objet de fétichisme.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Fernando, un ornithologue, est à la recherche de spécimens rares de cigognes noires et s'enfonce dans une nature luxuriante. Alors qu'il est dans un canoë, il est entraîné dans des rapides. Il doit la vie sauve à deux jeunes Chinoises. Quand il se réveille au petit matin, il est sanglé de cordelettes, attaché comme un modèle japonais des photos bondage d'Araki. Il effraie les jeunes femmes qui voient en lui un esprit mauvais. Fernando subit une série de métamorphoses : de chasseur, il devient le fétiche de nombreuses personnes, toutes plus étranges les unes que les autres...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E103982391.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309047" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-15T02:55:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>La peau de Bax</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="95561791" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>La peau de Bax</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="307" GENRESIMPLE="Film de suspense">Thriller</GENRE>
+        <NATIONALITE CLE="438">
+          <PAYS>Pays-Bas</PAYS>
+          <LIBELLE>néerlandais</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Schneider vs. Bax</TITREORIGINAL>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>96</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="44819">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Van Warmerdam</NOM>
+            <PRENOM>Alex</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="480395">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>De Wispelaere</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Schneider</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44819">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Van Warmerdam</NOM>
+            <PRENOM>Alex</PRENOM>
+            <ROLE>Ramon Bax</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="448798">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kraakman</NOM>
+            <PRENOM>Maria</PRENOM>
+            <ROLE>Francisca</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="17872">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bervoets</NOM>
+            <PRENOM>Gene</PRENOM>
+            <ROLE>Mertens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44823">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Malherbe</NOM>
+            <PRENOM>Annet</PRENOM>
+            <ROLE>Gina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10912">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bokma</NOM>
+            <PRENOM>Pierre</PRENOM>
+            <ROLE>Bolek</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9848">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garcin</NOM>
+            <PRENOM>Henri</PRENOM>
+            <ROLE>Gerard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="326952">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Haverkort</NOM>
+            <PRENOM>Loes</PRENOM>
+            <ROLE>Lucy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44819">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Van Warmerdam</NOM>
+            <PRENOM>Alex</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le jour de son anniversaire, un tueur à gages et père de famille est chargé par un de ses clients d'honorer un contrat urgent : exécuter un écrivain solitaire.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Schneider est un tueur à gages efficace. C'est aussi un mari dévoué. Lorsqu'il reçoit un matin un appel de Mertens, l'un de ses clients, celui-ci le missionne pour honorer un contrat urgent : exécuter Ramon Bax, un écrivain qui vit en solitaire dans une petite maison en bois au milieu des marécages. Sauf qu'aujourd'hui, Schneider fête son anniversaire et il a promis à sa femme de l'aider à préparer le dîner pour lequel ils reçoivent des invités. D'abord réticent, Schneider accepte finalement la mission compte tenu de sa simplicité. Il devrait être de retour chez lui à temps pour organiser les festivités. Toutefois, rien ne se passe comme il l'avait prévu...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une très agréable surprise que ce thriller teinté d'humour, servi par des comédiens de grand talent.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E95561791.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309048" DATEMODIF="2018-02-07T09:42:53">
+      <DATEHEURE>2018-02-15T04:30:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Les suffragettes</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="94085611" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Les suffragettes</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Suffragette</TITREORIGINAL>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>106</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="345831">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gavron</NOM>
+            <PRENOM>Sarah</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="385968">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mulligan</NOM>
+            <PRENOM>Carey</PRENOM>
+            <ROLE>Maud Watts</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="107492">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bonham Carter</NOM>
+            <PRENOM>Helena</PRENOM>
+            <ROLE>Edith New</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12794">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Streep</NOM>
+            <PRENOM>Meryl</PRENOM>
+            <ROLE>Emmeline Pankhurst</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="305933">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whishaw</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>Sonny Watts</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19442">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gleeson</NOM>
+            <PRENOM>Brendan</PRENOM>
+            <ROLE>Steed</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="228605">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garai</NOM>
+            <PRENOM>Romola</PRENOM>
+            <ROLE>Alice</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91827">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duff</NOM>
+            <PRENOM>Anne-Marie</PRENOM>
+            <ROLE>Violet Cambridge</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7062">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>West</NOM>
+            <PRENOM>Samuel</PRENOM>
+            <ROLE>Benedict</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="28795">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Desplat</NOM>
+            <PRENOM>Alexandre</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au début du XXe siècle, une jeune employée de blanchisserie rejoint un groupe de militantes féministes qui luttent pour obtenir le droit de vote en Angleterre.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En Angleterre, au début du XXe siècle, Maud, une jeune femme employée dans une blanchisserie, mariée et mère de famille décide de s'engager auprès du groupe de militantes féministes britanniques appelé « Les suffragettes », un mouvement radical qui lutte pour obtenir le droit de vote des femmes au Royaume-Uni. Face aux réactions agressives du gouvernement envers les diverses manifestations pacifiques, Les suffragettes, dirigées par la célèbre Emmeline Pankhurst, sont prêtes à recourir à la violence et à risquer leur travail, leur famille et leur vie pour porter leur message...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un hommage touchant et percutant aux féministes d'avant-guerre, interprétée par des comédiennes au sommet de leur talent.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E94085611.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

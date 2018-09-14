@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:46:50-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1382">
+    <NOMCHAINE>SFR Sport 5</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="172054424" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-21T06:00:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Pancrace</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125211400" DATEMODIF="2018-01-15T12:08:58">
+        <TITREEMISSION>Pancrace</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1035" GENRESIMPLE="Sports de combat">Sports de combat</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>100% Fight 33</LIBELLE>
+            <MANCHE>1re partie</MANCHE>
+          </EVENEMENT>
+          <LIEU>A la Halle Carpentier, à Paris</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054425" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-21T08:00:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Kick-boxing</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125434181" DATEMODIF="2018-01-22T12:01:02">
+        <TITREEMISSION>Kick-boxing</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="587" GENRESIMPLE="Boxe">Kick-boxing</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Girl Power 5</LIBELLE>
+          </EVENEMENT>
+          <LIEU>A Stara Zagora (Bulgarie)</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054426" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-21T10:00:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Full contact</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125907745" DATEMODIF="2018-02-02T17:19:36">
+        <TITREEMISSION>Full contact</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="518" GENRESIMPLE="Arts martiaux">Full contact</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Challenge TTT 2018</LIBELLE>
+          </EVENEMENT>
+          <LIEU>A Wattrelos (Nord)</LIEU>
+          <DATE>Le 7 janvier</DATE>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054427" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-21T12:00:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Muay thaï</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125745068" DATEMODIF="2018-01-30T10:28:24">
+        <TITREEMISSION>Kick-boxing</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="587" GENRESIMPLE="Boxe">Kick-boxing</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Invictus Show 3</LIBELLE>
+          </EVENEMENT>
+          <LIEU>A Beyne-Heusay (Belgique)</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054428" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-21T14:00:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Muay thaï</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125746215" DATEMODIF="2018-01-30T10:36:05">
+        <TITREEMISSION>Muay thaï</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="593" GENRESIMPLE="Boxe">Boxe thaï</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Raja Fight</LIBELLE>
+            <MANCHE>4e partie</MANCHE>
+          </EVENEMENT>
+          <LIEU>A Bangkok (Thaïlande)</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054429" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-21T16:00:00</DATEHEURE>
+      <DUREE>150</DUREE>
+      <TITRE>Boxe</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125907281" DATEMODIF="2018-02-02T17:16:18">
+        <TITREEMISSION>Boxe</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="584" GENRESIMPLE="Boxe">Boxe</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>World Series of Boxing 2018</LIBELLE>
+            <MANCHE>Groupe B</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Grande-Bretagne / Croatie</LIBELLE>
+          </EVENEMENT>
+          <LIEU>A Gateshead</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054430" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-21T18:30:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Jiu-jitsu brésilien</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125907755" DATEMODIF="2018-02-02T17:21:43">
+        <TITREEMISSION>Jiu-jitsu brésilien</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="512" GENRESIMPLE="Arts martiaux">Ju jitsu</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Abu Dhabi Grand Slam World Tour 2017/2018</LIBELLE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Open d'Abu Dhabi</LIBELLE>
+            <MANCHE>1re partie</MANCHE>
+          </EVENEMENT>
+          <LIEU>Aux Emirats arabes unis</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054431" DATEMODIF="2018-02-03T02:12:06">
+      <DATEHEURE>2018-02-21T20:30:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Boxe thaï</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125907768" DATEMODIF="2018-02-02T17:33:59">
+        <TITREEMISSION>Boxe thaï</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="593" GENRESIMPLE="Boxe">Boxe thaï</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Thaï Fight</LIBELLE>
+          </EVENEMENT>
+          <LIEU>A Yala (Thaïlande)</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054432" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-21T22:30:00</DATEHEURE>
+      <DUREE>150</DUREE>
+      <TITRE>MMA</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125742582" DATEMODIF="2018-01-30T10:07:51">
+        <TITREEMISSION>MMA</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1133" GENRESIMPLE="Sports de combat">MMA</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Ultimate Fighting Championship 2018</LIBELLE>
+            <MANCHE>UFC 221</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Yoel Romero / Luke Rockhold</LIBELLE>
+          </EVENEMENT>
+          <LIEU>A Perth (Australie)</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054433" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-22T01:00:00</DATEHEURE>
+      <DUREE>150</DUREE>
+      <TITRE>MMA</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125889432" DATEMODIF="2018-02-02T11:38:58">
+        <TITREEMISSION>MMA</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1133" GENRESIMPLE="Sports de combat">MMA</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Ultimate Fighting Championship 2018</LIBELLE>
+            <MANCHE>UFC Fight Night 127</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Donald Cerrone / Yancy Medeiros</LIBELLE>
+          </EVENEMENT>
+          <LIEU>A Austin (Texas)</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054434" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-22T03:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>MMA Amateur</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125211000" DATEMODIF="2018-01-15T12:02:40">
+        <TITREEMISSION>MMA Amateur</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1133" GENRESIMPLE="Sports de combat">MMA</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>We Are Fighters</LIBELLE>
+          </EVENEMENT>
+          <LIEU>A Bahreïn</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172054710" DATEMODIF="2018-02-02T17:50:05">
+      <DATEHEURE>2018-02-22T04:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Fin des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125908045" DATEMODIF="2018-02-02T17:50:05">
+        <TITREEMISSION>Fin des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

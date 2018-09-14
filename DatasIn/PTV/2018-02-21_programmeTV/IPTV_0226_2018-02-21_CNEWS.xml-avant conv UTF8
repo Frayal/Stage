@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:57:20-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="226">
+    <NOMCHAINE>CNEWS</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="171770287" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T06:00:00</DATEHEURE>
+      <DUREE>180</DUREE>
+      <TITRE>La matinale</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701400" DATEMODIF="2018-01-29T15:39:08">
+        <TITREEMISSION>La matinale</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="401" GENRESIMPLE="Magazine d'information">Magazine d'information</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="1944046">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / La matinale</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="358274">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mathias</NOM>
+            <PRENOM>Clélie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="577102">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Desarbres</NOM>
+            <PRENOM>Romain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="121258">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Elkabbach</NOM>
+            <PRENOM>Jean-Pierre</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="193302">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Benkemoun</NOM>
+            <PRENOM>Olivier</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="121378">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Leclerc</NOM>
+            <PRENOM>Gérard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="141798">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Moreau</NOM>
+            <PRENOM>Thierry</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="342068">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Riedmatten</NOM>
+            <PRENOM>Eric de</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="120864">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Milhau</NOM>
+            <PRENOM>Brigitte</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1348798">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Blanc</NOM>
+            <PRENOM>Alexandra</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="549248">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Vézirian</NOM>
+            <PRENOM>Thibaud</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>La matinale propose de décrypter l'information dans sa globalité : faits d'actualité, économie, événements sportifs, culture et politique sont analysés en détail. Avec l'interview politique à 7h30.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701400.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770288" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T09:00:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>L'heure des pros</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701401" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>L'heure des pros</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23434017">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'heure des pros</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="148498">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Praud</NOM>
+            <PRENOM>Pascal</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="223730">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Beaufort</NOM>
+            <PRENOM>Claire-Elisabeth</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Des débats autour de l'actualité, politique durant la première heure, sociétale durant la seconde partie de l'émission. Avec le zapping des matinales.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701401.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770289" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T10:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Le carrefour de l'info</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701402" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>Le carrefour de l'info</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="401" GENRESIMPLE="Magazine d'information">Magazine d'information</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27696986">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le carrefour de l'info</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="223730">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Beaufort</NOM>
+            <PRENOM>Claire-Elisabeth</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un grand journal ponctué de duplex et de reportages afin de rester au coeur des événements majeurs de la mi-journée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701402.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770290" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T11:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Morandini Live</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701403" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>Morandini Live</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22685094">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Morandini Live</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="132845">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Morandini</NOM>
+            <PRENOM>Jean-Marc</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Chroniques, décryptages, reportages et débats autour des différents sujets qui font l'actualité, avec l'expertise d'invités issus de la sphère médiatique.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701403.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770291" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T12:00:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Le carrefour de l'info</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701404" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>Le carrefour de l'info</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="401" GENRESIMPLE="Magazine d'information">Magazine d'information</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27696986">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le carrefour de l'info</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="223730">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Beaufort</NOM>
+            <PRENOM>Claire-Elisabeth</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un grand journal ponctué de duplex et de reportages afin de rester au coeur des événements majeurs de la mi-journée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701404.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770292" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T14:00:00</DATEHEURE>
+      <DUREE>180</DUREE>
+      <TITRE>Toute l'actu</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701405" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>Toute l'actu</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="1103" GENRESIMPLE="Magazine de l'art de vivre">Magazine de l'art de vivre</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="29727145">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Toute l'actu</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="246791">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Moreau</NOM>
+            <PRENOM>Isabelle</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un moment de détente et de convivialité pour parler bien-être, consommation, cuisine, déco et des nouvelles tendances lifestyle.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770293" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T17:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Les voix de l'info</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701406" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>Les voix de l'info</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27696999">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les voix de l'info</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="473594">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mabrouk</NOM>
+            <PRENOM>Sonia</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un rendez-vous de débats pour mieux comprendre les changements et bouleversements en cours, qu'ils soient politiques, économiques, sociaux, sociétaux, internationaux ou encore technologiques.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701406.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770294" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T18:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Les voix de l'info</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701407" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>Les voix de l'info</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27696999">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les voix de l'info</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="473594">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mabrouk</NOM>
+            <PRENOM>Sonia</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un rendez-vous de débats pour mieux comprendre les changements et bouleversements en cours, qu'ils soient politiques, économiques, sociaux, sociétaux, internationaux ou encore technologiques.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701407.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770295" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T19:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Punchline</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701408" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>Punchline</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="414" GENRESIMPLE="Magazine d'information">Magazine politique</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22212329">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Punchline</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="132025">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Ferrari</NOM>
+            <PRENOM>Laurence</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="493966">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Boisfer</NOM>
+            <PRENOM>Patrice</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Laurence Ferrari décrypte les phrases fortes qui font l'actualité et les formules ciselées des hommes politiques. Comment se construit une punchline et comment explique-t-on son succès ? Quelles sont celles qui influencent durablement l'opinion ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701408.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770509" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T20:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>20h Foot</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701599" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>20h Foot</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125701599.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="148498">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Praud</NOM>
+          <PRENOM>Pascal</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770297" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T21:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>L'édition du soir</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701410" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>L'édition du soir</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="16828238">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / L'édition du soir</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="493966">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Boisfer</NOM>
+            <PRENOM>Patrice</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un journal complet de l'actualité nationale et internationale, suivi de la méteo.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701410.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770298" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T21:30:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>L'info du vrai</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701411" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>L'info du vrai</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27427609">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'info du vrai</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="133796">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Calvi</NOM>
+            <PRENOM>Yves</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="601874">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Darfeuille</NOM>
+            <PRENOM>Alice</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="121230">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Abiker</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1347371">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Lavabre</NOM>
+            <PRENOM>Camille</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Alors que les réseaux sociaux ajoutent de la confusion aux flux d'informations qui circule quotidiennement, l'émission présentée par le journaliste Yves Calvi multiplie les mises au point. Reportages, analyses et débats proposent un décryptage des événements du jour. S'ajoute à cela un regard plein de curiosité sur l'actualité culturelle. Alice Darfeuille et David Abiker apportent leur contribution originale au sérieux de «L'Info du vrai». L'enjouée Camille Lavabre fait le point sur la météo.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701411.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171770299" DATEMODIF="2018-01-29T15:39:09">
+      <DATEHEURE>2018-02-21T23:30:00</DATEHEURE>
+      <DUREE>390</DUREE>
+      <TITRE>L'édition de la nuit</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125701412" DATEMODIF="2018-01-29T15:39:09">
+        <TITREEMISSION>L'édition de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="10703733">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / L'édition de la nuit</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="493966">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Boisfer</NOM>
+            <PRENOM>Patrice</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un journal complet de l'actualité nationale et internationale, suivi de la méteo.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125701412.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

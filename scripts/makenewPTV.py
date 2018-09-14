@@ -63,8 +63,12 @@ def get_temp_path():
 def update_temp_path(i):
     datas = pd.read_csv('path.csv')
     datas['temp_path'] = datas['PathtoDatasOut']+'T'+str(i)+"/"
+    def_context.Report('Updated Temp path to: '+datas['PathtoDatasOut'][0]+'T'+str(i)+"/")
     datas.to_csv('path.csv',index=False)
 
+########################################
+########## Main with some otpions ######
+########################################
 
 def main(argv):
     global PATH_IN,PATH_SCRIPT,PATH_OUT
@@ -72,6 +76,7 @@ def main(argv):
     import pandas as pd
     import pickle
     createfile = False
+    end = 30
     t = time.time()
     if(len(argv) ==0):
         argv = ['2015']
@@ -99,7 +104,7 @@ def main(argv):
 
             df.to_csv('scores.csv',index=False)
             time.sleep(10)
-        for i in range(start,30):
+        for i in range(start,end):
             update_temp_path(i)
             try:
                 open(PATH_OUT+'res.txt', 'w').close()
@@ -191,12 +196,12 @@ def main(argv):
                     for i in range(3):
                         def_context.Report(str(i)+' '+str(c)+' '+str(f))
                         from predictPTV import main as pred
-                        l1,temp_newPTV1,temp_history1,index_PTV1,temp_context1 = pred([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts])
+                        l1,temp_newPTV1,temp_history1,index_PTV1,temp_context1 = pred([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts,PATH_OUT])
                         if(l1>0 and relecture):
                             nb_rel+=1
                             def_context.Report("Utilisation de la relecture "+str(i)+' '+str(c)+' '+str(f))
                             from RLPTV import main as RL
-                            l2,temp_newPTV2,temp_history2,index_PTV2,temp_context2 = RL([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts])
+                            l2,temp_newPTV2,temp_history2,index_PTV2,temp_context2 = RL([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts,PATH_OUT])
                             if(l2>5):
                                 def_context.Report("Utilisation de l'arbre de décision",f,c,i)
                                 if(chaine == 'TF1'):
@@ -250,7 +255,7 @@ def main(argv):
                     historyofpoints.to_html(PATH_IN+'hop/historyofpoints_'+str(f)+'_'+str(c)+'.html')
                     historyofpoints.to_csv(PATH_IN+'hop/historyofpoints_'+str(f)+'_'+str(c)+'.csv',index=False)
                     newPTV.to_html(PATH_OUT+'new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.html')
-                    newPTV.to_csv(PATH_OUT+'new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.csv')
+                    newPTV.to_csv(PATH_OUT+'new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.csv',index=False)
                     #newPTV.to_csv(PATH_OUT+'new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.csv',index=False)
                     #historyofpoints.to_html(PATH_OUT+'hop/historyofpoints_'+str(f)+'_'+str(c)+'.html')
                     #historyofpoints.to_csv(PATH_OUT+'hop/historyofpoints_'+str(f)+'_'+str(c)+'.csv',index=False)
@@ -278,6 +283,7 @@ def main(argv):
         df.to_csv('scores.csv',index=False)
 
     elif(len(argv) == 2):
+        PATH_OUT = get_temp_path()
         relecture = True
         import pandas as pd
         c = argv[0]
@@ -299,11 +305,11 @@ def main(argv):
         for i in range(3):
             def_context.Report(str(i)+' '+str(c)+' '+str(f))
             from predictPTV import main as pred
-            l1,temp_newPTV1,temp_history1,index_PTV1,temp_context1 = pred([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts])
+            l1,temp_newPTV1,temp_history1,index_PTV1,temp_context1 = pred([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts,PATH_OUT])
             if(l1>0 and relecture):
                 def_context.Report("Utilisation de la relecture "+str(i)+' '+str(c)+' '+str(f))
                 from RLPTV import main as RL
-                l2,temp_newPTV2,temp_history2,index_PTV2,temp_context2 = RL([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts])
+                l2,temp_newPTV2,temp_history2,index_PTV2,temp_context2 = RL([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts,PATH_OUT])
                 if(l2>5):
                     def_context.Report("Utilisation de l'arbre de décision",f,c,i)
                     if(chaine == 'TF1'):

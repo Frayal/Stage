@@ -1,0 +1,1751 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:53:38-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="33">
+    <NOMCHAINE>Canal+ Cinéma</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-17">
+    <DIFFUSION CLEDIF="171824206" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T07:45:00</DATEHEURE>
+      <DUREE>9</DUREE>
+      <TITRE>Gratis</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124547596" DATEMODIF="2017-12-26T16:35:43">
+        <TITREEMISSION>Gratis</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="153" GENRESIMPLE="Court métrage">Court métrage</GENRE>
+        <NATIONALITE CLE="438">
+          <PAYS>Pays-Bas</PAYS>
+          <LIBELLE>néerlandais</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>10</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1363086">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Scholte-Albers</NOM>
+            <PRENOM>Merijn</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1363087">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Smeets</NOM>
+            <PRENOM>Tobias</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1142448">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Coopmans</NOM>
+            <PRENOM>Bram</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="321444">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>De Vries</NOM>
+            <PRENOM>Nico</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1363088">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rook</NOM>
+            <PRENOM>Bastiaan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un vieux couple gagne à une loterie dans un supermarché. Le prix consiste à acheter le maximum d'articles en une minute. Ils vont se redécouvrir.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un vieux couple gagne à une loterie dans un supermarché. Le prix consiste à acheter le maximum d'articles en une minute. Ils vont se redécouvrir...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124547596.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171824207" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T07:54:00</DATEHEURE>
+      <DUREE>1</DUREE>
+      <TITRE>Jour de cinéma</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125393075" DATEMODIF="2018-01-31T12:57:28">
+        <TITREEMISSION>Jour de cinéma</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="28454204">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Jour de cinéma</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Toute l'actualité cinématographique du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125393075.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170687335" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T07:55:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Straw Dogs</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="30161074" DATEMODIF="2017-12-12T12:34:56">
+        <TITREEMISSION>Chiens de paille </TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="307" GENRESIMPLE="Film de suspense">Thriller</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Straw Dogs</TITREORIGINAL>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>110</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="202590">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lurie</NOM>
+            <PRENOM>Rod</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="45869">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marsden</NOM>
+            <PRENOM>James</PRENOM>
+            <ROLE>David Sumner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="154685">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bosworth</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Amy Sumner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="389415">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Skarsgard</NOM>
+            <PRENOM>Alexander</PRENOM>
+            <ROLE>Charlie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13345">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Woods</NOM>
+            <PRENOM>James</PRENOM>
+            <ROLE>Tom Heddon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="133765">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Purcell</NOM>
+            <PRENOM>Dominic</PRENOM>
+            <ROLE>Jeremy Niles</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="359335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Coiro</NOM>
+            <PRENOM>Rhys</PRENOM>
+            <ROLE>Norman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="273420">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lush</NOM>
+            <PRENOM>Billy</PRENOM>
+            <ROLE>Chris</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="316220">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alonso</NOM>
+            <PRENOM>Laz</PRENOM>
+            <ROLE>John Burke</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="255346">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Groupé</NOM>
+            <PRENOM>Larry</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un couple de citadins suscite, lui le mépris, elle le désir, d'une bande de ruraux dont les persécutions vont croissant, jusqu'à l'explosion de violence.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>David Sumner, scénariste travaillant pour Hollywood, et sa femme, Amy, une actrice, s'installent à Blackwater, Mississippi, dans la ville natale de la jeune femme. David, un citadin bon teint, aux opinions libérales et aux goûts raffinés, veut payer avec sa carte bleue les bières sans alcool qu'il commande dans le pub local. Tout l'oppose, sans qu'il le mesure vraiment, à ses nouveaux voisins, et en particulier à Charlie, l'ancien petit ami d'Amy. Plus David tente de s'adapter, plus le mépris de Charlie et de sa bande augmente, exacerbé par le désir que suscite la belle Amy. Jusqu'au jour où la violence éclate, sans retour...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Le remake, plutôt fidèle, du film réalisé par Sam Peckinpah en 1971, avec Dustin Hoffman. Toujours aussi effrayant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E30161074.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171824208" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T09:40:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>The Icebreaker</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="110329514" DATEMODIF="2017-12-11T16:39:33">
+        <TITREEMISSION>Le brise-glace</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="216" GENRESIMPLE="Film de suspense">Film catastrophe</GENRE>
+        <NATIONALITE CLE="548">
+          <PAYS>Russie</PAYS>
+          <LIBELLE>russe</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Ledokol</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>120</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="531435">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Khomeriki</NOM>
+            <PRENOM>Nikolay</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="613740">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fyodorov</NOM>
+            <PRENOM>Pyotr</PRENOM>
+            <ROLE>Petrov</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="633643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Puskepalis</NOM>
+            <PRENOM>Sergey</PRENOM>
+            <ROLE>Sevchenko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1335326">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pal</NOM>
+            <PRENOM>Aleksandr</PRENOM>
+            <ROLE>Kukushkin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1192276">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Khaev</NOM>
+            <PRENOM>Vitaliy</PRENOM>
+            <ROLE>Bannik</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1335327">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Barabash</NOM>
+            <PRENOM>Aleksey</PRENOM>
+            <ROLE>Eremeev</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1196380">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smirnova</NOM>
+            <PRENOM>Olga</PRENOM>
+            <ROLE>Lyuda</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="84938">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mikhalkova</NOM>
+            <PRENOM>Anna</PRENOM>
+            <ROLE>Galina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="254627">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Yatsenko</NOM>
+            <PRENOM>Aleksandr</PRENOM>
+            <ROLE>Tsimbalistyi</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="133711">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Kantelinen</NOM>
+            <PRENOM>Tuomas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 1985, la dérive forcée d'un brise-glace russe et de son équipage au large de l'Antarctique, après la collision avec un énorme iceberg.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>1985. Un énorme iceberg se trouve sur la route du brise-glace «Mikhaïl Gromov». Voulant éviter une collision, le navire est pris dans les glaces et entame une dérive forcée au large de l'Antarctique. Un silence lugubre et un froid terrible règnent tout autour. Le carburant touche à sa fin, l'équipage est à cran. Car, même en quittant le brise-glace, les hommes n'auraient nulle part où aller ; il n'y a pas d'issue possible. Le commandant du brise-glace n'a pas le droit à l'erreur. Il suffit de prendre une mauvaise décision pour que les lourdes glaces écrasent le navire…</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film inspiré de l'histoire vraie du «Mikhaïl Somov», un brise-glace qui s'est retrouvé bloqué dans les glaces de l'Antarctique pendant 133 jours, de mars à juillet 1985. Le tournage de ce film catastrophe épique a duré trois mois et demi, et a nécessité quatre expéditions de Mourmansk vers Sébastopol.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E110329514.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171824209" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T11:40:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Le cercle</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125393076" DATEMODIF="2018-01-19T14:44:31">
+        <TITREEMISSION>Le cercle</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2004168">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le cercle</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="614178">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Trapenard</NOM>
+            <PRENOM>Augustin</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Accompagné de journalistes, cinéphiles ou écrivains passionnés issus d'horizons variés, Augustin Trapenard aborde et commente les sorties de la semaine, avec un invité surprise, le tout dans une ambiance joyeuse et conviviale.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125393076.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170687339" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T12:35:00</DATEHEURE>
+      <DUREE>85</DUREE>
+      <TITRE>Papa ou maman 2</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="105481904" DATEMODIF="2018-01-05T12:23:08">
+        <TITREEMISSION>Papa ou maman 2</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>86</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="424564">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bourboulon</NOM>
+            <PRENOM>Martin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="729">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lafitte</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Vincent Leroy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="309564">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Foïs</NOM>
+            <PRENOM>Marina</PRENOM>
+            <ROLE>Florence Corrigan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="404852">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giraudeau</NOM>
+            <PRENOM>Sara</PRENOM>
+            <ROLE>Bénédicte</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="477622">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cohen</NOM>
+            <PRENOM>Jonathan</PRENOM>
+            <ROLE>Edouard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="600289">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lemarchand</NOM>
+            <PRENOM>Anna</PRENOM>
+            <ROLE>Emma Leroy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1245673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desrousseaux</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Mathias Leroy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1245674">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Potier</NOM>
+            <PRENOM>Achille</PRENOM>
+            <ROLE>Julien Leroy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2016">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garcia</NOM>
+            <PRENOM>Nicole</PRENOM>
+            <ROLE>la mère de Florence</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors qu'ils ont chacun refait leur vie et tourné la page, des divorcés sont encouragés par leurs enfants adolescents à reprendre la vie commune.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Vincent Leroy et Florence, son ex-femme, semblent avoir tourné la page après leur séparation mouvementée. Ils ont refait leur vie chacun de leur côté : Vincent avec Bénédicte et Florence avec Edouard. Cependant, Vincent accepte mal qu'Edouard soit beaucoup plus riche que lui. Florence, de son côté, a dû mal à se réjouir à l'annonce de la grossesse de Bénédicte. Leurs enfants, qui détestent cette nouvelle situation, aimeraient que leurs parents reforment à nouveau un couple...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une suite tout aussi réjouissante que le premier opus, interprétée par des comédiens en pleine forme.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170687340" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T14:00:00</DATEHEURE>
+      <DUREE>135</DUREE>
+      <SURTITRE>Coup de coeur</SURTITRE>
+      <TITRE>The Lost City of Z</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="96299258" DATEMODIF="2018-01-18T14:38:28">
+        <TITREEMISSION>The Lost City of Z</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="224" GENRESIMPLE="Film d'aventures">Film d'aventures</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Lost City of Z</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>140</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="52474">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gray</NOM>
+            <PRENOM>James</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="115341">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hunnam</NOM>
+            <PRENOM>Charlie</PRENOM>
+            <ROLE>Percy Fawcett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279937">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Miller</NOM>
+            <PRENOM>Sienna</PRENOM>
+            <ROLE>Nina Fawcett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="306710">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pattinson</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Henry Costin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1206808">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Holland</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Jack Fawcett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19440">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macfadyen</NOM>
+            <PRENOM>Angus</PRENOM>
+            <ROLE>James Murray</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1200002">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Huttlestone</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Brian Fawcett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jovanovic</NOM>
+            <PRENOM>Aleksandar</PRENOM>
+            <ROLE>Urquhart</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141939">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Clem</NOM>
+            <PRENOM>Frank</PRENOM>
+            <ROLE>le tireur texan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1193101">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Spelman</NOM>
+            <PRENOM>Christopher</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au début du XXe siècle, un explorateur britannique et son partenaire financier se rendent au coeur de l'Amazonie, à la recherche d'une cité perdue.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Au début du XXe siècle, Percival Harrison Fawcett, un colonel de l'armée britannique, est approché par la Société géographique de Londres afin d'établir une cartographie des frontières entre le Brésil et la Bolivie. Les deux pays se disputent la culture du caoutchouc dans la région car les limites territoriales n'y ont pas encore été établies avec exactitude. Au cours de ses expéditions, il a vent d'une cité perdue, cachée au coeur de la forêt amazonienne. Cette histoire l'obsède. Il laisse femme et enfants, et part à la recherche de cette civilisation, en compagnie de Henry Costin, qui finance cette exploration périlleuse...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>A la fois fresque épique et portrait intime d'un homme éperdu d'absolu, «The Lost City of Z» est une réussite.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171824210" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T16:15:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Kidnap</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111001757" DATEMODIF="2018-01-20T10:55:15">
+        <TITREEMISSION>Kidnap</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="218" GENRESIMPLE="Film d'aventures">Film d'action</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Kidnap</TITREORIGINAL>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>95</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="205222">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Prieto</NOM>
+            <PRENOM>Luis</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="18750">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berry</NOM>
+            <PRENOM>Halle</PRENOM>
+            <ROLE>Karla Dyson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364161">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Correa</NOM>
+            <PRENOM>Sage</PRENOM>
+            <ROLE>Frankie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364162">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinn</NOM>
+            <PRENOM>Chris</PRENOM>
+            <ROLE>Margo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="462944">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Temple</NOM>
+            <PRENOM>Lew</PRENOM>
+            <ROLE>Terry</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="59483">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>George</NOM>
+            <PRENOM>Jason</PRENOM>
+            <ROLE>David</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298809">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berry</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>l'homme barbu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="532560">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shiver</NOM>
+            <PRENOM>Arron</PRENOM>
+            <ROLE>Bill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1238692">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bedford</NOM>
+            <PRENOM>Kurtis</PRENOM>
+            <ROLE>Del</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="288444">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Jusid</NOM>
+            <PRENOM>Federico</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une femme emmène son fils au parc d'attractions. C'est là qu'une inconnue kidnappe l'enfant sous les yeux de sa mère, qui se lance à sa poursuite.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Karla Dyson, emmène Frankie, son fils, au parc d'attractions. C'est là qu'une inconnue kidnappe l'enfant. Karla, qui parvient à voir la voiture à bord de laquelle son fils est enlevé, se lance aussitôt à sa poursuite. Elle comprend que si elle n'agit pas immédiatement, elle pourrait ne jamais revoir Frankie. Mais dans l'urgence, Karla a perdu son téléphone portable, ce qui complique considérablement son entreprise. Elle ne peut joindre personne et n'arrive pas non plus à obtenir l'aide de la police...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Malgré des invraisemblances et un scénario quelque peu convenu, ce film d'action n'en reste pas moins efficace et distrayant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E111001757.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171824211" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T17:50:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Un sac de billes</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111693611" DATEMODIF="2017-12-12T11:31:04">
+        <TITREEMISSION>Un sac de billes</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="240">
+          <PAYS>France - Canada</PAYS>
+          <LIBELLE>franco-canadien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>110</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="8903">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Duguay</NOM>
+            <PRENOM>Christian</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1318562">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Clech</NOM>
+            <PRENOM>Dorian</PRENOM>
+            <ROLE>Joseph Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="599557">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fleurial</NOM>
+            <PRENOM>Batyste</PRENOM>
+            <ROLE>Maurice Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11828">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bruel</NOM>
+            <PRENOM>Patrick</PRENOM>
+            <ROLE>Roman Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5652">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zylberstein</NOM>
+            <PRENOM>Elsa</PRENOM>
+            <ROLE>Anna Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8810">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Clavier</NOM>
+            <PRENOM>Christian</PRENOM>
+            <ROLE>le docteur Rosen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="337589">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Domboy</NOM>
+            <PRENOM>César</PRENOM>
+            <ROLE>Henri Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="512369">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adams</NOM>
+            <PRENOM>Kev</PRENOM>
+            <ROLE>Ferdinand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1080614">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bergala</NOM>
+            <PRENOM>Ilian</PRENOM>
+            <ROLE>Albert Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="198900">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Amar</NOM>
+            <PRENOM>Armand</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="8903">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Duguay</NOM>
+            <PRENOM>Christian</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="427530">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Guichard</NOM>
+            <PRENOM>Benoît</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans la France occupée, deux frères sont envoyés en zone libre par leur père inquiet du sort réservé aux juifs. Leur voyage sera long et périlleux.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Joseph et Maurice vivent une enfance heureuse à Paris auprès de leurs parents, Roman et Anna. Alors que la France est occupée par les Allemands, leur père s'inquiète du sort réservé aux juifs. Il demande à ses enfants de cacher leur religion et les envoie en zone libre où ils pourront se cacher. Il leur promet que la famille sera réunie dans quelques mois. Susceptibles d'être arrêtés à tout moment, les deux frères, très soudés, se lancent dans un long périple, semé d'embûches. Ils croisent le rassurant docteur Rosen et un prêtre qui les protège alors qu'ils sont dans le train qui les conduit vers le Sud de la France...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>La complicité des deux jeunes héros rend cette adaptation du best-seller de Joseph Joffo très émouvante.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E111693611.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171824212" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T19:35:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>Wolves at the Door</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124587163" DATEMODIF="2018-01-26T12:18:00">
+        <TITREEMISSION>Wolves at the Door</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="230" GENRESIMPLE="Film d'horreur">Film d'horreur</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Wolves at the Door</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>73</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="4135">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Leonetti</NOM>
+            <PRENOM>John R</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="327390">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cassidy</NOM>
+            <PRENOM>Katie</PRENOM>
+            <ROLE>Sharon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1188712">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Henstridge</NOM>
+            <PRENOM>Elizabeth</PRENOM>
+            <ROLE>Abigail Folger</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="248589">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Campbell</NOM>
+            <PRENOM>Adam</PRENOM>
+            <ROLE>Wojciech Frykowski</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="600080">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fisher</NOM>
+            <PRENOM>Miles</PRENOM>
+            <ROLE>Jay Sebring</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30563">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mulkey</NOM>
+            <PRENOM>Chris</PRENOM>
+            <ROLE>John</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="20673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kaczmarek</NOM>
+            <PRENOM>Jane</PRENOM>
+            <ROLE>Mary</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="447986">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Daniels</NOM>
+            <PRENOM>Spencer</PRENOM>
+            <ROLE>William</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1280464">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adams</NOM>
+            <PRENOM>Lucas</PRENOM>
+            <ROLE>Steven</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="333203">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Chu</NOM>
+            <PRENOM>Toby</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En août 1969, à Los Angeles, la fête donnée pour l'anniversaire d'une jeune femme se transforme en bain de sang quand ils sont pris pour cible par des tueurs.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En août 1969, à Los Angeles, un groupe d'amis a organisé une fête d'adieu pour la jeune et belle Sharon, qui est enceinte. Mais les réjouissances tournent au cauchemar quand ils sont pris pour cible par un groupe de tueurs illuminés qui s'introduisent dans leur maison. Durant toute la nuit, ces derniers prennent un plaisir sadique à les terroriser et les torturer avant de les tuer les uns après les autres. Sur les murs, ils barbouillent le mot «pig» : porc...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film inspiré du meurtre tragique et effroyable de Sharon Tate et de ses amis par les adeptes de Charles Manson, en 1969.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124587163.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170687345" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T20:50:00</DATEHEURE>
+      <DUREE>96</DUREE>
+      <TITRE>L'autre côté de l'espoir</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>1</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="112715482" DATEMODIF="2018-01-31T12:57:27">
+        <TITREEMISSION>L'autre côté de l'espoir</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="130" GENRESIMPLE="Comédie dramatique">Comédie dramatique</GENRE>
+        <NATIONALITE CLE="199">
+          <PAYS>Finlande</PAYS>
+          <LIBELLE>finlandaise</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Toivon tuolla puolen</TITREORIGINAL>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>98</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+          <PALMARES>
+            <ANNEE>2017</ANNEE>
+            <FESTIVAL CLE="15">
+              <NOM>Festival de Berlin</NOM>
+              <LIEU>Berlin</LIEU>
+              <PAYS>Allemagne</PAYS>
+              <RECOMPENSE CLE="18">Ours d'Argent de la Meilleure Réalisation</RECOMPENSE>
+            </FESTIVAL>
+          </PALMARES>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="303272">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kaurismäki</NOM>
+            <PRENOM>Aki</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1322732">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Haji</NOM>
+            <PRENOM>Sherwan</PRENOM>
+            <ROLE>Khaled Ali</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12539">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kuosmanen</NOM>
+            <PRENOM>Sakari</PRENOM>
+            <ROLE>Waldemar Wikström</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1322733">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Al-Bazoon</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>Mazdak</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="388253">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hyytiäinen</NOM>
+            <PRENOM>Janne</PRENOM>
+            <ROLE>Nyrhinen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1322734">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Koivu</NOM>
+            <PRENOM>Nuppu</PRENOM>
+            <ROLE>Mirja</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="388255">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Koivula</NOM>
+            <PRENOM>Ilkka</PRENOM>
+            <ROLE>Calamnius</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="270161">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pakarinen</NOM>
+            <PRENOM>Kaija</PRENOM>
+            <ROLE>l'épouse de Wikström</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12537">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Outinen</NOM>
+            <PRENOM>Kati</PRENOM>
+            <ROLE>Vaatekaupan </ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A Helsinki, un quinquagénaire, en pleine crise existentielle, prend sous son aile un réfugié syrien, dont la demande d'asile a été rejetée.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Khaled, un jeune Syrien, a atterri en Finlande par accident. Il est arrêté, puis relâché, mais sa demande d'asile ne lui a pas été accordée. Alors qu'il a trouvé refuge dans un local à poubelles, il tombe nez à nez et se bat avec Wikström, un quinquagénaire en pleine crise existentielle. Il vient de quitter son épouse et ne veut plus travailler comme représentant de commerce. Il aimerait ouvrir son propre restaurant. Après une entrée en matière compliquée, Wikström engage Khaled, qui subit le racisme. Le jeune homme vient de recevoir des nouvelles de sa soeur et il est bien décidé à la retrouver...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une comédie dramatique grinçante d'une profonde humanité, en résonance avec un sujet d'actualité, où Aki Kaurismäki fait montre de son immense talent.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E112715482.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171824213" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T22:26:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <TITRE>Nouveau talent</TITRE>
+      <SOUSTITREDIF>La mécanique de l'ombre</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="122759729" DATEMODIF="2018-01-17T15:20:19">
+        <TITREEMISSION>Nouveau talent</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23103336">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Nouveau talent</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La mécanique de l'ombre</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1326290">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Akoun</NOM>
+            <PRENOM>Lucie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C122759729.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170687346" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T22:29:00</DATEHEURE>
+      <DUREE>86</DUREE>
+      <TITRE>La mécanique de l'ombre</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111693607" DATEMODIF="2017-12-23T10:35:45">
+        <TITREEMISSION>La mécanique de l'ombre</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="229" GENRESIMPLE="Film policier">Film d'espionnage</GENRE>
+        <NATIONALITE CLE="220">
+          <PAYS>France - Belgique</PAYS>
+          <LIBELLE>franco-belge</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>93</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="627469">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kruithof</NOM>
+            <PRENOM>Thomas</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="326521">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cluzet</NOM>
+            <PRENOM>François</PRENOM>
+            <ROLE>Duval</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="305820">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Podalydès</NOM>
+            <PRENOM>Denis</PRENOM>
+            <ROLE>Clément</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9112">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bouajila</NOM>
+            <PRENOM>Sami</PRENOM>
+            <ROLE>Labarthe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="62515">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Abkarian</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>Gerfaut</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="424196">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rohrwacher</NOM>
+            <PRENOM>Alba</PRENOM>
+            <ROLE>Sara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="59753">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Résimont</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>De Grugy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="55291">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hanssens</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Albert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="109740">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Georis</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>le bras droit de Labarthe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1321917">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Auger</NOM>
+            <PRENOM>Grégoire</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Après un chômage de longue durée, un homme accepte de retranscrire des écoutes téléphoniques. Il se retrouve en plein cœur d'un complot politique.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Duval sort de deux ans d'inactivité. Après une grosse dépression, l'homme s'était retrouvé au chômage, sans jamais parvenir à sortir la tête de l'eau. Aussi, lorsqu'un mystérieux homme d'affaires prend contact avec lui, accepte-t-il immédiatement sa proposition : retranscrire, contre une belle rémunération, des écoutes téléphoniques. Mais Duval, qui avait foncé tête baissée sans se poser beaucoup de questions sur la finalité de sa mission, comprend bientôt que celle-ci le place au cœur d'un inquiétant complot politique. Il se retrouve contraint, malgré lui, d'affronter le monde impitoyable des services secrets...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un thriller haletant et glaçant, servi par des acteurs brillants.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E111693607.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170687347" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-17T23:55:00</DATEHEURE>
+      <DUREE>125</DUREE>
+      <TITRE>The Last Face</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92386250" DATEMODIF="2017-12-12T11:30:34">
+        <TITREEMISSION>The Last Face</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Last Face</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>132</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="8770">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Penn</NOM>
+            <PRENOM>Sean</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="165714">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Theron</NOM>
+            <PRENOM>Charlize</PRENOM>
+            <ROLE>Wren Petersen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="36857">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bardem</NOM>
+            <PRENOM>Javier</PRENOM>
+            <ROLE>Miguel Leon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="460407">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Exarchopoulos</NOM>
+            <PRENOM>Adèle</PRENOM>
+            <ROLE>Ellen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13606">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reno</NOM>
+            <PRENOM>Jean</PRENOM>
+            <ROLE>le docteur Love</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="34745">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Harris</NOM>
+            <PRENOM>Jared</PRENOM>
+            <ROLE>John Farber</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1321922">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Best</NOM>
+            <PRENOM>Oscar</PRENOM>
+            <ROLE>le docteur Brown</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1321923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cooper</NOM>
+            <PRENOM>Zubin</PRENOM>
+            <ROLE>Moussa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="68825">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Newman</NOM>
+            <PRENOM>Denise</PRENOM>
+            <ROLE>Sarie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="258437">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Zimmer</NOM>
+            <PRENOM>Hans</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans un Liberia ravagé par la guerre, un médecin humanitaire et une directrice d'ONG aux opinions radicalement opposées tombent follement amoureux.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Miguel Leon, médecin humanitaire, travaille au Liberia, ravagé par la guerre. C'est là qu'il fait la connaissance du docteur Wren Petersen, directrice d'une ONG, également en mission dans le pays ensanglanté par les conflits. Les deux protagonistes, aux personnalités très marquées, sont vite attirés l'un par l'autre. Mais alors qu'une histoire d'amour passionnée naît entre eux, Wren et Miguel ne peuvent taire leurs convictions profondes. Ils s'opposent rapidement sur la politique à conduire et sur les méthodes à employer dans cette région sinistrée...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Soutenu par un casting prestigieux, Sean Penn, réalisateur engagé, s'intéresse cette fois à l'Afrique, sur fond d'histoire sentimentale.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E92386250.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171824214" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-18T02:00:00</DATEHEURE>
+      <DUREE>59</DUREE>
+      <TITRE>Le cercle</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125393076" DATEMODIF="2018-01-19T14:44:31">
+        <TITREEMISSION>Le cercle</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2004168">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le cercle</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="614178">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Trapenard</NOM>
+            <PRENOM>Augustin</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Accompagné de journalistes, cinéphiles ou écrivains passionnés issus d'horizons variés, Augustin Trapenard aborde et commente les sorties de la semaine, avec un invité surprise, le tout dans une ambiance joyeuse et conviviale.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125393076.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171824215" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-18T02:59:00</DATEHEURE>
+      <DUREE>1</DUREE>
+      <TITRE>Nouveau genre</TITRE>
+      <SOUSTITREDIF>American Nightmare 3 : Elections</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125393082" DATEMODIF="2018-01-19T14:46:01">
+        <TITREEMISSION>Nouveau genre</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3735104">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Nouveau genre</NOM>
+          </COLLECTION>
+          <SOUSTITRE>American Nightmare 3 : Elections</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="529023">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Guyot</NOM>
+            <PRENOM>Ivan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C125393082.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170687349" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-18T03:00:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>American Nightmare 3 : élections</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="102069270" DATEMODIF="2018-01-10T14:31:59">
+        <TITREEMISSION>American Nightmare 3 : élections</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="307" GENRESIMPLE="Film de suspense">Thriller</GENRE>
+        <NATIONALITE CLE="24">
+          <PAYS>Etats-Unis - France</PAYS>
+          <LIBELLE>américano-français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Purge : Election Year</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>105</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="167015">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>DeMonaco</NOM>
+            <PRENOM>James</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="81908">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Grillo</NOM>
+            <PRENOM>Frank</PRENOM>
+            <ROLE>Leo Barnes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="86037">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mitchell</NOM>
+            <PRENOM>Elizabeth</PRENOM>
+            <ROLE>Charlene «Charlie» Roan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Williamson</NOM>
+            <PRENOM>Mykelti</PRENOM>
+            <ROLE>Joe Dixon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="210024">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Baker</NOM>
+            <PRENOM>David Aaron</PRENOM>
+            <ROLE>Tommy Roseland</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29073">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Phillips</NOM>
+            <PRENOM>Ethan</PRENOM>
+            <ROLE>Couper</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27727">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Barry</NOM>
+            <PRENOM>Raymond J</PRENOM>
+            <ROLE>Caleb Warrens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="215373">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hodge</NOM>
+            <PRENOM>Edwin</PRENOM>
+            <ROLE>Dante Bishop</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="204439">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Serpico</NOM>
+            <PRENOM>Terry</PRENOM>
+            <ROLE>Earl Danzinger</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1218338">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Whitehead</NOM>
+            <PRENOM>Nathan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors qu'elle veut mettre un coup d'arrêt à la Purge, une sénatrice visant la présidence devient la proie de tueurs envoyés par ses ennemis politiques.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une fois par an aux Etats-Unis, tout type de crime est autorisé pendant douze heures. Une opération appelée «la Purge», qui attire toujours plus de monde. Charlène «Charlie Roan», une sénatrice, est horrifiée par ce carnage, très loin de l'idée qu'elle se fait de l'Amérique. Elle se lance en campagne pour la présidentielle avec pour crédo l'arrêt total de cette folie vengeresse et meurtrière. Alors que la date de la Purge approche, ses ennemis politiques vont tout faire pour éliminer cette candidate gênante. Quand débute la nuit de cauchemar, elle est la cible de tueurs. Son garde du corps, Leo Barnes va tenter de lui éviter le pire...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Malgré un scénario qui commence un peu à s'essouffler, ce troisième opus parvient à tenir toutes ses promesses.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E102069270.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171824216" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-18T04:45:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Jour de cinéma</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125393075" DATEMODIF="2018-01-31T12:57:28">
+        <TITREEMISSION>Jour de cinéma</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="28454204">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Jour de cinéma</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Toute l'actualité cinématographique du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125393075.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170687351" DATEMODIF="2018-02-07T10:30:46">
+      <DATEHEURE>2018-02-18T04:50:00</DATEHEURE>
+      <DUREE>160</DUREE>
+      <TITRE>Interruption des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977525" DATEMODIF="2018-01-09T11:25:47">
+        <TITREEMISSION>Interruption des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

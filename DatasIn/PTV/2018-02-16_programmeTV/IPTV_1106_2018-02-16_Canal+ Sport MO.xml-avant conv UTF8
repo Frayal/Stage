@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:55:46-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1106">
+    <NOMCHAINE>Canal+ Sport MO</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-16">
+    <DIFFUSION CLEDIF="171648253" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T06:40:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Rugby à 7</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125162672" DATEMODIF="2018-01-17T17:23:14">
+        <TITREEMISSION>Rugby à 7</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1065" GENRESIMPLE="Rugby à 7">Rugby à 7</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Sevens World Series 2017/2018</LIBELLE>
+            <MANCHE>4e manche. 2e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>A Hamilton (Nouvelle-Zélande)</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648254" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T08:10:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Fight+</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125170550" DATEMODIF="2018-01-12T16:48:36">
+        <TITREEMISSION>Fight+</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="585" GENRESIMPLE="Magazine sportif">Boxe</GENRE>
+        <SPORT />
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="406337">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Velghe</NOM>
+          <PRENOM>Philippe</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648255" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T10:00:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Rugby</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390237" DATEMODIF="2018-01-25T16:03:26">
+        <TITREEMISSION>Rugby</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="797" GENRESIMPLE="Rugby">Rugby</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Pro D2</LIBELLE>
+            <MANCHE>23e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Perpignan / Vannes</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648256" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T11:35:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Late Rugby Club</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390232" DATEMODIF="2018-01-19T13:09:19">
+        <TITREEMISSION>Late Rugby Club</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="798" GENRESIMPLE="Magazine sportif">Rugby</GENRE>
+        <SPORT />
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="543008">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Bard</NOM>
+          <PRENOM>Astrid</PRENOM>
+        </PERSONNE>
+        <PERSONNE CLE="1296846">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Esculié</NOM>
+          <PRENOM>Jean-Baptiste</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648257" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T12:40:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Golf</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390768" DATEMODIF="2018-01-26T11:44:33">
+        <TITREEMISSION>Golf</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="653" GENRESIMPLE="Golf">Golf</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Circuit américain 2017/2018</LIBELLE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Open de Pacific Palisades</LIBELLE>
+            <MANCHE>1er tour</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Californie</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172023422" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T14:10:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Fight+</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125170550" DATEMODIF="2018-01-12T16:48:36">
+        <TITREEMISSION>Fight+</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="585" GENRESIMPLE="Magazine sportif">Boxe</GENRE>
+        <SPORT />
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="406337">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Velghe</NOM>
+          <PRENOM>Philippe</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172023423" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T16:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Voile</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125820475" DATEMODIF="2018-01-31T18:39:01">
+        <TITREEMISSION>Voile</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="899" GENRESIMPLE="Sports nautiques">Voile</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Coupe du monde 2018</LIBELLE>
+            <MANCHE>2e manche. Les temps forts</MANCHE>
+          </EVENEMENT>
+          <LIEU>A Miami (Floride)</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648261" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T16:50:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Rugby</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390237" DATEMODIF="2018-01-25T16:03:26">
+        <TITREEMISSION>Rugby</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="797" GENRESIMPLE="Rugby">Rugby</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Pro D2</LIBELLE>
+            <MANCHE>23e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Perpignan / Vannes</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648262" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T18:25:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Late Rugby Club</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390232" DATEMODIF="2018-01-19T13:09:19">
+        <TITREEMISSION>Late Rugby Club</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="798" GENRESIMPLE="Magazine sportif">Rugby</GENRE>
+        <SPORT />
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="543008">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Bard</NOM>
+          <PRENOM>Astrid</PRENOM>
+        </PERSONNE>
+        <PERSONNE CLE="1296846">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Esculié</NOM>
+          <PRENOM>Jean-Baptiste</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648263" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T19:25:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Intérieur sport</TITRE>
+      <SOUSTITREDIF>Jean-Luc Crétier, 20 ans après</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390227" DATEMODIF="2018-01-22T14:52:46">
+        <TITREEMISSION>Intérieur sport</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="741" GENRESIMPLE="Magazine sportif">Multisports</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648264" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T19:50:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>19h30 PM</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390242" DATEMODIF="2018-01-30T17:49:35">
+        <TITREEMISSION>19h30 PM</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="365120">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Ménès</NOM>
+          <PRENOM>Pierre</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648265" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T20:35:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Zapsport</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125580771" DATEMODIF="2018-01-25T10:43:27">
+        <TITREEMISSION>Zapsport</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="741" GENRESIMPLE="Magazine sportif">Multisports</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>L'actualité du sport sous forme de zapping</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171904945" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T20:40:00</DATEHEURE>
+      <DUREE>125</DUREE>
+      <TITRE>Football</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390245" DATEMODIF="2018-01-30T12:35:41">
+        <TITREEMISSION>Football</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="641" GENRESIMPLE="Football">Football</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Ligue 1 Conforama</LIBELLE>
+            <MANCHE>26e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Monaco / Dijon</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648267" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T22:45:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Late Football Club</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390231" DATEMODIF="2018-01-19T13:08:51">
+        <TITREEMISSION>Late Football Club</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="76731">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Besnard</NOM>
+          <PRENOM>Eric</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648268" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-16T23:45:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Sport Reporter</TITRE>
+      <SOUSTITREDIF>Les secrets du derby basque</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125162539" DATEMODIF="2018-01-17T08:51:29">
+        <TITREEMISSION>Sport Reporter</TITREEMISSION>
+        <FORMAT CLE="15">Documentaire sportif</FORMAT>
+        <GENRE CLE="742" GENRESIMPLE="Documentaire sportif">Multisports</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171904946" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-17T00:15:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Zapsport</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125389254" DATEMODIF="2018-02-06T16:08:35">
+        <TITREEMISSION>Zapsport</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="741" GENRESIMPLE="Magazine sportif">Multisports</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>L'actualité du sport sous forme de zapping</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648270" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-17T00:20:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>19h30 PM</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390242" DATEMODIF="2018-01-30T17:49:35">
+        <TITREEMISSION>19h30 PM</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="365120">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Ménès</NOM>
+          <PRENOM>Pierre</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171904947" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-17T01:00:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Football</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390245" DATEMODIF="2018-01-30T12:35:41">
+        <TITREEMISSION>Football</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="641" GENRESIMPLE="Football">Football</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Ligue 1 Conforama</LIBELLE>
+            <MANCHE>26e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Monaco / Dijon</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648272" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-17T02:40:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Late Football Club</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390231" DATEMODIF="2018-01-19T13:08:51">
+        <TITREEMISSION>Late Football Club</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="76731">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Besnard</NOM>
+          <PRENOM>Eric</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648273" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-17T03:45:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Golf</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390771" DATEMODIF="2018-02-06T15:13:35">
+        <TITREEMISSION>Golf</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="653" GENRESIMPLE="Golf">Golf</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Circuit américain 2017/2018</LIBELLE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Open de Pacific Palisades</LIBELLE>
+            <MANCHE>2e tour</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Californie</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171648274" DATEMODIF="2018-02-07T10:16:58">
+      <DATEHEURE>2018-02-17T05:15:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Trail</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124950748" DATEMODIF="2018-01-08T16:21:12">
+        <TITREEMISSION>Trail</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1100" GENRESIMPLE="Trail">Trail</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Raid des Alizés 2018</LIBELLE>
+          </EVENEMENT>
+          <LIEU>En Martinique</LIEU>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

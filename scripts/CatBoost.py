@@ -1,7 +1,7 @@
+#-*- coding: utf-8 -*-
 #################################################
 #created the 04/05/2018 09:52 by Alexis Blanchet#
 #################################################
-#-*- coding: utf-8 -*-
 '''
 
 '''
@@ -31,10 +31,13 @@ from catboost import CatBoostClassifier
 from sklearn.model_selection import train_test_split
 from ast import literal_eval
 
-
+LOG = "log.txt"
 #################################################
 ########### Global variables ####################
 #################################################
+'''
+Définir ici une classe est beaucoup plus simple...
+'''
 class Classifier(BaseEstimator):
     def __init__(self):
         pass
@@ -50,14 +53,12 @@ class Classifier(BaseEstimator):
     def predict_proba(self, X):
         return np.array([[1-(v[1]+l[1])*0.5,(v[1]+l[1])*0.5] for v,l in zip(self.clf2.predict_proba(X),self.clf1.predict_proba(X))])
 
-PATH_IN = '/home/alexis/Bureau/finalproject/DatasIn/RTS/'
-PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
-PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
-LOG = "log.txt"
 
 #################################################
 ########### Important functions #################
 #################################################
+#Duplicate of the def_context but as we use a different set of PATH and only the Report Functon
+#redefining them here is a better option. 
 def Report(error):
     with open(LOG,'a+') as file:
         file.write(str(error)+' \n')
@@ -100,6 +101,9 @@ def find_index(l,v):
     return res
 
 def mesure(y_pred,y_true):
+    '''
+    Custom mesure to ensure that time is taken in account
+    '''
     TP = 0
     FP = 0
     FN = 0
@@ -120,6 +124,11 @@ def mesure(y_pred,y_true):
     return TP,FP,FN
 
 def plot_res(df,pred,y):
+    '''
+    Used to be a wonderfull plot, thus the name.
+    But the boss bullied me into getting ride of it.
+    Now it's just a reporting function...what a waste....
+    '''
     x = df
     t= [i/60 +3 for i in range(len(x))]
     tp = np.sum([z*x for z,x in zip(pred,y)])

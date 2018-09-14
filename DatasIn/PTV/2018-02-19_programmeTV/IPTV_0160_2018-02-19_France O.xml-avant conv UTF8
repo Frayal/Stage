@@ -1,0 +1,3833 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:04:22-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="160">
+    <NOMCHAINE>France Ô</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-19">
+    <DIFFUSION CLEDIF="171836372" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T05:05:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Tout en images</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743922" DATEMODIF="2018-02-07T10:36:49">
+        <TITREEMISSION>Tout en images</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21593711">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Tout en images</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836373" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T05:15:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Journal Nouvelle-Calédonie</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743923" DATEMODIF="2018-02-07T10:36:50">
+        <TITREEMISSION>Journal Nouvelle-Calédonie</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="19569595">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal Nouvelle-Calédonie</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836374" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T05:30:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Journal Saint-Pierre-et-Miquelon</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125840701" DATEMODIF="2018-02-01T12:02:31">
+        <TITREEMISSION>Journal Saint-Pierre-et-Miquelon</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="19569596">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal Saint-Pierre-et-Miquelon</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836375" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T05:45:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Journal Mayotte</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743924" DATEMODIF="2018-02-07T10:44:50">
+        <TITREEMISSION>Journal Mayotte</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="19569594">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal Mayotte</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836376" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T05:55:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Journal Réunion</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743925" DATEMODIF="2018-01-30T16:17:10">
+        <TITREEMISSION>Journal Réunion</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2058998">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal Réunion</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836377" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T06:35:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Journal Guyane</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743926" DATEMODIF="2018-01-30T16:17:10">
+        <TITREEMISSION>Journal Guyane</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2021738">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal Guyane</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <PHOTO>IPTV_C125743926.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836378" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T07:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Journal Martinique</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743927" DATEMODIF="2018-02-01T11:39:01">
+        <TITREEMISSION>Journal Martinique</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="15947002">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal Martinique</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836379" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T07:30:00</DATEHEURE>
+      <DUREE>27</DUREE>
+      <TITRE>Journal Guadeloupe</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743928" DATEMODIF="2018-02-05T11:37:33">
+        <TITREEMISSION>Journal Guadeloupe</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="15453071">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal Guadeloupe</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836380" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T07:57:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <TITRE>Consomag</TITRE>
+      <SOUSTITREDIF>Que faire si le bailleur n'effectue pas les travaux</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125748022" DATEMODIF="2018-01-30T15:41:14">
+        <TITREEMISSION>Consomag</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="388" GENRESIMPLE="Magazine de services">Magazine du consommateur</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6595">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Consomag</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Que faire si le bailleur n'effectue pas les travaux qui sont à sa charge ?</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission de l'Institut national de la consommation.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125748022.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836381" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T08:00:00</DATEHEURE>
+      <DUREE>7</DUREE>
+      <TITRE>#Flash Talk</TITRE>
+      <SOUSTITREDIF>Couples</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125750696" DATEMODIF="2018-01-30T14:21:39">
+        <TITREEMISSION>#Flash Talk *2017</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="28844432">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / #Flash Talk *2017</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Couples</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="391940">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chironi</NOM>
+            <PRENOM>Sonia</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1234564">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Yem</NOM>
+            <PRENOM>Raphäl</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Dans un espace public, Sonia Chironi et Raphäl Yem animent un débat où les interventions se succèdent, ponctuées d'éléments chiffrés autour de la thématique abordée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125750696.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836382" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T08:07:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <TITRE>Les rencontres de Kelly</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125253265" DATEMODIF="2018-01-30T16:17:10">
+        <TITREEMISSION>Les rencontres de Kelly</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="29392159">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les rencontres de Kelly</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1349567">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Rangama</NOM>
+            <PRENOM>Kelly</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>La chef réunionnaise Kelly Rangama part aux quatre coins du monde à la rencontre de cuisines traditionnelles et de producteurs locaux. Ensemble, ils partagent leur passion et échangent leur savoir-faire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125253265.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836383" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T08:10:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Outremer tout court</TITRE>
+      <SOUSTITREDIF>La danse en héritage</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="96254678" DATEMODIF="2017-10-19T12:08:34">
+        <TITREEMISSION>Outremer tout court</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="16520482">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Outremer tout court</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La danse en héritage</SOUSTITRE>
+          <DUREEEMI>8</DUREEEMI>
+        </DOCUMENTAIRE>
+        <PHOTO>IPTV_C96254678.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836384" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T08:20:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Les teams de la beauté</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125749317" DATEMODIF="2018-01-30T16:17:10">
+        <TITREEMISSION>Les teams de la beauté</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="421" GENRESIMPLE="Magazine de services">Magazine de services</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22516854">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les teams de la beauté</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1340179">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Monrose</NOM>
+            <PRENOM>Meghane</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1340180">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gatibelza</NOM>
+            <PRENOM>Karine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1340181">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Rampersad</NOM>
+            <PRENOM>Jean-Louis</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="139736">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Labylle</NOM>
+            <PRENOM>Jocelyne</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un coiffeur et un maquilleur doivent sublimer un modèle sous l'oeil intransigeant d'un jury d'experts, constitué de Karine Gatibelza, Jean-Louis Rampersad et Jocelyne Labylle. L'équipe la plus talentueuse remporte la coquette somme de 1000 euros.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125749317.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836385" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T08:50:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Les choix de l'amour</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92952863" DATEMODIF="2015-12-31T06:56:18">
+        <TITREEMISSION>Les choix de l'amour</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="517">
+          <PAYS>Mexique</PAYS>
+          <LIBELLE>mexicain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="15796344">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Les choix de l'amour</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="15794546">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Les choix de l'amour / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Lo que la vida me robó</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>103</NUMERO>
+            <NOMBRE>196</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="576398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boyer</NOM>
+            <PRENOM>Angélique</PRENOM>
+            <ROLE>Monserrat Mendoza Giacinti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251444">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guzmán</NOM>
+            <PRENOM>Luis Roberto</PRENOM>
+            <ROLE>José Luis Alvarez / Antonio Olivares</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251445">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Castro</NOM>
+            <PRENOM>Daniela</PRENOM>
+            <ROLE>Doña Graciela Giacinti de Mendoza / Laurencia Jiménez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="365134">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rulli</NOM>
+            <PRENOM>Sebastián</PRENOM>
+            <ROLE>Alejandro Almonte Domínguez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="418377">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sendel</NOM>
+            <PRENOM>Sergio</PRENOM>
+            <ROLE>Pedro Medina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251446">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guerra</NOM>
+            <PRENOM>Rogelio</PRENOM>
+            <ROLE>Don Lauro Mendoza</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Montserrat rend visite à Angelica mais José Luis lui dit qu'elle se repose. Puis il lui reproche d'utiliser Angelica comme prétexte pour s'approcher de lui...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C92952863.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836386" DATEMODIF="2018-02-06T03:17:20">
+      <DATEHEURE>2018-02-19T09:35:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Les choix de l'amour</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92952881" DATEMODIF="2015-12-31T06:56:19">
+        <TITREEMISSION>Les choix de l'amour</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="517">
+          <PAYS>Mexique</PAYS>
+          <LIBELLE>mexicain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="15796344">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Les choix de l'amour</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="15794546">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Les choix de l'amour / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Lo que la vida me robó</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>104</NUMERO>
+            <NOMBRE>196</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="576398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boyer</NOM>
+            <PRENOM>Angélique</PRENOM>
+            <ROLE>Monserrat Mendoza Giacinti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251444">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guzmán</NOM>
+            <PRENOM>Luis Roberto</PRENOM>
+            <ROLE>José Luis Alvarez / Antonio Olivares</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251445">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Castro</NOM>
+            <PRENOM>Daniela</PRENOM>
+            <ROLE>Doña Graciela Giacinti de Mendoza / Laurencia Jiménez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="365134">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rulli</NOM>
+            <PRENOM>Sebastián</PRENOM>
+            <ROLE>Alejandro Almonte Domínguez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="418377">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sendel</NOM>
+            <PRENOM>Sergio</PRENOM>
+            <ROLE>Pedro Medina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251446">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guerra</NOM>
+            <PRENOM>Rogelio</PRENOM>
+            <ROLE>Don Lauro Mendoza</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>José Luis va chez Esmeralda et Refugio pour leur parler d'Angelica. Il est effondré à l'idée de ne pas vieillir avec elle. Ezequiel et Carlota annoncent à Montserrat et à Alejandro leur mariage...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C92952881.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836387" DATEMODIF="2018-02-06T03:17:22">
+      <DATEHEURE>2018-02-19T10:20:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Les choix de l'amour</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92952916" DATEMODIF="2015-12-31T06:56:19">
+        <TITREEMISSION>Les choix de l'amour</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="517">
+          <PAYS>Mexique</PAYS>
+          <LIBELLE>mexicain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="15796344">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Les choix de l'amour</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="15794546">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Les choix de l'amour / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Lo que la vida me robó</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>105</NUMERO>
+            <NOMBRE>196</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="576398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boyer</NOM>
+            <PRENOM>Angélique</PRENOM>
+            <ROLE>Monserrat Mendoza Giacinti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251444">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guzmán</NOM>
+            <PRENOM>Luis Roberto</PRENOM>
+            <ROLE>José Luis Alvarez / Antonio Olivares</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251445">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Castro</NOM>
+            <PRENOM>Daniela</PRENOM>
+            <ROLE>Doña Graciela Giacinti de Mendoza / Laurencia Jiménez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="365134">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rulli</NOM>
+            <PRENOM>Sebastián</PRENOM>
+            <ROLE>Alejandro Almonte Domínguez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="418377">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sendel</NOM>
+            <PRENOM>Sergio</PRENOM>
+            <ROLE>Pedro Medina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251446">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guerra</NOM>
+            <PRENOM>Rogelio</PRENOM>
+            <ROLE>Don Lauro Mendoza</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Macario annonce au père Anselmo qu'il compte épouser Dominga maintenant qu'il a suffisamment d'argent. Adolfo demande au père Anselmo de l'accompagner pour voir Maria qui a été frappée par Pedro...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C92952916.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836388" DATEMODIF="2018-02-06T03:17:25">
+      <DATEHEURE>2018-02-19T11:05:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Les choix de l'amour</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="93067727" DATEMODIF="2015-12-31T06:56:21">
+        <TITREEMISSION>Les choix de l'amour</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="517">
+          <PAYS>Mexique</PAYS>
+          <LIBELLE>mexicain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="15796344">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Les choix de l'amour</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="15794546">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Les choix de l'amour / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Lo que la vida me robó</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>106</NUMERO>
+            <NOMBRE>196</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="576398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boyer</NOM>
+            <PRENOM>Angélique</PRENOM>
+            <ROLE>Monserrat Mendoza Giacinti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251444">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guzmán</NOM>
+            <PRENOM>Luis Roberto</PRENOM>
+            <ROLE>José Luis Alvarez / Antonio Olivares</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251445">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Castro</NOM>
+            <PRENOM>Daniela</PRENOM>
+            <ROLE>Doña Graciela Giacinti de Mendoza / Laurencia Jiménez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="365134">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rulli</NOM>
+            <PRENOM>Sebastián</PRENOM>
+            <ROLE>Alejandro Almonte Domínguez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="418377">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sendel</NOM>
+            <PRENOM>Sergio</PRENOM>
+            <ROLE>Pedro Medina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1251446">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guerra</NOM>
+            <PRENOM>Rogelio</PRENOM>
+            <ROLE>Don Lauro Mendoza</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Adolfo remet une boîte à Pedro pour lui prouver que le père Anselmo ne sera plus un obstacle pour lui. Nadia avoue à Victor qu'elle attend un enfant...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C93067727.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836389" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T11:45:00</DATEHEURE>
+      <DUREE>53</DUREE>
+      <TITRE>Les témoins d'outre-mer</TITRE>
+      <SOUSTITREDIF>Apprendre de ses échecs</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125749333" DATEMODIF="2018-01-30T11:01:04">
+        <TITREEMISSION>Les témoins d'outre-mer</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22455063">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les témoins d'outre-mer</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Apprendre de ses échecs</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="120043">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Quindou</NOM>
+            <PRENOM>Sabine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="391940">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chironi</NOM>
+            <PRENOM>Sonia</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au programme : cuisine, sujets de société, et humour.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125749333.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836390" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T12:38:00</DATEHEURE>
+      <DUREE>2</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743929" DATEMODIF="2018-01-30T16:17:10">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836391" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T12:40:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Outre-mer express</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743930" DATEMODIF="2018-01-30T16:17:10">
+        <TITREEMISSION>Outre-mer express</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21904228">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Outre-mer express</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836392" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T12:45:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Vues sur mer</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121458989" DATEMODIF="2018-01-30T16:17:10">
+        <TITREEMISSION>Vues sur mer</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="408" GENRESIMPLE="Magazine de découvertes">Magazine de la mer</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22052741">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Vues sur mer</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un autre regard sur les peuples du lagon néo-calédonien.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E121458989.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836393" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T13:15:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Saveurs Pacifique</TITRE>
+      <SOUSTITREDIF>Fidji : Province de Ra</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="94267850" DATEMODIF="2016-12-20T14:25:06">
+        <TITREEMISSION>Saveurs Pacifique</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1111" GENRESIMPLE="Documentaire">Gastronomie</GENRE>
+        <NATIONALITE CLE="532">
+          <PAYS>Nouvelle-Zélande</PAYS>
+          <LIBELLE>néo-zélandais</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="16581236">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Saveurs Pacifique</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Real Pasifik</TITREORIGINAL>
+          <SOUSTITRE>Fidji : Province de Ra</SOUSTITRE>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>7</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1261988">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Marbrook</NOM>
+            <PRENOM>Anna</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1261989">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Withy</NOM>
+            <PRENOM>Brendan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Robert Oliver escalade les montagnes, va faire ses courses dans la brousse, et ramasse des algues afin de trouver les ingrédients les plus purs de la Province de Ra.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C94267850.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836394" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T13:40:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Gardiens des trésors des Caraïbes</TITRE>
+      <SOUSTITREDIF>Cuba</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="75768764" DATEMODIF="2015-01-29T11:29:25">
+        <TITREEMISSION>Gardiens des trésors des Caraïbes</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="13019548">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Gardiens des trésors des Caraïbes</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Cuba</SOUSTITRE>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="99279">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Guillaume</NOM>
+            <PRENOM>François</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A La Havane, Giordano Sánchez Nuñez, un jeune architecte, restaure un ancien couvent, et Mabys Cuesta Martinez consolide une fresque du XVIIIe siècle.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E75768764.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836395" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T14:35:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Plus belle la vie, la collec'</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117966393" DATEMODIF="2017-06-20T16:41:56">
+        <TITREEMISSION>Plus belle la vie</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="1028" GENRESIMPLE="Série">Feuilleton réaliste</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6478">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22420922">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie / 13</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>13</NUMERO>
+          </SAISON>
+          <DUREEEMI>25</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3317</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="104933">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hassan</NOM>
+            <PRENOM>Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="386068">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Decis</NOM>
+            <PRENOM>Anne</PRENOM>
+            <ROLE>Luna</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="65139">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martot</NOM>
+            <PRENOM>Pierre</PRENOM>
+            <ROLE>Léo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27056">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bierry</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>Stéphane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="458264">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Baude</NOM>
+            <PRENOM>Ludovic</PRENOM>
+            <ROLE>Benoît</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fabre</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Frémont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1200936">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Delorme</NOM>
+            <PRENOM>Léa</PRENOM>
+            <ROLE>Pauline</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1281786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laforêt</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Laetitia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="180433">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cordes</NOM>
+            <PRENOM>Michel</PRENOM>
+            <ROLE>Roland</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298742">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Besson</NOM>
+            <PRENOM>Hubert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alors que Luna découvre un cadeau emmailloté, Léo en reçoit un empoisonné. Pendant ce temps, Stéphane et Benoît semblent plutôt chanceux...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C117966393.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836396" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T15:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Plus belle la vie, la collec'</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118092184" DATEMODIF="2017-06-20T16:47:00">
+        <TITREEMISSION>Plus belle la vie</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="1028" GENRESIMPLE="Série">Feuilleton réaliste</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6478">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22420922">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie / 13</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>13</NUMERO>
+          </SAISON>
+          <DUREEEMI>25</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3318</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="104933">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hassan</NOM>
+            <PRENOM>Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="4086">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marciano</NOM>
+            <PRENOM>Avy</PRENOM>
+            <ROLE>Sacha</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="449240">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vaneck</NOM>
+            <PRENOM>Thibaud</PRENOM>
+            <ROLE>Nathan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="65139">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martot</NOM>
+            <PRENOM>Pierre</PRENOM>
+            <ROLE>Léo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10532">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flepp</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Mirta</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fabre</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Frémont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1200936">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Delorme</NOM>
+            <PRENOM>Léa</PRENOM>
+            <ROLE>Pauline</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1281786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laforêt</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Laetitia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="180433">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cordes</NOM>
+            <PRENOM>Michel</PRENOM>
+            <ROLE>Roland</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298742">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Besson</NOM>
+            <PRENOM>Hubert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Sacha redoute que l'histoire ne se répète, ce qui n'est pas du tout le cas de Nathan, qui souhaiterait, au contraire, qu'elle recommence...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C118092184.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836397" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T15:30:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Plus belle la vie, la collec'</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118092549" DATEMODIF="2017-06-20T16:48:26">
+        <TITREEMISSION>Plus belle la vie</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="1028" GENRESIMPLE="Série">Feuilleton réaliste</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6478">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22420922">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie / 13</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>13</NUMERO>
+          </SAISON>
+          <DUREEEMI>25</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3319</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="104933">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hassan</NOM>
+            <PRENOM>Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="386068">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Decis</NOM>
+            <PRENOM>Anne</PRENOM>
+            <ROLE>Luna</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="480892">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nune</NOM>
+            <PRENOM>Charlie</PRENOM>
+            <ROLE>Eve</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="65139">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martot</NOM>
+            <PRENOM>Pierre</PRENOM>
+            <ROLE>Léo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10532">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flepp</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Mirta</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fabre</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Frémont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1200936">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Delorme</NOM>
+            <PRENOM>Léa</PRENOM>
+            <ROLE>Pauline</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1281786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laforêt</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Laetitia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="180433">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cordes</NOM>
+            <PRENOM>Michel</PRENOM>
+            <ROLE>Roland</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298742">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Besson</NOM>
+            <PRENOM>Hubert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alors que Luna fait une découverte inquiétante, la nouvelle employée d'Eve se révèle embarrassante. Parallèlement, Léo cherche un nouvel équilibre...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C118092549.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836398" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T15:55:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Plus belle la vie, la collec'</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118092550" DATEMODIF="2017-06-20T16:50:01">
+        <TITREEMISSION>Plus belle la vie</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="1028" GENRESIMPLE="Série">Feuilleton réaliste</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6478">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22420922">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie / 13</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>13</NUMERO>
+          </SAISON>
+          <DUREEEMI>25</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3320</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="104933">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hassan</NOM>
+            <PRENOM>Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="10532">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flepp</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Mirta</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="449240">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vaneck</NOM>
+            <PRENOM>Thibaud</PRENOM>
+            <ROLE>Nathan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1244391">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giorgi</NOM>
+            <PRENOM>Emanuele</PRENOM>
+            <ROLE>Francesco</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="65139">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martot</NOM>
+            <PRENOM>Pierre</PRENOM>
+            <ROLE>Léo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15418">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bayle</NOM>
+            <PRENOM>Virgile</PRENOM>
+            <ROLE>Guillaume</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fabre</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Frémont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1281786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laforêt</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Laetitia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="180433">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cordes</NOM>
+            <PRENOM>Michel</PRENOM>
+            <ROLE>Roland</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298742">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Besson</NOM>
+            <PRENOM>Hubert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Tandis que Mirta n'hésite pas à écouter aux portes, Nathan atteint, quant à lui, celles du paradis. De son côté, Francesco se sacrifie pour Léo...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C118092550.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836399" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T16:25:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Plus belle la vie, la collec'</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118187582" DATEMODIF="2017-06-27T18:00:02">
+        <TITREEMISSION>Plus belle la vie</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="1028" GENRESIMPLE="Série">Feuilleton réaliste</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6478">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22420922">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie / 13</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>13</NUMERO>
+          </SAISON>
+          <DUREEEMI>25</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3321</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="104933">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hassan</NOM>
+            <PRENOM>Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="461442">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mortensen</NOM>
+            <PRENOM>Sara</PRENOM>
+            <ROLE>Coralie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10532">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flepp</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Mirta</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="369371">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Drion</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>Zoé</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15418">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bayle</NOM>
+            <PRENOM>Virgile</PRENOM>
+            <ROLE>Guillaume</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fabre</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Frémont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1200936">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Delorme</NOM>
+            <PRENOM>Léa</PRENOM>
+            <ROLE>Pauline</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1281786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laforêt</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Laetitia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="180433">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cordes</NOM>
+            <PRENOM>Michel</PRENOM>
+            <ROLE>Roland</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298742">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Besson</NOM>
+            <PRENOM>Hubert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Coralie tente de remonter sa cote de popularité, tandis que Mirta tente de percer un mystère, qui suscite son inquiétude. De son côté, Zoé fait une découverte alarmante...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C118187582.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836400" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T16:55:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Surf Academy</TITRE>
+      <SOUSTITREDIF>Le défi</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4370889" DATEMODIF="2016-09-07T14:40:31">
+        <TITREEMISSION>Blue Water High : Surf Academy</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="34" GENRESIMPLE="Série">Série jeunesse</GENRE>
+        <NATIONALITE CLE="85">
+          <PAYS>Australie</PAYS>
+          <LIBELLE>australienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="10432">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Blue Water High : Surf Academy</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7964609">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Blue Water High : Surf Academy / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Blue Water High</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le défi</SOUSTITRE>
+          <SOUSTITREORIGINAL>Out of Control</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2005</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>26</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="383111">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Strasser</NOM>
+            <PRENOM>Ralph</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="334974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Foy</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Matt Leyland </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334973">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chittenden</NOM>
+            <PRENOM>Khan</PRENOM>
+            <ROLE>Dean «Edge» Edgely </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="336778">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Saunders</NOM>
+            <PRENOM>Adam</PRENOM>
+            <ROLE>Heath Carroll</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334977">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bell</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Bec Sanderson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="337367">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kupper</NOM>
+            <PRENOM>Ryan</PRENOM>
+            <ROLE>Ben</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334972">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Luck</NOM>
+            <PRENOM>Sophie</PRENOM>
+            <ROLE>Fiona «Fly» Watson </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="267942">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scherzinger</NOM>
+            <PRENOM>Mara</PRENOM>
+            <ROLE>Anna Petersen </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334976">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tozzi</NOM>
+            <PRENOM>Tahyna</PRENOM>
+            <ROLE>Perri Lawe </ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Matt et Edge luttent pour la première place sur le tableau d’honneur de l’académie et leur concurrence amicale se transforme en dangereuse compétition.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Matt et Edge luttent pour la première place sur le tableau d’honneur de l’académie et leur concurrence amicale se transforme en dangereuse compétition. Attisée par Heath et l’arrivée d’une jolie nouvelle, leur rivalité les pousse à aller trop loin et à prendre des risques inconsidérés. Ils se défient à un endroit très dangereux et entraînent dans leur jeu le petit frère de Bec, Ben, qui manque de perdre la vie...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E4370889.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836401" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T17:20:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Surf Academy</TITRE>
+      <SOUSTITREDIF>Anniversaire agité</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4390011" DATEMODIF="2016-09-07T14:40:31">
+        <TITREEMISSION>Blue Water High : Surf Academy</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="34" GENRESIMPLE="Série">Série jeunesse</GENRE>
+        <NATIONALITE CLE="85">
+          <PAYS>Australie</PAYS>
+          <LIBELLE>australienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="10432">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Blue Water High : Surf Academy</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7964609">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Blue Water High : Surf Academy / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Blue Water High</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Anniversaire agité</SOUSTITRE>
+          <SOUSTITREORIGINAL>Dreams and Dramas</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2005</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>12</NUMERO>
+            <NOMBRE>26</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="383111">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Strasser</NOM>
+            <PRENOM>Ralph</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="334972">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Luck</NOM>
+            <PRENOM>Sophie</PRENOM>
+            <ROLE>Fiona «Fly» Watson </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="267942">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scherzinger</NOM>
+            <PRENOM>Mara</PRENOM>
+            <ROLE>Anna Petersen </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="336778">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Saunders</NOM>
+            <PRENOM>Adam</PRENOM>
+            <ROLE>Heath Caroll</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="49248">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lynes</NOM>
+            <PRENOM>Martin</PRENOM>
+            <ROLE>Craig «Simmo» Simmonds </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334973">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chittenden</NOM>
+            <PRENOM>Khan</PRENOM>
+            <ROLE>Dean «Edge» Edgely </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Foy</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Matt Leyland </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334975">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gardner</NOM>
+            <PRENOM>Nadine</PRENOM>
+            <ROLE>Deborah «Deb» Callum </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334977">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bell</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Bec Sanderson </ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Fly fait un rêve romantique à propos de Heath. Elle se réveille troublée, ne sachant pas comment lui parler de ses sentiments. Elle confie ses doutes à Anna.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Fly fait un rêve romantique à propos de Heath. Elle se réveille troublée, ne sachant pas comment lui parler de ses sentiments. Elle confie ses doutes à Anna qui, pour lui remonter le moral, organise une petite soirée surprise avec, au programme, du surf. Après avoir évité Heath toute la soirée, Fly se résout à lui dévoiler ses sentiments...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E4390011.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836402" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T17:45:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Surf Academy</TITRE>
+      <SOUSTITREDIF>Prise de risque, prise de tête</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4371125" DATEMODIF="2016-09-07T14:40:31">
+        <TITREEMISSION>Blue Water High : Surf Academy</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="34" GENRESIMPLE="Série">Série jeunesse</GENRE>
+        <NATIONALITE CLE="85">
+          <PAYS>Australie</PAYS>
+          <LIBELLE>australienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="10432">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Blue Water High : Surf Academy</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7964609">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Blue Water High : Surf Academy / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Blue Water High</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Prise de risque, prise de tête</SOUSTITRE>
+          <SOUSTITREORIGINAL>A Life on the Line</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2005</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>13</NUMERO>
+            <NOMBRE>26</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="383111">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Strasser</NOM>
+            <PRENOM>Ralph</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="334976">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tozzi</NOM>
+            <PRENOM>Tahyna</PRENOM>
+            <ROLE>Perri Lawe </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Foy</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Matt Leyland </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="49248">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lynes</NOM>
+            <PRENOM>Martin</PRENOM>
+            <ROLE>Craig «Simmo» Simmonds </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334972">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Luck</NOM>
+            <PRENOM>Sophie</PRENOM>
+            <ROLE>Fiona «Fly» Watson </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334973">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chittenden</NOM>
+            <PRENOM>Khan</PRENOM>
+            <ROLE>Dean «Edge» Edgely </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="267942">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scherzinger</NOM>
+            <PRENOM>Mara</PRENOM>
+            <ROLE>Anna Petersen </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334975">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gardner</NOM>
+            <PRENOM>Nadine</PRENOM>
+            <ROLE>Deborah «Deb» Callum </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="334977">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bell</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Bec Sanderson </ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Perri risque sa vie pour sauver un homme de la noyade. Tout le monde la considère comme une héroïne, mais elle n'arrive pas à gérer sa colère après le sauvetage.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Perri risque sa vie pour sauver un jeune homme de la noyade. Tout le monde considère la jeune fille comme une héroïne, mais Perri est traumatisée et éprouve de la colère depuis le sauvetage. Matt s'en rend compte et lui enseigne une technique pour qu’elle évite de se mettre en danger dans ce genre de situation, tout en portant secours...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C4371125.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836403" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T18:15:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>#Flash Talk</TITRE>
+      <SOUSTITREDIF>Paris 2024 : la France en a-t-elle les moyens ?</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="122646174" DATEMODIF="2017-10-31T11:56:02">
+        <TITREEMISSION>#Flash Talk</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="17599710">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / #Flash Talk</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Paris 2024 : la France en a-t-elle les moyens ?</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="391940">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chironi</NOM>
+            <PRENOM>Sonia</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1234564">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Yem</NOM>
+            <PRENOM>Raphäl</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Dans un espace public, Sonia Chironi et Raphäl Yem animent un débat où les interventions se succèdent, ponctuées d'éléments chiffrés autour de la thématique abordée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C122646174.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836404" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T18:30:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Infô soir</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743931" DATEMODIF="2018-01-30T16:17:11">
+        <TITREEMISSION>Infô soir</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8299">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Infô Soir</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="600866">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Sigaud-Zabulon</NOM>
+            <PRENOM>Karine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1258770">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Radovic</NOM>
+            <PRENOM>Marie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="292412">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Akhoun</NOM>
+            <PRENOM>Elyas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Le rendez-vous quotidien de l'actualité ultramarine.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125743931.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836405" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T18:50:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Couleurs sport confidences</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125748091" DATEMODIF="2018-02-07T10:10:00">
+        <TITREEMISSION>Couleurs sport confidences</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="424" GENRESIMPLE="Magazine sportif">Magazine sportif</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27602170">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Couleurs sport confidences</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1367767">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Daquin</NOM>
+            <PRENOM>Dominique</PRENOM>
+            <ROLE>joueur de volley-ball</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>A la découverte de l'univers d'un athlète de haut niveau ou d’un sportif professionnel à travers cinq thématiques chères à l'invité(e). Dans cette nouvelle formule de «Couleurs sport», l'athlète se livre au jeu des confidences sur sa vie, sa carrière, sa passion, ses attentes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836406" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T18:55:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Les témoins d'outre-mer</TITRE>
+      <SOUSTITREDIF>Apprendre de ses échecs</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125749333" DATEMODIF="2018-01-30T11:01:04">
+        <TITREEMISSION>Les témoins d'outre-mer</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22455063">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les témoins d'outre-mer</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Apprendre de ses échecs</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="120043">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Quindou</NOM>
+            <PRENOM>Sabine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="391940">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chironi</NOM>
+            <PRENOM>Sonia</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au programme : cuisine, sujets de société, et humour.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125749333.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836407" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T19:50:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Guyane, sur la route de la côte</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="99167107" DATEMODIF="2018-01-10T23:18:24">
+        <TITREEMISSION>Guyane, sur la route de la côte</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="300395">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Arti</NOM>
+            <PRENOM>Christian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Voyage d'est en ouest, au coeur des zones humides du littoral guyanais, à bord d'un ULM, sur 300 kilomètres.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836408" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T20:45:00</DATEHEURE>
+      <DUREE>4</DUREE>
+      <TITRE>Maui et Coco</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114657910" DATEMODIF="2017-08-18T11:30:23">
+        <TITREEMISSION>Maui et Coco</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="24673395">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Maui et Coco</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="24673368">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Maui et Coco / 0</NOM>
+          </COLLECTION>
+          <DUREEEMI>3</DUREEEMI>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>17</NUMERO>
+            <NOMBRE>60</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1303477">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Malakai</NOM>
+            <PRENOM>Yves Edouard</PRENOM>
+            <ROLE>Maui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1347771">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tracqui</NOM>
+            <PRENOM>Tuarii</PRENOM>
+            <ROLE>Coco</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Maui, 35 ans, est chef de famille. Il vit de pêche et d'agriculture. Coco, lui, est un jeune homme de 26 ans, oublié par ses parents à l'âge de 10 ans sur un motu perdu au milieu du Pacifique.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C114657910.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836409" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T20:49:00</DATEHEURE>
+      <DUREE>6</DUREE>
+      <TITRE>Maui et Coco</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120606739" DATEMODIF="2017-09-01T10:09:13">
+        <TITREEMISSION>Maui et Coco</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="24673395">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Maui et Coco</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="24673368">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Maui et Coco / 0</NOM>
+          </COLLECTION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>19</NUMERO>
+            <NOMBRE>60</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1303477">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Malakai</NOM>
+            <PRENOM>Yves Edouard</PRENOM>
+            <ROLE>Maui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1347771">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tracqui</NOM>
+            <PRENOM>Tuarii</PRENOM>
+            <ROLE>Coco</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Maui, 35 ans, est chef de famille. Il vit de pêche et d'agriculture. Coco, lui, est un jeune homme de 26 ans, oublié par ses parents à l'âge de 10 ans sur un motu perdu au milieu du Pacifique.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120606739.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836410" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T20:55:00</DATEHEURE>
+      <DUREE>135</DUREE>
+      <TITRE>Au service secret de Sa Majesté</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4904" DATEMODIF="2016-03-08T14:42:20">
+        <TITREEMISSION>Au service secret de Sa Majesté</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="218" GENRESIMPLE="Film d'aventures">Film d'action</GENRE>
+        <NATIONALITE CLE="62">
+          <PAYS>Grande-Bretagne - Etats-Unis</PAYS>
+          <LIBELLE>britannico-américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>On Her Majesty's Secret Service</TITREORIGINAL>
+          <ANNEEREALISATION>1969</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>140</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="113978">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hunt</NOM>
+            <PRENOM>Peter R</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="12873">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lazenby</NOM>
+            <PRENOM>George</PRENOM>
+            <ROLE>James Bond</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="654">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rigg</NOM>
+            <PRENOM>Diana</PRENOM>
+            <ROLE>Tracy Draco</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1889">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferzetti</NOM>
+            <PRENOM>Gabriele</PRENOM>
+            <ROLE>Marc-Ange Draco</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3389">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Savalas</NOM>
+            <PRENOM>Telly</PRENOM>
+            <ROLE>Stavros Blofeld</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12874">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bunt</NOM>
+            <PRENOM>Irman</PRENOM>
+            <ROLE>Ilse Steppat</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12875">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Borienko</NOM>
+            <PRENOM>Yuri</PRENOM>
+            <ROLE>Grunther</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12876">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lee</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>M</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12877">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Horsfall</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Campbell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="257955">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Barry</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="172366">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Raven</NOM>
+            <PRENOM>Simon</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Bond, enlevé par le père d'une jeune femme qu'il vient de sauver, essaie de démanteler une organisation criminelle dirigée par le triste Blofeld.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un soir, alors qu'il longe la mer, James Bond sauve la vie d'une jeune femme sur le point de se suicider. Le lendemain, au casino, il préserve du scandale la même écervelée, Tracy Draco. Ce double exploit lui vaut d'être enlevé par les hommes de main de Draco, puissant gangster et père désespéré de Tracy. A Bond interloqué, Draco promet une forte somme d'argent s'il accepte d'épouser la jeune fille. Mais l'agent 007 a d'autres soucis en tête. Il se substitue à un héraldiste réputé et parvient ainsi à s'introduire dans l'inexpugnable forteresse où le sinistre Stavros Blofeld, le chef de «Spectre», se livre à de terribles expériences...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Ephémère 007, Lazenby, même s'il n'est pas Connery, ne démérite pourtant pas, sous la houlette d'un Peter Hunt en forme.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E4904.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836411" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-19T23:10:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Bons baisers de Russie</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="8196" DATEMODIF="2015-10-06T19:02:17">
+        <TITREEMISSION>Bons baisers de Russie</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="218" GENRESIMPLE="Film d'aventures">Film d'action</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>From Russia With Love</TITREORIGINAL>
+          <ANNEEREALISATION>1963</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>110</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="10255">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Young</NOM>
+            <PRENOM>Terence</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="4983">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Connery</NOM>
+            <PRENOM>Sean</PRENOM>
+            <ROLE>James Bond</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18674">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bianchi</NOM>
+            <PRENOM>Daniela</PRENOM>
+            <ROLE>Tatiana Romanova</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="114778">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Armendáriz</NOM>
+            <PRENOM>Pedro</PRENOM>
+            <ROLE>Kerim Bey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18675">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lenya</NOM>
+            <PRENOM>Lotte</PRENOM>
+            <ROLE>Rosa Klebb</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10723">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shaw</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Red Grant</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12876">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lee</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>M</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18676">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gayson</NOM>
+            <PRENOM>Eunice</PRENOM>
+            <ROLE>Sylvia Trench</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18677">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gotell</NOM>
+            <PRENOM>Walter</PRENOM>
+            <ROLE>Morzeny</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="257955">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Barry</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'agent 007 doit s'emparer de documents secrets dans l'ambassade soviétique d'Istanbul. Une véritable course contre la montre débute pour lui.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les services de contre-espionnage britanniques et soviétiques se livrent une lutte acharnée pour mettre la main sur des documents secrets. Le «Spectre» charge la belle Tatiana Romanova de séduire James Bond, en possession des précieuses informations, et de le livrer à des complices qui se chargeront de le faire périr. Tandis que les Britanniques s'assurent l'aide des Turcs, les Soviétiques s'acoquinent avec les Bulgares. L'agent 007 fuit ses assaillants au cours d'une course échevelée en train, en hélicoptère et en voiture. Mais ses agresseurs ne veulent pas lâcher prise, même si leur nombre tend singulièrement à diminuer...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Suspense et exotisme avec celui qui incarna sans doute le mieux le célèbre agent 007, Sean Connery.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E8196.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836412" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T01:05:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>La esclava blanca</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125155902" DATEMODIF="2018-01-23T12:36:10">
+        <TITREEMISSION>Victoria *2016</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="171">
+          <PAYS>Colombie</PAYS>
+          <LIBELLE>colombien</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="28893078">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Victoria *2016</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28889686">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Victoria *2016 / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>La esclava blanca</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>33</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1312887">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bocanegra</NOM>
+            <PRENOM>Liliana</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="561681">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Camacho</NOM>
+            <PRENOM>Nerea</PRENOM>
+            <ROLE>Victoria Quintero</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1312883">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Suarez</NOM>
+            <PRENOM>Orian</PRENOM>
+            <ROLE>Miguel Nava Soler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="312985">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>De Miguel</NOM>
+            <PRENOM>Miguel</PRENOM>
+            <ROLE>Nicolás Parreño</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1312885">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacen</NOM>
+            <PRENOM>Modesto</PRENOM>
+            <ROLE>Tomás</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1325237">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vesga</NOM>
+            <PRENOM>Ricardo</PRENOM>
+            <ROLE>Enrique Morales</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1356852">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Suárez</NOM>
+            <PRENOM>Andrés</PRENOM>
+            <ROLE>Granados</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Colombie, au temps de l'esclavage. Nicolàs Parreño, puissant propriétaire terrien, compte épouser la belle Victoria Quintero. Mais derrière celle qui se présente comme une marquise arrivant d’Espagne se cache une orpheline déracinée, prête à tout pour venger la mort de ses parents assassinés et retrouver les esclaves qui l'ont recueillie enfant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125155902.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836413" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T01:45:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>La esclava blanca</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125155907" DATEMODIF="2018-01-23T12:36:31">
+        <TITREEMISSION>Victoria *2016</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="171">
+          <PAYS>Colombie</PAYS>
+          <LIBELLE>colombien</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="28893078">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Victoria *2016</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28889686">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Victoria *2016 / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>La esclava blanca</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>34</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1312887">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bocanegra</NOM>
+            <PRENOM>Liliana</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="561681">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Camacho</NOM>
+            <PRENOM>Nerea</PRENOM>
+            <ROLE>Victoria Quintero</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1312883">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Suarez</NOM>
+            <PRENOM>Orian</PRENOM>
+            <ROLE>Miguel Nava Soler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="312985">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>De Miguel</NOM>
+            <PRENOM>Miguel</PRENOM>
+            <ROLE>Nicolás Parreño</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1312885">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacen</NOM>
+            <PRENOM>Modesto</PRENOM>
+            <ROLE>Tomás</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1325237">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vesga</NOM>
+            <PRENOM>Ricardo</PRENOM>
+            <ROLE>Enrique Morales</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1356852">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Suárez</NOM>
+            <PRENOM>Andrés</PRENOM>
+            <ROLE>Granados</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Colombie, au temps de l'esclavage. Nicolàs Parreño, puissant propriétaire terrien, compte épouser la belle Victoria Quintero. Mais derrière celle qui se présente comme une marquise arrivant d’Espagne se cache une orpheline déracinée, prête à tout pour venger la mort de ses parents assassinés et retrouver les esclaves qui l'ont recueillie enfant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125155907.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836414" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T02:30:00</DATEHEURE>
+      <DUREE>42</DUREE>
+      <TITRE>La esclava blanca</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125501660" DATEMODIF="2018-01-26T12:22:55">
+        <TITREEMISSION>Victoria *2016</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="171">
+          <PAYS>Colombie</PAYS>
+          <LIBELLE>colombien</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="28893078">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Victoria *2016</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28889686">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Victoria *2016 / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>La esclava blanca</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>35</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1312887">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bocanegra</NOM>
+            <PRENOM>Liliana</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="561681">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Camacho</NOM>
+            <PRENOM>Nerea</PRENOM>
+            <ROLE>Victoria Quintero</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1312883">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Suarez</NOM>
+            <PRENOM>Orian</PRENOM>
+            <ROLE>Miguel Nava Soler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="312985">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>De Miguel</NOM>
+            <PRENOM>Miguel</PRENOM>
+            <ROLE>Nicolás Parreño</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1312885">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacen</NOM>
+            <PRENOM>Modesto</PRENOM>
+            <ROLE>Tomás</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1325237">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vesga</NOM>
+            <PRENOM>Ricardo</PRENOM>
+            <ROLE>Enrique Morales</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1356852">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Suárez</NOM>
+            <PRENOM>Andrés</PRENOM>
+            <ROLE>Granados</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Colombie, au temps de l'esclavage. Nicolàs Parreño, puissant propriétaire terrien, compte épouser la belle Victoria Quintero. Mais derrière celle qui se présente comme une marquise arrivant d’Espagne se cache une orpheline déracinée, prête à tout pour venger la mort de ses parents assassinés et retrouver les esclaves qui l'ont recueillie enfant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125501660.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836415" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T03:12:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <TITRE>Outre-mer express</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743932" DATEMODIF="2018-01-30T16:17:11">
+        <TITREEMISSION>Outre-mer express</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21904228">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Outre-mer express</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836416" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T03:15:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Couleurs outremers</TITRE>
+      <SOUSTITREDIF>Danses traditionnelles à Mayotte</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="45195484" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Couleurs outremers</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="5195987">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Couleurs outremers</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Danses traditionnelles à Mayotte</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Les petites histoires qui font le sel de l'outre-mer.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E45195484.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836417" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T03:45:00</DATEHEURE>
+      <DUREE>7</DUREE>
+      <TITRE>Outremer tout court</TITRE>
+      <SOUSTITREDIF>Opération cétacés !</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="94261100" DATEMODIF="2017-10-19T12:09:41">
+        <TITREEMISSION>Outremer tout court</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="16520482">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Outremer tout court</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Opération cétacés !</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+        </DOCUMENTAIRE>
+        <PHOTO>IPTV_C94261100.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836418" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T03:52:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <TITRE>Outre-mer express</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743933" DATEMODIF="2018-01-30T16:17:11">
+        <TITREEMISSION>Outre-mer express</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21904228">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Outre-mer express</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836419" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T03:55:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Infô soir</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743931" DATEMODIF="2018-01-30T16:17:11">
+        <TITREEMISSION>Infô soir</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8299">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Infô Soir</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="600866">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Sigaud-Zabulon</NOM>
+            <PRENOM>Karine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1258770">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Radovic</NOM>
+            <PRENOM>Marie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="292412">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Akhoun</NOM>
+            <PRENOM>Elyas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Le rendez-vous quotidien de l'actualité ultramarine.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125743931.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836420" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T04:15:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Couleurs sport confidences</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125748091" DATEMODIF="2018-02-07T10:10:00">
+        <TITREEMISSION>Couleurs sport confidences</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="424" GENRESIMPLE="Magazine sportif">Magazine sportif</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27602170">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Couleurs sport confidences</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1367767">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Daquin</NOM>
+            <PRENOM>Dominique</PRENOM>
+            <ROLE>joueur de volley-ball</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>A la découverte de l'univers d'un athlète de haut niveau ou d’un sportif professionnel à travers cinq thématiques chères à l'invité(e). Dans cette nouvelle formule de «Couleurs sport», l'athlète se livre au jeu des confidences sur sa vie, sa carrière, sa passion, ses attentes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836421" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T04:20:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Journal Polynésie</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743934" DATEMODIF="2018-02-05T11:53:31">
+        <TITREEMISSION>Journal Polynésie</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2021745">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal Polynésie</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171836422" DATEMODIF="2018-02-02T10:35:35">
+      <DATEHEURE>2018-02-20T04:45:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Journal Wallis-et-Futuna</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125743935" DATEMODIF="2018-02-07T10:36:51">
+        <TITREEMISSION>Journal Wallis-et-Futuna</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="19569597">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Journal Wallis-et-Futuna</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

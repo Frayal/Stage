@@ -42,23 +42,31 @@ PATH_IN = '/home/alexis/Bureau/finalproject/Datas/'
 PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
 PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
 LOG = "log.txt"
-THRESHOLD = 0.46
+THRESHOLD = 0.4
 #################################################
 ########### Important functions #################
 #################################################
 
 def get_tuple(argv):
+    '''
+    renvoie le nom de la chaîne et son numéro (écrit avec 4 chiffres ex: TF1 -> '0192')
+    '''
+    # Fichier conteant les paires
     df = pd.read_csv('Equivalence.csv',sep = ';')
+    # On essaye de mettre la chaine sous la forme d'un numero pour savoir si l'on passe
+    # en entrée le nom de la chaîne ou son numéro
     try:
         argv = int(argv)
         key = 'id_unique'
     except Exception:
         key = 'nom_chaine'
+    # On va vérifier que la chaîne que l'on cherche existe vraiment
     try:
         number,name =  str(df[df[key] == argv]['id_unique'].values[0]),str(df[df[key] == argv]['nom_chaine'].values[0])
         number = "0"*(4-len(list(number)))+number
         return number,name
     except Exception as e:
+        # eeeeeeet on oublie pas de dire tout au patron si on se rate et qu'on se prend un mur
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
         Report("Failed to process {0} at line {2} in {3}: {1}".format(str(argv), str(e),sys.exc_info()[-1].tb_lineno,fname))
@@ -66,15 +74,18 @@ def get_tuple(argv):
         return 0,0
 
 def get_path():
+    # Mouais
     datas = pd.read_csv('path.csv')
     return datas['PathtoTempDatas'].values[0],datas['PathtoScripts'].values[0],datas['PathtoDatasOut'].values[0]
 
 def Report(error):
+    #Obvious
     with open(LOG,'a+') as file:
         file.write(str(error)+' \n')
         print(str(error))
 
 def part(i):
+    #Useless subsubfunction....but it's still used
     if(i<12*60):
         return 1
     elif(i<20*60):
@@ -86,6 +97,8 @@ def part(i):
 
 
 def load_file(date,c):
+    #allllllller paf! one fait confiance a personne.
+    # Retrouvons le tuple de la chaîne.
     numero,nom = get_tuple(c)
     try:
         JOINDATE = "".join(date.split('-'))
@@ -102,6 +115,7 @@ def load_file(date,c):
         return [],[]
 
 def init_newPTV(PTV,chaine):
+    #Les deux premières options sont useless mais bon...C'est ca qu'on aime!
     if(chaine == 'TF1'):
         #Initialisation du NewPTV
         newPTV = pd.DataFrame()
@@ -128,6 +142,7 @@ def init_newPTV(PTV,chaine):
         newPTV['Évenement'] = 'Début de Détection'
         return newPTV
 def init_history(chaine,PTV,lastend,currentduree):
+    #Oui je sais! tout est a 0, pas besoin de faire une fonction pour ca...et bah si! moi j'en ai besoin!
     h = pd.DataFrame()
     h['minute'] = [179]
     h['partie de la journée'] = 'nuit'
@@ -186,8 +201,15 @@ def find_partofday(i):
         return('nuit')
 
 def find_threshold(cp,threshold):
+    """
+    Work In Progress (en gros je l'ai pas testé et j'ai aucune idée si c'est une bonne mauvaise idée)
+    """
     global THRESHOLD
     num = 0
+    if(THRESHOLD>=0.60):
+        return 0.60
+    if(THRESHOLD<=0.35):
+        return 0.35
     for c in cp:
         if(cp>THRESHOLD):
             num+=1
@@ -237,6 +259,14 @@ def categorize_type(description):
         return description
 
 def categorize_pub(name,debut,duree,titre,chaine,PTV,index_PTV):
+    '''
+    Résumé de cette fonction: CANCER CANCER CANCER
+    Non plus sérieusement, il y a ici sujet à discussion:
+    la vérité importe peu, seul la vérité détectable est intéressante.
+    Si on sait qu'il y a deux publicité mais qu'on n'en détecte qu'une seule à chaque fois,
+    ne tentons pas le diable, soyons gentils, resposables, malhonnêtes et dions qu'il n'y en
+    a qu'une...
+    '''
     if("Journal" in titre.split(' ')):
         return 0
     elif(chaine == 'TF1' and (debut>20*60 or debut<180)):
@@ -607,11 +637,11 @@ def get_temp_path():
     return datas['temp_path'].values[0]
 
 
-def load_models():
-    path = get_temp_path()
-    p = list(path)
-    p[-2] = str(int(p[-2])-1)
-    path = ''.join(p)
+def load_models(path = get_temp_path()):
+    #Work of Art
+    p = path.split('/')
+    p[-2] = 'T'+str(int(''.join(list(p[-2][1:])))-1)
+    path = '/'.join(p)
     XGB = []
     XGB.append(pickle.load(open(path+"model_PTV/XGB1.pickle.dat", "rb")))
     XGB.append(pickle.load(open(path+"model_PTV/XGB2.pickle.dat", "rb")))
@@ -625,3 +655,4 @@ def load_models():
     gb = pickle.load(open(path+"model_PTV/GradientBoostingClassifier.pickle.dat", "rb"))
     logistic = pickle.load(open(path+'model_PTV/logistic_regression.sav', "rb"))
     return XGB,CatBoost,rf,dt,gb,logistic
+

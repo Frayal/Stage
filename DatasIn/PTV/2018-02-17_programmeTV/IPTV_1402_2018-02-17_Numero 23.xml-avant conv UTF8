@@ -1,0 +1,1500 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:11:25-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1402">
+    <NOMCHAINE>Numéro 23</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-17">
+    <DIFFUSION CLEDIF="171903239" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T06:35:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>JT morning</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125804128" DATEMODIF="2018-01-31T11:49:09">
+        <TITREEMISSION>JT morning</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23292957">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / JT morning</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903240" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T06:45:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Call the Midwife</TITRE>
+      <SOUSTITREDIF>L'âme soeur</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="70053329" DATEMODIF="2017-03-27T16:45:24">
+        <TITREEMISSION>Call the Midwife</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="12628964">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Call the Midwife</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="12628943">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Call the Midwife / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Call the Midwife</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'âme soeur</SOUSTITRE>
+          <DUREEEMI>60</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="299914">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Payne</NOM>
+            <PRENOM>Jamie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="582501">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raine</NOM>
+            <PRENOM>Jessica</PRENOM>
+            <ROLE>Jenny Lee</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="342655">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hart</NOM>
+            <PRENOM>Miranda</PRENOM>
+            <ROLE>Chummy Browne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4385">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agutter</NOM>
+            <PRENOM>Jenny</PRENOM>
+            <ROLE>soeur Julienne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="368835">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caplan</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>Peter Noakes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="55197">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferris</NOM>
+            <PRENOM>Pam</PRENOM>
+            <ROLE>soeur Evangelina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582499">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>George</NOM>
+            <PRENOM>Helen</PRENOM>
+            <ROLE>Trixie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582500">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hannah</NOM>
+            <PRENOM>Bryony</PRENOM>
+            <ROLE>Cynthia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1205585">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Noakes</NOM>
+            <PRENOM>Emma</PRENOM>
+            <ROLE>Shirley Redmond</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="496527">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Wilson</NOM>
+            <PRENOM>Esther</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Shirley Redmond accouche d'une fille en pleine santé. Cynthia s'occupe personnellement du cas de Margaret, une femme enceinte dont la mort est inévitable.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Shirley Redmond accouche d'une petite fille. Elle et son mari sont aux anges, d'autant que Shirley avait eu un enfant mort-né récemment. Mais l'enfant est enlevée. Toute la communauté est à sa recherche. Cynthia demande à s'occuper personnellement du cas particulier de Margaret Jones, une femme enceinte souffrant de toxémie et dont la mort est inévitable. Chummy sort à nouveau avec l'agent Noakes, qui lui propose de l'emmener au dancing. Les infirmières décident de les accompagner...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E70053329.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903241" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T07:45:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Call the Midwife</TITRE>
+      <SOUSTITREDIF>Drôle de patiente</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="70053330" DATEMODIF="2017-03-27T16:45:31">
+        <TITREEMISSION>Call the Midwife</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="12628964">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Call the Midwife</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="12628943">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Call the Midwife / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Call the Midwife</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Drôle de patiente</SOUSTITRE>
+          <DUREEEMI>60</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="299914">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Payne</NOM>
+            <PRENOM>Jamie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="582501">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raine</NOM>
+            <PRENOM>Jessica</PRENOM>
+            <ROLE>Jenny Lee</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="342655">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hart</NOM>
+            <PRENOM>Miranda</PRENOM>
+            <ROLE>Chummy Browne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4385">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agutter</NOM>
+            <PRENOM>Jenny</PRENOM>
+            <ROLE>soeur Julienne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="368835">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caplan</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>Peter Noakes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="55197">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferris</NOM>
+            <PRENOM>Pam</PRENOM>
+            <ROLE>soeur Evangelina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582499">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>George</NOM>
+            <PRENOM>Helen</PRENOM>
+            <ROLE>Trixie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582500">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hannah</NOM>
+            <PRENOM>Bryony</PRENOM>
+            <ROLE>Cynthia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="580612">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rainsford</NOM>
+            <PRENOM>George</PRENOM>
+            <ROLE>Jimmy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="399550">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Warner</NOM>
+            <PRENOM>Harriet</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Jenny, toujours amoureuse, repousse les avances de Jimmy et se console en se consacrant à son métier. Peter, de son côté, invite Chummy à rencontrer sa mère.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jenny, toujours accrochée à son amour impossible, repousse les propositions de Jimmy et trouve une consolation en se consacrant à son métier. Elle est d'ailleurs amenée à accompagner un homme mourant qui vit une relation incestueuse avec sa soeur. Peter, de son côté, invite Chummy à rencontrer sa mère, mais au moment de partir à ce rendez-vous, une truie, élevée par Fred, commence à mettre bas. Les choses se passant mal, elle décide de rester, pour aider soeur Evangélina et soeur Bernadette à délivrer la pauvre bête...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C70053330.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903242" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T08:40:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>Call the Midwife</TITRE>
+      <SOUSTITREDIF>La vie devant soi</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="70053331" DATEMODIF="2017-03-27T16:45:39">
+        <TITREEMISSION>Call the Midwife</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="12628964">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Call the Midwife</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="12628943">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Call the Midwife / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Call the Midwife</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La vie devant soi</SOUSTITRE>
+          <DUREEEMI>60</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="299914">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Payne</NOM>
+            <PRENOM>Jamie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="582501">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raine</NOM>
+            <PRENOM>Jessica</PRENOM>
+            <ROLE>Jenny Lee</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="342655">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hart</NOM>
+            <PRENOM>Miranda</PRENOM>
+            <ROLE>Chummy Browne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4385">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agutter</NOM>
+            <PRENOM>Jenny</PRENOM>
+            <ROLE>soeur Julienne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="368835">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caplan</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>Peter Noakes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="55197">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferris</NOM>
+            <PRENOM>Pam</PRENOM>
+            <ROLE>soeur Evangelina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582499">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>George</NOM>
+            <PRENOM>Helen</PRENOM>
+            <ROLE>Trixie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582500">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hannah</NOM>
+            <PRENOM>Bryony</PRENOM>
+            <ROLE>Cynthia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32423">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Parfitt</NOM>
+            <PRENOM>Judy</PRENOM>
+            <ROLE>soeur Monica Joan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="143133">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Thomas</NOM>
+            <PRENOM>Heidi</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le comportement de soeur Monica Joan inquiète ses proches : elle est retrouvée errant en chemise de nuit sur les quais et se met à voler des objets sans valeur.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Soeur Monica Joan est retrouvée en chemise de nuit sur les quais par un matin frais. Elle attrape une pneumonie dont elle guérit grâce à un traitement à base de pénicilline. Mais sa santé mentale est très fragile et, au gré de ses promenades en ville, elle se met à voler de petits objets sans valeur. Un jour, Jenny trouve des bijoux très précieux dans un tiroir de sa commode. Les commerçants ayant porté plainte, la soeur est traduite en justice...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E70053331.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903243" DATEMODIF="2018-02-04T03:17:00">
+      <DATEHEURE>2018-02-17T09:50:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Killing Fields : l'affaire Eugénie Boisfontaine</TITRE>
+      <SOUSTITREDIF>Une affaire de couple ?</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="105133513" DATEMODIF="2016-05-23T15:11:58">
+        <TITREEMISSION>Killing Fields</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="20493653">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Killing Fields</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Killing Fields</TITREORIGINAL>
+          <SOUSTITRE>La famille d'abord</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>7</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Aubrey suit une piste et va interroger un suspect ; Rodie renoue avec son fils tandis que l'équipe essaie d'ouvrir le dialogue avec l'ex-mari d'Eugénie.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E105133513.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903244" DATEMODIF="2018-02-04T03:17:03">
+      <DATEHEURE>2018-02-17T10:40:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Killing Fields : l'affaire Eugénie Boisfontaine</TITRE>
+      <SOUSTITREDIF>Le jour du jugement</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="105133726" DATEMODIF="2016-05-23T15:12:10">
+        <TITREEMISSION>Killing Fields</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="20493653">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Killing Fields</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Killing Fields</TITREORIGINAL>
+          <SOUSTITRE>Le jour du jugement</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>7</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les inspecteurs suivent des pistes en lien avec l'homicide d'Eugénie Boisfontaine ; Rodie va-t-il briser la promesse faite à la mère d'Eugénie en abandonnant l'enquête ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903245" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T11:35:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Affaires résolues</TITRE>
+      <SOUSTITREDIF>Amour empoisonné</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120769824" DATEMODIF="2017-09-06T09:14:41">
+        <TITREEMISSION>Affaires résolues</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="27599760">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Affaires résolues</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Amour empoisonné</SOUSTITRE>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>12</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les plus grands cas d'homicides résolus par le FBI sont présentés dans cette série documentaire qui propose d'entrer au coeur de ces enquêtes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120769824.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903246" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T12:25:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Affaires résolues</TITRE>
+      <SOUSTITREDIF>Avec le temps</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120769826" DATEMODIF="2017-09-06T09:15:03">
+        <TITREEMISSION>Affaires résolues</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="27599760">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Affaires résolues</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Avec le temps</SOUSTITRE>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>13</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les plus grands cas d'homicides résolus par le FBI sont présentés dans cette série documentaire qui propose d'entrer au coeur de ces enquêtes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120769826.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903247" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T13:25:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Affaires résolues</TITRE>
+      <SOUSTITREDIF>Un si gentil garçon</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120770349" DATEMODIF="2017-09-06T09:17:16">
+        <TITREEMISSION>Affaires résolues</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="27599760">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Affaires résolues</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Un si gentil garçon</SOUSTITRE>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les plus grands cas d'homicides résolus par le FBI sont présentés dans cette série documentaire qui propose d'entrer au coeur de ces enquêtes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120770349.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903248" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T14:20:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Affaires résolues</TITRE>
+      <SOUSTITREDIF>La justice peut attendre</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120770311" DATEMODIF="2017-09-06T09:14:20">
+        <TITREEMISSION>Affaires résolues</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="27599760">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Affaires résolues</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La justice peut attendre</SOUSTITRE>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les plus grands cas d'homicides résolus par le FBI sont présentés dans cette série documentaire qui propose d'entrer au coeur de ces enquêtes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120770311.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903249" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T15:15:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Alaska State Troopers</TITRE>
+      <SOUSTITREDIF>Ivre et dangereux</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123651665" DATEMODIF="2017-11-29T09:15:29">
+        <TITREEMISSION>Police en Alaska</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5433733">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Police en Alaska</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Alaska State Troopers</TITREORIGINAL>
+          <SOUSTITRE>Ivre et dangereux</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>13</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents de sécurité ont pour mission de protéger les vies, les biens et les droits constitutionnels des habitants dans un Etat hostile : l'Alaska.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123651665.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903250" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T16:15:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Alaska State Troopers</TITRE>
+      <SOUSTITREDIF>Découverte de méthamphétamine en cristaux</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123651624" DATEMODIF="2017-11-29T09:13:59">
+        <TITREEMISSION>Police en Alaska</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5433733">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Police en Alaska</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Alaska State Troopers</TITREORIGINAL>
+          <SOUSTITRE>Découverte de méthamphétamine en cristaux</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>14</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents de sécurité ont pour mission de protéger les vies, les biens et les droits constitutionnels des habitants dans un Etat hostile : l'Alaska.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123651624.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903251" DATEMODIF="2018-01-31T11:49:09">
+      <DATEHEURE>2018-02-17T17:10:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Alaska State Troopers</TITRE>
+      <SOUSTITREDIF>Harceleur</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123651625" DATEMODIF="2017-11-29T09:14:38">
+        <TITREEMISSION>Police en Alaska</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5433733">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Police en Alaska</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Alaska State Troopers</TITREORIGINAL>
+          <SOUSTITRE>Harceleur</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>15</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents de sécurité ont pour mission de protéger les vies, les biens et les droits constitutionnels des habitants dans un Etat hostile : l'Alaska.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123651625.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903252" DATEMODIF="2018-01-31T11:49:10">
+      <DATEHEURE>2018-02-17T18:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Alaska State Troopers</TITRE>
+      <SOUSTITREDIF>Impasse au fond des bois</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123651627" DATEMODIF="2017-11-29T09:15:06">
+        <TITREEMISSION>Police en Alaska</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5433733">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Police en Alaska</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Alaska State Troopers</TITREORIGINAL>
+          <SOUSTITRE>Impasse au fond des bois</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>16</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents de sécurité ont pour mission de protéger les vies, les biens et les droits constitutionnels des habitants dans un Etat hostile : l'Alaska.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123651627.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903253" DATEMODIF="2018-01-31T11:49:10">
+      <DATEHEURE>2018-02-17T19:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Alaska State Troopers</TITRE>
+      <SOUSTITREDIF>Perte de connaissance et agression</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123651668" DATEMODIF="2017-11-29T09:16:02">
+        <TITREEMISSION>Police en Alaska</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5433733">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Police en Alaska</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Alaska State Troopers</TITREORIGINAL>
+          <SOUSTITRE>Perte de connaissance et agression</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>17</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents de sécurité ont pour mission de protéger les vies, les biens et les droits constitutionnels des habitants dans un Etat hostile : l'Alaska.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123651668.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903254" DATEMODIF="2018-01-31T11:49:10">
+      <DATEHEURE>2018-02-17T20:05:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Alaska State Troopers</TITRE>
+      <SOUSTITREDIF>Points chauds des drogues en cristaux</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123651733" DATEMODIF="2017-11-29T09:19:23">
+        <TITREEMISSION>Police en Alaska</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5433733">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Police en Alaska</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Alaska State Troopers</TITREORIGINAL>
+          <SOUSTITRE>Points chauds des drogues en cristaux</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>18</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents de sécurité ont pour mission de protéger les vies, les biens et les droits constitutionnels des habitants dans un Etat hostile : l'Alaska.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123651733.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171862792" DATEMODIF="2018-02-04T03:17:37">
+      <DATEHEURE>2018-02-17T20:55:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <SURTITRE>Grands documents</SURTITRE>
+      <TITRE>Vocation pompier</TITRE>
+      <SOUSTITREDIF>Feu sacré</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125767071" DATEMODIF="2018-01-31T11:48:29">
+        <TITREEMISSION>Vocation pompier</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30251864">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Vocation pompier</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Feu sacré</SOUSTITRE>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <DUREEEMI>59</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="617442">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Clech</NOM>
+            <PRENOM>Sébastien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="102700">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Quintin</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alexis, Tristan, Corentin, Camille et Omar viennent de rejoindre les sapeurs-pompiers de Paris : la dure formation commence au fort de Villeneuve-Saint-Georges.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alexis, Tristan, Corentin, Camille et Omar viennent de rejoindre les sapeurs-pompiers de Paris. La dure formation commence au fort de Villeneuve-Saint-Georges. Chaque nouvelle recrue doit se prêter à un entraînement intensif, pour acquérir les réflexes et la forme physiques nécessaires au travail sur le terrain. Tous apprennent à repousser leurs limites.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125767071.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171862793" DATEMODIF="2018-02-04T03:17:42">
+      <DATEHEURE>2018-02-17T22:05:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <SURTITRE>Grands documents</SURTITRE>
+      <TITRE>Vocation pompier</TITRE>
+      <SOUSTITREDIF>A l'épreuve du terrain</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125767074" DATEMODIF="2018-02-06T16:36:02">
+        <TITREEMISSION>Vocation pompier</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30251864">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Vocation pompier</NOM>
+          </COLLECTION>
+          <SOUSTITRE>A l'épreuve du terrain</SOUSTITRE>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <DUREEEMI>53</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Tandis que la formation continue au fort pour Corentin, Camille et Omar, Alexis et Tristan font leurs premiers pas sur le terrain, non sans nervosité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171862794" DATEMODIF="2018-01-31T11:49:10">
+      <DATEHEURE>2018-02-17T23:10:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <SURTITRE>Grands documents</SURTITRE>
+      <TITRE>Légionnaires : à l'école du courage</TITRE>
+      <SOUSTITREDIF>Huit semaines dans l'enfer vert</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125264492" DATEMODIF="2018-01-17T10:46:17">
+        <TITREEMISSION>Légionnaires : à l'école du courage</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30055952">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Légionnaires : à l'école du courage</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Huit semaines dans l'enfer vert</SOUSTITRE>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1365245">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Fort</NOM>
+            <PRENOM>Pierre-Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Pendant huit jours, 36 soldats de la Légion Etrangère vont vivre l'enfer pour venir à bout de la plus difficile des épreuves : le stage international Jaguar.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans l'Armée française, la Légion Etrangère est un mythe. Pour la rejoindre, les candidats doivent renoncer à leur passé, à leur nom, à leur langue maternelle. Pendant plusieurs semaines, des caméras ont suivi le quotidien de ces hommes qui ont tout laissé derrière eux, pour découvrir la réalité de ce corps d'élite. Le Centre d'entraînement en Forêt équatoriale est le terrain où les troupes se préparent au combat dans la jungle. Pendant huit jours, 36 hommes vont vivre l'enfer pour venir à bout de la plus difficile des épreuves : le stage international Jaguar.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125264492.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903257" DATEMODIF="2018-01-31T11:49:10">
+      <DATEHEURE>2018-02-18T00:15:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <SURTITRE>Grands documents</SURTITRE>
+      <TITRE>Légionnaires : à l'école du courage</TITRE>
+      <SOUSTITREDIF>Jusqu'à l'épuisement</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125265394" DATEMODIF="2018-01-23T17:05:08">
+        <TITREEMISSION>Légionnaires : à l'école du courage</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30055952">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Légionnaires : à l'école du courage</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Jusqu'à l'épuisement</SOUSTITRE>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1365245">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Fort</NOM>
+            <PRENOM>Pierre-Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Depuis une semaine, les hommes se confrontent à leurs propres limites en Guyane, mais le plus dur reste à venir : encore un mois d'épreuves les attend.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125265394.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903258" DATEMODIF="2018-01-31T11:49:10">
+      <DATEHEURE>2018-02-18T01:20:00</DATEHEURE>
+      <DUREE>300</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125804129" DATEMODIF="2018-01-31T11:49:10">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

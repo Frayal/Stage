@@ -1,0 +1,3054 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:14:21-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="479">
+    <NOMCHAINE>Syfy</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-08">
+    <DIFFUSION CLEDIF="170954424" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T05:35:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>The 100</TITRE>
+      <SOUSTITREDIF>De l'autre côté</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="115902108" DATEMODIF="2017-12-21T16:36:26">
+        <TITREEMISSION>The 100</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="12845130">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / The 100</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22682181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / The 100 / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The 100</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>De l'autre côté</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Other Side</SOUSTITREORIGINAL>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="258346">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Cusick</NOM>
+            <PRENOM>Henry Ian</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1207862">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Taylor</NOM>
+            <PRENOM>Eliza</PRENOM>
+            <ROLE>Clarke Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="504389">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morley</NOM>
+            <PRENOM>Bob</PRENOM>
+            <ROLE>Bellamy Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29694">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Turco</NOM>
+            <PRENOM>Paige</PRENOM>
+            <ROLE>Abigail «Abby» Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25797">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Washington</NOM>
+            <PRENOM>Isaiah</PRENOM>
+            <ROLE>Thelonious Jaha</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="509918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Avgeropoulos</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>Octavia Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="301677">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bostick</NOM>
+            <PRENOM>Devon</PRENOM>
+            <ROLE>Jasper Jordan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582233">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Lindsey</PRENOM>
+            <ROLE>Raven Reyes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="191255">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Larkin</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Monty Green</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1291447">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Benson</NOM>
+            <PRENOM>Shawna</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1291446">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Benson</NOM>
+            <PRENOM>Julie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Octavia a gagné le conclave et elle a promis aux clans que chacun aurait droit à cent places dans le bunker. Mais Jaha et Clarke refusent d'ouvrir la trappe.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Octavia a gagné le conclave et elle a promis aux clans que chacun aurait droit à cent places dans le bunker. Apprenant cela, Jaha et Clarke refusent d'ouvrir la trappe du bunker car ils préfèrent sauver les Skaïkrou qui sont déjà à l'intérieur, quitte à sacrifier ceux qui sont restés dehors. Bellamy, voulant sauver sa soeur, tente par tous les moyens d'ouvrir la trappe pour qu'Octavia puisse entrer. Mais Jaha décide de l'en empêcher et le fait enfermer...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E115902108.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954425" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T06:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>The 100</TITRE>
+      <SOUSTITREDIF>Les élus</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="115902109" DATEMODIF="2017-12-21T16:38:13">
+        <TITREEMISSION>The 100</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="12845130">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / The 100</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22682181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / The 100 / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The 100</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les élus</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Chosen</SOUSTITREORIGINAL>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>12</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1293570">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kalymnios</NOM>
+            <PRENOM>Alex</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1207862">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Taylor</NOM>
+            <PRENOM>Eliza</PRENOM>
+            <ROLE>Clarke Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="258346">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cusick</NOM>
+            <PRENOM>Henry Ian</PRENOM>
+            <ROLE>Marcus Kane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="504389">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morley</NOM>
+            <PRENOM>Bob</PRENOM>
+            <ROLE>Bellamy Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29694">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Turco</NOM>
+            <PRENOM>Paige</PRENOM>
+            <ROLE>Abigail «Abby» Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25797">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Washington</NOM>
+            <PRENOM>Isaiah</PRENOM>
+            <ROLE>Thelonious Jaha</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="509918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Avgeropoulos</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>Octavia Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="301677">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bostick</NOM>
+            <PRENOM>Devon</PRENOM>
+            <ROLE>Jasper Jordan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582233">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Lindsey</PRENOM>
+            <ROLE>Raven Reyes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="576748">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>McIntyre</NOM>
+            <PRENOM>Wade</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="578659">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Ginsburg</NOM>
+            <PRENOM>Aaron</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La vague de radiations va arriver dans moins de vingt-quatre heures à Polis. Bellamy et Clarke cherchent Raven mais le voyage ne se passe pas comme prévu.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La vague de radiations va arriver dans moins de vingt-quatre heures à Polis. Bellamy et Clarke se portent volontaires pour aller chercher Raven mais le voyage ne se passe pas comme prévu. Dans le bunker, Kane organise un tirage au sort pour sélectionner les cent élus Skaikru qui auront le droit de survivre...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E115902109.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954426" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T07:05:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Smallville</TITRE>
+      <SOUSTITREDIF>Duplicité</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="1761758" DATEMODIF="2015-08-29T03:19:22">
+        <TITREEMISSION>Smallville</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="10" GENRESIMPLE="Série d'aventures">Série d'aventures</GENRE>
+        <NATIONALITE CLE="17">
+          <PAYS>Etats-Unis - Canada</PAYS>
+          <LIBELLE>américano-canadienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8004">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Smallville</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7118399">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Smallville / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Smallville</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Duplicité</SOUSTITRE>
+          <SOUSTITREORIGINAL>Duplicity</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>23</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="9366">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Miner</NOM>
+            <PRENOM>Steve</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="219229">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Welling</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Clark Kent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11110">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jones</NOM>
+            <PRENOM>Sam</PRENOM>
+            <ROLE>Pete Ross</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9679">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Glover</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Lionel Luthor </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219230">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kreuk</NOM>
+            <PRENOM>Kristin</PRENOM>
+            <ROLE>Lana Lang</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="246181">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Richmond</NOM>
+            <PRENOM>Sarah-Jane</PRENOM>
+            <ROLE>Nell Potter</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88515">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rosenbaum</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Lex Luthor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19792">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morton</NOM>
+            <PRENOM>Joe</PRENOM>
+            <ROLE>Steven Hamilton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14906">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schneider</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Jonathan Kent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="159648">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Slavkin</NOM>
+            <PRENOM>Todd</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Pete, l'ami de Clark, découvre son vaisseau spatial dans un champ de maïs. Clark n'a pas d'autre choix que de révéler sa véritable identité.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Lorsque Pete découvre ce qui semble être un vaisseau spatial en voulant porter secours à quelqu'un, Clark va à l'encontre des désirs de ses parents et lui revèle sa véritable identité et ses pouvoirs extraterrestres. Pete ne prend pas très bien la nouvelle, lui qui croyait que Clark et lui-même ne se cachaient rien. Cependant, Lionel Luthor confie qu'il souhaite passer plus de temps auprès de son fils. Lana, quant à elle, n'apprécie pas vraiment le nouveau petit copain de sa tante Nell, que celle-ci s'est mis en tête d'épouser. Par ailleurs, Lex Luthor se dispute avec l'un de ses scientifiques, le professeur Steven Hamilton...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E1761758.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954427" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T07:50:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Warehouse 13</TITRE>
+      <SOUSTITREDIF>Seconde chance</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="46817422" DATEMODIF="2015-08-29T03:21:40">
+        <TITREEMISSION>Warehouse 13</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1058" GENRESIMPLE="Série">Série de science-fiction</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="2901279">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Warehouse 13</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="9941479">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Warehouse 13 / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Warehouse 13</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Seconde chance</SOUSTITRE>
+          <SOUSTITREORIGINAL>Second Chance</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="115547">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Makris</NOM>
+            <PRENOM>Constantine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="160495">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McClintock</NOM>
+            <PRENOM>Eddie</PRENOM>
+            <ROLE>Pete Lattimer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279958">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kelly</NOM>
+            <PRENOM>Joanne</PRENOM>
+            <ROLE>Myka Bering</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10157">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rubinek</NOM>
+            <PRENOM>Saul</PRENOM>
+            <ROLE>Artie Nielsen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="386013">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scagliotti</NOM>
+            <PRENOM>Allison</PRENOM>
+            <ROLE>Claudia Donovan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298581">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Williams</NOM>
+            <PRENOM>Genelle</PRENOM>
+            <ROLE>Leena</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73000">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ashmore</NOM>
+            <PRENOM>Aaron</PRENOM>
+            <ROLE>Steve Jinks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30092">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Innes</NOM>
+            <PRENOM>Laura</PRENOM>
+            <ROLE>Emma Jinks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="319123">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hall</NOM>
+            <PRENOM>Pooch</PRENOM>
+            <ROLE>Cody Bell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="117673">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Mote</NOM>
+            <PRENOM>D Brent</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Pete et Myka tentent de sauver un homme qui rouille à cause d'un artefact. De son côté, Claudia aide Steve à trouver un moyen de couper son lien avec le métronome...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E46817422.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171018044" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T08:30:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Asteroid vs Earth</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92728281" DATEMODIF="2017-01-25T09:43:02">
+        <TITREEMISSION>Alerte Astéroïde</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="321" GENRESIMPLE="Téléfilm de science-fiction">Téléfilm de science-fiction</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Asteroid vs. Earth</TITREORIGINAL>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>91</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="558017">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Ray</NOM>
+            <PRENOM>Christopher</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="12046">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Carrere</NOM>
+            <PRENOM>Tia</PRENOM>
+            <ROLE>Marissa Knox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5425">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brooks</NOM>
+            <PRENOM>Jason</PRENOM>
+            <ROLE>Chase Steward</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2128">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Davi</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>le général Masterson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="114259">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cooper</NOM>
+            <PRENOM>Darin</PRENOM>
+            <ROLE>le capitaine du bateau</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="325789">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blair</NOM>
+            <PRENOM>Craig</PRENOM>
+            <ROLE>Terry</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="358574">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shafer</NOM>
+            <PRENOM>Robert R</PRENOM>
+            <ROLE>le lieutenant Rouse</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="52256">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Russ</NOM>
+            <PRENOM>Tim</PRENOM>
+            <ROLE>le capitaine Rogers</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1257427">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rosete</NOM>
+            <PRENOM>Jose</PRENOM>
+            <ROLE>Luiz Zuniga</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une pluie de météores menace la Terre. Les plus grands scientifiques du monde se réunissent pour mettre au point un plan qui permettera d'éviter la collision.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une pluie de météores menace de s'abattre sur la planète Terre. Les meilleurs scientifiques au monde se réunissent pour trouver une solution et éviter l'apocalypse. Ils mettent au point un plan qui devrait permettre de dévier la planète de son axe et ainsi éviter la collision...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E92728281.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954428" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T10:05:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Warehouse 13</TITRE>
+      <SOUSTITREDIF>Jeu de massacre</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="47101038" DATEMODIF="2015-08-29T03:21:41">
+        <TITREEMISSION>Warehouse 13</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1058" GENRESIMPLE="Série">Série de science-fiction</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="2901279">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Warehouse 13</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="9941479">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Warehouse 13 / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Warehouse 13</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Jeu de massacre</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Ones You Love</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="8084">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Deutch</NOM>
+            <PRENOM>Howard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="160495">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McClintock</NOM>
+            <PRENOM>Eddie</PRENOM>
+            <ROLE>Pete Lattimer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279958">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kelly</NOM>
+            <PRENOM>Joanne</PRENOM>
+            <ROLE>Myka Bering</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10157">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rubinek</NOM>
+            <PRENOM>Saul</PRENOM>
+            <ROLE>Artie Nielsen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="386013">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scagliotti</NOM>
+            <PRENOM>Allison</PRENOM>
+            <ROLE>Claudia Donovan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298581">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Williams</NOM>
+            <PRENOM>Genelle</PRENOM>
+            <ROLE>Leena</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73000">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ashmore</NOM>
+            <PRENOM>Aaron</PRENOM>
+            <ROLE>Steve Jinks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="256272">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Spiner</NOM>
+            <PRENOM>Brent</PRENOM>
+            <ROLE>le père Adrian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pounder</NOM>
+            <PRENOM>CCH</PRENOM>
+            <ROLE>Irene Frederic</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="117673">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Mote</NOM>
+            <PRENOM>D Brent</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors que le frère Adrian menace Artie afin qu'il réutilise l'astrobale, Steve et madame Frederic, en voyage à Rome, découvrent son sombre secret.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E47101038.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954429" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T10:55:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>The 100</TITRE>
+      <SOUSTITREDIF>Praimfaya</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="115902113" DATEMODIF="2017-12-21T16:43:23">
+        <TITREEMISSION>The 100</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="12845130">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / The 100</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22682181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / The 100 / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The 100</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Praimfaya</SOUSTITRE>
+          <SOUSTITREORIGINAL>Praimfaya</SOUSTITREORIGINAL>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>13</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="319104">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>White</NOM>
+            <PRENOM>Dean</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1207862">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Taylor</NOM>
+            <PRENOM>Eliza</PRENOM>
+            <ROLE>Clarke Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="504389">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morley</NOM>
+            <PRENOM>Bob</PRENOM>
+            <ROLE>Bellamy Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29694">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Turco</NOM>
+            <PRENOM>Paige</PRENOM>
+            <ROLE>Abigail «Abby» Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25797">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Washington</NOM>
+            <PRENOM>Isaiah</PRENOM>
+            <ROLE>Thelonious Jaha</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="509918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Avgeropoulos</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>Octavia Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="301677">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bostick</NOM>
+            <PRENOM>Devon</PRENOM>
+            <ROLE>Jasper Jordan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582233">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Lindsey</PRENOM>
+            <ROLE>Raven Reyes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="191255">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Larkin</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Monty Green</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1207860">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Rothenberg</NOM>
+            <PRENOM>Jason</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le grand départ approche, mais il n'y a pas de courant. Clarke doit aller activer le satellite pour que la porte puisse s'ouvrir et laisser sortir la fusée. </LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le grand départ approche, mais il n'y a pas de courant. Clarke doit aller activer le satellite pour que la porte puisse s'ouvrir et laisser sortir la fusée. Echo n'arrive pas à accepter l'idée qu'elle va partir. Monty et Murphy doivent aller récupérer le générateur du phare. Mais pour le débrancher, Monty doit retirer ses gants. De son côté, Octavia a du mal à se projeter dans un rôle de leadeuse...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E115902113.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954430" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T11:35:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Grimm</TITRE>
+      <SOUSTITREDIF>Il était une fois</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="30345316" DATEMODIF="2017-05-14T23:01:40">
+        <TITREEMISSION>Grimm</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8325171">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Grimm</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8325156">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Grimm / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Grimm</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Il était une fois</SOUSTITRE>
+          <SOUSTITREORIGINAL>Pilot</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="48398">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Buckland</NOM>
+            <PRENOM>Marc</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="490546">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giuntoli</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Nick Burkhardt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="183954">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hornsby</NOM>
+            <PRENOM>Russell</PRENOM>
+            <ROLE>Hank Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="503163">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tulloch</NOM>
+            <PRENOM>Bitsie</PRENOM>
+            <ROLE>Juliette Silverton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="59028">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mitchell</NOM>
+            <PRENOM>Silas Weir</PRENOM>
+            <ROLE>Eddy Monroe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="349814">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Roiz</NOM>
+            <PRENOM>Sasha</PRENOM>
+            <ROLE>Sean Renard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="323392">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lee</NOM>
+            <PRENOM>Reggie</PRENOM>
+            <ROLE>le sergent Wu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13456">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Burton</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Marie Kessler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="220963">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Coffee</NOM>
+            <PRENOM>Claire</PRENOM>
+            <ROLE>Adalind Schade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1656">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Greenwalt</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Lorsque Nick Burkhardt apprend qu'il descend de la lignée des Grimm, il s'aperçoit qu'il est capable d'identifier la réelle nature de certains individus.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alors qu'il enquête sur l'agression d'une étudiante durant son jogging et la disparition d'une fillette qui rentrait de l'école, l'inspecteur Nick Burkhardt apprend par sa tante qu'il descend de la mystérieuse lignée des Grimm. Comme eux, il est capable d'identifier la réelle nature de certains individus. Cela le plonge dans un monde peuplé de créatures surnaturelles dont il devra apprendre à maîtriser les règles. Dans sa mission de maintien de l'équilibre entre l'humanité et les créatures mythologiques, il peut compter sur l'aide d'Eddy Monroe, un ancien loup-garou, qui lui prête main-forte...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E30345316.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954431" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T12:25:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>Smallville</TITRE>
+      <SOUSTITREDIF>Rouge</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="1780623" DATEMODIF="2015-08-29T03:19:22">
+        <TITREEMISSION>Smallville</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="10" GENRESIMPLE="Série d'aventures">Série d'aventures</GENRE>
+        <NATIONALITE CLE="17">
+          <PAYS>Etats-Unis - Canada</PAYS>
+          <LIBELLE>américano-canadienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8004">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Smallville</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7118399">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Smallville / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Smallville</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Rouge</SOUSTITRE>
+          <SOUSTITREORIGINAL>Red</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>23</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="9366">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Miner</NOM>
+            <PRENOM>Steve</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="219229">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Welling</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Clark Kent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219230">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kreuk</NOM>
+            <PRENOM>Kristin</PRENOM>
+            <ROLE>Lana Lang</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14906">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schneider</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Jonathan Kent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="674">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>O'Toole</NOM>
+            <PRENOM>Annette</PRENOM>
+            <ROLE>Martha Kent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="169867">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Downing</NOM>
+            <PRENOM>Sara</PRENOM>
+            <ROLE>Jessie Brooks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="62130">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tomlinson</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>le marshall</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88515">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rosenbaum</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Lex Luthor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19792">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morton</NOM>
+            <PRENOM>Joe</PRENOM>
+            <ROLE>Steven Hamilton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="159648">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Slavkin</NOM>
+            <PRENOM>Todd</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des météorites rouges, accidentellement introduites dans l'enceinte du lycée, métamorphosent Clark en un adolescent rebelle, bagarreur et dangereux.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Clark n'est plus lui-même depuis que des météorites rouges ont fait leur apparition dans l'enceinte du lycée. L'adolescent réservé, gentil et discret s'est métamorphosé en un être vil, bagarreur et nuisible, qui utilise ses pouvoirs pour faire le mal. Tous ses proches sont atterrés et effrayés. Seule Lana semble ravie de cette transformation. Car si le nouveau Clark n'aime plus faire le bien, il se préoccupe désormais des sentiments de la jolie jeune fille : il lui a déclaré sa flamme avant de lui faire une cour empressée. Jonathan et Martha tentent de trouver une parade à ce comportement néfaste avant que Clark n'en vienne à dévoiler sa véritable identité. Au même moment, une étudiante, Jessie Brooks, fuit pour échapper au marshall...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E1780623.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171018045" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T13:35:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Impostor</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="3623190" DATEMODIF="2016-05-21T13:07:55">
+        <TITREEMISSION>Impostor</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="248" GENRESIMPLE="Film de science fiction">Film de science-fiction</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Impostor</TITREORIGINAL>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>98</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="31848">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Fleder</NOM>
+            <PRENOM>Gary</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5112">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sinise</NOM>
+            <PRENOM>Gary</PRENOM>
+            <ROLE>Spencer Olham</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stowe</NOM>
+            <PRENOM>Madeleine</PRENOM>
+            <ROLE>Maya Olham</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24630">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>D'Onofrio</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>Hathaway</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15340">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shalhoub</NOM>
+            <PRENOM>Tony</PRENOM>
+            <ROLE>Nelson Gittes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="46256">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guinee</NOM>
+            <PRENOM>Tim</PRENOM>
+            <ROLE>le docteur Carone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25796">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Phifer</NOM>
+            <PRENOM>Mekhi</PRENOM>
+            <ROLE>Cale</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5579">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dourdan</NOM>
+            <PRENOM>Gary</PRENOM>
+            <ROLE>le capitaine Burke</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="235214">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brolly</NOM>
+            <PRENOM>Shane</PRENOM>
+            <ROLE>le lieutenant Burrows</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 2075 sur la Terre. Un homme, chargé de lutter contre les extraterrestres qui envahissent la planète, est soupçonné d'être l'une de ces créatures.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La Terre en 2075. Voilà plus d'une décennie que la planète est envahie par des extraterrestres terrifiants. Spencer Olham est à la tête du projet d'une agence gouvernementale secrète, visant à anéantir ces impitoyables créatures. C'est alors que le dirigeant de son laboratoire, Hathaway, fait arrêter Olham pour haute trahison : il le soupçonne en effet d'être lui aussi un alien ayant pris l'apparence physique d'un humain, et le fait emprisonner. Olham parvient toutefois à s'échapper, profitant d'un moment d'inattention des forces de sécurité. Mais pour lui, une course contre la montre s'engage, dans un univers hostile où il sait qu'il ne peut plus avoir confiance en personne...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Le suspense haletant est maintenu jusqu'au bout, notamment grâce à l'interprétation toujours très juste de Gary Sinise.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E3623190.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171018046" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T15:15:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>The Giver : le passeur</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="77609018" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>The Giver : le passeur</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="248" GENRESIMPLE="Film de science fiction">Film de science-fiction</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Giver</TITREORIGINAL>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>94</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="30352">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Noyce</NOM>
+            <PRENOM>Phillip</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="617704">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thwaites</NOM>
+            <PRENOM>Brenton</PRENOM>
+            <ROLE>Jonas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6758">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bridges</NOM>
+            <PRENOM>Jeff</PRENOM>
+            <ROLE>le Passeur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12794">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Streep</NOM>
+            <PRENOM>Meryl</PRENOM>
+            <ROLE>Elder</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="389415">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Skarsgard</NOM>
+            <PRENOM>Alexander</PRENOM>
+            <ROLE>le père de Jonas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="522016">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Swift</NOM>
+            <PRENOM>Taylor</PRENOM>
+            <ROLE>Rosemary</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="74819">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Holmes</NOM>
+            <PRENOM>Katie</PRENOM>
+            <ROLE>la mère de Jonas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="347987">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Monaghan</NOM>
+            <PRENOM>Cameron</PRENOM>
+            <ROLE>Asher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="614203">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rush</NOM>
+            <PRENOM>Odeya</PRENOM>
+            <ROLE>Fiona</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="56428">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Beltrami</NOM>
+            <PRENOM>Marco</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans le futur, un jeune homme défie les autorités de son monde sans émotions en rencontrant le passeur qui veut récréer un monde libre et en couleurs.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La Terre, dans un futur lointain. Jonas est un jeune homme comme tant d'autres dans le monde sans couleurs où il vit. Avec ses amis, il veut partir à l'aventure et passer la frontière qu'il est formellement interdit de franchir. Jonas parvient à ses fins et rencontre le Passeur, un homme sage qui lui apprend la vérité sur son passé et celui de la Terre. Il découvre le sort que l'on a a réservé à ses parents, aux personnes âgées et la manipulation exercée sur les humains. La dictatoriale Elder apprend ce qu'a osé faire Jonas. Elle décide alors de se lancer à sa poursuite. Elle demande à Asher, l'ami de Jonas, de mener cette chasse...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film d'anticipation aux effets spéciaux bien utilisés, adapté du livre éponyme de Lois Lowry.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E77609018.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954432" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T16:55:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Warehouse 13</TITRE>
+      <SOUSTITREDIF>Chutes</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="47101040" DATEMODIF="2015-08-29T03:21:41">
+        <TITREEMISSION>Warehouse 13</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1058" GENRESIMPLE="Série">Série de science-fiction</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="2901279">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Warehouse 13</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="9941479">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Warehouse 13 / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Warehouse 13</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Chutes</SOUSTITRE>
+          <SOUSTITREORIGINAL>We All Fall Down</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>10</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="318125">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Fisher</NOM>
+            <PRENOM>Chris</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="160495">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McClintock</NOM>
+            <PRENOM>Eddie</PRENOM>
+            <ROLE>Pete Lattimer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279958">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kelly</NOM>
+            <PRENOM>Joanne</PRENOM>
+            <ROLE>Myka Bering</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10157">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rubinek</NOM>
+            <PRENOM>Saul</PRENOM>
+            <ROLE>Artie Nielsen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="386013">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scagliotti</NOM>
+            <PRENOM>Allison</PRENOM>
+            <ROLE>Claudia Donovan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73000">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ashmore</NOM>
+            <PRENOM>Aaron</PRENOM>
+            <ROLE>Steve Jinks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="256272">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Spiner</NOM>
+            <PRENOM>Brent</PRENOM>
+            <ROLE>le frère Adrian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pounder</NOM>
+            <PRENOM>CCH</PRENOM>
+            <ROLE>Irene Frederic</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="577216">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kondracki</NOM>
+            <PRENOM>Rayisa</PRENOM>
+            <ROLE>Anya Steinbruck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="117673">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Mote</NOM>
+            <PRENOM>D Brent</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Pete sent que quelque chose se trame autour de l'Entrepôt et recherche Artie avec Myka. Ils découvrent alors le corps de Leena.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E47101040.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954433" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T17:35:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Warehouse 13</TITRE>
+      <SOUSTITREDIF>Les morts et les vivants</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="68742391" DATEMODIF="2015-08-29T03:21:42">
+        <TITREEMISSION>Warehouse 13</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1058" GENRESIMPLE="Série">Série de science-fiction</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="2901279">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Warehouse 13</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="9941479">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Warehouse 13 / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Warehouse 13</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les morts et les vivants</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Living and the Dead</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="226305">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Shelton</NOM>
+            <PRENOM>Millicent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="160495">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McClintock</NOM>
+            <PRENOM>Eddie</PRENOM>
+            <ROLE>Pete Lattimer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279958">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kelly</NOM>
+            <PRENOM>Joanne</PRENOM>
+            <ROLE>Myka Bering</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10157">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rubinek</NOM>
+            <PRENOM>Saul</PRENOM>
+            <ROLE>Artie Nielsen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73000">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ashmore</NOM>
+            <PRENOM>Aaron</PRENOM>
+            <ROLE>Steve Jinks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="386013">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scagliotti</NOM>
+            <PRENOM>Allison</PRENOM>
+            <ROLE>Claudia Donovan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pounder</NOM>
+            <PRENOM>CCH</PRENOM>
+            <ROLE>madame Frederic</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13864">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Walker</NOM>
+            <PRENOM>Polly</PRENOM>
+            <ROLE>Charlotte Dupres</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="71301">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marsters</NOM>
+            <PRENOM>James</PRENOM>
+            <ROLE>le professeur Sutton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="240939">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Greenberg</NOM>
+            <PRENOM>Drew Z</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alors qu'une maladie touche des centaines et bientôt des milliers de personnes dans le monde et qu'Artie est inconscient après avoir été attaqué par Claudia, Madame Frederic, Pete et Myka sont à la recherche d'un artefact qui pourrait ramener à la vie l'orchidée chinoise et arrêter l'épidémie mondiale...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E68742391.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954434" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T18:30:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Grimm</TITRE>
+      <SOUSTITREDIF>La peau de l'ours</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="31249103" DATEMODIF="2017-05-14T23:01:41">
+        <TITREEMISSION>Grimm</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8325171">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Grimm</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8325156">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Grimm / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Grimm</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La peau de l'ours</SOUSTITRE>
+          <SOUSTITREORIGINAL>Bears Will Be Bears</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="44533">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Barba</NOM>
+            <PRENOM>Norberto</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="490546">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giuntoli</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Nick Burkhardt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="183954">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hornsby</NOM>
+            <PRENOM>Russell</PRENOM>
+            <ROLE>Hank Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="503163">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tulloch</NOM>
+            <PRENOM>Bitsie</PRENOM>
+            <ROLE>Juliette Silverton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="59028">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mitchell</NOM>
+            <PRENOM>Silas Weir</PRENOM>
+            <ROLE>Eddy Monroe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="349814">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Roiz</NOM>
+            <PRENOM>Sasha</PRENOM>
+            <ROLE>Sean Renard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="323392">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lee</NOM>
+            <PRENOM>Reggie</PRENOM>
+            <ROLE>le sergent Wu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33223">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graham</NOM>
+            <PRENOM>Currie</PRENOM>
+            <ROLE>Frank Rabe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13456">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Burton</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Marie Kessler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1656">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Greenwalt</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En enquêtant sur un cas d'effraction de domicile, Nick et Hank rencontrent une famille étrange. Monroe est chargé par Nick de veiller sur Marie.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Après s'être introduit dans une maison dont les propriétaires étaient absents, deux adolescents sont poursuivis par de mystérieuses créatures. En enquêtant sur cette affaire, Nick et Hank rencontrent une famille étrange. Par ailleurs, Nick demande à Monroe d'assurer la sécurité de sa tante Marie, hospitalisée à la suite d'une agression...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E31249103.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954435" DATEMODIF="2018-02-05T16:32:16">
+      <DATEHEURE>2018-02-08T19:10:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Grimm</TITRE>
+      <SOUSTITREDIF>La reine des abeilles</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="31632101" DATEMODIF="2015-08-18T02:02:18">
+        <TITREEMISSION>Grimm</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8325171">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Grimm</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8325156">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Grimm / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Grimm</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La reine des abeilles</SOUSTITRE>
+          <SOUSTITREORIGINAL>Beeware</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="47244">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Martin</NOM>
+            <PRENOM>Darnell</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="490546">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giuntoli</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Nick Burkhardt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="183954">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hornsby</NOM>
+            <PRENOM>Russell</PRENOM>
+            <ROLE>Hank Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="503163">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tulloch</NOM>
+            <PRENOM>Bitsie</PRENOM>
+            <ROLE>Juliette Silverton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="59028">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mitchell</NOM>
+            <PRENOM>Silas Weir</PRENOM>
+            <ROLE>Eddy Monroe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="349814">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Roiz</NOM>
+            <PRENOM>Sasha</PRENOM>
+            <ROLE>Sean Renard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="323392">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lee</NOM>
+            <PRENOM>Reggie</PRENOM>
+            <ROLE>le sergent Wu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18351">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Visitor</NOM>
+            <PRENOM>Nana</PRENOM>
+            <ROLE>Melissa Wincroft</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="590065">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jarou</NOM>
+            <PRENOM>Mary Ann</PRENOM>
+            <ROLE>Serena Dunbrook</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1656">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Greenwalt</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Nick et Hank sont chargés d'enquêter sur le meurtre d'une personne lors d'un flash-mob. Ils constatent que le corps de la victime est anormalement gonflé.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Lorsque Serena Dunbrook monte dans le tramway, un adolescent commence à jouer de la musique et tous les passagers se lancent dans un flash-mob improvisé. A la station suivante, tous descendent sauf Serena, qui est retrouvée morte. Nick et Hank, chargés d'enquêter sur cet homicide, constatent que le corps de la victime est anormalement gonflé...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E31632101.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954436" DATEMODIF="2018-02-05T16:32:17">
+      <DATEHEURE>2018-02-08T20:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Smallville</TITRE>
+      <SOUSTITREDIF>De l'ombre à la lumière</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="1796949" DATEMODIF="2015-08-29T03:19:23">
+        <TITREEMISSION>Smallville</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="10" GENRESIMPLE="Série d'aventures">Série d'aventures</GENRE>
+        <NATIONALITE CLE="17">
+          <PAYS>Etats-Unis - Canada</PAYS>
+          <LIBELLE>américano-canadienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8004">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Smallville</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7118399">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Smallville / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Smallville</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>De l'ombre à la lumière</SOUSTITRE>
+          <SOUSTITREORIGINAL>Nocturne</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>23</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1632">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Wallace</NOM>
+            <PRENOM>Rick</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="219229">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Welling</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Clark Kent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219230">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kreuk</NOM>
+            <PRENOM>Kristin</PRENOM>
+            <ROLE>Lana Lang</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="222427">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Faris</NOM>
+            <PRENOM>Sean</PRENOM>
+            <ROLE>Byron Moore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4032">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moll</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>monsieur Moore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1796">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Walsh</NOM>
+            <PRENOM>Gwynyth</PRENOM>
+            <ROLE>madame Moore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="62130">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tomlinson</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>le marshall</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88515">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rosenbaum</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Lex Luthor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19792">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morton</NOM>
+            <PRENOM>Joe</PRENOM>
+            <ROLE>Steven Hamilton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="247894">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Peterson</NOM>
+            <PRENOM>Brian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un mystérieux poète écrit des lettres d'amour enflammées à Lana, puis les dépose sans se faire voir sur la tombe des parents de la jeune fille.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un jour, alors qu'elle se rend sur la tombe de ses parents, Lana découvre un poème, laissé pour elle par un mystérieux admirateur. Jour après jour, la jeune fille en trouve d'autres. Clark finit par s'en inquiéter et décide de découvrir l'auteur de ces missives enflammées. Le jeune homme s'appelle Byron Moore, et il est régulièrement frappé par son père, qui le retient prisonnier la majeure partie du temps. Emus, Lana et Clark tentent de venir en aide à Byron, sans savoir que celui-ci cache un lourd et dangereux secret, qui pourrait bien être lié à d'ignobles manipulations génétiques perpétrées par la LutherCorp en vue d'homologuer une race de mutants...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E1796949.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954437" DATEMODIF="2018-02-05T16:32:17">
+      <DATEHEURE>2018-02-08T21:00:00</DATEHEURE>
+      <DUREE>85</DUREE>
+      <TITRE>Breaking at the Edge</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124444871" DATEMODIF="2018-01-30T17:45:19">
+        <TITREEMISSION>Le berceau du mal</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="317" GENRESIMPLE="Téléfilm d'horreur">Téléfilm d'horreur</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Breaking at the Edge</TITREORIGINAL>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>86</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="199260">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Antonijevic</NOM>
+            <PRENOM>Predrag</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1203278">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Da Costa</NOM>
+            <PRENOM>Rebecca</PRENOM>
+            <ROLE>Bianca Wood</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176349">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ventimiglia</NOM>
+            <PRENOM>Milo</PRENOM>
+            <ROLE>Ian Wood</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="36923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>MacDowell</NOM>
+            <PRENOM>Andie</PRENOM>
+            <ROLE>le docteur Ghozland</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="180773">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schaech</NOM>
+            <PRENOM>Johnathon</PRENOM>
+            <ROLE>Zach Wood</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="566421">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Browning</NOM>
+            <PRENOM>Logan</PRENOM>
+            <ROLE>Sara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="331973">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Davis</NOM>
+            <PRENOM>Brianne</PRENOM>
+            <ROLE>Lorena</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="594790">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Morales</NOM>
+            <PRENOM>Tony</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="310133">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Rogers</NOM>
+            <PRENOM>Edward</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une jeune femme enceinte se demande si elle est en train de perdre la tête lorsqu'elle se met à voir des esprits qui semblent en avoir après son bébé.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une jeune femme enceinte, en proie à des sensations étranges, craint pour sa santé mentale. Il semblerait en effet que sa condition s'accompagne de nouvelles capacités, paranormales : elle se met à voir des esprits qui semblent en avoir après son bébé. Une entité vengeresse se manifeste, mettant en danger la vie de l'enfant à naître...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Andie MacDowell est à l'affiche de ce film d'épouvante.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124444871.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954438" DATEMODIF="2018-02-05T16:32:17">
+      <DATEHEURE>2018-02-08T22:25:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Les chroniques de Shannara</TITRE>
+      <SOUSTITREDIF>Retour aux sources</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125170459" DATEMODIF="2018-01-13T19:43:48">
+        <TITREEMISSION>Les chroniques de Shannara</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="18498747">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les chroniques de Shannara</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29755921">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les chroniques de Shannara / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Shannara Chronicles</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Retour aux sources</SOUSTITRE>
+          <SOUSTITREORIGINAL>Paranor</SOUSTITREORIGINAL>
+          <DUREEEMI>41</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="481868">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Fraser</NOM>
+            <PRENOM>Toa</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="545665">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Butler</NOM>
+            <PRENOM>Austin</PRENOM>
+            <ROLE>Wil Ohmsford</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="359177">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Baquero</NOM>
+            <PRENOM>Ivana</PRENOM>
+            <ROLE>Eretria</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="413692">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bennett</NOM>
+            <PRENOM>Manu</PRENOM>
+            <ROLE>Allanon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1277550">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jakubenko</NOM>
+            <PRENOM>Aaron</PRENOM>
+            <ROLE>Ander Elessedil</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1282272">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vanco</NOM>
+            <PRENOM>Marcus</PRENOM>
+            <ROLE>Bandon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="442482">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Vanessa</PRENOM>
+            <ROLE>Lyria</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="343806">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jow</NOM>
+            <PRENOM>Malese</PRENOM>
+            <ROLE>Mareth</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1270684">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>White</NOM>
+            <PRENOM>Gentry</PRENOM>
+            <ROLE>Garet Jax</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1256014">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Endicott</NOM>
+            <PRENOM>Evan</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1256015">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Stoddard</NOM>
+            <PRENOM>Josh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Allanon, Wil et Mareth se rendent à Paranor pour tenter d'arrêter Bandon et sauver Flick. En échange de Flick, Bandon veut récupérer le crâne du Roi-Sorcier caché à Paranor. Il préfère aller chercher le crâne pour sauver son oncle...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125170459.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954439" DATEMODIF="2018-02-05T16:32:17">
+      <DATEHEURE>2018-02-08T23:15:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Les chroniques de Shannara</TITRE>
+      <SOUSTITREDIF>Le crâne du Roi-Sorcier</SOUSTITREDIF>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125170458" DATEMODIF="2018-01-13T19:43:47">
+        <TITREEMISSION>Les chroniques de Shannara</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="18498747">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les chroniques de Shannara</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29755921">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les chroniques de Shannara / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Shannara Chronicles</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le crâne du Roi-Sorcier</SOUSTITRE>
+          <DUREEEMI>41</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="488">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Turner</NOM>
+            <PRENOM>Brad</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="545665">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Butler</NOM>
+            <PRENOM>Austin</PRENOM>
+            <ROLE>Wil Ohmsford</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="359177">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Baquero</NOM>
+            <PRENOM>Ivana</PRENOM>
+            <ROLE>Eretria</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="413692">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bennett</NOM>
+            <PRENOM>Manu</PRENOM>
+            <ROLE>Allanon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1282272">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vanco</NOM>
+            <PRENOM>Marcus</PRENOM>
+            <ROLE>Bandon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="343806">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jow</NOM>
+            <PRENOM>Malese</PRENOM>
+            <ROLE>Mareth</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="442482">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Vanessa</PRENOM>
+            <ROLE>Lyria</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1270684">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>White</NOM>
+            <PRENOM>Gentry</PRENOM>
+            <ROLE>Garet Jax</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="223459">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chikezie</NOM>
+            <PRENOM>Caroline</PRENOM>
+            <ROLE>la reine Tamlin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="479487">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Blair</NOM>
+            <PRENOM>April</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Wil et Mareth se battent contre le temps pour récupérer le crâne du roi-sorcier en territoire inconnu...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125170458.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954440" DATEMODIF="2018-02-05T16:32:17">
+      <DATEHEURE>2018-02-09T00:00:00</DATEHEURE>
+      <DUREE>125</DUREE>
+      <TITRE>The Divide</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="38047155" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>The Divide</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="248" GENRESIMPLE="Film de science fiction">Film de science-fiction</GENRE>
+        <NATIONALITE CLE="1975">
+          <PAYS>Etats-Unis - Canada - Allemagne</PAYS>
+          <LIBELLE>américano-canado-allemand</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Divide</TITREORIGINAL>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <DUREEEMI>112</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="325015">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gens</NOM>
+            <PRENOM>Xavier</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="252877">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>German</NOM>
+            <PRENOM>Lauren</PRENOM>
+            <ROLE>Eva</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176349">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ventimiglia</NOM>
+            <PRENOM>Milo</PRENOM>
+            <ROLE>Josh</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1569">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Biehn</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Mickey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3897">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Arquette</NOM>
+            <PRENOM>Rosanna</PRENOM>
+            <ROLE>Marilyn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="247544">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Eklund</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Bobby</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13741">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vance</NOM>
+            <PRENOM>Courtney B</PRENOM>
+            <ROLE>Delvin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="305640">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Holmes</NOM>
+            <PRENOM>Ashton</PRENOM>
+            <ROLE>Adrien</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="236380">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>González</NOM>
+            <PRENOM>Iván</PRENOM>
+            <ROLE>Sam</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1271887">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Taïeb</NOM>
+            <PRENOM>Jean-Pierre</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La ville de New York est détruite par une explosion. Huit personnes, qui ont trouvé refuge dans la cave de leur immeuble, sont attaquées par des inconnus.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La ville de New York est détruite par une explosion cataclysmique. La panique s'installe. Les habitants cherchent un moyen de se protéger. Huit personnes trouvent refuge dans le sous-sol de leur immeuble en espérant être à l'abri. Malheureusement, leurs maigres réserves d'eau et de nourriture s'épuisent rapidement. Progressivement, des tensions et des rivalités apparaissent dans le groupe. Un jour, cinq hommes équipés de combinaisons et de masques à oxygène font irruption dans le sous-sol. La résistance des rescapés, affaiblis par la faim, ne les empêche pas de kidnapper une des survivantes...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film choc sur la fin du monde qui plaira aux fans de science-fiction.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E38047155.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954441" DATEMODIF="2018-02-05T16:32:17">
+      <DATEHEURE>2018-02-09T02:05:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>The 100</TITRE>
+      <SOUSTITREDIF>La pluie radioactive</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114666443" DATEMODIF="2017-12-07T16:30:19">
+        <TITREEMISSION>The 100</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="12845130">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / The 100</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22682181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / The 100 / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The 100</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La pluie radioactive</SOUSTITRE>
+          <SOUSTITREORIGINAL>Gimme Shelter</SOUSTITREORIGINAL>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="564001">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Scanlan</NOM>
+            <PRENOM>Tim</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1207862">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Taylor</NOM>
+            <PRENOM>Eliza</PRENOM>
+            <ROLE>Clarke Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="504389">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morley</NOM>
+            <PRENOM>Bob</PRENOM>
+            <ROLE>Bellamy Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29694">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Turco</NOM>
+            <PRENOM>Paige</PRENOM>
+            <ROLE>Abigail «Abby» Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25797">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Washington</NOM>
+            <PRENOM>Isaiah</PRENOM>
+            <ROLE>Thelonious Jaha</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="509918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Avgeropoulos</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>Octavia Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="301677">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bostick</NOM>
+            <PRENOM>Devon</PRENOM>
+            <ROLE>Jasper Jordan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582233">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Lindsey</PRENOM>
+            <ROLE>Raven Reyes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="191255">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Larkin</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Monty Green</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="115047">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Milbauer</NOM>
+            <PRENOM>Ron</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1329427">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Hugues Burton</NOM>
+            <PRENOM>Terri</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Bellamy rentre à Arkadia alors que la pluie radioactive se met à tomber. Tout le monde se met à l'abri quand soudain, Kane reçoit un appel de détresse.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Bellamy rentre à Arkadia alors que la pluie radioactive se met à tomber. Tout le monde se met à l'abri quand soudain, Kane reçoit un appel de détresse de Mark Colton : lui et son fils sont bloqués sous la pluie. Bellamy décide de partir à leur secours. Octavia s'est enfuie dans la forêt, Ilian la suit, et ils doivent tous les deux s'abriter dans une grotte lorsque la pluie se met à tomber. De son côté, Clarke rejoint sa mère qui lui annonce qu'elle a peut-être trouvé un moyen de survivre aux radiations. Emori surprend cette conversation et va voir Murphy pour tenter de s'échapper : elle a peur de servir de cobaye...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E114666443.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954442" DATEMODIF="2018-02-05T16:32:17">
+      <DATEHEURE>2018-02-09T02:55:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>The 100</TITRE>
+      <SOUSTITREDIF>Foi et confiance</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114943327" DATEMODIF="2017-12-07T16:26:51">
+        <TITREEMISSION>The 100</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="12845130">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / The 100</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22682181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / The 100 / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The 100</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Foi et confiance</SOUSTITRE>
+          <SOUSTITREORIGINAL>God Complex</SOUSTITREORIGINAL>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="327069">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Madha</NOM>
+            <PRENOM>Omar</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1207862">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Taylor</NOM>
+            <PRENOM>Eliza</PRENOM>
+            <ROLE>Clarke Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="504389">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morley</NOM>
+            <PRENOM>Bob</PRENOM>
+            <ROLE>Bellamy Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29694">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Turco</NOM>
+            <PRENOM>Paige</PRENOM>
+            <ROLE>Abigail «Abby» Griffin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25797">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Washington</NOM>
+            <PRENOM>Isaiah</PRENOM>
+            <ROLE>Thelonious Jaha</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="509918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Avgeropoulos</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>Octavia Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="301677">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bostick</NOM>
+            <PRENOM>Devon</PRENOM>
+            <ROLE>Jasper Jordan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582233">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Lindsey</PRENOM>
+            <ROLE>Raven Reyes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="191255">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Larkin</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Monty Green</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1330635">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Muir</NOM>
+            <PRENOM>Lauren</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans le labo de Becca, le test sur Baylis, bien que prometteur, n'est finalement pas concluant. L'équipe doit trouver une nouvelle personne à tester.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans le labo de Becca, le test sur Baylis, bien que prometteur, n'est finalement pas concluant. L'équipe doit trouver une nouvelle personne à tester. Pendant ce temps, grâce à Niylah, Jaha se rend compte qu'il y a une connexion entre la secte du Second Avènement et les prières natives. Avec l'aide de Marcus et Indra, il se rend auprès de Gaia, gardienne de la flamme, pour lui poser des questions sur un éventuel autre bunker...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E114943327.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954443" DATEMODIF="2018-02-05T16:32:17">
+      <DATEHEURE>2018-02-09T03:30:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Smallville</TITRE>
+      <SOUSTITREDIF>Avis de tempête</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="1574406" DATEMODIF="2015-08-29T03:19:19">
+        <TITREEMISSION>Smallville</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="10" GENRESIMPLE="Série d'aventures">Série d'aventures</GENRE>
+        <NATIONALITE CLE="17">
+          <PAYS>Etats-Unis - Canada</PAYS>
+          <LIBELLE>américano-canadienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8004">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Smallville</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3006908">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Smallville / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Smallville</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Avis de tempête</SOUSTITRE>
+          <SOUSTITREORIGINAL>Tempest</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>21</NUMERO>
+            <NOMBRE>21</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="15850">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Beeman</NOM>
+            <PRENOM>Greg</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="219229">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Welling</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Clark Kent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88515">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rosenbaum</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Lex Luthor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="117726">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Johnson</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Whitney Fordman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219230">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kreuk</NOM>
+            <PRENOM>Kristin</PRENOM>
+            <ROLE>Lana Lang </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9679">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Glover</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Lionel Luthor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1818">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>O'Brien</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Roger Nixon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19388">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wisden</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Gabe Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="230526">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mack</NOM>
+            <PRENOM>Allison</PRENOM>
+            <ROLE>Chloe Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="118321">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Gough</NOM>
+            <PRENOM>Alfred</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Clark retrouve la pièce manquante de son vaisseau : il va peut-être enfin connaître ses origines, savoir d'où il vient et qui il est réellement.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Lex Luthor éprouve un choc : son père a fermé la plantation de Smallville pour le forcer à retourner à Metropolis. Pendant ce temps, Clark se prépare pour son rendez-vous galant avec Chloe. Il ignore que Roger Nixon, un journaliste engagé par Luthor, a découvert son secret en espionnant sa famille. Roger Nixon utilise la clef trouvée par Lex Luthor pour activer le vaisseau spatial, au moment précis où trois tornades se dirigent sur Smallville. Les ouragans endommagent la demeure des Luthor, blessant grièvement Lionel, le père de Lex. De son côté, Whitney intègre le corps d'élite des marines...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E1574406.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170954444" DATEMODIF="2018-02-05T16:32:17">
+      <DATEHEURE>2018-02-09T04:25:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125170394" DATEMODIF="2018-01-12T16:25:37">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

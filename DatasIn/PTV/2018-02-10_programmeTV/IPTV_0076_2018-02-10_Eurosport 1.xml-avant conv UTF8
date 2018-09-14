@@ -1,0 +1,839 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:00:40-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="76">
+    <NOMCHAINE>Eurosport 1</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-10">
+    <DIFFUSION CLEDIF="171458613" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T07:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Magazine de la Coupe de France</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124997327" DATEMODIF="2018-01-30T23:24:43">
+        <TITREEMISSION>Magazine de la Coupe de France</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="615" GENRESIMPLE="Magazine sportif">Cyclisme</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_E124997327.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458614" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T07:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124997141" DATEMODIF="2018-01-10T16:03:05">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Cadel Evans Great Ocean Road Race 2018</LIBELLE>
+            <MANCHE>164 km</MANCHE>
+          </EVENEMENT>
+          <LIEU>Entre Melbourne et Geelong Waterfront (Australie)</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E124997141.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458615" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T08:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Snooker</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125737634" DATEMODIF="2018-01-30T09:31:33">
+        <TITREEMISSION>Snooker</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="569" GENRESIMPLE="Billard">Snooker</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Snooker Shoot-Out 2018</LIBELLE>
+            <MANCHE>2e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>A Watford (Angleterre)</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125737634.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458616" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T10:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Watts</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125263975" DATEMODIF="2018-01-16T16:17:40">
+        <TITREEMISSION>Watts</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="741" GENRESIMPLE="Magazine sportif">Multisports</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125263975.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458617" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T10:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124997868" DATEMODIF="2018-02-01T10:04:47">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de la Communauté de Valence 2018</LIBELLE>
+            <MANCHE>3e étape : El Poble Nou de Benitatxell - Calp (clm par équipes)</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E124997868.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458618" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T11:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125261161" DATEMODIF="2018-01-16T14:49:09">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de la Communauté de Valence 2018</LIBELLE>
+            <MANCHE>4e étape : Orihuela - l'Alto de las Canteras (Cocentaina)</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125261161.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458619" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T12:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Snooker</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125737634" DATEMODIF="2018-01-30T09:31:33">
+        <TITREEMISSION>Snooker</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="569" GENRESIMPLE="Billard">Snooker</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Snooker Shoot-Out 2018</LIBELLE>
+            <MANCHE>2e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>A Watford (Angleterre)</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125737634.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458620" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T14:00:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Fléchettes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125263977" DATEMODIF="2018-01-22T15:21:51">
+        <TITREEMISSION>Fléchettes</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="650" GENRESIMPLE="Fléchettes">Fléchettes</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Premier League 2018</LIBELLE>
+          </EVENEMENT>
+          <LIEU>A Cardiff (Pays de Galles)</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125263977.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458621" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T15:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Motocyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123846315" DATEMODIF="2018-01-24T15:13:57">
+        <TITREEMISSION>Motocyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="701" GENRESIMPLE="Motocyclisme">Motocyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Championnat du monde de vitesse 2017</LIBELLE>
+            <MANCHE>Résumé de la saison Moto 2 et Moto 3</MANCHE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_E123846315.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458622" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T16:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Motocyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123846853" DATEMODIF="2018-02-01T09:55:26">
+        <TITREEMISSION>Motocyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="701" GENRESIMPLE="Motocyclisme">Motocyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Championnat du monde de vitesse 2017</LIBELLE>
+            <MANCHE>Résumé de la saison Moto GP</MANCHE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_E123846853.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458623" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T17:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Formule E</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125263952" DATEMODIF="2018-01-18T09:58:43">
+        <TITREEMISSION>Formule E</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1139" GENRESIMPLE="Automobilisme">Formule E</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Championnat FIA Formule E 2017/2018</LIBELLE>
+            <MANCHE>4e manche</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>ePrix de Santiago</LIBELLE>
+            <MANCHE>Les meilleurs moments</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Chili</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125263952.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458624" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T18:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Snooker</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125737634" DATEMODIF="2018-01-30T09:31:33">
+        <TITREEMISSION>Snooker</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="569" GENRESIMPLE="Billard">Snooker</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Snooker Shoot-Out 2018</LIBELLE>
+            <MANCHE>2e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>A Watford (Angleterre)</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125737634.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458625" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T20:00:00</DATEHEURE>
+      <DUREE>180</DUREE>
+      <TITRE>Snooker</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Dans ce tournoi d'un genre très particulier, les parties durent au maximum dix minutes et les duels se jouent en une seule frame. L'Ecossais Anthony McGill, vainqueur en finale l'an dernier du Chinois Xiao Guodpong, est le tenant du titre à Watford.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125737635" DATEMODIF="2018-01-30T09:43:45">
+        <TITREEMISSION>Snooker</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="569" GENRESIMPLE="Billard">Snooker</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Snooker Shoot-Out 2018</LIBELLE>
+            <MANCHE>3e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>A Watford (Angleterre)</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125737635.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458626" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-10T23:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Fléchettes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Le Néerlandais Michael van Gerwen est le double tenant du titre de la Premier League de fléchettes. L'an dernier, il avait devancé au classement l'Ecossais Peter Wright et l'Anglais Phil Taylor. Pour cette 2e journée à Cardiff, Michael van Gerwen affronte Peter Wright pour ce qui constitue déjà une rencontre au sommet.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125263977" DATEMODIF="2018-01-22T15:21:51">
+        <TITREEMISSION>Fléchettes</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="650" GENRESIMPLE="Fléchettes">Fléchettes</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Premier League 2018</LIBELLE>
+          </EVENEMENT>
+          <LIEU>A Cardiff (Pays de Galles)</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125263977.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458627" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-11T00:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme sur piste</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125002294" DATEMODIF="2018-01-24T14:57:03">
+        <TITREEMISSION>Cyclisme sur piste</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1071" GENRESIMPLE="Cyclisme">Cyclisme sur piste</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>6 jours de Copenhague 2018</LIBELLE>
+            <MANCHE>1er jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Danemark</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125002294.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458628" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-11T01:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme sur piste</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125002789" DATEMODIF="2018-01-24T15:00:47">
+        <TITREEMISSION>Cyclisme sur piste</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1071" GENRESIMPLE="Cyclisme">Cyclisme sur piste</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>6 jours de Copenhague 2018</LIBELLE>
+            <MANCHE>2e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Danemark</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125002789.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458629" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-11T02:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme sur piste</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125261423" DATEMODIF="2018-01-24T15:01:47">
+        <TITREEMISSION>Cyclisme sur piste</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1071" GENRESIMPLE="Cyclisme">Cyclisme sur piste</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>6 jours de Copenhague 2018</LIBELLE>
+            <MANCHE>3e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Danemark</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125261423.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458630" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-11T03:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme sur piste</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125263943" DATEMODIF="2018-01-17T17:00:35">
+        <TITREEMISSION>Cyclisme sur piste</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1071" GENRESIMPLE="Cyclisme">Cyclisme sur piste</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>6 jours de Copenhague 2018</LIBELLE>
+            <MANCHE>5e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Danemark</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125263943.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171458631" DATEMODIF="2018-02-07T09:36:19">
+      <DATEHEURE>2018-02-11T04:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme sur piste</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125263943" DATEMODIF="2018-01-17T17:00:35">
+        <TITREEMISSION>Cyclisme sur piste</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1071" GENRESIMPLE="Cyclisme">Cyclisme sur piste</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>6 jours de Copenhague 2018</LIBELLE>
+            <MANCHE>5e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Danemark</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125263943.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

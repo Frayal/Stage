@@ -38,7 +38,7 @@ import def_context
 ########### Important functions #################
 #################################################
 
-def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpts,date):
+def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpts,date,path):
     #Initialisation des Variables
     verbose = False
     index_PTV = index_PTV
@@ -67,7 +67,7 @@ def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpt
     start = lastcontext[0]+1
     end = importantpts[index][0]
     #########init Classifier#############
-    XGB,CatBoost,rf,dt,gb,logistic = def_context.load_models()
+    XGB,CatBoost,rf,dt,gb,logistic = def_context.load_models(path)
     ####################################
     for i in tqdm(range(start,min(end+5,1620))):
         if(i == end+5 and index == 2):
@@ -589,7 +589,7 @@ def main(argv):
     if(len(PTV) == 0):
         sys.exit(4)
         return 4,0,0,0,0
-    new_PTV,historyofpoints,labels,error,index_PTV,temp_context = make_newPTV(PTV,proba,chaine,index,argv[3],argv[4],argv[5],argv[6],date)
+    new_PTV,historyofpoints,labels,error,index_PTV,temp_context = make_newPTV(PTV,proba,chaine,index,argv[3],argv[4],argv[5],argv[6],date,argv[7])
     historyofpoints['labels'] = labels
     return error,new_PTV,historyofpoints,index_PTV,temp_context
 if __name__ == "__main__":

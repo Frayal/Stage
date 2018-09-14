@@ -1,0 +1,2132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:16:57-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="225">
+    <NOMCHAINE>TvBreizh</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-17">
+    <DIFFUSION CLEDIF="171897943" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T06:15:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Soeur Thérèse.com</TITRE>
+      <SOUSTITREDIF>Retour de flammes</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2727914" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Soeur Thérèse.com</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="4125084">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Soeur Thérèse.com / Vrai</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Retour de flammes</SOUSTITRE>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="6397">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Buñuel</NOM>
+            <PRENOM>Joyce</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="552">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lavanant</NOM>
+            <PRENOM>Dominique</PRENOM>
+            <ROLE>soeur Thérèse</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2006">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lamotte</NOM>
+            <PRENOM>Martin</PRENOM>
+            <ROLE>Gérard Bonaventure</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15037">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scob</NOM>
+            <PRENOM>Edith</PRENOM>
+            <ROLE>la mère supérieure</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="145959">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Denarnaud</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>soeur Clémence</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="218475">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Knafo</NOM>
+            <PRENOM>Sébastien</PRENOM>
+            <ROLE>Gabriel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="55020">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mann</NOM>
+            <PRENOM>Nathalie</PRENOM>
+            <ROLE>Leslie Saunier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19489">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pereira</NOM>
+            <PRENOM>Christian</PRENOM>
+            <ROLE>le lieutenant Delveaux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="285927">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Allan</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>Carole Levallois</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37004">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Court</NOM>
+            <PRENOM>Charles</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="144718">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Ollivier</NOM>
+            <PRENOM>Franck</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Soeur Thérèse tente de venir en aide à Gérard Bonaventure, accusé de viol et d'assassinat. Les indices penchent en sa défaveur, mais Thérèse a foi en son ami.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Carole Levallois, une des indics de Gérard Bonaventure, l'accuse de viol. Soeur Thérèse est bouleversée d'apprendre que son ami a été placé en garde à vue. Celui-ci tente de la rassurer, persuadé que la «victime» ne va pas tarder à se rétracter. Lorsque Carole est retrouvée assassinée dans la cave de son immeuble, l'affaire prend une tournure inattendue. En effet, les experts sont formels : c'est bien l'arme de service de Bonaventure qui a tiré la balle fatale. Thérèse, qui a foi en l'innocence de son ami, décide de l'aider à se disculper. Elle découvre bientôt que Carole a été élevée par une famille d'accueil et que sa vraie mère, Leslie Saunier, dirige un réseau de call-girls sur Internet. Et s'il s'agissait d'une basse vengeance ? D'un règlement de comptes ?...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Martin Lamotte et Dominique Lavanant s'amusent beaucoup dans cette agréable pochade.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2727914.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897944" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T07:55:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Soeur Thérèse.com</TITRE>
+      <SOUSTITREDIF>Meurtre en sous-sol</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="6158017" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Soeur Thérèse.com</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="4125084">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Soeur Thérèse.com / Vrai</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Meurtre en sous-sol</SOUSTITRE>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="104380">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Douchand</NOM>
+            <PRENOM>Christophe</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="552">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lavanant</NOM>
+            <PRENOM>Dominique</PRENOM>
+            <ROLE>soeur Thérèse</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2006">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lamotte</NOM>
+            <PRENOM>Martin</PRENOM>
+            <ROLE>Gérard Bonaventure</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15037">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scob</NOM>
+            <PRENOM>Edith</PRENOM>
+            <ROLE>la mère supérieure</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13463">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Khorsand</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Jacky Roche</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8547">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caillaud</NOM>
+            <PRENOM>Gérard</PRENOM>
+            <ROLE>le commandant Mazaud</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="218475">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Knafo</NOM>
+            <PRENOM>Sébastien</PRENOM>
+            <ROLE>Gabriel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="367116">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bona</NOM>
+            <PRENOM>Julie de</PRENOM>
+            <ROLE>soeur Florence</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="17164">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Loussine</NOM>
+            <PRENOM>Gérard</PRENOM>
+            <ROLE>Gilberto De Souza</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37004">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Court</NOM>
+            <PRENOM>Charles</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une nouvelle enquête mobilise soeur Thérèse. Elle tente de découvrir qui a tué l'ancienne propriétaire du couvent, retrouvée emmurée dans la chaufferie.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le cadavre de l'ancienne propriétaire du couvent, Sophie, est découvert emmuré dans la chaufferie. La mère supérieure demande à soeur Thérèse de résoudre ce mystère. Sophie était présumée morte depuis dix ans, victime d'un cyclone en Indonésie. Il apparaît bientôt que Roche, l'actuel propriétaire du couvent, avait fait pression sur Sophie pour qu'elle lui vende le bâtiment. Il pensait que ses sous-sols renfermaient un trésor. Alors que Bonaventure suspecte Roche, soeur Thérèse apprend que le beau-frère de Sophie aurait touché un héritage à sa disparition. Une lettre vient apporter un peu plus de confusion à l'affaire. Mais soeur Thérèse est décidée à découvrir la vérité...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Toujours aussi perspicace, soeur Thérèse, la plus atypique des détectives, mène l'enquête avec humour et diligence.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E6158017.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897945" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T09:35:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Une famille formidable</TITRE>
+      <SOUSTITREDIF>La grande marche</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111246778" DATEMODIF="2017-08-17T16:55:52">
+        <TITREEMISSION>Une famille formidable</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="340" GENRESIMPLE="Téléfilm mélodramatique">Téléfilm sentimental</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="7543428">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Une famille formidable / Vrai</NOM>
+          </COLLECTION>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </PARTIE>
+          <SOUSTITRE>La grande marche</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>50</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="15416">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Courtois</NOM>
+            <PRENOM>Miguel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="18090">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duperey</NOM>
+            <PRENOM>Anny</PRENOM>
+            <ROLE>Catherine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7182">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Coq</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Jacques</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="290868">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agenin</NOM>
+            <PRENOM>Béatrice</PRENOM>
+            <ROLE>Reine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3656">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lauret</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Frédérique Beaumont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="54652">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thibault</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Julien Viguier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1312314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Benghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Nourredine Bensala</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brandt</NOM>
+            <PRENOM>Carlo</PRENOM>
+            <ROLE>Rafael</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="503136">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Krich</NOM>
+            <PRENOM>Fanny</PRENOM>
+            <ROLE>Héléna</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="329118">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Berthelot</NOM>
+            <PRENOM>Xavier</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="13578">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Santoni</NOM>
+            <PRENOM>Joël</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="88138">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Golfier</NOM>
+            <PRENOM>Dominique</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les Beaumont partent fêter le récent mariage de Reine et Rafael en compagnie de leurs cousins des îles. Personne ne se doute de la maladie de Reine.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les Beaumont partent fêter le récent mariage de Reine et Rafael en compagnie de leurs cousins des îles. L'ambiance est à la fête et personne ne se doute de la maladie de Reine. Profitant de ce grand rassemblement, Ghislain, le cousin de Jacques, propose une randonnée à travers l'île. Un groupe se forme, mené par Jacques. Mais leur périple va se révéler beaucoup plus compliqué que prévu, d'autant qu'un mystérieux personnage les suit sur le parcours. Pendant ce temps, Catherine, Fred et Manon passent du bon temps au soleil avec Reine, jusqu'au jour où celle-ci décide de rencontrer une guérisseuse, dans un dernier espoir de guérir de son mal pourtant incurable. Accompagnée par Catherine et Rafael, elle accomplit un parcours initiatique...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>A La Réunion, les aventures des Beaumont prennent une saveur épicée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E111246778.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897946" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T10:35:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Une famille formidable</TITRE>
+      <SOUSTITREDIF>La grande marche</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111246781" DATEMODIF="2016-12-30T15:14:42">
+        <TITREEMISSION>Une famille formidable</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="340" GENRESIMPLE="Téléfilm mélodramatique">Téléfilm sentimental</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="7543428">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Une famille formidable / Vrai</NOM>
+          </COLLECTION>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </PARTIE>
+          <SOUSTITRE>La grande marche</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>50</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="15416">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Courtois</NOM>
+            <PRENOM>Miguel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="18090">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duperey</NOM>
+            <PRENOM>Anny</PRENOM>
+            <ROLE>Catherine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7182">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Coq</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Jacques</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="290868">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agenin</NOM>
+            <PRENOM>Béatrice</PRENOM>
+            <ROLE>Reine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brandt</NOM>
+            <PRENOM>Carlo</PRENOM>
+            <ROLE>Rafael</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3656">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lauret</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Frédérique </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="54652">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thibault</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Julien </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1312314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Benghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Nourredine </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="503136">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Krich</NOM>
+            <PRENOM>Fanny</PRENOM>
+            <ROLE>Héléna</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="329118">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Berthelot</NOM>
+            <PRENOM>Xavier</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="13578">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Santoni</NOM>
+            <PRENOM>Joël</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="88138">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Golfier</NOM>
+            <PRENOM>Dominique</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Après une dernière rencontre avec madame Vimelda, la guérisseuse, Reine semble guérie. C'est du moins ce que tout le monde veut croire.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Reine semble avoir retrouvé une nouvelle énergie. Elle ne s'est même jamais sentie aussi bien. Catherine est sceptique, mais elle se rallie au bien-être de son amie. Après une dernière rencontre avec madame Vimelda, la guérisseuse, tout le monde semble convaincu que Reine est guérie. C'est alors qu'en montagne, Ghislain chute et heurte une pierre. Le choc lui fait perdre la mémoire. Livrés à eux-mêmes, les amis tentent d'appeler les secours, mais leur unique téléphone, confié à Julien, n'a plus de batterie...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>A La Réunion, les aventures des Beaumont prennent une saveur épicée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E111246781.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897947" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T11:30:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Une famille formidable</TITRE>
+      <SOUSTITREDIF>Les uns contre les autres</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111474584" DATEMODIF="2018-01-22T16:06:12">
+        <TITREEMISSION>Une famille formidable</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="340" GENRESIMPLE="Téléfilm mélodramatique">Téléfilm sentimental</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="7543428">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Une famille formidable / Vrai</NOM>
+          </COLLECTION>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </PARTIE>
+          <SOUSTITRE>Les uns contre les autres</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>45</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="13578">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Santoni</NOM>
+            <PRENOM>Joël</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="18090">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duperey</NOM>
+            <PRENOM>Anny</PRENOM>
+            <ROLE>Catherine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7182">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Coq</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Jacques</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="290868">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agenin</NOM>
+            <PRENOM>Béatrice</PRENOM>
+            <ROLE>Reine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="75869">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caillaud</NOM>
+            <PRENOM>Cécile</PRENOM>
+            <ROLE>Audrey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brandt</NOM>
+            <PRENOM>Carlo</PRENOM>
+            <ROLE>Rafael</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="54652">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thibault</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Julien</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="131122">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laurey</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Frédérique</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Nourredine</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La famille se rassemble à Lisbonne pour les dernières semaines de Reine. Chacun vient la voir, lui témoigner de l'affection et soutenir Jacques et Catherine.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Catherine et Jacques accueillent Christine et Samaï à l'aéroport de Lisbonne pour les conduire auprès de Reine. La tension est forte entre Samaï et sa mère. Après une rémission de courte durée, la santé de Reine s'est en effet rapidement détériorée. Toute la famille se rassemble à Lisbonne autour de Reine, pour l'accompagner dans ses derniers moments. Fred a décidé qu'elle accouchera ici tandis qu'Audrey, de retour d'Inde, rejoint Julien, sans qui elle ne peut pas vivre. Vig, le frère de Julien, vient dédicacer sa dernière BD à Lisbonne. Fan inconditionnel du dessinateur, José découvre que le livre raconte la vie des Beaumont et surtout, son amour pour la femme de son frère. Chez Héléna, où tous les jeunes sont installés, la place commence à manquer. La promiscuité fait monter la tension, et des conflits éclatent entre les colocataires...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>La famille rassemblée pour une épreuve de la vie : un double épisode en prise avec le réel.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E111474584.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897948" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T12:25:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Une famille formidable</TITRE>
+      <SOUSTITREDIF>Les uns contre les autres</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111474589" DATEMODIF="2017-10-25T12:20:29">
+        <TITREEMISSION>Une famille formidable</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="340" GENRESIMPLE="Téléfilm mélodramatique">Téléfilm sentimental</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="7543428">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Une famille formidable / Vrai</NOM>
+          </COLLECTION>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </PARTIE>
+          <SOUSTITRE>Les uns contre les autres</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>45</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="13578">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Santoni</NOM>
+            <PRENOM>Joël</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="18090">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duperey</NOM>
+            <PRENOM>Anny</PRENOM>
+            <ROLE>Catherine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7182">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Coq</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Jacques</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="290868">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agenin</NOM>
+            <PRENOM>Béatrice</PRENOM>
+            <ROLE>Reine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brandt</NOM>
+            <PRENOM>Carlo</PRENOM>
+            <ROLE>Rafael</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="75869">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caillaud</NOM>
+            <PRENOM>Cécile</PRENOM>
+            <ROLE>Audrey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="503136">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Krich</NOM>
+            <PRENOM>Fanny</PRENOM>
+            <ROLE>Héléna</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="54652">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thibault</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Julien</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="397782">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Landler</NOM>
+            <PRENOM>Karl E</PRENOM>
+            <ROLE>Bruno / Vig</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Catherine s'occupe de Reine pendant que Rafael se rend à Paris modifier les statuts de la fondation, que Catherine va gérer en attendant la majorité de Samaï.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Audrey, troublée par la présence de Bruno, se confie à Fred, lui expliquant qu'elle a peur de ses pulsions. Reine, qui s'inquiète de la relation entre Christine et Samaï, demande à Catherine de prendre en charge la fondation en attendant la majorité de Samaï. Christine explique à Catherine qu'elle ne souhaite pas rester au Balang-Balang parce qu'elle s'est trouvé un amoureux en France. Catherine décide de s'occuper de Reine pendant que Rafael se rend à Paris pour modifier les statuts de la fondation...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>La fin de Reine approche. Un second volet plus sombre.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E111474589.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897949" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T13:25:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Profilage</TITRE>
+      <SOUSTITREDIF>Un pour tous</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="82415127" DATEMODIF="2017-12-19T16:19:15">
+        <TITREEMISSION>Profilage</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="1112169">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Profilage</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="14155033">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Profilage / 5</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Un pour tous</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="491020">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Despaux</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1235821">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Jamain</NOM>
+            <PRENOM>Vincent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="283757">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vuillemin</NOM>
+            <PRENOM>Odile</PRENOM>
+            <ROLE>Chloé Saint-Laurent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15780">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bas</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>le commandant Rocher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martial</NOM>
+            <PRENOM>Jean-Michel</PRENOM>
+            <ROLE>le commissaire Lamarck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="351367">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Valence</NOM>
+            <PRENOM>Vanessa</PRENOM>
+            <ROLE>Frédérique «Fred» Kancel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="492631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferret</NOM>
+            <PRENOM>Raphaël</PRENOM>
+            <ROLE>Hippolyte de Courtène</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="113847">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dashwood</NOM>
+            <PRENOM>Valérie</PRENOM>
+            <ROLE>la doc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="497538">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lecerf</NOM>
+            <PRENOM>Claire-Lise</PRENOM>
+            <ROLE>Eglantine Grimal</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="74703">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bienaimé</NOM>
+            <PRENOM>Nathalie</PRENOM>
+            <ROLE>Rose Grimal</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="492802">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Lebarbier</NOM>
+            <PRENOM>Sophie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="511213">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Missoffe</NOM>
+            <PRENOM>Mathieu</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="493235">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Robert</NOM>
+            <PRENOM>Fanny</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une jeune femme de 22 ans est retrouvée démembrée. Son meurtrier a pris le soin d'expédier les parties du corps aux quatre coins de la France.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une femme de 22 ans a été retrouvée démembrée. Son meurtrier a pris le soin d'expédier toutes les parties de son corps aux quatre coins de la France. La victime, Violette Grimal, vivait avec sa petite soeur, Eglantine. Lorsque la brigade criminelle se rend à son appartement, elle la découvre en train d'accoucher. Eglantine refuse obstinément de révéler le nom du père de son enfant, alors que celui-ci pourrait peut-être aider les policiers, voire être la clé de cette énigme. Peu à peu, les policiers cernent mieux les étranges relations de la famille Grimal...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E82415127.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897950" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T14:25:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Profilage</TITRE>
+      <SOUSTITREDIF>Face caméra</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="82638460" DATEMODIF="2018-01-16T18:18:37">
+        <TITREEMISSION>Profilage</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="1112169">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Profilage</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="14155033">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Profilage / 5</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Face caméra</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="412202">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Astier</NOM>
+            <PRENOM>Simon</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="283757">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vuillemin</NOM>
+            <PRENOM>Odile</PRENOM>
+            <ROLE>Chloé Saint-Laurent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15780">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bas</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>le commandant Rocher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martial</NOM>
+            <PRENOM>Jean-Michel</PRENOM>
+            <ROLE>le commissaire Lamarck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="351367">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Valence</NOM>
+            <PRENOM>Vanessa</PRENOM>
+            <ROLE>Frédérique «Fred» Kancel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="113847">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dashwood</NOM>
+            <PRENOM>Valérie</PRENOM>
+            <ROLE>La Doc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="492631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferret</NOM>
+            <PRENOM>Raphaël</PRENOM>
+            <ROLE>Hyppolite de Courtène</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="332140">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Roudet</NOM>
+            <PRENOM>Juliette</PRENOM>
+            <ROLE>Adèle Delettre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="527938">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cholet</NOM>
+            <PRENOM>Antoine</PRENOM>
+            <ROLE>Joseph</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="492802">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Lebarbier</NOM>
+            <PRENOM>Sophie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des journalistes sont autorisés à filmer l'équipe du commandant Rocher sur une affaire. Chloé retrouve une vieille connaissance, qui est aussi un suspect.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un groupe de journalistes a été autorisé à filmer l'équipe du commandant Rocher sur une de ses affaires. Ils ne perdent pas de temps pour se mettre au travail. Le corps d'une jeune femme a été retrouvé sans vie. La victime, Jessica Serrano, une serveuse, cachait plusieurs milliers d'euros en liquide dans son appartement. Les policiers mènent l'enquête et Chloé a la surprise de retrouver une vieille connaissance : Joseph, un autiste brillant croisé il y a quelques années dans un hôpital psychiatrique. L'homme est un mathématicien de génie, mais se révèle aussi être le principal suspect dans cette sombre affaire, filmée par la télévision...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E82638460.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897951" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T15:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Profilage</TITRE>
+      <SOUSTITREDIF>Les prédateurs</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="83157935" DATEMODIF="2017-11-03T17:01:30">
+        <TITREEMISSION>Profilage</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="1112169">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Profilage</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="14155033">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Profilage / 5</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les prédateurs</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="376170">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Allera</NOM>
+            <PRENOM>Franck</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="283757">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vuillemin</NOM>
+            <PRENOM>Odile</PRENOM>
+            <ROLE>Chloé Saint-Laurent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15780">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bas</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>le commandant Rocher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martial</NOM>
+            <PRENOM>Jean-Michel</PRENOM>
+            <ROLE>le commissaire Lamarck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="351367">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Valence</NOM>
+            <PRENOM>Vanessa</PRENOM>
+            <ROLE>Frédérique «Fred» Kancel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="492631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferret</NOM>
+            <PRENOM>Raphaël</PRENOM>
+            <ROLE>Hyppolite de Courtène</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="113847">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dashwood</NOM>
+            <PRENOM>Valérie</PRENOM>
+            <ROLE>la Doc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="332140">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Roudet</NOM>
+            <PRENOM>Juliette</PRENOM>
+            <ROLE>Adèle Delettre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="484005">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Weber</NOM>
+            <PRENOM>Cédric</PRENOM>
+            <ROLE>le commandant Berard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="545422">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Duchateau</NOM>
+            <PRENOM>Hélène</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une femme porte plainte pour viol, à la suite d'une soirée dont elle n'a plus aucun souvenir. Elle a visiblement été droguée et s'est réveillée chez elle, nue.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une jeune femme vient porter plainte pour viol, à la suite d'une soirée dont elle n'a vraisemblablement plus aucun souvenir. Extrêmement perturbée, en état de choc, elle a visiblement été droguée et s'est réveillée chez elle, nue dans son lit. Chloé et Rocher prennent cette affaire très au sérieux. Mais au fil de l'enquête, ils découvrent que la jeune femme en question a déjà déposé des dizaines de plaintes du même genre par le passé. Personne n'avait alors jamais trouvé la moindre trace d'un agresseur. Chloé veut comprendre ce qui se cache derrière les prétendus mensonges d'une femme que plus personne ne croit...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E83157935.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897952" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T16:30:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Section de recherches</TITRE>
+      <SOUSTITREDIF>Rescapé</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="24450422" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Section de recherches</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="261297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Section de recherches</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5766686">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Section de recherches / 5</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Rescapé</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2010</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>14</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="15138">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Marx</NOM>
+            <PRENOM>Gérard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deluc</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Martin Bernier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279026">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caliari</NOM>
+            <PRENOM>Virginie</PRENOM>
+            <ROLE>Mathilde Delmas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Labaude</NOM>
+            <PRENOM>Chrystelle</PRENOM>
+            <ROLE>Nadia Angéli</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Enzo Ghemara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171288">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Du Jeu</NOM>
+            <PRENOM>Félicité</PRENOM>
+            <ROLE>Fanny Caradec</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="131126">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montiel</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>le procureur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="191299">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacoste</NOM>
+            <PRENOM>Jean-Pascal</PRENOM>
+            <ROLE>Luc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="221647">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pérot</NOM>
+            <PRENOM>Claire</PRENOM>
+            <ROLE>Karina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3111">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Jamet</NOM>
+            <PRENOM>Nicole</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un routier a été abattu sur une aire d'autoroute ; dans la cabine de son camion, les gendarmes découvrent un garçon de 8 ans, mutique et en état de choc.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un routier est tué par balle sur une aire d'autoroute. Dans la cabine du camion, les gendarmes tombent sur un petit garçon de huit ans, de toute évidence en état de choc. Mais il leur est impossible de le faire parler. L'enfant reste mutique, mais il n'est pas impossible qu'il puisse les renseigner sur le crime. Qui est-il ? Que faisait-il dans le camion de la victime ? Etait-il en fugue ? Avait-il été pris en auto-stop ? Etait-il lié au routier, ou celui-ci l'avait-il kidnappé ? Bernier, Delmas et les autres entament une étrange enquête, faite de faux-semblants et d'interrogations en suspens...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E24450422.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897953" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T17:35:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Section de recherches</TITRE>
+      <SOUSTITREDIF>A corps perdus</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="37392992" DATEMODIF="2015-09-11T12:23:52">
+        <TITREEMISSION>Section de recherches</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="261297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Section de recherches</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8318914">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Section de recherches / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>A corps perdus</SOUSTITRE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="80209">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Le Roux</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deluc</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Martin Bernier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279026">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caliari</NOM>
+            <PRENOM>Virginie</PRENOM>
+            <ROLE>Mathilde Delmas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Labaude</NOM>
+            <PRENOM>Chrystelle</PRENOM>
+            <ROLE>Nadia Angeli</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Enzo Ghemara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171288">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Du Jeu</NOM>
+            <PRENOM>Félicité</PRENOM>
+            <ROLE>Fanny Caradec</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21010">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martino</NOM>
+            <PRENOM>Lisa</PRENOM>
+            <ROLE>Chantal Vianet</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29876">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jolly</NOM>
+            <PRENOM>Franck</PRENOM>
+            <ROLE>Patrick Vianet</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="366138">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lancelot</NOM>
+            <PRENOM>Olivia</PRENOM>
+            <ROLE>Nathalie Charlieu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="60411">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Minier</NOM>
+            <PRENOM>Alain</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La police enquête après la découverte d'un homme en fauteuil roulant, assassiné dans un bois, or, la victime ne souffrait d'aucun handicap connu.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un homme en fauteuil roulant est découvert mort dans les bois, à des kilomètres de toute habitation. Pourtant, sa femme est formelle : son mari ne souffrait d'aucun handicap. Quelle est la raison de cette mascarade et pourquoi lui a-t-il menti sur son emploi du temps cette nuit-là ? La police enquête. Les indices recueillis sur la scène du crime n'ouvrent pas beaucoup de pistes intéressantes pour les agents. Toutefois, certaines données semblent orienter les recherches vers un domaine qui pourrait se révéler intéressant. Sur le terrain, l'interrogatoire de l'épouse de la victime se poursuit pour tenter de cerner la personnalité du défunt...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E37392992.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897954" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T18:40:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Section de recherches</TITRE>
+      <SOUSTITREDIF>Dernier tango</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="37392994" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Section de recherches</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="261297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Section de recherches</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8318914">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Section de recherches / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Dernier tango</SOUSTITRE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="27248">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Thérin</NOM>
+            <PRENOM>Jean-Marc</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deluc</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Martin Bernier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279026">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caliari</NOM>
+            <PRENOM>Virginie</PRENOM>
+            <ROLE>Mathilde Delmas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37118">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Richert</NOM>
+            <PRENOM>Carole</PRENOM>
+            <ROLE>Constance Fabiani</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Labaude</NOM>
+            <PRENOM>Chrystelle</PRENOM>
+            <ROLE>Nadia Angeli</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Enzo Ghemara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171288">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Du Jeu</NOM>
+            <PRENOM>Félicité</PRENOM>
+            <ROLE>Fanny Caradec</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="173230">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Coppet</NOM>
+            <PRENOM>Stany</PRENOM>
+            <ROLE>Roberto</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="273506">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zaffarano</NOM>
+            <PRENOM>Joël</PRENOM>
+            <ROLE>Benoît Fabiani</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83723">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Bizet</NOM>
+            <PRENOM>Marie-Hélène</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Anéantie par son divorce, une femme a retrouvé le goût et l'énergie de se battre grâce aux cours de tango. Mais elle a aussi suscité beaucoup de jalousie.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Anéantie par un divorce conflictuel, Constance Fabiani, une mère de famille, a retrouvé le goût et l'énergie de se battre grâce aux cours de tango qu'elle fréquente assidûment. Un jour, un appel sur son portable l'interrompt en plein cours. Elle s'isole pour dialoguer avec son interlocuteur. Inquiets de ne pas la voir revenir, les autres élèves se mettent à sa recherche. Ils la retrouvent sans vie, sur le parking de la salle de danse, de toute évidence assassinée. Attisait-elle les jalousies au point de se faire tuer ? Son ancien conjoint avait-il des griefs à son encontre ? L'équipe enquête...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E37392994.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897955" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T19:40:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>Section de recherches</TITRE>
+      <SOUSTITREDIF>La rançon du succès</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="37155208" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Section de recherches</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="261297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Section de recherches</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8318914">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Section de recherches / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La rançon du succès</SOUSTITRE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="80209">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Le Roux</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deluc</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Martin Bernier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279026">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caliari</NOM>
+            <PRENOM>Virginie</PRENOM>
+            <ROLE>Mathilde Delmas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Labaude</NOM>
+            <PRENOM>Chrystelle</PRENOM>
+            <ROLE>Nadia Angeli</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Enzo Ghemara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171288">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Du Jeu</NOM>
+            <PRENOM>Félicité</PRENOM>
+            <ROLE>Fanny Caradec</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="229253">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Roussel</NOM>
+            <PRENOM>Renaud</PRENOM>
+            <ROLE>Alexandre Mauriac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="725">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lemler</NOM>
+            <PRENOM>Christine</PRENOM>
+            <ROLE>Claire Delattre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="150731">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Primault</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>Marco</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="590891">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Tamonet</NOM>
+            <PRENOM>Yves</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La police enquête après la découverte du corps d'un architecte renommé au bord d'une route : la victime aurait été abattue avec son propre revolver.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un architecte renommé a été assassiné. Le corps de la victime a été retrouvé mort au bord d'une route. C'est avec son revolver qu'il a été tué. L'hypothèse du vol de voiture qui aurait mal tourné s'avère peu convaincante. Dans ce cas, pourquoi cet homme réputé, père de famille divorcé et sans histoires, avait-il une arme en sa possession ? Avait-il dans l'idée de se protéger ou bien allait-il commettre un crime ? Autre fait étrange : la fille de la victime a disparu et est introuvable, malgré les recherches menées par l'équipe. Autant de questions qui intriguent les agents chargés de l'enquête...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E37155208.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897956" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T20:50:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Miss Marple</TITRE>
+      <SOUSTITREDIF>A l'hôtel Bertram</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="10665526" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Miss Marple</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="155">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="4125078">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Miss Marple / Vrai</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Marple : At Bertram's Hotel</TITREORIGINAL>
+          <SOUSTITRE>A l'hôtel Bertram</SOUSTITRE>
+          <ANNEEREALISATION>2007</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>84</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="461531">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Grindley</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="15670">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McEwan</NOM>
+            <PRENOM>Geraldine</PRENOM>
+            <ROLE>miss Marple</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45072">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Regan</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>Mickey Gorman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="132715">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McCutcheon</NOM>
+            <PRENOM>Martine</PRENOM>
+            <ROLE>Jane Cooper</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="263583">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mangan</NOM>
+            <PRENOM>Stephen</PRENOM>
+            <ROLE>l'inspecteur Larry Bird</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="418997">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Beecham</NOM>
+            <PRENOM>Emily</PRENOM>
+            <ROLE>Elvira Blake</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="353692">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Burns</NOM>
+            <PRENOM>Nicholas</PRENOM>
+            <ROLE>Jack / Joel Britten</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="463209">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nighy</NOM>
+            <PRENOM>Mary</PRENOM>
+            <ROLE>Brigit Milford</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="463136">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Parriss</NOM>
+            <PRENOM>Isabella</PRENOM>
+            <ROLE>Miss Marple jeune</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="86412">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Scherrer</NOM>
+            <PRENOM>Dominik</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Miss Marple découvre qu'un lourd secret se cache sous le luxe suranné de son hôtel londonien favori. Elle n'a d'autre choix que de mener l'enquête.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Effectuant un court séjour d'agrément à Londres, Miss Marple choisit de descendre à l'hôtel Bertram. La vieille dame adore cet établissement au charme suranné. Elle y venait souvent dans sa jeunesse et en conserve d'agréables souvenirs. Mais son séjour est bouleversé lorsqu'une femme de chambre est retrouvée étranglée. Qui a bien pu commettre un tel crime ? Quel pouvait en être le mobile ? Ne pouvant s'empêcher de mener sa propre enquête, Miss Marple comprend qu'un sombre secret a motivé cet homicide. Quelque chose a fait craindre au meurtrier que la vérité n'éclate. D'après l'opiniâtre miss, il suffit de comprendre ce qui avait bien pu inquiéter l'auteur de ce terrible méfait pour l'identifier...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>C'est presque à regret que miss Marple mène cette nouvelle enquête, mais Geraldine McEwan s'avère toujours aussi captivante.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E10665526.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897957" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-17T22:35:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Miss Marple</TITRE>
+      <SOUSTITREDIF>L'heure zéro</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="10579005" DATEMODIF="2017-12-28T14:28:05">
+        <TITREEMISSION>Miss Marple</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="4125078">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Miss Marple / Vrai</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Marple: Towards Zero</TITREORIGINAL>
+          <SOUSTITRE>L'heure zéro</SOUSTITRE>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>95</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="461531">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Grindley</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="15670">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McEwan</NOM>
+            <PRENOM>Geraldine</PRENOM>
+            <ROLE>miss Marple</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="370">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sands</NOM>
+            <PRENOM>Julian</PRENOM>
+            <ROLE>Thomas Royde</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="323872">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tapper</NOM>
+            <PRENOM>Zoë</PRENOM>
+            <ROLE>Kay Strange</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="145975">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nicholls</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>Ted Latimer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9672">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wise</NOM>
+            <PRENOM>Greg</PRENOM>
+            <ROLE>Nevile Strange</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22748">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Burrows</NOM>
+            <PRENOM>Saffron</PRENOM>
+            <ROLE>Audrey Strange</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="58861">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graham</NOM>
+            <PRENOM>Julie</PRENOM>
+            <ROLE>Mary Aldin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8740">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Baker</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Freddie Treves</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Miss Marple tente d'élucider un meurtre qui a eu lieu au lendemain d'une charmante soirée organisée par une riche vieille dame dans sa villa du bord de mer.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans sa magnifique maison située en bord de mer, à Gull's Point, lady Camilla a convié son neveu, Neville Strange, champion de tennis, et sa nouvelle femme Kay. Cette dernière a bien du mal à se détendre ; en effet, l'ancienne madame Strange, Audrey, est également présente, avec son ami Ted Latimer. L'ambiance est évidemment tendue au sein de la villa. La petite soirée organisée par la maîtresse de maison, à laquelle sont également invités Thomas Royde, un ami de la famille, et Mary Aldin, la secrétaire particulière de lady Tressilian, tombe à point nommé. Malheureusement, au lendemain des festivités, Camilla est retrouvée morte, tuée dans son lit. C'est à ce moment que miss Marple décide de glisser son grain de sel...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Miss Marple ne fait pas partie de l'histoire originale d'Agatha Christie et a été introduite spécialement pour cette version télévisée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E10579005.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897958" DATEMODIF="2018-02-07T09:16:38">
+      <DATEHEURE>2018-02-18T00:15:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Miss Marple</TITRE>
+      <SOUSTITREDIF>Une poignée de seigle</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="13698516" DATEMODIF="2017-09-28T12:13:41">
+        <TITREEMISSION>Miss Marple</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="4125078">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Miss Marple / Vrai</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Marple : A Pocket Full of Rye</TITREORIGINAL>
+          <SOUSTITRE>Une poignée de seigle</SOUSTITRE>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>93</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="228615">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Palmer</NOM>
+            <PRENOM>Charles</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="53192">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McKenzie</NOM>
+            <PRENOM>Julia</PRENOM>
+            <ROLE>miss Marple</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="507346">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Heiney</NOM>
+            <PRENOM>Rose</PRENOM>
+            <ROLE>Gladys</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="499766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Haddock</NOM>
+            <PRENOM>Laura</PRENOM>
+            <ROLE>miss Grosvenor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5660">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cranham</NOM>
+            <PRENOM>Kenneth</PRENOM>
+            <ROLE>Rex Fortescue</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="507347">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Collings</NOM>
+            <PRENOM>Thea</PRENOM>
+            <ROLE>Tilly</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="168020">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cohu</NOM>
+            <PRENOM>Lucy</PRENOM>
+            <ROLE>Pat Fortescue</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7637">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graves</NOM>
+            <PRENOM>Rupert</PRENOM>
+            <ROLE>Lance Fortescue</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="142688">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macfadyen</NOM>
+            <PRENOM>Matthew</PRENOM>
+            <ROLE>l'inspecteur Neele</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une poignée de seigle glissée dans la poche d'un homme assassiné, un cintre accroché au nez d'une jeune fille étranglée : miss Marple traque un psychopathe.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Miss Marple enquête sur le meurtre de Rex Fortescue, le directeur d'une entreprise financière, empoisonné dans son bureau londonien. Le seul indice dont elle dispose sort de l'ordinaire : une poignée de seigle glissée dans la poche du défunt. Peu après, c'est le cadavre d'une jeune fille étranglée qu'on retrouve, un cintre à vêtement accroché dans le nez. Ces deux indices sont-ils la signature du meurtrier ? Dans ce cas, il ne peut s'agir que d'un dangereux maniaque. Miss Marple prend grand soin à penser à chaque détail des scènes de crime. Car ce qui peut sembler saugrenu à certains prend dans son esprit toute sa signification...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Miss Marple met toute sa sagacité au service de cette énigme. Plaisant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E13698516.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171897959" DATEMODIF="2018-02-07T09:16:39">
+      <DATEHEURE>2018-02-18T02:05:00</DATEHEURE>
+      <DUREE>240</DUREE>
+      <TITRE>Interruption des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="126035684" DATEMODIF="2018-02-07T09:16:39">
+        <TITREEMISSION>Interruption des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

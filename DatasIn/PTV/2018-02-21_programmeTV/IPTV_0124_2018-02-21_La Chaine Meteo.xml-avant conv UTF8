@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:07:53-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="124">
+    <NOMCHAINE>La Chaîne Météo</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="171700063" DATEMODIF="2018-01-27T06:04:46">
+      <DATEHEURE>2018-02-21T06:30:00</DATEHEURE>
+      <DUREE>150</DUREE>
+      <TITRE>La matinale</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125652812" DATEMODIF="2018-01-27T06:04:46">
+        <TITREEMISSION>La matinale</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="468754">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chavanne</NOM>
+            <PRENOM>Solène</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327031">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Woznica</NOM>
+            <PRENOM>Guillaume</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>L'éphéméride de Sandrine</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions nationales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions régionales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Destinations Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>Temps du week-end</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Météo marine</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>OutreMer</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="8">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="9">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions monde</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="10">
+            <LETEXTE />
+            <SOUSTITRE>Météo des plages</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171700064" DATEMODIF="2018-01-27T06:04:46">
+      <DATEHEURE>2018-02-21T09:00:00</DATEHEURE>
+      <DUREE>180</DUREE>
+      <TITRE>NonStop 9h-12h</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125652813" DATEMODIF="2018-01-27T06:04:46">
+        <TITREEMISSION>NonStop 9h-12h</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="468754">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chavanne</NOM>
+            <PRENOM>Solène</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327031">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Woznica</NOM>
+            <PRENOM>Guillaume</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>L'éphéméride de Sandrine</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions nationales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions régionales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Destinations Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>Temps du week-end</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Météo marine</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>OutreMer</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="8">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="9">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions monde</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="10">
+            <LETEXTE />
+            <SOUSTITRE>Météo des plages</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171700065" DATEMODIF="2018-01-27T06:04:46">
+      <DATEHEURE>2018-02-21T12:00:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Le 12/14</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125652814" DATEMODIF="2018-01-27T06:04:46">
+        <TITREEMISSION>Le 12/14</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1327037">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Durand</NOM>
+            <PRENOM>Karine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327038">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Noiret</NOM>
+            <PRENOM>Ange</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions nationales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions régionales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Destinations Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Temps du week-end</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>OutreMer</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions monde</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="8">
+            <LETEXTE />
+            <SOUSTITRE>Météo des plages</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171700066" DATEMODIF="2018-01-27T06:04:46">
+      <DATEHEURE>2018-02-21T14:00:00</DATEHEURE>
+      <DUREE>240</DUREE>
+      <TITRE>NonStop 14h-18h</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125652815" DATEMODIF="2018-01-27T06:04:46">
+        <TITREEMISSION>NonStop 14h-18h</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1327037">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Durand</NOM>
+            <PRENOM>Karine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327038">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Noiret</NOM>
+            <PRENOM>Ange</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions nationales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions régionales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Destinations Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Temps du week-end</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>OutreMer</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions monde</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="8">
+            <LETEXTE />
+            <SOUSTITRE>Météo des plages</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171700067" DATEMODIF="2018-01-27T06:04:46">
+      <DATEHEURE>2018-02-21T18:00:00</DATEHEURE>
+      <DUREE>240</DUREE>
+      <TITRE>L'édition du soir</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125652816" DATEMODIF="2018-01-27T06:04:46">
+        <TITREEMISSION>L'édition du soir</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1327039">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chatal</NOM>
+            <PRENOM>Hinatea</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327040">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Duchesne</NOM>
+            <PRENOM>Cyrille</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327041">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Crepet</NOM>
+            <PRENOM>Régis</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions nationales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>OutreMer</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions monde</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>Météo des neiges</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Destinations Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>Temps du week-end</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171700068" DATEMODIF="2018-01-27T06:04:46">
+      <DATEHEURE>2018-02-21T22:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Le journal de la nuit</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125652817" DATEMODIF="2018-01-27T06:04:46">
+        <TITREEMISSION>Le journal de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1327039">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chatal</NOM>
+            <PRENOM>Hinatea</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327040">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Duchesne</NOM>
+            <PRENOM>Cyrille</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327041">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Crepet</NOM>
+            <PRENOM>Régis</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions nationales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions régionales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Destinations Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Temps du week-end</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>Météo marine</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>Météo des plages</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171700069" DATEMODIF="2018-01-27T06:04:46">
+      <DATEHEURE>2018-02-21T22:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Le journal de la nuit</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125652818" DATEMODIF="2018-01-27T06:04:46">
+        <TITREEMISSION>Le journal de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1327039">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chatal</NOM>
+            <PRENOM>Hinatea</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327040">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Duchesne</NOM>
+            <PRENOM>Cyrille</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327041">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Crepet</NOM>
+            <PRENOM>Régis</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions nationales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions régionales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Destinations Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Temps du week-end</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>Météo marine</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>Météo des plages</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171700070" DATEMODIF="2018-01-27T06:04:46">
+      <DATEHEURE>2018-02-22T00:00:00</DATEHEURE>
+      <DUREE>180</DUREE>
+      <TITRE>Le journal de la nuit</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125652819" DATEMODIF="2018-01-27T06:04:46">
+        <TITREEMISSION>Le journal de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1327039">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chatal</NOM>
+            <PRENOM>Hinatea</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327040">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Duchesne</NOM>
+            <PRENOM>Cyrille</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327041">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Crepet</NOM>
+            <PRENOM>Régis</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions nationales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions régionales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Destinations Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Temps du week-end</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>Météo marine</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>Météo des plages</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171700071" DATEMODIF="2018-01-27T06:04:46">
+      <DATEHEURE>2018-02-22T03:00:00</DATEHEURE>
+      <DUREE>210</DUREE>
+      <TITRE>Le journal de la nuit</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125652820" DATEMODIF="2018-01-27T06:04:46">
+        <TITREEMISSION>Le journal de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1327039">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chatal</NOM>
+            <PRENOM>Hinatea</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327040">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Duchesne</NOM>
+            <PRENOM>Cyrille</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327041">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Crepet</NOM>
+            <PRENOM>Régis</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions nationales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions régionales</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Destinations Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Temps du week-end</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>Météo marine</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Prévisions Europe</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>Météo des plages</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

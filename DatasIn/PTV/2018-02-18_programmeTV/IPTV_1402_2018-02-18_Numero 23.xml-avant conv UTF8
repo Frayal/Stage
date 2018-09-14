@@ -1,0 +1,1413 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:11:26-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1402">
+    <NOMCHAINE>Numéro 23</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-18">
+    <DIFFUSION CLEDIF="171903264" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T06:20:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>P.J.</TITRE>
+      <SOUSTITREDIF>Viol en garde à vue</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="772655" DATEMODIF="2015-10-16T04:10:24">
+        <TITREEMISSION>P.J.</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7946">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / P.J.</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3762258">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / P.J. / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Viol en garde à vue</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="11297">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Vergez</NOM>
+            <PRENOM>Gérard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="61610">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bach</NOM>
+            <PRENOM>Emmanuelle</PRENOM>
+            <ROLE>Agathe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="135132">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cramoisan</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Franck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3342">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wolkowitch</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>Vincent Fournier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10275">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schneider</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Bernard Léonetti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Betton</NOM>
+            <PRENOM>Marc</PRENOM>
+            <ROLE>le commissaire Meurteaux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44817">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desroses</NOM>
+            <PRENOM>Thierry</PRENOM>
+            <ROLE>Alain Porret</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21011">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bagnou-Beido</NOM>
+            <PRENOM>Valérie</PRENOM>
+            <ROLE>Nadine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91831">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lubansu</NOM>
+            <PRENOM>Raphaëlle</PRENOM>
+            <ROLE>Chloé</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="197101">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Nivaggioni</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune livreur, blessé au cours d'un accident de voiture, a-t-il été victime d'un règlement de comptes mafieux ? Agathe et Franck enquêtent.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La routine pour Agathe et Franck : appelés sur les lieux d'un accident de la route, ils sont chargés de relever les indices. Un jeune livreur a été renversé par une voiture : quoi de plus banal ? Un détail, pourtant, retient leur attention : la victime a les deux petits doigts cassés. Immédiatement, la thèse du règlement de comptes s'impose à l'esprit des deux policiers. Interrogé, le livreur réfute farouchement cette hypothèse. Mais Agathe et Franck ne mettent pas longtemps à réaliser qu'il est sous l'emprise de la drogue. Lorsqu'ils se rendent à l'adresse de sa dernière livraison, ils ne trouvent personne...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E772655.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903265" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T07:15:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Mars</TITRE>
+      <SOUSTITREDIF>Nouveau monde</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123885319" DATEMODIF="2017-12-07T14:07:33">
+        <TITREEMISSION>Mars</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1058" GENRESIMPLE="Série">Série de science-fiction</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29406580">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Mars</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29406555">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Mars / 0</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Mars</TITREORIGINAL>
+          <SOUSTITRE>Nouveau monde</SOUSTITRE>
+          <SOUSTITREORIGINAL>Novo Mundo</SOUSTITREORIGINAL>
+          <DUREEEMI>60</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="594818">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gout</NOM>
+            <PRENOM>Everardo Valerio</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="39671">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martinez</NOM>
+            <PRENOM>Olivier</PRENOM>
+            <ROLE>Ed Grann</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="529424">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ammann</NOM>
+            <PRENOM>Alberto</PRENOM>
+            <ROLE>Javier Delgado</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="395525">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Poidatz</NOM>
+            <PRENOM>Clémentine</PRENOM>
+            <ROLE>Amélie Durand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="325468">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marinca</NOM>
+            <PRENOM>Anamaria</PRENOM>
+            <ROLE>Marta Kamen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1360663">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jihae</NOM>
+            <ROLE>Hana Seung</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="196806">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cotton</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>Ben Sawyer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1360664">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fekete</NOM>
+            <PRENOM>Antoinette</PRENOM>
+            <ROLE>Sam</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1360665">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sarbo</NOM>
+            <PRENOM>Kata</PRENOM>
+            <ROLE>Ava Macon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="89744">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Janszen</NOM>
+            <PRENOM>Karen</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 2033, la première mission humaine pour Mars arrive enfin à destination. L'équipage doit puiser dans ses réserves pour résister à la violence de l'impact.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En 2033, la première mission humaine pour Mars arrive enfin à destination, mais l'équipage doit puiser dans ses ultimes réserves pour résister à la violence de l'impact...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E123885319.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903266" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T08:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Mars</TITRE>
+      <SOUSTITREDIF>Les pieds sur Mars</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123885321" DATEMODIF="2017-12-07T14:07:12">
+        <TITREEMISSION>Mars</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1058" GENRESIMPLE="Série">Série de science-fiction</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29406580">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Mars</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29406555">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Mars / 0</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Mars</TITREORIGINAL>
+          <SOUSTITRE>Les pieds sur Mars</SOUSTITRE>
+          <DUREEEMI>60</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="594818">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gout</NOM>
+            <PRENOM>Everardo Valerio</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="39671">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martinez</NOM>
+            <PRENOM>Olivier</PRENOM>
+            <ROLE>Ed Grann</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="529424">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ammann</NOM>
+            <PRENOM>Alberto</PRENOM>
+            <ROLE>Javier Delgado</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="395525">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Poidatz</NOM>
+            <PRENOM>Clémentine</PRENOM>
+            <ROLE>Amélie Durand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="325468">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marinca</NOM>
+            <PRENOM>Anamaria</PRENOM>
+            <ROLE>Marta Kamen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1360663">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jihae</NOM>
+            <ROLE>Hana Seung</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="196806">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cotton</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>Ben Sawyer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1360664">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fekete</NOM>
+            <PRENOM>Antoinette</PRENOM>
+            <ROLE>Sam</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1360665">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sarbo</NOM>
+            <PRENOM>Kata</PRENOM>
+            <ROLE>Ava Macon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="89744">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Janszen</NOM>
+            <PRENOM>Karen</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 2033, l'équipage du Daedalus met tout en oeuvre pour atteindre son camp de base, mais le commandant du vaisseau se blesse au cours de l'atterrissage.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En 2033, l'équipage du Daedalus met tout en oeuvre pour atteindre son camp de base, mais le commandant du vaisseau se blesse au cours de l'atterrissage...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E123885321.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903267" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T09:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Mars</TITRE>
+      <SOUSTITREDIF>Baisse de pression</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123885322" DATEMODIF="2017-12-11T12:23:09">
+        <TITREEMISSION>Mars</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1058" GENRESIMPLE="Série">Série de science-fiction</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29406580">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Mars</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29406555">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Mars / 0</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Mars</TITREORIGINAL>
+          <SOUSTITRE>Baisse de pression</SOUSTITRE>
+          <SOUSTITREORIGINAL>Pressure Drop</SOUSTITREORIGINAL>
+          <DUREEEMI>60</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="594818">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gout</NOM>
+            <PRENOM>Everardo Valerio</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="39671">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martinez</NOM>
+            <PRENOM>Olivier</PRENOM>
+            <ROLE>Ed Grann</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="529424">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ammann</NOM>
+            <PRENOM>Alberto</PRENOM>
+            <ROLE>Javier Delgado</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="395525">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Poidatz</NOM>
+            <PRENOM>Clémentine</PRENOM>
+            <ROLE>Amélie Durand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="325468">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marinca</NOM>
+            <PRENOM>Anamaria</PRENOM>
+            <ROLE>Marta Kamen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1360663">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jihae</NOM>
+            <ROLE>Hana Seung</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="196806">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cotton</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>Ben Sawyer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1360664">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fekete</NOM>
+            <PRENOM>Antoinette</PRENOM>
+            <ROLE>Sam</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1360665">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sarbo</NOM>
+            <PRENOM>Kata</PRENOM>
+            <ROLE>Ava Macon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="89744">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Janszen</NOM>
+            <PRENOM>Karen</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 2033, la mission Daedalus est en péril, et l'équipage est contraint de localiser un site approprié pour l'installation avant que la mission ne tourne court.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En 2033, la mission Daedalus est en péril, et l'équipage est contraint de localiser un site approprié pour l'installation avant que la mission ne tourne court...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E123885322.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903268" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T10:00:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Commandos parachutistes : entre amour et devoir</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="49417373" DATEMODIF="2014-08-27T13:28:11">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Commandos parachutistes : entre amour et devoir</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Le Groupement des Commandos Parachutistes, corps d'élite de l'armée française, rassemble 160 militaires prêts à intervenir dès que la France s'engage dans un conflit. Les troupes françaises ont joué un rôle déterminant en Afghanistan, et ont été chargées de la sécurité des habitants en Côte d'Ivoire. Portraits de ces hommes, suivis pendant plusieurs mois dans des zones dangereuses, mais aussi dans leurs familles.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E49417373.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903269" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T11:35:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Urgentistes, pompiers : à votre secours</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="83480938" DATEMODIF="2014-09-24T11:10:06">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Urgentistes, pompiers : à votre secours</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Situations de détresse, urgences vitales, accouchements : les médecins urgentistes doivent être sur tous les fronts. Près de 16 millions de Français sont admis dans les services d'urgences chaque année. Un chiffre qui a doublé en 20 ans. De leur côté, les pompiers interviennent partout en France, parfois au péril de leur vie. Incendies, accidents de la circulation, aide à la personne : qu'ils soient volontaires ou professionnels, les soldats du feu sont très sollicités.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E83480938.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903270" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T13:25:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Violences et trafics : la BAC de Rennes sous tension</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="97429834" DATEMODIF="2015-09-23T11:31:55">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Violences et trafics : la BAC de Rennes sous tension</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>La ville de Rennes, réputée festive, accueille de nombreux étudiants. Dans la capitale bretonne, où un habitant sur quatre a moins de 25 ans, les policiers sont sollicités jour et nuit. Entre insultes, jets de pierres et intimidations, ils doivent souvent se contenir et garder leur sang froid pour éviter les débordements. Pendant plusieurs semaines, les caméras de «Révélations» ont pu vivre leur quotidien souvent difficile et très violent. Quand délinquance juvénile et trafics en tout genre gangrènent les quartiers, comment les policiers peuvent-ils faire régner l'ordre ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C97429834.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903271" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T15:10:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Super vétérinaire</TITRE>
+      <SOUSTITREDIF>Copee, Stouffie et Cookie</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="110123858" DATEMODIF="2018-01-11T12:12:47">
+        <TITREEMISSION>Super vétérinaire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="22547313">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super vétérinaire</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Supervet</TITREORIGINAL>
+          <SOUSTITRE>Copee, Stouffie et Cookie</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>17</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>De nouveaux animaux de compagnie adorables mais en détresse arrivent avec leurs maîtres à la clinique Fitzpatrick où ils sont pris en charge.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C110123858.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903272" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T16:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Super vétérinaire</TITRE>
+      <SOUSTITREDIF>Olaf, Willow et Rhett</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="110123875" DATEMODIF="2017-08-14T18:39:35">
+        <TITREEMISSION>Super vétérinaire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="22547313">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super vétérinaire</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Supervet</TITREORIGINAL>
+          <SOUSTITRE>Olaf, Willow et Rhett</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>18</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La clinique Fitzpatrick doit faire face à l'arrivée de nouveaux animaux de compagnie qui s'avèrent parfois en fort piteux état.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C110123875.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903273" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T17:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Super vétérinaire</TITRE>
+      <SOUSTITREDIF>Frynse, Murphy et Mack</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120066407" DATEMODIF="2017-08-14T18:04:04">
+        <TITREEMISSION>Super vétérinaire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="22547313">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super vétérinaire</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Supervet</TITREORIGINAL>
+          <SOUSTITRE>Frynse, Murphy et Mack</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>19</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>De nouveaux animaux de compagnie adorables mais en détresse arrivent avec leurs maîtres à la clinique Fitzpatrick où ils sont pris en charge.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120066407.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903274" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T18:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Super vétérinaire</TITRE>
+      <SOUSTITREDIF>Rex, Amy et Piggy</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120066453" DATEMODIF="2017-08-14T18:13:00">
+        <TITREEMISSION>Super vétérinaire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="22547313">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super vétérinaire</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Supervet</TITREORIGINAL>
+          <SOUSTITRE>Rex, Amy et Piggy</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>20</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>De nouveaux animaux de compagnie adorables mais en détresse arrivent avec leurs maîtres à la clinique Fitzpatrick où ils sont pris en charge.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120066453.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903275" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T19:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Super vétérinaire</TITRE>
+      <SOUSTITREDIF>Charlie, la Buse et Baros</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120066406" DATEMODIF="2018-01-11T12:13:12">
+        <TITREEMISSION>Super vétérinaire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="22547313">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super vétérinaire</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Supervet</TITREORIGINAL>
+          <SOUSTITRE>Charlie, la Buse et Baros</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>21</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Noel doit aider un labrador qui se nomme Charlie, car il a les articulations du coude gravement endommagées.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120066406.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903276" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T20:05:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Super vétérinaire</TITRE>
+      <SOUSTITREDIF>Wobble, Tia et Alfie</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120066525" DATEMODIF="2018-01-11T12:06:41">
+        <TITREEMISSION>Super vétérinaire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="22547313">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super vétérinaire</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Supervet</TITREORIGINAL>
+          <SOUSTITRE>Wobble, Tia et Alfie</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>22</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un chat du Bengale appelé Tia est amené à la clinique après avoir été percuté par une voiture qui a laissé son pelvis brisé et sa jambe arrière paralysée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120066525.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171863371" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T20:55:00</DATEHEURE>
+      <DUREE>155</DUREE>
+      <SURTITRE>Nouvel An chinois</SURTITRE>
+      <TITRE>Les 3 royaumes</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="12400941" DATEMODIF="2016-05-21T19:13:03">
+        <TITREEMISSION>Les 3 royaumes</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="238" GENRESIMPLE="Film de guerre">Film de guerre</GENRE>
+        <NATIONALITE CLE="165">
+          <PAYS>Chine</PAYS>
+          <LIBELLE>chinois</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Chi bi</TITREORIGINAL>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>150</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="19719">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Woo</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="133934">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Leung Chiu-Wai</NOM>
+            <PRENOM>Tony</PRENOM>
+            <ROLE>Zhou Yu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="286284">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kaneshiro</NOM>
+            <PRENOM>Takeshi</PRENOM>
+            <ROLE>Zhuge Liang</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45025">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chen</NOM>
+            <PRENOM>Chang</PRENOM>
+            <ROLE>Sun Quan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="84779">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Yong</NOM>
+            <PRENOM>Hou</PRENOM>
+            <ROLE>Lu Su</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35728">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jun</NOM>
+            <PRENOM>Hu</PRENOM>
+            <ROLE>Zhao Yun</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="331439">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Yong</NOM>
+            <PRENOM>You</PRENOM>
+            <ROLE>Liu Bei</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2588">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fengyi</NOM>
+            <PRENOM>Zhang</PRENOM>
+            <ROLE>Cao Cao</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="527032">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ning</NOM>
+            <PRENOM>Wang</PRENOM>
+            <ROLE>l'empereur Xiandi</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="524049">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Iwashiro</NOM>
+            <PRENOM>Tarô</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au IIIe siècle de notre ère, en Chine. Le Premier ministre de l'empereur mène ses armées contre les deux royaumes voisins. C'est le début d'un long conflit.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En l'an 208, en Chine. Cao Cao, l'ambitieux Premier ministre de l'empereur Han Xiandi, pousse le souverain à déclarer la guerre aux deux royaumes voisins, et longtemps rivaux, de Shu et de Wu. Face au péril, Liu Bei, roi de Shu, dépêche son conseiller militaire Zhuge Liang auprès du jeune roi Sun Quan, héritier du royaume de Wu, afin de lui proposer une alliance. Sun Quan accepte et nomme son général Zhou Yu commandant des armées. Ayant réuni leurs forces, les deux pays se préparent à affronter l'immense armada de Cao Cao. Sur terre et sur mer, les batailles se succèdent et les armées se dirigent vers la Falaise Rouge, où doit se jouer l'issue de la guerre...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Plus grosse production de l'histoire du cinéma chinois, cette fresque spectaculaire mêle action, poésie et esthétisme.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E12400941.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903277" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T23:30:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <SURTITRE>Nouvel An chinois</SURTITRE>
+      <TITRE>L'autre ciné</TITRE>
+      <SOUSTITREDIF>Il était une fois en Chine</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769938" DATEMODIF="2018-02-06T16:38:41">
+        <TITREEMISSION>L'autre ciné</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22864033">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'autre ciné</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Il était une fois en Chine</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="107292">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tchoungui</NOM>
+            <PRENOM>Elizabeth</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Elizabeth Tchoungui présente le film de deuxième partie de soirée, avec des anecdotes sur les coulisses et des informations sur le réalisateur et le casting.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125769938.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171863372" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-18T23:35:00</DATEHEURE>
+      <DUREE>150</DUREE>
+      <SURTITRE>Nouvel An chinois</SURTITRE>
+      <TITRE>Il était une fois en Chine</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="82155" DATEMODIF="2017-03-29T09:54:50">
+        <TITREEMISSION>Il était une fois en Chine</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="240" GENRESIMPLE="Film d'aventures">Film de kung-fu</GENRE>
+        <NATIONALITE CLE="440">
+          <PAYS>HongKong</PAYS>
+          <LIBELLE>hongkongais</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Wong Fei-hung</TITREORIGINAL>
+          <ANNEEREALISATION>1991</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>128</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="17471">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hark</NOM>
+            <PRENOM>Tsui</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="10591">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Li</NOM>
+            <PRENOM>Jet</PRENOM>
+            <ROLE>Wong Fei-Hung</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10657">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kwan</NOM>
+            <PRENOM>Rosamund</PRENOM>
+            <ROLE>tante Yee</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="87900">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Biao</NOM>
+            <PRENOM>Yuen</PRENOM>
+            <ROLE>Leung Fu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="397681">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Yee Kwan</NOM>
+            <PRENOM>Yan</PRENOM>
+            <ROLE>Yim</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45788">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cheung</NOM>
+            <PRENOM>Jacky</PRENOM>
+            <ROLE>Soh</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="69753">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cheng</NOM>
+            <PRENOM>Kent</PRENOM>
+            <ROLE>Lang</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="17863">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tartalia</NOM>
+            <PRENOM>Steve</PRENOM>
+            <ROLE>Tiger</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16906">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ma</NOM>
+            <PRENOM>Wu</PRENOM>
+            <ROLE>le vieil homme</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="476163">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Díaz</NOM>
+            <PRENOM>Romeo</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="10963">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Wong</NOM>
+            <PRENOM>James</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En Chine, à la fin du XIXe siècle, des colons occidentaux tentent de se débarrasser d'un médecin jugé trop influent, en raison de sa maîtrise des arts martiaux.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A la fin du XIXe siècle, en Chine. Wong Fei-Hung, médecin, dirige une clinique dans la province de Canton et, accessoirement, règle les conflits qui peuvent naître au sein de la communauté. Ceci lui est d'autant plus facile qu'il maîtrise parfaitement les arts martiaux. Mais son influence est telle dans la région que les colons occidentaux finissent par voir d'un mauvais oeil ce personnage. Ils cherchent alors à le destituer, en s'en prenant notamment à sa clinique, puis en engageant Yim, un brillant combattant, afin de l'éliminer purement et simplement. La tante de Wong, qui revient d'Europe, est ainsi enlevée pour servir d'appât...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une fresque admirablement réalisée, qui s'inspire de la vie d'un personnage réel connu de tous les Chinois. Une perle du cinéma chinois moderne.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E82155.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903278" DATEMODIF="2018-02-06T09:39:56">
+      <DATEHEURE>2018-02-19T02:05:00</DATEHEURE>
+      <DUREE>255</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125804132" DATEMODIF="2018-02-06T09:39:56">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

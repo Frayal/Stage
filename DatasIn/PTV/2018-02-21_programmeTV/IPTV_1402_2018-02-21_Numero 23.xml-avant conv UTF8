@@ -1,0 +1,1483 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:11:29-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1402">
+    <NOMCHAINE>Numéro 23</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="171903315" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-21T06:20:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>JT morning</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125805345" DATEMODIF="2018-01-31T11:53:58">
+        <TITREEMISSION>JT morning</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23292957">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / JT morning</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903316" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-21T06:30:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>P.J.</TITRE>
+      <SOUSTITREDIF>Gang de filles</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="866351" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>P.J.</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7946">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / P.J.</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3762258">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / P.J. / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Gang de filles</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="24712">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Coscas</NOM>
+            <PRENOM>Brigitte</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3342">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wolkowitch</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>Vincent Fournier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10275">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schneider</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Bernard Léonetti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21011">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bagnou-Beido</NOM>
+            <PRENOM>Valérie</PRENOM>
+            <ROLE>Nadine Lemercier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Betton</NOM>
+            <PRENOM>Marc</PRENOM>
+            <ROLE>le commissaire Meurteaux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44817">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desroses</NOM>
+            <PRENOM>Thierry</PRENOM>
+            <ROLE>Alain Porret</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91831">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lubansu</NOM>
+            <PRENOM>Raphaëlle</PRENOM>
+            <ROLE>Chloé Mathieu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61610">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bach</NOM>
+            <PRENOM>Emmanuelle</PRENOM>
+            <ROLE>Agathe Monnier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="135132">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cramoisan</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Franck Lamougies</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="143164">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Caro</NOM>
+            <PRENOM>Gilles-Yves</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Vincent et Nadine arrêtent une jeune fille, visiblement impliquée dans une fusillade entre adolescents, qui aurait pu coûter la vie au gardien d'un square.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un gardien de square a été blessé par un tir d'arme de gros calibre, visiblement entre les mains d'un groupe de jeunes. Affolé à l'idée que les gamins pourraient faire un véritable carnage, Vincent décide de passer outre les recommandations du maire et de tenter de les arrêter en flagrant délit. Au terme d'une planque fructueuse en compagnie de sa collègue, Nadine, il parvient à arrêter l'une des adolescentes. Celle-ci demeure muette tout au long de son audition. Elle finit cependant par accepter de divulguer le nom et l'adresse de la propriétaire d'un téléphone portable trouvé dans sa poche. Il s'agit d'une de ses amies...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E866351.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903317" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-21T07:25:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>P.J.</TITRE>
+      <SOUSTITREDIF>Chien méchant</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="890509" DATEMODIF="2015-10-16T04:10:26">
+        <TITREEMISSION>P.J.</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7946">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / P.J.</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3762258">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / P.J. / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Chien méchant</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="24712">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Coscas</NOM>
+            <PRENOM>Brigitte</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3342">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wolkowitch</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>Vincent Fournier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44817">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desroses</NOM>
+            <PRENOM>Thierry</PRENOM>
+            <ROLE>Alain Porret</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="135132">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cramoisan</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Franck Lamougies</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10275">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schneider</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Bernard Léonetti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21011">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bagnou-Beido</NOM>
+            <PRENOM>Valérie</PRENOM>
+            <ROLE>Nadine Lemercier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Betton</NOM>
+            <PRENOM>Marc</PRENOM>
+            <ROLE>le commissaire Meurteaux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91831">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lubansu</NOM>
+            <PRENOM>Raphaëlle</PRENOM>
+            <ROLE>Chloé Mathieu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61610">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bach</NOM>
+            <PRENOM>Emmanuelle</PRENOM>
+            <ROLE>Agathe Monnier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="143164">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Caro</NOM>
+            <PRENOM>Gilles-Yves</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les enquêteurs de la PJ s'occupent d'une sombre affaire impliquant un dangereux molosse, dressé à l'attaque, qui a déjà fait plusieurs victimes.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Vincent et Alain se rendent sur les lieux d'un accident. Ils découvrent sur place une adolescente blessée et son chien mortellement touché par un autre canidé. Les deux policiers se lancent immédiatement à la recherche de l'animal et de son maître, d'autant plus que la jeune fille a peut-être été violée. Impossible à maîtriser, le chien, dressé «au mordant», finit par s'attaquer à son jeune propriétaire. Franck et Vincent arrivent juste à temps pour éviter le pire. Ils arrêtent alors le père du gamin et l'interrogent sur les conditions du dressage. Il s'avère que l'animal était détenu sans la moindre autorisation officielle...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E890509.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903318" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-21T08:20:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Alimentation : du poison dans nos assiettes</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120294190" DATEMODIF="2017-08-23T11:15:53">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Alimentation : du poison dans nos assiettes</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Pays de la gastronomie, la France est réputée pour sa production d'aliments de qualité. Mais derrière cette image idyllique, que se cache-t-il vraiment ? Des spécialistes de la santé analysent ce que contiennent réellement les produits consommés quotidiennement sur les tables françaises. Les révélations de certains scientifiques sont inquiétantes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C120294190.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903319" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-21T10:00:00</DATEHEURE>
+      <DUREE>185</DUREE>
+      <TITRE>Les grandes gueules</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769942" DATEMODIF="2018-01-31T11:53:58">
+        <TITREEMISSION>Les grandes gueules</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21919296">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les grandes gueules</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="468972">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marschall</NOM>
+            <PRENOM>Alain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="468973">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Truchot</NOM>
+            <PRENOM>Olivier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>La bande des grandes gueules accueille tout au long de l'année des intervenants représentatifs de la diversité de la société française et les sujets de société qui font l'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125769942.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903320" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-21T13:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Ces crimes qui ont choqué le monde</TITRE>
+      <SOUSTITREDIF>Meurtres en auto-stop</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="9727918" DATEMODIF="2015-09-02T11:40:22">
+        <TITREEMISSION>Ces crimes qui ont choqué le monde</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1112" GENRESIMPLE="Documentaire">Justice</GENRE>
+        <NATIONALITE CLE="2201">
+          <PAYS>Australie - Grande-Bretagne - Canada</PAYS>
+          <LIBELLE>australo-britannico-canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="12021353">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Ces crimes qui ont choqué le monde</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Crimes That Shook the World</TITREORIGINAL>
+          <SOUSTITRE>Meurtres en auto-stop</SOUSTITRE>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 1992, sept meurtres d'auto-stoppeurs sont commis dans le bush australien ; suite à un témoignage, Ivan Milat est condamné à la prison à perpétuité.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ivan Robert Marko Milat est surnommé le «Tueur de randonneurs». Ce tueur en série australien est responsable des meurtres de sept personnes, dont cinq étaient de jeunes routards étrangers. Il a été condamné à la prison à perpétuité. Ses meurtres ont été commis entre 1989 et 1993 et il a été arrêté le 22 mai 1994. Son procès a débuté en mars 1996 et a duré quinze semaines, qui aboutirent à sa condamnation.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E9727918.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903321" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-21T14:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Ces crimes qui ont choqué le monde</TITRE>
+      <SOUSTITREDIF>L'étrangleur de Phoenix</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="9775172" DATEMODIF="2018-02-03T09:34:04">
+        <TITREEMISSION>Ces crimes qui ont choqué le monde</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1112" GENRESIMPLE="Documentaire">Justice</GENRE>
+        <NATIONALITE CLE="2201">
+          <PAYS>Australie - Grande-Bretagne - Canada</PAYS>
+          <LIBELLE>australo-britannico-canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="12021353">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Ces crimes qui ont choqué le monde</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Crimes That Shook the World</TITREORIGINAL>
+          <SOUSTITRE>L'étrangleur de Phoenix</SOUSTITRE>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Entre 1996 et 1997, Sipho Mandla Agmatir Thwala a terrorisé Phoenix ; il purge aujourd'hui une peine de 506 ans de prison pour 16 meurtres et 10 viols.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E9775172.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903322" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-21T15:00:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Ces crimes qui ont choqué le monde</TITRE>
+      <SOUSTITREDIF>L'ange de la mort</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="96751269" DATEMODIF="2015-09-02T15:12:07">
+        <TITREEMISSION>Ces crimes qui ont choqué le monde</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1112" GENRESIMPLE="Documentaire">Justice</GENRE>
+        <NATIONALITE CLE="2201">
+          <PAYS>Australie - Grande-Bretagne - Canada</PAYS>
+          <LIBELLE>australo-britannico-canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="12021353">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Ces crimes qui ont choqué le monde</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Crimes That Shook the World</TITREORIGINAL>
+          <SOUSTITRE>L'ange de la mort</SOUSTITRE>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Ce documentaire retrace l'enquête policière qui finira par condamner Aileen Wuornos, une prostituée, à la peine capitale, pour le meurtre de sept hommes.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Obligée de subvenir à ses besoins dès l'âge de 15 ans, Aileen Wuornos n'était pas une jeune fille comme les autres. La prostitution, le long des autoroutes de Floride, était son quotidien. Sa haine grandissante pour la gent masculine l'a poussée à tuer sept hommes. Ce documentaire retrace l'enquête policière qui finira par la condamner à la peine capitale en 2001, après dix ans de prison.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E96751269.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903323" DATEMODIF="2018-02-01T02:10:39">
+      <DATEHEURE>2018-02-21T15:55:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Redrum</TITRE>
+      <SOUSTITREDIF>Petits meurtres entre amis</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769946" DATEMODIF="2018-01-31T11:53:02">
+        <TITREEMISSION>Redrum</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1112" GENRESIMPLE="Documentaire">Justice</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="11553382">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Redrum</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Redrum</TITREORIGINAL>
+          <SOUSTITRE>Petits meurtres entre amis</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>25</DUREEEMI>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Illustration d'une enquête sur un meurtre, à partir de la découverte d'un corps les enquêteurs doivent reconstituer l'histoire et trouver le mobile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903324" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-21T16:25:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Pigalle, Montmartre : quand Paris s'encanaille</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="87486710" DATEMODIF="2017-11-07T10:48:30">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Pigalle, Montmartre : quand Paris s'encanaille</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Paris est la ville la plus visitée du monde. Chaque année, 47 millions de touristes déferlent dans la capitale. Parmi les lieux les plus visités : le Moulin Rouge. Phare de Pigalle, il fait partie des dix monuments les plus photographiés de la planète. Mais à quelques centaines de mètres de là se trouve Barbès, un quartier sous haute tension. Depuis 2012, l'Etat a créé ici une Zone Prioritaire de Sécurité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E87486710.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903325" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-21T18:15:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>La loi des rocheuses</TITRE>
+      <SOUSTITREDIF>Manipulations</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769935" DATEMODIF="2018-01-30T17:45:41">
+        <TITREEMISSION>La loi des rocheuses</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30250463">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La loi des rocheuses</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Manipulations</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents luttent contre le crime sur un terrain très dangereux des États-Unis : les montagnes rocheuses. Ils ont pour mission de protéger les résidents.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125769935.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903326" DATEMODIF="2018-02-01T02:10:39">
+      <DATEHEURE>2018-02-21T19:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>La loi des rocheuses</TITRE>
+      <SOUSTITREDIF>La montagne a des yeux</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769932" DATEMODIF="2018-01-30T17:45:29">
+        <TITREEMISSION>La loi des rocheuses</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30250463">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La loi des rocheuses</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La montagne a des yeux</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>7</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents luttent contre le crime sur un terrain très dangereux des États-Unis : les montagnes rocheuses. Ils ont pour mission de protéger les résidents.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125769932.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903327" DATEMODIF="2018-02-01T02:10:39">
+      <DATEHEURE>2018-02-21T20:05:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>La loi des rocheuses</TITRE>
+      <SOUSTITREDIF>Une nuit cauchemardesque</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769937" DATEMODIF="2018-01-30T17:45:46">
+        <TITREEMISSION>La loi des rocheuses</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30250463">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La loi des rocheuses</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Une nuit cauchemardesque</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents luttent contre le crime sur un terrain très dangereux des États-Unis : les montagnes rocheuses. Ils ont pour mission de protéger les résidents.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125769937.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171863706" DATEMODIF="2018-02-01T02:10:39">
+      <DATEHEURE>2018-02-21T20:55:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Orange Is the New Black</TITRE>
+      <SOUSTITREDIF>Frissons</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121069610" DATEMODIF="2018-01-31T18:32:01">
+        <TITREEMISSION>Orange Is the New Black</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1027" GENRESIMPLE="Série dramatique">Série carcérale</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="16466624">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Orange Is the New Black</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26637070">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Orange Is the New Black / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Orange Is the New Black</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Frissons</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Tightening</SOUSTITREORIGINAL>
+          <DUREEEMI>57</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1350855">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Feeley</NOM>
+            <PRENOM>Erin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="524158">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schilling</NOM>
+            <PRENOM>Taylor</PRENOM>
+            <ROLE>Piper Chapman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="430">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mulgrew</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Galina «Red» Reznikov</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1255381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aduba</NOM>
+            <PRENOM>Uzo</PRENOM>
+            <ROLE>Suzanne «Crazy Eyes» Warren</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1201436">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brooks</NOM>
+            <PRENOM>Danielle</PRENOM>
+            <ROLE>Tasha «Taystee» Jefferson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="352381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reiner</NOM>
+            <PRENOM>Alysia</PRENOM>
+            <ROLE>Natalie Figueroa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="158786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stone</NOM>
+            <PRENOM>Yael</PRENOM>
+            <ROLE>Lorna Morello</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1286173">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gómez</NOM>
+            <PRENOM>Laura</PRENOM>
+            <ROLE>Blanca Flores</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="338086">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Henke</NOM>
+            <PRENOM>Brad William</PRENOM>
+            <ROLE>Desi Piscatella</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1262381">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Harrison</NOM>
+            <PRENOM>Jordan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Nicky prend soin de Red mais reste convaincue que c'est le sevrage qui la rend paranoïaque. Elle ignore qu'un danger rôde dans les couloirs.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Nicky prend soin de Red mais reste convaincue que c'est le sevrage des amphétamines qui provoque des hallucinations chez sa codétenue. Elle ignore qu'un véritable danger rôde dans les couloirs du pénitencier où, l'une après l'autre, des prisonnières disparaissent. Pour faire avancer les discussions avec Figueroa, Taystee et Cindy font appel à un allié inattendu. De son côté, Gloria est prête à tout pour pouvoir rendre visite à son fils hospitalisé, quitte à trahir la confiance de ses consoeurs pour parvenir à ses fins...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E121069610.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171863707" DATEMODIF="2018-02-01T02:10:39">
+      <DATEHEURE>2018-02-21T22:00:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>Orange Is the New Black</TITRE>
+      <SOUSTITREDIF>L'antiroi Midas</SOUSTITREDIF>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121100438" DATEMODIF="2018-01-31T18:32:00">
+        <TITREEMISSION>Orange Is the New Black</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1027" GENRESIMPLE="Série dramatique">Série carcérale</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="16466624">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Orange Is the New Black</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26637070">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Orange Is the New Black / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Orange Is the New Black</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'antiroi Midas</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Reverse Midas Touch</SOUSTITREORIGINAL>
+          <DUREEEMI>54</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>10</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="90657">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Prepon</NOM>
+            <PRENOM>Laura</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="524158">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schilling</NOM>
+            <PRENOM>Taylor</PRENOM>
+            <ROLE>Piper Chapman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="430">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mulgrew</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Galina «Red» Reznikov</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1255381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aduba</NOM>
+            <PRENOM>Uzo</PRENOM>
+            <ROLE>Suzanne «Crazy Eyes» Warren</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1201436">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brooks</NOM>
+            <PRENOM>Danielle</PRENOM>
+            <ROLE>Tasha «Taystee» Jefferson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="352381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reiner</NOM>
+            <PRENOM>Alysia</PRENOM>
+            <ROLE>Natalie Figueroa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="158786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stone</NOM>
+            <PRENOM>Yael</PRENOM>
+            <ROLE>Lorna Morello</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1286173">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gómez</NOM>
+            <PRENOM>Laura</PRENOM>
+            <ROLE>Blanca Flores</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="338086">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Henke</NOM>
+            <PRENOM>Brad William</PRENOM>
+            <ROLE>Desi Piscatella</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1342198">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Angelo</NOM>
+            <PRENOM>Rebecca</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Taystee est déterminée à obtenir des avancées pour les détenues, mais les négociations s'enlisent. Sans traitement, Suzanne est complètement déboussolée.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Taystee est déterminée à obtenir des avancées pour les détenues, mais les négociations s'enlisent. De leur côté, Angie et Leanne imaginent une opération farfelue pour que cette dernière retrouve tous ses doigts. Suzanne, qui ne prend plus ses médicaments, est complètement déboussolée, au grand dam de Cindy et Janae. Gloria cherche un moyen de détourner l'attention des deux femmes en faction pour garder les otages. Des années auparavant, Piscatella travaillait dans un prison pour hommes, où il se rapprocha peu à peu d'un certain Driscoll...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E121100438.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171863708" DATEMODIF="2018-02-01T02:10:39">
+      <DATEHEURE>2018-02-21T23:10:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Orange Is the New Black</TITRE>
+      <SOUSTITREDIF>Plus près de toi, Poussey</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121100560" DATEMODIF="2018-01-31T18:31:59">
+        <TITREEMISSION>Orange Is the New Black</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1027" GENRESIMPLE="Série dramatique">Série carcérale</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="16466624">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Orange Is the New Black</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26637070">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Orange Is the New Black / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Orange Is the New Black</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Plus près de toi, Poussey</SOUSTITRE>
+          <SOUSTITREORIGINAL>Breaking the Fiberboard Ceiling</SOUSTITREORIGINAL>
+          <DUREEEMI>54</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="285722">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Stanzler</NOM>
+            <PRENOM>Wendey</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="524158">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schilling</NOM>
+            <PRENOM>Taylor</PRENOM>
+            <ROLE>Piper Chapman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="430">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mulgrew</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Galina «Red» Reznikov</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1255381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aduba</NOM>
+            <PRENOM>Uzo</PRENOM>
+            <ROLE>Suzanne «Crazy Eyes» Warren</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1201436">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brooks</NOM>
+            <PRENOM>Danielle</PRENOM>
+            <ROLE>Tasha «Taystee» Jefferson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="352381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reiner</NOM>
+            <PRENOM>Alysia</PRENOM>
+            <ROLE>Natalie Figueroa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="158786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stone</NOM>
+            <PRENOM>Yael</PRENOM>
+            <ROLE>Lorna Morello</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1286173">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gómez</NOM>
+            <PRENOM>Laura</PRENOM>
+            <ROLE>Blanca Flores</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="338086">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Henke</NOM>
+            <PRENOM>Brad William</PRENOM>
+            <ROLE>Desi Piscatella</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1180182">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Morelli</NOM>
+            <PRENOM>Lauren</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Red et ses acolytes se demandent que faire de leur prisonnier. Gloria, elle, a élaboré une stratégie risquée pour exfiltrer les otages un par un.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Maintenant que le rapport de force a changé, Red et ses acolytes se demandent que faire de leur prisonnier. L'ancienne cuisinière tient à ce qu'il paie pour ses actes odieux. Gloria, elle, a élaboré une stratégie risquée pour exfiltrer les otages un par un. Boo poursuit sa liaison avec Linda mais fait une découverte qui remet tout en cause. Morello, qui gère la pharmacie, refuse d'indiquer quel traitement prenait Suzanne car elle s'oppose à la médication à tout va. Taystee continue à tenter de convaincre Figueroa qu'il est dans l'intérêt des services pénitenciaires d'améliorer les conditions de vie des prisonnières...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903328" DATEMODIF="2018-01-31T11:53:58">
+      <DATEHEURE>2018-02-22T00:10:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>The Last Kingdom</TITRE>
+      <SOUSTITREDIF>La prisonnière</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121926198" DATEMODIF="2018-01-30T11:07:42">
+        <TITREEMISSION>The Last Kingdom</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20351648">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / The Last Kingdom</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="25101806">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / The Last Kingdom / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Last Kingdom</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La prisonnière</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>8</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="215406">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Byrne</NOM>
+            <PRENOM>Anthony</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1217996">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dreymon</NOM>
+            <PRENOM>Alexander</PRENOM>
+            <ROLE>Uhtred de Bebbanburg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="527462">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dawson</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Alfred</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="621877">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Santelmann</NOM>
+            <PRENOM>Tobias</PRENOM>
+            <ROLE>Ragnar</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="509641">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cox</NOM>
+            <PRENOM>Emily</PRENOM>
+            <ROLE>Brida</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="144040">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bower</NOM>
+            <PRENOM>Adrian</PRENOM>
+            <ROLE>Loefric</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="304672">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gabrielsson</NOM>
+            <PRENOM>Thomas W</PRENOM>
+            <ROLE>Guthrum</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91672">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kunz</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>Odda l'Ancien</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="159506">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Newman</NOM>
+            <PRENOM>Alec</PRENOM>
+            <ROLE>le roi Aethelred</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="271726">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Butchard</NOM>
+            <PRENOM>Stephen</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Aethelflaed a disparu et Aethelred et les Saxons retournent à Winchester pour apprendre la nouvelle au roi Alfred, tandis qu'Uhtred rentre retrouver Gisela.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Aethelflaed a disparu et Aethelred et les Saxons retournent à Winchester pour apprendre la nouvelle au roi Alfred, tandis qu'Uhtred rentre retrouver Gisela, bien décidé à découvrir la vérité de lui-même. Alfred se replie dans ses retranchements et Odda se demande si la volonté du roi et le bien du royaume sont en péril. Devra-t-il accorder sa loyauté à l'un ou à l'autre ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E121926198.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903329" DATEMODIF="2018-01-31T11:53:59">
+      <DATEHEURE>2018-02-22T01:20:00</DATEHEURE>
+      <DUREE>300</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125805346" DATEMODIF="2018-01-31T11:53:58">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

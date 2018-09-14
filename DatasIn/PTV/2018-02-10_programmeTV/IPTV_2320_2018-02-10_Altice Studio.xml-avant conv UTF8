@@ -1,0 +1,2357 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:49:04-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="2320">
+    <NOMCHAINE>Altice Studio</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-10">
+    <DIFFUSION CLEDIF="171512170" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T05:10:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Tout sur ma mère</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="150833" DATEMODIF="2016-07-26T15:20:32">
+        <TITREEMISSION>Tout sur ma mère</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="655">
+          <PAYS>Espagne - France</PAYS>
+          <LIBELLE>hispano-français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Todo sobre mi madre</TITREORIGINAL>
+          <ANNEEREALISATION>1998</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>100</DUREEEMI>
+          <APPRECIATION>4</APPRECIATION>
+          <PALMARES>
+            <ANNEE>1999</ANNEE>
+            <FESTIVAL CLE="1">
+              <NOM>Festival International du Film de Cannes</NOM>
+              <LIEU>Cannes</LIEU>
+              <PAYS>France</PAYS>
+              <RECOMPENSE CLE="10">Prix de la Mise en scène</RECOMPENSE>
+            </FESTIVAL>
+          </PALMARES>
+          <PALMARES>
+            <ANNEE>2000</ANNEE>
+            <FESTIVAL CLE="23">
+              <NOM>César</NOM>
+              <PAYS>France</PAYS>
+              <RECOMPENSE CLE="32">Meilleur Film étranger</RECOMPENSE>
+            </FESTIVAL>
+          </PALMARES>
+          <PALMARES>
+            <ANNEE>2000</ANNEE>
+            <FESTIVAL CLE="37">
+              <NOM>Oscars</NOM>
+              <PAYS>Etats-Unis</PAYS>
+              <RECOMPENSE CLE="44">Meilleur Film étranger</RECOMPENSE>
+            </FESTIVAL>
+          </PALMARES>
+          <PALMARES>
+            <ANNEE>2000</ANNEE>
+            <FESTIVAL CLE="47">
+              <NOM>Golden Globes Awards</NOM>
+              <PAYS>Etats-Unis</PAYS>
+              <RECOMPENSE CLE="54">Meilleur film en langue étrangère</RECOMPENSE>
+            </FESTIVAL>
+          </PALMARES>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="119510">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Almodóvar</NOM>
+            <PRENOM>Pedro</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="29643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Roth</NOM>
+            <PRENOM>Cecilia</PRENOM>
+            <ROLE>Manuela</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21703">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Paredes</NOM>
+            <PRENOM>Marisa</PRENOM>
+            <ROLE>Huma Rojo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="167401">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Peña</NOM>
+            <PRENOM>Candela</PRENOM>
+            <ROLE>Nina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="119512">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>San Juan</NOM>
+            <PRENOM>Antonia</PRENOM>
+            <ROLE>Agrado</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="311618">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cruz</NOM>
+            <PRENOM>Penélope</PRENOM>
+            <ROLE>soeur María Rosa Sanz</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="56156">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sardà</NOM>
+            <PRENOM>Rosa Maria</PRENOM>
+            <ROLE>la mère de Rosa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="108744">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fernán Gómez</NOM>
+            <PRENOM>Fernando</PRENOM>
+            <ROLE>le père de Rosa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="119514">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cantó</NOM>
+            <PRENOM>Toni</PRENOM>
+            <ROLE>Lola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="36862">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Iglesias</NOM>
+            <PRENOM>Alberto</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>De Madrid à Barcelone, une femme, dont le fils unique vient de mourir devant ses yeux, tente d'accomplir son deuil en recherchant le père de l'enfant.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Manuela vit seule avec son unique fils Esteban, âgé de 17 ans. Elle travaille comme coordinatrice à l'Organisation nationale des transplantations, dans un hôpital de Madrid. Une réelle complicité l'unit à son fils Esteban, un fou de littérature qui souhaite devenir écrivain. Un soir, à la sortie d'un spectacle, Manuela confie à Esteban qu'elle a jadis joué dans une troupe amateur et que c'est à cette occasion qu'elle a rencontré son père, lui-même prénommé Esteban. Bouleversé par cette révélation, le jeune homme se promet d'en savoir plus sur son géniteur - un sujet jusque-là tabou. Quelques minutes plus tard, il est renversé par une voiture...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un scénario énigmatique et enflammé pour un film d'une beauté poignante, qui offre des moments d'émotion pure. Un chef-d'oeuvre.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E150833.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512171" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T06:50:00</DATEHEURE>
+      <DUREE>26</DUREE>
+      <TITRE>Ciné-séries, le mag</TITRE>
+      <SOUSTITREDIF>Episode 23</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125356063" DATEMODIF="2018-01-24T09:08:17">
+        <TITREEMISSION>Ciné-séries, le mag</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <SOUSTITRE>Episode 23</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="457009">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mahout</NOM>
+            <PRENOM>Candice</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Ce magazine d'information hebdomadaire aborde toute l'actualité ciné-série. Chaque semaine, un invité vient parler d'un film ou d'une série de son choix.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512172" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T07:16:00</DATEHEURE>
+      <DUREE>41</DUREE>
+      <TITRE>Taken</TITRE>
+      <SOUSTITREDIF>Braquage</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120744754" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Taken</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="206">
+          <PAYS>France - Etats-Unis</PAYS>
+          <LIBELLE>franco-américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26531463">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Taken</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26531446">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Taken / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Taken</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Braquage</SOUSTITRE>
+          <SOUSTITREORIGINAL>A Clockwork Swiss</SOUSTITREORIGINAL>
+          <DUREEEMI>50</DUREEEMI>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="3756">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Johnson</NOM>
+            <PRENOM>Clark</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="344">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Beals</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Christina Hart</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="530350">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Standen</NOM>
+            <PRENOM>Clive</PRENOM>
+            <ROLE>Bryan Mills</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="324974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alizada</NOM>
+            <PRENOM>Layla</PRENOM>
+            <ROLE>Elena</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="299357">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sudano</NOM>
+            <PRENOM>Brooklyn</PRENOM>
+            <ROLE>Asha Flynn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="433835">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Charles</NOM>
+            <PRENOM>Gaius</PRENOM>
+            <ROLE>John</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Curnen</NOM>
+            <PRENOM>Monique Gabriela</PRENOM>
+            <ROLE>Becca Vlasik</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="284421">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Irby</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Scott</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="345990">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cantillo</NOM>
+            <PRENOM>Jose Pablo</PRENOM>
+            <ROLE>Dave</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="217231">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Hawley</NOM>
+            <PRENOM>Jordan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Christina ordonne la récupération de documents sensibles à Zurich dans le but d'éviter une catastrophe économique et politique. Il faut braquer une banque.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Christina exige que des documents sensibles soient rapatriés de Zurich, afin d'éviter une véritable catastrophe économique et politique. Pour les récupérer, il faut braquer le coffre-fort d'une banque. L'opération tourne à une bataille rangée entre trois camps distincts. De son côté, Asha comprend qu'elle a eu tort de faire confiance à Elena. Bryan se retrouve très vulnérable...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E120744754.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512173" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T07:57:00</DATEHEURE>
+      <DUREE>44</DUREE>
+      <TITRE>Taken</TITRE>
+      <SOUSTITREDIF>La taupe</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120744756" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Taken</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="206">
+          <PAYS>France - Etats-Unis</PAYS>
+          <LIBELLE>franco-américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26531463">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Taken</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26531446">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Taken / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Taken</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La taupe</SOUSTITRE>
+          <SOUSTITREORIGINAL>Hail Mary</SOUSTITREORIGINAL>
+          <DUREEEMI>50</DUREEEMI>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="370607">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Alexander</NOM>
+            <PRENOM>Lexi</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="530350">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Standen</NOM>
+            <PRENOM>Clive</PRENOM>
+            <ROLE>Bryan Mills</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="433835">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Charles</NOM>
+            <PRENOM>Gaius</PRENOM>
+            <ROLE>John</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="344">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Beals</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Christina Hart</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1340784">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marsala</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Riley</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="299357">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sudano</NOM>
+            <PRENOM>Brooklyn</PRENOM>
+            <ROLE>Asha Flynn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Curnen</NOM>
+            <PRENOM>Monique Gabriela</PRENOM>
+            <ROLE>Becca Vlasik</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="284421">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Irby</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Scott</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="345990">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cantillo</NOM>
+            <PRENOM>Jose Pablo</PRENOM>
+            <ROLE>Dave</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="504475">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Daniels</NOM>
+            <PRENOM>Mike</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La CIA organise le départ d'un agent de renseignement russe qui souhaite les rejoindre, mais la petite amie de cet agent, compromet toute l'opération.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La CIA organise le départ d'un agent de renseignement russe qui souhaite les rejoindre, mais la petite amie de cet agent, qui est enceinte, compromet toute l'opération...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E120744756.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512174" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T08:41:00</DATEHEURE>
+      <DUREE>41</DUREE>
+      <TITRE>Taken</TITRE>
+      <SOUSTITREDIF>En solo</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120977456" DATEMODIF="2017-09-14T14:48:13">
+        <TITREEMISSION>Taken</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="206">
+          <PAYS>France - Etats-Unis</PAYS>
+          <LIBELLE>franco-américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26531463">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Taken</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26531446">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Taken / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Taken</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>En solo</SOUSTITRE>
+          <SOUSTITREORIGINAL>Solo</SOUSTITREORIGINAL>
+          <DUREEEMI>50</DUREEEMI>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="11093">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Keene</NOM>
+            <PRENOM>Elodie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="530350">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Standen</NOM>
+            <PRENOM>Clive</PRENOM>
+            <ROLE>Bryan Mills</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="433835">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Charles</NOM>
+            <PRENOM>Gaius</PRENOM>
+            <ROLE>John</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="344">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Beals</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Christina Hart</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1340784">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marsala</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Riley</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="299357">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sudano</NOM>
+            <PRENOM>Brooklyn</PRENOM>
+            <ROLE>Asha Flynn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Curnen</NOM>
+            <PRENOM>Monique Gabriela</PRENOM>
+            <ROLE>Becca Vlasik</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="284421">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Irby</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Scott</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="345990">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cantillo</NOM>
+            <PRENOM>Jose Pablo</PRENOM>
+            <ROLE>Dave</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="477391">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cary</NOM>
+            <PRENOM>Alexander</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="388343">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Swofford</NOM>
+            <PRENOM>Anthony</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors que l'équipe s'efforce de contrecarrer l'opération de trafic d'armes de Mejia, Bryan est enlevé. Celui-ci compte sur son entraînement pour s'en sortir.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alors que l'équipe s'efforce de contrecarrer l'opération de trafic d'armes de Mejia, Bryan est enlevé. Celui-ci compte sur son entraînement d'agent d'élite du renseignement pour s'en sortir. L'équipe lance une mission d'urgence pour venir à son secours. Pendant ce temps, Bryan et Asha se rapprochent...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E120977456.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512175" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T09:22:00</DATEHEURE>
+      <DUREE>43</DUREE>
+      <TITRE>Taken</TITRE>
+      <SOUSTITREDIF>Léah</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="120977457" DATEMODIF="2017-09-14T14:53:06">
+        <TITREEMISSION>Taken</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="206">
+          <PAYS>France - Etats-Unis</PAYS>
+          <LIBELLE>franco-américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26531463">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Taken</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26531446">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Taken / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Taken</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Léah</SOUSTITRE>
+          <SOUSTITREORIGINAL>Leah</SOUSTITREORIGINAL>
+          <DUREEEMI>50</DUREEEMI>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="55130">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Johnson</NOM>
+            <PRENOM>Bill</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="530350">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Standen</NOM>
+            <PRENOM>Clive</PRENOM>
+            <ROLE>Bryan Mills</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="433835">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Charles</NOM>
+            <PRENOM>Gaius</PRENOM>
+            <ROLE>John</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="344">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Beals</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Christina Hart</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1340784">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marsala</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Riley</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="299357">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sudano</NOM>
+            <PRENOM>Brooklyn</PRENOM>
+            <ROLE>Asha Flynn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Curnen</NOM>
+            <PRENOM>Monique Gabriela</PRENOM>
+            <ROLE>Becca Vlasik</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="284421">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Irby</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Scott</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="345990">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cantillo</NOM>
+            <PRENOM>Jose Pablo</PRENOM>
+            <ROLE>Dave</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="136142">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>West</NOM>
+            <PRENOM>Wendy</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'équipe porte assistance à une espionne israéliene qui montre les premiers signes de la maladie d'Alzheimer et qui est la cible de ses propres collègues.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'équipe porte assistance à une espionne israéliene qui montre les premiers signes de la maladie d'Alzheimer et qui est la cible de ses propres collègues. Christina craint de connaître un jour un destin similaire, car elle se sent menacée par son agence. Bryan ne fait pas confiance à Asha. Celle-ci lui en veut et une dispute éclate...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E120977457.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512176" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T10:05:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>La vie d'une autre</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="33713348" DATEMODIF="2015-01-06T08:54:24">
+        <TITREEMISSION>La vie d'une autre</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>97</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="12000">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Testud</NOM>
+            <PRENOM>Sylvie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2494">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Binoche</NOM>
+            <PRENOM>Juliette</PRENOM>
+            <ROLE>Marie Speranski</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11165">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kassovitz</NOM>
+            <PRENOM>Mathieu</PRENOM>
+            <ROLE>Paul Speranski</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="311626">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berléand</NOM>
+            <PRENOM>François</PRENOM>
+            <ROLE>maître Volin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="192">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dobtcheff</NOM>
+            <PRENOM>Vernon</PRENOM>
+            <ROLE>Dimitri Speranski</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="130835">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Atika</NOM>
+            <PRENOM>Aure</PRENOM>
+            <ROLE>Jeanne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1363">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lebrun</NOM>
+            <PRENOM>Danièle</PRENOM>
+            <ROLE>Denise Bontant</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="600652">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dachary-Le Béon</NOM>
+            <PRENOM>Yvi</PRENOM>
+            <ROLE>Adam Speranski</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="72821">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raymond</NOM>
+            <PRENOM>Didier</PRENOM>
+            <ROLE>Jean Vincard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92355">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Dziezuk</NOM>
+            <PRENOM>André</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A son réveil, une femme de 40 ans a oublié quinze ans de sa vie. Elle découvre ce qu'elle est devenue et tente de réparer les erreurs de son passé.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En visite chez ses parents à Antibes, Marie constate avec tristesse que son père a perdu son autonomie et que sa mère a retrouvé la sienne auprès du médecin. Les fils de leur riche voisin, Speranski, dont Marie espère qu'il lui offrira un poste chez Royal Invest, sont invités à son anniversaire. L'un d'eux, Paul, qui se destine à la bande dessinée, finit la nuit avec Marie. Le lendemain, lui semble-t-il, Marie se réveille. Mais elle ne reconnaît rien de ce qui l'entoure, ni l'appartement qu'elle découvre, ni l'enfant de 4 ans qui l'appelle maman et lui certifie qu'elle a 40 ans. Où sont passées les quinze dernières années, se demande avec angoisse Marie, qui n'en a gardé aucun souvenir ?...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Pour son premier film, Sylvie Testud propose une adaptation du roman homonyme de Frédérique Deghelt. L'actrice réalise un long métrage maladroit mais charmant, à l'équilibre fragile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E33713348.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512177" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T11:40:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Nine</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="14637997" DATEMODIF="2015-01-06T08:54:24">
+        <TITREEMISSION>Nine</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="135" GENRESIMPLE="Comédie musicale">Comédie musicale</GENRE>
+        <NATIONALITE CLE="42">
+          <PAYS>Etats-Unis - Italie</PAYS>
+          <LIBELLE>américano-italienne</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Nine</TITREORIGINAL>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>112</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="259081">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Marshall</NOM>
+            <PRENOM>Rob</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="12624">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Day-Lewis</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Guido Contini</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16363">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cotillard</NOM>
+            <PRENOM>Marion</PRENOM>
+            <ROLE>Luisa Contini</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="311618">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cruz</NOM>
+            <PRENOM>Penélope</PRENOM>
+            <ROLE>Carla</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14948">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kidman</NOM>
+            <PRENOM>Nicole</PRENOM>
+            <ROLE>Claudia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="838">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dench</NOM>
+            <PRENOM>Judi</PRENOM>
+            <ROLE>Lilli</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="118927">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hudson</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Stephanie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10144">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Loren</NOM>
+            <PRENOM>Sophia</PRENOM>
+            <ROLE>Mamma</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="469870">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferguson</NOM>
+            <PRENOM>Stacy</PRENOM>
+            <ROLE>Saraghina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="135010">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Guerra</NOM>
+            <PRENOM>Andrea</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans les années 60. Ecartelé entre les multiples femmes de sa vie, un réalisateur italien réputé ne parvient pas à terminer le scénario de son prochain film.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans les années 60, à Rome, Guido Contini, célèbre réalisateur, donne une conférence de presse attendue sur son prochain film. Il répond évasivement aux questions : le script n'est pas terminé, il est en manque d'inspiration. Le grand séducteur est tiraillé entre plusieurs femmes : il délaisse sa femme Luisa, une actrice qui a mis de côté sa carrière pour lui ; sa maîtresse Carla le harcèle, trop à son goût ; Stephanie, une journaliste américaine, entreprend de le séduire. Claudia, l'actrice qui doit tenir le rôle principal, lui reproche de ne pas l'aimer. Et sa mère lui donne des conseils pour l'inciter à mettre de l'ordre dans sa vie sentimentale...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Inspirée du film culte de Federico Fellini, «Huit et demi», cette comédie musicale ne parvient pas à séduire, malgré un casting exceptionnel.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E14637997.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512178" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T13:35:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Baytown Outlaws : les hors-la-loi</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="50255896" DATEMODIF="2014-10-18T15:38:42">
+        <TITREEMISSION>Baytown Outlaws : les hors-la-loi</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="218" GENRESIMPLE="Film d'aventures">Film d'action</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Baytown Outlaws</TITREORIGINAL>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>98</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="622987">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Battles</NOM>
+            <PRENOM>Barry</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="213990">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Crawford</NOM>
+            <PRENOM>Clayne</PRENOM>
+            <ROLE>Brick Oodie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="315484">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fimmel</NOM>
+            <PRENOM>Travis</PRENOM>
+            <ROLE>McQueen Oodie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="515419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cudmore</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Lincoln Oodie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="550509">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brodie-Sangster</NOM>
+            <PRENOM>Thomas</PRENOM>
+            <ROLE>Rob</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10536">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thornton</NOM>
+            <PRENOM>Billy Bob</PRENOM>
+            <ROLE>Carlos</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="276933">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Longoria</NOM>
+            <PRENOM>Eva</PRENOM>
+            <ROLE>Celeste</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="542896">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braugher</NOM>
+            <PRENOM>Andre</PRENOM>
+            <ROLE>Millard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27765">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rapaport</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Lucky</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="622985">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Christides</NOM>
+            <PRENOM>Kostas</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="4728">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Young</NOM>
+            <PRENOM>Christopher</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une femme engage trois frères pour qu'ils l'aident à récupérer son fils. Le trio se retrouve aux prises avec divers personnages aussi fantasques que dangereux.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans le sud des Etats-Unis, une querelle de couple tourne mal. Carlos ouvre le feu sur son ancienne épouse Celeste et l'abandonne à son sort, emmenant avec lui son fils Rob. Remise de ses blessures, Celeste engage trois frères, Brick, McQueen et Lincoln, afin de l'aider à récupérer Rob. L'équipe réalise que l'opération de routine ne sera pas si simple qu'imaginée. Le trio se retrouve confronté à des pirates de la route, des agents fédéraux et bien d'autres adversaires...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film d'action à la manière de Tarantino, le talent en moins, mais dont le rythme soutenu évite l'ennui.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E50255896.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512179" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T15:15:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>The Voices</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="82462037" DATEMODIF="2017-08-22T15:01:37">
+        <TITREEMISSION>The Voices</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="10">
+          <PAYS>Etats-Unis - Allemagne</PAYS>
+          <LIBELLE>américano-allemande</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Voices</TITREORIGINAL>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>107</DUREEEMI>
+          <CENSURE CLE="12">Interdit aux moins de 12</CENSURE>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="192456">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Satrapi</NOM>
+            <PRENOM>Marjane</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="42483">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reynolds</NOM>
+            <PRENOM>Ryan</PRENOM>
+            <ROLE>Jerry</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="475587">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kendrick</NOM>
+            <PRENOM>Anna</PRENOM>
+            <ROLE>Lisa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="436633">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Arterton</NOM>
+            <PRENOM>Gemma</PRENOM>
+            <ROLE>Fiona</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="62346">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Weaver</NOM>
+            <PRENOM>Jacki</PRENOM>
+            <ROLE>la psychiatre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="586090">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGrath</NOM>
+            <PRENOM>Gulliver</PRENOM>
+            <ROLE>Jerry adolescent</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="248697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vogt</NOM>
+            <PRENOM>Stephanie</PRENOM>
+            <ROLE>Tina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1231095">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shankar</NOM>
+            <PRENOM>Adi</PRENOM>
+            <ROLE>Trendy John</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="462934">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smith</NOM>
+            <PRENOM>Ella</PRENOM>
+            <ROLE>Alison</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="419175">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Bernet</NOM>
+            <PRENOM>Olivier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un ouvrier simplet d'une usine de baignoires arrive à converser avec ses deux animaux de compagnie. L'un d'eux l'entraîne dans une spirale meurtrière.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans la petite ville américaine de Milton, Jerry Hickfang est un employé aimable et simplet d'une usine de baignoires. Célibataire, il s'est entouré de deux animaux domestiques avec lesquels il converse très naturellement : un chat psychopathe nommé monsieur Moustache et son gentil chien Bosco. Jerry va régulièrement chez sa psy. Il tombe par ailleurs amoureux de sa collègue Fiona, qui gère la comptabilité de l'entreprise, et entame une liaison avec elle. Mais alors que ses animaux s'immiscent dans cette relation, Jerry finit par tuer la jeune femme. Obéissant aux conseils de l'une de ses bêtes, il entre dans une spirale meurtrière et voit les cadavres s'entasser chez lui...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une nouvelle fois, Marjane Satrapi fait preuve de son talent dans cette comédie horrifique totalement déjantée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E82462037.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512180" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T17:05:00</DATEHEURE>
+      <DUREE>133</DUREE>
+      <TITRE>Rise of the Legend</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113307635" DATEMODIF="2017-08-30T13:21:32">
+        <TITREEMISSION>Rise of the Legend</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="218" GENRESIMPLE="Film d'aventures">Film d'action</GENRE>
+        <NATIONALITE CLE="846">
+          <PAYS>Chine - HongKong</PAYS>
+          <LIBELLE>sino-hongkongais</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Huang feihong zhi yingxiong you meng</TITREORIGINAL>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>131</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1349147">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Chow Hin-Yeung</NOM>
+            <PRENOM>Roy</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="628100">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Peng</NOM>
+            <PRENOM>Eddie</PRENOM>
+            <ROLE>Fei</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="117566">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hung</NOM>
+            <PRENOM>Sammo</PRENOM>
+            <ROLE>Maître Lui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1349144">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Luodan</NOM>
+            <PRENOM>Wang</PRENOM>
+            <ROLE>Chun</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1320056">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boran</NOM>
+            <PRENOM>Jing</PRENOM>
+            <ROLE>Fiery</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1349145">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cho-Lam</NOM>
+            <PRENOM>Wong</PRENOM>
+            <ROLE>Tooth</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="457249">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Junjie</NOM>
+            <PRENOM>Qin</PRENOM>
+            <ROLE>Foon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1349146">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tai-Yu</NOM>
+            <PRENOM>Gao</PRENOM>
+            <ROLE>Wing</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29324">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mann</NOM>
+            <PRENOM>Byron</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="256384">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Umebayashi</NOM>
+            <PRENOM>Shigeru</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune homme, dont le père a été tué quand il était enfant, apprend les arts martiaux et cherche à se venger de ceux qui ont brisé sa vie.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Quand il était enfant, le père de Fei a été tué sous ses yeux. Le temps a passé et Fei a grandi. Il cherche maintenant à se venger. Il apprend les arts martiaux et part sur les piste des assassins...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film d'action très spectaculaire, aux combats impressionnants.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E113307635.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512181" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T19:18:00</DATEHEURE>
+      <DUREE>92</DUREE>
+      <TITRE>Kill Me Three Times</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="105970811" DATEMODIF="2016-06-08T23:00:17">
+        <TITREEMISSION>Kill Me Three Times</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="307" GENRESIMPLE="Film de suspense">Thriller</GENRE>
+        <NATIONALITE CLE="11">
+          <PAYS>Etats-Unis - Australie</PAYS>
+          <LIBELLE>américano-australien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Kill Me Three Times</TITREORIGINAL>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1188631">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Stenders</NOM>
+            <PRENOM>Kriv</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="142875">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pegg</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>Charlie Wolfe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="327816">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Marquand</NOM>
+            <PRENOM>Steve</PRENOM>
+            <ROLE>Sam</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="440205">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braga</NOM>
+            <PRENOM>Alice</PRENOM>
+            <ROLE>Alice Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="397704">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Palmer</NOM>
+            <PRENOM>Teresa</PRENOM>
+            <ROLE>Lucy Webb</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="181206">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stapleton</NOM>
+            <PRENOM>Sullivan</PRENOM>
+            <ROLE>Nathan Webb</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1268501">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hemsworth</NOM>
+            <PRENOM>Luke</PRENOM>
+            <ROLE>Dylan Smith</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18174">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mulvey</NOM>
+            <PRENOM>Callan</PRENOM>
+            <ROLE>Jack Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="319">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brown</NOM>
+            <PRENOM>Bryan</PRENOM>
+            <ROLE>Bruce Jones</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="107540">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Klimek</NOM>
+            <PRENOM>Johnny</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En Australie, un mari qui se sait trompé paie un tueur à gages pour régler définitivement la question, mais la situation lui échappe irrémédiablement.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans la petite ville d'Eagle's Nest, en Australie, tout finit toujours par se savoir. C'est ainsi qu'un mari découvre que sa femme le trompe. Bien décidé à se venger, il engage un tueur et le lance sur la piste de l'épouse infidèle. Mais la situation lui échappe et les cadavres s'accumulent...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un thriller qui mêle action, suspense et quelques pointes d'humour, avec Simon Pegg, dans le rôle d'un tueur plein d'ironie.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E105970811.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512182" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T20:50:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>I Know Who You Are</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125528447" DATEMODIF="2018-01-24T09:38:14">
+        <TITREEMISSION>I Know Who You Are</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="192">
+          <PAYS>Espagne</PAYS>
+          <LIBELLE>espagnole</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="30086603">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / I Know Who You Are</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="30086569">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / I Know Who You Are / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Sé quién eres</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITREORIGINAL>Matar al padre</SOUSTITREORIGINAL>
+          <DUREEEMI>70</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="259818">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Freixas</NOM>
+            <PRENOM>Pau</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="197926">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garrido</NOM>
+            <PRENOM>Francesc</PRENOM>
+            <ROLE>Juan Elías</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="369700">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Portillo</NOM>
+            <PRENOM>Blanca</PRENOM>
+            <ROLE>Alicia Castro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="256267">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Folch</NOM>
+            <PRENOM>Aida</PRENOM>
+            <ROLE>Eva Durán</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1359349">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Francino</NOM>
+            <PRENOM>Carles</PRENOM>
+            <ROLE>David Vila</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="70802">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dechent</NOM>
+            <PRENOM>Antonio</PRENOM>
+            <ROLE>Ricardo Heredia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73352">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Novo</NOM>
+            <PRENOM>Nancho</PRENOM>
+            <ROLE>Ramón Saura</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="301540">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Santolaria</NOM>
+            <PRENOM>Eva</PRENOM>
+            <ROLE>Marta Hess</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="153392">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sodupe</NOM>
+            <PRENOM>Mar</PRENOM>
+            <ROLE>Silvia Castro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="259818">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Freixas</NOM>
+            <PRENOM>Pau</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1365544">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Mercadé</NOM>
+            <PRENOM>Ivan</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1365545">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>González Laá</NOM>
+            <PRENOM>Silvia</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1365546">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cortecans</NOM>
+            <PRENOM>Pol</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'enquête progresse et permet de démontrer que le soir de l'accident, Elías avait pris de la kétamine. Eva ne sait plus que penser à son sujet.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Lors d'un cours, Elías motive ses étudiants à soutenir sa candidature au poste de directeur de l'université. Il manipule Ana afin qu'elle dirige sa campagne. L'enquête progresse, et la police découvre que le soir de l'accident, Elías avait pris de la kétamine. Les investigations permettent également de découvrir qui avait acheté la drogue. Pol et Marc se retrouvent inquiétés. Quant à Eva, elle ne sait plus que penser d'Elías... 
+</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125528447.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512183" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T21:55:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>I Know Who You Are</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125529927" DATEMODIF="2018-01-31T10:03:49">
+        <TITREEMISSION>I Know Who You Are</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="192">
+          <PAYS>Espagne</PAYS>
+          <LIBELLE>espagnole</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="30086603">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / I Know Who You Are</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="30086569">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / I Know Who You Are / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Sé quién eres</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITREORIGINAL>La ley de la permanencia</SOUSTITREORIGINAL>
+          <DUREEEMI>70</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="259818">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Freixas</NOM>
+            <PRENOM>Pau</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="197926">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garrido</NOM>
+            <PRENOM>Francesc</PRENOM>
+            <ROLE>Juan Elías</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="369700">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Portillo</NOM>
+            <PRENOM>Blanca</PRENOM>
+            <ROLE>Alicia Castro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="256267">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Folch</NOM>
+            <PRENOM>Aida</PRENOM>
+            <ROLE>Eva Durán</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1359349">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Francino</NOM>
+            <PRENOM>Carles</PRENOM>
+            <ROLE>David Vila</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="70802">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dechent</NOM>
+            <PRENOM>Antonio</PRENOM>
+            <ROLE>Ricardo Heredia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73352">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Novo</NOM>
+            <PRENOM>Nancho</PRENOM>
+            <ROLE>Ramón Saura</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="301540">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Santolaria</NOM>
+            <PRENOM>Eva</PRENOM>
+            <ROLE>Marta Hess</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="153392">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sodupe</NOM>
+            <PRENOM>Mar</PRENOM>
+            <ROLE>Silvia Castro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="259818">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Freixas</NOM>
+            <PRENOM>Pau</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1365544">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Mercadé</NOM>
+            <PRENOM>Ivan</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1365545">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>González Laá</NOM>
+            <PRENOM>Silvia</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1365546">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cortecans</NOM>
+            <PRENOM>Pol</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ana avait essayé de coucher avec Juan Elías, lors d'une soirée à l'université. Elías ayant refusé sèchement, Ana s'était vengée en couchant avec son demi-frère, Marc. Juan Elías rend visite à Hector, son beau-père, en prison. Il veut savoir pourquoi Ana venait lui rendre visite. Hector lui annonce qu'il peut lui révéler où se trouve Ana, mais il veut d'abord que Juan oblige son petit-fils, Pol, à venir le voir. Eva, David et Marta forcent la juge Muñoz à abandonner l'enquête au profit de Santos, un nouveau juge plus impartial...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125529927.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512184" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T23:05:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Riviera</TITRE>
+      <SOUSTITREDIF>Le don</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118807357" DATEMODIF="2017-09-08T14:36:57">
+        <TITREEMISSION>Riviera</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="130">
+          <PAYS>Grande-Bretagne - France</PAYS>
+          <LIBELLE>britannico-française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26838787">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Riviera</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26838762">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Riviera / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le don</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="8464">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Jordan</NOM>
+            <PRENOM>Neil</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="4451">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stiles</NOM>
+            <PRENOM>Julia</PRENOM>
+            <ROLE>Georgina Clios</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30502">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olin</NOM>
+            <PRENOM>Lena</PRENOM>
+            <ROLE>Irina Clios</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="144132">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lester</NOM>
+            <PRENOM>Adrian</PRENOM>
+            <ROLE>Robert Carver</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="541726">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rheon</NOM>
+            <PRENOM>Iwan</PRENOM>
+            <ROLE>Adam Clios</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="565247">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duran</NOM>
+            <PRENOM>Roxane</PRENOM>
+            <ROLE>Adriana Clios</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors que les investigations d'Interpol se précisent, Georgina et Carver décident de clore l'enquête. De son côté, Irina révèle un secret de famille à Negrescu.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C118807357.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512185" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-10T23:50:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Riviera</TITRE>
+      <SOUSTITREDIF>La clé</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="119080973" DATEMODIF="2017-08-30T16:29:03">
+        <TITREEMISSION>Riviera</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="130">
+          <PAYS>Grande-Bretagne - France</PAYS>
+          <LIBELLE>britannico-française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26838787">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Riviera</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26838762">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Riviera / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La clé</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="8464">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Jordan</NOM>
+            <PRENOM>Neil</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="4451">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stiles</NOM>
+            <PRENOM>Julia</PRENOM>
+            <ROLE>Georgina Clios</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30502">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olin</NOM>
+            <PRENOM>Lena</PRENOM>
+            <ROLE>Irina Clios</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="144132">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lester</NOM>
+            <PRENOM>Adrian</PRENOM>
+            <ROLE>Robert Carver</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="541726">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rheon</NOM>
+            <PRENOM>Iwan</PRENOM>
+            <ROLE>Adam Clios</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="565247">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duran</NOM>
+            <PRENOM>Roxane</PRENOM>
+            <ROLE>Adriana Clios</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C119080973.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512186" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-11T00:35:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>'71</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="82071595" DATEMODIF="2017-07-06T23:12:44">
+        <TITREEMISSION>'71</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="238" GENRESIMPLE="Film de guerre">Film de guerre</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>'71</TITREORIGINAL>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>100</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="456459">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Demange</NOM>
+            <PRENOM>Yann</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="47063">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>O'Connell</NOM>
+            <PRENOM>Jack</PRENOM>
+            <ROLE>Gary Hook</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="227927">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Harris</NOM>
+            <PRENOM>Sean</PRENOM>
+            <ROLE>Sandy Browning</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="574489">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reid</NOM>
+            <PRENOM>Sam</PRENOM>
+            <ROLE>le lieutenant Armitage</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="57578">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Anderson</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>Leslie Lewis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1240678">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Keoghan</NOM>
+            <PRENOM>Barry</PRENOM>
+            <ROLE>Sean Bannon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="50730">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murphy</NOM>
+            <PRENOM>Charlie</PRENOM>
+            <ROLE>Brigid</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="581837">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kane</NOM>
+            <PRENOM>Valene</PRENOM>
+            <ROLE>Orla</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1193681">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scott</NOM>
+            <PRENOM>Killian</PRENOM>
+            <ROLE>Quinn</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A Belfast en 1971, un jeune soldat de l'armée britannique se retrouve isolé en territoire catholique : les milices de tous bords le recherchent.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Gary Hook, père de famille, est un jeune soldat britannique qui vient de finir ses classes. Il est envoyé à Belfast pour assurer la sécurité et apaiser les tensions entre les communautés catholiques et protestantes dans la capitale nord-irlandaise. Mal préparés, les soldats ont à peine le temps de prendre leur poste que les révoltes commencent dans les rues. Gary est pris au piège, avec ses compagnons d'armes et poursuivi par une milice armée. Il leur échappe, mais ne sait pas comment réintégrer sa base alors qu'il erre en territoire ennemi. Il se retrouve à la merci des loyalistes, censés le ramener à bon port...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un drame de guerre réaliste, qui rend bien compte de la situation confuse qui régnait en Irlande du Nord au début des années 1970</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E82071595.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512187" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-11T02:15:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Truands</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="6740353" DATEMODIF="2016-07-07T20:30:03">
+        <TITREEMISSION>Truands</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="267" GENRESIMPLE="Film policier">Film policier</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2005</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>103</DUREEEMI>
+          <CENSURE CLE="16">Interdit aux moins de 16</CENSURE>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="285645">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Schoendoerffer</NOM>
+            <PRENOM>Frédéric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="318186">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Magimel</NOM>
+            <PRENOM>Benoît</PRENOM>
+            <ROLE>Franck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10455">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caubère</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Claude Corti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="321675">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dalle</NOM>
+            <PRENOM>Béatrice</PRENOM>
+            <ROLE>Béatrice</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="600">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marchal</NOM>
+            <PRENOM>Olivier</PRENOM>
+            <ROLE>Jean-Guy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="240945">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nebbou</NOM>
+            <PRENOM>Mehdi</PRENOM>
+            <ROLE>Hicham</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4084">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sisley</NOM>
+            <PRENOM>Tomer</PRENOM>
+            <ROLE>Larbi</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88903">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schoendoerffer</NOM>
+            <PRENOM>Ludovic</PRENOM>
+            <ROLE>Ricky</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61096">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marivin</NOM>
+            <PRENOM>Anne</PRENOM>
+            <ROLE>Laure</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="26509">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Coulais</NOM>
+            <PRENOM>Bruno</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans le milieu du grand banditisme, un seul homme étend son influence à tous les domaines. Mais un séjour en prison le met à la merci d'un rival.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A 50 ans, Claude Corti domine le milieu du grand banditisme parisien. Du proxénétisme au trafic de stupéfiants, des rackets et des braquages à la fausse monnaie, toutes les activités illicites passent par lui. Cette suprématie, il l'a imposée par la seule force de sa violence, engageant des tueurs à gages efficaces. C'est ainsi qu'il fait appel aux talents de Franck, un des meilleurs tueurs du milieu, qui refuse, préférant conserver son indépendance. Lors d'un deal de cocaïne, Corti s'associe avec Hicham et Larbi, deux truands ambitieux. Mais les choses tournent mal et les relations de confiance entre les hommes s'effritent...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film de gangsters qui domine largement la production actuelle, tant par sa force que par son originalité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E6740353.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171512188" DATEMODIF="2018-02-07T09:21:06">
+      <DATEHEURE>2018-02-11T04:05:00</DATEHEURE>
+      <DUREE>127</DUREE>
+      <TITRE>La pianiste</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="326349" DATEMODIF="2016-05-21T20:23:23">
+        <TITREEMISSION>La pianiste</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="1406">
+          <PAYS>France - Autriche - Pologne</PAYS>
+          <LIBELLE>franco-austro-polonais</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2001</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>129</DUREEEMI>
+          <CENSURE CLE="16">Interdit aux moins de 16</CENSURE>
+          <APPRECIATION>3</APPRECIATION>
+          <PALMARES>
+            <ANNEE>2001</ANNEE>
+            <FESTIVAL CLE="1">
+              <NOM>Festival International du Film de Cannes</NOM>
+              <LIEU>Cannes</LIEU>
+              <PAYS>France</PAYS>
+              <RECOMPENSE CLE="3">Grand Prix du Jury</RECOMPENSE>
+              <PARTICIPANT>
+                <PERSONNE CLE="3717">
+                  <NOM>Huppert</NOM>
+                  <PRENOM>Isabelle</PRENOM>
+                </PERSONNE>
+                <RECOMPENSE CLE="4">Prix d'interprétation féminine</RECOMPENSE>
+              </PARTICIPANT>
+              <PARTICIPANT>
+                <PERSONNE CLE="318186">
+                  <NOM>Magimel</NOM>
+                  <PRENOM>Benoît</PRENOM>
+                </PERSONNE>
+                <RECOMPENSE CLE="9">Prix d'interprétation masculine</RECOMPENSE>
+              </PARTICIPANT>
+            </FESTIVAL>
+          </PALMARES>
+          <PALMARES>
+            <ANNEE>2002</ANNEE>
+            <FESTIVAL CLE="23">
+              <NOM>César</NOM>
+              <PAYS>France</PAYS>
+              <PARTICIPANT>
+                <PERSONNE CLE="1870">
+                  <NOM>Girardot</NOM>
+                  <PRENOM>Annie</PRENOM>
+                </PERSONNE>
+                <RECOMPENSE CLE="29">Meilleure Actrice dans un Second rôle</RECOMPENSE>
+              </PARTICIPANT>
+            </FESTIVAL>
+          </PALMARES>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="766">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Haneke</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3717">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Huppert</NOM>
+            <PRENOM>Isabelle</PRENOM>
+            <ROLE>Erika Kohut</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="318186">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Magimel</NOM>
+            <PRENOM>Benoît</PRENOM>
+            <ROLE>Walter Klemmer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1870">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Girardot</NOM>
+            <PRENOM>Annie</PRENOM>
+            <ROLE>la mère</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="179189">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sigalevitch</NOM>
+            <PRENOM>Anna</PRENOM>
+            <ROLE>Anna Schober</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18034">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lothar</NOM>
+            <PRENOM>Susanne</PRENOM>
+            <ROLE>madame Schober</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="770">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Samel</NOM>
+            <PRENOM>Udo</PRENOM>
+            <ROLE>le docteur Blonskij</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="68324">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Köndgen</NOM>
+            <PRENOM>Cornelia</PRENOM>
+            <ROLE>madame Blonskij</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="76370">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Melichar</NOM>
+            <PRENOM>Rudolf</PRENOM>
+            <ROLE>le directeur</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La relation destructrice d'une professeur de musique, quadragénaire profondément perverse, et d'un jeune élève fougueux dont elle rêve de faire son «maître».</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A 40 ans, Erika Kohut, femme glaciale et dure, mène une triste existence entre ses cours de piano et l'appartement qu'elle partage toujours avec son étouffante génitrice. Un rapport sado-masochiste unit les deux femmes, la plus âgée entretenant insidieusement les névroses de la plus jeune. Complètement inhibée, la vie sexuelle d'Erika se résume à d'étranges rituels solitaires mêlant voyeurisme et auto-mutilation. Au cours d'un concert donné dans un salon privé de la bonne société autrichienne, Erika fait la connaissance de Walter Klemmer, un fougueux et arrogant jeune homme, qui se met aussitôt en tête de devenir son élève...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Haneke suscite une nouvelle fois le malaise en montrant la perversité à l'état brut. Isabelle Huppert et Annie Girardot sont stupéfiantes dans ce drame épuré, tragique et violent, adapté d'un roman d'Elfriede Jelinek, prix Nobel de littérature 2004.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E326349.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

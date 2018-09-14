@@ -1,0 +1,2310 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:13:17-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="202">
+    <NOMCHAINE>RTS Un</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-11">
+    <DIFFUSION CLEDIF="171470548" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T07:00:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>RTS Info</TITRE>
+      <SOUSTITREDIF>L'actualité en continu</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="87458254" DATEMODIF="2017-04-27T11:17:42">
+        <TITREEMISSION>RTS Info</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <SOUSTITRE>L'actualité en continu</SOUSTITRE>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470549" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T07:10:00</DATEHEURE>
+      <DUREE>170</DUREE>
+      <TITRE>RTS Kids</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125491523" DATEMODIF="2018-02-05T14:50:27">
+        <TITREEMISSION>RTS Kids</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="403" GENRESIMPLE="Magazine jeunesse">Magazine jeunesse</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="15186826">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / RTS Kids</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470550" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T10:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <SURTITRE>Le doc nature</SURTITRE>
+      <TITRE>Les mondes inondés : vivre entre deux eaux</TITRE>
+      <SOUSTITREDIF>Loango, le joyau d'Afrique</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="84064585" DATEMODIF="2017-04-24T23:04:02">
+        <TITREEMISSION>Les mondes inondés</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="368" GENRESIMPLE="Documentaire">Nature</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="14219295">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Les mondes inondés</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Loango : le joyau de l'Afrique</SOUSTITRE>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>5</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="101003">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Marescot</NOM>
+            <PRENOM>Luc</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>De l'Afrique au Canada, une exploration de la vie foisonnante des grandes zones humides : dans cet épisode, zoom sur les mondes inondés du parc de Loango, au Gabon.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E84064585.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470551" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T10:50:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Les saisons de pique-assiette</TITRE>
+      <SOUSTITREDIF>Episode 5 : Pasta e ceci, Angelo Citiulo</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125495818" DATEMODIF="2018-01-30T11:04:15">
+        <TITREEMISSION>Les saisons de pique-assiette</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="29837806">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les saisons de pique-assiette</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Episode 5 : Pasta e ceci, Angelo Citiulo</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="277328">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Jeanmairet</NOM>
+            <PRENOM>Annick</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1262084">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Citiulo</NOM>
+            <PRENOM>Angelo</PRENOM>
+            <ROLE>chef cuisinier</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Pour cette nouvelle saison, Annick Jeanmairet concocte des recettes de saisons : des plats ou produits du terroir, cuisinés avec des ingrédients récoltés au fil des mois.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470552" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T11:20:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <SURTITRE>Le doc découvertes</SURTITRE>
+      <TITRE>On va marcher sur l'Everest</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="97654726" DATEMODIF="2017-06-26T23:12:31">
+        <TITREEMISSION>On va marcher sur l'Everest</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="356" GENRESIMPLE="Documentaire">Aventures</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="524666">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Damilano</NOM>
+            <PRENOM>François</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Encadrée par le guide suisse Kari Kobler, une équipe d'alpinistes entame la difficile ascension de l'Everest, qui culmine à 8848 mètres d'altitude.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E97654726.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470553" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T12:20:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Géopolitis</TITRE>
+      <SOUSTITREDIF>Corruption, la lutte continue</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123009902" DATEMODIF="2017-12-10T23:30:34">
+        <TITREEMISSION>Géopolitis</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="398" GENRESIMPLE="Magazine d'information">Magazine de géopolitique</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2157067">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Géopolitis</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Corruption, la lutte continue</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="100748">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mione</NOM>
+            <PRENOM>Marcel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1359951">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Pieth</NOM>
+            <PRENOM>Mark</PRENOM>
+            <ROLE>professeur de droit criminel</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>FIFA, Petrobras au Brésil, Dilma Rousseff et la présidente de Corée du Sud destituées, ces scandales récents mettent en lumière le clientélisme des Etats du monde entier. La corruption est-elle pour autant un mal incurable ? Les opinions publiques peuvent-elles faire reculer le monstre ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470554" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T12:35:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Ensemble</TITRE>
+      <SOUSTITREDIF>Aide suisse aux montagnards</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="9653381" DATEMODIF="2016-01-29T12:11:21">
+        <TITREEMISSION>Ensemble</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="98486">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Ensemble</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Aide suisse aux montagnards</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'Aide Suisse aux Montagnards est une oeuvre d'entraide privée qui intervient en Suisse auprès des populations de montagne, afin d'améliorer les conditions de vie des agriculteurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470555" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T12:45:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Le 12h45</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125491525" DATEMODIF="2018-02-05T14:50:27">
+        <TITREEMISSION>Le 12h45</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14112419">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Le 12h45</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470556" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T13:15:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125491526" DATEMODIF="2018-02-05T14:50:27">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470557" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T13:25:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Pardonnez-moi</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125491527" DATEMODIF="2018-02-05T14:49:09">
+        <TITREEMISSION>Pardonnez-moi</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2820193">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Pardonnez-moi</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="150165">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Rochebin</NOM>
+            <PRENOM>Darius</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="318184">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Depardieu</NOM>
+            <PRENOM>Gérard</PRENOM>
+            <ROLE>pour le spectacle «Depardieu chante Barbara»</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Gérard Depardieu accorde un entretien à Darius Rochebin avant sa venue en Suisse pour le spectacle «Depardieu chante Barbara», alors qu'il est nommé pour les Victoires de la Musique 2018.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125491527.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470558" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T14:10:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Capitaine Marleau</TITRE>
+      <SOUSTITREDIF>Philippe Muir</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="116719746" DATEMODIF="2017-05-17T09:34:55">
+        <TITREEMISSION>Capitaine Marleau</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="25934517">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Capitaine Marleau</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="25934492">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Capitaine Marleau / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Philippe Muir</SOUSTITRE>
+          <DUREEEMI>90</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="2005">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dayan</NOM>
+            <PRENOM>Josée</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="385034">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Masiero</NOM>
+            <PRENOM>Corinne</PRENOM>
+            <ROLE>le capitaine Marleau</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="318184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Depardieu</NOM>
+            <PRENOM>Gérard</PRENOM>
+            <ROLE>Philippe Muir</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14585">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vincent</NOM>
+            <PRENOM>Hélène</PRENOM>
+            <ROLE>Blanche Muir</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilkening</NOM>
+            <PRENOM>Catherine</PRENOM>
+            <ROLE>Cécile Castelnau</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="271965">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Drouot</NOM>
+            <PRENOM>Jean-Claude</PRENOM>
+            <ROLE>Léopold Salaun</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="556">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Benguigui</NOM>
+            <PRENOM>Jean</PRENOM>
+            <ROLE>Pierre Lacoudre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="575803">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mercer</NOM>
+            <PRENOM>Samuel</PRENOM>
+            <ROLE>Samuel Muir</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="87057">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dumas</NOM>
+            <PRENOM>Julie</PRENOM>
+            <ROLE>Jennifer Lavaux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="564260">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Marpeau</NOM>
+            <PRENOM>Elsa</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une capitaine de police coriace mais aux méthodes peu conventionnelles mène l'enquête après la découverte du corps d'une jeune femme dans une entreprise.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Derrière des manières décalées, le capitaine Marleau a l'instinct du chasseur. Elle guette ses proies et les surprend à l'improviste. Un jour, le corps d'une femme assassinée est retrouvé dans l'entreprise de transports de Philippe Muir. Tout joue en sa défaveur. En effet, ce n'est pas la première femme qui meurt dans son entourage. Parmi les disparues, sa première petite amie, puis sa femme, Héloïse. Son sentiment de malédiction serait-il un symptôme psychotique de sa culpabilité ? Est-ce que Philippe tue les femmes qui l'aiment ? L'hypothèse prend toute sa force lorsque sa propre soeur, Blanche, réchappe de justesse d'un accident de voiture...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E116719746.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470559" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T15:40:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>MacGyver</TITRE>
+      <SOUSTITREDIF>MacMurdoc</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="115231201" DATEMODIF="2018-02-07T11:29:32">
+        <TITREEMISSION>MacGyver *2016</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="22209546">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / MacGyver *2016</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22209514">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / MacGyver *2016 / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>MacGyver</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>MacMurdoc</SOUSTITRE>
+          <SOUSTITREORIGINAL>Hole Puncher</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>20</NUMERO>
+            <NOMBRE>21</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1266333">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Allen Rosenbaum</NOM>
+            <PRENOM>Elizabeth</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="485142">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Till</NOM>
+            <PRENOM>Lucas</PRENOM>
+            <ROLE>Angus MacGyver</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15862">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Eads</NOM>
+            <PRENOM>George</PRENOM>
+            <ROLE>Jack Dalton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="451194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hires</NOM>
+            <PRENOM>Justin</PRENOM>
+            <ROLE>Wilt Bozer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="513313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mays</NOM>
+            <PRENOM>Tristin</PRENOM>
+            <ROLE>Riley Ravis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1192112">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dastmalchian</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Murdoc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="225545">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Eaton</NOM>
+            <PRENOM>Meredith</PRENOM>
+            <ROLE>Matty Webber</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="212918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mapother</NOM>
+            <PRENOM>William</PRENOM>
+            <ROLE>Daniel Holt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="351976">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cohen</NOM>
+            <PRENOM>Assaf</PRENOM>
+            <ROLE>Joshua Abdal Khan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="245998">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Slack</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="507803">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>O'Neill</NOM>
+            <PRENOM>Craig S</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Après avoir intercepté un message, MacGyver décide de se faire passer pour Murdoc afin de protéger la cible d'un meurtre et de découvrir qui l'a commandité.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La fondation Phoenix intercepte un message destiné à Murdoc. Ignorant que le tueur à gage est en prison, un groupe terroriste lui demande d'abattre un homme surnommé l'Architecte.  MacGyver décide de se faire passer pour son ennemi juré afin de protéger la cible et de découvrir qui a commandité cet assassinat...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470560" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T16:25:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>MacGyver</TITRE>
+      <SOUSTITREDIF>Superstition</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="115231203" DATEMODIF="2018-02-07T11:29:37">
+        <TITREEMISSION>MacGyver *2016</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="22209546">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / MacGyver *2016</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="22209514">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / MacGyver *2016 / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>MacGyver</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Superstition</SOUSTITRE>
+          <SOUSTITREORIGINAL>Cigar Cutter</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>21</NUMERO>
+            <NOMBRE>21</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="20933">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lenkov</NOM>
+            <PRENOM>Peter M</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="485142">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Till</NOM>
+            <PRENOM>Lucas</PRENOM>
+            <ROLE>Angus MacGyver</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15862">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Eads</NOM>
+            <PRENOM>George</PRENOM>
+            <ROLE>Jack Dalton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="451194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hires</NOM>
+            <PRENOM>Justin</PRENOM>
+            <ROLE>Wilt Bozer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="17432">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Holt</NOM>
+            <PRENOM>Sandrine</PRENOM>
+            <ROLE>Patricia Thornton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="513313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mays</NOM>
+            <PRENOM>Tristin</PRENOM>
+            <ROLE>Riley Ravis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1192112">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dastmalchian</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Murdoc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="472470">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>O'Neill</NOM>
+            <PRENOM>Craig</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="245998">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Slack</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Murdoc poursuit son plan machiavélique pour se venger de MacGyver. Son ancien compagnon de cellule s'infiltre au sein du complexe Phoenix comme technicien de laboratoire...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E115231203.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470561" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T17:10:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Pure Genius</TITRE>
+      <SOUSTITREDIF>Noël à Bunker Hill</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125502410" DATEMODIF="2018-01-23T21:49:01">
+        <TITREEMISSION>Pure Genius</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="970" GENRESIMPLE="Série sentimentale">Série hospitalière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29834837">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Pure Genius</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29834822">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Pure Genius / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Pure Genius</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Noël à Bunker Hill</SOUSTITRE>
+          <SOUSTITREORIGINAL>A Bunker Hill Christmas</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="11046">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Engler</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="287482">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Prew</NOM>
+            <PRENOM>Augustus</PRENOM>
+            <ROLE>James Bell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9507">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mulroney</NOM>
+            <PRENOM>Dermot</PRENOM>
+            <ROLE>Walter Wallace</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="66711">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Song</NOM>
+            <PRENOM>Brenda</PRENOM>
+            <ROLE>Angie Cheng</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="536548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shetty</NOM>
+            <PRENOM>Reshma</PRENOM>
+            <ROLE>Talaikha Channarayapatra</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="561861">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Horton</NOM>
+            <PRENOM>Ward</PRENOM>
+            <ROLE>Scott Strauss</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="584815">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jennings</NOM>
+            <PRENOM>Aaron</PRENOM>
+            <ROLE>Malik Verlaine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="586357">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Annable</NOM>
+            <PRENOM>Odette</PRENOM>
+            <ROLE>Zoe Brockett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="605593">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pettyjohn</NOM>
+            <PRENOM>Jade</PRENOM>
+            <ROLE>Madeline Sorenson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="161088">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Katims</NOM>
+            <PRENOM>Jason</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Lorsqu'une jeune patiente atteinte de leucémie arrive à Bunker Hill dans l'attente d'un miracle, James espère qu'un nouveau traitement sera efficace.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Lorsqu'une jeune patiente atteinte de leucémie arrive à Bunker Hill dans l'attente d'un miracle, James espère qu'un nouveau traitement à base de lymphocyte T sauvera sa vie. Malik et Zoe ont un premier rendez-vous juste au moment où James confesse ses sentiments pour Zoe...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470562" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T17:55:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Pure Genius</TITRE>
+      <SOUSTITREDIF>Le tour du monde en huit reins</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125502528" DATEMODIF="2018-01-23T21:49:02">
+        <TITREEMISSION>Pure Genius</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="970" GENRESIMPLE="Série sentimentale">Série hospitalière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29834837">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Pure Genius</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29834822">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Pure Genius / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Pure Genius</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le tour du monde en huit reins</SOUSTITRE>
+          <SOUSTITREORIGINAL>Around the World in Eight Kidneys</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="451710">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Massin</NOM>
+            <PRENOM>Dylan K</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="287482">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Prew</NOM>
+            <PRENOM>Augustus</PRENOM>
+            <ROLE>James Bell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9507">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mulroney</NOM>
+            <PRENOM>Dermot</PRENOM>
+            <ROLE>Walter Wallace</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="66711">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Song</NOM>
+            <PRENOM>Brenda</PRENOM>
+            <ROLE>Angie Cheng</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="536548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shetty</NOM>
+            <PRENOM>Reshma</PRENOM>
+            <ROLE>Talaikha Channarayapatra</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="561861">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Horton</NOM>
+            <PRENOM>Ward</PRENOM>
+            <ROLE>Scott Strauss</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="586357">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Annable</NOM>
+            <PRENOM>Odette</PRENOM>
+            <ROLE>Zoe Brockett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="584815">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jennings</NOM>
+            <PRENOM>Aaron</PRENOM>
+            <ROLE>Malik Verlaine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21542">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Edwards</NOM>
+            <PRENOM>Stacy</PRENOM>
+            <ROLE>Constance Durand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="594652">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Hahn</NOM>
+            <PRENOM>Denise</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>James et les chirurgiens de Bunker Hill tentent de garder leur calme : il s'agit de suivre seize opérations de transplantations, avec des donneurs et des patients du monde entier...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470563" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T18:40:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Pure Genius</TITRE>
+      <SOUSTITREDIF>Science vs religion</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125503374" DATEMODIF="2018-01-30T11:15:49">
+        <TITREEMISSION>Pure Genius</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="970" GENRESIMPLE="Série sentimentale">Série hospitalière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29834837">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Pure Genius</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29834822">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Pure Genius / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Pure Genius</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Science vs religion</SOUSTITRE>
+          <SOUSTITREORIGINAL>Grace</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="333704">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Rodriguez</NOM>
+            <PRENOM>Rosemary</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="287482">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Prew</NOM>
+            <PRENOM>Augustus</PRENOM>
+            <ROLE>James Bell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9507">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mulroney</NOM>
+            <PRENOM>Dermot</PRENOM>
+            <ROLE>Walter Wallace</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="66711">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Song</NOM>
+            <PRENOM>Brenda</PRENOM>
+            <ROLE>Angie Cheng</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="536548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shetty</NOM>
+            <PRENOM>Reshma</PRENOM>
+            <ROLE>Talaikha Channarayapatra</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="561861">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Horton</NOM>
+            <PRENOM>Ward</PRENOM>
+            <ROLE>Scott Strauss</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="586357">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Annable</NOM>
+            <PRENOM>Odette</PRENOM>
+            <ROLE>Zoe Brockett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="584815">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jennings</NOM>
+            <PRENOM>Aaron</PRENOM>
+            <ROLE>Malik Verlaine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1294734">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rose</NOM>
+            <PRENOM>Taylor</PRENOM>
+            <ROLE>Jess Wallace</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365930">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Hinderaker</NOM>
+            <PRENOM>Andrew</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un jeune homme arrive à Bunker Hill à la recherche d'un traitement pour une forme de sida qui résiste aux médicaments. La fille du docteur Wallace emmène un ami malade à Bunker Hill. James discute de ses sentiments avec Zoe...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470564" DATEMODIF="2018-02-05T14:50:27">
+      <DATEHEURE>2018-02-11T19:20:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125491528" DATEMODIF="2018-02-05T14:50:27">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470565" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-11T19:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Le 19h30</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125491529" DATEMODIF="2018-02-05T14:50:28">
+        <TITREEMISSION>Le 19h30</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="12944705">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Le 19h30</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470566" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-11T20:00:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125491530" DATEMODIF="2018-02-05T14:50:28">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470567" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-11T20:10:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Mise au point</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125491531" DATEMODIF="2018-02-05T14:50:19">
+        <TITREEMISSION>Mise au point</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="57931">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Mise au point</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="193802">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Logean</NOM>
+            <PRENOM>Elisabeth</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE>L'hypnose fait son entrée par la grande porte dans les hôpitaux et les cabinets médicaux de Suisse. Les HUG lancent même une grande campagne de formation de son personnel. Amélioration de la communication, meilleure gestion de la douleur : les espoirs sont nombreux avec cette nouvelle approche.</LETEXTE>
+            <SOUSTITRE>Hôpitaux sous hypnose</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125491531.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470568" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-11T21:00:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Hawaii 5-0</TITRE>
+      <SOUSTITREDIF>Kau pahi, ko'u kua. Kau pu, ko'u po'o</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125492928" DATEMODIF="2018-01-30T10:38:11">
+        <TITREEMISSION>Hawaii 5-0</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8237317">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Hawaii 5-0</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="30038640">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Hawaii 5-0 / 8</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Hawaii Five-0</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>8</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Kau pahi, ko'u kua. Kau pu, ko'u po'o</SOUSTITRE>
+          <SOUSTITREORIGINAL>Kau pahi, ko'u kua. Kau pu, ko'u po'o</SOUSTITREORIGINAL>
+          <DUREEEMI>50</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="157136">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Egilsson</NOM>
+            <PRENOM>Eagle</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="365859">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>O'Loughlin</NOM>
+            <PRENOM>Alex</PRENOM>
+            <ROLE>Steve McGarrett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1290">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caan</NOM>
+            <PRENOM>Scott</PRENOM>
+            <ROLE>Danny Williams</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="299309">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rath</NOM>
+            <PRENOM>Meaghan</PRENOM>
+            <ROLE>Tani Rey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39232">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McBride</NOM>
+            <PRENOM>Chi</PRENOM>
+            <ROLE>Lou Grover</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="233088">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garcia</NOM>
+            <PRENOM>Jorge</PRENOM>
+            <ROLE>Jerry Ortega</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="498847">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wily</NOM>
+            <PRENOM>Taylor</PRENOM>
+            <ROLE>Kamekona Tupuola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1335526">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chun</NOM>
+            <PRENOM>Dennis</PRENOM>
+            <ROLE>Duke Lukela</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364992">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Balmilero</NOM>
+            <PRENOM>Kimee</PRENOM>
+            <ROLE>Noelani Cunha</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="208912">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Wolkove</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1285615">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Wheeler</NOM>
+            <PRENOM>Matt JL</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le chef d'un gang et neuf de ses hommes ont été assassinés. Le 5-0 enquête et tente d'éviter une guerre entre plusieurs clans criminels violents.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le patriarche d'un gang qui sévit sur l'île ainsi que neuf de ses hommes de main sont assassinés sous les yeux des fédéraux qui les surveillaient. Le 5-0 est chargé de l'affaire. Des éléments troublants semblent indiquer qu'il n'y a qu'un seul tueur. Une véritable course contre la montre commence. Il s'agit d'éviter une guerre des gangs. Alors que Danny et Steve suivent une piste, une vieille connaissance s'invite dans l'enquête...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125492928.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470569" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-11T21:45:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Hawaii 5-0</TITRE>
+      <SOUSTITREDIF>E uhi wale no 'a'ole e nalo, he imu puhi</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125495441" DATEMODIF="2018-02-07T09:07:56">
+        <TITREEMISSION>Hawaii 5-0</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8237317">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Hawaii 5-0</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="30038640">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Hawaii 5-0 / 8</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Hawaii Five-0</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>8</NUMERO>
+          </SAISON>
+          <SOUSTITRE>E uhi wale no 'a'ole e nalo, he imu puhi</SOUSTITRE>
+          <SOUSTITREORIGINAL>E uhi wale no 'a'ole e nalo, he imu puhi</SOUSTITREORIGINAL>
+          <DUREEEMI>50</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="596195">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Negret</NOM>
+            <PRENOM>Antonio</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="365859">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>O'Loughlin</NOM>
+            <PRENOM>Alex</PRENOM>
+            <ROLE>Steve McGarrett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1290">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caan</NOM>
+            <PRENOM>Scott</PRENOM>
+            <ROLE>Danny Williams</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="299309">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rath</NOM>
+            <PRENOM>Meaghan</PRENOM>
+            <ROLE>Tani Rey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39232">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McBride</NOM>
+            <PRENOM>Chi</PRENOM>
+            <ROLE>Lou Grover</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="233088">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garcia</NOM>
+            <PRENOM>Jorge</PRENOM>
+            <ROLE>Jerry Ortega</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="498847">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wily</NOM>
+            <PRENOM>Taylor</PRENOM>
+            <ROLE>Kamekona Tupuola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1335526">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chun</NOM>
+            <PRENOM>Dennis</PRENOM>
+            <ROLE>Duke Lukela</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5855">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lawrence</NOM>
+            <PRENOM>Joey</PRENOM>
+            <ROLE>Aaron Wright</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="208848">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Hanning</NOM>
+            <PRENOM>Rob</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Toast est retrouvé battu à mort et Kamekona disparaît. Le système informatique du 5.0 a été de nouveau piraté. McGarrett demande l'aide de Wright.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Toast est retrouvé battu à mort et Kamekona disparaît. Le système informatique du 5.0 a été de nouveau piraté. McGarrett demande l'aide d'Aaron Wright pour identifier le hackeur. Wright accepte cette mission à condition d'être transféré et de pouvoir travailler à l'hôtel. Il découvre que la liste des informateurs du 5.0 a été subtilisée par Harley Taylor, dit Mogera. Wright échappe à la surveillance de Tani et s'évade de sa chambre d'hôtel...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125495441.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470570" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-11T22:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Monster</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380064" DATEMODIF="2018-01-23T14:58:15">
+        <TITREEMISSION>Monster *2017</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="527">
+          <PAYS>Norvège</PAYS>
+          <LIBELLE>norvégienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="28955857">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Monster *2017</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28955834">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Monster *2017 / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Monster</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>55</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>7</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1365659">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Jackman</NOM>
+            <PRENOM>Pal</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1357870">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bygdnes</NOM>
+            <PRENOM>Ingvild Holthe</PRENOM>
+            <ROLE>Hedda Gilbert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="629650">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Oftebro</NOM>
+            <PRENOM>Jakob</PRENOM>
+            <ROLE>Joel Dreyer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39570">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sundquist</NOM>
+            <PRENOM>Bjorn</PRENOM>
+            <ROLE>Ed Arvola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83754">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kristensen</NOM>
+            <PRENOM>John Sigurd</PRENOM>
+            <ROLE>Willy Eighner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364804">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mauseth</NOM>
+            <PRENOM>Gorild</PRENOM>
+            <ROLE>Margot van Gemert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365665">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Born</NOM>
+            <PRENOM>Agnes</PRENOM>
+            <ROLE>Jani van Gemert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="491717">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kjerstad</NOM>
+            <PRENOM>Per</PRENOM>
+            <ROLE>Hans Nilsen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365671">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Arntzen</NOM>
+            <PRENOM>Karoline</PRENOM>
+            <ROLE>Renate Nilsen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="572846">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Sewitsky</NOM>
+            <PRENOM>Anne</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1357878">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Storrosten</NOM>
+            <PRENOM>Hans Christian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Ed soupçonne Dreyer d'être impliqué dans le meurtre d'Andrea Svonnir. Encore sous le choc des dernières révélations, Hedda refuse de réintégrer son poste.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ed soupçonne de plus en plus Dreyer d'être impliqué dans le meurtre d'Andrea Svonnir. Willy, le mari de Mildred et ancien chef de la police, lui propose son aide dans l'enquête sur la mort de Tyra, mais Ed ne lui accorde pas sa confiance. Toujours sous le choc des dernières révélations, Hedda refuse de réintégrer son poste...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380064.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470571" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-11T23:30:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Monster</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380066" DATEMODIF="2018-01-23T14:59:02">
+        <TITREEMISSION>Monster *2017</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="527">
+          <PAYS>Norvège</PAYS>
+          <LIBELLE>norvégienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="28955857">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Monster *2017</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28955834">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Monster *2017 / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Monster</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>55</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>7</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1365659">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Jackman</NOM>
+            <PRENOM>Pal</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1357870">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bygdnes</NOM>
+            <PRENOM>Ingvild Holthe</PRENOM>
+            <ROLE>Hedda Gilbert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="629650">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Oftebro</NOM>
+            <PRENOM>Jakob</PRENOM>
+            <ROLE>Joel Dreyer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39570">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sundquist</NOM>
+            <PRENOM>Bjorn</PRENOM>
+            <ROLE>Ed Arvola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1358150">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gundersen</NOM>
+            <PRENOM>Niklas</PRENOM>
+            <ROLE>Ross Eriksen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365665">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Born</NOM>
+            <PRENOM>Agnes</PRENOM>
+            <ROLE>Jani van Gebert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1357876">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Goldmann</NOM>
+            <PRENOM>Heidi</PRENOM>
+            <ROLE>Toril Lind</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1357875">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aasheim</NOM>
+            <PRENOM>Natalia</PRENOM>
+            <ROLE>Elena</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83754">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kristensen</NOM>
+            <PRENOM>John Sigurd</PRENOM>
+            <ROLE>Willy Eighner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="572846">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Sewitsky</NOM>
+            <PRENOM>Anne</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1357878">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Storrosten</NOM>
+            <PRENOM>Hans Christian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En fouillant dans les papiers de Mildred, Hedda trouve un étrange dessin. Dreyer tente d'emmener la jeune femme sur les lieux de la disparition de sa mère.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Après son altercation avec Willy, Ed est hospitalisé. En fouillant dans les papiers de Mildred, Hedda trouve un étrange dessin. Dreyer tente d'emmener la jeune femme sur les lieux de la disparition de sa mère, mais celle-ci s'y oppose...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380066.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470572" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-12T00:25:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Chicago Police</TITRE>
+      <SOUSTITREDIF>Les vieux démons d'Olinsky</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="99274076" DATEMODIF="2016-02-09T16:42:35">
+        <TITREEMISSION>Chicago Police Department</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="13599253">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Chicago Police Department</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="17297656">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Chicago Police Department / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Chicago P.D.</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les vieux démons d'Olinsky</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Three Gs</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>19</NUMERO>
+            <NOMBRE>23</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="151305">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bookstaver</NOM>
+            <PRENOM>Sanford</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="16807">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Beghe</NOM>
+            <PRENOM>Jason</PRENOM>
+            <ROLE>Hank Voight</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2721">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Koteas</NOM>
+            <PRENOM>Elias</PRENOM>
+            <ROLE>Alvin Olinsky</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="299064">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Geraghty</NOM>
+            <PRENOM>Brian</PRENOM>
+            <ROLE>Sean Roman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8765">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morton</NOM>
+            <PRENOM>Amy</PRENOM>
+            <ROLE>Trudy Platt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="336986">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maeve</NOM>
+            <PRENOM>Stella</PRENOM>
+            <ROLE>Nadia Decotis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="492697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Soffer</NOM>
+            <PRENOM>Jesse Lee</PRENOM>
+            <ROLE>Jay Halstead</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="576968">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flueger</NOM>
+            <PRENOM>Patrick John</PRENOM>
+            <ROLE>Adam Ruzek</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10675">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Seda</NOM>
+            <PRENOM>Jon</PRENOM>
+            <ROLE>Antonio Dawson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1244832">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Gore</NOM>
+            <PRENOM>Craig</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1275048">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Walsh</NOM>
+            <PRENOM>Tim</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La police de Chicago est à la recherche d'un fugitif après la mort de plusieurs adolescentes dans une usine. Sean Roman a une altercation avec un collègue.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La police de Chicago est à la recherche d'un fugitif après la mort de plusieurs adolescentes dans une usine à Chinatown. Sean Roman a une altercation avec un collègue. Dans le même temps, Platt aide Nadia à préparer son deuxième test après avoir réussi le premier.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E99274076.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470573" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-12T01:05:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>Le 19h30</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125491529" DATEMODIF="2018-02-05T14:50:28">
+        <TITREEMISSION>Le 19h30</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="12944705">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Le 19h30</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470752" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-12T01:40:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Euronews</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125503712" DATEMODIF="2018-02-05T14:50:28">
+        <TITREEMISSION>Euronews</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8255">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / EuroNews</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171470753" DATEMODIF="2018-02-05T14:50:28">
+      <DATEHEURE>2018-02-12T01:45:00</DATEHEURE>
+      <DUREE>315</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125503713" DATEMODIF="2018-02-05T14:50:28">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

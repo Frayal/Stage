@@ -1,0 +1,2984 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:03:31-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="47">
+    <NOMCHAINE>France 5</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-17">
+    <DIFFUSION CLEDIF="171856972" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T05:25:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>C dans l'air</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125302847" DATEMODIF="2018-01-17T12:05:00">
+        <TITREEMISSION>C dans l'air</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="401" GENRESIMPLE="Magazine d'information">Magazine d'information</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6551">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / C dans l'air</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="381176">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Roux</NOM>
+            <PRENOM>Caroline</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="151365">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Toussaint</NOM>
+            <PRENOM>Bruce</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Du lundi au samedi, «C dans l'air» donne les clés pour comprendre dans sa globalité un événement ou un sujet de première importance, en permettant aux téléspectateurs d'intervenir dans le débat ou de poser des questions par SMS ou Internet.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125302847.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856973" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T06:30:00</DATEHEURE>
+      <DUREE>24</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Umizoomi</TITRE>
+      <SOUSTITREDIF>Les Jeux umi-lympiques</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="44193247" DATEMODIF="2017-07-01T03:52:26">
+        <TITREEMISSION>Umizoomi </TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="5291129">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Umizoomi</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="10275651">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Umizoomi / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Team Umizoomi</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les Jeux umi-lympiques</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Umi Games</SOUSTITREORIGINAL>
+          <DUREEEMI>22</DUREEEMI>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>10</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Milli, son frère Géo et leur ami Bo forment une équipe de mini-héros qui trouvent des solutions aux problèmes du quotidien grâce aux mathématiques.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les Umizoomi participent aux Jeux Umi-lympiques. Pour recevoir le grand trophée, nos amis doivent remporter quatre épreuves sportives : une épreuve de football, une épreuve de natation, un match de basket et une course de vélo.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C44193247.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227273" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T06:54:00</DATEHEURE>
+      <DUREE>13</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Oui-Oui, enquêtes au Pays des jouets</TITRE>
+      <SOUSTITREDIF>L'affaire de la pluie de carottes</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="116377959" DATEMODIF="2018-02-05T17:17:12">
+        <TITREEMISSION>Oui-Oui, enquêtes au Pays des jouets</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="206">
+          <PAYS>France - Etats-Unis</PAYS>
+          <LIBELLE>franco-américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="19651229">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Oui-Oui, enquêtes au Pays des jouets</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="19651214">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Oui-Oui, enquêtes au Pays des jouets / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Noddy, Toyland Detective</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'affaire de la pluie de carottes</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Case of the Raining Carrots</SOUSTITREORIGINAL>
+          <DUREEEMI>11</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>51</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="91309">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Pereira Lazaro</NOM>
+            <PRENOM>Albert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Devenu détective, Oui-Oui élucide des énigmes et révèle au grand jour les secrets de Toyland, un monde peuplé de jouets de tailles et de formes différentes.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Oui-Oui, petit jouet enquêteur, résout des mystères et des énigmes et révèle au grand jour les secrets de Toyland, un monde peuplé de jouets de tailles et de formes différentes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C116377959.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171858677" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T07:07:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>La maison de Mickey</TITRE>
+      <SOUSTITREDIF>Le magicien d'Izz</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="48928593" DATEMODIF="2017-02-13T14:34:43">
+        <TITREEMISSION>La maison de Mickey</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="4739">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / La maison de Mickey</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Mickey Mouse Clubhouse</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le magicien d'Izz</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Wizard of Dizz</SOUSTITREORIGINAL>
+          <DUREEEMI>22</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>21</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Mickey prépare la fête de l'amitié quand une tornade dépose Minnie et Pluto au Pays d'Izz. Ils vont devoir se faire aider par le merveilleux magicien d'Izz.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alors que Mickey prépare la grande fête de l'amitié, une tornade enlève Minnie et Pluto et les dépose au Pays d'Izz. Pour rentrer chez eux, ils vont devoir se faire aider par le merveilleux magicien d'Izz...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E48928593.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227274" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T07:32:00</DATEHEURE>
+      <DUREE>24</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>La maison de Mickey</TITRE>
+      <SOUSTITREDIF>Le magicien d'Izz</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="48928595" DATEMODIF="2017-02-13T14:34:50">
+        <TITREEMISSION>La maison de Mickey</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="4739">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / La maison de Mickey</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Mickey Mouse Clubhouse</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le magicien d'Izz</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Wizard of Dizz</SOUSTITREORIGINAL>
+          <DUREEEMI>22</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>22</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Mickey prépare la fête de l'amitié quand une tornade dépose Minnie et Pluto au Pays d'Izz. Ils vont devoir se faire aider par le merveilleux magicien d'Izz.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alors que Mickey prépare la grande fête de l'amitié, une tornade enlève Minnie et Pluto et les dépose au Pays d'Izz. Pour rentrer chez eux, ils vont devoir se faire aider par le merveilleux magicien d'Izz...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C48928595.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227275" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T07:56:00</DATEHEURE>
+      <DUREE>12</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Sam le pompier</TITRE>
+      <SOUSTITREDIF>L'espion qui jouait avec le feu</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="107674431" DATEMODIF="2017-09-29T11:12:05">
+        <TITREEMISSION>Sam le pompier</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7989">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Sam le Pompier</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="21785357">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Sam le pompier / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Fireman Sam</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'espion qui jouait avec le feu</SOUSTITRE>
+          <SOUSTITREORIGINAL>Spy Games</SOUSTITREORIGINAL>
+          <DUREEEMI>10</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>A Pontypandy, armé de sa lance à incendie et de beaucoup de courage, Sam le pompier est sur tous les fronts.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C107674431.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171858678" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T08:08:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Simon</TITRE>
+      <SOUSTITREDIF>La nuit chez Ferdinand</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="112864114" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Simon</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20351328">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Simon</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="23624989">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Simon / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La nuit chez Ferdinand</SOUSTITRE>
+          <DUREEEMI>5</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>33</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Simon va passer la nuit chez Ferdinand, son grand copain et voisin, c'est un peu différent de chez lui mais Simon est ravi.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Simon va passer la nuit chez Ferdinand, son grand copain et voisin. C'est un peu différent de chez lui mais Simon est ravi. Quand vient l'heure de se coucher, il perd pourtant son sourire car il croit voir un monstre dans le jardin. Les deux petits construisent alors une forteresse de coussins pour se mettre à l'abri mais ils s'aperçoivent rapidement que le monstre est en fait une petite rainette...  
+
+</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E112864114.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227276" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T08:13:00</DATEHEURE>
+      <DUREE>6</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Simon</TITRE>
+      <SOUSTITREDIF>Tout comme Papa</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="112853425" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Simon</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20351328">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Simon</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="23624989">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Simon / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Tout comme Papa</SOUSTITRE>
+          <DUREEEMI>5</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>31</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Ayant fabriqué des chevaux pour jouer aux chevaliers, Simon veut prouver à Gaspard qu'il peut tout faire comme Papa : passer l'aspirateur, préparer le dîner.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Après avoir confectionné tout seul des chevaux pour jouer aux chevaliers, Simon veut prouver à Gaspard qu'il peut tout faire comme Papa : passer l'aspirateur ou préparer le dîner. Sa recette surprend un peu ses parents mais Gaspard trouve le repas délicieux. Papa et Maman se prennent au jeu et acceptent que Simon les couche, comme le ferait Papa. Mais si Simon couche ses parents, qui va le coucher lui ?... </LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E112853425.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227277" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T08:19:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Simon</TITRE>
+      <SOUSTITREDIF>J'ai un dragon</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="112874423" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Simon</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20351328">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Simon</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="23624989">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Simon / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>J'ai un dragon</SOUSTITRE>
+          <DUREEEMI>5</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>37</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Simon montre un escargot à ses copains mais Ferdinand le vexe, lui a un écureuil dans son jardin ; Simon prétend alors qu'un dragon vit dans son jardin.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Simon a montré un escargot à ses copains mais Ferdinand l'a vexé en racontant qu'il avait mieux, un écureuil dans son jardin. Simon prétend alors qu'il a un dragon dans son jardin et propose à ses amis de revenir le soir même afin de le voir. Ce délai lui laissera le temps de grimer discrètement Gaspard. Si la supercherie est vite découverte, les enfants sont stupéfaits lorsque Papa apparaît au fond du jardin, déguisé en dragon...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E112874423.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227278" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T08:24:00</DATEHEURE>
+      <DUREE>6</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Simon</TITRE>
+      <SOUSTITREDIF>Copain obligatoire</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="112864669" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Simon</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20351328">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Simon</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="23624989">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Simon / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Copain obligatoire</SOUSTITRE>
+          <DUREEEMI>5</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>34</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Invités par les parents de Simon, des amis viennent avec leur fils Maxime qui n'a pas envie d'être là et boude ; Simon l'emmène dans sa chambre pour jouer. </LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Invités pour la soirée par les parents de Simon, des amis viennent avec leur fils Maxime qui n'a aucune envie d'être là. Simon l'emmène dans sa chambre pour jouer mais Maxime boude. Simon fait alors tout pour le dérider et y parvient. Les deux enfants s'entendent de mieux en mieux et finissent par se lancer dans une super bataille d'oreillers au grenier...
+</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E112864669.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227484" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T08:30:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Peppa Pig</TITRE>
+      <SOUSTITREDIF>Goldie le poisson rouge</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="15667215" DATEMODIF="2017-03-29T17:11:45">
+        <TITREEMISSION>Peppa Pig</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7954">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Peppa Pig</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2971445">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Peppa Pig / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Peppa Pig</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Goldie le poisson rouge</SOUSTITRE>
+          <SOUSTITREORIGINAL>Goldie the Fish</SOUSTITREORIGINAL>
+          <DUREEEMI>5</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>23</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Goldie le poisson n'a pas l'air heureux et ne mange pas sa nourriture, alors Peppa, George et Maman Cochon l'emmènent faire un tour en bus pour voir le docteur Hamster, le vétérinaire...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C15667215.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227485" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T08:35:00</DATEHEURE>
+      <DUREE>6</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Peppa Pig</TITRE>
+      <SOUSTITREDIF>La fête foraine</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="15667343" DATEMODIF="2017-03-29T17:11:45">
+        <TITREEMISSION>Peppa Pig</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7954">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Peppa Pig</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2971445">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Peppa Pig / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Peppa Pig</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La fête foraine</SOUSTITRE>
+          <SOUSTITREORIGINAL>Funfair</SOUSTITREORIGINAL>
+          <DUREEEMI>5</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>24</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>La famille va à la fête foraine, mais maman Cochon est en colère quand les gens à la foire lui disent qu'elle ne sera pas en mesure de gagner les prix en compétition...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C15667343.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227486" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T08:41:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Peppa Pig</TITRE>
+      <SOUSTITREDIF>Les chiffres</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="39534535" DATEMODIF="2017-10-20T13:33:42">
+        <TITREEMISSION>Peppa Pig</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7954">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Peppa Pig</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2971445">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Peppa Pig / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Peppa Pig</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les chiffres</SOUSTITRE>
+          <SOUSTITREORIGINAL>Numbers</SOUSTITREORIGINAL>
+          <DUREEEMI>5</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>25</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Peppa et ses amis apprennent à compter en jouant à des jeux dans la classe de madame Gazelle...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C39534535.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227487" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T08:46:00</DATEHEURE>
+      <DUREE>9</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Les triplés</TITRE>
+      <SOUSTITREDIF>La chasse aux cauchemars</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="85196988" DATEMODIF="2017-12-27T16:40:10">
+        <TITREEMISSION>Les triplés</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="14564902">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les triplés</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="14630092">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les triplés / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La chasse aux cauchemars</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>10</NUMERO>
+            <NOMBRE>78</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Quand on est trois, deux frères et une soeur du même âge, c'est bien mieux pour s'amuser et faire des bêtises. On a aussi plus d'imagination, en bref, on ne s'ennuie jamais.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C85196988.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171858679" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T08:55:00</DATEHEURE>
+      <DUREE>7</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Paprika</TITRE>
+      <SOUSTITREDIF>Le restaurant</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125763371" DATEMODIF="2018-02-07T10:16:34">
+        <TITREEMISSION>Paprika</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20350933">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Paprika</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28775403">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Paprika / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le restaurant</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="28225">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Cayrol</NOM>
+            <PRENOM>Jean</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Vivant sur l'île Paprika, les jumeaux Olivia et Stan transforment les petits événements de la vie quotidienne en d'incroyables aventures.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Olivia et Stan vivent sur l'île fantaisiste et colorée des jumeaux Paprika. Stan est un petit tigre courageux qui file à toute allure sur son fauteuil roulant, tandis que sa soeur est organisée, très créative et un peu cérébrale. Lorsqu'ils sont ensemble, aucun obstacle ne résiste aux jumeaux qui transforment les petits événements de la vie quotidienne en d'incroyables aventures.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125763371.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227597" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T09:02:00</DATEHEURE>
+      <DUREE>9</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Paprika</TITRE>
+      <SOUSTITREDIF>Le mot de passe</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="126037425" DATEMODIF="2018-02-07T09:33:54">
+        <TITREEMISSION>Paprika</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le mot de passe</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="28225">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Cayrol</NOM>
+            <PRENOM>Jean</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Vivant sur l'île Paprika, les jumeaux Olivia et Stan transforment les petits événements de la vie quotidienne en d'incroyables aventures.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Olivia et Stan vivent sur l'île fantaisiste et colorée des jumeaux Paprika. Stan est un petit tigre courageux qui file à toute allure sur son fauteuil roulant, tandis que sa soeur est organisée, très créative et un peu cérébrale. Lorsqu'ils sont ensemble, aucun obstacle ne résiste aux jumeaux qui transforment les petits événements de la vie quotidienne en d'incroyables aventures.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171858680" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T09:11:00</DATEHEURE>
+      <DUREE>12</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>La petite école d'Hélène</TITRE>
+      <SOUSTITREDIF>Les équilibristes</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125763372" DATEMODIF="2018-02-07T10:17:05">
+        <TITREEMISSION>La petite école d'Hélène</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="27471823">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / La petite école d'Hélène</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="27471790">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / La petite école d'Hélène / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les équilibristes</SOUSTITRE>
+          <DUREEEMI>11</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="144051">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Etchecopar</NOM>
+            <PRENOM>Dominique</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La petite Hélène fait la classe à ses jouets et ses peluches mais elle n'a pas l'expérience d'une véritable maîtresse et ses élèves ne sont pas très dociles.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Hélène, petite fille de 5 ans, fait la classe à ses jouets et ses peluches mais elle n'a pas l'expérience d'une véritable maîtresse d'école et ses élèves lui donnent du fil à retordre.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125763372.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172227598" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T09:23:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Docteur La Peluche</TITRE>
+      <SOUSTITREDIF>Sauvetage en hauteur. - Steve l'as des cascades</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="75223497" DATEMODIF="2017-07-19T16:26:09">
+        <TITREEMISSION>Docteur La Peluche</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8400646">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Docteur La Peluche</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="12403395">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Docteur La Peluche / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Doc McStuffins</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Sauvetage en hauteur. - Steve l'as des cascades</SOUSTITRE>
+          <SOUSTITREORIGINAL>Doc to the Rescue / Don't Knock the Noggin</SOUSTITREORIGINAL>
+          <DUREEEMI>22</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>«Sauvetage en hauteur». Depuis des années, Daisy Mille-Habits est coincée dans un arbre. - «Steve l'as des cascades». Steve, l'as des cascades, perd son casque.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>«Sauvetage en hauteur». Depuis des années, Daisy Mille-Habits est coincée dans un arbre dans sa tenue de parachutiste. - «Steve l'as des cascades». Steve, l'as des cascades, est incroyable et surtout trop génial, jusqu'au jour où il perd son casque...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C75223497.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171858681" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T09:48:00</DATEHEURE>
+      <DUREE>12</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Les Pyjamasques</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125763373" DATEMODIF="2018-02-07T09:38:47">
+        <TITREEMISSION>Les Pyjamasques</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="18166909">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les Pyjamasques</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="30249201">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les Pyjamasques / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>PJ Masks</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <DUREEEMI>12</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1276549">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Vita</NOM>
+            <PRENOM>Christian de</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="547397">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dos Santos</NOM>
+            <PRENOM>Wilson</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dotés de pouvoirs particuliers grâce à leurs pyjamas spéciaux, les Pyjamasques vivent la nuit des aventures extraordinaires au lieu de dormir dans leur lit.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Quand sonne minuit, Yoyo, Gluglu et Bibou enfilent leurs pyjamas spéciaux. Ils deviennent les Pyjamasques et déambulent dans la nuit, au lieu d'être dans leur lit. Dotés de pouvoirs particuliers, les trois inséparables vivent des aventures extraordinaires.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125763373.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171858682" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T10:00:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>Yétili</TITRE>
+      <SOUSTITREDIF>Moustachat</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123385381" DATEMODIF="2017-11-21T17:05:49">
+        <TITREEMISSION>Yétili</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="34" GENRESIMPLE="Série">Série jeunesse</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="23383753">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Yétili</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29137482">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Yétili / 2</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Moustachat</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1316989">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Montagnese</NOM>
+            <PRENOM>Emeric</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Chaque jour, Nina et Léon, deux petites souris, retrouvent Yétili, la mascotte de la librairie du quartier. Ensemble, ils lisent et voyagent au pays des albums.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123385381.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172228292" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T10:05:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <SURTITRE>Zouzous</SURTITRE>
+      <TITRE>C'est quoi l'idée ?</TITRE>
+      <SOUSTITREDIF>Grandir</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="71112513" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>C'est quoi l'idée ?</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="10512694">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / C'est quoi l'idée ?</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="12140197">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / C'est quoi l'idée ? / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Grandir</SOUSTITRE>
+          <DUREEEMI>5</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>37</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="431715">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kermel</NOM>
+            <PRENOM>Tanguy de</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Hugo, Lily et Félix sont curieux de tout et ensemble ils aiment échanger autour de grandes questions philosophiques.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Hugo, Lily et Félix sont curieux de tout. Ensemble ils aiment échanger autour de grandes questions philosophiques, ce qui les aide à se forger une opinion.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E71112513.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856974" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T10:08:00</DATEHEURE>
+      <DUREE>2</DUREE>
+      <TITRE>Consomag</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125762720" DATEMODIF="2018-02-07T09:38:47">
+        <TITREEMISSION>Consomag</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="388" GENRESIMPLE="Magazine de services">Magazine du consommateur</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6595">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Consomag</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission de l'Institut national de la consommation.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125762720.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856975" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T10:10:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Silence, ça pousse !</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125066945" DATEMODIF="2018-01-17T12:10:06">
+        <TITREEMISSION>Silence, ça pousse !</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="1106" GENRESIMPLE="Magazine de l'art de vivre">Magazine du jardinage</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6943">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Silence, ça pousse !</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="110031">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marie</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="390138">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tolila</NOM>
+            <PRENOM>Carole</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Do it Yourself</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE>Promenade dans les champs de coquelicots pour en admirer le charme.</LETEXTE>
+            <SOUSTITRE>Rencontre : les coquelicots</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Découverte : les fleurs séchées</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE>Ce magnifique jardin paysager qui s'étend sur 4 hectares autour du manoir, s'enrichit chaque année de nouvelles plantations.</LETEXTE>
+            <SOUSTITRE>Paysage : les jardins de la Javelière, dans le Loiret</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE>Ce couple dispose d'une nouvelle terrasse devant la maison ouvrant sur un grand espace. Il faudrait y aménager une plate-bande bien plantée.</LETEXTE>
+            <SOUSTITRE>Pas de panique : chez Alain et Sylvie</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125066945.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856976" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T11:10:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>La maison France 5</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125066944" DATEMODIF="2018-01-17T12:09:40">
+        <TITREEMISSION>La maison France 5</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="1103" GENRESIMPLE="Magazine de l'art de vivre">Magazine de l'art de vivre</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="4676058">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / La maison France 5</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="348052">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Thebaut</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Direction la Haute-Savoie, à Chamonix, capitale mondiale de l'alpinisme, que Stéphane Thebaut va visiter en compagnie de l'architecte Renaud Chevallier. Il se rend également à l'hôtel-refuge du Montenvers, situé en surplomb de la Mer de Glace. Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Changer : Stéphane Millet nous emmène à Lyon où il doit donner du caractère au grand mur d'un séjour</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Les poêles à bois</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE>Prises, interrupteurs, poignées de portes ou encore boutons de placards : ces petits éléments de décoration donnent la touche finale à la décoration d'un intérieur.</LETEXTE>
+            <SOUSTITRE>Les petits détails déco</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Rénover : la rénovation d'un intérieur</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125066944.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856977" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T12:50:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Les escapades de Petitrenaud</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124798964" DATEMODIF="2018-01-10T14:50:03">
+        <TITREEMISSION>Les escapades de Petitrenaud</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6805">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les escapades de Petitrenaud</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="134030">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Teyssandier</NOM>
+            <PRENOM>Carinne</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>C'est à la dune du Pilat qui domine le bassin d'Arcachon que Carinne Teyssandier a rendez-vous avec Stéphane Carrade, chef d'une cuisine prestigieuse. Au menu : joue de boeuf, boudins grillés et poissons emblématiques du Cap Ferret. Carinne et Stéphane dégustent les cocktails créés par Andrei.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C124798964.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856978" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T13:20:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Vues d'en haut</TITRE>
+      <SOUSTITREDIF>Des falaises Seven Sisters à Canterbury</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124890395" DATEMODIF="2018-01-18T16:00:52">
+        <TITREEMISSION>Vues d'en haut</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="7822372">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Vues d'en haut</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The World From Above</TITREORIGINAL>
+          <SOUSTITRE>Des falaises Seven Sisters à Canterbury</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>14</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="96668">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Mervyn</NOM>
+            <PRENOM>Richard</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La balade aérienne commence au-dessus des falaises des Seven Sisters dans le Sussex, se poursuit à Battle et s'achève par le survol de la cathédrale de Canterbury.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124890395.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856979" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T14:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>La tournée des popotes</TITRE>
+      <SOUSTITREDIF>La Réunion</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="93171151" DATEMODIF="2015-05-12T11:34:19">
+        <TITREEMISSION>La tournée des popotes</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1111" GENRESIMPLE="Documentaire">Gastronomie</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="13964355">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La tournée des popotes</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La Réunion</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>5</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1258838">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Brémondy</NOM>
+            <PRENOM>Anna-Lou</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1258839">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gombert</NOM>
+            <PRENOM>Hélène</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1258840">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lerer</NOM>
+            <PRENOM>Cécilia</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1225512">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Benisty</NOM>
+            <PRENOM>Yan</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1225514">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Sanchez</NOM>
+            <PRENOM>Virgile</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="314150">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Lacaze</NOM>
+            <PRENOM>Claude</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Litchis et ananas gorgés de soleil, rougail saucisse, tisanes, curcuma ou larves vivantes : Gregory s'initie aux spécialités culinaires de La Réunion.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Entre plage et montagne, Grégory s'initie à la gastronomie réunionnaise aux côtés d'Alexandre, un jeune et talentueux chef local. Litchis et ananas gorgés de soleil, rougail saucisse préparé avec amour par la maman du chef, tisanes, curcuma ou larves vivantes ne sont qu'une petite partie des spécialités que Grégory va déguster au cours de son voyage. Pour remercier son guide et ses nouveaux amis, Grégory leur concocte un menu lyonnais.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E93171151.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856980" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T15:00:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Dangers dans le ciel</TITRE>
+      <SOUSTITREDIF>Erreur d'identification, vol Iran Air 655</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="5647459" DATEMODIF="2015-01-06T08:54:24">
+        <TITREEMISSION>Mayday, dangers dans le ciel</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="373" GENRESIMPLE="Documentaire scientifique">Sciences et technique</GENRE>
+        <NATIONALITE CLE="155">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5973">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Mayday, dangers dans le ciel</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Mayday</TITREORIGINAL>
+          <SOUSTITRE>Mauvaise cible, vol 655 Iran Air / Erreur d'identification : Vol Iran Air 655</SOUSTITRE>
+          <ANNEEREALISATION>2005</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="248530">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dent</NOM>
+            <PRENOM>Jonathan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En juillet 1988, lors de la guerre Iran-Irak, le navire américain USS Vincennes abat accidentellement un avion de ligne iranien, tuant près de 300 personnes.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le 3 juillet 1988, en pleine guerre Iran-Irak, le croiseur américain USS Vincennes, posté dans le Golfe persique, détecte la présence d'un avion inconnu. La cible est facilement détruite, mais l'euphorie de l'équipage du navire est de courte durée. Ils viennent en effet d'abattre un Airbus A300 de la compagnie Iran Air, qui transportait 290 personnes. Aucun passager ne survit à la catastrophe.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E5647459.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856981" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T15:55:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>La grande pyramide Maya</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="107853323" DATEMODIF="2018-01-23T10:15:18">
+        <TITREEMISSION>La grande pyramide Maya</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <TITREORIGINAL>Blowing Up History : Secrets of the Maya Pyramid</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1303954">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lee</NOM>
+            <PRENOM>Caroline</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'archéologue Memo de Anda cherche à savoir pourquoi et comment les Mayas ont construit Chichen Itza, vaste cité perdue au milieu de la jungle mexicaine.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Chichen Itza, ancienne cité maya au Mexique, est un des symboles de la puissance et du savoir-faire de cette civilisation, réputée pour ses architectes et ses mathématiciens. Comment et pourquoi les Mayas ont-ils construit une ville aussi vaste au milieu de la jungle ? Comment ont-ils transporté les tonnes de pierres nécessaires à la construction d'énormes temples, comme celui dédié au dieu-serpent Kukulkan ? L'archéologue Memo de Anda trouve des indices à travers la jungle et dans les profondeurs de gouffres appelés cénotes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E107853323.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856982" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T16:50:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Machu Picchu, le secret des Incas</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125486115" DATEMODIF="2018-01-23T15:46:36">
+        <TITREEMISSION>Machu Picchu, le secret des Incas</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="1486">
+          <PAYS>Grande-Bretagne - France - Etats-Unis</PAYS>
+          <LIBELLE>britannico-franco-américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <TITREORIGINAL>Unearthed : Machu Picchu, Hidden City of the Incas</TITREORIGINAL>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1225612">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Franklin</NOM>
+            <PRENOM>James</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les ruines du Machu Picchu, dans un état de conservation presque parfait, sont un condensé de la technologie inca ; quelle était la vocation de cette cité mystérieuse ?</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le Machu Picchu est une ancienne cité abandonnée, perdue dans les nuages et construite par les Incas. Des archéologues ont découvert ces vestiges énigmatiques il y a plus d'un siècle mais la véritable vocation de ce site est longtemps restée inconnue. Pour l'archéologue José Bastante, la réponse se trouve dans les ruines. Ces constructions, dans un état de conservation presque parfait, sont un condensé de la technologie inca. Selon les chercheurs le site aurait été un palais impérial, un centre d'échanges commerciaux et un temple destiné à indiquer les cycles sacrés du soleil.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125486115.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856983" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T17:45:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>C dans l'air</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125542626" DATEMODIF="2018-01-31T16:35:00">
+        <TITREEMISSION>C dans l'air</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="401" GENRESIMPLE="Magazine d'information">Magazine d'information</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6551">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / C dans l'air</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="381176">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Roux</NOM>
+            <PRENOM>Caroline</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="151365">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Toussaint</NOM>
+            <PRENOM>Bruce</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Du lundi au samedi, «C dans l'air» donne les clés pour comprendre dans sa globalité un événement ou un sujet de première importance, en permettant aux téléspectateurs d'intervenir dans le débat ou de poser des questions par SMS ou Internet.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125542626.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856984" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T19:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>C l'hebdo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125542627" DATEMODIF="2018-02-02T13:44:50">
+        <TITREEMISSION>C l'hebdo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22008049">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / C l'hebdo</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="268918">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Baddou</NOM>
+            <PRENOM>Ali</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="152929">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Aphatie</NOM>
+            <PRENOM>Jean-Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="601871">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Genton</NOM>
+            <PRENOM>Antoine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1263928">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tran Nguyen</NOM>
+            <PRENOM>Emilie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="608966">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Roque</NOM>
+            <PRENOM>Eva</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1349453">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Clavière</NOM>
+            <PRENOM>Pauline</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>«C à vous» se décline aussi le week-end avec «C l'hebdo». Ali Baddou et sa joyeuse bande, ainsi que des invités fil rouge, reviennent sur les événements clés de la semaine écoulée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125542627.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856985" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T20:00:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>C l'hebdo la suite</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125542628" DATEMODIF="2018-02-02T13:44:56">
+        <TITREEMISSION>C l'hebdo la suite</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22008050">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / C l'hebdo la suite</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="268918">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Baddou</NOM>
+            <PRENOM>Ali</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="152929">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Aphatie</NOM>
+            <PRENOM>Jean-Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="601871">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Genton</NOM>
+            <PRENOM>Antoine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1263928">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tran Nguyen</NOM>
+            <PRENOM>Emilie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="608966">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Roque</NOM>
+            <PRENOM>Eva</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1349453">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Clavière</NOM>
+            <PRENOM>Pauline</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>«C l'hebdo la suite», ce sont vingt minutes supplémentaires, au cours desquelles journalistes et chroniqueurs portent un regard original et pertinent sur l'actualité, tout en grignotant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856986" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T20:20:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Dans la peau d'un vétérinaire</TITRE>
+      <SOUSTITREDIF>Un chaton courageux</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="103456794" DATEMODIF="2016-03-25T09:58:06">
+        <TITREEMISSION>Dans la peau d'un vétérinaire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="19732948">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Dans la peau d'un vétérinaire</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Un chaton courageux</SOUSTITRE>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>25</DUREEEMI>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>15</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1288833">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Turner</NOM>
+            <PRENOM>Jon</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1288834">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Finley</NOM>
+            <PRENOM>Janine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1288835">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gerrie</NOM>
+            <PRENOM>Megan</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1288836">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Greenwood</NOM>
+            <PRENOM>Chris</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au nord de l'Ecosse, en ville, Adam doit soigner un chaton qui a été heurté par une voiture ; il doit subir de multiples opérations pour recouvrer une vie normale.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E103456794.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856987" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T20:50:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Bien évidemment</TITRE>
+      <SOUSTITREDIF>Garder un ventre plat</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125762658" DATEMODIF="2018-02-06T15:18:44">
+        <TITREEMISSION>Bien évidemment</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="421" GENRESIMPLE="Magazine de services">Magazine de services</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27602154">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Bien évidemment</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Garder un ventre plat</SOUSTITRE>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856988" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T20:55:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Echappées belles</TITRE>
+      <SOUSTITREDIF>Magie blanche dans le Jura suisse</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125542629" DATEMODIF="2018-01-31T16:35:33">
+        <TITREEMISSION>Echappées belles</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6640">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Echappées belles</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Magie blanche dans le Jura suisse</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="128281">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Jovillard</NOM>
+            <PRENOM>Sophie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Ses lacs, sa montagne et la richesse de son patrimoine font de la région Jura et Trois-Lacs un petit bijou suisse. Elle est aussi le berceau de savoir-faire ancestraux comme l'horlogerie de haute précision. Bateau sur le lac de Neuchâtel, ski sur les hauteurs des Franches-Montagnes ou encore traîneau tiré par des huskys de compétition : les activités d'hiver sont nombreuses. Des passionnés partagent avec Sophie un séjour enneigé. Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>La nature et les hommes</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Les maîtres du temps</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Le chocolat dans tous ses états</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>La Sibérie suisse</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>La course de chiens de traîneaux</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>Les mystères de la fée verte</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125542629.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856989" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T22:25:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Echappées belles</TITRE>
+      <SOUSTITREDIF>Guadeloupe, couleurs Caraïbes</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124585755" DATEMODIF="2018-01-03T14:05:35">
+        <TITREEMISSION>Echappées belles</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6640">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Echappées belles</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Guadeloupe, couleurs Caraïbes</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1134395">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Casabianca</NOM>
+            <PRENOM>Raphaël de</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE>La situation centrale de la Guadeloupe en fait un port d'escale majeur. De plus, les infrastructures de fret sont compétitives.</LETEXTE>
+            <SOUSTITRE>Un archipel sillonné par les bateaux</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE>La Guadeloupe compte de nombreux conteurs qui perpétuent la tradition orale créole. Plusieurs artistes renouvèlent le répertoire.</LETEXTE>
+            <SOUSTITRE>La tradition orale : l'art des conteurs</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE>Raphaël de Casabianca rencontre les acteurs de cette société multiculturelle.</LETEXTE>
+            <SOUSTITRE>Une terre de métissage</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE>Ce sont de véritables démonstrations de force auxquelles se livrent les éleveurs, lors de compétitions.</LETEXTE>
+            <SOUSTITRE>Les compétitions de boeufs tirant à Marie-Galante</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE>C'est un patrimoine qu'il faut préserver de l'uniformisation touristique.</LETEXTE>
+            <SOUSTITRE>Les cases créoles</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE>Au Grand cul-de-sac Marin, l'archipel compte une mangrove. L'eau limpide facilite l'observation de la faune aquatique.</LETEXTE>
+            <SOUSTITRE>La mangrove</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124585755.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856990" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-17T23:55:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>C dans l'air</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125542626" DATEMODIF="2018-01-31T16:35:00">
+        <TITREEMISSION>C dans l'air</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="401" GENRESIMPLE="Magazine d'information">Magazine d'information</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6551">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / C dans l'air</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="381176">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Roux</NOM>
+            <PRENOM>Caroline</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="151365">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Toussaint</NOM>
+            <PRENOM>Bruce</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Du lundi au samedi, «C dans l'air» donne les clés pour comprendre dans sa globalité un événement ou un sujet de première importance, en permettant aux téléspectateurs d'intervenir dans le débat ou de poser des questions par SMS ou Internet.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125542626.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856991" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-18T01:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>L'oeil et la main</TITRE>
+      <SOUSTITREDIF>Traduire, pour faire bouger les lignes</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125302798" DATEMODIF="2018-01-24T11:56:28">
+        <TITREEMISSION>L'oeil et la main</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="421" GENRESIMPLE="Magazine de services">Magazine de services</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="4706577">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'oeil et la main</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Traduire, pour faire bouger les lignes</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Radia Darkaoui, jeune femme sourde de 28 ans, rêve de devenir traductrice français/LSF. Elle veut mettre le français écrit au service des sourds et rendre ainsi accessibles des domaines dont certains demeurent encore exclus : littérature, actualité, expositions. Il s'agit également pour elle de prendre son destin en mains, en se lançant dans ce nouveau métier dont les débouchés sont multiples.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125302798.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856992" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-18T01:30:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Les mystérieuses catacombes de Rome</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="82639336" DATEMODIF="2017-08-16T10:03:44">
+        <TITREEMISSION>Les mystérieuses catacombes de Rome</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <TITREORIGINAL>The Mystery of Rome's X Tomb</TITREORIGINAL>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="417845">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Olding</NOM>
+            <PRENOM>Paul</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5714">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Scott</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une plongée dans les catacombes de Rome, le long d'un labyrinthe de sépultures qui s'étend sur plus de 600 kilomètres, et qui date de l'Antiquité.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'historien Michael Scott enquête sur un mystérieux caveau découvert à Rome après un effondrement. Plus de 2000 squelettes sont empilés de manière très inhabituelle pour les catacombes de Rome. Avec l'aide d'archéologues et de spécialistes, ce film passe en revue les différentes hypothèses qui pourraient expliquer la présence de ces corps. Les premiers indices suggèrent que ces ossements appartiendraient à des martyrs chrétiens. Mais l'étude approfondie des os contredit cette hypothèse. D'autres résultats laissent à penser que de grandes épidémies seraient la cause de ces multiples décès.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E82639336.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856993" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-18T02:20:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Le dauphin et la caméra-tortue</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="101750052" DATEMODIF="2018-01-23T17:36:56">
+        <TITREEMISSION>Le dauphin et la caméra-tortue</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <TITREORIGINAL>Dolphins, Spy in the Pod</TITREORIGINAL>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="102501">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Downer</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des caméras ont été placées dans des poissons télécommandés très réalistes pour observer le comportement des fascinants mammifères que sont les dauphins.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E101750052.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171856994" DATEMODIF="2018-02-07T09:38:47">
+      <DATEHEURE>2018-02-18T03:10:00</DATEHEURE>
+      <DUREE>135</DUREE>
+      <TITRE>La nuit France 5</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125762622" DATEMODIF="2018-02-07T09:38:47">
+        <TITREEMISSION>La nuit France 5</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="418" GENRESIMPLE="Magazine de société">Magazine de reportages</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6749">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / La nuit France 5</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Des rediffusions de documentaires.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

@@ -26,9 +26,9 @@ from ast import literal_eval
 ########### Global variables ####################
 #################################################
 THRESHOLD = 0.5
-PATH_IN = '/home/alexis/Bureau/finalproject/DatasIn/RTS/'
-PATH_SCRIPT = '/home/alexis/Bureau/finalproject/scripts/'
-PATH_OUT = '/home/alexis/Bureau/finalproject/Datas/'
+PATH_IN = '../DatasIn/RTS/'
+PATH_SCRIPT = '../scripts/'
+PATH_OUT = '../Datas/'
 LOG = "log.txt"
 ######################################################
 from keras import backend as K

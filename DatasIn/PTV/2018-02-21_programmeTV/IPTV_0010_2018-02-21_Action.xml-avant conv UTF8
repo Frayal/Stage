@@ -1,0 +1,1709 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:48:44-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="10">
+    <NOMCHAINE>Action</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="170752489" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T05:49:00</DATEHEURE>
+      <DUREE>91</DUREE>
+      <TITRE>Trois femmes un soir d'été</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4255098" DATEMODIF="2015-01-06T08:54:24">
+        <TITREEMISSION>Trois femmes un soir d'été</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="324" GENRESIMPLE="Téléfilm dramatique">Téléfilm dramatique</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>4</NOMBRE>
+          </PARTIE>
+          <ANNEEREALISATION>2005</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="39528">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Grall</NOM>
+            <PRENOM>Sébastien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="333520">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>La Boulaye</NOM>
+            <PRENOM>Agathe de</PRENOM>
+            <ROLE>Julie Leroy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2051">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marchand</NOM>
+            <PRENOM>Guy</PRENOM>
+            <ROLE>Lucien Sauveterre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3790">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Delon</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Mathias Auvignon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caroit</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>David Rousseau</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3709">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Audran</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>Louise Bonnier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="271965">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Drouot</NOM>
+            <PRENOM>Jean-Claude</PRENOM>
+            <ROLE>Virgil Sauveterre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="274007">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gob</NOM>
+            <PRENOM>Nicolas</PRENOM>
+            <ROLE>Jeff</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="290867">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cottençon</NOM>
+            <PRENOM>Fanny</PRENOM>
+            <ROLE>Cathy Layrac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="200111">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Nachon</NOM>
+            <PRENOM>Angélique</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3170">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Nachon</NOM>
+            <PRENOM>Jean-Claude</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="10216">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Jézéquel</NOM>
+            <PRENOM>Julie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Après la découverte d'un nouveau cadavre, le docteur Auvignon se dénonce. Mais Julie, qui n'est pas insensible à son charme, veut croire en son innocence.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La découverte d'un second corps plonge Julie Leroy dans un abîme de perplexité. La jeune policière ne tarde pas à se demander si les deux meurtres sont liés. Coup de théâtre : le docteur Auvignon, dont le charme ne la laisse pas indifférente, bien qu'il soit le principal suspect dans cette sinistre affaire, se dénonce. Malgré ses affirmations, Julie demeure persuadée de son innocence. Elle redouble d'efforts pour le disculper et faire éclater la vérité. Mais le procureur David Rousseau, qui est par ailleurs le fiancé de la jeune femme, la somme de suivre la procédure habituelle. Julie hésite : tiraillée entre son sens de la justice et le respect de la hiérarchie, elle poursuit ses investigations...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>L'actrice Julie Jézéquel fait une fois de plus preuve de son talent de scénariste et dialoguiste, puisqu'elle cosigne cette série.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E4255098.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171162018" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T07:20:00</DATEHEURE>
+      <DUREE>47</DUREE>
+      <TITRE>Interruption des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125301833" DATEMODIF="2018-01-17T11:27:14">
+        <TITREEMISSION>Interruption des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752490" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T08:07:00</DATEHEURE>
+      <DUREE>93</DUREE>
+      <TITRE>Black Killer</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="7441" DATEMODIF="2016-05-20T16:17:36">
+        <TITREEMISSION>Black Killer</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="344" GENRESIMPLE="Western">Western</GENRE>
+        <NATIONALITE CLE="467">
+          <PAYS>Italie</PAYS>
+          <LIBELLE>italien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Black Killer</TITREORIGINAL>
+          <ANNEEREALISATION>1971</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>85</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="49015">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Croccolo</NOM>
+            <PRENOM>Carlo</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="4201">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kinski</NOM>
+            <PRENOM>Klaus</PRENOM>
+            <ROLE>James Webb</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="17375">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Robsahm</NOM>
+            <PRENOM>Fred</PRENOM>
+            <ROLE>Burt Collins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3374">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cantafora</NOM>
+            <PRENOM>Antonio</PRENOM>
+            <ROLE>Ramon O'Hara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="17376">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mulligan</NOM>
+            <PRENOM>Marina</PRENOM>
+            <ROLE>Sarah Collins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="387087">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pulcrano</NOM>
+            <PRENOM>Enzo</PRENOM>
+            <ROLE>Pedro O'Hara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="387088">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dini</NOM>
+            <PRENOM>Tiziana</PRENOM>
+            <ROLE>Consuelo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="387089">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caruana</NOM>
+            <PRENOM>Calogero</PRENOM>
+            <ROLE>Miguel O'Hara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="215389">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ross</NOM>
+            <PRENOM>Jerry</PRENOM>
+            <ROLE>Peter Collins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="285723">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Patucchi</NOM>
+            <PRENOM>Daniele</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A Tombstone, les frères O'Hara font la loi dans toute la région. Un avocat et un pistolero récemment arrivés en ville viennent en aide à la population.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A Tombstone, les frères O'Hara font régner la terreur et ont tué les neuf derniers shérifs. Personne ne veut leur succéder. Arrive Burt Collins, qui se heurte d'entrée aux O'Hara, dont il tue trois hommes. Le juge lui offre deux solutions : la prison ou le poste de shérif. Burt accepte de porter l'étoile...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un western italien de piètre facture, malgré la présence de Klaus Kinski dans un rôle à sa mesure.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E7441.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752491" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T09:40:00</DATEHEURE>
+      <DUREE>88</DUREE>
+      <TITRE>Dans l'enfer du Pacifique</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="48662" DATEMODIF="2016-05-21T01:56:35">
+        <TITREEMISSION>L'enfer du Pacifique</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="238" GENRESIMPLE="Film de guerre">Film de guerre</GENRE>
+        <NATIONALITE CLE="1024">
+          <PAYS>Etats-Unis - Philippines</PAYS>
+          <LIBELLE>américano-philippin</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Pacific Inferno</TITREORIGINAL>
+          <ANNEEREALISATION>1979</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>85</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="61230">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bayer</NOM>
+            <PRENOM>Rolf</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="22673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brown</NOM>
+            <PRENOM>Jim</PRENOM>
+            <ROLE>Clyde Preston</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jaeckel</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>Robert Fletcher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61231">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brown</NOM>
+            <PRENOM>Tim</PRENOM>
+            <ROLE>Zoe Dawson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61232">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Horino</NOM>
+            <PRENOM>Tad</PRENOM>
+            <ROLE>Yamada</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="48274">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Van Nutter</NOM>
+            <PRENOM>Rik</PRENOM>
+            <ROLE>Dennis Butts</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="382312">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adair</NOM>
+            <PRENOM>Dick</PRENOM>
+            <ROLE>George</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="382313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shaw</NOM>
+            <PRENOM>Jimmy</PRENOM>
+            <ROLE>Leroy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="382314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reading</NOM>
+            <PRENOM>Wilma</PRENOM>
+            <ROLE>Tita</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="498675">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Jefferson</NOM>
+            <PRENOM>Roland S</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="498676">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Jones</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Pendant la Seconde Guerre mondiale, aux Philippines, les aventures de prisonniers de guerre américains en lutte contre leurs cruels gardiens japonais.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En décembre 1941, les Japonais bombardent Pearl Harbor. La guerre s'étend en Asie et atteint les Philippines. Clyde, Robert et plusieurs autres Américains sont fait prisonniers et emmenés dans un camp où se trouvent également des résistants philippins. Les Japonais ordonnent à Clyde et à Robert de récupérer les pièces d'argent immergées dans la mer sur ordre du général Mac Arthur...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film d'aventures très classique, heureusement servi par une distribution sympathique.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E48662.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752492" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T11:08:00</DATEHEURE>
+      <DUREE>84</DUREE>
+      <TITRE>Un colt pour trois salopards</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="67497" DATEMODIF="2016-05-21T03:48:41">
+        <TITREEMISSION>Un colt pour trois salopards</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="344" GENRESIMPLE="Western">Western</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Hannie Caulder</TITREORIGINAL>
+          <ANNEEREALISATION>1971</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>85</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="259597">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kennedy</NOM>
+            <PRENOM>Burt</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="6690">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Welch</NOM>
+            <PRENOM>Raquel</PRENOM>
+            <ROLE>Hannie Caulder</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1980">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Culp</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Thomas Luther Price</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1660">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Borgnine</NOM>
+            <PRENOM>Ernest</PRENOM>
+            <ROLE>Emmett Clemens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5002">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Elam</NOM>
+            <PRENOM>Jack</PRENOM>
+            <ROLE>Frank Clemens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14297">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martin</NOM>
+            <PRENOM>Strother</PRENOM>
+            <ROLE>Rufus Clemens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5670">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lee</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Bailey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1286">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dors</NOM>
+            <PRENOM>Diana</PRENOM>
+            <ROLE>Madame</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16435">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boyd</NOM>
+            <PRENOM>Stephen</PRENOM>
+            <ROLE>le prédicateur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="51321">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Thorne</NOM>
+            <PRENOM>Ken</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Violée par des bandits, une veuve est prête à tout pour assouvir sa vengeance. Elle est aidée dans sa quête par un chasseur de primes désintéressé.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alors qu'ils tentent de voler des chevaux dans un ranch, trois bandits sont surpris par Caulder, le propriétaire. Ils l'abattent et violent sa femme, Hannie, avant d'incendier le ranch. Hannie, toujours en vie, ne songe qu'à la vengeance. Enroulée dans une couverture, elle erre dans la campagne hostile. Ce n'est qu'à la tombée de la nuit qu'elle croise la route de Thomas Luther Price, un chasseur de primes qui, touché par sa détresse, accepte de la prendre sous son aile protectrice. Déterminée à se venger, Hannie demande à Thomas de lui apprendre le maniement des armes à feu...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Des archétypes inertes, que Burt Kennedy se montre incapable de réanimer.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E67497.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752493" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T12:32:00</DATEHEURE>
+      <DUREE>123</DUREE>
+      <TITRE>Duel au sommet</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="13568498" DATEMODIF="2016-05-21T21:10:06">
+        <TITREEMISSION>Duel au sommet</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="224" GENRESIMPLE="Film d'aventures">Film d'aventures</GENRE>
+        <NATIONALITE CLE="357">
+          <PAYS>Allemagne - Autriche</PAYS>
+          <LIBELLE>germano-autrichien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Nordwand</TITREORIGINAL>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>126</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="581271">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Stölzl</NOM>
+            <PRENOM>Philipp</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="271774">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fürmann</NOM>
+            <PRENOM>Benno</PRENOM>
+            <ROLE>Tony Kurz</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19193">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wokalek</NOM>
+            <PRENOM>Johanna</PRENOM>
+            <ROLE>Luise Fellner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="62718">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lukas</NOM>
+            <PRENOM>Florian</PRENOM>
+            <ROLE>Andi Hinterstoisser</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18035">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tukur</NOM>
+            <PRENOM>Ulrich</PRENOM>
+            <ROLE>Henry Arau</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="114063">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schwarz</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>Willy Angerer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37204">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Friedrich</NOM>
+            <PRENOM>Georg</PRENOM>
+            <ROLE>Edi Rainer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="38479">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Steinhauer</NOM>
+            <PRENOM>Erwin</PRENOM>
+            <ROLE>Emil Landauer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="349696">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morzé</NOM>
+            <PRENOM>Petra</PRENOM>
+            <ROLE>Elisabeth Landauer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="115715">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Kolonovits</NOM>
+            <PRENOM>Christian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 1936, deux amis tentent l'ascension de l'Eiger. Ils sont pris dans une tempête qui laisse craindre pour leur sécurité. Une amie se porte à leur secours.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Pendant l'été 1936, deux militaires bavarois, Tony Kurz et Andi Hinterstoisser, tentent l'ascension de la face nord de l'Eiger, prouesse encore inédite. Une équipe autrichienne les suit de près afin d'être la première à vaincre le sommet. La compétition s'engage sous les yeux de la presse. Alors que les alpinistes poursuivent leur chemin, le temps se dégrade rapidement. Un des membres de la cordée autrichienne est blessé par une chute de pierre et ses compagnons sont forcés de faire demi-tour. Une journaliste, ancien amour de Tony, décide de partir à son secours. Le temps presse, car la montagne se montre de plus en plus menaçante...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film d'alpinisme bien réalisé, qui rend hommage aux pionniers de ce sport.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E13568498.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752494" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T14:35:00</DATEHEURE>
+      <DUREE>155</DUREE>
+      <TITRE>L'assassinat de Jesse James par le lâche Robert Ford</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="8598629" DATEMODIF="2016-09-05T16:19:26">
+        <TITREEMISSION>L'assassinat de Jesse James par le lâche Robert Ford</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="344" GENRESIMPLE="Western">Western</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Assassination of Jesse James by the Coward Robert Ford</TITREORIGINAL>
+          <ANNEEREALISATION>2007</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>159</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="262031">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dominik</NOM>
+            <PRENOM>Andrew</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="10672">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pitt</NOM>
+            <PRENOM>Brad</PRENOM>
+            <ROLE>Jesse James</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27053">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Affleck</NOM>
+            <PRENOM>Casey</PRENOM>
+            <ROLE>Robert Ford</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25745">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Parker</NOM>
+            <PRENOM>Mary-Louise</PRENOM>
+            <ROLE>Zee James</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shepard</NOM>
+            <PRENOM>Sam</PRENOM>
+            <ROLE>Frank James</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="257343">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schneider</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>Dick Liddil</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="151307">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dillahunt</NOM>
+            <PRENOM>Garret</PRENOM>
+            <ROLE>Ed Miller</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19214">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rockwell</NOM>
+            <PRENOM>Sam</PRENOM>
+            <ROLE>Charley Ford</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2920">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Renner</NOM>
+            <PRENOM>Jeremy</PRENOM>
+            <ROLE>Wood Hite</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="43132">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Cave</NOM>
+            <PRENOM>Nick</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="464970">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Ellis</NOM>
+            <PRENOM>Warren</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Multipliant les mauvais coups à travers les Etats-Unis, le bandit Jesse James comprend qu'un membre de son équipe pourrait bien un jour menacer sa suprématie.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Se moquant ouvertement de voir sa tête mise à prix à travers tous les Etats-Unis, le bandit Jesse James prépare son prochain hold-up. Avec morgue, il se plaît à abattre tous ceux qui se sont mis en tête de le livrer aux autorités fédérales. Mais peu à peu, Jesse James comprend qu'il ne peut absolument pas faire confiance à qui que ce soit. Et surtout pas à ce jeune et sympathique flingueur nommé Robert Ford. Celui-ci vient de rejoindre le célèbre gang. Mais son admiration pour le desperado le plus recherché d'Amérique se teinte très vite de jalousie. Pourtant, les deux hommes se respectent mutuellement. L'un d'eux est-il de trop ?...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Produit par Brad Pitt, qui joue ici tout en retenue, Tony et Ridley Scott, ce vrai-faux western permet de mesurer toute l'ampleur du talent de Casey Affleck, nommé aux Oscars et aux Golden Globes pour son rôle.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E8598629.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752495" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T17:10:00</DATEHEURE>
+      <DUREE>86</DUREE>
+      <TITRE>Franck Spadone</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="309883" DATEMODIF="2016-05-21T00:46:38">
+        <TITREEMISSION>Franck Spadone</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="307" GENRESIMPLE="Film de suspense">Thriller</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2000</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>85</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="30428">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bean</NOM>
+            <PRENOM>Richard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="59013">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Merhar</NOM>
+            <PRENOM>Stanislas</PRENOM>
+            <ROLE>Franck Spadone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9822">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bellucci</NOM>
+            <PRENOM>Monica</PRENOM>
+            <ROLE>Laura</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brandt</NOM>
+            <PRENOM>Carlo</PRENOM>
+            <ROLE>Ferdinand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="178216">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fayard</NOM>
+            <PRENOM>Antoine</PRENOM>
+            <ROLE>Pablo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22321">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Masne</NOM>
+            <PRENOM>Christophe</PRENOM>
+            <ROLE>Bruno</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="28836">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lecas</NOM>
+            <PRENOM>Jean-Claude</PRENOM>
+            <ROLE>Jean</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="178217">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bokobza</NOM>
+            <PRENOM>Meyer</PRENOM>
+            <ROLE>Osmuth</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="178218">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sueur</NOM>
+            <PRENOM>Patrick</PRENOM>
+            <ROLE>Henri</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="117365">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Lebé</NOM>
+            <PRENOM>Olivier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un pickpocket amoureux se voit impliqué malgré lui dans des règlements de comptes mafieux, après avoir succombé aux charmes d'une belle stripteaseuse.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Pickpockets professionnels, Franck Spadone et ses deux complices, Pablo et Bruno, exercent leur métier avec conscience et application. Un jour, dans le métro, Franck se laisse émouvoir par une jeune femme dont il vient de voler le sac à main. Transgressant l'un des principes fondamentaux de son art, il décide de retrouver sa victime. Il apprend qu'elle s'appelle Laura, gagne sa vie comme stripteaseuse et se trouve sous la protection d'un petit caïd, Ferdinand. Il n'a dès lors de cesse de séduire la jeune femme. Mais Laura est impliquée dans un projet d'assassinat, une sombre affaire dans laquelle Franck Spadone plonge à son tour malgré lui...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film noir qui se contente d'accumuler clichés et clins d'oeil. L'interprétation, atone, n'arrange rien à l'affaire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E309883.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752496" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T18:36:00</DATEHEURE>
+      <DUREE>134</DUREE>
+      <TITRE>Jean Galmot, aventurier</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="34404" DATEMODIF="2017-08-13T23:08:07">
+        <TITREEMISSION>Jean Galmot, aventurier</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="224" GENRESIMPLE="Film d'aventures">Film d'aventures</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1990</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>135</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="22526">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Maline</NOM>
+            <PRENOM>Alain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3119">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Malavoy</NOM>
+            <PRENOM>Christophe</PRENOM>
+            <ROLE>Jean Galmot</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3644">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hanin</NOM>
+            <PRENOM>Roger</PRENOM>
+            <ROLE>Picard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8671">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Becker</NOM>
+            <PRENOM>Belinda</PRENOM>
+            <ROLE>Jeanne Deschamps</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27918">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martial</NOM>
+            <PRENOM>Jean-Michel</PRENOM>
+            <ROLE>Iqui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="48971">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thiaw</NOM>
+            <PRENOM>Ambre</PRENOM>
+            <ROLE>Léonie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13101">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lemper</NOM>
+            <PRENOM>Ute</PRENOM>
+            <ROLE>Arlette Simon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13888">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nosbusch</NOM>
+            <PRENOM>Désirée</PRENOM>
+            <ROLE>Marianne Galmot</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9265">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Planchon</NOM>
+            <PRENOM>Roger</PRENOM>
+            <ROLE>Castellane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35365">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Musumarra</NOM>
+            <PRENOM>Romano</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Portrait du défenseur du peuple guyanais, mort dans des conditions mystérieuses après avoir soutenu les exploités du colonialisme sur les bancs de l'Assemblée.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En 1906, le journaliste-écrivain Jean Galmot arrive en Guyane, un titre de propriété en poche, pour y gérer une petite mine d'or prétendument épuisée. Aidé par les indigènes, il reprend l'exploitation des galeries. Après des semaines de souffrance et de labeur incessant, la mine laisse finalement apparaître de nouvelles pépites. C'est le début de la fortune pour cet aventurier travailleur et chanceux. Détesté par les notables blancs parce qu'il partage tout avec ses associés guyanais, Jean Galmot devient un héros populaire. Soutenu par Iqui, son partenaire, il décide de se présenter aux élections et, en 1918, est élu député de Cayenne...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une belle et ambitieuse réalisation, dominée par l'excellent Christophe Malavoy, qui campe à merveille le personnage de Jean Galmot.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E34404.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752497" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T20:50:00</DATEHEURE>
+      <DUREE>81</DUREE>
+      <TITRE>Universal Soldier : le combat absolu</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="148108" DATEMODIF="2015-01-06T08:54:24">
+        <TITREEMISSION>Universal Soldier : le combat absolu</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="248" GENRESIMPLE="Film de science fiction">Film de science-fiction</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Universal Soldier : The Return</TITREORIGINAL>
+          <ANNEEREALISATION>1999</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>82</DUREEEMI>
+          <CENSURE CLE="12">Interdit aux moins de 12</CENSURE>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="115039">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Rodgers</NOM>
+            <PRENOM>Mic</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="313170">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Van Damme</NOM>
+            <PRENOM>Jean-Claude</PRENOM>
+            <ROLE>Luc Deveraux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>White</NOM>
+            <PRENOM>Michael Jai</PRENOM>
+            <ROLE>SETH</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7814">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schanz</NOM>
+            <PRENOM>Heidi</PRENOM>
+            <ROLE>Erin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4735">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berkeley</NOM>
+            <PRENOM>Xander</PRENOM>
+            <ROLE>Dylan Cotner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="20708">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lazard</NOM>
+            <PRENOM>Justin</PRENOM>
+            <ROLE>le capitaine Blackburn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="115040">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tom</NOM>
+            <PRENOM>Kiana</PRENOM>
+            <ROLE>Maggie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="108118">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>von Bargen</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>le général Radford</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19772">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Black</NOM>
+            <PRENOM>James</PRENOM>
+            <ROLE>le sergent Morrow</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13183">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Davis</NOM>
+            <PRENOM>Don</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un ordinateur rebelle et surpuissant prend le contrôle d'un ambitieux programme militaire. Seul un preux Soldier de la première génération s'oppose à lui.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Aujourd'hui docile et rangé, Luc Deveraux, un Universal Soldier de la première génération, participe, en tant que conseiller technique, à l'élaboration d'un programme censé accroître les performances des Soldiers. SETH, un ordinateur surpuissant, assiste les chercheurs dans leur délicate mission. Hélas, victime d'une importante réduction de budget, l'armée décide brusquement de mettre un terme au programme. Consternation générale. Menacé de déconnexion, SETH se rebelle, prend le contrôle des opérations sans demander l'avis de personne et réorganise, à sa manière, la production des Soldiers. Il se télécharge dans le corps d'un Soldier et prend la tête des troupes, fermement décidé à conquérir le vaste monde. Mais il lui faudra d'abord abattre Luc Deveraux qui, tenace, se dresse sans discontinuer sur son chemin...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Scénario paresseux et convenu, scènes d'action médiocres, interprétation risible : une déception constante.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E148108.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752498" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T22:11:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Ciné choc</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125038803" DATEMODIF="2018-01-26T11:35:52">
+        <TITREEMISSION>Ciné choc</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3151426">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Ciné choc</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Les sorties de films « de genre » de la semaine, Ciné et DVD tout en images. Au programme : des sujets complets sur les nouveaux films évènements, des reportages sur les festivals, les échos des tournages, et en avant première les bandes annonces Internet des films attendus.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125038803.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752499" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-21T22:26:00</DATEHEURE>
+      <DUREE>126</DUREE>
+      <TITRE>Crows Zero</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="21166423" DATEMODIF="2017-03-29T09:54:56">
+        <TITREEMISSION>Crows Zero</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="218" GENRESIMPLE="Film d'aventures">Film d'action</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Kurôzu zero</TITREORIGINAL>
+          <ANNEEREALISATION>2007</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>130</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="269212">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Miike</NOM>
+            <PRENOM>Takashi</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="357298">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Oguri</NOM>
+            <PRENOM>Shun</PRENOM>
+            <ROLE>Genji Takaya</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="548059">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Yabe</NOM>
+            <PRENOM>Kyôsuke</PRENOM>
+            <ROLE>Ken Katagiri</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="548060">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kuroki</NOM>
+            <PRENOM>Meisa</PRENOM>
+            <ROLE>Luca Aizawa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="548061">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Yamada</NOM>
+            <PRENOM>Takayuki</PRENOM>
+            <ROLE>Tamao Serizawa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="548062">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shiomi</NOM>
+            <PRENOM>Sansei</PRENOM>
+            <ROLE>Yoshinobu Kuroiwa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="283497">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Endo</NOM>
+            <PRENOM>Kenichi</PRENOM>
+            <ROLE>Joji Yazaki</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="339825">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kishitani</NOM>
+            <PRENOM>Goro</PRENOM>
+            <ROLE>Hideo Takitani</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="548063">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Daitô</NOM>
+            <PRENOM>Shunsuke</PRENOM>
+            <ROLE>Hiromi Kirishima</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="548057">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Otsubo</NOM>
+            <PRENOM>Naoki</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Aidés par deux maîtres yakusa, deux adolescents vont s'entraîner à l'art du combat et s'affronter pour déterminer qui sera le leader de leur lycée.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Genji Takita entre en terminale dans un tout nouvel établissement, le lycée Suzuran, une des écoles les plus violentes du Japon. Tout les jours, Suzuran voit des bandes rivales se battre dans des affrontements sans merci. Le père de Genji est un yakusa et le jeune homme rêve depuis longtemps de prendre le contrôle du lycée, en d'autres termes, d'en devenir le «bancho». Pour parvenir à ses fins, Genji demande à Katagiri, un ancien yakusa, de l'entraîner. Mais l'apprenti yakusa n'est pas le seul étudiant à vouloir s'imposer et il doit travailler dur pour être en mesure de rivaliser avec Serizawa, l'élève le plus dangereux du lycée...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Inspiré d'un manga très populaire, un film d'action tonitruant, signé par le prolifique Takashi Miike.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E21166423.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752500" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-22T00:32:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Les deux orphelines vampires</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="79072" DATEMODIF="2016-03-24T10:22:14">
+        <TITREEMISSION>Les deux orphelines vampires</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="254" GENRESIMPLE="Film fantastique">Film fantastique</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1996</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>95</DUREEEMI>
+          <CENSURE CLE="16">Interdit aux moins de 16</CENSURE>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="257861">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Rollin</NOM>
+            <PRENOM>Jean</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="84485">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Teboul</NOM>
+            <PRENOM>Isabelle</PRENOM>
+            <ROLE>Henriette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37598">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pic</NOM>
+            <PRENOM>Alexandra</PRENOM>
+            <ROLE>Louise</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="170072">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Charnacé</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>le docteur Dennery</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="84487">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Perrey</NOM>
+            <PRENOM>Nathalie</PRENOM>
+            <ROLE>l'enseignante</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="229688">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berkani-Rohmer</NOM>
+            <PRENOM>Anissa</PRENOM>
+            <ROLE>Nicole</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12958">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lahaie</NOM>
+            <PRENOM>Brigitte</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="21949">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aumont</NOM>
+            <PRENOM>Tina</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="84488">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Snaric</NOM>
+            <PRENOM>Martin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="84491">
+            <FONCTION>Musique</FONCTION>
+            <NOM>d'Aran</NOM>
+            <PRENOM>Philippe</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Deux orphelines aveugles, qui sont en fait des vampires, sont recueillies par un ophtalmologiste au grand coeur, qui ignore tout de leur terrible nature.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Henriette et Louise sont deux adorables orphelines aveugles, pensionnaires de l'institut «Les Glycines», un établissement religieux. Leur inexplicable cécité intéresse au plus haut point le bon docteur Dennery, qui les adopte et les emmène à Paris. Ce qu'il ignore, c'est que les deux espiègles fillettes sont en fait des vampires. Lorsque tombe la nuit, elles écument les cimetières, en quête de proies faciles afin d'étancher leur soif de sang frais. A l'insu du docteur, elles sortent presque toutes les nuits et s'en vont au Père-Lachaise, où elles sont recueillies par une femme chauve-souris. Lorsque le docteur découvre la vérité, elles le poignardent...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Seul cinéaste français exclusivement dévoué au genre fantastique, Jean Rollin signe là un film bénéficiant de moyens modestes, mais émaillé de belles trouvailles.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E79072.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752501" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-22T02:17:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Ciné choc</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125038803" DATEMODIF="2018-01-26T11:35:52">
+        <TITREEMISSION>Ciné choc</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3151426">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Ciné choc</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Les sorties de films « de genre » de la semaine, Ciné et DVD tout en images. Au programme : des sujets complets sur les nouveaux films évènements, des reportages sur les festivals, les échos des tournages, et en avant première les bandes annonces Internet des films attendus.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125038803.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752502" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-22T02:32:00</DATEHEURE>
+      <DUREE>83</DUREE>
+      <TITRE>La vampire nue</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="80492" DATEMODIF="2016-04-28T11:30:36">
+        <TITREEMISSION>La vampire nue</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="254" GENRESIMPLE="Film fantastique">Film fantastique</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1969</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>85</DUREEEMI>
+          <CENSURE CLE="16">Interdit aux moins de 16</CENSURE>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="257861">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Rollin</NOM>
+            <PRENOM>Jean</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="86060">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martin</NOM>
+            <PRENOM>Olivier</PRENOM>
+            <ROLE>Pierre Radamante</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="57153">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Musson</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Voringe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="20448">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cartier</NOM>
+            <PRENOM>Caroline</PRENOM>
+            <ROLE>la vampire</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="86061">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Poly</NOM>
+            <PRENOM>Ursule</PRENOM>
+            <ROLE>Solange</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="101784">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lemaître</NOM>
+            <PRENOM>Maurice</PRENOM>
+            <ROLE>Georges Radamante</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="192116">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aron</NOM>
+            <PRENOM>Jean</PRENOM>
+            <ROLE>Fredor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="192117">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fardoulis</NOM>
+            <PRENOM>Pascal</PRENOM>
+            <ROLE>Robert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141383">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Castel</NOM>
+            <PRENOM>Catherine</PRENOM>
+            <ROLE>une des servantes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="94454">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Gérault</NOM>
+            <PRENOM>Yvon</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une jolie jeune fille, enlevée par des savants peu scrupuleux, sert de cobaye pour des expériences sur les vampires. Un jeune homme essaie de la sauver.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une jeune fille est enlevée par des hommes masqués qui veulent percer le secret des vampires. Pour cela, ils comptent emmener la malheureuse, qu'ils prennent pour un vampire, dans un château où réside une secte mystérieuse. Cette organisation voue un culte à une femme vampire et tous ses membres s'offrent aveuglément à elle. Le maître de cérémonie est un savant millionnaire dont le fils tente en vain de sauver la jeune fille. En fait de vampires, les curieux personnages du château semblent plutôt être des mutants. Les deux jeunes gens, poursuivis par les membres de la secte, tentent désespérément de s'enfuir. Le jeune homme tombe amoureux de la femme vampire...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Erotisme et épouvante se rencontrent dans ce film pour un final provoquant l'hilarité tant il est kitsch.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E80492.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170752503" DATEMODIF="2018-01-24T11:25:18">
+      <DATEHEURE>2018-02-22T03:55:00</DATEHEURE>
+      <DUREE>86</DUREE>
+      <TITRE>Lèvres de sang</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="202726" DATEMODIF="2016-05-21T06:48:38">
+        <TITREEMISSION>Lèvres de sang</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="254" GENRESIMPLE="Film fantastique">Film fantastique</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1974</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>85</DUREEEMI>
+          <CENSURE CLE="12">Interdit aux moins de 12</CENSURE>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="257861">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Rollin</NOM>
+            <PRENOM>Jean</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="141415">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Philippe</NOM>
+            <PRENOM>Jean-Loup</PRENOM>
+            <ROLE>Frédéric</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141395">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Briand</NOM>
+            <PRENOM>Annie</PRENOM>
+            <ROLE>Jennifer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="84487">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Perrey</NOM>
+            <PRENOM>Nathalie</PRENOM>
+            <ROLE>la mère</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="74494">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Grimaud</NOM>
+            <PRENOM>Martine</PRENOM>
+            <ROLE>la photographe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141383">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Castel</NOM>
+            <PRENOM>Catherine</PRENOM>
+            <ROLE>une soeur vampire</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="66493">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Castel</NOM>
+            <PRENOM>Marie-Pierre</PRENOM>
+            <ROLE>une soeur vampire</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="59974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braque</NOM>
+            <PRENOM>Willy</PRENOM>
+            <ROLE>le tueur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="48671">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bisciglia</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>le psychiatre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141414">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Le Paw</NOM>
+            <PRENOM>Didier William</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Emu par la photo d'un paysage montrant un vieux château, un jeune homme a une étrange vision, qui le conduit jusque dans un cimetière de Montmartre.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Au cours d'un cocktail, Frédéric, un jeune homme ambitieux qui compte faire carrière dans la publicité, se passionne pour une affiche. Le château en ruines qui y figure ne lui est pas inconnu. Fouillant sa mémoire, Frédéric se rappelle la silhouette d'une belle mais spectrale jeune femme, dont le souvenir l'émeut profondément. Un soir, la même image lui revient, à la faveur de l'obscurité d'une salle de cinéma. Mais Frédéric n'est pas homme à s'en laisser conter : il s'élance à la poursuite de la jeune femme, jusqu'à Montmartre, dans un cimetière où l'apparition souhaitait manifestement l'entraîner...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Des jolies dames vampires en tenues plus que légères aux cimetières et châteaux hantés, un film érotico-épouvantable.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E202726.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

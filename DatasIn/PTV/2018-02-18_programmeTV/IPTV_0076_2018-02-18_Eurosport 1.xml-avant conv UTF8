@@ -1,0 +1,922 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:00:43-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="76">
+    <NOMCHAINE>Eurosport 1</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-18">
+    <DIFFUSION CLEDIF="171790758" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T05:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Magazine de la Coupe de France</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124997327" DATEMODIF="2018-01-30T23:24:43">
+        <TITREEMISSION>Magazine de la Coupe de France</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="615" GENRESIMPLE="Magazine sportif">Cyclisme</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_E124997327.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790759" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T06:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124997141" DATEMODIF="2018-01-10T16:03:05">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Cadel Evans Great Ocean Road Race 2018</LIBELLE>
+            <MANCHE>164 km</MANCHE>
+          </EVENEMENT>
+          <LIEU>Entre Melbourne et Geelong Waterfront (Australie)</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E124997141.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790760" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T07:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716798" DATEMODIF="2018-01-29T17:51:15">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de l'Algarve 2018</LIBELLE>
+            <MANCHE>4e étape : Almodovar - Tavira (199,2 km)</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Portugal</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125716798.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790761" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T08:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716792" DATEMODIF="2018-01-29T17:45:46">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour d'Andalousie 2018</LIBELLE>
+            <MANCHE>4e étape : Séville - Alcala de los Gazules (188 km)</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125716792.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790762" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T09:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125263933" DATEMODIF="2018-01-16T16:10:49">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de la Communauté de Valence 2018</LIBELLE>
+            <MANCHE>5e étape : Paterna - Valence</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125263933.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790763" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T10:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716798" DATEMODIF="2018-01-29T17:51:15">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de l'Algarve 2018</LIBELLE>
+            <MANCHE>4e étape : Almodovar - Tavira (199,2 km)</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Portugal</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125716798.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790764" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T11:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716792" DATEMODIF="2018-01-29T17:45:46">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour d'Andalousie 2018</LIBELLE>
+            <MANCHE>4e étape : Séville - Alcala de los Gazules (188 km)</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125716792.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790765" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T12:00:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Cyclisme sur piste</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125263953" DATEMODIF="2018-02-01T10:07:10">
+        <TITREEMISSION>Cyclisme sur piste</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1071" GENRESIMPLE="Cyclisme">Cyclisme sur piste</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>6 jours de Copenhague 2018</LIBELLE>
+            <MANCHE>6e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Danemark</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125263953.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790766" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T13:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716798" DATEMODIF="2018-01-29T17:51:15">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de l'Algarve 2018</LIBELLE>
+            <MANCHE>4e étape : Almodovar - Tavira (199,2 km)</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Portugal</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125716798.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790767" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T14:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716792" DATEMODIF="2018-01-29T17:45:46">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour d'Andalousie 2018</LIBELLE>
+            <MANCHE>4e étape : Séville - Alcala de los Gazules (188 km)</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125716792.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790768" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T15:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716796" DATEMODIF="2018-01-29T17:46:33">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour d'Andalousie 2018</LIBELLE>
+            <MANCHE>5e étape : Barbate - Barbate (13 km contre-la-montre)</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125716796.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790769" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T17:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716800" DATEMODIF="2018-01-29T17:52:24">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de l'Algarve 2018</LIBELLE>
+            <MANCHE>5e étape : Faro - Alto do Malhao (Loulé) (173,5 km)</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Portugal</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125716800.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171932479" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T18:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125819963" DATEMODIF="2018-01-31T17:07:18">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour d'Oman 2018</LIBELLE>
+            <MANCHE>5e étape : Sama'il - Jaba Al Akhdhar (152 km)</MANCHE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_P125819963.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790770" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T18:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716796" DATEMODIF="2018-01-29T17:46:33">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour d'Andalousie 2018</LIBELLE>
+            <MANCHE>5e étape : Barbate - Barbate (13 km contre-la-montre)</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125716796.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790771" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T19:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716800" DATEMODIF="2018-01-29T17:52:24">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de l'Algarve 2018</LIBELLE>
+            <MANCHE>5e étape : Faro - Alto do Malhao (Loulé) (173,5 km)</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Portugal</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125716800.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790772" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T20:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125263933" DATEMODIF="2018-01-16T16:10:49">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de la Communauté de Valence 2018</LIBELLE>
+            <MANCHE>5e étape : Paterna - Valence</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125263933.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790773" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T21:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme sur piste</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Epilogue des 6 jours de Copenhague. Les Belges Kenny De Ketele et Moreno De Pauw, deuxièmes en 2016 et 2017, espèraient décrocher la victoire au Danemark. En 2017, les Danois Lasse Norman Hansen et Michael Morkov ont remporté l'épreuve cycliste devant leur public.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125263953" DATEMODIF="2018-02-01T10:07:10">
+        <TITREEMISSION>Cyclisme sur piste</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="1071" GENRESIMPLE="Cyclisme">Cyclisme sur piste</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>6 jours de Copenhague 2018</LIBELLE>
+            <MANCHE>6e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Danemark</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125263953.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790774" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T22:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716796" DATEMODIF="2018-01-29T17:46:33">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour d'Andalousie 2018</LIBELLE>
+            <MANCHE>5e étape : Barbate - Barbate (13 km contre-la-montre)</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125716796.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790775" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-18T23:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716800" DATEMODIF="2018-01-29T17:52:24">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de l'Algarve 2018</LIBELLE>
+            <MANCHE>5e étape : Faro - Alto do Malhao (Loulé) (173,5 km)</MANCHE>
+          </EVENEMENT>
+          <LIEU>Au Portugal</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125716800.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790776" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-19T00:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Cyclisme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125263933" DATEMODIF="2018-01-16T16:10:49">
+        <TITREEMISSION>Cyclisme</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="614" GENRESIMPLE="Cyclisme">Cyclisme</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Tour de la Communauté de Valence 2018</LIBELLE>
+            <MANCHE>5e étape : Paterna - Valence</MANCHE>
+          </EVENEMENT>
+          <LIEU>En Espagne</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_P125263933.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171790839" DATEMODIF="2018-02-07T09:36:37">
+      <DATEHEURE>2018-02-19T01:30:00</DATEHEURE>
+      <DUREE>315</DUREE>
+      <TITRE>Fin des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125716814" DATEMODIF="2018-02-01T10:10:04">
+        <TITREEMISSION>Fin des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

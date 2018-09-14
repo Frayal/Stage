@@ -1,0 +1,1256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:00:27-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="71">
+    <NOMCHAINE>ETB 1</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-20">
+    <DIFFUSION CLEDIF="172233377" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T05:10:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Martin</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118706224" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Martin</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <SERIE>
+          <DUREEEMI>50</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="265287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Soroiz</NOM>
+            <PRENOM>José Ramón</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="151557">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Irureta</NOM>
+            <PRENOM>Elena</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="290750">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garate</NOM>
+            <PRENOM>Iban</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="379717">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garmendia</NOM>
+            <PRENOM>Aitziber</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1345115">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Iraundegi</NOM>
+            <PRENOM>Amaia</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="593472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aizpuru</NOM>
+            <PRENOM>Itziar</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="366178">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Argoitia</NOM>
+            <PRENOM>José Ramón</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="7114">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fernández</NOM>
+            <PRENOM>Isidoro</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233378" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T06:10:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Hizkamizka</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118706225" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Hizkamizka</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1321541">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gurrutxaga</NOM>
+            <PRENOM>Zuhaitz</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233379" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T07:10:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Kamera Ezkutua</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831407" DATEMODIF="2018-02-07T10:48:39">
+        <TITREEMISSION>Kamera Ezkutua</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233380" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T07:20:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Hi, Selfie !</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124792915" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Hi, Selfie !</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="231159">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Iantzi</NOM>
+            <PRENOM>Julian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233381" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T09:00:00</DATEHEURE>
+      <DUREE>130</DUREE>
+      <TITRE>Egun on Euskadi</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831362" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Egun on Euskadi</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="401" GENRESIMPLE="Magazine d'information">Magazine d'information</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="177579">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Aldamiz-Etxebarria</NOM>
+            <PRENOM>Estepan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233382" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T11:10:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Teknopolis</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831374" DATEMODIF="2018-02-07T10:48:39">
+        <TITREEMISSION>Teknopolis</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="420" GENRESIMPLE="Magazine scientifique">Magazine scientifique</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1321283">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Leturia</NOM>
+            <PRENOM>Iñaki</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233383" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T11:40:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Udazken loreak</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121500748" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Udazken loreak</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="413" GENRESIMPLE="Magazine de la nature">Magazine de la nature</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="488989">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Alkain</NOM>
+            <PRENOM>Anjel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1351293">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Landaluze</NOM>
+            <PRENOM>Iro</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233384" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T12:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Txoriene Zigor Iturrietarekin</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831363" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Txoriene Zigor Iturrietarekin</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1340911">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Iturrieta</NOM>
+            <PRENOM>Zigor</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233385" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T13:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Gure Kasa</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121500746" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Gure Kasa</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1322644">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellería</NOM>
+            <PRENOM>Julen</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1352277">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Etxebarria</NOM>
+            <PRENOM>Ainhoa</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1352278">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Telleria</NOM>
+            <PRENOM>Antton</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233386" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T14:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Gaur Egun</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831366" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Gaur Egun</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1321253">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Usabiaga</NOM>
+            <PRENOM>Xabier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233387" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T14:50:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Eguraldia</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831367" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Eguraldia</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1321535">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Salazar</NOM>
+            <PRENOM>Onintze</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233388" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T15:00:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>Txoriene Zigor Iturrietarekin</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831363" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Txoriene Zigor Iturrietarekin</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1340911">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Iturrieta</NOM>
+            <PRENOM>Zigor</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233389" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T16:10:00</DATEHEURE>
+      <DUREE>130</DUREE>
+      <TITRE>Ahoz Aho</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831368" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Ahoz Aho</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1321254">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Cayero</NOM>
+            <PRENOM>Amaia</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="253048">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Serrano</NOM>
+            <PRENOM>Ilaski</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233390" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T18:20:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Iparraldearen Orena</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831369" DATEMODIF="2018-02-07T10:48:39">
+        <TITREEMISSION>Iparraldearen Orena</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1321258">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Irigoien</NOM>
+            <PRENOM>Guillaume</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1291200">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Dolosor</NOM>
+            <PRENOM>Franck</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1321259">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Olaso</NOM>
+            <PRENOM>Nerea</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1321536">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Esnal</NOM>
+            <PRENOM>Iñaki</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1321260">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Lizeaga</NOM>
+            <PRENOM>Andoni</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233391" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T18:35:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Euskal Herria, bide batez</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="119619900" DATEMODIF="2018-02-07T10:48:39">
+        <TITREEMISSION>Euskal Herria, bide batez</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2007</ANNEEREALISATION>
+          <DUREEEMI>20</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1321267">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Llorente</NOM>
+            <PRENOM>Eduardo</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233392" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T19:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Atera Kontuak</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="126041917" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Atera Kontuak</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="418" GENRESIMPLE="Magazine de société">Magazine de reportages</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1367770">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Angoitia</NOM>
+            <PRENOM>Susana</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233393" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T20:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Gaur egun</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831371" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Gaur egun</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="290750">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Garate</NOM>
+            <PRENOM>Iban</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233394" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T20:50:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Eguraldia</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831367" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Eguraldia</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1321535">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Salazar</NOM>
+            <PRENOM>Onintze</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233395" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T21:05:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Irrikitown</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="122456692" DATEMODIF="2018-02-07T10:48:37">
+        <TITREEMISSION>Irrikitown</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233396" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T21:25:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Gure Kasa</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121500746" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Gure Kasa</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1322644">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellería</NOM>
+            <PRENOM>Julen</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1352277">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Etxebarria</NOM>
+            <PRENOM>Ainhoa</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1352278">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Telleria</NOM>
+            <PRENOM>Antton</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233397" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T22:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Ur Handitan</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113831387" DATEMODIF="2018-02-07T10:48:35">
+        <TITREEMISSION>Ur Handitan</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="401" GENRESIMPLE="Magazine d'information">Magazine d'information</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1324560">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Madariaga</NOM>
+            <PRENOM>Xabier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233398" DATEMODIF="2018-02-07T10:48:35">
+      <DATEHEURE>2018-02-20T23:30:00</DATEHEURE>
+      <DUREE>80</DUREE>
+      <TITRE>Ahoz Aho+</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121015681" DATEMODIF="2018-02-07T10:48:35">
+        <TITREEMISSION>Ahoz Aho+</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1352280">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Martija</NOM>
+            <PRENOM>Saioa</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233399" DATEMODIF="2018-02-07T10:48:36">
+      <DATEHEURE>2018-02-21T00:50:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>Kantugiro</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="119149676" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Kantugiro</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="956" GENRESIMPLE="Emission musicale">Emission musicale</GENRE>
+        <MAGAZINEXY />
+        <LESPERSONNES>
+          <PERSONNE CLE="1345107">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Hidalgo</NOM>
+            <PRENOM>Zuriñe</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1345108">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Fernández</NOM>
+            <PRENOM>Xabin</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233400" DATEMODIF="2018-02-07T10:48:36">
+      <DATEHEURE>2018-02-21T02:05:00</DATEHEURE>
+      <DUREE>150</DUREE>
+      <TITRE>Goenkale</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118706228" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Goenkale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="52" GENRESIMPLE="Série sentimentale">Série sentimentale</GENRE>
+        <SERIE>
+          <DUREEEMI>105</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1993</ANNEEREALISATION>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="69381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Erburu</NOM>
+            <PRENOM>Andoni</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="544674">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Goenaga</NOM>
+            <PRENOM>Bárbara</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="310181">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garmendia</NOM>
+            <PRENOM>Mikel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1340010">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Odriozola</NOM>
+            <PRENOM>Kontxu</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1345109">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Perurena</NOM>
+            <PRENOM>Iñaki</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="380332">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gojenola</NOM>
+            <PRENOM>Miren</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1345110">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laskurain</NOM>
+            <PRENOM>Mikel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1345111">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gongeta</NOM>
+            <PRENOM>Amaia</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172233401" DATEMODIF="2018-02-07T10:48:36">
+      <DATEHEURE>2018-02-21T04:35:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Hasiberriak</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118706223" DATEMODIF="2018-02-07T10:48:38">
+        <TITREEMISSION>Hasiberriak</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="52" GENRESIMPLE="Série sentimentale">Série sentimentale</GENRE>
+        <SERIE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2001</ANNEEREALISATION>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="312284">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Antero</NOM>
+            <PRENOM>Mikel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1345112">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Arrillaga</NOM>
+            <PRENOM>Koldo</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="312285">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Azuara</NOM>
+            <PRENOM>Edurne</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1345113">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garcia</NOM>
+            <PRENOM>Saioa</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1345114">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Etxeberria</NOM>
+            <PRENOM>Naiara</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

@@ -1,0 +1,4605 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:04:37-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1167">
+    <NOMCHAINE>Game One +1</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-19">
+    <DIFFUSION CLEDIF="171708944" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T05:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Funky Web l'hebdo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124463153" DATEMODIF="2018-02-02T09:07:16">
+        <TITREEMISSION>Funky Web l'hebdo</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9127412">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web l'hebdo</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708945" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T05:30:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>#Teamg1</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614569" DATEMODIF="2018-01-26T10:36:52">
+        <TITREEMISSION>#Teamg1</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14283916">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / #Teamg1</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="385390">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellouck</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232271">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kythis</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="614661">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kayane</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1196943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gen1us</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232272">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Phan</NOM>
+            <PRENOM>Anh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Julien et Marcus, accompagnés de Kythis, Kayane, Gen1us et Anh Phan, présentent l'actualité numérique et partagent leurs expériences de joueurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708946" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T05:45:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Funky Web compil'</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615132" DATEMODIF="2018-01-26T10:37:02">
+        <TITREEMISSION>Funky Web compil'</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14323274">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web compil'</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708947" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T06:00:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>La sélec' des jeux vidéo</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615139" DATEMODIF="2018-01-26T10:37:22">
+        <TITREEMISSION>La sélec' des jeux vidéo</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="427" GENRESIMPLE="Magazine">Magazine du jeu vidéo</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9105660">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / La sélec' des jeux vidéo</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une compilation des tests des meilleurs jeux du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708948" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T06:15:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Funky Web l'hebdo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615136" DATEMODIF="2018-01-26T10:37:57">
+        <TITREEMISSION>Funky Web l'hebdo</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9127412">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web l'hebdo</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708949" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T06:45:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>#Teamg1</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614565" DATEMODIF="2018-01-26T10:36:52">
+        <TITREEMISSION>#Teamg1</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14283916">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / #Teamg1</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="385390">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellouck</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232271">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kythis</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="614661">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kayane</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1196943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gen1us</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232272">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Phan</NOM>
+            <PRENOM>Anh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Julien et Marcus, accompagnés de Kythis, Kayane, Gen1us et Anh Phan, présentent l'actualité numérique et partagent leurs expériences de joueurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708950" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T07:00:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Funky Web compil'</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615132" DATEMODIF="2018-01-26T10:37:02">
+        <TITREEMISSION>Funky Web compil'</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14323274">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web compil'</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708951" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T07:15:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Funky Web l'hebdo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125138921" DATEMODIF="2018-02-02T09:07:16">
+        <TITREEMISSION>Funky Web l'hebdo</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9127412">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web l'hebdo</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708952" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T07:45:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>#Teamg1</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614567" DATEMODIF="2018-01-26T10:37:02">
+        <TITREEMISSION>#Teamg1</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14283916">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / #Teamg1</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="385390">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellouck</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232271">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kythis</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="614661">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kayane</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1196943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gen1us</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232272">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Phan</NOM>
+            <PRENOM>Anh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Julien et Marcus, accompagnés de Kythis, Kayane, Gen1us et Anh Phan, présentent l'actualité numérique et partagent leurs expériences de joueurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708953" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T08:00:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Mon ami Grompf</TITRE>
+      <SOUSTITREDIF>Ça chauffe pour Grompf. - Une mamie pour Grompf</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125618445" DATEMODIF="2018-01-26T10:12:24">
+        <TITREEMISSION>Mon ami Grompf</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7111610">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Mon ami Grompf</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8128213">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Mon ami Grompf / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Ça chauffe pour Grompf. - Une mamie pour Grompf</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>26</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>«Ça chauffe pour Grompf». Ne supportant plus la canicule, Grompf va se réfugier au rayon surgelé des Galeries Farfouillettes, qui reçoivent justement la visite d'une inspectrice du travail. - «Une mamie pour Grompf». Il ne faut pas révéler l'existence de Grompf à la mère de François, car celle-ci déteste les animaux. Mais difficile d'être discret quand on est une grand doudoune poilue...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708954" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T08:25:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Mon ami Grompf</TITRE>
+      <SOUSTITREDIF>Grompf service. - Grompf sur le ring</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125618448" DATEMODIF="2018-01-26T10:08:21">
+        <TITREEMISSION>Mon ami Grompf</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7111610">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Mon ami Grompf</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8128213">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Mon ami Grompf / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Grompf service. - Grompf sur le ring</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>12</NUMERO>
+            <NOMBRE>26</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>«Grompf service». Pour pouvoir se payer la figurine collector du «Troll Putride qui prend un bain», Arthur et Grompf vont trouver des petits boulots. - «Grompf sur le ring». Cho organise un spectacle de catch espérant faire partir les enfants de la cité de l'Espoir en vacances. Le combat entre l'Himalaya velu et le Viking Hurlant va faire un triomphe...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708955" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T08:50:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Les lapins crétins : invasion</TITRE>
+      <SOUSTITREDIF>Cauchemar crétin</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="108545537" DATEMODIF="2017-04-14T16:58:38">
+        <TITREEMISSION>Les lapins crétins : invasion</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="205">
+          <PAYS>France - Etats-Unis</PAYS>
+          <LIBELLE>franco-américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="11818532">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Les lapins crétins : invasion</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Cauchemar crétin</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>15</NUMERO>
+            <NOMBRE>54</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Ils ne se souviennent de rien, ils ne comprennent rien, mais ils ne renoncent jamais : les lapins crétins font de leur quotidien un monde étonnant.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ils ne se souviennent de rien, ils ne comprennent rien, mais ils ne renoncent jamais : les lapins crétins font de leur quotidien un monde étonnant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708956" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T09:15:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Les lapins crétins : invasion</TITRE>
+      <SOUSTITREDIF>Dans la peau d'un crétin</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114253694" DATEMODIF="2017-04-14T16:58:41">
+        <TITREEMISSION>Les lapins crétins : invasion</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="205">
+          <PAYS>France - Etats-Unis</PAYS>
+          <LIBELLE>franco-américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="11818532">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Les lapins crétins : invasion</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Dans la peau d'un crétin</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>16</NUMERO>
+            <NOMBRE>54</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Ils ne se souviennent de rien, ils ne comprennent rien, mais ils ne renoncent jamais : les lapins crétins font de leur quotidien un monde étonnant.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ils ne se souviennent de rien, ils ne comprennent rien, mais ils ne renoncent jamais : les lapins crétins font de leur quotidien un monde étonnant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708957" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T09:45:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>#Teamg1</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614569" DATEMODIF="2018-01-26T10:36:52">
+        <TITREEMISSION>#Teamg1</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14283916">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / #Teamg1</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="385390">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellouck</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232271">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kythis</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="614661">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kayane</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1196943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gen1us</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232272">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Phan</NOM>
+            <PRENOM>Anh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Julien et Marcus, accompagnés de Kythis, Kayane, Gen1us et Anh Phan, présentent l'actualité numérique et partagent leurs expériences de joueurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708958" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T10:00:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>#Teamg1</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614571" DATEMODIF="2018-01-26T10:37:03">
+        <TITREEMISSION>#Teamg1</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14283916">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / #Teamg1</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="385390">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellouck</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232271">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kythis</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="614661">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kayane</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1196943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gen1us</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232272">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Phan</NOM>
+            <PRENOM>Anh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Julien et Marcus, accompagnés de Kythis, Kayane, Gen1us et Anh Phan, présentent l'actualité numérique et partagent leurs expériences de joueurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708959" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T10:15:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Funky Web</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614573" DATEMODIF="2018-01-26T10:37:03">
+        <TITREEMISSION>Funky Web</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="814969">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708960" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T10:20:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Funky Web l'hebdo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125138921" DATEMODIF="2018-02-02T09:07:16">
+        <TITREEMISSION>Funky Web l'hebdo</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9127412">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web l'hebdo</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708961" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T10:50:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Super-fan Builds</TITRE>
+      <SOUSTITREDIF>Sherlock et «Retour vers le futur»</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646465" DATEMODIF="2018-01-26T16:44:22">
+        <TITREEMISSION>Super-fan Builds</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="980" GENRESIMPLE="Téléréalité">Téléréalité</GENRE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30195328">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super-fan Builds</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Sherlock et «Retour vers le futur»</SOUSTITRE>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'équipe construit une niche Sherlock Holmes et un jacuzzi-machine à voyager dans le temps.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708962" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T11:15:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Super-fan Builds</TITRE>
+      <SOUSTITREDIF>Le magicien d'Oz et Conan le Barbare</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646462" DATEMODIF="2018-01-26T16:42:50">
+        <TITREEMISSION>Super-fan Builds</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="980" GENRESIMPLE="Téléréalité">Téléréalité</GENRE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30195328">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super-fan Builds</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Le magicien d'Oz et Conan le Barbare</SOUSTITRE>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les différentes équipes d'artisans spécialisés fabriquent un mixeur le magicien d'Oz et la réplique de l'épée de Conan Le Barbare.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708963" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T11:45:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Avatar, le dernier maître de l'air</TITRE>
+      <SOUSTITREDIF>L'état d'Avatar</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="6800594" DATEMODIF="2017-01-05T14:23:15">
+        <TITREEMISSION>Avatar, le dernier maître de l'air</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="813194">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Avatar, le dernier maître de l'air</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Avatar : The Last Airbender</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'état d'Avatar</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Avatar State</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Aang et ses compagnons rencontrent un général du Royaume de la Terre. Celui-ci veut utiliser la puissance d'Aang en tant qu'Avatar pour combattre la Nation du Feu...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708964" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T12:10:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Avatar, le dernier maître de l'air</TITRE>
+      <SOUSTITREDIF>La grotte des amoureux</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="6800629" DATEMODIF="2017-01-05T14:23:31">
+        <TITREEMISSION>Avatar, le dernier maître de l'air</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="813194">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Avatar, le dernier maître de l'air</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Avatar : The Last Airbender</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La grotte des deux amants</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Cave of Two Lovers</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Sur la route d'Omashu, Aang et ses amis rencontrent des nomades qui les conduisent à un tunnel appelé «la grotte des amoureux».  Ils devront croire en l'amour pour en sortir...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708965" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T12:35:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Avatar, le dernier maître de l'air</TITRE>
+      <SOUSTITREDIF>Retour à Omashu</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="6830760" DATEMODIF="2017-01-05T14:23:42">
+        <TITREEMISSION>Avatar, le dernier maître de l'air</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="813194">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Avatar, le dernier maître de l'air</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Avatar : The Last Airbender</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Retour à Omashu</SOUSTITRE>
+          <SOUSTITREORIGINAL>Return to Omashu</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les enfants retournent à Omashu pour qu'Aang apprennent la maîtrise de la Terre avec le roi Bumi. Mais en arrivant il découvre que la ville est aux mains de la nation du Feu...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708966" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T13:05:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Naruto Shippuden</TITRE>
+      <SOUSTITREDIF>Le choc</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="105976414" DATEMODIF="2017-01-12T16:17:35">
+        <TITREEMISSION>Naruto Shippuden</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="96250">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Naruto Shippuden</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Naruto Shippûden</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>18</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le choc</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>446</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'escouade de Konoha résiste aux assauts de la Racine et finit par rattraper Sasuke, parvenu chez Orochimaru. Naruto sera-il assez fort pour stopper le projet fou de son compagnon ? C'est le moment de vérité...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708967" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T13:30:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Naruto Shippuden</TITRE>
+      <SOUSTITREDIF>Seconde lune</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="105976415" DATEMODIF="2017-01-12T16:17:35">
+        <TITREEMISSION>Naruto Shippuden</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="96250">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Naruto Shippuden</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Naruto Shippûden</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>18</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Seconde lune</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>447</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Assoiffé de vengeance, Pain, l'ancien disciple de Jiraya devenu leader d'Akatsuki, lance l'assaut sur Konoha qu'il est bien décidé à anéantir, non sans avoir infligé les pires souffrances à ses villageois. Naruto pourra-t-il le contrer grâce au seul Senjutsu ?...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708968" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T13:55:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Naruto Shippuden</TITRE>
+      <SOUSTITREDIF>Compagnons</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="102098551" DATEMODIF="2017-01-12T16:17:35">
+        <TITREEMISSION>Naruto Shippuden</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="96250">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Naruto Shippuden</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Naruto Shippûden</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>18</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Compagnons</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>448</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Prisonnier du sort de Nagato, Naruto enrage d'être impuissant à sauver son village. Il laisse la colère l'envahir et supplie Kyûbi de lui donner sa force. Mais voilà que Kushina intervient pour le raisonner...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708969" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T14:25:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Concrete Revolutio</TITRE>
+      <SOUSTITREDIF>Par-delà le ciel et les étoiles</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615111" DATEMODIF="2018-01-26T09:13:57">
+        <TITREEMISSION>Concrete Revolutio</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20042790">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Concrete Revolutio</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Par-delà le ciel et les étoiles</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="314484">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Seiji</NOM>
+            <PRENOM>Mizushima</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="460519">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Shô</NOM>
+            <PRENOM>Aikawa</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Earth est une super-humaine qui vit en orbite autour de la Terre et qui répond aux appels au secours des humains en détresse. Lorsqu'elle est confrontée à Judas, un ancien membre d'une organisation criminelle, elle se demande si le jeune homme a vraiment renoncé à son ancienne vie, ou s'il ne fait que jouer la comédie. De son côté, le DSH aimerait bien recourir aux service de Earth pour protéger le Premier ministre...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708970" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T14:50:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Concrete Revolutio</TITRE>
+      <SOUSTITREDIF>Le Chevalier Arc-en-ciel, cet inconnu</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615112" DATEMODIF="2018-01-26T09:14:48">
+        <TITREEMISSION>Concrete Revolutio</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20042790">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Concrete Revolutio</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le Chevalier Arc-en-ciel, cet inconnu</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="314484">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Seiji</NOM>
+            <PRENOM>Mizushima</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="460519">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Shô</NOM>
+            <PRENOM>Aikawa</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le maléfique Oeil de Lucifer refait surface après des années de silence. Sa cible, les différents objets ayant appartenu à son ennemi de toujours, le Chevalier Arc-en-ciel. Le groupe des détectives BL mène l'enquête. Mais Jirô et le DSH ne sont pas loin non plus...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708971" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T15:15:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Concrete Revolutio</TITRE>
+      <SOUSTITREDIF>La fin d'une famille immortelle</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615113" DATEMODIF="2018-01-26T09:15:42">
+        <TITREEMISSION>Concrete Revolutio</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20042790">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Concrete Revolutio</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La fin d'une famille immortelle</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="314484">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Seiji</NOM>
+            <PRENOM>Mizushima</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="460519">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Shô</NOM>
+            <PRENOM>Aikawa</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>A première vue, les Hatakeyama forment une famille tout à fait normale. Mais lorsque ses six membres survivent miraculeusement à l'incendie de l'usine voisine de leur maison, ils attirent l'attention du DSH qui les soupçonne d'être des super-humains non répertoriés. Le DSH décide alors de les placer discrètement sous surveillance. C'est alors que Sanae, la mère de la famille, reçoit un appel de son mari, détenu depuis 30 ans par l'armée américaine...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708972" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T15:45:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Scrubs</TITRE>
+      <SOUSTITREDIF>Mon nouveau jeu</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4756706" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Scrubs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7993">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Scrubs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2740181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Scrubs / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Scrubs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mon nouveau jeu</SOUSTITRE>
+          <SOUSTITREORIGINAL>My New Game</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="206832">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Whittingham</NOM>
+            <PRENOM>Ken</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="177024">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braff</NOM>
+            <PRENOM>Zach</PRENOM>
+            <ROLE>John «JD» Dorian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="256754">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Miller Lawrence</NOM>
+            <PRENOM>Christa</PRENOM>
+            <ROLE>Jordan Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Faison</NOM>
+            <PRENOM>Donald</PRENOM>
+            <ROLE>Chris Turk</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chalke</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Elliot Reid</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reyes</NOM>
+            <PRENOM>Judy</PRENOM>
+            <ROLE>Carla Espinosa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22094">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jenkins</NOM>
+            <PRENOM>Ken</PRENOM>
+            <ROLE>le docteur Bob Kelso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37565">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinley</NOM>
+            <PRENOM>John C</PRENOM>
+            <ROLE>le docteur Perry Cox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14684">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graham</NOM>
+            <PRENOM>Heather</PRENOM>
+            <ROLE>Molly Clock</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="201735">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Allan</NOM>
+            <PRENOM>Gabrielle</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Tandis que Cox et Jordan apprennent qu'ils sont toujours mariés aux yeux de la loi, Turk laisse mourir un de ses patients et sombre dans le doute.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>JD, le concierge et Elliot tentent de résoudre une épineuse question. Pendant ce temps, Ted révèle au docteur Cox et à Jordan qu'en raison de problèmes administratifs, ils sont toujours mariés aux yeux de la loi. Quant à Turk, il se remet en question. Il vient en effet de laisser mourir un de ses patients. Ses doutes sont aggravés lorsque JD lui avoue qu'il ne lui ferait pas confiance...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708973" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T16:10:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Scrubs</TITRE>
+      <SOUSTITREDIF>Mon premier meurtre</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4756707" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Scrubs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7993">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Scrubs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2740181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Scrubs / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Scrubs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mon premier meurtre</SOUSTITRE>
+          <SOUSTITREORIGINAL>My First Kill</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="206832">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Whittingham</NOM>
+            <PRENOM>Ken</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="177024">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braff</NOM>
+            <PRENOM>Zach</PRENOM>
+            <ROLE>John «JD» Dorian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37565">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinley</NOM>
+            <PRENOM>John C</PRENOM>
+            <ROLE>le docteur Perry Cox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chalke</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Elliot Reid</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reyes</NOM>
+            <PRENOM>Judy</PRENOM>
+            <ROLE>Carla Espinosa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22094">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jenkins</NOM>
+            <PRENOM>Ken</PRENOM>
+            <ROLE>le docteur Bob Kelso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="209314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maschio</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Todd</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Faison</NOM>
+            <PRENOM>Donald</PRENOM>
+            <ROLE>Chris Turk</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14684">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graham</NOM>
+            <PRENOM>Heather</PRENOM>
+            <ROLE>le docteur Molly Clock</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="157232">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Quill</NOM>
+            <PRENOM>Tad</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>JD prend conscience qu'il n'est pas à l'abri d'une erreur d'inattention ou d'un diagnostic erroné. Il redoute alors de tuer, un jour, un de ses patients.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Brutalement confronté à la mort, JD prend soudain conscience qu'il pourrait, un jour, mettre fin à la vie d'un de ses patients. Quant à Elliot, elle en veut terriblement à Molly. Mais le quotidien de l'hôpital surchargé où ils finissent leurs études de médecine les conduit à mettre de côté leurs états d'âme...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708974" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T16:35:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Scrubs</TITRE>
+      <SOUSTITREDIF>Son histoire à elle</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4756708" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Scrubs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7993">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Scrubs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2740181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Scrubs / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Scrubs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Son histoire à elle</SOUSTITRE>
+          <SOUSTITREORIGINAL>Her Story</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="347223">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Inwood</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="130716">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Common</NOM>
+            <ROLE>lui-même</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chalke</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Elliot Reid</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="177024">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braff</NOM>
+            <PRENOM>Zach</PRENOM>
+            <ROLE>John «JD» Dorian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37565">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinley</NOM>
+            <PRENOM>John C</PRENOM>
+            <ROLE>le docteur Perry Cox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reyes</NOM>
+            <PRENOM>Judy</PRENOM>
+            <ROLE>Carla Espinosa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14684">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graham</NOM>
+            <PRENOM>Heather</PRENOM>
+            <ROLE>Molly Clock</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="209314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maschio</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Todd</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22094">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jenkins</NOM>
+            <PRENOM>Ken</PRENOM>
+            <ROLE>le docteur Bob Kelso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="130716">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Common</NOM>
+            <ROLE>lui-même</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="265864">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Nissel</NOM>
+            <PRENOM>Angela</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Elliot découvre que la vie de Molly n'est pas vraiment parfaite. Réveillée toutes les nuits par Turk, Carla, à bout de nerfs, tente de trouver un arrangement.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Au bout de quelques jours, Elliot découvre que la vie du docteur Clock est loin d'être aussi parfaite qu'on pourrait le croire. Réveillée toutes les nuits par Turk, Carla, à bout de nerfs, tente de trouver une solution à cette situation qui pourrait rapidement mettre leur couple à rude épreuve...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708975" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T17:05:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Super-fan Builds</TITRE>
+      <SOUSTITREDIF>Sherlock et «Retour vers le futur»</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646465" DATEMODIF="2018-01-26T16:44:22">
+        <TITREEMISSION>Super-fan Builds</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="980" GENRESIMPLE="Téléréalité">Téléréalité</GENRE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30195328">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super-fan Builds</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Sherlock et «Retour vers le futur»</SOUSTITRE>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'équipe construit une niche Sherlock Holmes et un jacuzzi-machine à voyager dans le temps.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708976" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T17:30:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Super-fan Builds</TITRE>
+      <SOUSTITREDIF>Le magicien d'Oz et Conan le Barbare</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646462" DATEMODIF="2018-01-26T16:42:50">
+        <TITREEMISSION>Super-fan Builds</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="980" GENRESIMPLE="Téléréalité">Téléréalité</GENRE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30195328">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super-fan Builds</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Le magicien d'Oz et Conan le Barbare</SOUSTITRE>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les différentes équipes d'artisans spécialisés fabriquent un mixeur le magicien d'Oz et la réplique de l'épée de Conan Le Barbare.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708977" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T17:55:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Funky Web compil'</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615134" DATEMODIF="2018-01-26T10:37:57">
+        <TITREEMISSION>Funky Web compil'</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14323274">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web compil'</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708978" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T18:10:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Funky Web</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614573" DATEMODIF="2018-01-26T10:37:03">
+        <TITREEMISSION>Funky Web</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="814969">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708979" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T18:15:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>#Teamg1</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614571" DATEMODIF="2018-01-26T10:37:03">
+        <TITREEMISSION>#Teamg1</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14283916">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / #Teamg1</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="385390">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellouck</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232271">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kythis</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="614661">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kayane</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1196943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gen1us</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232272">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Phan</NOM>
+            <PRENOM>Anh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Julien et Marcus, accompagnés de Kythis, Kayane, Gen1us et Anh Phan, présentent l'actualité numérique et partagent leurs expériences de joueurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708980" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T18:30:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Scrubs</TITRE>
+      <SOUSTITREDIF>Mon nouveau jeu</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4756706" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Scrubs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7993">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Scrubs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2740181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Scrubs / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Scrubs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mon nouveau jeu</SOUSTITRE>
+          <SOUSTITREORIGINAL>My New Game</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="206832">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Whittingham</NOM>
+            <PRENOM>Ken</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="177024">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braff</NOM>
+            <PRENOM>Zach</PRENOM>
+            <ROLE>John «JD» Dorian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="256754">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Miller Lawrence</NOM>
+            <PRENOM>Christa</PRENOM>
+            <ROLE>Jordan Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Faison</NOM>
+            <PRENOM>Donald</PRENOM>
+            <ROLE>Chris Turk</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chalke</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Elliot Reid</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reyes</NOM>
+            <PRENOM>Judy</PRENOM>
+            <ROLE>Carla Espinosa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22094">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jenkins</NOM>
+            <PRENOM>Ken</PRENOM>
+            <ROLE>le docteur Bob Kelso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37565">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinley</NOM>
+            <PRENOM>John C</PRENOM>
+            <ROLE>le docteur Perry Cox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14684">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graham</NOM>
+            <PRENOM>Heather</PRENOM>
+            <ROLE>Molly Clock</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="201735">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Allan</NOM>
+            <PRENOM>Gabrielle</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Tandis que Cox et Jordan apprennent qu'ils sont toujours mariés aux yeux de la loi, Turk laisse mourir un de ses patients et sombre dans le doute.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>JD, le concierge et Elliot tentent de résoudre une épineuse question. Pendant ce temps, Ted révèle au docteur Cox et à Jordan qu'en raison de problèmes administratifs, ils sont toujours mariés aux yeux de la loi. Quant à Turk, il se remet en question. Il vient en effet de laisser mourir un de ses patients. Ses doutes sont aggravés lorsque JD lui avoue qu'il ne lui ferait pas confiance...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708981" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T18:55:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Scrubs</TITRE>
+      <SOUSTITREDIF>Mon premier meurtre</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4756707" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Scrubs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7993">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Scrubs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2740181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Scrubs / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Scrubs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mon premier meurtre</SOUSTITRE>
+          <SOUSTITREORIGINAL>My First Kill</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="206832">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Whittingham</NOM>
+            <PRENOM>Ken</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="177024">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braff</NOM>
+            <PRENOM>Zach</PRENOM>
+            <ROLE>John «JD» Dorian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37565">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinley</NOM>
+            <PRENOM>John C</PRENOM>
+            <ROLE>le docteur Perry Cox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chalke</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Elliot Reid</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reyes</NOM>
+            <PRENOM>Judy</PRENOM>
+            <ROLE>Carla Espinosa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22094">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jenkins</NOM>
+            <PRENOM>Ken</PRENOM>
+            <ROLE>le docteur Bob Kelso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="209314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maschio</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Todd</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Faison</NOM>
+            <PRENOM>Donald</PRENOM>
+            <ROLE>Chris Turk</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14684">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graham</NOM>
+            <PRENOM>Heather</PRENOM>
+            <ROLE>le docteur Molly Clock</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="157232">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Quill</NOM>
+            <PRENOM>Tad</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>JD prend conscience qu'il n'est pas à l'abri d'une erreur d'inattention ou d'un diagnostic erroné. Il redoute alors de tuer, un jour, un de ses patients.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Brutalement confronté à la mort, JD prend soudain conscience qu'il pourrait, un jour, mettre fin à la vie d'un de ses patients. Quant à Elliot, elle en veut terriblement à Molly. Mais le quotidien de l'hôpital surchargé où ils finissent leurs études de médecine les conduit à mettre de côté leurs états d'âme...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708982" DATEMODIF="2018-02-06T05:31:20">
+      <DATEHEURE>2018-02-19T19:20:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Scrubs</TITRE>
+      <SOUSTITREDIF>Son histoire à elle</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4756708" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Scrubs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7993">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Scrubs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2740181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Scrubs / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Scrubs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Son histoire à elle</SOUSTITRE>
+          <SOUSTITREORIGINAL>Her Story</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="347223">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Inwood</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="130716">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Common</NOM>
+            <ROLE>lui-même</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chalke</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Elliot Reid</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="177024">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braff</NOM>
+            <PRENOM>Zach</PRENOM>
+            <ROLE>John «JD» Dorian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37565">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinley</NOM>
+            <PRENOM>John C</PRENOM>
+            <ROLE>le docteur Perry Cox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reyes</NOM>
+            <PRENOM>Judy</PRENOM>
+            <ROLE>Carla Espinosa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14684">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graham</NOM>
+            <PRENOM>Heather</PRENOM>
+            <ROLE>Molly Clock</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="209314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maschio</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Todd</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22094">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jenkins</NOM>
+            <PRENOM>Ken</PRENOM>
+            <ROLE>le docteur Bob Kelso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="130716">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Common</NOM>
+            <ROLE>lui-même</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="265864">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Nissel</NOM>
+            <PRENOM>Angela</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Elliot découvre que la vie de Molly n'est pas vraiment parfaite. Réveillée toutes les nuits par Turk, Carla, à bout de nerfs, tente de trouver un arrangement.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Au bout de quelques jours, Elliot découvre que la vie du docteur Clock est loin d'être aussi parfaite qu'on pourrait le croire. Réveillée toutes les nuits par Turk, Carla, à bout de nerfs, tente de trouver une solution à cette situation qui pourrait rapidement mettre leur couple à rude épreuve...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708983" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-19T19:50:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Naruto Shippuden</TITRE>
+      <SOUSTITREDIF>Le choc</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="105976414" DATEMODIF="2017-01-12T16:17:35">
+        <TITREEMISSION>Naruto Shippuden</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="96250">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Naruto Shippuden</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Naruto Shippûden</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>18</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le choc</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>446</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'escouade de Konoha résiste aux assauts de la Racine et finit par rattraper Sasuke, parvenu chez Orochimaru. Naruto sera-il assez fort pour stopper le projet fou de son compagnon ? C'est le moment de vérité...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708984" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-19T20:15:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Naruto Shippuden</TITRE>
+      <SOUSTITREDIF>Seconde lune</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="105976415" DATEMODIF="2017-01-12T16:17:35">
+        <TITREEMISSION>Naruto Shippuden</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="96250">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Naruto Shippuden</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Naruto Shippûden</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>18</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Seconde lune</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>447</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Assoiffé de vengeance, Pain, l'ancien disciple de Jiraya devenu leader d'Akatsuki, lance l'assaut sur Konoha qu'il est bien décidé à anéantir, non sans avoir infligé les pires souffrances à ses villageois. Naruto pourra-t-il le contrer grâce au seul Senjutsu ?...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708985" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-19T20:40:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Naruto Shippuden</TITRE>
+      <SOUSTITREDIF>Compagnons</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="102098551" DATEMODIF="2017-01-12T16:17:35">
+        <TITREEMISSION>Naruto Shippuden</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="96250">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Naruto Shippuden</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Naruto Shippûden</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>18</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Compagnons</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>448</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Prisonnier du sort de Nagato, Naruto enrage d'être impuissant à sauver son village. Il laisse la colère l'envahir et supplie Kyûbi de lui donner sa force. Mais voilà que Kushina intervient pour le raisonner...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708986" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-19T21:10:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Concrete Revolutio</TITRE>
+      <SOUSTITREDIF>Par-delà le ciel et les étoiles</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615111" DATEMODIF="2018-01-26T09:13:57">
+        <TITREEMISSION>Concrete Revolutio</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20042790">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Concrete Revolutio</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Par-delà le ciel et les étoiles</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="314484">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Seiji</NOM>
+            <PRENOM>Mizushima</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="460519">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Shô</NOM>
+            <PRENOM>Aikawa</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Earth est une super-humaine qui vit en orbite autour de la Terre et qui répond aux appels au secours des humains en détresse. Lorsqu'elle est confrontée à Judas, un ancien membre d'une organisation criminelle, elle se demande si le jeune homme a vraiment renoncé à son ancienne vie, ou s'il ne fait que jouer la comédie. De son côté, le DSH aimerait bien recourir aux service de Earth pour protéger le Premier ministre...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708987" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-19T21:35:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Concrete Revolutio</TITRE>
+      <SOUSTITREDIF>Le Chevalier Arc-en-ciel, cet inconnu</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615112" DATEMODIF="2018-01-26T09:14:48">
+        <TITREEMISSION>Concrete Revolutio</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20042790">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Concrete Revolutio</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le Chevalier Arc-en-ciel, cet inconnu</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="314484">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Seiji</NOM>
+            <PRENOM>Mizushima</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="460519">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Shô</NOM>
+            <PRENOM>Aikawa</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le maléfique Oeil de Lucifer refait surface après des années de silence. Sa cible, les différents objets ayant appartenu à son ennemi de toujours, le Chevalier Arc-en-ciel. Le groupe des détectives BL mène l'enquête. Mais Jirô et le DSH ne sont pas loin non plus...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708988" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-19T22:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Concrete Revolutio</TITRE>
+      <SOUSTITREDIF>La fin d'une famille immortelle</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615113" DATEMODIF="2018-01-26T09:15:42">
+        <TITREEMISSION>Concrete Revolutio</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="979" GENRESIMPLE="Série">Dessin animé manga</GENRE>
+        <NATIONALITE CLE="501">
+          <PAYS>Japon</PAYS>
+          <LIBELLE>japonais</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20042790">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Concrete Revolutio</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La fin d'une famille immortelle</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="314484">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Seiji</NOM>
+            <PRENOM>Mizushima</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="460519">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Shô</NOM>
+            <PRENOM>Aikawa</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>A première vue, les Hatakeyama forment une famille tout à fait normale. Mais lorsque ses six membres survivent miraculeusement à l'incendie de l'usine voisine de leur maison, ils attirent l'attention du DSH qui les soupçonne d'être des super-humains non répertoriés. Le DSH décide alors de les placer discrètement sous surveillance. C'est alors que Sanae, la mère de la famille, reçoit un appel de son mari, détenu depuis 30 ans par l'armée américaine...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708989" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-19T22:30:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>#Teamg1</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614574" DATEMODIF="2018-01-26T10:37:48">
+        <TITREEMISSION>#Teamg1</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14283916">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / #Teamg1</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="385390">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellouck</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232271">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kythis</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="614661">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kayane</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1196943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gen1us</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232272">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Phan</NOM>
+            <PRENOM>Anh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Julien et Marcus, accompagnés de Kythis, Kayane, Gen1us et Anh Phan, présentent l'actualité numérique et partagent leurs expériences de joueurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708990" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-19T22:50:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>South Park</TITRE>
+      <SOUSTITREDIF>La fureur de perdre</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="6510923" DATEMODIF="2016-08-31T14:45:04">
+        <TITREEMISSION>South Park</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="96173">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / South Park</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3515244">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / South Park / 9</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>South Park</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>9</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La fureur de perdre</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Losing Edge</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2005</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>14</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="70986">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Parker</NOM>
+            <PRENOM>Trey</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="70986">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Parker</NOM>
+            <PRENOM>Trey</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>C'est l'été et aussi le début du championnat de base-ball à South Park. Au début, les garçons veulent à tout prix le remporter, mais au bout de quelques matches, ils se rendent compte qu'en gagnant, ils devront jouer tout l'été. Dès lors, ils veulent absolument perdre...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708991" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-19T23:15:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>South Park</TITRE>
+      <SOUSTITREDIF>Deux jours avant le jour d'après-demain</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="6539974" DATEMODIF="2016-08-31T14:45:04">
+        <TITREEMISSION>South Park</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="96173">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / South Park</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3515244">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / South Park / 9</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>South Park</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>9</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Deux jours avant le jour d'après-demain</SOUSTITRE>
+          <SOUSTITREORIGINAL>Two Days Before the Day After Tomorrow</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2005</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>14</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="70986">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Parker</NOM>
+            <PRENOM>Trey</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="70986">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Parker</NOM>
+            <PRENOM>Trey</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un état d'alerte maximal est déclaré à South Park. Le plus grand barrage de castors au monde vient de céder, et provoque l'inondation de la ville voisine Beaverton.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un état d'alerte maximal est déclaré à South Park. Le plus grand barrage de castors au monde vient de céder, et provoque l'inondation de la ville voisine Beaverton. Tandis que les victimes attendent les secours, tout le monde à South Park s'interroge : qui doit-on condamner ? Seuls Stan et Cartman connaissent le vrai fautif...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708992" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-19T23:40:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>South Park</TITRE>
+      <SOUSTITREDIF>Marjorine</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="6539996" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>South Park</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="96173">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / South Park</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3515244">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / South Park / 9</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>South Park</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>9</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Marjorine</SOUSTITRE>
+          <SOUSTITREORIGINAL>Marjorine</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2005</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>14</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="70986">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Parker</NOM>
+            <PRENOM>Trey</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="70986">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Parker</NOM>
+            <PRENOM>Trey</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les filles de la classe de CM1 ont un secret. Les garçons doivent découvrir ce qu'elles cachent. Pour cela, ils réincarnent Butters en fille sous le nom de Marjorine.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les filles de la classe de CM1 ont un grand secret. Les garçons doivent absolument découvrir ce qu'elles cachent. Pour cela, ils utilisent la mort de Butters et le réincarnent en fille sous le nom de Marjorine. Il pourra ainsi s'infiltrer chez elles et découvrir ce qu'elles préparent...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708993" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T00:05:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>South Park</TITRE>
+      <SOUSTITREDIF>Planète Gros Nibards</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="13205702" DATEMODIF="2016-08-31T14:45:04">
+        <TITREEMISSION>South Park</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="96173">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / South Park</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4102243">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / South Park / 12</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>South Park</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>12</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Planète Gros Nibards</SOUSTITRE>
+          <SOUSTITREORIGINAL>Major Boobage</SOUSTITREORIGINAL>
+          <DUREEEMI>22</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>14</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Kenny est devenu accro à une nouvelle drogue apparue dans les cours d'école, qui provoque des hallucinations. Ses amis font tout pour lui venir en aide...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708994" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T00:30:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Scrubs</TITRE>
+      <SOUSTITREDIF>Mon nouveau jeu</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4756706" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Scrubs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7993">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Scrubs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2740181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Scrubs / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Scrubs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mon nouveau jeu</SOUSTITRE>
+          <SOUSTITREORIGINAL>My New Game</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="206832">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Whittingham</NOM>
+            <PRENOM>Ken</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="177024">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braff</NOM>
+            <PRENOM>Zach</PRENOM>
+            <ROLE>John «JD» Dorian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="256754">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Miller Lawrence</NOM>
+            <PRENOM>Christa</PRENOM>
+            <ROLE>Jordan Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Faison</NOM>
+            <PRENOM>Donald</PRENOM>
+            <ROLE>Chris Turk</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chalke</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Elliot Reid</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reyes</NOM>
+            <PRENOM>Judy</PRENOM>
+            <ROLE>Carla Espinosa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22094">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jenkins</NOM>
+            <PRENOM>Ken</PRENOM>
+            <ROLE>le docteur Bob Kelso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37565">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinley</NOM>
+            <PRENOM>John C</PRENOM>
+            <ROLE>le docteur Perry Cox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14684">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graham</NOM>
+            <PRENOM>Heather</PRENOM>
+            <ROLE>Molly Clock</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="201735">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Allan</NOM>
+            <PRENOM>Gabrielle</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Tandis que Cox et Jordan apprennent qu'ils sont toujours mariés aux yeux de la loi, Turk laisse mourir un de ses patients et sombre dans le doute.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>JD, le concierge et Elliot tentent de résoudre une épineuse question. Pendant ce temps, Ted révèle au docteur Cox et à Jordan qu'en raison de problèmes administratifs, ils sont toujours mariés aux yeux de la loi. Quant à Turk, il se remet en question. Il vient en effet de laisser mourir un de ses patients. Ses doutes sont aggravés lorsque JD lui avoue qu'il ne lui ferait pas confiance...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708995" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T00:55:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Scrubs</TITRE>
+      <SOUSTITREDIF>Mon premier meurtre</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="4756707" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Scrubs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7993">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Scrubs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2740181">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Scrubs / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Scrubs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mon premier meurtre</SOUSTITRE>
+          <SOUSTITREORIGINAL>My First Kill</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="206832">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Whittingham</NOM>
+            <PRENOM>Ken</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="177024">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braff</NOM>
+            <PRENOM>Zach</PRENOM>
+            <ROLE>John «JD» Dorian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37565">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinley</NOM>
+            <PRENOM>John C</PRENOM>
+            <ROLE>le docteur Perry Cox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chalke</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Elliot Reid</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reyes</NOM>
+            <PRENOM>Judy</PRENOM>
+            <ROLE>Carla Espinosa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22094">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jenkins</NOM>
+            <PRENOM>Ken</PRENOM>
+            <ROLE>le docteur Bob Kelso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="209314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maschio</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Todd</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25923">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Faison</NOM>
+            <PRENOM>Donald</PRENOM>
+            <ROLE>Chris Turk</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14684">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Graham</NOM>
+            <PRENOM>Heather</PRENOM>
+            <ROLE>le docteur Molly Clock</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="157232">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Quill</NOM>
+            <PRENOM>Tad</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>JD prend conscience qu'il n'est pas à l'abri d'une erreur d'inattention ou d'un diagnostic erroné. Il redoute alors de tuer, un jour, un de ses patients.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Brutalement confronté à la mort, JD prend soudain conscience qu'il pourrait, un jour, mettre fin à la vie d'un de ses patients. Quant à Elliot, elle en veut terriblement à Molly. Mais le quotidien de l'hôpital surchargé où ils finissent leurs études de médecine les conduit à mettre de côté leurs états d'âme...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708996" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T01:20:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Super-fan Builds</TITRE>
+      <SOUSTITREDIF>Sherlock et «Retour vers le futur»</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646465" DATEMODIF="2018-01-26T16:44:22">
+        <TITREEMISSION>Super-fan Builds</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="980" GENRESIMPLE="Téléréalité">Téléréalité</GENRE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30195328">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super-fan Builds</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Sherlock et «Retour vers le futur»</SOUSTITRE>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'équipe construit une niche Sherlock Holmes et un jacuzzi-machine à voyager dans le temps.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708997" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T01:40:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Super-fan Builds</TITRE>
+      <SOUSTITREDIF>Le magicien d'Oz et Conan le Barbare</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646462" DATEMODIF="2018-01-26T16:42:50">
+        <TITREEMISSION>Super-fan Builds</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="980" GENRESIMPLE="Téléréalité">Téléréalité</GENRE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30195328">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Super-fan Builds</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Le magicien d'Oz et Conan le Barbare</SOUSTITRE>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les différentes équipes d'artisans spécialisés fabriquent un mixeur le magicien d'Oz et la réplique de l'épée de Conan Le Barbare.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708998" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T02:05:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>#Teamg1</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614571" DATEMODIF="2018-01-26T10:37:03">
+        <TITREEMISSION>#Teamg1</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14283916">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / #Teamg1</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="385390">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellouck</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232271">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kythis</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="614661">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kayane</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1196943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gen1us</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232272">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Phan</NOM>
+            <PRENOM>Anh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Julien et Marcus, accompagnés de Kythis, Kayane, Gen1us et Anh Phan, présentent l'actualité numérique et partagent leurs expériences de joueurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171708999" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T02:20:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>#Teamg1</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614574" DATEMODIF="2018-01-26T10:37:48">
+        <TITREEMISSION>#Teamg1</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14283916">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / #Teamg1</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="385390">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellouck</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232271">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kythis</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="614661">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kayane</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1196943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gen1us</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232272">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Phan</NOM>
+            <PRENOM>Anh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Julien et Marcus, accompagnés de Kythis, Kayane, Gen1us et Anh Phan, présentent l'actualité numérique et partagent leurs expériences de joueurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171709000" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T02:35:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Funky Web compil'</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615133" DATEMODIF="2018-01-26T10:37:47">
+        <TITREEMISSION>Funky Web compil'</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14323274">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web compil'</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171709001" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T02:50:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>La sélec' des jeux vidéo</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615139" DATEMODIF="2018-01-26T10:37:22">
+        <TITREEMISSION>La sélec' des jeux vidéo</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="427" GENRESIMPLE="Magazine">Magazine du jeu vidéo</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9105660">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / La sélec' des jeux vidéo</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une compilation des tests des meilleurs jeux du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171709002" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T03:05:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Funky Web l'hebdo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125375958" DATEMODIF="2018-02-02T09:07:16">
+        <TITREEMISSION>Funky Web l'hebdo</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9127412">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web l'hebdo</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171709003" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T03:35:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Funky Web l'hebdo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615135" DATEMODIF="2018-01-26T10:37:48">
+        <TITREEMISSION>Funky Web l'hebdo</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9127412">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web l'hebdo</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171709004" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T04:05:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>#Teamg1</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125614574" DATEMODIF="2018-01-26T10:37:48">
+        <TITREEMISSION>#Teamg1</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14283916">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / #Teamg1</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="385390">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tellouck</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232271">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kythis</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="614661">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kayane</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1196943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Gen1us</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232272">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Phan</NOM>
+            <PRENOM>Anh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Julien et Marcus, accompagnés de Kythis, Kayane, Gen1us et Anh Phan, présentent l'actualité numérique et partagent leurs expériences de joueurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171709005" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T04:20:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Retro Game One</TITRE>
+      <SOUSTITREDIF>Jeux musicaux</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="25420650" DATEMODIF="2014-07-16T10:53:40">
+        <TITREEMISSION>Retro Game One</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="427" GENRESIMPLE="Magazine">Magazine du jeu vidéo</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="98837">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Retro Game One</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Jeux musicaux</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="258337">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marcus</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Marcus présente les ancêtres inconnus des jeux vidéo musicaux actuels, que sont «Rock Band» ou «DJ Hero» par exemple.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171709006" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T04:30:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Funky Web compil'</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615133" DATEMODIF="2018-01-26T10:37:47">
+        <TITREEMISSION>Funky Web compil'</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="411" GENRESIMPLE="Magazine">Magazine du multimédia</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14323274">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Funky Web compil'</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission entièrement dédiée à l'actualité de l'Internet, avec les meilleures vidéos disponibles et un zapping de la toile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171709007" DATEMODIF="2018-02-06T05:31:21">
+      <DATEHEURE>2018-02-20T04:45:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>La sélec' des jeux vidéo</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615139" DATEMODIF="2018-01-26T10:37:22">
+        <TITREEMISSION>La sélec' des jeux vidéo</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="427" GENRESIMPLE="Magazine">Magazine du jeu vidéo</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9105660">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / La sélec' des jeux vidéo</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une compilation des tests des meilleurs jeux du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

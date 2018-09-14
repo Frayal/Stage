@@ -1,0 +1,2293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:12:44-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="115">
+    <NOMCHAINE>RTL 9</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-20">
+    <DIFFUSION CLEDIF="171833347" DATEMODIF="2018-02-05T15:57:54">
+      <DATEHEURE>2018-02-20T05:10:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>112 Unité d'urgence</TITRE>
+      <SOUSTITREDIF>Vertige de l'amour</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="25054285" DATEMODIF="2017-08-31T03:24:55">
+        <TITREEMISSION>112 Unité d'urgence</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="6">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemande</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="5760711">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="27726274">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>112, Sie retten dein Leben</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Vertige de l'amour</SOUSTITRE>
+          <SOUSTITREORIGINAL>Kletterunfall</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>17</NUMERO>
+            <NOMBRE>110</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="215759">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raaf</NOM>
+            <PRENOM>Joachim</PRENOM>
+            <ROLE>Martin Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467312">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thiel</NOM>
+            <PRENOM>Joséphine</PRENOM>
+            <ROLE>Steffi Felten</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="173917">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kirschniok</NOM>
+            <PRENOM>Björn</PRENOM>
+            <ROLE>Heiko Ehrich</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="448948">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zielke</NOM>
+            <PRENOM>Wiebke</PRENOM>
+            <ROLE>Jenny Sauer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467311">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Saleh-Zaki</NOM>
+            <PRENOM>Dominic</PRENOM>
+            <ROLE>Florian Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lanaüs</NOM>
+            <PRENOM>Tanja</PRENOM>
+            <ROLE>Judith Voss</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421457">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schlegel</NOM>
+            <PRENOM>Sandra</PRENOM>
+            <ROLE>Kristin Driesen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="276716">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schmidt</NOM>
+            <PRENOM>Gernot</PRENOM>
+            <ROLE>Ingo Bender</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans une salle d'escalade de la banlieue de Düsseldorf, une jeune femme est victime d'un accident et se retrouve suspendue, inconsciente, à huit mètres au-dessus du sol. L'accident a lieu sous les yeux de Martin et Steffi, profitant d'un jour de repos pour s'exercer à l'escalade. Au service des urgences, Heiko tente toujours tant bien que mal de séduire Jenny...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E25054285.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833349" DATEMODIF="2018-02-05T15:57:54">
+      <DATEHEURE>2018-02-20T06:00:00</DATEHEURE>
+      <DUREE>360</DUREE>
+      <TITRE>Télé-achat</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125749391" DATEMODIF="2018-02-05T15:57:54">
+        <TITREEMISSION>Télé-achat</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="425" GENRESIMPLE="Magazine de services">Magazine de télé-achat</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6984">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Télé-achat</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Pour faire les boutiques sans sortir de chez soi.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833350" DATEMODIF="2018-02-05T15:57:54">
+      <DATEHEURE>2018-02-20T12:00:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Drôles de gags</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125749347" DATEMODIF="2018-02-05T15:58:08">
+        <TITREEMISSION>Drôles de gags</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2780984">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Drôles de gags</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Des caméras cachées originales, modernes et inédites.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125749347.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833351" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T12:05:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Le jour où tout a basculé</TITRE>
+      <SOUSTITREDIF>Obsédé par le sport</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="68141898" DATEMODIF="2013-09-12T17:27:35">
+        <TITREEMISSION>Le jour où tout a basculé</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6628009">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le jour où tout a basculé</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Obsédé par le sport</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="393503">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Fellonneau</NOM>
+            <PRENOM>Nathalie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>A la suite d'un événement imprévu, des hommes et des femmes ont vu leur vie bouleversée pour le pire et le meilleur. Ces histoires vraies sont interprétées par des comédiens, écrites et réalisées comme un reportage. Pour éclairer ces histoires, Nathalie Fellonneau, avocate spécialisée, apporte son savoir, son expérience, pour éviter les pièges et les dangers auxquels chacun d'entre nous peut être confronté dans sa vie.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C68141898.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833352" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T12:35:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Le jour où tout a basculé</TITRE>
+      <SOUSTITREDIF>Soin à domicile, une infirmière trop séduisante</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="80434575" DATEMODIF="2017-12-05T16:50:08">
+        <TITREEMISSION>Le jour où tout a basculé</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6628009">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le jour où tout a basculé</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Soin à domicile, une infirmière trop séduisante</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="393503">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Fellonneau</NOM>
+            <PRENOM>Nathalie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>A la suite d'un événement imprévu, des hommes et des femmes ont vu leur vie bouleversée pour le pire et le meilleur. Ces histoires vraies sont interprétées par des comédiens, écrites et réalisées comme un reportage. Pour éclairer ces histoires, Nathalie Fellonneau, avocate spécialisée, apporte son savoir.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C80434575.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833353" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T13:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Les enquêtes impossibles</TITRE>
+      <SOUSTITREDIF>Dans les mailles du filet. - Mauvais hasard</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="84078620" DATEMODIF="2014-09-29T16:32:32">
+        <TITREEMISSION>Les enquêtes impossibles</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="12193">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les enquêtes impossibles</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Dans les mailles du filet. - Mauvais hasard</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="120154">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bellemare</NOM>
+            <PRENOM>Pierre</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un florilège d'histoires vraies, racontées par Pierre Bellemare. Les unes sont pathétiques et cruelles, d'autres, plus légères, peuvent faire sourire, mais relatent des faits divers parfaitement authentiques. Dans la plupart des cas, les faits étranges dont parle la presse trouvent un dénouement tragique ou heureux, attendu ou surprenant. Ils reflètent les passions contradictoires qui animent l'âme humaine. Pourtant, des énigmes échappent à l'entendement ou à la perspicacité des enquêteurs. Ce sont les plus fascinantes. Car, en préservant leurs secrets, elles alimentent fantasmes et imagination. Remarquable conteur de l'étrange, Pierre Bellemare conserve à ces récits leur part de mystère et aime y distiller une bonne dose de suspense.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C84078620.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833354" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T14:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Les enquêtes impossibles</TITRE>
+      <SOUSTITREDIF>Sur les traces du tueur. - Un meurtre à la carte</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="84661362" DATEMODIF="2015-02-06T10:06:20">
+        <TITREEMISSION>Les enquêtes impossibles</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="12193">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les enquêtes impossibles</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Sur les traces du tueur. - Un meurtre à la carte</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="120154">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bellemare</NOM>
+            <PRENOM>Pierre</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un florilège d'histoires vraies, racontées par Pierre Bellemare. Les unes sont pathétiques et cruelles, d'autres, plus légères, peuvent faire sourire, mais relatent des faits divers parfaitement authentiques. Dans la plupart des cas, les faits étranges dont parle la presse trouvent un dénouement tragique ou heureux, attendu ou surprenant. Ils reflètent les passions contradictoires qui animent l'âme humaine. Pourtant, des énigmes échappent à l'entendement ou à la perspicacité des enquêteurs. Ce sont les plus fascinantes. Car, en préservant leurs secrets, elles alimentent fantasmes et imagination. Remarquable conteur de l'étrange, Pierre Bellemare conserve à ces récits leur part de mystère et aime y distiller une bonne dose de suspense.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C84661362.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833355" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T15:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Les enquêtes impossibles</TITRE>
+      <SOUSTITREDIF>Les amants terribles. - Sommeil fatal</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="84661357" DATEMODIF="2015-02-06T10:06:09">
+        <TITREEMISSION>Les enquêtes impossibles</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="12193">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les enquêtes impossibles</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Les amants terribles. - Sommeil fatal</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="120154">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bellemare</NOM>
+            <PRENOM>Pierre</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un florilège d'histoires vraies, racontées par Pierre Bellemare. Les unes sont pathétiques et cruelles, d'autres, plus légères, peuvent faire sourire, mais relatent des faits divers parfaitement authentiques. Dans la plupart des cas, les faits étranges dont parle la presse trouvent un dénouement tragique ou heureux, attendu ou surprenant. Ils reflètent les passions contradictoires qui animent l'âme humaine. Pourtant, des énigmes échappent à l'entendement ou à la perspicacité des enquêteurs. Ce sont les plus fascinantes. Car, en préservant leurs secrets, elles alimentent fantasmes et imagination. Remarquable conteur de l'étrange, Pierre Bellemare conserve à ces récits leur part de mystère et aime y distiller une bonne dose de suspense.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C84661357.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833356" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T16:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Les enquêtes impossibles</TITRE>
+      <SOUSTITREDIF>Unique survivant. - Mauvaise rencontre</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="84889027" DATEMODIF="2015-02-20T10:17:23">
+        <TITREEMISSION>Les enquêtes impossibles</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="12193">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les enquêtes impossibles</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Unique survivant. - Mauvaise rencontre</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="120154">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bellemare</NOM>
+            <PRENOM>Pierre</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un florilège d'histoires vraies, racontées par Pierre Bellemare. Les unes sont pathétiques et cruelles, d'autres, plus légères, peuvent faire sourire, mais relatent des faits divers parfaitement authentiques. Dans la plupart des cas, les faits étranges dont parle la presse trouvent un dénouement tragique ou heureux, attendu ou surprenant. Ils reflètent les passions contradictoires qui animent l'âme humaine. Pourtant, des énigmes échappent à l'entendement ou à la perspicacité des enquêteurs. Ce sont les plus fascinantes. Car, en préservant leurs secrets, elles alimentent fantasmes et imagination. Remarquable conteur de l'étrange, Pierre Bellemare conserve à ces récits leur part de mystère et aime y distiller une bonne dose de suspense.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C84889027.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833357" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T17:05:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Les enquêtes impossibles</TITRE>
+      <SOUSTITREDIF>Désamour mortel - Le tueur au calibre 22</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="106374930" DATEMODIF="2016-07-06T10:08:58">
+        <TITREEMISSION>Les enquêtes impossibles</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="12193">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les enquêtes impossibles</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Désamour mortel - Le tueur au calibre 22</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="120154">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bellemare</NOM>
+            <PRENOM>Pierre</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un florilège d'histoires vraies, racontées par Pierre Bellemare. Les unes sont pathétiques et cruelles, d'autres, plus légères, peuvent faire sourire, mais relatent des faits divers parfaitement authentiques. Dans la plupart des cas, les faits étranges dont parle la presse trouvent un dénouement tragique ou heureux, attendu ou surprenant. Ils reflètent les passions contradictoires qui animent l'âme humaine. Pourtant, des énigmes échappent à l'entendement ou à la perspicacité des enquêteurs. Ce sont les plus fascinantes. Car, en préservant leurs secrets, elles alimentent fantasmes et imagination. Remarquable conteur de l'étrange, Pierre Bellemare conserve à ces récits leur part de mystère et aime y distiller une bonne dose de suspense.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C106374930.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833358" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T18:10:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Top Models</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113787621" DATEMODIF="2017-02-14T10:04:51">
+        <TITREEMISSION>Amour, gloire et beauté</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6479">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Amour, gloire et beauté</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="17080252">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Amour, gloire et beauté / 0</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Bold and the Beautiful</TITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7437</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="218324">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Benedeti</NOM>
+            <PRENOM>Paulo</PRENOM>
+            <ROLE>Antonio Dominguez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="201043">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lindsey</NOM>
+            <PRENOM>Tracy</PRENOM>
+            <ROLE>Kristen Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="206905">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Torkildsen</NOM>
+            <PRENOM>Justin</PRENOM>
+            <ROLE>Rick Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4253">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moss</NOM>
+            <PRENOM>Ronn</PRENOM>
+            <ROLE>Ridge Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4257">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flannery</NOM>
+            <PRENOM>Susan</PRENOM>
+            <ROLE>Stephanie Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91137">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frantz</NOM>
+            <PRENOM>Adrienne</PRENOM>
+            <ROLE>Ambre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4255">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lang</NOM>
+            <PRENOM>Katherine Kelly</PRENOM>
+            <ROLE>Brooke</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4256">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tylo</NOM>
+            <PRENOM>Hunter</PRENOM>
+            <ROLE>Taylor</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Passion, gloire et succès sont autant de défis qui animent le quotidien des Forrester, famille qui attire bien des convoitises tant elle domine avec autorité le monde de la haute couture.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C113787621.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833359" DATEMODIF="2018-02-07T03:20:32">
+      <DATEHEURE>2018-02-20T18:35:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Top Models</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114007671" DATEMODIF="2017-02-14T10:05:06">
+        <TITREEMISSION>Amour, gloire et beauté</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="50" GENRESIMPLE="Série sentimentale">Feuilleton sentimental</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6479">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Amour, gloire et beauté</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="17080252">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Amour, gloire et beauté / 0</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Bold and the Beautiful</TITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7438</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="218324">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Benedeti</NOM>
+            <PRENOM>Paulo</PRENOM>
+            <ROLE>Antonio Dominguez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="201043">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lindsey</NOM>
+            <PRENOM>Tracy</PRENOM>
+            <ROLE>Kristen Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="206905">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Torkildsen</NOM>
+            <PRENOM>Justin</PRENOM>
+            <ROLE>Rick Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4253">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moss</NOM>
+            <PRENOM>Ronn</PRENOM>
+            <ROLE>Ridge Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4257">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flannery</NOM>
+            <PRENOM>Susan</PRENOM>
+            <ROLE>Stephanie Forrester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91137">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frantz</NOM>
+            <PRENOM>Adrienne</PRENOM>
+            <ROLE>Ambre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4255">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lang</NOM>
+            <PRENOM>Katherine Kelly</PRENOM>
+            <ROLE>Brooke</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4256">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tylo</NOM>
+            <PRENOM>Hunter</PRENOM>
+            <ROLE>Taylor</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Passion, gloire et succès sont autant de défis qui animent le quotidien des Forrester, famille qui attire bien des convoitises tant elle domine avec autorité le monde de la haute couture.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C114007671.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833360" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T19:00:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Stargate SG-1</TITRE>
+      <SOUSTITREDIF>Hallucinations</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="1827017" DATEMODIF="2015-08-29T03:11:44">
+        <TITREEMISSION>Stargate SG-1</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="10555">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Stargate SG-1</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4004348">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Stargate SG-1 / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Stargate SG-1</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Hallucinations</SOUSTITRE>
+          <SOUSTITREORIGINAL>Sight Unseen</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>13</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="91780">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Mikita</NOM>
+            <PRENOM>Andy</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2971">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Anderson</NOM>
+            <PRENOM>Richard Dean</PRENOM>
+            <ROLE>Jack O'Neill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="43368">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tapping</NOM>
+            <PRENOM>Amanda</PRENOM>
+            <ROLE>Samantha Carter</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="17278">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Judge</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Teal'c</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7275">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nemec</NOM>
+            <PRENOM>Corin</PRENOM>
+            <ROLE>Jonas Quinn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15856">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Davis</NOM>
+            <PRENOM>Don S</PRENOM>
+            <ROLE>le général Hammond</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1479">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rothery</NOM>
+            <PRENOM>Teryl</PRENOM>
+            <ROLE>le docteur Fraiser</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9520">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jones</NOM>
+            <PRENOM>Gary</PRENOM>
+            <ROLE>Walter Davis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="249526">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raicot</NOM>
+            <PRENOM>Jody</PRENOM>
+            <ROLE>Vernon Sharpe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92408">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Wright</NOM>
+            <PRENOM>Brad</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un appareil ramené d'une expédition provoque d'étranges visions aux membres de SG-1. Bien rapidement, ceux-ci ne parviennent plus à circonscrire le phénomène.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'équipe de SG-1 revient d'un voyage avec un appareil diffuseur d'énergie qui permet de voir des créatures situées dans une autre dimension. Celles-ci, totalement inoffensives, provoquent quand même beaucoup de frayeur à ceux qui sont la proie de ces visions. Le mal s'étend bientôt hors de la base...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E1827017.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833361" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T19:45:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Stargate SG-1</TITRE>
+      <SOUSTITREDIF>Ecrans de fumée</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="1827001" DATEMODIF="2015-08-29T03:11:43">
+        <TITREEMISSION>Stargate SG-1</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="25" GENRESIMPLE="Série">Série fantastique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="10555">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Stargate SG-1</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4004348">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Stargate SG-1 / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Stargate SG-1</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Ecrans de fumée</SOUSTITRE>
+          <SOUSTITREORIGINAL>Smoke &amp; Mirrors</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>14</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="206110">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Mallozzi</NOM>
+            <PRENOM>Joseph</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2971">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Anderson</NOM>
+            <PRENOM>Richard Dean</PRENOM>
+            <ROLE>Jack O'Neill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="43368">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tapping</NOM>
+            <PRENOM>Amanda</PRENOM>
+            <ROLE>Samantha Carter</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="17278">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Judge</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Teal'c</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7275">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nemec</NOM>
+            <PRENOM>Corin</PRENOM>
+            <ROLE>Jonas Quinn </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4610">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cox</NOM>
+            <PRENOM>Ronny</PRENOM>
+            <ROLE>le sénateur Kinsey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15856">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Davis</NOM>
+            <PRENOM>Don S</PRENOM>
+            <ROLE>le général Hammond</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="68077">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cunningham</NOM>
+            <PRENOM>Colin</PRENOM>
+            <ROLE>le major Davis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30551">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flemming</NOM>
+            <PRENOM>Peter</PRENOM>
+            <ROLE>l'agent Barrett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21414">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>DeLuise</NOM>
+            <PRENOM>Peter</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Lorsque le sénateur Kinsey est assassiné, son entourage est consterné d'apprendre que le tueur n'est autre que Jack O'Neill, l'un de ses farouches opposants.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Alors que le sénateur Kinsey vient d'assister à une réunion et qu'il se rend à sa voiture, un coup de feu est tiré, le tuant sur le coup. Le mystérieux tueur s'enfuit, mais son image a été capturée par une caméra de vidéo-surveillance. A la grande surprise des services de sécurité, l'image qui apparaît sur leur écran est celle de Jack O'Neill, peu enclin à assassiner quelqu'un. Pourtant, une fouille rapide du chalet dans lequel il se rend souvent pour aller pêcher permet de découvrir, à peine dissimulée, l'arme du crime. Jack est alors obligé de faire la preuve de son innocence s'il ne veut pas être incarcéré...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E1827001.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833362" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T20:40:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Johnny English</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2143578" DATEMODIF="2016-05-21T08:33:09">
+        <TITREEMISSION>Johnny English</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="130">
+          <PAYS>Grande-Bretagne - France</PAYS>
+          <LIBELLE>britannico-française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Johnny English</TITREORIGINAL>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="50809">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Howitt</NOM>
+            <PRENOM>Peter</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2040">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Atkinson</NOM>
+            <PRENOM>Rowan</PRENOM>
+            <ROLE>Johnny English</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="51732">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Miller</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>Bough</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="126429">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Imbruglia</NOM>
+            <PRENOM>Natalie</PRENOM>
+            <ROLE>Lorna Campbell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4513">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Malkovich</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Pascal Sauvage</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="23056">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pigott-Smith</NOM>
+            <PRENOM>Tim</PRENOM>
+            <ROLE>Pegasus</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12402">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McNally</NOM>
+            <PRENOM>Kevin</PRENOM>
+            <ROLE>le Premier ministre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="263994">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berrington</NOM>
+            <PRENOM>Tim</PRENOM>
+            <ROLE>Roger</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="143151">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nicolson</NOM>
+            <PRENOM>Steve</PRENOM>
+            <ROLE>Dieter Klein</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="258452">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Shearmur</NOM>
+            <PRENOM>Ed</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les services secrets britanniques sont décimés et un complot menace les joyaux de la Couronne. Tous les espoirs reposent sur un agent secret débutant.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Quand les services secrets britanniques sont informés qu'un plan machiavélique a été ourdi pour dérober les précieux joyaux de la Couronne, ils placent immédiatement sur l'affaire le meilleur de leurs agents. Mais celui-ci est très rapidement démasqué et tué. Lors de ses funérailles, une bombe explose, décimant tous les agents d'élite de Sa Majesté. Le sort des précieux bijoux est alors remis entre les mains du maladroit Johnny English, employé de bureau au sein des services secrets. Un soir, les joyaux disparaissent, et English traque les malfrats, accompagné de son fidèle coéquipier Bough. Les deux hommes comprennent bientôt qu'ils doivent déjouer un complot d'ampleur mondiale...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Dans cette parodie des films d'espionnage à la James Bond, on retrouve l'humour féroce et délirant du fameux Mister Bean, Rowan Atkinson. A souligner, la prestation irrésistible de John Malkovich en méchant Français.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2143578.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833363" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-20T22:15:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Johnny English, le retour</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="30621087" DATEMODIF="2015-01-06T08:54:24">
+        <TITREEMISSION>Johnny English, le retour</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="1487">
+          <PAYS>Grande-Bretagne - France - Etats-Unis</PAYS>
+          <LIBELLE>britannico-franco-américaine</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Johnny English Reborn</TITREORIGINAL>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>101</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="61048">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Parker</NOM>
+            <PRENOM>Oliver</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2040">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Atkinson</NOM>
+            <PRENOM>Rowan</PRENOM>
+            <ROLE>Johnny English</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="108306">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>West</NOM>
+            <PRENOM>Dominic</PRENOM>
+            <ROLE>Simon Ambrose</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Anderson</NOM>
+            <PRENOM>Gillian</PRENOM>
+            <ROLE>Pamela Thornton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="154337">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pike</NOM>
+            <PRENOM>Rosamund</PRENOM>
+            <ROLE>Kate Sumner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="479838">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kaluuya</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Tucker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10795">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schiff</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>Fisher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="51732">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Miller</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>Bough</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="318331">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Campbell Moore</NOM>
+            <PRENOM>Stephen</PRENOM>
+            <ROLE>le Premier ministre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="267961">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Eshkeri</NOM>
+            <PRENOM>Ilan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le meilleur agent secret britannique est appelé pour une nouvelle mission : protéger le Premier ministre chinois d'un complot international.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Cela fait des années que Johnny English, le plus surprenant et le plus maladroit des agents secrets britanniques, a pris sa retraite. Il vit désormais reclus dans un monastère d'Asie, où il s'est familiarisé avec des techniques martiales uniques. Un jour, le MI-7 fait appel à lui pour protéger le Premier ministre chinois d'un complot international qui le menace. Pour éviter que le monde ne sombre dans le chaos, Johnny English reprend du service, équipé des derniers gadgets à la mode.  L'affaire est des plus délicates : les Russes et la CIA sont impliqués dans l'affaire, et même des agents du MI7...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Rowan Atkinson est de retour, dans une suite moins drôle mais plus spectaculaire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E30621087.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833364" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-21T00:00:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Catch américain : Raw</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Les stars de la WWE, dans la catégorie Raw, sont sur le ring pour faire le show ! Randy Orton, Sheamus, John Cena, Bret Hart, Edge et Chris Jericho, sans oublier les divas, ont tous une réputation à défendre. Pas question donc de rester coincés dans les cordes et de subir les clés de bras, doubles nelson ou autres surpassements arrière, exécutés par les challengers des différentes catégories. L'arbitre n'est jamais bien loin pour compter les trois coups et renvoyer les combattants au vestiaire.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125749406" DATEMODIF="2018-02-05T15:57:55">
+        <TITREEMISSION>Catch américain : Raw</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="603" GENRESIMPLE="Magazine sportif">Catch</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125749406.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833367" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-21T01:40:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Catch off</TITRE>
+      <SOUSTITREDIF>Souvenirs presque partagés</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="69510960" DATEMODIF="2013-10-07T14:55:42">
+        <TITREEMISSION>Catch off</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9369131">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Catch off</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Souvenirs presque partagés</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Philippe est devenu totalement amnésique. Christophe et monsieur l'arbitre parviendront-ils à lui rendre ses souvenirs ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E69510960.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833368" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-21T01:50:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Fantasmes</TITRE>
+      <SOUSTITREDIF>Soutien à domicile</SOUSTITREDIF>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="37896560" DATEMODIF="2013-01-31T10:19:10">
+        <TITREEMISSION>Fantasmes</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="22" GENRESIMPLE="Série érotique">Série érotique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <SOUSTITRE>Soutien à domicile</SOUSTITRE>
+          <DUREEEMI>25</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>21</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Nathalie a des difficultés avec ses cours de chimie. Elle fait appel à une société spécialisée dans le soutien scolaire. On sonne à sa porte. Une surprise l'attend...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E37896560.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833369" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-21T02:20:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Libertinages</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125749376" DATEMODIF="2018-02-05T15:57:55">
+        <TITREEMISSION>Libertinages</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="22" GENRESIMPLE="Série érotique">Série érotique</GENRE>
+        <SERIE />
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Hommes et femmes de tous horizons et de diverses époques se côtoient dans des aventures palpitantes. Les rencontres se multiplient, toujours plus sensuelles.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Et si les hommes et les femmes étaient avant tout guidés par leurs passions et par leurs sens ? Des personnes de tous horizons, qui aiment vivre au gré de leurs désirs, se rencontrent pour des moments d'émotion et de sensualité. Chacun laisse libre cours à ses fantasmes, même les plus inavouables.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125749376.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833370" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-21T02:25:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Division criminelle</TITRE>
+      <SOUSTITREDIF>Guerre des étoiles</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="3563847" DATEMODIF="2015-10-30T04:49:17">
+        <TITREEMISSION>Division criminelle</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="6">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemande</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="68683">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Division criminelle</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="13704523">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Division criminelle / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>SOKO Köln</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Guerre des étoiles</SOUSTITRE>
+          <SOUSTITREORIGINAL>Krieg der Sterne</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>16</NUMERO>
+            <NOMBRE>21</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="173916">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dommenget</NOM>
+            <PRENOM>Oliver</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1418">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rapsch</NOM>
+            <PRENOM>Gundula</PRENOM>
+            <ROLE>Alexandra Gebhardt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="41754">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ries</NOM>
+            <PRENOM>Jophi</PRENOM>
+            <ROLE>Frank Hansen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="267270">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hoffmann</NOM>
+            <PRENOM>Mike</PRENOM>
+            <ROLE>Tobias Berger</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27660">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sarto</NOM>
+            <PRENOM>Clelia</PRENOM>
+            <ROLE>Daniela Fiori</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="267271">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Landsmann</NOM>
+            <PRENOM>Kerstin</PRENOM>
+            <ROLE>Vanessa Haas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4790">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stier</NOM>
+            <PRENOM>Hans-Martin</PRENOM>
+            <ROLE>Ben Schneider</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="81010">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Peren</NOM>
+            <PRENOM>Maggie</PRENOM>
+            <ROLE>Mandy Randell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="78776">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hartmann</NOM>
+            <PRENOM>Hubertus</PRENOM>
+            <ROLE>Jens Hartholz</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="326871">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Töner</NOM>
+            <PRENOM>Katja</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une voyante a été récemment étranglée à son domicile. C'est son assistante, Marion, qui l'a retrouvée morte. L'enquête montre qu'elle a utilisé des informations confidentielles pour faire du chantage à l'un de ses clients. Mais il semble aussi que l'astrologue avait un admirateur : son appartement est rempli de fleurs...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E3563847.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833371" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-21T03:10:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>112 Unité d'urgence</TITRE>
+      <SOUSTITREDIF>Grossesse et cornichons</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="40222832" DATEMODIF="2017-08-31T03:25:52">
+        <TITREEMISSION>112 Unité d'urgence</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="6">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemande</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="5760711">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="27726274">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>112, Sie retten dein Leben</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Grossesse et cornichons</SOUSTITRE>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>70</NUMERO>
+            <NOMBRE>110</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="215759">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raaf</NOM>
+            <PRENOM>Joachim</PRENOM>
+            <ROLE>Martin Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467311">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Saleh-Zaki</NOM>
+            <PRENOM>Dominic</PRENOM>
+            <ROLE>Florian Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467312">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thiel</NOM>
+            <PRENOM>Joséphine</PRENOM>
+            <ROLE>Steffi Felten</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lanaüs</NOM>
+            <PRENOM>Tanja</PRENOM>
+            <ROLE>Judith Voss</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421457">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schlegel</NOM>
+            <PRENOM>Sandra</PRENOM>
+            <ROLE>Kristin Driesen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="276716">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schmidt</NOM>
+            <PRENOM>Gernot</PRENOM>
+            <ROLE>Ingo Bender</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467315">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kurt</NOM>
+            <PRENOM>Mariam</PRENOM>
+            <ROLE>Nicole Held</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467316">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reinhardt</NOM>
+            <PRENOM>Mats</PRENOM>
+            <ROLE>Peter Wells</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un club de bikers engage Ben, un cracheur de feu, pour se donner en spectacle lors de leur réunion annuelle. Ben semble malade et tousse à plusieurs reprises avant la représentation, ce qui ne manque pas d'inquiéter Maria, son assistante. Malgré les réticences de cette dernière, Ben veut quand même honorer son contrat et monte sur scène...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E40222832.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833372" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-21T03:30:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>112 Unité d'urgence</TITRE>
+      <SOUSTITREDIF>Vertige de l'amour</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="25054285" DATEMODIF="2017-08-31T03:24:55">
+        <TITREEMISSION>112 Unité d'urgence</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="6">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemande</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="5760711">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="27726274">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>112, Sie retten dein Leben</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Vertige de l'amour</SOUSTITRE>
+          <SOUSTITREORIGINAL>Kletterunfall</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>17</NUMERO>
+            <NOMBRE>110</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="215759">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raaf</NOM>
+            <PRENOM>Joachim</PRENOM>
+            <ROLE>Martin Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467312">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thiel</NOM>
+            <PRENOM>Joséphine</PRENOM>
+            <ROLE>Steffi Felten</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="173917">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kirschniok</NOM>
+            <PRENOM>Björn</PRENOM>
+            <ROLE>Heiko Ehrich</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="448948">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zielke</NOM>
+            <PRENOM>Wiebke</PRENOM>
+            <ROLE>Jenny Sauer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467311">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Saleh-Zaki</NOM>
+            <PRENOM>Dominic</PRENOM>
+            <ROLE>Florian Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lanaüs</NOM>
+            <PRENOM>Tanja</PRENOM>
+            <ROLE>Judith Voss</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421457">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schlegel</NOM>
+            <PRENOM>Sandra</PRENOM>
+            <ROLE>Kristin Driesen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="276716">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schmidt</NOM>
+            <PRENOM>Gernot</PRENOM>
+            <ROLE>Ingo Bender</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans une salle d'escalade de la banlieue de Düsseldorf, une jeune femme est victime d'un accident et se retrouve suspendue, inconsciente, à huit mètres au-dessus du sol. L'accident a lieu sous les yeux de Martin et Steffi, profitant d'un jour de repos pour s'exercer à l'escalade. Au service des urgences, Heiko tente toujours tant bien que mal de séduire Jenny...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E25054285.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833373" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-21T03:55:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>112 Unité d'urgence</TITRE>
+      <SOUSTITREDIF>Retour d'Afrique</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="40399429" DATEMODIF="2017-08-31T03:25:58">
+        <TITREEMISSION>112 Unité d'urgence</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="6">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemande</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="5760711">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="27726274">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>112, Sie retten dein Leben</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Retour d'Afrique</SOUSTITRE>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>72</NUMERO>
+            <NOMBRE>110</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="215759">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raaf</NOM>
+            <PRENOM>Joachim</PRENOM>
+            <ROLE>Martin Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467311">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Saleh-Zaki</NOM>
+            <PRENOM>Dominic</PRENOM>
+            <ROLE>Florian Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467312">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thiel</NOM>
+            <PRENOM>Joséphine</PRENOM>
+            <ROLE>Steffi Felten</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lanaüs</NOM>
+            <PRENOM>Tanja</PRENOM>
+            <ROLE>Judith Voss</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421457">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schlegel</NOM>
+            <PRENOM>Sandra</PRENOM>
+            <ROLE>Kristin Driesen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="276716">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schmidt</NOM>
+            <PRENOM>Gernot</PRENOM>
+            <ROLE>Ingo Bender</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467315">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kurt</NOM>
+            <PRENOM>Mariam</PRENOM>
+            <ROLE>Nicole Held</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="526853">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alberti</NOM>
+            <PRENOM>Max</PRENOM>
+            <ROLE>Tom Wagner</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au QG, l'équipe a préparé une petite fête pour le retour d'Afrique de Tom. Celui-ci remarque tout de suite que le docteur Driesen n'est pas dans son état normal.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Au QG, l'équipe a préparé une petite fête pour le retour d'Afrique de Tom. Celui-ci remarque tout de suite que le docteur Driesen n'est pas dans son état normal. Il découvre qu'elle est enceinte et lui apporte son soutien. Les urgences sont appelées pour secourir un coureur de motocross, qui est tombé sur le circuit...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E40399429.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833374" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-21T04:20:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>112 Unité d'urgence</TITRE>
+      <SOUSTITREDIF>Illusions perdues</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="40399180" DATEMODIF="2017-08-31T03:25:56">
+        <TITREEMISSION>112 Unité d'urgence</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="6">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemande</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="5760711">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="27726274">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>112, Sie retten dein Leben</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Illusions perdues</SOUSTITRE>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>73</NUMERO>
+            <NOMBRE>110</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="215759">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raaf</NOM>
+            <PRENOM>Joachim</PRENOM>
+            <ROLE>Martin Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467311">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Saleh-Zaki</NOM>
+            <PRENOM>Dominic</PRENOM>
+            <ROLE>Florian Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467312">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thiel</NOM>
+            <PRENOM>Joséphine</PRENOM>
+            <ROLE>Steffi Felten</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lanaüs</NOM>
+            <PRENOM>Tanja</PRENOM>
+            <ROLE>Judith Voss</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421457">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schlegel</NOM>
+            <PRENOM>Sandra</PRENOM>
+            <ROLE>Kristin Driesen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="276716">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schmidt</NOM>
+            <PRENOM>Gernot</PRENOM>
+            <ROLE>Ingo Bender</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467315">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kurt</NOM>
+            <PRENOM>Mariam</PRENOM>
+            <ROLE>Nicole Held</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467316">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reinhardt</NOM>
+            <PRENOM>Mats</PRENOM>
+            <ROLE>Peter Wells</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Nicole fait tout ce qu'elle peut pour séduire Kadir mais celui-ci refuse de rentrer dans son jeu. Florian fait une crise de paranoïa après que Steffi lui a offert un billet pour un week-end en amoureux à Paris...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E40399180.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171833375" DATEMODIF="2018-02-05T15:57:55">
+      <DATEHEURE>2018-02-21T04:45:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>112 Unité d'urgence</TITRE>
+      <SOUSTITREDIF>Conduite dangereuse</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="40398866" DATEMODIF="2017-08-31T03:25:55">
+        <TITREEMISSION>112 Unité d'urgence</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="6">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemande</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="5760711">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="27726274">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / 112 Unité d'urgence / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>112, Sie retten dein Leben</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Conduite dangereuse</SOUSTITRE>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>74</NUMERO>
+            <NOMBRE>110</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="215759">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Raaf</NOM>
+            <PRENOM>Joachim</PRENOM>
+            <ROLE>Martin Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467311">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Saleh-Zaki</NOM>
+            <PRENOM>Dominic</PRENOM>
+            <ROLE>Florian Carstens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467312">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thiel</NOM>
+            <PRENOM>Joséphine</PRENOM>
+            <ROLE>Steffi Felten</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lanaüs</NOM>
+            <PRENOM>Tanja</PRENOM>
+            <ROLE>Judith Voss</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421457">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schlegel</NOM>
+            <PRENOM>Sandra</PRENOM>
+            <ROLE>Kristin Driesen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="276716">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schmidt</NOM>
+            <PRENOM>Gernot</PRENOM>
+            <ROLE>Ingo Bender</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467315">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kurt</NOM>
+            <PRENOM>Mariam</PRENOM>
+            <ROLE>Nicole Held</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467316">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reinhardt</NOM>
+            <PRENOM>Mats</PRENOM>
+            <ROLE>Peter Wells</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>En sortant de discothèque, Kevin et ses amis ont un accident de voiture. Kevin parvient à sortir du véhicule et à appeler les urgences, mais Pia et Ricki ont perdu connaissance...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E40398866.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

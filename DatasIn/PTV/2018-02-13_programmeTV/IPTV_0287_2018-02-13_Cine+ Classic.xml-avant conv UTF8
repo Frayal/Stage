@@ -1,0 +1,1893 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:56:22-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="287">
+    <NOMCHAINE>Ciné+ Classic</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-13">
+    <DIFFUSION CLEDIF="171290760" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-13T05:20:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Voyage à travers le cinéma français</TITRE>
+      <SOUSTITREDIF>Les oubliés</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="122115229" DATEMODIF="2018-01-05T12:21:20">
+        <TITREEMISSION>Voyage à travers le cinéma français</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="357" GENRESIMPLE="Documentaire culturel">Cinéma</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="28103955">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Voyage à travers le cinéma français</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Les oubliés</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>8</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="10012">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Tavernier</NOM>
+            <PRENOM>Bertrand</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Bertrand Tavernier s'est beaucoup intéressé au travail de certains cinéastes oubliés, comme Maurice Tourneur, Anatole Litvak ou Raymond Bernard.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Certains cinéastes, bien qu'ayant connu d'importants succès, ont sombré ensuite dans les oubliettes de la mémoire du cinéma. Bertrand Tavernier s'est beaucoup intéressé au travail de certains de ces oubliés, comme Maurice Tourneur, Anatole Litvak ou Raymond Bernard.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C122115229.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172026937" DATEMODIF="2018-02-07T09:46:57">
+      <DATEHEURE>2018-02-13T06:15:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Extrait : retour de flamme</TITRE>
+      <SOUSTITREDIF>Les feuilles mortes</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123699399" DATEMODIF="2017-11-30T10:19:03">
+        <TITREEMISSION>Extrait : retour de flamme</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="26745724">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Extrait : retour de flamme</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Les feuilles mortes</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Quelques images anciennes - courts métrages ou extraits de films - dénichées dans le cadre de l'émission «Retour de flamme», recréent la magie du cinéma d'antan.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290761" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-13T06:30:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Maxime</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="41408" DATEMODIF="2016-05-20T19:55:07">
+        <TITREEMISSION>Maxime</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="130" GENRESIMPLE="Comédie dramatique">Comédie dramatique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1958</ANNEEREALISATION>
+          <COULEUR CLE="2">en noir et blanc</COULEUR>
+          <DUREEEMI>124</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="717">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Verneuil</NOM>
+            <PRENOM>Henri</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="7723">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Michèle</PRENOM>
+            <ROLE>Jacqueline Monneron</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2897">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boyer</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Maxime Cherpray</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11017">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marten</NOM>
+            <PRENOM>Félix</PRENOM>
+            <ROLE>Hubert de Treffujean</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="116237">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Arletty</NOM>
+            <ROLE>Gazelle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19686">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brunot</NOM>
+            <PRENOM>André</PRENOM>
+            <ROLE>le général Le Questin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33221">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Luccioni</NOM>
+            <PRENOM>Micheline</PRENOM>
+            <ROLE>Liliane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18353">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lemonnier</NOM>
+            <PRENOM>Meg</PRENOM>
+            <ROLE>Eva Allison</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2942">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marken</NOM>
+            <PRENOM>Jane</PRENOM>
+            <ROLE>Coco Naval</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3321">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Van Parys</NOM>
+            <PRENOM>Georges</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un séducteur d'âge mûr, qui donne des cours de maintien et de savoir-vivre, et un jeune héritier de ses élèves se disputent une femme vénale.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Paris, 1914. Quinquagénaire sans fortune mais irréprochablement élégant, Maxime Cherpray enseigne les belles manières. Son élève, Hubert, a succombé aux charmes hautains d'une femme du monde, Jacqueline Monneron, et le prie d'intervenir en sa faveur auprès d'elle. Maxime est chargé, moyennant une forte somme, d'aborder la jeune femme afin de la présenter ensuite à Hubert. Mais il s'éprend d'elle et se met à la courtiser. Celle-ci, le croyant fortuné, ne reste pas insensible à ses avances. Ils deviennent amants. De son côté, Hubert, trahi, tente de conquérir la belle coûte que coûte. Un jour, Jacqueline découvre que Maxime s'est ruiné pour satisfaire ses caprices...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une étude balzacienne, datée peut-être, mais subtile et magnifiquement interprétée.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E41408.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290762" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-13T08:30:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Parias de la gloire</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="49185" DATEMODIF="2018-01-19T15:43:16">
+        <TITREEMISSION>Parias de la gloire</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="238" GENRESIMPLE="Film de guerre">Film de guerre</GENRE>
+        <NATIONALITE CLE="300">
+          <PAYS>France - Italie - Espagne</PAYS>
+          <LIBELLE>franco-italo-espagnol</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1964</ANNEEREALISATION>
+          <COULEUR CLE="2">en noir et blanc</COULEUR>
+          <DUREEEMI>95</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1498">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Decoin</NOM>
+            <PRENOM>Henri</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="4910">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jürgens</NOM>
+            <PRENOM>Curd</PRENOM>
+            <ROLE>Ludwig Goetz</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3371">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ronet</NOM>
+            <PRENOM>Maurice</PRENOM>
+            <ROLE>André Ferrier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4704">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lulli</NOM>
+            <PRENOM>Folco</PRENOM>
+            <ROLE>Blosky</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4702">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lesaffre</NOM>
+            <PRENOM>Roland</PRENOM>
+            <ROLE>La Coquille</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29490">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cobos</NOM>
+            <PRENOM>Germán</PRENOM>
+            <ROLE>Albertini</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="300739">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Young</NOM>
+            <PRENOM>Tiny</PRENOM>
+            <ROLE>La Chinoise</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="108578">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Lanjean</NOM>
+            <PRENOM>Marc</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un homme cherche à venger son demi-frère, abattu par un officier allemand, lors de la campagne d'Alsace. A la fin de la guerre, il est envoyé en Indochine.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>1944. André Ferrier et son demi-frère Jacques participent à la campagne d'Alsace. Au cours d'une patrouille, Jacques est tué par un officier allemand sous les yeux d'André. A partir de cet instant, soutenu par le tenace désir de venger la mort de son demi-frère, André livrera aux Allemands une lutte sans merci. A la fin de la guerre, envoyé en Indochine, il est nommé adjoint au chef d'un petit poste implanté à la limite du delta cochinchinois, tenu par les troupes françaises, et la fameuse «Plaine des joncs» occupée par des rebelles...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E49185.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290763" DATEMODIF="2018-02-07T09:46:57">
+      <DATEHEURE>2018-02-13T10:05:00</DATEHEURE>
+      <DUREE>135</DUREE>
+      <TITRE>Le désert des Tartares</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="20830" DATEMODIF="2015-01-06T08:54:24">
+        <TITREEMISSION>Le désert des Tartares</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="2287">
+          <PAYS>Italie - France - Iran</PAYS>
+          <LIBELLE>italo-franco-iranien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Il deserto dei Tartari</TITREORIGINAL>
+          <ANNEEREALISATION>1976</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>133</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="35529">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Zurlini</NOM>
+            <PRENOM>Valerio</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="540">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Perrin</NOM>
+            <PRENOM>Jacques</PRENOM>
+            <ROLE>Drogo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="96">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gassman</NOM>
+            <PRENOM>Vittorio</PRENOM>
+            <ROLE>Filimore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gemma</NOM>
+            <PRENOM>Giuliano</PRENOM>
+            <ROLE>Mattis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3708">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Griem</NOM>
+            <PRENOM>Helmut</PRENOM>
+            <ROLE>Simeon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3839">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Noiret</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>le général</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3591">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rabal</NOM>
+            <PRENOM>Francisco</PRENOM>
+            <ROLE>Tronk</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="158">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rey</NOM>
+            <PRENOM>Fernando</PRENOM>
+            <ROLE>Nathanson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4193">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Trintignant</NOM>
+            <PRENOM>Jean-Louis</PRENOM>
+            <ROLE>le docteur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="256">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Morricone</NOM>
+            <PRENOM>Ennio</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="35529">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Zurlini</NOM>
+            <PRENOM>Valerio</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune lieutenant est envoyé en garnison dans un fort isolé. Il y retrouve d'autres officiers qui attendent une éventuelle attaque de l'ennemi.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A sa sortie de l'Académie militaire, le jeune lieutenant Drogo est affecté à la forteresse de Bastiano qui, entourée de ruines, fait face au «désert des Tartares», vaste étendue aride d'où les officiers supérieurs craignent à tout moment de voir surgir une menace. Les Tartares auraient autrefois détruit la ville et, à Bastiano, chacun semble attendre leur retour. Drogo fait la connaissance des autres officiers. Il est tout à la fois surpris par le luxe qui préside aux repas et par l'atmosphère lourde qui règne dans la forteresse. Le jeune homme se laisse peu à peu envoûter par le site, où le temps semble s'écouler sur un rythme différent, ponctué par les tours de garde...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>L'étrange roman de Dino Buzzati est formidablement bien servi. Une mise en scène sobre et attentive.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E20830.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290764" DATEMODIF="2018-02-07T09:46:57">
+      <DATEHEURE>2018-02-13T12:20:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Extrait : retour de flamme</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123354705" DATEMODIF="2017-11-21T09:40:26">
+        <TITREEMISSION>Extrait : retour de flamme</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="26745724">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Extrait : retour de flamme</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Quelques images anciennes - courts métrages ou extraits de films - dénichées dans le cadre de l'émission «Retour de flamme», recréent la magie du cinéma d'antan.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290765" DATEMODIF="2018-02-07T09:46:57">
+      <DATEHEURE>2018-02-13T12:35:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Les sièges de l'Alcazar</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="60572" DATEMODIF="2017-08-28T13:36:40">
+        <TITREEMISSION>Les sièges de l'Alcazar</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1989</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>54</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="27129">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Moullet</NOM>
+            <PRENOM>Luc</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="70485">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maltinti</NOM>
+            <PRENOM>Olivier</PRENOM>
+            <ROLE>Guy Moscardo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="166019">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moreau</NOM>
+            <PRENOM>Elizabeth</PRENOM>
+            <ROLE>Jeanne Cavalero</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9977">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Haudepin</NOM>
+            <PRENOM>Sabine</PRENOM>
+            <ROLE>Angela</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15332">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zardi</NOM>
+            <PRENOM>Dominique</PRENOM>
+            <ROLE>le directeur du cinéma</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un critique de cinéma est tiré de sa vie monotone par une jeune consoeur travaillant dans une revue concurrente. Elle le poursuit de ses assiduités.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans le Paris des années 50. Guy est critique aux «Cahiers du cinéma». Il va souvent voir les longs métrages de Vittorio Cottafavi dans une petite salle de quartier. Il y aperçoit Jeanne, critique elle aussi, mais pour «Positif», la revue cinéphile concurrente. Au grand étonnement de Guy, Jeanne semble le suivre...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Luc Moullet dévoile les origines de sa cinéphilie dans ce film à la fois drôle et émouvant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E60572.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290766" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-13T13:25:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Journal d'un curé de campagne</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="35266" DATEMODIF="2016-10-05T18:33:32">
+        <TITREEMISSION>Journal d'un curé de campagne</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1951</ANNEEREALISATION>
+          <COULEUR CLE="2">en noir et blanc</COULEUR>
+          <DUREEEMI>110</DUREEEMI>
+          <APPRECIATION>4</APPRECIATION>
+          <PALMARES>
+            <ANNEE>1950</ANNEE>
+            <FESTIVAL CLE="33">
+              <NOM>Prix Louis Delluc</NOM>
+              <PAYS>France</PAYS>
+              <RECOMPENSE CLE="34">Prix Louis Delluc</RECOMPENSE>
+            </FESTIVAL>
+          </PALMARES>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="8790">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bresson</NOM>
+            <PRENOM>Robert</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="11870">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laydu</NOM>
+            <PRENOM>Claude</PRENOM>
+            <ROLE>le curé d'Ambricourt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="49783">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Riveyre</NOM>
+            <PRENOM>Jean</PRENOM>
+            <ROLE>le comte</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="49784">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ladmiral</NOM>
+            <PRENOM>Nicole</PRENOM>
+            <ROLE>Chantal</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="49785">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guybert</NOM>
+            <PRENOM>André</PRENOM>
+            <ROLE>le curé de Torcy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="49786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lemaire</NOM>
+            <PRENOM>Martine</PRENOM>
+            <ROLE>Séraphita</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="413996">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bérendt</NOM>
+            <PRENOM>Rachel</PRENOM>
+            <ROLE>la comtesse</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15465">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maurey</NOM>
+            <PRENOM>Nicole</PRENOM>
+            <ROLE>mademoiselle Louise</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16065">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Balpêtré</NOM>
+            <PRENOM>Antoine</PRENOM>
+            <ROLE>le docteur Delbende</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="38911">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Grünenwald</NOM>
+            <PRENOM>Jean-Jacques</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'apostolat et le martyre d'un jeune prêtre exalté qui, venu s'installer dans une petite bourgade du Nord de la France, déchante rapidement.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un jeune prêtre que brûle la passion de son apostolat et que ronge, à son insu, la maladie, s'installe dans sa première cure, à Ambricourt, un petit village du Nord. D'emblée, ses paroissiens ne lui manifestent qu'indifférence. Pensant trouver un meilleur accueil au château, il doit bientôt déchanter. Le comte a une liaison avec l'institutrice, et la comtesse vit recluse, révoltée contre Dieu depuis la mort en bas âge d'un de ses enfants. Par jalousie, Chantal, leur fille, pousse le prêtre à intervenir auprès de sa mère. En suivant ce conseil dont il ignore la perversité, le saint homme provoque maints désordres qui aggravent encore son isolement et accroissent ses tourments. Le curé de Torcy, un village voisin, tente de le réconforter...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Très fidèle adaptation du roman de Bernanos, ce récit sobre et rigoureux, conçu comme un chemin de croix, tient de l'épure et du pur chef-d'oeuvre.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E35266.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290767" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-13T15:20:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Kapo</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="78536" DATEMODIF="2016-05-21T20:09:45">
+        <TITREEMISSION>Kapo</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="487">
+          <PAYS>Italie - France</PAYS>
+          <LIBELLE>italo-français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Kapò</TITREORIGINAL>
+          <ANNEEREALISATION>1960</ANNEEREALISATION>
+          <COULEUR CLE="2">en noir et blanc</COULEUR>
+          <DUREEEMI>120</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="65495">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Pontecorvo</NOM>
+            <PRENOM>Gillo</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2808">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Strasberg</NOM>
+            <PRENOM>Susan</PRENOM>
+            <ROLE>Edith / Nicole</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12543">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Riva</NOM>
+            <PRENOM>Emmanuelle</PRENOM>
+            <ROLE>Thérèse</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1956">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Terzieff</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Sascha</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37908">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Perego</NOM>
+            <PRENOM>Didi</PRENOM>
+            <ROLE>Sofia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16693">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garko</NOM>
+            <PRENOM>Gianni</PRENOM>
+            <ROLE>le soldat allemand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="217530">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Besi</NOM>
+            <PRENOM>Annabella</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="217531">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bellinzaghi</NOM>
+            <PRENOM>Eleonora</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="217532">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dinulovic</NOM>
+            <PRENOM>Mira</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="15875">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Rustichelli</NOM>
+            <PRENOM>Carlo</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Pour pouvoir survivre dans un camp de concentration, une adolescente devient malgré elle une prisonnière docile et soumise et obtient le statut de kapo.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un camp de concentration dans l'Allemagne nationale-socialiste en 1942. A l'âge de quatorze ans, Nicole voit partir ses parents pour la chambre à gaz. Elle échappe de peu au même sort grâce à la complicité d'un vieux médecin juif du camp qui la fait passer pour une détenue de droit commun. Pour survivre, la jeune fille va peu à peu accepter toutes les compromissions. Elle va jusqu'à se prostituer et finit par accepter de faire partie des kapos, ces prisonniers auxilliaires des Allemands chargés de commander les autres détenus...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Film controversé sur la trahison et la compromission. Ses producteurs ont fait pression pour que l'héroïne finisse par se racheter à la fin du film.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E78536.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290768" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-13T17:10:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Les risques du métier</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="55973" DATEMODIF="2016-05-20T17:38:11">
+        <TITREEMISSION>Les risques du métier</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1967</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>105</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1869">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Cayatte</NOM>
+            <PRENOM>André</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="11188">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brel</NOM>
+            <PRENOM>Jacques</PRENOM>
+            <ROLE>Jean Doucet</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="20364">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desyeux</NOM>
+            <PRENOM>Delphine</PRENOM>
+            <ROLE>Catherine Roussel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6983">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nell</NOM>
+            <PRENOM>Nathalie</PRENOM>
+            <ROLE>Hélène Arnaud</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12543">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Riva</NOM>
+            <PRENOM>Emmanuelle</PRENOM>
+            <ROLE>Suzanne Doucet</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9134">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Harden</NOM>
+            <PRENOM>Jacques</PRENOM>
+            <ROLE>Arnaud</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2373">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alari</NOM>
+            <PRENOM>Nadine</PRENOM>
+            <ROLE>madame Arnaud</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="57649">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laurey</NOM>
+            <PRENOM>Marius</PRENOM>
+            <ROLE>Roussel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="182744">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fabréga</NOM>
+            <PRENOM>Christine</PRENOM>
+            <ROLE>madame Roussel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11188">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Brel</NOM>
+            <PRENOM>Jacques</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="73456">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Rauber</NOM>
+            <PRENOM>François</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un instituteur jusque-là sans histoires est accusé d'entretenir des relations sexuelles avec une de ses élèves. Seule son épouse croit en son innocence.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jean Doucet exerce avec passion son métier d'instituteur dans un village des environs de Louviers. Un jour, une de ses élèves, Catherine Roussel, l'accuse de tentative de viol. Ses parents déposent plainte. Catastrophé, Doucet tente de se disculper, mais l'enquête révèle l'existence probable d'une liaison entre l'instituteur et une autre de ses élèves, Hélène Arnaud. Interrogée, menacée d'un examen médical, l'adolescente passe aux aveux. Une autre accusation vient encore aggraver le cas de Doucet, qui est arrêté et jeté en prison. Le village tout entier lui jette la pierre. Seule sa femme, Suzanne, se refuse à le croire coupable et le défend contre les attaques des villageois...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une démonstration des plus passionnées, brillamment servie par Jacques Brel, qui débutait alors au cinéma.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E55973.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290769" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-13T18:45:00</DATEHEURE>
+      <DUREE>93</DUREE>
+      <TITRE>Je t'aime, je t'aime</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="34605" DATEMODIF="2016-04-27T12:30:13">
+        <TITREEMISSION>Je t'aime, je t'aime</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="248" GENRESIMPLE="Film de science fiction">Film de science-fiction</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1968</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="8123">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Resnais</NOM>
+            <PRENOM>Alain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="16418">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rich</NOM>
+            <PRENOM>Claude</PRENOM>
+            <ROLE>Claude Ridder</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2535">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Georges-Picot</NOM>
+            <PRENOM>Olga</PRENOM>
+            <ROLE>Catrine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25626">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferjac</NOM>
+            <PRENOM>Anouk</PRENOM>
+            <ROLE>Wianna Lust</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="237036">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McMoy</NOM>
+            <PRENOM>Alain</PRENOM>
+            <ROLE>André Moyens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="280578">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vergnes</NOM>
+            <PRENOM>Marie-Blanche</PRENOM>
+            <ROLE>Marie-Noëlle Demoon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33620">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rozan</NOM>
+            <PRENOM>Dominique</PRENOM>
+            <ROLE>le docteur Haesserts</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1871">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fresson</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Bernard Hannecart</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="23077">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tunc</NOM>
+            <PRENOM>Irène</PRENOM>
+            <ROLE>Marcelle Hannecart</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="137526">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Penderecki</NOM>
+            <PRENOM>Krzysztof</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Après une infructueuse tentative de suicide, un homme accepte d'être le premier cobaye humain à voyager dans un prototype de machine à remonter le temps.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un homme, Claude Ridder, oscille entre la vie et la mort après une tentative de suicide. A sa sortie de clinique, deux mystérieuses personnes l'abordent et lui proposent une expérience fantastique : essayer une machine à remonter le temps. Cela a pour l'instant été tenté avec des souris, mais jamais avec un homme. Ridder, qui n'a rien à perdre, accepte leur proposition. Il sera donc le premier cobaye humain. Conduit dans un centre de recherches, il se prête aux derniers préparatifs. Ce voyage dans le temps doit lui permettre de retrouver, durant une minute, sa vie de l'année précédente. Mais après quelques instants de fonctionnement, la machine se dérègle...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Resnais recompose le passé d'un mourant, selon des associations affectives, rêveuses et intenses qui restituent le terrible, le prosaïque, le sublime ou le distant des minutes perdues et des amours gâchées. Une madeleine magnifiquement imbibée de beauté.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E34605.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290770" DATEMODIF="2018-02-07T09:46:57">
+      <DATEHEURE>2018-02-13T20:18:00</DATEHEURE>
+      <DUREE>2</DUREE>
+      <TITRE>Extrait : retour de flamme</TITRE>
+      <SOUSTITREDIF>La Caissière du grand café</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="122317299" DATEMODIF="2017-10-20T09:29:08">
+        <TITREEMISSION>Extrait : retour de flamme</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="26745724">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Extrait : retour de flamme</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La Caissière du grand café</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Quelques images anciennes - courts métrages ou extraits de films - dénichées dans le cadre de l'émission «Retour de flamme», recréent la magie du cinéma d'antan.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290771" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-13T20:20:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Viva cinéma</TITRE>
+      <SOUSTITREDIF>Episode 21</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125382021" DATEMODIF="2018-01-26T16:17:17">
+        <TITREEMISSION>Viva cinéma</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="7038925">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Viva cinéma</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Episode 21</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Ce magazine propose chaque semaine de faire le tour de l'actualité cinéphile avec des sujets inédits, des entretiens, des analyses de séquences, des archives, des montages et des nouvelles rubriques pour combler les amoureux du cinéma.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125382021.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290772" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-13T20:45:00</DATEHEURE>
+      <DUREE>80</DUREE>
+      <TITRE>Ramona</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2390028" DATEMODIF="2016-05-21T10:04:02">
+        <TITREEMISSION>Ramona </TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="344" GENRESIMPLE="Western">Western</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Ramona</TITREORIGINAL>
+          <ANNEEREALISATION>1936</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1036">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>King</NOM>
+            <PRENOM>Henry</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="9883">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Young</NOM>
+            <PRENOM>Loretta</PRENOM>
+            <ROLE>Ramona</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4657">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ameche</NOM>
+            <PRENOM>Don</PRENOM>
+            <ROLE>Alessandro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22899">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Taylor</NOM>
+            <PRENOM>Kent</PRENOM>
+            <ROLE>Felipe Moreno</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="69675">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frederick</NOM>
+            <PRENOM>Pauline</PRENOM>
+            <ROLE>madame Moreno</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="26890">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Darwell</NOM>
+            <PRENOM>Jane</PRENOM>
+            <ROLE>la tante Ri Hyar</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10990">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Carradine</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Jim Farrar</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="74697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Simpson</NOM>
+            <PRENOM>Russell</PRENOM>
+            <ROLE>Scroggs</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="273841">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Du Brey</NOM>
+            <PRENOM>Claire</PRENOM>
+            <ROLE>Marda</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1048">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Newman</NOM>
+            <PRENOM>Alfred</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une Indienne tombe amoureuse d'un Blanc alors que ses parents projettent pour elle un mariage avec l'un des siens : la belle essaie de les faire changer d'avis.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ramona, une jeune Indienne, envisage l'avenir avec sérénité jusqu'à ce que ses parents lui signifient leur intention de la marier avec Alessandro, un Indien, comme elle. Ramona voudrait, en fait, passer le reste de sa vie avec un Blanc dont elle vient de tomber amoureuse. Ses parents ne l'entendent pas de cette oreille. La belle veut pourtant demeurer libre de ses choix. Pour rester indépendante, elle est prête à envisager les pires résolutions. Une situation qui crée de multiples conflits...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Le quatrième film de l'histoire du cinéma à bénéficier du procédé Technicolor : la véritable star du film.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2390028.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290773" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-13T22:05:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Vera Cruz</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="70731" DATEMODIF="2018-01-24T14:25:13">
+        <TITREEMISSION>Vera Cruz</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="344" GENRESIMPLE="Western">Western</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1954</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>94</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="5248">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Aldrich</NOM>
+            <PRENOM>Robert</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2474">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cooper</NOM>
+            <PRENOM>Gary</PRENOM>
+            <ROLE>Benjamin Trane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="249">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lancaster</NOM>
+            <PRENOM>Burt</PRENOM>
+            <ROLE>Joe Erin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="27688">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Darcel</NOM>
+            <PRENOM>Denise</PRENOM>
+            <ROLE>la comtesse Marie Duvarre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21933">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montiel</NOM>
+            <PRENOM>Sarita</PRENOM>
+            <ROLE>Nina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7838">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Romero</NOM>
+            <PRENOM>Cesar</PRENOM>
+            <ROLE>le marquis de Labordère</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1660">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Borgnine</NOM>
+            <PRENOM>Ernest</PRENOM>
+            <ROLE>Donnegan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16198">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macready</NOM>
+            <PRENOM>George</PRENOM>
+            <ROLE>l'empereur Maximilien</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5002">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Elam</NOM>
+            <PRENOM>Jack</PRENOM>
+            <ROLE>Tex</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="23951">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Friedhofer</NOM>
+            <PRENOM>Hugo</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au Mexique, en 1866, deux mercenaires, chargés d'escorter une comtesse, tentent de faire main basse, avec son accord, sur un véritable trésor.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En 1866, Benjamin Trane, ancien colonel de l'armée sudiste, a quitté le Sud pour le Mexique voisin. La guerre civile menace à tout moment d'enflammer le pays. Les partisans de Benito Juárez luttent avec acharnement pour détrôner l'empereur Maximilien de Habsbourg, soutenu par Napoléon III. Trane fait la connaissance de Joe Erin, un triste sire sans foi ni loi qui dirige une bande de mercenaires. Tous deux sont engagés par un certain Labordère, et chargés d'escorter sa maîtresse, la comtesse Marie Duvarre, jusqu'à Vera Cruz. Ils ne tardent pas à apprendre que le marquis de Labordère est au service de Maximilien et que la comtesse est lestée de trois millions de dollars en or, destinés à lever des troupes pour venir en aide à l'empereur isolé. Le magot est bien tentant...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une oeuvre flamboyante et sardonique, qui sonnait le glas du western mythique. A voir absolument. Avec Charles Bronson dans une de ses premières apparitions au cinéma.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E70731.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290774" DATEMODIF="2018-02-07T09:46:57">
+      <DATEHEURE>2018-02-13T23:35:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Dillinger est mort</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="18577" DATEMODIF="2016-05-20T21:39:16">
+        <TITREEMISSION>Dillinger est mort</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="467">
+          <PAYS>Italie</PAYS>
+          <LIBELLE>italien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Dillinger è morto</TITREORIGINAL>
+          <ANNEEREALISATION>1969</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="15019">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Ferreri</NOM>
+            <PRENOM>Marco</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2497">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Piccoli</NOM>
+            <PRENOM>Michel</PRENOM>
+            <ROLE>Glauco</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1870">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Girardot</NOM>
+            <PRENOM>Annie</PRENOM>
+            <ROLE>la bonne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30834">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>André</NOM>
+            <PRENOM>Carole</PRENOM>
+            <ROLE>le propriétaire du bateau</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33077">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pallenberg</NOM>
+            <PRENOM>Anita</PRENOM>
+            <ROLE>la femme de Glauco</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="79001">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lavagetto</NOM>
+            <PRENOM>Gino</PRENOM>
+            <ROLE>un marin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="273473">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jannilli</NOM>
+            <PRENOM>Mario</PRENOM>
+            <ROLE>le capitaine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61067">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aprà</NOM>
+            <PRENOM>Adriano</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="52433">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Usuelli</NOM>
+            <PRENOM>Teo</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un homme, en proie à la solitude, découvre un article de presse et un pistolet. Il assassine alors sa femme avant de recommencer une nouvelle vie.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Glauco, en rentrant, trouve sa femme couchée, souffrante. Il lui donne un somnifère. Son dîner est froid, il le jette pour se confectionner un repas fin. C'est en cherchant des épices qu'il découvre enveloppé dans une page de journal qui narre la mort de Dillinger, un revolver. Pendant toute la soirée, il va le démonter, le graisser, le remonter et le peindre en rouge. Ce faisant, il dîne, regarde la télévision, écoute la radio, met un disque, écoute au magnétophone une scène que lui a faite sa femme, se passe le film de ses dernières vacances, monte coucher avec la bonne, redescend mimer son suicide puis une attaque de cambrioleur. Pour finir, il tue sa femme. Il sort de chez lui, va se baigner et finalement part sur un bateau où il remplace le cuisinier...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Michel Piccoli se fond à merveille dans l'univers déroutant de Marco Ferreri.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E18577.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290775" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-14T01:10:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Themroc</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="64115" DATEMODIF="2016-05-21T03:39:38">
+        <TITREEMISSION>Themroc</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Themroc</TITREORIGINAL>
+          <ANNEEREALISATION>1972</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>105</DUREEEMI>
+          <CENSURE CLE="16">Interdit aux moins de 16</CENSURE>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="8694">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Faraldo</NOM>
+            <PRENOM>Claude</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2497">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Piccoli</NOM>
+            <PRENOM>Michel</PRENOM>
+            <ROLE>Themroc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15822">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Romand</NOM>
+            <PRENOM>Béatrice</PRENOM>
+            <ROLE>la soeur de Themroc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2978">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tolo</NOM>
+            <PRENOM>Marilù</PRENOM>
+            <ROLE>la secrétaire</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8252">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bouteille</NOM>
+            <PRENOM>Romain</PRENOM>
+            <ROLE>le patron hargneux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45888">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Coluzzi</NOM>
+            <PRENOM>Francesca Romana</PRENOM>
+            <ROLE>la voisine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2410">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dewaere</NOM>
+            <PRENOM>Patrick</PRENOM>
+            <ROLE>le maçon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="72274">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Herviale</NOM>
+            <PRENOM>Jeanne</PRENOM>
+            <ROLE>la mère de Themroc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="115211">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Miou-Miou</NOM>
+            <ROLE>la jeune voisine</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Quelque part dans la banlieue parisienne, un ouvrier modèle se révolte contre la société, quitte son emploi et incite ses concitoyens à vivre à l'ancienne.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Themroc, un vieux garçon, partage sa vie entre sa mère qu'il craint et sa soeur, qu'il regarde parfois d'un oeil concupiscent. Peintre en bâtiment modèle, il mène une vie monotone entre vélo, métro et usine, jusqu'au jour où un incident absurde le pousse à la révolte. En effet, son patron le licencie sans motivation sérieuse. Telle une bête fauve, il entre dans une rage incroyable, quitte son travail précipitamment et rentre chez lui. Là, il transforme sa chambre en une sorte de tanière et entraîne les habitants du quartier à retourner à l'âge des cavernes. Passant la journée à faire l'amour, le voisinage semble en passe de faire naître un monde nouveau...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un retour à la vie sauvage par-delà les tabous. Un film surprenant à l'atmosphère poétique, une farce anarchiste des années 70.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E64115.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290776" DATEMODIF="2018-02-07T09:46:56">
+      <DATEHEURE>2018-02-14T02:55:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Le voyeur</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="72331" DATEMODIF="2016-05-20T22:16:46">
+        <TITREEMISSION>Le voyeur</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="307" GENRESIMPLE="Film de suspense">Thriller</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Peeping Tom</TITREORIGINAL>
+          <ANNEEREALISATION>1960</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>100</DUREEEMI>
+          <APPRECIATION>4</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="682">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Powell</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="8004">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Böhm</NOM>
+            <PRENOM>Karlheinz</PRENOM>
+            <ROLE>Mark Lewis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="23925">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shearer</NOM>
+            <PRENOM>Moira</PRENOM>
+            <ROLE>Vivian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9099">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Massey</NOM>
+            <PRENOM>Anna</PRENOM>
+            <ROLE>Helen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1593">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Knight</NOM>
+            <PRENOM>Esmond</PRENOM>
+            <ROLE>Arthur Baden</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11553">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Goodliffe</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Don Jarvis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13689">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Audley</NOM>
+            <PRENOM>Maxine</PRENOM>
+            <ROLE>madame Stephens</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bruce</NOM>
+            <PRENOM>Brenda</PRENOM>
+            <ROLE>Dora</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="47805">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Miller</NOM>
+            <PRENOM>Martin</PRENOM>
+            <ROLE>le docteur Rosan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="78838">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Easdale</NOM>
+            <PRENOM>Brian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune cinéaste hanté par la peur et des angoisses récurrentes se livre à des crimes sanglants et filme soigneusement l'agonie de ses victimes.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jeune technicien d'un studio de cinéma londonien, Mark Lewis souffre d'un déséquilibre mental dû à l'éducation de son père, un psychologue réputé. Ce dernier, en effet, a expérimenté sur son fils l'apprentissage de la peur. Mark en a gardé une fascination morbide pour le masque de la frayeur. Sa caméra munie d'une lame lui permet d'égorger ses victimes - toujours des femmes - tout en filmant leur agonie. Le miroir qui complète ce dispositif ne laisse rien ignorer aux malheureuses de leurs propres soubresauts de terreur. Mark se lie d'amitié avec Helen, sa voisine, puis s'en éprend. Il s'efforce de maîtriser la pulsion qui le pousse à l'égorger et jette son dévolu sur une jeune actrice, Vivian...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Allégorie du cinéma, dissection de l'universelle pornographie ou exploration d'une perversion singulière : autant de possibilités d'interprétation, dont aucune n'épuise la puissance de ce chef-d'oeuvre.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E72331.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171290777" DATEMODIF="2018-02-07T09:46:57">
+      <DATEHEURE>2018-02-14T04:35:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Le point de non-retour</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>1</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="51385" DATEMODIF="2017-05-30T12:38:49">
+        <TITREEMISSION>Le point de non-retour</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="267" GENRESIMPLE="Film policier">Film policier</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Point Blank</TITREORIGINAL>
+          <ANNEEREALISATION>1967</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>92</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="236112">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Boorman</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1273">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marvin</NOM>
+            <PRENOM>Lee</PRENOM>
+            <ROLE>Walker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="268">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vernon</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Mal Reese</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1274">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dickinson</NOM>
+            <PRENOM>Angie</PRENOM>
+            <ROLE>Chris</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5240">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wynn</NOM>
+            <PRENOM>Keenan</PRENOM>
+            <ROLE>Yost</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="65252">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>O'Connor</NOM>
+            <PRENOM>Carroll</PRENOM>
+            <ROLE>Brewster</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4752">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bochner</NOM>
+            <PRENOM>Lloyd</PRENOM>
+            <ROLE>Frederick Carter</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8527">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Strong</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>John Stegman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10200">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Acker</NOM>
+            <PRENOM>Sharon</PRENOM>
+            <ROLE>Lynne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19514">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Mandel</NOM>
+            <PRENOM>Johnny</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un truand est manipulé par un mystérieux chef de gang qui lui livre sur un plateau toutes les informations nécessaires pour retrouver un complice qui l'a trahi.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Walker n'aura pas eu beaucoup de temps pour profiter du butin bien mal acquis de son hold-up. Reese, son complice, le lui a en effet subtilisé, en le laissant pour mort dans la prison désaffectée d'Alcatraz. Mais Walker n'a pas dit son dernier mot. Il se rétablit assez rapidement et reçoit la visite du mystérieux Yost, un curieux individu fort bien renseigné, qui lui offre les moyens de retrouver Reese, employé d'une toute-puissante organisation secrète. Walker retrouve tout d'abord sa femme, qui est assassinée peu de temps après. Il n'en poursuit que plus activement sa vengeance, décidé à retrouver Reese et le meurtrier de son épouse...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Le deuxième film de John Boorman, un polar explosif, qui tranchait sur la production de l'époque. Avec un Lee Marvin excellent.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E51385.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

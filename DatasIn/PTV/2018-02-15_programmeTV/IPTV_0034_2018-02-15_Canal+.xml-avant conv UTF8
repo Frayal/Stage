@@ -1,0 +1,2820 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:53:15-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="34">
+    <NOMCHAINE>Canal+</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-15">
+    <DIFFUSION CLEDIF="171309613" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T05:30:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Golf+, le mag</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390225" DATEMODIF="2018-01-19T13:06:25">
+        <TITREEMISSION>Golf+, le mag</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="654" GENRESIMPLE="Magazine sportif">Golf</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125390225.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="1307399">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Sanzey</NOM>
+          <PRENOM>Pauline</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309614" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T06:35:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>La semaine des Guignols</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380922" DATEMODIF="2018-01-23T08:20:56">
+        <TITREEMISSION>La semaine des Guignols</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2059013">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / La semaine des Guignols</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Jour après jour, les célèbres marionnettes en latex déclinent l'actualité avec beaucoup d'humour et un brin d'ironie : infos, interviews, fausses publicités, bandes-annonces détournées sont au programme de ce rendez-vous hebdomadaire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380922.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309615" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T07:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Casual</TITRE>
+      <SOUSTITREDIF>Escapade</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="106735144" DATEMODIF="2016-10-04T16:45:43">
+        <TITREEMISSION>Casual</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20144871">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Casual</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="20144837">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Casual / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Casual</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Escapade</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Lake</SOUSTITREORIGINAL>
+          <DUREEEMI>25</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1271509">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Heller</NOM>
+            <PRENOM>Marielle</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="184819">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Watkins</NOM>
+            <PRENOM>Michaela</PRENOM>
+            <ROLE>Valerie Meyers</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="337343">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dewey</NOM>
+            <PRENOM>Tommy</PRENOM>
+            <ROLE>Alex Cole</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="335479">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Barr</NOM>
+            <PRENOM>Tara Lynne</PRENOM>
+            <ROLE>Laura Meyers</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="81002">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kartheiser</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>Jordan Anderson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1302897">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Feliz</NOM>
+            <PRENOM>Rhenzy</PRENOM>
+            <ROLE>Spencer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="503505">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bornheimer</NOM>
+            <PRENOM>Kyle</PRENOM>
+            <ROLE>Jack Briggs</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="527441">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hatendi</NOM>
+            <PRENOM>Nyasha</PRENOM>
+            <ROLE>Leon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582107">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lower</NOM>
+            <PRENOM>Britt</PRENOM>
+            <ROLE>Sarah</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alex reçoit un avertissement. Jordan lui signifie sa négligence. Valerie part en randonnée avec Jack, tandis que Laura poursuit sa romance avec Spencer.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jordan doit donner un avertissement à Alex, qui se voit ainsi signifier sa négligence. Valerie entreprend une randonnée avec Jack, mais au cours du voyage, elle est distraite par les problèmes d'Alex. Elle fait face à un dilemme mettant en jeu sa loyauté. Laura poursuit sa relation avec Spencer. La donne change avec Aubrey...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E106735144.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309616" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T07:30:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>The Tonight Show Starring Jimmy Fallon</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125389248" DATEMODIF="2018-01-23T08:28:01">
+        <TITREEMISSION>The Tonight Show Starring Jimmy Fallon</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14284100">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / The Tonight Show Starring Jimmy Fallon</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="261045">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Fallon</NOM>
+            <PRENOM>Jimmy</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec son élégance habituelle, Jimmy Fallon s'empare de sujets de société au fil de sketches mettant en scène des invités de renom. A chaque fois, des performances musicales rythment cette émission empreinte d'un humour joyeusement décalé.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125389248.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309617" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T08:15:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Les Guignols</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380937" DATEMODIF="2018-01-23T08:22:17">
+        <TITREEMISSION>Les Guignols</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="18378919">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les Guignols</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec l'impertinence qu'on leur connait, les Guignols s'emparent de l'actualité. Leur regard savamment décalé égratigne les ténors de la politique française et les cadors de la scène internationale. Celles et ceux qui font - le plus souvent involontairement - l'actualité ont aussi droit à leur minute de gloire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380937.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309618" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T08:20:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Canalbis</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380836" DATEMODIF="2018-01-23T08:18:10">
+        <TITREEMISSION>Canalbis</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27427778">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Canalbis</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1347375">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Jordi</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="109322">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Martin</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'émission qui fait tourner l'actu. Martin et Jordi reviennent, à leur façon, sur les faits plus ou moins marquants du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380836.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688542" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T08:30:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Le fondateur</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="110219843" DATEMODIF="2018-01-12T14:36:06">
+        <TITREEMISSION>Le fondateur</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="110" GENRESIMPLE="Film historique">Biographie</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Founder</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>115</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="56489">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hancock</NOM>
+            <PRENOM>John Lee</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="15588">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Keaton</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Ray Kroc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="143916">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cardellini</NOM>
+            <PRENOM>Linda</PRENOM>
+            <ROLE>Joan Smith</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="209042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilson</NOM>
+            <PRENOM>Patrick</PRENOM>
+            <ROLE>Rollie Smith</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="265290">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Offerman</NOM>
+            <PRENOM>Nick</PRENOM>
+            <ROLE>Dick McDonald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18001">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dern</NOM>
+            <PRENOM>Laura</PRENOM>
+            <ROLE>Ethel Kroc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39293">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lynch</NOM>
+            <PRENOM>John Carroll</PRENOM>
+            <ROLE>Mac McDonald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="336517">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Novak</NOM>
+            <PRENOM>BJ</PRENOM>
+            <ROLE>Harry Sonneborn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1285215">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Battista</NOM>
+            <PRENOM>Kimberly</PRENOM>
+            <ROLE>madame Finn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10491">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Burwell</NOM>
+            <PRENOM>Carter</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un petit vendeur de milk-shakes rencontre les patrons ingénieux d'un fast-food à succès, décide de franchiser leur restaurant et se construit un empire.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ray Kroc végète comme vendeur de milk-shakes. Alors qu'il est en déplacement pour son travail, il rencontre les frères McDonald, propriétaires d'un restaurant où les burgers sont fabriqués en 30 secondes au lieu de 30 minutes. Ingénieux, ils ont inventé un procédé de fabrication de hamburgers à la chaîne. Ray Kroc voit tout de suite le potentiel commercial de ce fast-food. Il s'associe avec les frères et les encourage à franchiser leur restaurant. Devant leur frilosité et avide de faire rapidement de l'argent, Ray Kroc va prendre les devants et s'emparer de leur nom pour bâtir son empire...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>L'histoire authentique du fondateur d'une chaîne de restauration rapide célébrissime.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E110219843.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688543" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T10:25:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>L'embarras du choix</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="112116557" DATEMODIF="2017-12-29T13:32:52">
+        <TITREEMISSION>L'embarras du choix</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="141" GENRESIMPLE="Comédie">Comédie sentimentale</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>97</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="120680">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lavaine</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="76631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lamy</NOM>
+            <PRENOM>Alexandra</PRENOM>
+            <ROLE>Juliette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="387695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ducret</NOM>
+            <PRENOM>Arnaud</PRENOM>
+            <ROLE>Etienne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61096">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marivin</NOM>
+            <PRENOM>Anne</PRENOM>
+            <ROLE>Joëlle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="159937">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bamber</NOM>
+            <PRENOM>Jamie</PRENOM>
+            <ROLE>Paul</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="277370">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ouazani</NOM>
+            <PRENOM>Sabrina</PRENOM>
+            <ROLE>Sonia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35012">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Astier</NOM>
+            <PRENOM>Lionnel</PRENOM>
+            <ROLE>Richard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="131690">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Commandeur</NOM>
+            <PRENOM>Jérôme</PRENOM>
+            <ROLE>Philippe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="56034">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Henriet</NOM>
+            <PRENOM>Arnaud</PRENOM>
+            <ROLE>Cédric</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="388998">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Cahen</NOM>
+            <PRENOM>Fabien</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A 40 ans, une femme, perpétuellement indécise, doit choisir entre un cuisinier charmant et un Ecossais, qui l'ont tous les deux demandée en mariage.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Juliette, 40 ans, vient d'être quittée par Cédric, son fiancé, las de son indécision constante. Car faire un choix est au-dessus des forces de Juliette. Ses amies lui conseillent de se remettre en selle très vite. Juliette rencontre alors Etienne, un cuisinier talentueux, célibataire et charmant. Mais entre temps, elle a aussi croisé la route du beau Paul, un Ecossais. Juliette ne parvient pas à se décider entre ces deux hommes avec lesquels elle file le parfait amour. Les choses se compliquent quand chacun la demande en mariage. Juliette, incapable de trancher, s'enferme dans son mensonge...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un casting de haut vol pour cette comédie dans l'air du temps, distrayante et rafraîchissante à souhait.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E112116557.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309619" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T11:55:00</DATEHEURE>
+      <DUREE>32</DUREE>
+      <TITRE>Casual</TITRE>
+      <SOUSTITREDIF>Retrouvailles</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="107170924" DATEMODIF="2016-10-14T16:54:17">
+        <TITREEMISSION>Casual</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20144871">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Casual</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="20144837">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Casual / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Casual</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Retrouvailles</SOUSTITRE>
+          <SOUSTITREORIGINAL>Reunion</SOUSTITREORIGINAL>
+          <DUREEEMI>25</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>10</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1271509">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Heller</NOM>
+            <PRENOM>Marielle</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="184819">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Watkins</NOM>
+            <PRENOM>Michaela</PRENOM>
+            <ROLE>Valerie Meyers</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="337343">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dewey</NOM>
+            <PRENOM>Tommy</PRENOM>
+            <ROLE>Alex Cole</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="335479">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Barr</NOM>
+            <PRENOM>Tara Lynne</PRENOM>
+            <ROLE>Laura Meyers</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88245">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berman</NOM>
+            <PRENOM>Julie</PRENOM>
+            <ROLE>Leia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="527441">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hatendi</NOM>
+            <PRENOM>Nyasha</PRENOM>
+            <ROLE>Leon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1302897">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Feliz</NOM>
+            <PRENOM>Rhenzy</PRENOM>
+            <ROLE>Spencer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582107">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lower</NOM>
+            <PRENOM>Britt</PRENOM>
+            <ROLE>Sarah</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="503505">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bornheimer</NOM>
+            <PRENOM>Kyle</PRENOM>
+            <ROLE>Jack Briggs</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Valerie et Jack réalisent leurs fantasmes, à l'hôtel, tandis qu'Alex se fait à sa nouvelle vie avec Sarah. Laura et Spencer font un marathon cinéma.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Valerie et Jack laissent libre court à leur imagination et réalisent leurs fantasmes dans une chambre d'hôtel. De son côté, Alex tente de s'accomoder à sa nouvelle vie avec Sarah. Laura et Spencer visionnent ensemble des films sur l'amour adolescent...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E107170924.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171439985" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T12:27:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>La météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125737763" DATEMODIF="2018-01-30T09:33:42">
+        <TITREEMISSION>La météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309620" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T12:32:00</DATEHEURE>
+      <DUREE>3</DUREE>
+      <TITRE>Les Guignols</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380937" DATEMODIF="2018-01-23T08:22:17">
+        <TITREEMISSION>Les Guignols</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="18378919">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les Guignols</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec l'impertinence qu'on leur connait, les Guignols s'emparent de l'actualité. Leur regard savamment décalé égratigne les ténors de la politique française et les cadors de la scène internationale. Celles et ceux qui font - le plus souvent involontairement - l'actualité ont aussi droit à leur minute de gloire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380937.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309621" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T12:35:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Canalbis</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380836" DATEMODIF="2018-01-23T08:18:10">
+        <TITREEMISSION>Canalbis</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27427778">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Canalbis</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1347375">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Jordi</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="109322">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Martin</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'émission qui fait tourner l'actu. Martin et Jordi reviennent, à leur façon, sur les faits plus ou moins marquants du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380836.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309622" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T12:50:00</DATEHEURE>
+      <DUREE>4</DUREE>
+      <TITRE>Catherine et Liliane</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380842" DATEMODIF="2018-02-05T23:05:53">
+        <TITREEMISSION>Catherine et Liliane</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="17311315">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Catherine et Liliane</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Toujours bon pied bon oeil, Catherine et Liliane vivent leur vie sans se soucier du qu'en-dira-t-on. Malgré les années qui passent, elles persistent à voir la vie du bon côté. Les deux amies ne manquent pas d'exprimer leur agacement face à toutes les petites tracasseries du quotidien. Heureusement, Catherine et Liliane sont astucieuses et ne s'en laissent pas conter.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380842.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309623" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T12:54:00</DATEHEURE>
+      <DUREE>41</DUREE>
+      <TITRE>The Tonight Show Starring Jimmy Fallon</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125389248" DATEMODIF="2018-01-23T08:28:01">
+        <TITREEMISSION>The Tonight Show Starring Jimmy Fallon</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14284100">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / The Tonight Show Starring Jimmy Fallon</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="261045">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Fallon</NOM>
+            <PRENOM>Jimmy</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec son élégance habituelle, Jimmy Fallon s'empare de sujets de société au fil de sketches mettant en scène des invités de renom. A chaque fois, des performances musicales rythment cette émission empreinte d'un humour joyeusement décalé.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125389248.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309624" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T13:35:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <SURTITRE>Création originale</SURTITRE>
+      <TITRE>Baron Noir</TITRE>
+      <SOUSTITREDIF>Diprotodon</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124634900" DATEMODIF="2018-01-24T14:06:02">
+        <TITREEMISSION>Baron Noir</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1120" GENRESIMPLE="Série">Série politique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="18801333">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Baron Noir</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29423777">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Baron Noir / 2</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Diprotodon</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>8</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1216003">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Chevrollier</NOM>
+            <PRENOM>Antoine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="52482">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Merad</NOM>
+            <PRENOM>Kad</PRENOM>
+            <ROLE>Philippe Rickwaert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="72912">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mouglalis</NOM>
+            <PRENOM>Anna</PRENOM>
+            <ROLE>Amélie Dorendeu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="531154">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Becker</NOM>
+            <PRENOM>Hugo</PRENOM>
+            <ROLE>Cyril Balsan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582489">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whettnall</NOM>
+            <PRENOM>Astrid</PRENOM>
+            <ROLE>Véronique Bosso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="329596">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Elbé</NOM>
+            <PRENOM>Pascal</PRENOM>
+            <ROLE>Stéphane Thorigny</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="318943">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morel</NOM>
+            <PRENOM>François</PRENOM>
+            <ROLE>Michel Vidal</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Philippe a terrassé le patron du FN à la télévision, exploitant l'idée d'un référendum sur la mixité scolaire. Thorigny conspire avec le centre.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Philippe a terrassé le patron du Front national à la télévision, exploitant l'idée d'un référendum sur la mixité scolaire. Thorigny conspire avec des dirigeants de centre gauche et de centre droit pour construire un mouvement capable de l'imposer à la prochaine présidentielle. Dans ce contexte de recomposition politique, Philippe veut rallier Kalhenberg à sa cause...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124634900.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309625" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T14:25:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <SURTITRE>Création originale</SURTITRE>
+      <TITRE>Baron Noir</TITRE>
+      <SOUSTITREDIF>Sorpasso</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124634901" DATEMODIF="2018-01-24T14:06:27">
+        <TITREEMISSION>Baron Noir</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1120" GENRESIMPLE="Série">Série politique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="18801333">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Baron Noir</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29423777">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Baron Noir / 2</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Sorpasso</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>8</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="79199">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Doueiri</NOM>
+            <PRENOM>Ziad</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1216003">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Chevrollier</NOM>
+            <PRENOM>Antoine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="52482">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Merad</NOM>
+            <PRENOM>Kad</PRENOM>
+            <ROLE>Philippe Rickwaert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="72912">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mouglalis</NOM>
+            <PRENOM>Anna</PRENOM>
+            <ROLE>Amélie Dorendeu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="531154">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Becker</NOM>
+            <PRENOM>Hugo</PRENOM>
+            <ROLE>Cyril Balsan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582489">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whettnall</NOM>
+            <PRENOM>Astrid</PRENOM>
+            <ROLE>Véronique Bosso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="329596">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Elbé</NOM>
+            <PRENOM>Pascal</PRENOM>
+            <ROLE>Stéphane Thorigny</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="318943">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morel</NOM>
+            <PRENOM>François</PRENOM>
+            <ROLE>Michel Vidal</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Avec le déclenchement d'une émeute liée à la disparition de Mourad Adjaoui, Amélie fait face à une crise politique terrible, dont Vidal tire profit.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Avec le déclenchement d'une émeute liée à la disparition de Mourad Adjaoui, Amélie fait face à une crise politique terrible, dont Vidal profite pour casser définitivement la possibilité d'une union de la gauche et réduire à néant le rêve de Philippe. C'est dans ce contexte dramatique que Philippe décide de renouer avec Amélie...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124634901.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688548" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T15:15:00</DATEHEURE>
+      <DUREE>80</DUREE>
+      <TITRE>Toril</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="95048955" DATEMODIF="2017-12-12T11:31:24">
+        <TITREEMISSION>Toril</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="307" GENRESIMPLE="Film de suspense">Thriller</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>83</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="529517">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Teyssier</NOM>
+            <PRENOM>Laurent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="266236">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rottiers</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>Philippe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="147888">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blancan</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Jean-Jacques</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="277370">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ouazani</NOM>
+            <PRENOM>Sabrina</PRENOM>
+            <ROLE>Sonia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="575059">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Leklou</NOM>
+            <PRENOM>Karim</PRENOM>
+            <ROLE>Bruno</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="200647">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Seyfi</NOM>
+            <PRENOM>Tim</PRENOM>
+            <ROLE>José</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298143">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Meylan</NOM>
+            <PRENOM>Gérard</PRENOM>
+            <ROLE>Tardieu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="260651">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Michalik</NOM>
+            <PRENOM>Alexis</PRENOM>
+            <ROLE>Cyril Lucas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="529519">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lopez</NOM>
+            <PRENOM>Pierre</PRENOM>
+            <ROLE>Pierre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="571685">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Corsini</NOM>
+            <PRENOM>Lionel</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans le Sud de la France un jeune homme, qui veut sauver l'entreprise agricole de son père, accepte de s'associer avec un trafiquant de drogue.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans le Sud de la France, Philippe apprend que son père, Jean-Jacques, est à l'hôpital. L'agriculteur, épuisé et menacé de faillite, a tenté de se suicider. Alors que son frère, restaurateur, est débordé, Philippe décide de sauver l'exploitation. Mais il comprend vite que, même avec l'aide de Sonia, qu'il connaît depuis toujours, il ne parviendra pas à renflouer l'entreprise familiale. Il décide alors de proposer à José, trafiquant de drogue, de stocker et d'écouler sa marchandise en passant par l'entrepôt de son père, au coeur du marché paysan...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un thriller soutenu, mettant en scène des personnages rugueux, en proie à une lutte permanente. Laurent Teyssier signe ici un premier film prometteur.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E95048955.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688549" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T16:35:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>La mécanique de l'ombre</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111693607" DATEMODIF="2017-12-23T10:35:45">
+        <TITREEMISSION>La mécanique de l'ombre</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="229" GENRESIMPLE="Film policier">Film d'espionnage</GENRE>
+        <NATIONALITE CLE="220">
+          <PAYS>France - Belgique</PAYS>
+          <LIBELLE>franco-belge</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>93</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="627469">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kruithof</NOM>
+            <PRENOM>Thomas</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="326521">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cluzet</NOM>
+            <PRENOM>François</PRENOM>
+            <ROLE>Duval</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="305820">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Podalydès</NOM>
+            <PRENOM>Denis</PRENOM>
+            <ROLE>Clément</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9112">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bouajila</NOM>
+            <PRENOM>Sami</PRENOM>
+            <ROLE>Labarthe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="62515">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Abkarian</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>Gerfaut</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="424196">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rohrwacher</NOM>
+            <PRENOM>Alba</PRENOM>
+            <ROLE>Sara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="59753">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Résimont</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>De Grugy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="55291">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hanssens</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Albert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="109740">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Georis</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>le bras droit de Labarthe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1321917">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Auger</NOM>
+            <PRENOM>Grégoire</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Après un chômage de longue durée, un homme accepte de retranscrire des écoutes téléphoniques. Il se retrouve en plein cœur d'un complot politique.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Duval sort de deux ans d'inactivité. Après une grosse dépression, l'homme s'était retrouvé au chômage, sans jamais parvenir à sortir la tête de l'eau. Aussi, lorsqu'un mystérieux homme d'affaires prend contact avec lui, accepte-t-il immédiatement sa proposition : retranscrire, contre une belle rémunération, des écoutes téléphoniques. Mais Duval, qui avait foncé tête baissée sans se poser beaucoup de questions sur la finalité de sa mission, comprend bientôt que celle-ci le place au cœur d'un inquiétant complot politique. Il se retrouve contraint, malgré lui, d'affronter le monde impitoyable des services secrets...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un thriller haletant et glaçant, servi par des acteurs brillants.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E111693607.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309626" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T18:05:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Catherine et Liliane</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380843" DATEMODIF="2018-02-06T23:02:50">
+        <TITREEMISSION>Catherine et Liliane</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="17311315">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Catherine et Liliane</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Toujours bon pied bon oeil, Catherine et Liliane vivent leur vie sans se soucier du qu'en-dira-t-on. Malgré les années qui passent, elles persistent à voir la vie du bon côté. Les deux amies ne manquent pas d'exprimer leur agacement face à toutes les petites tracasseries du quotidien. Heureusement, Catherine et Liliane sont astucieuses et ne s'en laissent pas conter.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380843.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309627" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T18:15:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Flash pap'</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380861" DATEMODIF="2018-01-23T08:19:39">
+        <TITREEMISSION>Flash pap'</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="28605472">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Flash pap'</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Tous les soirs, Flash Pap' propose un reportage de L'Effet Papillon, le magazine dominical de l'actualité internationale de Canal+, produit avec les équipes de l'agence Capa.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309628" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T18:40:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>L'info du vrai : l'info</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380873" DATEMODIF="2018-01-23T08:20:20">
+        <TITREEMISSION>L'info du vrai : l'info</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27506135">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'info du vrai : l'info</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="133796">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Calvi</NOM>
+            <PRENOM>Yves</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Décryptage d'une info qui génère débats et préoccupations dans l'actualité du jour.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380873.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309629" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T18:50:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>L'info du vrai</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125381782" DATEMODIF="2018-01-23T08:23:46">
+        <TITREEMISSION>L'info du vrai</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27427609">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'info du vrai</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="133796">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Calvi</NOM>
+            <PRENOM>Yves</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="601874">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Darfeuille</NOM>
+            <PRENOM>Alice</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="121230">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Abiker</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1347371">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Lavabre</NOM>
+            <PRENOM>Camille</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Alors que les réseaux sociaux ajoutent de la confusion aux flux d'informations qui circule quotidiennement, l'émission présentée par le journaliste Yves Calvi multiplie les mises au point. Reportages, analyses et débats proposent un décryptage des événements du jour. S'ajoute à cela un regard plein de curiosité sur l'actualité culturelle. Alice Darfeuille et David Abiker apportent leur contribution originale au sérieux de «L'Info du vrai». L'enjouée Camille Lavabre fait le point sur la météo.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125381782.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309630" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T19:25:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>L'info du vrai 20h l'événement</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125381916" DATEMODIF="2018-01-23T08:25:40">
+        <TITREEMISSION>L'info du vrai 20h l'événement</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27427610">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'info du vrai 20h l'événement</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="133796">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Calvi</NOM>
+            <PRENOM>Yves</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="601874">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Darfeuille</NOM>
+            <PRENOM>Alice</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="121230">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Abiker</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1347371">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Lavabre</NOM>
+            <PRENOM>Camille</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Entouré de ses comparses, le journaliste Yves Calvi poursuit son travail de focus sur l'actualité - notamment culturelle. Alice Darfeuille et David Abiker évoquent avec passion les événements qui méritent que l'on s'y arrête. Face au foisonnement qui complique l'évaluation des informations diffusées, l'émission essaie d'amener un regard divertissant mais différent.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125381916.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309631" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T20:10:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>L'info du vrai 20h la culture</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125381690" DATEMODIF="2018-01-23T08:22:51">
+        <TITREEMISSION>L'info du vrai 20h la culture</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="28270290">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'info du vrai 20h la culture</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="133796">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Calvi</NOM>
+            <PRENOM>Yves</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C125381690.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309632" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T20:35:00</DATEHEURE>
+      <DUREE>21</DUREE>
+      <TITRE>Canalbis</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380837" DATEMODIF="2018-01-23T08:18:01">
+        <TITREEMISSION>Canalbis</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27427778">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Canalbis</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1347375">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Jordi</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="109322">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Martin</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'émission qui fait tourner l'actu. Martin et Jordi reviennent, à leur façon, sur les faits plus ou moins marquants du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380837.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309633" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T20:56:00</DATEHEURE>
+      <DUREE>4</DUREE>
+      <TITRE>Catherine et Liliane</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380844" DATEMODIF="2018-01-23T08:18:41">
+        <TITREEMISSION>Catherine et Liliane</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="17311315">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Catherine et Liliane</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Toujours bon pied bon oeil, Catherine et Liliane vivent leur vie sans se soucier du qu'en-dira-t-on. Malgré les années qui passent, elles persistent à voir la vie du bon côté. Les deux amies ne manquent pas d'exprimer leur agacement face à toutes les petites tracasseries du quotidien. Heureusement, Catherine et Liliane sont astucieuses et ne s'en laissent pas conter.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380844.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688555" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T21:00:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Gomorra</TITRE>
+      <SOUSTITREDIF>Le mal-aimé</SOUSTITREDIF>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>1</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977022" DATEMODIF="2018-01-24T15:51:03">
+        <TITREEMISSION>Gomorra</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="468">
+          <PAYS>Italie</PAYS>
+          <LIBELLE>italienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="15130536">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Gomorra</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29943278">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Gomorra / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Gomorra</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le mal-aimé</SOUSTITRE>
+          <SOUSTITREORIGINAL>Viva il re !</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="515928">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Cupellini</NOM>
+            <PRENOM>Claudio</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="552563">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>D'Amore</NOM>
+            <PRENOM>Marco</PRENOM>
+            <ROLE>Ciro di Marzio</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1229950">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Esposito</NOM>
+            <PRENOM>Salvatore</PRENOM>
+            <ROLE>Gennaro «Genny» Savastano</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="58758">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Donadio</NOM>
+            <PRENOM>Cristina</PRENOM>
+            <ROLE>Annalisa «Scianel» Magliocca</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1305736">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dell'Anna</NOM>
+            <PRENOM>Cristiana</PRENOM>
+            <ROLE>Patrizia Santoro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365329">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Di Maria</NOM>
+            <PRENOM>Andrea</PRENOM>
+            <ROLE>Elia Capaccio</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="622998">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cerciello</NOM>
+            <PRENOM>Carlo</PRENOM>
+            <ROLE>O'Stregone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1229953">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>de Caro</NOM>
+            <PRENOM>Fabio</PRENOM>
+            <ROLE>Malammore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="547457">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lotito</NOM>
+            <PRENOM>Ivana</PRENOM>
+            <ROLE>Azzurra Avitabile</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Don Pietro quitte la scène mafieuse. Pendant que les notables de la Camorra se répartissent son empire, Malammore traque inlassablement son meurtrier.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'heure des règlements de compte a sonné. Don Pietro en fait les frais : son corps se retrouve entreposé dans un abattoir, dans la plus pure tradition mafieuse. Ciro ne se cache pas d'avoir poussé le potentat hors du circuit criminel et l'annonce officiellement à Genny. Malammore, lui, n'a qu'une idée en tête : venger la mort de don Pietro. Il traque Ciro dans ses moindres planques. C'est ainsi qu'avec plusieurs de ses hommes, il se rend dans un chalet en dehors de Naples, censé abriter le meurtrier. Sur place, le commando tombe dans un piège. A Scampia, les notables de la Camorra organisent la succession de don Pietro...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124977022.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688556" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T21:45:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Gomorra</TITRE>
+      <SOUSTITREDIF>Système sanglant</SOUSTITREDIF>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977054" DATEMODIF="2018-01-18T10:49:30">
+        <TITREEMISSION>Gomorra</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="468">
+          <PAYS>Italie</PAYS>
+          <LIBELLE>italienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="15130536">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Gomorra</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29943278">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Gomorra / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Gomorra</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Système sanglant</SOUSTITRE>
+          <SOUSTITREORIGINAL>Hasta la muerte</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="515928">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Cupellini</NOM>
+            <PRENOM>Claudio</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="552563">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>D'Amore</NOM>
+            <PRENOM>Marco</PRENOM>
+            <ROLE>Ciro di Marzio</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1229950">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Esposito</NOM>
+            <PRENOM>Salvatore</PRENOM>
+            <ROLE>Gennaro «Genny» Savastano</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="58758">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Donadio</NOM>
+            <PRENOM>Cristina</PRENOM>
+            <ROLE>Annalisa «Scianel» Magliocca</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1305736">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dell'Anna</NOM>
+            <PRENOM>Cristiana</PRENOM>
+            <ROLE>Patrizia Santoro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365333">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Herrera</NOM>
+            <PRENOM>Alfredo</PRENOM>
+            <ROLE>Joaquin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sorgente</NOM>
+            <PRENOM>Edoardo</PRENOM>
+            <ROLE>Gegè</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365234">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gallo</NOM>
+            <PRENOM>Gianfranco</PRENOM>
+            <ROLE>Giuseppe Avitabile</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="547457">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lotito</NOM>
+            <PRENOM>Ivana</PRENOM>
+            <ROLE>Azzurra Avitabile</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un an après la mort de don Pietro, Genny augmente son influence. Il prend un nouveau comptable et intervient dans un règlement de compte entre cartels honduriens.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un an a passé depuis la mort de don Pietro. Toute la vie mafieuse napolitaine a été réorganisée en fonction de la disparition du chef local. Genny a un nouveau comptable, Gegè. Il l'informe d'une importante opération qui va concerner Joaquin, un trafiquant hondurien. Dans son pays, Joaquin est en guerre avec plusieurs cartels ; il perd beaucoup d'hommes et d'argent. Il demande à Genny de l'aider à faire le ménage. Deux de ses rivaux sont justement venus passer un marché avec un clan calabrais. Genny fait jouer ses relations avec la N'drangheta et obtient la mort des deux importuns. Gegè ressort marqué par cette expérience...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124977054.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688557" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T22:35:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Billions</TITRE>
+      <SOUSTITREDIF>Jeu optimal</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117022964" DATEMODIF="2018-01-10T14:14:02">
+        <TITREEMISSION>Billions</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="21916396">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Billions</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26011040">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Billions / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Billions</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Jeu optimal</SOUSTITRE>
+          <SOUSTITREORIGINAL>Optimal Play</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="102356">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gibney</NOM>
+            <PRENOM>Alex</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="61791">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giamatti</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>Chuck Rhoades</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="89176">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lewis</NOM>
+            <PRENOM>Damian</PRENOM>
+            <ROLE>Bobby Axelrod</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="454463">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Siff</NOM>
+            <PRENOM>Maggie</PRENOM>
+            <ROLE>Wendy Rhoades</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="146714">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Akerman</NOM>
+            <PRENOM>Malin</PRENOM>
+            <ROLE>Lara Axelrod</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="546680">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moore</NOM>
+            <PRENOM>Toby Leonard</PRENOM>
+            <ROLE>Bryan Connerty</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="277496">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Costabile</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Mike Wagner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="542644">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rashad</NOM>
+            <PRENOM>Condola</PRENOM>
+            <ROLE>Kate Sacker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1359315">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dillon</NOM>
+            <PRENOM>Asia Kate</PRENOM>
+            <ROLE>Taylor Mason</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="374022">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Reale</NOM>
+            <PRENOM>Willie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Afin de diversifier ses investissements, Axe a l'intention d'acheter une équipe de football de la NFL. Il participe par ailleurs à un tournoi de poker.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Afin de diversifier ses investissements, Axe a l'intention d'acheter une équipe de football de la NFL. Il a bien conscience qu'il joue peut-être ses dernières cartes. Par ailleurs, il participe à un tournoi de poker destiné à lever des fonds pour une cause humanitaire. La présence de Wendy lors de cet événement ne passe pas inaperçue. Elle soutient le concurrent d'Axe. De son côté, Chuck monte un dossier contre un géant de la banque, avec l'aide d'un informateur. Par ailleurs, Lara lance sa nouvelle entreprise...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E117022964.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688558" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-15T23:35:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Billions</TITRE>
+      <SOUSTITREDIF>La promesse</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117022965" DATEMODIF="2018-01-10T14:14:05">
+        <TITREEMISSION>Billions</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="21916396">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Billions</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26011040">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Billions / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Billions</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La promesse</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Oath</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="63713">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Emmerich</NOM>
+            <PRENOM>Noah</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="61791">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giamatti</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>Chuck Rhoades</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="89176">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lewis</NOM>
+            <PRENOM>Damian</PRENOM>
+            <ROLE>Bobby «Axe» Axelrod</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="454463">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Siff</NOM>
+            <PRENOM>Maggie</PRENOM>
+            <ROLE>Wendy Rhoades</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="146714">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Akerman</NOM>
+            <PRENOM>Malin</PRENOM>
+            <ROLE>Lara Axelrod</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="546680">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moore</NOM>
+            <PRENOM>Toby Leonard</PRENOM>
+            <ROLE>Bryan Connerty</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="277496">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Costabile</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Mike Wagner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="542644">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rashad</NOM>
+            <PRENOM>Condola</PRENOM>
+            <ROLE>Kate Sacker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16642">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>DeMunn</NOM>
+            <PRENOM>Jeffrey</PRENOM>
+            <ROLE>Chuck Rhoades Sr</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="587709">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Perlman</NOM>
+            <PRENOM>Adam R</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Sentant que son dossier n'est pas suffisamment solide, Chuck adopte une nouvelle stratégie. Axe envisage de léguer la moitié de sa fortune à des associations.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Sentant que son dossier n'est pas suffisamment solide, Chuck décide d'adopter une nouvelle stratégie. De son côté, Wendy vient en aide à un milliardaire issu des nouvelles technologies pour évaluer le potentiel d'un candidat pour un projet particulier. Pendant ce temps, Axe envisage de léguer la moitié de sa fortune à des oeuvres de charité. Lara, quant à elle, fait face à une nouvelle concurrence. Pour la première fois depuis leur face-à-face, Chuck et Axe se retrouvent dans la même pièce...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E117022965.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170688559" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-16T00:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Corniche Kennedy</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="107006036" DATEMODIF="2017-12-11T16:09:46">
+        <TITREEMISSION>Corniche Kennedy</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>94</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="13070">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Cabrera</NOM>
+            <PRENOM>Dominique</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="507637">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Créton</NOM>
+            <PRENOM>Lola</PRENOM>
+            <ROLE>Suzanne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="114149">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maïga</NOM>
+            <PRENOM>Aïssa</PRENOM>
+            <ROLE>Awa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="49694">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maaskri</NOM>
+            <PRENOM>Moussa</PRENOM>
+            <ROLE>Gianni</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1321776">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kadri</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Marco</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1321783">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Demaria</NOM>
+            <PRENOM>Alain</PRENOM>
+            <ROLE>Mehdi</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1321774">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guilbert</NOM>
+            <PRENOM>Mélissa</PRENOM>
+            <ROLE>Mélissa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1198722">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Baggour</NOM>
+            <PRENOM>Hamza</PRENOM>
+            <ROLE>Hamza</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1300691">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cavanna</NOM>
+            <PRENOM>Franck</PRENOM>
+            <ROLE>Franck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="42905">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Thiriet</NOM>
+            <PRENOM>Béatrice</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une jeune fille issue de la bourgeoisie s'intégre à une bande d'adolescents, livrés à eux-mêmes, qui pratiquent le plongeon du haut d'une célèbre corniche.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Sur la corniche Kennedy, à Marseille, des adolescents se livrent à leur jeu favori : le plongeon. Pour ces jeunes gens livrés à eux-mêmes c'est un véritable rite de passage où ils trouvent leur dose d'adrénaline. De son côté, Suzanne, une fille de bonne famille, étouffe dans sa villa chic et voudrait connaître les mêmes sensations. Elle parvient à s'intégrer, au grand désespoir de sa mère qui n'aime pas voir sa fille délaisser ses études. La bande, composée de Marco, Mehdi, Franck, Mélissa, Hamza, Mama et Julie, est régulièrement observée à la jumelle par Awa, une policière au grand coeur. Tout dérape quand les adolescents se trouvent mêlés à un trafic de drogue...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une fiction policière, avec pour décor sublime Marseille, servie par de jeunes acteurs pour la plupart amateurs, étonnants de naturel. Au final, un polar inabouti et souvent maladroit.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E107006036.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171439986" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-16T02:00:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Battalion to My Beat</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125094067" DATEMODIF="2018-01-11T12:37:57">
+        <TITREEMISSION>Battalion to My Beat</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="153" GENRESIMPLE="Court métrage">Court métrage</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>10</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1364569">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Eimi</NOM>
+            <PRENOM>Imanishi</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Désireuse d'échapper à une vie d'enfermement dans les camps de réfugiés du Sahara occidental en Algérie, Mariam s'enfuit dans le désert pour s'engager dans l'armée, se prenant naïvement pour la Jeanne d'Arc qui sauvera son pays de l'occupation...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125094067.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309634" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-16T02:15:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Rugby</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Perpignan est à la lutte avec Montauban et Mont-de-Marsan pour la place de leader de la Pro D2 avec toutefois un léger avantage aux Montalbanais qui, journée après journée, creusent un peu plus l'écart sur leurs poursuivants. Pour se relancer, les Perpignanais ont besoin d'enchaîner les victoires et la réception de Vannes, qu'ils avaient battu au match aller 22-23, pourrait être l'occasion d'empocher un succès de plus.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125390237" DATEMODIF="2018-01-25T16:03:26">
+        <TITREEMISSION>Rugby</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="797" GENRESIMPLE="Rugby">Rugby</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Pro D2</LIBELLE>
+            <MANCHE>23e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Perpignan / Vannes</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_E125390237.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309635" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-16T03:50:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Zapsport</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125389254" DATEMODIF="2018-02-06T16:08:35">
+        <TITREEMISSION>Zapsport</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="741" GENRESIMPLE="Magazine sportif">Multisports</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>L'actualité du sport sous forme de zapping</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_C125389254.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309636" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-16T03:55:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Late Rugby Club</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Le Late Rugby Club passe en revue toute l'actualité de l'ovalie et plus précisément les informations concernant les deux principales ligues françaises, le Top 14 et la Pro D2. Les résultats et les analyses habillent le Late Rugby Club, tout comme les dernières news du rugby en Europe ou à l'international.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125390232" DATEMODIF="2018-01-19T13:09:19">
+        <TITREEMISSION>Late Rugby Club</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="798" GENRESIMPLE="Magazine sportif">Rugby</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_E125390232.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="543008">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Bard</NOM>
+          <PRENOM>Astrid</PRENOM>
+        </PERSONNE>
+        <PERSONNE CLE="1296846">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Esculié</NOM>
+          <PRENOM>Jean-Baptiste</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171309637" DATEMODIF="2018-02-07T09:14:08">
+      <DATEHEURE>2018-02-16T04:55:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Hockey sur glace</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390235" DATEMODIF="2018-02-01T18:29:03">
+        <TITREEMISSION>Hockey sur glace</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="674" GENRESIMPLE="Hockey sur glace">Hockey sur glace</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>NHL</LIBELLE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Toronto Maple Leafs / Columbus Blue Jackets</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+        <PHOTO>IPTV_P125390235.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

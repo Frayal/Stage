@@ -1,0 +1,1769 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:02:04-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="80">
+    <NOMCHAINE>France 3</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-17">
+    <DIFFUSION CLEDIF="171523296" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T05:35:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Plus belle la vie</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125495839" DATEMODIF="2018-01-23T17:22:06">
+        <TITREEMISSION>Plus belle la vie</TITREEMISSION>
+        <FORMAT CLE="4">Feuilleton</FORMAT>
+        <GENRE CLE="1028" GENRESIMPLE="Série">Feuilleton réaliste</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="6478">
+            <TYPECOLLECTION CLE="21">Feuilleton / Titre</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28201899">
+            <TYPECOLLECTION CLE="2">Feuilleton / Titre / Saison</TYPECOLLECTION>
+            <NOM>Feuilleton / Plus belle la vie / 14</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>14</NUMERO>
+          </SAISON>
+          <DUREEEMI>25</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3475</NUMERO>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="104933">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hassan</NOM>
+            <PRENOM>Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232269">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Trésor</NOM>
+            <PRENOM>Bryan</PRENOM>
+            <ROLE>Baptiste</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="606933">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marois-Bigard</NOM>
+            <PRENOM>Lola</PRENOM>
+            <ROLE>Ariane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="46941">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hornus</NOM>
+            <PRENOM>Cécilia</PRENOM>
+            <ROLE>Blanche</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10532">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flepp</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Mirta</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="219335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fabre</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Frémont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1200936">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Delorme</NOM>
+            <PRENOM>Léa</PRENOM>
+            <ROLE>Pauline</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1281786">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laforêt</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Laetitia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="180433">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cordes</NOM>
+            <PRENOM>Michel</PRENOM>
+            <ROLE>Roland</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298742">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Besson</NOM>
+            <PRENOM>Hubert</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Tandis que Baptiste voit son rêve s'envoler, Ariane craint que le sien ne soit en danger. Quant à Blanche, elle songe malheureusement à la réalité...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125495839.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171866518" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T06:00:00</DATEHEURE>
+      <DUREE>350</DUREE>
+      <TITRE>PyeongChang 2018, le direct</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>A suivre la fin du programme libre messieurs en patinage artistique et la suite du tournoi de curling. En hockey sur glace, les choses sérieuses commencent avec les quarts de finale dames et messieurs. Canadiens et Canadiennes sont les tenants du titre. Egalement au programme : l'épilogue du slopestyle dames en ski freestyle et le relais dames de ski de fond.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125769562" DATEMODIF="2018-01-30T17:30:57">
+        <TITREEMISSION>PyeongChang 2018, le direct</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="740" GENRESIMPLE="Multisports">Multisports</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Jeux olympiques 2018</LIBELLE>
+            <MANCHE>8e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>A PyeongChang (Corée du Sud)</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125769562.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865387" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T11:50:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Consomag</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768343" DATEMODIF="2018-02-07T11:43:25">
+        <TITREEMISSION>Consomag</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="388" GENRESIMPLE="Magazine de services">Magazine du consommateur</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6595">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Consomag</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une émission de l'Institut national de la consommation.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125768343.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865388" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T11:55:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768344" DATEMODIF="2018-02-07T11:43:25">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <PHOTO>IPTV_C125768344.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171524433" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T12:00:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>12/13 : Journal régional</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125538780" DATEMODIF="2018-02-07T11:43:25">
+        <TITREEMISSION>12/13 : Journal régional</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="7079400">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / 12/13 : Journal régional</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <PHOTO>IPTV_C125538780.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171524434" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T12:25:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>12/13 : Journal national</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125538781" DATEMODIF="2018-02-07T11:43:25">
+        <TITREEMISSION>12/13 : Journal national</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8154">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / 12/13 : Journal national</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="129560">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Matausch</NOM>
+            <PRENOM>Catherine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C125538781.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171866519" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T12:55:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>PyeongChang 2018, le direct</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>La finale dames du skeleton et le concours de saut à ski messieurs sur grand tremplin concluent l'après-midi olympique en Corée du Sud.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125769563" DATEMODIF="2018-01-30T17:26:46">
+        <TITREEMISSION>PyeongChang 2018, le direct</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="740" GENRESIMPLE="Multisports">Multisports</GENRE>
+        <SPORT>
+          <EVENEMENT>
+            <LIBELLE>Jeux olympiques 2018</LIBELLE>
+            <MANCHE>8e jour</MANCHE>
+          </EVENEMENT>
+          <LIEU>A PyeongChang (Corée du Sud)</LIEU>
+        </SPORT>
+        <PHOTO>IPTV_E125769563.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865389" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T14:10:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Les grands du rire</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768521" DATEMODIF="2018-01-30T16:35:10">
+        <TITREEMISSION>Les grands du rire</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="4134601">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les grands du rire</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="36607">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Lecoq</NOM>
+            <PRENOM>Yves</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="45368">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Cheryl</NOM>
+            <PRENOM>Karen</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="122262">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Servat</NOM>
+            <PRENOM>Henry-Jean</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="120374">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Popeck</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="109096">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Lejeune</NOM>
+            <PRENOM>Olivier</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="7023">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Dorner</NOM>
+            <PRENOM>Françoise</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="110031">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Marie</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Yves Lecoq met en perspective des sketches inoubliables et la nouvelle génération d'humoristes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125768521.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865390" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T15:15:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Les carnets de Julie</TITRE>
+      <SOUSTITREDIF>Le pays mentonnais, sur la Côte d'Azur</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="91504245" DATEMODIF="2018-01-31T11:42:47">
+        <TITREEMISSION>Les carnets de Julie</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9259459">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les carnets de Julie</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Le pays mentonnais, sur la Côte d'Azur</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="132971">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Andrieu</NOM>
+            <PRENOM>Julie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>La poche de veau farcie, dite «brasse pieche» dans le patois local</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Les barbajuans sucrés à la ricotta et aux citrons de Menton</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Les sardines farcies</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C91504245.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865391" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T16:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Les carnets de Julie avec Thierry Marx</TITRE>
+      <SOUSTITREDIF>Flans à la carte</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768614" DATEMODIF="2018-01-30T16:39:04">
+        <TITREEMISSION>Les carnets de Julie avec Thierry Marx</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="389" GENRESIMPLE="Magazine de services">Magazine culinaire</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22212308">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les carnets de Julie avec Thierry Marx</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Flans à la carte</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Historique de la recette</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>La recette de Julie : Flan inspiré par Jacques Genin</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>La recette de Thierry Marx : Flan classique, de type parisien, avec une pâte à foncer</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>La recette du bonèt piémontais</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>La recette du flan breton au pioka</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>La recette du mouhallabieh libanais</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="7">
+            <LETEXTE />
+            <SOUSTITRE>Les expériences de Raphaël au labo</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125768614.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865392" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T17:05:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Expression directe</TITRE>
+      <SOUSTITREDIF>FNSEA</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768434" DATEMODIF="2018-02-07T11:43:25">
+        <TITREEMISSION>Expression directe</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="414" GENRESIMPLE="Magazine d'information">Magazine politique</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6659">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Expression directe</NOM>
+          </COLLECTION>
+          <SOUSTITRE>FNSEA</SOUSTITRE>
+        </MAGAZINEXY>
+        <PHOTO>IPTV_C125768434.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865393" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T17:10:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Trouvez l'intrus</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768846" DATEMODIF="2018-02-07T11:43:25">
+        <TITREEMISSION>Trouvez l'intrus</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="950" GENRESIMPLE="Jeu">Jeu</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22849394">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Trouvez l'intrus</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="191234">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Eméyé</NOM>
+            <PRENOM>Eglantine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Dans ce jeu de culture générale d'un nouveau genre, les participants ne doivent pas trouver la bonne réponse aux questions, mais l'intrus qui se cache parmi les affirmations. A chaque émission, quatre candidats tentent leur chance pour affronter le champion et remporter la cagnotte.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125768846.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865394" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T17:50:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Questions pour un super champion</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768821" DATEMODIF="2018-02-07T11:43:25">
+        <TITREEMISSION>Questions pour un super champion</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="950" GENRESIMPLE="Jeu">Jeu</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8452">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Questions pour un super champion</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="193292">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Etienne</NOM>
+            <PRENOM>Samuel</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Les champions historiques de «Questions pour un champion» s'affrontent et tentent de rester en lice cinq semaines consécutives afin de remporter 50 000 euros.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125768821.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865395" DATEMODIF="2018-02-07T11:43:25">
+      <DATEHEURE>2018-02-17T18:45:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Météo des neiges</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768345" DATEMODIF="2018-02-07T11:43:25">
+        <TITREEMISSION>Météo des neiges</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171524437" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-17T19:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>19/20 : Journal régional</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125538784" DATEMODIF="2018-02-07T11:43:26">
+        <TITREEMISSION>19/20 : Journal régional</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8163">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / 19/20 : Journal régional</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <PHOTO>IPTV_C125538784.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171524438" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-17T19:30:00</DATEHEURE>
+      <DUREE>28</DUREE>
+      <TITRE>19/20 : Journal national</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125538785" DATEMODIF="2018-02-07T11:43:26">
+        <TITREEMISSION>19/20 : Journal national</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8162">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / 19/20 : Journal national</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="129560">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Matausch</NOM>
+            <PRENOM>Catherine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C125538785.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865396" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-17T19:58:00</DATEHEURE>
+      <DUREE>2</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768346" DATEMODIF="2018-02-07T11:43:26">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <PHOTO>IPTV_C125768346.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865397" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-17T20:00:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Le journal des Jeux</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768437" DATEMODIF="2018-02-07T11:43:26">
+        <TITREEMISSION>Le journal des Jeux</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="424" GENRESIMPLE="Magazine sportif">Magazine sportif</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21538401">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le journal des jeux</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="323833">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Thouroude</NOM>
+            <PRENOM>Thomas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C125768437.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865398" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-17T20:10:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Tout le sport</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768347" DATEMODIF="2018-02-07T11:43:26">
+        <TITREEMISSION>Tout le sport</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="424" GENRESIMPLE="Magazine sportif">Magazine sportif</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2095196">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Tout le sport</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="234674">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Géraud</NOM>
+            <PRENOM>Céline</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'actualité sportive quotidienne.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125768347.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865399" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-17T20:20:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Météo régionale</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768649" DATEMODIF="2018-02-07T11:43:26">
+        <TITREEMISSION>Météo régionale</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <PHOTO>IPTV_C125768649.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865400" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-17T20:30:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Zorro</TITRE>
+      <SOUSTITREDIF>Zorro et le drapeau blanc</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="18562" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Zorro</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="10" GENRESIMPLE="Série d'aventures">Série d'aventures</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="8067">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Zorro</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="1941953">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Zorro / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Zorro</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Zorro et le drapeau blanc</SOUSTITRE>
+          <SOUSTITREORIGINAL>Zorro and the Flag of Truce</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="3">en version colorisée</COULEUR>
+          <ANNEEREALISATION>1958</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>39</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="25487">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Barton</NOM>
+            <PRENOM>Charles</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="6090">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Williams</NOM>
+            <PRENOM>Guy</PRENOM>
+            <ROLE>Zorro / don Diego de la Vega</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="150398">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lewis</NOM>
+            <PRENOM>George J</PRENOM>
+            <ROLE>don Alejandro de la Vega</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6091">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sheldon</NOM>
+            <PRENOM>Gene</PRENOM>
+            <ROLE>Bernardo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10170">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Litel</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>le gouverneur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="38015">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilcox</NOM>
+            <PRENOM>Frank</PRENOM>
+            <ROLE>Luis Rico</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92084">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Roman</NOM>
+            <PRENOM>Ric</PRENOM>
+            <ROLE>le capitaine Briones</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24516">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lopez</NOM>
+            <PRENOM>Perry</PRENOM>
+            <ROLE>Joaquin Castenada</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73515">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Calvin</NOM>
+            <PRENOM>Henry</PRENOM>
+            <ROLE>le sergent Garcia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="466165">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Wehling</NOM>
+            <PRENOM>Bob</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Malgré les nombreuses tentatives de médiation, Rico continue de faire régner la terreur parmi la population, tout en cherchant à arrêter Joaquin Castaneda.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Don Diego et son père, don Alejandro, tentent de persuader Rico d'arrêter de faire régner la terreur parmi la population. Le tyran veut à tout prix arrêter Joaquin Castaneda. Mais cette tentative de médiation n'aboutit pas. C'est donc avec beaucoup de soulagement que Diego et don Alejandro accueillent le retour du véritable gouverneur qui, à peine arrivé à Monterey, démasque le perfide Rico et son acolyte Briones...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E18562.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171862485" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-17T20:55:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Cassandre</TITRE>
+      <SOUSTITREDIF>Le valet noir</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121847372" DATEMODIF="2018-01-30T15:14:59">
+        <TITREEMISSION>Cassandre</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="23040147">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Cassandre / Vrai</NOM>
+          </COLLECTION>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>8</NUMERO>
+          </PARTIE>
+          <SOUSTITRE>Le valet noir</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="159285">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>d'Aubert</NOM>
+            <PRENOM>Benoît</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="68595">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hamon</NOM>
+            <PRENOM>Gwendoline</PRENOM>
+            <ROLE>Cassandre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="432156">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Varga</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Pascal Roche</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="451">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pinon</NOM>
+            <PRENOM>Dominique</PRENOM>
+            <ROLE>Jean-Paul Marchand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1213352">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ugolin</NOM>
+            <PRENOM>Jessy</PRENOM>
+            <ROLE>Nicky Maleva</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="265292">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gavois-Kahn</NOM>
+            <PRENOM>Emilie</PRENOM>
+            <ROLE>la major</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1353700">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Malinowski</NOM>
+            <PRENOM>Luca</PRENOM>
+            <ROLE>Jules</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="290868">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agenin</NOM>
+            <PRENOM>Béatrice</PRENOM>
+            <ROLE>Evelyne Roche</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="205303">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deville</NOM>
+            <PRENOM>Fabrice</PRENOM>
+            <ROLE>Vouassac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="119815">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Renoir</NOM>
+            <PRENOM>Axelle</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327654">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Ngouane</NOM>
+            <PRENOM>Sathy</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Cassandre et son équipe enquêtent sur le meurtre d'un jeune médecin qui semblait apprécié par les habitants du village dans lequel il venait de s'installer.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La voiture de Kamel Nedjari, un médecin de 32 ans, est retrouvée, accrochée sur un piton rocheux, à 500 mètres du sol. Le corps du docteur est découvert à l'intérieur du véhicule. Une énigme pour Cassandre et son équipe, tant le défunt semblait apprécié par l'ensemble des habitants du village où il venait de s'installer. Le prédécesseur de Kamel lui était également reconnaissant, car il voyait en lui l'homme providentiel qui lui avait permis de prendre enfin sa retraite, à près de 70 ans. Pourtant, l'enquête révèle des éléments troublants dans l'attitude du jeune médecin. Pourquoi, alors qu'il travaillait plus de douze heures par jour, Kamel avait-il soudain vendu tous ses biens ? Cassandre n'est pas au bout de ses surprises...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une nouvelle enquête troublante, qui donne du fil à retordre à l'équipe de choc, menée avec conviction par Gwendoline Hamon, alias Cassandre.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E121847372.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171862486" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-17T22:25:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Cassandre</TITRE>
+      <SOUSTITREDIF>Retour de flamme</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114145604" DATEMODIF="2018-01-30T15:13:59">
+        <TITREEMISSION>Cassandre</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="23040147">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Cassandre / Vrai</NOM>
+          </COLLECTION>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </PARTIE>
+          <SOUSTITRE>Retour de flamme</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="56251">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Renoh</NOM>
+            <PRENOM>Hervé</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="68595">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hamon</NOM>
+            <PRENOM>Gwendoline</PRENOM>
+            <ROLE>Cassandre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="432156">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Varga</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Pascal Roche</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="451">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pinon</NOM>
+            <PRENOM>Dominique</PRENOM>
+            <ROLE>Jean-Paul Marchand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1213352">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ugolin</NOM>
+            <PRENOM>Jessy</PRENOM>
+            <ROLE>Nicky Maleva</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="265292">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gavois-Kahn</NOM>
+            <PRENOM>Emilie</PRENOM>
+            <ROLE>la major</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1265754">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Houplain</NOM>
+            <PRENOM>Jules</PRENOM>
+            <ROLE>Jules</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="290868">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agenin</NOM>
+            <PRENOM>Béatrice</PRENOM>
+            <ROLE>Evelyne Roche</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="290866">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duléry</NOM>
+            <PRENOM>Antoine</PRENOM>
+            <ROLE>David Chalmont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="119815">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Renoir</NOM>
+            <PRENOM>Axelle</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1327654">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Ngouane</NOM>
+            <PRENOM>Sathy</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Cassandre mène l'enquête sur le meurtre très impressionnant du maire d'Annecy-le-Vieux, qui pourrait être lié à une ancienne affaire troublante.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans un château en cours de restauration à Annecy-le-Vieux, le maire de la commune jaillit telle une torche humaine et s'écrase dans le vide. Qui pouvait en vouloir à cet homme, qui était pourtant apprécié de tous ? Chargée de l'enquête, Cassandre ne tarde pas à découvrir une étrange affaire, qui remonte à plus de dix ans. En effet, Guillaume, appelé depuis «le miraculé», avait disparu en 2004, et n'avait plus donné signe de vie pendant des années, avant de réapparaître, dix ans plus tard. Cette affaire pourrait-elle avoir un lien quelconque avec le meurtre du maire ? Cassandre ne recule devant aucun obstacle pour faire éclater la vérité...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Dans un cadre idyllique, Gwendoline Hamon, alias Cassandre, fait une nouvelle fois preuve de perspicacité dans un nouvel épisode qui ne manque pas de piquant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E114145604.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171524446" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-18T00:00:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Soir 3</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125538790" DATEMODIF="2018-02-07T11:43:26">
+        <TITREEMISSION>Soir 3</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="8472">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Soir 3</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="549121">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Boubetra</NOM>
+            <PRENOM>Nora</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <PHOTO>IPTV_C125538790.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865401" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-18T00:25:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Météo</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125768348" DATEMODIF="2018-02-07T11:43:26">
+        <TITREEMISSION>Météo</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="951" GENRESIMPLE="Météo">Météo</GENRE>
+        <MAGAZINEXY />
+        <PHOTO>IPTV_C125768348.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171869057" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-18T00:30:00</DATEHEURE>
+      <DUREE>150</DUREE>
+      <SURTITRE>Appassionata</SURTITRE>
+      <TITRE>Voix Nouvelles 2018</TITRE>
+      <SOUSTITREDIF>Finale du concours</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769735" DATEMODIF="2018-02-01T11:23:09">
+        <TITREEMISSION>Voix Nouvelles 2018</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="956" GENRESIMPLE="Emission musicale">Emission musicale</GENRE>
+        <MAGAZINEXY>
+          <SOUSTITRE>Finale du concours</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="111869">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Dessay</NOM>
+            <PRENOM>Natalie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Concours de voix lyriques organisé par le Centre français de promotion lyrique, «Voix nouvelles» va à la rencontre des chanteurs en régions. Son objectif : sélectionner de nouveaux chanteurs lyriques et les aider dans la réussite de leur insertion professionnelle. Natalie Dessay, lauréate de la 1re édition de ce concours en 1988, présente la finale cette année.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865402" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-18T03:00:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Faut pas rêver</TITRE>
+      <SOUSTITREDIF>Au Maroc, sur la route des oasis</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125265810" DATEMODIF="2018-01-17T09:55:00">
+        <TITREEMISSION>Faut pas rêver</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="4282586">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Faut pas rêver</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Au Maroc, sur la route des oasis</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1197476">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>De Salvo</NOM>
+            <PRENOM>Carolina</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'oasis d'Aguinane, au coeur de l'Anti-Atlas, au Maroc est le point de départ de Carolina de Salvo, qui va emprunter la route des oasis. Un périple qui la conduit jusqu'à Marrakech, la cité jardin. Sur sa route, elle croise Mohamed, le maître de l'eau d'Aguinane, Ahmed, producteur de safran et de nombreux autres Marocains passionnants, amoureux de leur pays. Carolina découvre ainsi la colombophilie avec Salah et s'en va coiffer les palmiers à Marrakech. Dans le désert, qui compose les deux tiers du territoire marocain, elle accompagne Haasna, chercheuse de météorite et discute avec Salima, architecte nomade.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125265810.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171865403" DATEMODIF="2018-02-07T11:43:26">
+      <DATEHEURE>2018-02-18T04:55:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Les nouveaux nomades</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125272377" DATEMODIF="2018-01-16T17:36:44">
+        <TITREEMISSION>Les nouveaux nomades</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="416" GENRESIMPLE="Magazine de société">Magazine régional</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21919153">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Les nouveaux nomades</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Les gabariers</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>L'accueil paysan</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Kayak de compétition</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Sur les toits de Paris</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125272377.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

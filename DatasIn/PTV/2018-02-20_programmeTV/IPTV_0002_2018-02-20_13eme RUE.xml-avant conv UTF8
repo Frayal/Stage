@@ -1,0 +1,2711 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:46:55-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="2">
+    <NOMCHAINE>13eme RUE</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-20">
+    <DIFFUSION CLEDIF="171688487" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T05:30:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>R.I.S. Police scientifique</TITRE>
+      <SOUSTITREDIF>Chasse à l'homme</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="11060132" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>R.I.S. Police scientifique</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7975">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5206218">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique / 4</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Chasse à l'homme</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="92349">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Choquart</NOM>
+            <PRENOM>Alain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="171185">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cabrita</NOM>
+            <PRENOM>Barbara</PRENOM>
+            <ROLE>Julie Labro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="313180">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rajot</NOM>
+            <PRENOM>Pierre-Loup</PRENOM>
+            <ROLE>Hugo Chalonges</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caroit</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Gilles Sagnac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33439">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Metzger</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>Malik Berkaoui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="207840">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bargème</NOM>
+            <PRENOM>Aurélie</PRENOM>
+            <ROLE>Nathalie Giesbert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45035">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olmedo</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Pierre Morand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zahonero</NOM>
+            <PRENOM>Coraly</PRENOM>
+            <ROLE>Alessandra Joffrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="152194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tagbo</NOM>
+            <PRENOM>Claudia</PRENOM>
+            <ROLE>Martine Forest</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="469601">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Simonin</NOM>
+            <PRENOM>Nicolas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une jeune cycliste sourde et muette qui a été droguée au GHB et le cadavre d'un homme criblé de balles dans la forêt occupent les experts du R.I.S.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une jeune championne de cyclisme sourde et muette a été retrouvée inconsciente lors d'une soirée étudiante. Les analyses montrent qu'elle a été droguée au GHB, l'acide gamma hydro butyrique, également appelé «la drogue du viol». Cette affaire plonge Julie et Hugo dans l'atmosphère a priori très «sage» d'un lycée de sport-études. Par ailleurs, on a découvert dans la forêt le cadavre d'un homme, criblé d'impacts de balles. S'agit-il d'une exécution ou d'un acharnement meurtrier ? Les experts scientifiques du R.I.S. ont du pain sur la planche s'ils veulent résoudre ces deux énigmes dans les plus brefs délais...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E11060132.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688488" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T06:15:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>R.I.S. Police scientifique</TITRE>
+      <SOUSTITREDIF>Dernier acte</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="11107018" DATEMODIF="2017-01-13T10:04:12">
+        <TITREEMISSION>R.I.S. Police scientifique</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7975">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5206218">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique / 4</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Dernier acte</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1257493">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Barbier</NOM>
+            <PRENOM>Christophe</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="171185">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cabrita</NOM>
+            <PRENOM>Barbara</PRENOM>
+            <ROLE>Julie Labro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="313180">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rajot</NOM>
+            <PRENOM>Pierre-Loup</PRENOM>
+            <ROLE>Hugo Chalonges</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caroit</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Gilles Sagnac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33439">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Metzger</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>Malik Berkaoui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="207840">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bargème</NOM>
+            <PRENOM>Aurélie</PRENOM>
+            <ROLE>Nathalie Giesbert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45035">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olmedo</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Pierre Morand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zahonero</NOM>
+            <PRENOM>Coraly</PRENOM>
+            <ROLE>Alessandra Joffrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="152194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tagbo</NOM>
+            <PRENOM>Claudia</PRENOM>
+            <ROLE>Martine Forest</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="470260">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Jacobs</NOM>
+            <PRENOM>Delinda</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un auteur de romans policiers meurt dans une librairie, assommé par un lustre monumental. Et une jeune femme est brûlée au troisième degré dans une cabine à UV.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un célèbre auteur de romans policiers a été invité par une librairie à donner lecture de son dernier ouvrage. Mais l'homme meurt brutalement, assommé par un lustre monumental. Hugo connaissait le romancier parce qu'il l'avait aidé sur un précédent livre. Il hérite de cette enquête délicate, qui va rapidement révéler des dessous peu reluisants. Pendant ce temps, une jeune femme est brûlée au troisième degré dans une cabine à UV. Pourtant, elle n'y est pas restée plus que le temps légal et la cabine a été soumise aux vérifications obligatoires. S'agirait-il d'un crime déguisé en accident ? Les experts enquêtent...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E11107018.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688489" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T07:15:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Commissaire Magellan</TITRE>
+      <SOUSTITREDIF>Jeu, set et meurtres</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="97925028" DATEMODIF="2017-08-23T14:50:41">
+        <TITREEMISSION>Commissaire Magellan</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="7249649">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Commissaire Magellan / Vrai</NOM>
+          </COLLECTION>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>19</NUMERO>
+          </PARTIE>
+          <SOUSTITRE>Jeu, set et meurtres</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="63942">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dhaene</NOM>
+            <PRENOM>Etienne</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3121">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Spiesser</NOM>
+            <PRENOM>Jacques</PRENOM>
+            <ROLE>Simon Magellan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="174605">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kouchy</NOM>
+            <PRENOM>Selma</PRENOM>
+            <ROLE>Selma</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14460">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alane</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Paul Gavrillac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8147">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Besançon</NOM>
+            <PRENOM>Nathalie</PRENOM>
+            <ROLE>Florence Higel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="615349">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>De Stefano</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>Cordelia Magellan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13955">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mekki</NOM>
+            <PRENOM>Smaïl</PRENOM>
+            <ROLE>Nabil</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18609">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Savin</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Antoine Castelle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14418">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Veillon</NOM>
+            <PRENOM>Astrid</PRENOM>
+            <ROLE>Hélène Castelle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="46583">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Porte</NOM>
+            <PRENOM>Frédéric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="630080">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Berbet</NOM>
+            <PRENOM>Pascal</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Magellan enquête au sein du «Sporting», prestigieux club de tennis fréquenté par les notables, afin d'élucider le meurtre d'un trentenaire aux dents longues.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Magellan enquête sur le meurtre de Lucas Nelson, séduisant trentenaire promis à un grand avenir. Lucas devait épouser Chloé, la fille d'Antoine Castelle, riche propriétaire du «Sporting», un prestigieux club de tennis. Il avait même gravi les échelons pour devenir le nouveau secrétaire général du club. En fouillant dans le passé de la victime, le commissaire découvre qu'il menait en réalité un double jeu. Sincèrement amoureux de Chloé, il mentait en revanche sur sa véritable identité et semblait déterminé à détruire le père de sa promise. Mais pour quelle raison ? Que cherchait-il à accomplir en infiltrant la famille Castelle ?...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une enquête dans la haute société qui permet de retrouver Astrid Veillon tiraillée entre son rôle d'épouse et son rôle de mère.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E97925028.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688490" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T08:50:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Les enquêtes de l'inspecteur Wallander</TITRE>
+      <SOUSTITREDIF>Meurtriers sans visage</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117551204" DATEMODIF="2017-06-08T13:56:19">
+        <TITREEMISSION>Les enquêtes de l'inspecteur Wallander</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="1797">
+          <PAYS>Suède - Grande-Bretagne</PAYS>
+          <LIBELLE>suédo-britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26335302">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les enquêtes de l'inspecteur Wallander</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26335283">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les enquêtes de l'inspecteur Wallander / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Wallander</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Meurtriers sans visage</SOUSTITRE>
+          <SOUSTITREORIGINAL>Faceless Killers</SOUSTITREORIGINAL>
+          <DUREEEMI>90</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>3</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="15843">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>MacDonald</NOM>
+            <PRENOM>Hettie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="10081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Branagh</NOM>
+            <PRENOM>Kenneth</PRENOM>
+            <ROLE>Kurt Wallander</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="484400">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bertling</NOM>
+            <PRENOM>Karin</PRENOM>
+            <ROLE>Maria Lovgren</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="401318">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bergman</NOM>
+            <PRENOM>Rune</PRENOM>
+            <ROLE>Johannes Lovgren</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="470500">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Spark</NOM>
+            <PRENOM>Jeany</PRENOM>
+            <ROLE>Linda Wallander</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="413181">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ali</NOM>
+            <PRENOM>Arsher</PRENOM>
+            <ROLE>Jamal</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="551201">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McCall</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Peters</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="82442">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McCabe</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>Nyberg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="63488">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smart</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Anne-Britt Hoglund</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="412587">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cottan</NOM>
+            <PRENOM>Richard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="44834">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Donald</NOM>
+            <PRENOM>Simon</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un double meurtre est commis dans une ferme isolée de la campagne scanienne. Kurt Wallander mène l'enquête dans un oppressant climat de xénophobie.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans la campagne scanienne, dans le Sud de la Suède, deux personnes s'introduisent dans une ferme où un couple de vieux paysans vient de passer à table. Quelques heures plus tard, Kurt Wallander découvre un carnage. Les victimes ont été torturées. L'homme est déjà mort, la femme agonisante. Elle bredouille un mot qui ressemble à «étrangers». Ce sordide double meurtre va déclencher des réactions de colère et de xénophobie à travers toute la région d'Ystad, où vivent et travaillent nombre de migrants. L'enquête de Wallander se déroule donc dans un climat de suspicion. Par ailleurs, il peine à nouer une relation amicale avec l'ami de sa fille...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E117551204.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688491" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T10:25:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>R.I.S. Police scientifique</TITRE>
+      <SOUSTITREDIF>Cercueil volant</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="12454487" DATEMODIF="2017-01-13T10:03:50">
+        <TITREEMISSION>R.I.S. Police scientifique</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7975">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5206218">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique / 4</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Cercueil volant</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>13</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1257493">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Barbier</NOM>
+            <PRENOM>Christophe</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caroit</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Gilles Sagnac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="313180">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rajot</NOM>
+            <PRENOM>Pierre-Loup</PRENOM>
+            <ROLE>Hugo Chalonges</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33439">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Metzger</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>Malik Berkaoui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="207840">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bargème</NOM>
+            <PRENOM>Aurélie</PRENOM>
+            <ROLE>Nathalie Giesbert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171185">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cabrita</NOM>
+            <PRENOM>Barbara</PRENOM>
+            <ROLE>Julie Labro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45035">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olmedo</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Pierre Morand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zahonero</NOM>
+            <PRENOM>Coraly</PRENOM>
+            <ROLE>Alessandra Joffrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="152194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tagbo</NOM>
+            <PRENOM>Claudia</PRENOM>
+            <ROLE>Martine Forest</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="491490">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Douin</NOM>
+            <PRENOM>Xavier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'équipe du RIS est confrontée au terrible virus Ebola : un singe, échappé d'une malle en provenance du Congo, griffe Nathalie, la contaminant.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un jet privé en provenance du Congo atterrit en urgence sur la piste d'un aérodrome. A l'intérieur de l'appareil, gisent quatre cadavres. Le commandant de bord est agonisant. Il présente tous les symptômes du terrible virus Ebola. A l'autopsie, réalisée avec toutes les précautions d'usage dans ce type d'infection, l'équipe du R.I.S. découvre que deux des victimes ont en réalité été assassinées. Puis, en fouillant dans les malles des défunts, Nathalie laisse s'échapper un singe, qui la griffe au passage. Atteinte du virus Ebola, elle est mise en quarantaine. Une course contre la montre s'engage pour retrouver le singe, arrêter le meurtrier et sauver Nathalie...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E12454487.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688492" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T11:20:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>FBI : portés disparus</TITRE>
+      <SOUSTITREDIF>L'imitateur</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2876072" DATEMODIF="2015-08-27T03:19:24">
+        <TITREEMISSION>FBI : portés disparus</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7735">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4558424">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Without a Trace</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'imitateur</SOUSTITRE>
+          <SOUSTITREORIGINAL>Copycat</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1543">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Matheson</NOM>
+            <PRENOM>Tim</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LaPaglia</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Jack Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montgomery</NOM>
+            <PRENOM>Poppy</PRENOM>
+            <ROLE>Samantha Spade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Close</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Martin Fitzgerald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="290461">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McCaffrey</NOM>
+            <PRENOM>Kyle</PRENOM>
+            <ROLE>Ryland</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32554">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jean-Baptiste</NOM>
+            <PRENOM>Marianne</PRENOM>
+            <ROLE>Vivian Johnson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murciano</NOM>
+            <PRENOM>Enrique</PRENOM>
+            <ROLE>Danny Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="332022">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fallon</NOM>
+            <PRENOM>Francis</PRENOM>
+            <ROLE>Rudy Campbell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="154258">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adelstein</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>Dave</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="160494">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Levin</NOM>
+            <PRENOM>Jennifer</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Jack et Martin enquêtent sur la disparition d'une mère de famille. Les circonstances rappellent les crimes d'un psychopathe condamné à perpétuité.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une mère de famille disparaît de chez elle alors qu'elle revenait du supermarché. Jack Malone se souvient d'avoir enquêté douze ans auparavant sur le même type d'affaire : cinq femmes blanches, entre 25 et 35 ans, avaient été enlevées à leur domicile, puis torturées et violées dans un hangar. L'homme responsable de ces atrocités, le «tueur de Rockrille», a été condamné à perpétuité et séjourne toujours en prison. Jack et Martin décident de lui rendre une petite visite. Avec un interrogatoire habile, ils espèrent obtenir des informations sur l'identité ou le profil d'un psychopathe qui aurait pu faire disparaître la malheureuse...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2876072.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688493" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T12:05:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>FBI : portés disparus</TITRE>
+      <SOUSTITREDIF>Terre d'accueil</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2955109" DATEMODIF="2017-03-28T15:55:47">
+        <TITREEMISSION>FBI : portés disparus</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7735">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4558424">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Without a Trace</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Terre d'accueil</SOUSTITRE>
+          <SOUSTITREORIGINAL>A Tree Falls</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="293175">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bailey</NOM>
+            <PRENOM>Rob</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LaPaglia</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Jack Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Close</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Martin Fitzgerald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32554">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jean-Baptiste</NOM>
+            <PRENOM>Marianne</PRENOM>
+            <ROLE>Vivian Johnson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montgomery</NOM>
+            <PRENOM>Poppy</PRENOM>
+            <ROLE>Samantha Spade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murciano</NOM>
+            <PRENOM>Enrique</PRENOM>
+            <ROLE>Danny Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="332030">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Villareal Jr</NOM>
+            <PRENOM>Juan</PRENOM>
+            <ROLE>Nelson Rodriguez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="34745">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Harris</NOM>
+            <PRENOM>Jared</PRENOM>
+            <ROLE>le père Walker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176550">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Barrera</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>George Rodriguez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="243185">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Abner</NOM>
+            <PRENOM>Allison</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Jack et son équipe tentent de retrouver la trace d'un petit garçon qui a été kidnappé dans une rue de Spanish Harlem. Ils soupçonnent un pédophile.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un jeune garçon d'origine hispanique est enlevé avec violence en plein jour dans une rue de Spanish Harlem. Les témoins de la scène ne connaissaient pas l'enfant et les enquêteurs du FBI ignorent l'identité de la petite victime. Jack et son équipe sont inquiets de constater que personne ne vient signaler la disparition de l'enfant. Des recherches permettent aux enquêteurs de découvrir l'identité du jeune garçon, qui s'appelle Nelson Rodriguez. Il pourrait avoir été enlevé par un pédophile qui s'est récemment installé dans le quartier. Craignant le pire, toute l'équipe se mobilise pour retrouver le garçon avant qu'il ne soit trop tard...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2955109.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688494" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T12:55:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>The Listener</TITRE>
+      <SOUSTITREDIF>En campagne</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92455119" DATEMODIF="2015-08-25T03:18:12">
+        <TITREEMISSION>The Listener</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="156">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="2343297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / The Listener</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="15952668">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / The Listener / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Listener</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>En campagne</SOUSTITRE>
+          <SOUSTITREORIGINAL>White Whale</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="156435">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>McCutcheon</NOM>
+            <PRENOM>Don</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="54631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olejnik</NOM>
+            <PRENOM>Craig</PRENOM>
+            <ROLE>Toby Logan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="233263">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lemke</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Brian Becker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="479604">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Esmer</NOM>
+            <PRENOM>Ennis</PRENOM>
+            <ROLE>Ozman Bey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="217190">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smith</NOM>
+            <PRENOM>Lauren Lee</PRENOM>
+            <ROLE>Michelle McCluskey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="234513">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Francks</NOM>
+            <PRENOM>Rainbow</PRENOM>
+            <ROLE>Dev Clark</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="429073">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scrofano</NOM>
+            <PRENOM>Melanie</PRENOM>
+            <ROLE>Tia Tremblay</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91356">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hogan</NOM>
+            <PRENOM>Gabriel</PRENOM>
+            <ROLE>Greg Turner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="611411">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Braun</NOM>
+            <PRENOM>Tricia</PRENOM>
+            <ROLE>Catherine Turner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="303334">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>May</NOM>
+            <PRENOM>Jackie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Becker demande à Toby de l'aider à prouver qu'un candidat à la mairie a tué une femme qui travaillait à ses côtés lors de la précédente campagne.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Becker demande à Toby de l'aider à prouver qu'un candidat à la mairie a tué une femme qui travaillait à ses côtés lors de la précédente campagne. Portée disparue, son corps n'a jamais été retrouvé...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E92455119.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688495" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T13:50:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Les enquêtes de l'inspecteur Wallander</TITRE>
+      <SOUSTITREDIF>Mort clandestine</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117550877" DATEMODIF="2017-06-08T13:56:04">
+        <TITREEMISSION>Les enquêtes de l'inspecteur Wallander</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="1797">
+          <PAYS>Suède - Grande-Bretagne</PAYS>
+          <LIBELLE>suédo-britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26335302">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les enquêtes de l'inspecteur Wallander</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26335284">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les enquêtes de l'inspecteur Wallander / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Wallander</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mort clandestine</SOUSTITRE>
+          <SOUSTITREORIGINAL>An Event in Autumn</SOUSTITREORIGINAL>
+          <DUREEEMI>90</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>3</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="509600">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Haynes</NOM>
+            <PRENOM>Toby</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="10081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Branagh</NOM>
+            <PRENOM>Kenneth</PRENOM>
+            <ROLE>Kurt Wallander</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="82442">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McCabe</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>Nyberg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="618562">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Santos</NOM>
+            <PRENOM>Laura Dos</PRENOM>
+            <ROLE>May-Britt Thorson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421417">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hadfield</NOM>
+            <PRENOM>Mark</PRENOM>
+            <ROLE>Stefan Lindeman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="618566">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maris</NOM>
+            <PRENOM>Albert</PRENOM>
+            <ROLE>Peter Andersson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="63488">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smart</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Ann-Britt Hoglund</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9642">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reeves</NOM>
+            <PRENOM>Saskia</PRENOM>
+            <ROLE>Vanja Andersson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25574">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Carter</NOM>
+            <PRENOM>Helena</PRENOM>
+            <ROLE>Elika Petrus</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Wallander, qui s'est installé dans une maison de rêve avec sa nouvelle compagne, est bouleversé quand un squelette est découvert dans son jardin.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Wallander vit dans une maison de rêve avec sa nouvelle petite amie Vanja. Mais son bonheur est brisé lorsque son chien déterre le squelette d'une jeune fille caché dans le jardin. Selon les analyses, la mort remonterait à cinq années au moins. Dans le même temps, les restes d'une autre victime sont rejetés par la mer et retrouvés sur le rivage. La jeune défunte aurait été vue pour la dernière fois de son vivant montant à bord d'un ferry. Wallander s'interroge. La victime a-t-elle volontairement sauté ou a-t-elle été précipitée par dessus bord ? Bientôt, l'inspecteur découvre que les deux affaires sont liées...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E117550877.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688496" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T15:30:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>R.I.S. Police scientifique</TITRE>
+      <SOUSTITREDIF>A l'ombre du paradis</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="12487547" DATEMODIF="2017-01-13T10:03:09">
+        <TITREEMISSION>R.I.S. Police scientifique</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7975">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5206218">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique / 4</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>A l'ombre du paradis</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>15</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1257493">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Barbier</NOM>
+            <PRENOM>Christophe</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="79800">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Foly</NOM>
+            <PRENOM>Liane</PRENOM>
+            <ROLE>Monica Vérone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caroit</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Gilles Sagnac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="313180">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rajot</NOM>
+            <PRENOM>Pierre-Loup</PRENOM>
+            <ROLE>Hugo Chalonges</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33439">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Metzger</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>Malik Berkaoui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="207840">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bargème</NOM>
+            <PRENOM>Aurélie</PRENOM>
+            <ROLE>Nathalie Giesbert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171185">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cabrita</NOM>
+            <PRENOM>Barbara</PRENOM>
+            <ROLE>Julie Labro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45035">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olmedo</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Pierre Morand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zahonero</NOM>
+            <PRENOM>Coraly</PRENOM>
+            <ROLE>Alessandra Joffrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="79800">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Foly</NOM>
+            <PRENOM>Liane</PRENOM>
+            <ROLE>Monica Vérone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="491948">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Robert</NOM>
+            <PRENOM>Vincent</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un homme a été tué durant le spectacle d'un cabaret parisien et une jeune fille a été retrouvée morte, assassinée, sur une piste de skate-board.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un homme est assassiné en plein spectacle, dans un prestigieux cabaret parisien. Très vite, les soupçons se portent sur la jolie meneuse de la revue, une dénommée Monica Vérone. Laquelle est une amie intime du capitaine Morand, qui cache cette information délicate aux membres de l'équipe. Une autre affaire occupe également les enquêteurs : une jeune fille a été retrouvée morte sur une piste de skate-board. A priori, elle aurait été victime d'une mauvaise chute. Mais l'autopsie révèle que l'adolescente n'a pas succombé à un accident. Elle a été assassinée. Qui avait intérêt à la faire disparaître ?...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E12487547.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688497" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T16:30:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>La ligne jaune</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="50194627" DATEMODIF="2016-07-15T15:39:44">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="10603966">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 14</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>14</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La ligne jaune</SOUSTITRE>
+          <SOUSTITREORIGINAL>Undercover Blue</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>17</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="264445">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Smith</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="274314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pino</NOM>
+            <PRENOM>Danny</PRENOM>
+            <ROLE>Nick Amaro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="76972">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Winters</NOM>
+            <PRENOM>Dean</PRENOM>
+            <ROLE>Brian Cassidy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="499124">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giddish</NOM>
+            <PRENOM>Kelli</PRENOM>
+            <ROLE>Amanda Rollins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ice-T</NOM>
+            <ROLE>Odafin Tutuola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="555988">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rikoon</NOM>
+            <PRENOM>Robyn</PRENOM>
+            <ROLE>Heather Riggs</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8599">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ventimiglia</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Bobby Navarro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="204222">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cathey</NOM>
+            <PRENOM>Reg E</PRENOM>
+            <ROLE>Barry Querns</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="167919">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Zuckerman</NOM>
+            <PRENOM>Ed</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Cassidy est accusé d'avoir violé une prostituée alors qu'il enquêtait sous couverture auprès d'un proxénète, quatre ans plus tôt. Un procès est en jeu.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Brian Cassidy s'apprête à témoigner dans un procès lorsqu'une jeune femme, Heather Riggs, une prostituée, se présente à l'unité spéciale et l'accuse de viol. Elle prétend qu'il a passé une nuit avec elle quatre ans plus tôt, alors qu'il était infiltré auprès d'un proxénète. Munch, Amaro, Olivia et les autres tentent de prouver que Heather Riggs ment et que son petit ami, Bobby, espère pouvoir réclamer des dommages et intérêts à la ville. Malheureusement, toute cette affaire a des conséquences désastreuses sur le procès de Bart Ganzel, qui est sur le point de se terminer. Barry Querns doit tenter de trouver une solution pour que tout s'arrange...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E50194627.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688498" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T17:20:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>FBI : portés disparus</TITRE>
+      <SOUSTITREDIF>Photographies</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2918141" DATEMODIF="2015-08-27T03:19:25">
+        <TITREEMISSION>FBI : portés disparus</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7735">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4558424">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Without a Trace</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Photographies</SOUSTITRE>
+          <SOUSTITREORIGINAL>Exposure</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="198049">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Corell</NOM>
+            <PRENOM>Charlie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LaPaglia</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Jack Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Close</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Martin Fitzgerald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montgomery</NOM>
+            <PRENOM>Poppy</PRENOM>
+            <ROLE>Samantha Spade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32554">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jean-Baptiste</NOM>
+            <PRENOM>Marianne</PRENOM>
+            <ROLE>Vivian Johnson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murciano</NOM>
+            <PRENOM>Enrique</PRENOM>
+            <ROLE>Danny Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61547">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Winters</NOM>
+            <PRENOM>Kristoffer Ryan</PRENOM>
+            <ROLE>Eric Larson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4619">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pankow</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Brian Owen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="291798">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bess</NOM>
+            <PRENOM>Mariah</PRENOM>
+            <ROLE>Jessica Owen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="258625">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Kutzera</NOM>
+            <PRENOM>Dale</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les agents du FBI sont à la recherche d'un paparazzi disparu après une dispute avec le garde du corps d'une célébrité. Ils découvrent qu'un homme le menaçait.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jack et son équipe se lancent à la recherche de Brian Owen, un paparazzi disparu après une dispute avec le garde du corps d'une célébrité. La découverte, en pleine rue, de son appareil photo couvert de sang laisse présager le pire. Aiguillés par l'ex-épouse du photographe et sa fille, les agents du FBI remontent la piste d'un homme qui avait proféré de sérieuses menaces à l'encontre du photographe, quelques semaines avant sa disparition. Parallèlement, ils apprennent qu'Owen vivait une période de remise en question et souhaitait passer à des activités plus honorables après le suicide d'une personne qu'il avait photographiée...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2918141.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688499" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T18:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>FBI : portés disparus</TITRE>
+      <SOUSTITREDIF>Deux familles</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="3638831" DATEMODIF="2015-08-27T03:19:33">
+        <TITREEMISSION>FBI : portés disparus</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7735">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4558424">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Without a Trace</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Deux familles</SOUSTITRE>
+          <SOUSTITREORIGINAL>Two Families</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>21</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="343579">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Showalter</NOM>
+            <PRENOM>John F</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LaPaglia</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Jack Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montgomery</NOM>
+            <PRENOM>Poppy</PRENOM>
+            <ROLE>Samantha Spade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Close</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Martin Fitzgerald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32554">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jean-Baptiste</NOM>
+            <PRENOM>Marianne</PRENOM>
+            <ROLE>Vivian Johnson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murciano</NOM>
+            <PRENOM>Enrique</PRENOM>
+            <ROLE>Danny Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="108028">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Simmons</NOM>
+            <PRENOM>JK</PRENOM>
+            <ROLE>Mark Wilson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30818">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Goorjian</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Ricky Wilson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="82746">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGrady</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Bill Hyatt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="166865">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Redlich</NOM>
+            <PRENOM>Ed</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'équipe enquête sur la disparition d'un homme qui a passé les onze dernières années de sa vie à essayer de prouver l'innocence de son fils, condamné à mort.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'équipe de Jack recherche Mark Wilson, qui a disparu deux jours avant la date prévue pour l'exécution de son fils Ricky, condamné à mort. Mark a consacré les onze dernières années à tenter de sauver Ricky, qui a toujours clamé qu'il était innocent du crime dont le jury l'a reconnu coupable. Il aurait, en effet, tué un couple lors du braquage d'une épicerie. L'unique témoin de la scène était la fille du couple, présente lorsque ses parents ont été abattus. Le jury, touché par le témoignage de l'enfant, avait voulu rendre un verdict exemplaire. A présent, et bien que son père ait disparu, la condamnation de Ricky doit être appliquée...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E3638831.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688500" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T19:00:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>Copie conforme</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="3681470" DATEMODIF="2015-08-22T02:09:30">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4280783">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Copie conforme</SOUSTITRE>
+          <SOUSTITREORIGINAL>Birthright</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>23</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="214901">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Forney</NOM>
+            <PRENOM>Arthur W</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="19085">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Meloni</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Elliot Stabler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7359">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thompson</NOM>
+            <PRENOM>Lea</PRENOM>
+            <ROLE>Michele Osborne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="267228">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Breslin</NOM>
+            <PRENOM>Abigail</PRENOM>
+            <ROLE>Patty Branson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="134648">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tunie</NOM>
+            <PRENOM>Tamara</PRENOM>
+            <ROLE>le docteur Melinda Warner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="89690">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Davis</NOM>
+            <PRENOM>Viola</PRENOM>
+            <ROLE>Donna Emmett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21767">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bellamy</NOM>
+            <PRENOM>Ned</PRENOM>
+            <ROLE>Peter Carson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="23197">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scott</NOM>
+            <PRENOM>Camilla</PRENOM>
+            <ROLE>Sarah Branson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="188769">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Greene</NOM>
+            <PRENOM>Jonathan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En enquêtant sur une tentative de kidnapping, l'équipe découvre une affaire de procréation médicalement assistée pas tout à fait réglementaire.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Benson et Stabler enquêtent sur une tentative de kidnapping : quelqu'un a voulu enlever une fillette de 6 ans, presque sous les yeux de sa mère. Cette affaire a priori simple les entraîne rapidement dans des milieux dont ils ignorent tout. En effet, au fil de leurs investigations, ils découvrent que derrière toute cette histoire se cache la bataille d'une mère biologique, prête à tout pour obtenir la garde de son enfant naturel. Un spécialiste de l'infertilité, qui n'hésite pas à voler des embryons, et la détresse de couples en mal d'enfants complètent le tableau de l'enquête, fort sordide au demeurant...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E3681470.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688501" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-20T19:55:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>The Listener</TITRE>
+      <SOUSTITREDIF>Le fugitif</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92673802" DATEMODIF="2015-08-25T03:18:13">
+        <TITREEMISSION>The Listener</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="156">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="2343297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / The Listener</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="15952668">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / The Listener / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Listener</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le fugitif</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Fugitive</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="156435">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>McCutcheon</NOM>
+            <PRENOM>Don</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="54631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olejnik</NOM>
+            <PRENOM>Craig</PRENOM>
+            <ROLE>Toby Logan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="233263">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lemke</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Brian Becker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="479604">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Esmer</NOM>
+            <PRENOM>Ennis</PRENOM>
+            <ROLE>Ozman Bey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="217190">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smith</NOM>
+            <PRENOM>Lauren Lee</PRENOM>
+            <ROLE>Michelle McCluskey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="234513">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Francks</NOM>
+            <PRENOM>Rainbow</PRENOM>
+            <ROLE>Dev Clark</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="429073">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scrofano</NOM>
+            <PRENOM>Melanie</PRENOM>
+            <ROLE>Tia Tremblay</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="577216">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kondracki</NOM>
+            <PRENOM>Rayisa</PRENOM>
+            <ROLE>Emma Carver</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="204510">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilcock</NOM>
+            <PRENOM>Robin</PRENOM>
+            <ROLE>Sam Langston</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="363619">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Yorke</NOM>
+            <PRENOM>Brendon</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Oz demande à Toby d'enquêter sur la mort du père d'une fille qu'il apprécie. La victime aurait participé au détournement d'un avion à la précieuse cargaison.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Oz demande à Toby d'enquêter sur la mort du père d'une fille qu'il apprécie. Les premiers éléments de l'enquête révèlent que l'homme est un fugitif qui aurait détourné un avion comptenant des millions de dollars...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C92673802.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688502" DATEMODIF="2018-01-27T02:00:17">
+      <DATEHEURE>2018-02-20T20:55:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Candice Renoir</TITRE>
+      <SOUSTITREDIF>Ce que femme veut</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="115415964" DATEMODIF="2017-09-08T15:09:10">
+        <TITREEMISSION>Candice Renoir</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="10643479">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Candice Renoir</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="24940495">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Candice Renoir / 5</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Ce que femme veut</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="475300">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Darraux</NOM>
+            <PRENOM>Adeline</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="6121">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bois</NOM>
+            <PRENOM>Cécile</PRENOM>
+            <ROLE>Candice Renoir</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="26901">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boutefeu</NOM>
+            <PRENOM>Nathalie</PRENOM>
+            <ROLE>Sylvie Leclerc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="354473">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lenglet</NOM>
+            <PRENOM>Raphaël</PRENOM>
+            <ROLE>Antoine Dumas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="603491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Verneuil</NOM>
+            <PRENOM>Gaya</PRENOM>
+            <ROLE>Chrystelle Da Silva</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="535437">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marhyar</NOM>
+            <PRENOM>Ali</PRENOM>
+            <ROLE>Mehdi Badhou</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1336091">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Camargo</NOM>
+            <PRENOM>Nora</PRENOM>
+            <ROLE>Stéphanie Rochet</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="610103">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dimier</NOM>
+            <PRENOM>Claudia</PRENOM>
+            <ROLE>Barbara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="632667">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cabassut</NOM>
+            <PRENOM>Olivier</PRENOM>
+            <ROLE>le commissaire Waldeck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141746">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Facco</NOM>
+            <PRENOM>Fabienne</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1194189">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Kressmann</NOM>
+            <PRENOM>Marc</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le commandant Renoir et son groupe explorent la destinée tragique d'une femme assassinée, tout comme sa mère prostituée l'a été autrefois, en 1975.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le corps d'une femme a été retrouvé. La victime est Stéphanie Rochet, une militante engagée pour le droit des prostituées. Candice, en petite forme, se rend au domicile de la défunte. Sur place, elle trouve de nombreuses affaires ayant appartenu à la mère de Stéphanie, prostituée assassinée en 1975. Fun, le chien de la famille, blesse Candice qui tombe dans un coma profond. Antoine est anéanti. Pas Candice qui, dans son sommeil, se retrouve propulsée en 1975 pour continuer l'enquête. Sauf que l'orange a remplacé le rose, et qu'elle n'est plus chef mais simple inspectrice préposée à la machine à écrire ou au café...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E115415964.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688503" DATEMODIF="2018-01-27T02:00:17">
+      <DATEHEURE>2018-02-20T21:45:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Candice Renoir</TITRE>
+      <SOUSTITREDIF>Ce que femme veut</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="115415968" DATEMODIF="2017-09-08T15:09:11">
+        <TITREEMISSION>Candice Renoir</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="10643479">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Candice Renoir</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="24940495">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Candice Renoir / 5</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Ce que femme veut</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>10</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="475300">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Darraux</NOM>
+            <PRENOM>Adeline</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="6121">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bois</NOM>
+            <PRENOM>Cécile</PRENOM>
+            <ROLE>Candice Renoir</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="26901">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boutefeu</NOM>
+            <PRENOM>Nathalie</PRENOM>
+            <ROLE>Sylvie Leclerc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="354473">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lenglet</NOM>
+            <PRENOM>Raphaël</PRENOM>
+            <ROLE>Antoine Dumas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="603491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Verneuil</NOM>
+            <PRENOM>Gaya</PRENOM>
+            <ROLE>Chrystelle Da Silva</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="535437">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marhyar</NOM>
+            <PRENOM>Ali</PRENOM>
+            <ROLE>Mehdi Badhou</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="357131">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pointeaux</NOM>
+            <PRENOM>Lilly-Fleur</PRENOM>
+            <ROLE>Jennifer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="370010">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blancafort</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>David Canovas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="623111">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Antoons</NOM>
+            <PRENOM>Clara</PRENOM>
+            <ROLE>Emma Renoir</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Candice poursuit l'enquête sur le meurtre d'une femme, un crime très certainement lié à celui de sa mère, prostituée, qui fut assassinée en 1975.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Candice poursuit l'enquête sur le meurtre d'une femme, un crime très certainement lié à celui de sa mère, prostituée, qui fut assassinée en 1975. Antoine, inquiet face à l'absence d'explications des médecins, a du mal à supporter la situation. Candice est toujours dans le coma. Jennifer est jalouse...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E115415968.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688504" DATEMODIF="2018-02-07T03:20:50">
+      <DATEHEURE>2018-02-20T22:50:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>20 ans dans le couloir de la mort : Keith Doolin contre l'Etat de Californie</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>1</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646525" DATEMODIF="2018-01-29T15:49:33">
+        <TITREEMISSION>20 ans dans le couloir de la mort : Keith Doolin contre l'Etat de Californie</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30192886">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / 20 ans dans le couloir de la mort : Keith Doolin contre l'Etat de Californie</NOM>
+          </COLLECTION>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>4</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Keith Doolin a été accusé du meurtre de deux femmes : incarcéré depuis 20 ans dans la prison de San Quentin en Californie, il clame son innocence.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125646525.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688505" DATEMODIF="2018-02-07T03:20:53">
+      <DATEHEURE>2018-02-20T23:45:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>20 ans dans le couloir de la mort : Keith Doolin contre l'Etat de Californie</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646527" DATEMODIF="2018-01-26T17:55:24">
+        <TITREEMISSION>20 ans dans le couloir de la mort : Keith Doolin contre l'Etat de Californie</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30192886">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / 20 ans dans le couloir de la mort : Keith Doolin contre l'Etat de Californie</NOM>
+          </COLLECTION>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>4</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Donna Doolin-Larsen est déterminée à innocenter son fils Keith, qui attend son exécution dans le couloir de la mort depuis une vingtaine d'années.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125646527.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688506" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-21T00:45:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Le secret de l'abbaye</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="115663786" DATEMODIF="2017-06-02T23:04:22">
+        <TITREEMISSION>Le secret de l'abbaye</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="432618">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lot</NOM>
+            <PRENOM>Alfred</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="40953">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Yerlès</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Alex Lazzari</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="329822">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Carat</NOM>
+            <PRENOM>Fabienne</PRENOM>
+            <ROLE>Alicia Tirard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="147382">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guybet</NOM>
+            <PRENOM>Henri</PRENOM>
+            <ROLE>Alphonse Monnet</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="581623">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Yefsah</NOM>
+            <PRENOM>Slimane</PRENOM>
+            <ROLE>Cassard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21103">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chappey</NOM>
+            <PRENOM>Antoine</PRENOM>
+            <ROLE>Dom Francis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="116352">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Orry</NOM>
+            <PRENOM>Marie-Christine</PRENOM>
+            <ROLE>le docteur Lanchon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="77252">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rodrigues</NOM>
+            <PRENOM>Sophie</PRENOM>
+            <ROLE>Justine Lazzari</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="113480">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mathieu</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Olivier Descotes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="578244">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Méchaly</NOM>
+            <PRENOM>Nathaniel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="32209">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Le Pêcheur</NOM>
+            <PRENOM>Didier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un moine a été retrouvé assassiné près de l'abbaye Notre-Dame d'Aiguebelle : deux enquêteurs s'intéressent à l'élixir végétal fabriqué par sa congrégation.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le corps sans vie de frère Yves est retrouvé pendu par les pieds à la croix du cimetière de Montjoyer, proche de l'abbaye Notre-Dame d'Aiguebelle. Anne Tirard, capitaine de gendarmerie à la section de recherches de Grenoble et Alex Lazzari, gendarme du cru, sont chargés de l'affaire. Anne traverse des difficultés dans sa vie privée, qu'elle va devoir gérer en parallèle de son enquête : son fils Raphaël, un adolescent en perte de repères, est détenu dans un centre d'éducation fermé suite à sa participation à une tentative de cambriolage. Le fait qu'Alex soit responsable de l'arrestation de Raphaël suscite d'emblée l'hostilité d'Anne. D'autant plus qu'Alex, fatigué par son métier et miné par ses problèmes conjugaux, fait preuve d'une désinvolture professionnelle qui la met hors d'elle...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un suspense bien mené qui bénéficie d'une distribution solide.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E115663786.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688507" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-21T02:30:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Le sang de la vigne</TITRE>
+      <SOUSTITREDIF>Coup de tonnerre dans les Corbières</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117514339" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Le sang de la vigne</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26319920">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Le sang de la vigne</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26319894">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Le sang de la vigne / 4</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Coup de tonnerre dans les Corbières</SOUSTITRE>
+          <DUREEEMI>90</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>3</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="48843">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Musset</NOM>
+            <PRENOM>Régis</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="121549">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Arditi</NOM>
+            <PRENOM>Pierre</PRENOM>
+            <ROLE>Benjamin Lebel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="118752">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Denaive</NOM>
+            <PRENOM>Yoann</PRENOM>
+            <ROLE>Silvère Dugain</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13072">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hiegel</NOM>
+            <PRENOM>Catherine</PRENOM>
+            <ROLE>Janny Verniaud</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="577248">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giraudeau</NOM>
+            <PRENOM>Gaël</PRENOM>
+            <ROLE>Bruno Souvestre</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="576891">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Erpelding</NOM>
+            <PRENOM>Michaël</PRENOM>
+            <ROLE>Arthur Gassard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1269241">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pélicier</NOM>
+            <PRENOM>Camille</PRENOM>
+            <ROLE>Aude Amoretti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88007">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giroudon</NOM>
+            <PRENOM>Gérard</PRENOM>
+            <ROLE>Richard Godfrey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24506">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frappat</NOM>
+            <PRENOM>Francis</PRENOM>
+            <ROLE>Luc Tourel </ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A Narbonne, où il est invité par une maison d'édition, Benjamin, flanqué de son assistant, enquête sur un accident dont son contact sur place a été victime.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une maison d'édition du Languedoc propose à Benjamin Lebel de publier ses textes de jeunesse. Aussi revient-il sur les terres de ses jeunes années en compagnie de Silvère Dugain, son assistant, afin de rencontrer ses éditeurs potentiels. Luc Tourel et Louis Marsaint les accueillent bouleversés : Jérôme Séverino, dit «Géronimo», leur conseiller d'édition, qui leur avait recommandé Benjamin, est grièvement blessé après avoir été renversé par une voiture. Pour eux, cela ne fait aucun doute : il ne s'agit pas d'un simple accident de la circulation. Lorsque Géronimo succombe, des suites de ses blessures, Benjamin décide de mener une enquête discrète...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E117514339.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688508" DATEMODIF="2018-01-26T17:55:27">
+      <DATEHEURE>2018-02-21T04:05:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>Fin des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646520" DATEMODIF="2018-01-26T16:49:08">
+        <TITREEMISSION>Fin des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

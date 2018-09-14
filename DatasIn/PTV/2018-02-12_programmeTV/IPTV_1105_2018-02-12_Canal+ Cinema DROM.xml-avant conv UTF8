@@ -1,0 +1,1666 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:53:43-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1105">
+    <NOMCHAINE>Canal+ Cinéma DROM</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-12">
+    <DIFFUSION CLEDIF="171586162" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-11T21:00:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Rencontres de cinéma</TITRE>
+      <SOUSTITREDIF>Le Retour du héros</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125389244" DATEMODIF="2018-01-24T14:09:54">
+        <TITREEMISSION>Rencontres de cinéma</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="7011075">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Rencontres de cinéma</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Le Retour du héros</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="122965">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Weil</NOM>
+            <PRENOM>Laurent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="90904">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Dujardin</NOM>
+            <PRENOM>Jean</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="305156">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Laurent</NOM>
+            <PRENOM>Mélanie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Jean Dujardin et Mélanie Laurent, les deux acteurs principaux de la comédie historique de Laurent Tirard, «Le Retour du héros», sont les invités de Laurent Weil, à quelques jours de la sortie du film.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586163" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-11T21:15:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>A fond</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="110202631" DATEMODIF="2018-01-05T12:21:44">
+        <TITREEMISSION>A fond</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>91</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="535597">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Benamou</NOM>
+            <PRENOM>Nicolas</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="325660">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garcia</NOM>
+            <PRENOM>José</PRENOM>
+            <ROLE>Tom</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="321683">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dussollier</NOM>
+            <PRENOM>André</PRENOM>
+            <ROLE>Ben</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="579705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vigneaux</NOM>
+            <PRENOM>Caroline</PRENOM>
+            <ROLE>Julia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1319137">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Callies</NOM>
+            <PRENOM>Joséphine</PRENOM>
+            <ROLE>Lison</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1233302">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lecaille</NOM>
+            <PRENOM>Stylane</PRENOM>
+            <ROLE>Noé</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="478125">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gabris</NOM>
+            <PRENOM>Charlotte</PRENOM>
+            <ROLE>Melody</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desagnat</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>l'adjudant-chef Besauce</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="248967">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Foresti</NOM>
+            <PRENOM>Florence</PRENOM>
+            <ROLE>la capitaine Peton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1217700">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Desprez</NOM>
+            <PRENOM>Maxime</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1134148">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Tordjman</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Sur la route des vacances, une famille est la victime du régulateur de vitesse de son véhicule. Bloqué à 130 kilomètres/heure, la voiture est incontrôlable.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Tom pensait avoir tout organisé à la perfection pour que le départ en vacances se fasse dans la sérénité. Il décide de louer un monospace tout neuf qui dispose d'un régulateur de vitesse. Il embarque toute sa petite famille, dont sa femme Julia, très enceinte. Jean, le père de Julia, est également du voyage. Tout se complique quand le régulateur de vitesse se bloque à 130 kilomètres/heure. Tom tente de freiner mais rien n'y fait : le véhicule ne veut pas ralentir. Il appelle le loueur du véhicule qui n'a aucune solution à lui proposer. Très vite, la police de la route, dirigée par le capitaine Peton, les prend en chasse...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un road movie qui, même s'il ne fait pas dans la dentelle, bénéficie d'un excellent trio d'acteurs : José Garcia, Caroline Vigneaux et André Dussollier. On passe finalement un bon moment, sans aucune prétention.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586164" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-11T22:45:00</DATEHEURE>
+      <DUREE>117</DUREE>
+      <TITRE>Monsieur &amp; madame Adelman</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="112408621" DATEMODIF="2018-01-11T19:06:59">
+        <TITREEMISSION>Monsieur &amp; madame Adelman</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="130" GENRESIMPLE="Comédie dramatique">Comédie dramatique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>120</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="60660">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bedos</NOM>
+            <PRENOM>Nicolas</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="60660">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bedos</NOM>
+            <PRENOM>Nicolas</PRENOM>
+            <ROLE>Victor Adelman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="476356">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tillier</NOM>
+            <PRENOM>Doria</PRENOM>
+            <ROLE>Sarah Adelman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="557294">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bessis</NOM>
+            <PRENOM>Lola</PRENOM>
+            <ROLE>Mélanie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="305820">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Podalydès</NOM>
+            <PRENOM>Denis</PRENOM>
+            <ROLE>le psy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="120777">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Breitman</NOM>
+            <PRENOM>Zabou</PRENOM>
+            <ROLE>la directrice d'école</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30675">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boisselier</NOM>
+            <PRENOM>Julien</PRENOM>
+            <ROLE>Antoine de Richemont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="121549">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Arditi</NOM>
+            <PRENOM>Pierre</PRENOM>
+            <ROLE>Claude de Richemont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="396211">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gouy</NOM>
+            <PRENOM>Antoine</PRENOM>
+            <ROLE>le journaliste</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un écrivain célèbre vient de mourir. A un journaliste, sa veuve raconte leur longue histoire d'amour, faite de passion, de désillusions et de trahisons.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Victor Adelman, un célèbre écrivain, vient de mourir. Un journaliste rend visite à sa veuve, Sarah Adelman. Commence alors le récit d'une histoire d'amour mouvementée, soit quarante-cinq ans de vie commune. Sarah rencontre Victor en 1971 et devient rapidemment sa muse. Elle se passionne pour son travail et l'épouse malgré les relations glaciales qu'elle entretient avec ses futurs beaux-parents. La passion laisse place peu à peu à la routine. Victor, à la fois égocentrique et tourmenté, commence à avoir du succès et reproche à Sarah de s'embourgeoiser, elle qui était si libre et rebelle au début de leur relation. Il la trompe sans vergogne et la fait souffrir...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Le premier film de Nicolas Bedos est sincère tout en cédant par moment au mélo tape à l'oeil.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586165" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T00:42:00</DATEHEURE>
+      <DUREE>4</DUREE>
+      <TITRE>Jour de cinéma</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125272350" DATEMODIF="2018-01-25T10:55:35">
+        <TITREEMISSION>Jour de cinéma</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="28454204">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Jour de cinéma</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Toute l'actualité cinématographique du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586166" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T00:46:00</DATEHEURE>
+      <DUREE>1</DUREE>
+      <TITRE>Nouveau talent</TITRE>
+      <SOUSTITREDIF>La 5ème vague</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123993926" DATEMODIF="2017-12-24T23:12:33">
+        <TITREEMISSION>Nouveau talent</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23103336">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Nouveau talent</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La 5ème vague</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1326290">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Akoun</NOM>
+            <PRENOM>Lucie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586167" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T00:47:00</DATEHEURE>
+      <DUREE>108</DUREE>
+      <TITRE>La 5ème vague</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="94508019" DATEMODIF="2017-12-12T11:18:17">
+        <TITREEMISSION>La 5ème vague</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="248" GENRESIMPLE="Film de science fiction">Film de science-fiction</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The 5th Wave</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>112</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="530691">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Blakeson</NOM>
+            <PRENOM>J</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="331520">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moretz</NOM>
+            <PRENOM>Chloë Grace</PRENOM>
+            <ROLE>Cassie Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="178072">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Robinson</NOM>
+            <PRENOM>Nick</PRENOM>
+            <ROLE>Ben Parish</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1191641">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Monroe</NOM>
+            <PRENOM>Maika</PRENOM>
+            <ROLE>Ringer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="72212">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bello</NOM>
+            <PRENOM>Maria</PRENOM>
+            <ROLE>Reznik</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="31382">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schreiber</NOM>
+            <PRENOM>Liev</PRENOM>
+            <ROLE>Vosch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="454463">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Siff</NOM>
+            <PRENOM>Maggie</PRENOM>
+            <ROLE>Lisa Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="89508">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Livingston</NOM>
+            <PRENOM>Ron</PRENOM>
+            <ROLE>Oliver Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1209411">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Revolori</NOM>
+            <PRENOM>Tony</PRENOM>
+            <ROLE>Dumbo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="520292">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Jackman</NOM>
+            <PRENOM>Henry</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors que le monde est en proie à une invasion extraterrestre stratégique et dévastatrice, une adolescente part à la recherche de son jeune frère.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Cassie Sullivan mène une vie d'adolescente ordinaire. Mais lorsque l'humanité subit une invasion stratégique d'extraterrestres ayant pour but de décimer la population en plusieurs étapes, la jeune fille se retrouve seule et tente de survivre sur les routes désertes des Etats-Unis où elle part à la recherche de son petit frère. Mais Cassie ne peut faire confiance à personne : les envahisseurs extraterrestres, appelés Les Autres, sont partout et ressemblent à tout le monde. De leurs côtés, les humains survivants doivent rester sur leurs gardes. Les Autres s'apprêtent en effet à lancer la cinquième vague de leur sombre dessein, celle qui fera définitivement disparaître l'espèce humaine...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une adaptation du roman dystopique de Rick Yancey. Plutôt convaincant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586168" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T02:35:00</DATEHEURE>
+      <DUREE>135</DUREE>
+      <TITRE>The Lost City of Z</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="96299258" DATEMODIF="2018-01-18T14:38:28">
+        <TITREEMISSION>The Lost City of Z</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="224" GENRESIMPLE="Film d'aventures">Film d'aventures</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Lost City of Z</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>140</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="52474">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gray</NOM>
+            <PRENOM>James</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="115341">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hunnam</NOM>
+            <PRENOM>Charlie</PRENOM>
+            <ROLE>Percy Fawcett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279937">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Miller</NOM>
+            <PRENOM>Sienna</PRENOM>
+            <ROLE>Nina Fawcett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="306710">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pattinson</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Henry Costin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1206808">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Holland</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Jack Fawcett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19440">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macfadyen</NOM>
+            <PRENOM>Angus</PRENOM>
+            <ROLE>James Murray</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1200002">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Huttlestone</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Brian Fawcett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jovanovic</NOM>
+            <PRENOM>Aleksandar</PRENOM>
+            <ROLE>Urquhart</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141939">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Clem</NOM>
+            <PRENOM>Frank</PRENOM>
+            <ROLE>le tireur texan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1193101">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Spelman</NOM>
+            <PRENOM>Christopher</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au début du XXe siècle, un explorateur britannique et son partenaire financier se rendent au coeur de l'Amazonie, à la recherche d'une cité perdue.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Au début du XXe siècle, Percival Harrison Fawcett, un colonel de l'armée britannique, est approché par la Société géographique de Londres afin d'établir une cartographie des frontières entre le Brésil et la Bolivie. Les deux pays se disputent la culture du caoutchouc dans la région car les limites territoriales n'y ont pas encore été établies avec exactitude. Au cours de ses expéditions, il a vent d'une cité perdue, cachée au coeur de la forêt amazonienne. Cette histoire l'obsède. Il laisse femme et enfants, et part à la recherche de cette civilisation, en compagnie de Henry Costin, qui finance cette exploration périlleuse...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>A la fois fresque épique et portrait intime d'un homme éperdu d'absolu, «The Lost City of Z» est une réussite.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586169" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T04:50:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Le cercle</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125272272" DATEMODIF="2018-01-16T17:26:29">
+        <TITREEMISSION>Le cercle</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2004168">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le cercle</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="614178">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Trapenard</NOM>
+            <PRENOM>Augustin</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Accompagné de journalistes, cinéphiles ou écrivains passionnés issus d'horizons variés, Augustin Trapenard aborde et commente les sorties de la semaine, avec un invité surprise, le tout dans une ambiance joyeuse et conviviale.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586170" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T05:45:00</DATEHEURE>
+      <DUREE>130</DUREE>
+      <TITRE>Miss Sloane</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="110196826" DATEMODIF="2018-01-03T14:05:48">
+        <TITREEMISSION>Miss Sloane</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="307" GENRESIMPLE="Film de suspense">Thriller</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Miss Sloane</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>132</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="29451">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Madden</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="375878">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chastain</NOM>
+            <PRENOM>Jessica</PRENOM>
+            <ROLE>Elizabeth Sloane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21904">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Strong</NOM>
+            <PRENOM>Mark</PRENOM>
+            <ROLE>Rodolfo Schmidt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="413806">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mbatha-Raw</NOM>
+            <PRENOM>Gugu</PRENOM>
+            <ROLE>Esme Manucharian</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="144537">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stuhlbarg</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Pat Connors</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Waterston</NOM>
+            <PRENOM>Sam</PRENOM>
+            <ROLE>George Dupont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="545859">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacy</NOM>
+            <PRENOM>Jake</PRENOM>
+            <ROLE>Forde</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="376">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lithgow</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Ron M Sperling</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="302630">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smith</NOM>
+            <PRENOM>Douglas</PRENOM>
+            <ROLE>Alex</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="382140">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Richter</NOM>
+            <PRENOM>Max</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A Washington, une lobbyiste redouble de manigances et manipulations pour atteindre une victoire qui pourrait s’avérer éclatante.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Elizabeth Sloane travaille pour une entreprise de lobbying conservatrice et influente dirigée d'une main de fer par George Dupont. Il demande à la jeune femme d'oeuvrer pour un organisme de promotion des armes à feu, qui veut empêcher une loi de régulation. Elizabeth, redoutable femme d'influence qui ne pense qu'à la victoire, refuse cette mission. Elle entre en guerre avec son ancien patron, en emmenant avec elle son équipe entière, et surtout Jane, sa fidèle assistante. Elle obtient le soutien de Rodolfo Schmidt, un autre lobbyiste bien décidé à faire passer la loi. Ulcéré, George Dupont fait tout pour ruiner la vie et la carrière de son ancienne employée...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Nommée aux Golden Globes en 2017 pour ce rôle, Chastain retrouve avec bonheur le réalisateur John Madden avec qui elle avait déjà tourné «L'Affaire Rachel Singer»</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586171" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T07:55:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Rencontres de cinéma</TITRE>
+      <SOUSTITREDIF>Le Retour du héros</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125389244" DATEMODIF="2018-01-24T14:09:54">
+        <TITREEMISSION>Rencontres de cinéma</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="7011075">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Rencontres de cinéma</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Le Retour du héros</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="122965">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Weil</NOM>
+            <PRENOM>Laurent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="90904">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Dujardin</NOM>
+            <PRENOM>Jean</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="305156">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Laurent</NOM>
+            <PRENOM>Mélanie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Jean Dujardin et Mélanie Laurent, les deux acteurs principaux de la comédie historique de Laurent Tirard, «Le Retour du héros», sont les invités de Laurent Weil, à quelques jours de la sortie du film.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586172" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T08:10:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Beauté cachée</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="104173692" DATEMODIF="2017-12-11T16:35:52">
+        <TITREEMISSION>Beauté cachée</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Collateral Beauty</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>97</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="56165">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Frankel</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2462">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smith</NOM>
+            <PRENOM>Will</PRENOM>
+            <ROLE>Howard Inlet</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29387">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Winslet</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Claire</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="51507">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Norton</NOM>
+            <PRENOM>Edward</PRENOM>
+            <ROLE>Whit Yardsham</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45387">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Knightley</NOM>
+            <PRENOM>Keira</PRENOM>
+            <ROLE>Amy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="377">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mirren</NOM>
+            <PRENOM>Helen</PRENOM>
+            <ROLE>Brigitte</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="262876">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Harris</NOM>
+            <PRENOM>Naomie</PRENOM>
+            <ROLE>Madeleine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="484291">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Peña</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Simon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1237091">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rogers</NOM>
+            <PRENOM>Kylie</PRENOM>
+            <ROLE>Allison Yardsham</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les collègues d'un publicitaire en deuil, qui envoie des lettres à la Mort, à l'Amour et au Temps, vont tout tenter pour le sortir de sa dépression.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Howard Inlet, un brillant publicitaire new-yorkais, n'est plus que l'ombre de lui-même. Depuis qu'il a perdu sa fille, il n'a plus le goût de vivre. Il se rend à ses séances de thérapie mais le coeur n'y est pas. Ses collègues Claire et Whit sont tristes de le voir ainsi. Ils apprennent alors que Howard envoie des lettres au Temps, à la Mort et à l'Amour pour tenter de s'en sortir. Ces missives leur donnent une idée : celle de faire incarner ces concepts par de vraies personnes. Brigitte se charge d'incarner la Mort. Cette rencontre perturbe beaucoup Howard et il finit par en parler avec Madeleine, la responsable de son groupe de discussion...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film émouvant, malgré quelques longueurs, et servi par des interprètes de grand talent.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586173" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T09:45:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>L'hebd'Hollywood</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125272269" DATEMODIF="2018-02-01T12:04:45">
+        <TITREEMISSION>L'hebd'Hollywood</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="1774466">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'hebd'Hollywood</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="154372">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Allouch</NOM>
+            <PRENOM>Didier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Toute l'actualité d'Hollywood, des stars et des derniers films à ne pas manquer.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586174" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T10:00:00</DATEHEURE>
+      <DUREE>80</DUREE>
+      <TITRE>Papa ou maman 2</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="105481904" DATEMODIF="2018-01-05T12:23:08">
+        <TITREEMISSION>Papa ou maman 2</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>86</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="424564">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bourboulon</NOM>
+            <PRENOM>Martin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="729">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lafitte</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Vincent Leroy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="309564">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Foïs</NOM>
+            <PRENOM>Marina</PRENOM>
+            <ROLE>Florence Corrigan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="404852">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giraudeau</NOM>
+            <PRENOM>Sara</PRENOM>
+            <ROLE>Bénédicte</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="477622">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cohen</NOM>
+            <PRENOM>Jonathan</PRENOM>
+            <ROLE>Edouard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="600289">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lemarchand</NOM>
+            <PRENOM>Anna</PRENOM>
+            <ROLE>Emma Leroy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1245673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desrousseaux</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Mathias Leroy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1245674">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Potier</NOM>
+            <PRENOM>Achille</PRENOM>
+            <ROLE>Julien Leroy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2016">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Garcia</NOM>
+            <PRENOM>Nicole</PRENOM>
+            <ROLE>la mère de Florence</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors qu'ils ont chacun refait leur vie et tourné la page, des divorcés sont encouragés par leurs enfants adolescents à reprendre la vie commune.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Vincent Leroy et Florence, son ex-femme, semblent avoir tourné la page après leur séparation mouvementée. Ils ont refait leur vie chacun de leur côté : Vincent avec Bénédicte et Florence avec Edouard. Cependant, Vincent accepte mal qu'Edouard soit beaucoup plus riche que lui. Florence, de son côté, a dû mal à se réjouir à l'annonce de la grossesse de Bénédicte. Leurs enfants, qui détestent cette nouvelle situation, aimeraient que leurs parents reforment à nouveau un couple...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une suite tout aussi réjouissante que le premier opus, interprétée par des comédiens en pleine forme.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586175" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T11:20:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>L'embarras du choix</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="112116557" DATEMODIF="2017-12-29T13:32:52">
+        <TITREEMISSION>L'embarras du choix</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="141" GENRESIMPLE="Comédie">Comédie sentimentale</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>97</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="120680">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lavaine</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="76631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lamy</NOM>
+            <PRENOM>Alexandra</PRENOM>
+            <ROLE>Juliette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="387695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ducret</NOM>
+            <PRENOM>Arnaud</PRENOM>
+            <ROLE>Etienne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61096">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marivin</NOM>
+            <PRENOM>Anne</PRENOM>
+            <ROLE>Joëlle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="159937">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bamber</NOM>
+            <PRENOM>Jamie</PRENOM>
+            <ROLE>Paul</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="277370">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ouazani</NOM>
+            <PRENOM>Sabrina</PRENOM>
+            <ROLE>Sonia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35012">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Astier</NOM>
+            <PRENOM>Lionnel</PRENOM>
+            <ROLE>Richard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="131690">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Commandeur</NOM>
+            <PRENOM>Jérôme</PRENOM>
+            <ROLE>Philippe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="56034">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Henriet</NOM>
+            <PRENOM>Arnaud</PRENOM>
+            <ROLE>Cédric</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="388998">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Cahen</NOM>
+            <PRENOM>Fabien</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A 40 ans, une femme, perpétuellement indécise, doit choisir entre un cuisinier charmant et un Ecossais, qui l'ont tous les deux demandée en mariage.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Juliette, 40 ans, vient d'être quittée par Cédric, son fiancé, las de son indécision constante. Car faire un choix est au-dessus des forces de Juliette. Ses amies lui conseillent de se remettre en selle très vite. Juliette rencontre alors Etienne, un cuisinier talentueux, célibataire et charmant. Mais entre temps, elle a aussi croisé la route du beau Paul, un Ecossais. Juliette ne parvient pas à se décider entre ces deux hommes avec lesquels elle file le parfait amour. Les choses se compliquent quand chacun la demande en mariage. Juliette, incapable de trancher, s'enferme dans son mensonge...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un casting de haut vol pour cette comédie dans l'air du temps, distrayante et rafraîchissante à souhait.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586176" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T12:55:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Un sac de billes</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111693611" DATEMODIF="2017-12-12T11:31:04">
+        <TITREEMISSION>Un sac de billes</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="240">
+          <PAYS>France - Canada</PAYS>
+          <LIBELLE>franco-canadien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>110</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="8903">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Duguay</NOM>
+            <PRENOM>Christian</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1318562">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Clech</NOM>
+            <PRENOM>Dorian</PRENOM>
+            <ROLE>Joseph Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="599557">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fleurial</NOM>
+            <PRENOM>Batyste</PRENOM>
+            <ROLE>Maurice Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11828">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bruel</NOM>
+            <PRENOM>Patrick</PRENOM>
+            <ROLE>Roman Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5652">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zylberstein</NOM>
+            <PRENOM>Elsa</PRENOM>
+            <ROLE>Anna Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8810">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Clavier</NOM>
+            <PRENOM>Christian</PRENOM>
+            <ROLE>le docteur Rosen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="337589">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Domboy</NOM>
+            <PRENOM>César</PRENOM>
+            <ROLE>Henri Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="512369">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adams</NOM>
+            <PRENOM>Kev</PRENOM>
+            <ROLE>Ferdinand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1080614">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bergala</NOM>
+            <PRENOM>Ilian</PRENOM>
+            <ROLE>Albert Joffo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="198900">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Amar</NOM>
+            <PRENOM>Armand</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="8903">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Duguay</NOM>
+            <PRENOM>Christian</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="427530">
+            <FONCTION>Dialogue</FONCTION>
+            <NOM>Guichard</NOM>
+            <PRENOM>Benoît</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans la France occupée, deux frères sont envoyés en zone libre par leur père inquiet du sort réservé aux juifs. Leur voyage sera long et périlleux.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Joseph et Maurice vivent une enfance heureuse à Paris auprès de leurs parents, Roman et Anna. Alors que la France est occupée par les Allemands, leur père s'inquiète du sort réservé aux juifs. Il demande à ses enfants de cacher leur religion et les envoie en zone libre où ils pourront se cacher. Il leur promet que la famille sera réunie dans quelques mois. Susceptibles d'être arrêtés à tout moment, les deux frères, très soudés, se lancent dans un long périple, semé d'embûches. Ils croisent le rassurant docteur Rosen et un prêtre qui les protège alors qu'ils sont dans le train qui les conduit vers le Sud de la France...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>La complicité des deux jeunes héros rend cette adaptation du best-seller de Joseph Joffo très émouvante.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586177" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T14:40:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Tchi tcha</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977184" DATEMODIF="2018-02-07T10:44:53">
+        <TITREEMISSION>Tchi tcha</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27602225">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Tchi tcha</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="349034">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Cholewa</NOM>
+            <PRENOM>Laurie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="90904">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Dujardin</NOM>
+            <PRENOM>Jean</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="305156">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Laurent</NOM>
+            <PRENOM>Mélanie</PRENOM>
+            <ROLE>pour «Le Retour du héros»</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9496">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Cornillac</NOM>
+            <PRENOM>Clovis</PRENOM>
+            <ROLE>pour «Belle et Sébastien 3 : le dernier chapitre»</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>La séquence du spectateur : Anne Hidalgo choisit «L'Etoffe des héros» de Philippe Kaufman</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>L'édito de Laure</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Clint Eastwood, American Paradox</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Sagas littéraires au cinéma, des histoires sans fin</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>Daniel Day : acteur taille patron</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586178" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T15:30:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Rencontres de cinéma</TITRE>
+      <SOUSTITREDIF>Le Retour du héros</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125389244" DATEMODIF="2018-01-24T14:09:54">
+        <TITREEMISSION>Rencontres de cinéma</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="386" GENRESIMPLE="Magazine culturel">Magazine du cinéma</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="7011075">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Rencontres de cinéma</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Le Retour du héros</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="122965">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Weil</NOM>
+            <PRENOM>Laurent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="90904">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Dujardin</NOM>
+            <PRENOM>Jean</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="305156">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Laurent</NOM>
+            <PRENOM>Mélanie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Jean Dujardin et Mélanie Laurent, les deux acteurs principaux de la comédie historique de Laurent Tirard, «Le Retour du héros», sont les invités de Laurent Weil, à quelques jours de la sortie du film.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171972343" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T15:45:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Que vive l'Empereur</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113199825" DATEMODIF="2017-03-06T09:49:27">
+        <TITREEMISSION>Que vive l'Empereur</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="153" GENRESIMPLE="Court métrage">Court métrage</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <DUREEEMI>30</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="535944">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Rapin</NOM>
+            <PRENOM>Aude Léa</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1146536">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Couzinié</NOM>
+            <PRENOM>Jonathan</PRENOM>
+            <ROLE>Bébé</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1168179">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Buresi</NOM>
+            <PRENOM>Antonia</PRENOM>
+            <ROLE>Ludo</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Bébé et sa femme Ludo vivent les dernières heures avant la chute de l'Empire, abrités dans la tente Quechua qu'ils ont installée sur un parking.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586180" DATEMODIF="2018-02-07T11:00:17">
+      <DATEHEURE>2018-02-12T16:10:00</DATEHEURE>
+      <DUREE>290</DUREE>
+      <TITRE>Fin des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125581177" DATEMODIF="2018-01-25T10:53:38">
+        <TITREEMISSION>Fin des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

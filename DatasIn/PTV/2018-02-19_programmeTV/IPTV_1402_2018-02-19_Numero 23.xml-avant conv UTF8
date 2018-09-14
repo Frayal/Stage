@@ -1,0 +1,1117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:11:27-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1402">
+    <NOMCHAINE>Numéro 23</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-19">
+    <DIFFUSION CLEDIF="171903279" DATEMODIF="2018-01-31T11:51:58">
+      <DATEHEURE>2018-02-19T06:20:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>JT morning</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125805335" DATEMODIF="2018-01-31T11:51:58">
+        <TITREEMISSION>JT morning</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23292957">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / JT morning</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903280" DATEMODIF="2018-01-31T11:51:58">
+      <DATEHEURE>2018-02-19T06:30:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>P.J.</TITRE>
+      <SOUSTITREDIF>Mauvais traitements</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="391243" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>P.J.</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7946">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / P.J.</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4125138">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / P.J. / 5</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mauvais traitements</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2001</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>12</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="11297">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Vergez</NOM>
+            <PRENOM>Gérard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3342">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wolkowitch</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>Vincent Fournier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10275">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schneider</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Bernard Léonetti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61610">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bach</NOM>
+            <PRENOM>Emmanuelle</PRENOM>
+            <ROLE>Agathe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="135132">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cramoisan</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Franck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22163">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frenck</NOM>
+            <PRENOM>Elodie</PRENOM>
+            <ROLE>Brigitte Monceau</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44615">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mergey</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>madame Salliard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Betton</NOM>
+            <PRENOM>Marc</PRENOM>
+            <ROLE>le commissaire Meurteaux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91831">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lubansu</NOM>
+            <PRENOM>Raphaëlle</PRENOM>
+            <ROLE>Chloé</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141746">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Facco</NOM>
+            <PRENOM>Fabienne</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un étrange cambriolage, qui s'est déroulé avec violence, et une vieille dame voleuse de foie gras, en bisbille avec sa voisine, occupent les agents de la PJ.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une mère divorcée porte plainte après un cambriolage qui s'est déroulé avec une rare violence. Capable de donner le signalement de son agresseur, elle décrit un tatouage particulier qui lui a sauté aux yeux. Vincent et Bernard se mettent en quête du suspect. Ils appréhendent rapidement un individu qui pourrait correspondre, mais la plaignante ne le reconnaît pas. Plus tard, Agathe et Franck sont contraints de s'occuper d'une vieille dame qui a dérobé du foie gras dans un magasin. La femme est couverte de traces de coups. Elle accuse sa voisine de chambre. Les deux policiers se rendent dans la maison de retraite où elle vit...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E391243.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903281" DATEMODIF="2018-01-31T11:51:58">
+      <DATEHEURE>2018-02-19T07:25:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>P.J.</TITRE>
+      <SOUSTITREDIF>Viol en garde à vue</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="772655" DATEMODIF="2015-10-16T04:10:24">
+        <TITREEMISSION>P.J.</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7946">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / P.J.</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3762258">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / P.J. / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Viol en garde à vue</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="11297">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Vergez</NOM>
+            <PRENOM>Gérard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="61610">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bach</NOM>
+            <PRENOM>Emmanuelle</PRENOM>
+            <ROLE>Agathe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="135132">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cramoisan</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Franck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3342">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wolkowitch</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>Vincent Fournier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10275">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schneider</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Bernard Léonetti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Betton</NOM>
+            <PRENOM>Marc</PRENOM>
+            <ROLE>le commissaire Meurteaux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44817">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desroses</NOM>
+            <PRENOM>Thierry</PRENOM>
+            <ROLE>Alain Porret</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21011">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bagnou-Beido</NOM>
+            <PRENOM>Valérie</PRENOM>
+            <ROLE>Nadine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91831">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lubansu</NOM>
+            <PRENOM>Raphaëlle</PRENOM>
+            <ROLE>Chloé</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="197101">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Nivaggioni</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune livreur, blessé au cours d'un accident de voiture, a-t-il été victime d'un règlement de comptes mafieux ? Agathe et Franck enquêtent.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La routine pour Agathe et Franck : appelés sur les lieux d'un accident de la route, ils sont chargés de relever les indices. Un jeune livreur a été renversé par une voiture : quoi de plus banal ? Un détail, pourtant, retient leur attention : la victime a les deux petits doigts cassés. Immédiatement, la thèse du règlement de comptes s'impose à l'esprit des deux policiers. Interrogé, le livreur réfute farouchement cette hypothèse. Mais Agathe et Franck ne mettent pas longtemps à réaliser qu'il est sous l'emprise de la drogue. Lorsqu'ils se rendent à l'adresse de sa dernière livraison, ils ne trouvent personne...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E772655.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903282" DATEMODIF="2018-01-31T11:51:58">
+      <DATEHEURE>2018-02-19T08:20:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Melting-pot : cette France qui réussit</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125509860" DATEMODIF="2018-01-24T10:34:13">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Melting-pot : cette France qui réussit</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>En France, entreprendre relève parfois du parcours du combattant. Pourtant, certains jeunes réussissent à percer dans des domaines bien éloignés de leurs origines sociales. Pleins d'ambition, ils se sont inspirés de leur vécu pour briser le plafond de verre, et se créer un destin différent de celui de leurs parents. Stylistes, restaurateurs, ils ont été suivis pendant des semaines. Chacun a prouvé que la clé du succès, c'est la détermination.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125509860.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903283" DATEMODIF="2018-01-31T11:51:58">
+      <DATEHEURE>2018-02-19T10:00:00</DATEHEURE>
+      <DUREE>185</DUREE>
+      <TITRE>Les grandes gueules</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769940" DATEMODIF="2018-01-31T11:51:58">
+        <TITREEMISSION>Les grandes gueules</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21919296">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les grandes gueules</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="468972">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marschall</NOM>
+            <PRENOM>Alain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="468973">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Truchot</NOM>
+            <PRENOM>Olivier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>La bande des grandes gueules accueille tout au long de l'année des intervenants représentatifs de la diversité de la société française et les sujets de société qui font l'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125769940.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903284" DATEMODIF="2018-01-31T11:51:58">
+      <DATEHEURE>2018-02-19T13:05:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Ces crimes qui ont choqué le monde</TITRE>
+      <SOUSTITREDIF>Fred et Rosemary West</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="9354634" DATEMODIF="2015-12-22T14:47:10">
+        <TITREEMISSION>Ces crimes qui ont choqué le monde</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1112" GENRESIMPLE="Documentaire">Justice</GENRE>
+        <NATIONALITE CLE="2201">
+          <PAYS>Australie - Grande-Bretagne - Canada</PAYS>
+          <LIBELLE>australo-britannico-canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="12021353">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Ces crimes qui ont choqué le monde</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Crimes That Shook the World</TITREORIGINAL>
+          <SOUSTITRE>Fred et Rosemary West</SOUSTITRE>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Entre 1978 et 1994, au Royaume-Uni, Frederick et Rosemary West ont torturé, puis assassiné dans leur maison plusieurs adolescentes fugueuses.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Frederick et Rosemary West sont probablement les tueurs les plus connus de la Grande-Bretagne. Entre les années 1970 et 1990, ce couple à l'apparence tranquille et banale a en effet torturé puis tué douze personnes, principalement des adolescentes fugueuses, avant de les enterrer dans leur jardin, afin de dissimuler leurs crimes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E9354634.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903285" DATEMODIF="2018-01-31T11:51:58">
+      <DATEHEURE>2018-02-19T14:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Ces crimes qui ont choqué le monde</TITRE>
+      <SOUSTITREDIF>BTK, histoire d'un serial killer</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="9598217" DATEMODIF="2017-04-15T12:33:27">
+        <TITREEMISSION>Ces crimes qui ont choqué le monde</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1112" GENRESIMPLE="Documentaire">Justice</GENRE>
+        <NATIONALITE CLE="2201">
+          <PAYS>Australie - Grande-Bretagne - Canada</PAYS>
+          <LIBELLE>australo-britannico-canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="12021353">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Ces crimes qui ont choqué le monde</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Crimes That Shook the World</TITREORIGINAL>
+          <SOUSTITRE>BTK, histoire d'un serial killer</SOUSTITRE>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dennis Rader ne correspond pas à l'archétype du tueur en série : il se faisait appeler BTK, l'acronyme de «Bind, Torture, Kill» - ou ligote, torture, tue.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E9598217.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903286" DATEMODIF="2018-01-31T11:51:58">
+      <DATEHEURE>2018-02-19T15:00:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Ces crimes qui ont choqué le monde</TITRE>
+      <SOUSTITREDIF>Le tueur de la rivière verte</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="9627384" DATEMODIF="2018-02-03T09:38:14">
+        <TITREEMISSION>Ces crimes qui ont choqué le monde</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1112" GENRESIMPLE="Documentaire">Justice</GENRE>
+        <NATIONALITE CLE="2201">
+          <PAYS>Australie - Grande-Bretagne - Canada</PAYS>
+          <LIBELLE>australo-britannico-canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="12021353">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Ces crimes qui ont choqué le monde</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Crimes That Shook the World</TITREORIGINAL>
+          <SOUSTITRE>Le tueur de la rivière verte</SOUSTITRE>
+          <ANNEEREALISATION>2006</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 2003, Gary Leon Ridgeway a plaidé coupable pour le meurtre de 48 femmes, ce qui lui a valu le plus grand nombre de condamnations criminelles aux Etats-Unis.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Entre 1982 et 1985, des dizaines de jeunes femmes, pour la plupart des prostituées, disparurent dans l'Etat de Washington aux Etats-Unis. Les premières victimes furent découvertes près de la rivière qui allait donner son surnom à leur meurtrier. Malgré des années d'enquête, le tueur de la Green River ne fut appréhendé qu'en 2001. Gary Ridgway, un homme qui figurait depuis 1983 sur la liste des suspects fut confondu à cause de son ADN.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E9627384.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903287" DATEMODIF="2018-02-06T03:17:42">
+      <DATEHEURE>2018-02-19T15:55:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Redrum</TITRE>
+      <SOUSTITREDIF>La dévote à la canne</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769944" DATEMODIF="2018-01-31T11:51:17">
+        <TITREEMISSION>Redrum</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1112" GENRESIMPLE="Documentaire">Justice</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="11553382">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Redrum</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Redrum</TITREORIGINAL>
+          <SOUSTITRE>La dévote à la canne</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>25</DUREEEMI>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Illustration d'une enquête sur un meurtre, à partir de la découverte d'un corps les enquêteurs doivent reconstituer l'histoire et trouver le mobile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903288" DATEMODIF="2018-01-31T11:51:59">
+      <DATEHEURE>2018-02-19T16:25:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Commandos parachutistes : entre amour et devoir</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="49417373" DATEMODIF="2014-08-27T13:28:11">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Commandos parachutistes : entre amour et devoir</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Le Groupement des Commandos Parachutistes, corps d'élite de l'armée française, rassemble 160 militaires prêts à intervenir dès que la France s'engage dans un conflit. Les troupes françaises ont joué un rôle déterminant en Afghanistan, et ont été chargées de la sécurité des habitants en Côte d'Ivoire. Portraits de ces hommes, suivis pendant plusieurs mois dans des zones dangereuses, mais aussi dans leurs familles.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E49417373.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903289" DATEMODIF="2018-02-06T03:17:50">
+      <DATEHEURE>2018-02-19T18:15:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>La loi des rocheuses</TITRE>
+      <SOUSTITREDIF>Légitime défense ?</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769934" DATEMODIF="2018-01-30T17:45:38">
+        <TITREEMISSION>La loi des rocheuses</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30250463">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La loi des rocheuses</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Légitime défense ?</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents luttent contre le crime sur un terrain très dangereux des États-Unis : les montagnes rocheuses. Ils ont pour mission de protéger les résidents.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125769934.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903290" DATEMODIF="2018-02-06T03:17:53">
+      <DATEHEURE>2018-02-19T19:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>La loi des rocheuses</TITRE>
+      <SOUSTITREDIF>Une macabre découverte</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769936" DATEMODIF="2018-01-30T17:45:44">
+        <TITREEMISSION>La loi des rocheuses</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30250463">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La loi des rocheuses</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Une macabre découverte</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents luttent contre le crime sur un terrain très dangereux des États-Unis : les montagnes rocheuses. Ils ont pour mission de protéger les résidents.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125769936.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903291" DATEMODIF="2018-02-06T03:17:56">
+      <DATEHEURE>2018-02-19T20:05:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>La loi des rocheuses</TITRE>
+      <SOUSTITREDIF>Chasse à l'homme</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125769929" DATEMODIF="2018-01-30T17:44:52">
+        <TITREEMISSION>La loi des rocheuses</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="30250463">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La loi des rocheuses</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Chasse à l'homme</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des agents luttent contre le crime sur un terrain très dangereux des États-Unis : les montagnes rocheuses. Ils ont pour mission de protéger les résidents.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125769929.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171863690" DATEMODIF="2018-01-31T11:51:59">
+      <DATEHEURE>2018-02-19T20:55:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Périphérique parisien : la police en action</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="89691738" DATEMODIF="2016-02-01T23:02:25">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Périphérique parisien : la police en action</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Paris est l'une des capitales les plus embouteillées du monde. Chaque jour, 1 300 000 véhicules circulent sur le périphérique de la ville. 80 policiers patrouillent au quotidien, à chaque heure de la nuit et du jour, pour sécuriser les 35 kilomètres de bitume qui encerclent Paris. Vitesse excessive, infractions, consommation de drogue et d'alcool : chaque année, les forces de l'ordre pratiquent plus de 10 000 interventions.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E89691738.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171863691" DATEMODIF="2018-01-31T11:51:59">
+      <DATEHEURE>2018-02-19T22:45:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Accidents, vitesse, trafics : A62, l'autoroute de tous les dangers</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124999122" DATEMODIF="2018-01-11T15:44:50">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Accidents, vitesse, trafics : A62, l'autoroute de tous les dangers</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'A62 relie les villes de Bordeaux et Toulouse. Pour veiller sur la sécurité de ces automobilistes et traquer les chauffards, 112 gendarmes sont sur le qui-vive. Ils multiplient les interventions, pour tenter de convaincre les automobolistes trop pressés d'adopter une conduite plus prudente, et au besoin les punir. Quelquefois, ils sont amenés à enrayer des trafics.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124999122.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903292" DATEMODIF="2018-01-31T11:51:59">
+      <DATEHEURE>2018-02-20T00:35:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Révélations</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123145965" DATEMODIF="2018-02-06T17:18:44">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>«Révélations» s'attache, à travers reportages et interviews sur le terrain, à décrypter les problématiques et l'évolution de la société, en France et autour du monde. Des enquêtes sur des sujets sociaux, économiques et culturels permettent d'analyser en profondeur des phénomènes qui ont gagné en influence ces dernières années.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123145965.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171903293" DATEMODIF="2018-01-31T11:51:59">
+      <DATEHEURE>2018-02-20T02:25:00</DATEHEURE>
+      <DUREE>235</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125805336" DATEMODIF="2018-01-31T11:51:59">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

@@ -871,7 +871,7 @@ def most_pobable_path(error_0,error_1,error_2,XGB,CatBoost,rf,dt,gb,logistic,con
 
 
 
-def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpts,date):
+def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpts,date,path):
     #Initialisation des Variables
     global THRESHOLD
     automatic_predtimer = True
@@ -903,7 +903,7 @@ def make_newPTV(PTV,proba,chaine,index,lastPTV,lastcontext,index_PTV,importantpt
     end = importantpts[index][0]
     print(str(start)+' '+str(end))
     #########init Classifier#############
-    XGB,CatBoost,rf,dt,gb,logistic = def_context.load_models()
+    XGB,CatBoost,rf,dt,gb,logistic = def_context.load_models(path)
     ####################################
     for i in tqdm(range(start,end+5)):
         #Update time of commercials (Reset)
@@ -1516,8 +1516,9 @@ def main(argv):
         importantpts = def_context.get_important_points(c,PTV,index_PTV)
         temp_context = historyofpoints.iloc[0]
         THRESHOLD = def_context.find_threshold(proba,0.46)
+        path = def_context.get_temp_path()
         for i in range(3):
-            l,temp_newPTV,temp_history,index_PTV,temp_context = main([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts])
+            l,temp_newPTV,temp_history,index_PTV,temp_context = main([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts,path])
             if(l == 4):
                 pass
             else:
@@ -1547,7 +1548,7 @@ def main(argv):
         PTV,proba = def_context.load_file(date,chaine)
         if(len(PTV) == 0):
             return 4,0,0,0,0,0
-        new_PTV,historyofpoints,labels,error,index_PTV,temp_context = make_newPTV(PTV,proba,chaine,index,argv[3],argv[4],argv[5],argv[6],date)
+        new_PTV,historyofpoints,labels,error,index_PTV,temp_context = make_newPTV(PTV,proba,chaine,index,argv[3],argv[4],argv[5],argv[6],date,argv[7])
         print(len(labels),historyofpoints.shape)
         historyofpoints['labels'] = labels
         print(chaine,date,historyofpoints.shape,len(labels))

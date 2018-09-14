@@ -1,0 +1,2583 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:16:55-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="225">
+    <NOMCHAINE>TvBreizh</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-16">
+    <DIFFUSION CLEDIF="171486584" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T05:55:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Une famille formidable</TITRE>
+      <SOUSTITREDIF>Des vacances mouvementées</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="219500" DATEMODIF="2016-12-30T15:18:51">
+        <TITREEMISSION>Une famille formidable</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="340" GENRESIMPLE="Téléfilm mélodramatique">Téléfilm sentimental</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="7543428">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Une famille formidable / Vrai</NOM>
+          </COLLECTION>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </PARTIE>
+          <SOUSTITRE>Des vacances mouvementées</SOUSTITRE>
+          <ANNEEREALISATION>1993</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>105</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="13578">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Santoni</NOM>
+            <PRENOM>Joël</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="18090">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duperey</NOM>
+            <PRENOM>Anny</PRENOM>
+            <ROLE>Catherine Beaumont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7182">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Coq</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Jacques Beaumont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2765">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Spaak</NOM>
+            <PRENOM>Catherine</PRENOM>
+            <ROLE>Reine Grenier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39179">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vukotic</NOM>
+            <PRENOM>Milena</PRENOM>
+            <ROLE>Paule Mariotti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="75869">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caillaud</NOM>
+            <PRENOM>Cécile</PRENOM>
+            <ROLE>Audrey Beaumont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73296">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sarfati</NOM>
+            <PRENOM>Roméo</PRENOM>
+            <ROLE>Nicolas Beaumont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3656">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lauret</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Frédérique Beaumont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1889">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ferzetti</NOM>
+            <PRENOM>Gabriele</PRENOM>
+            <ROLE>Nono Mariotti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9344">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Franklin</NOM>
+            <PRENOM>Serge</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="200111">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Nachon</NOM>
+            <PRENOM>Angélique</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3170">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Nachon</NOM>
+            <PRENOM>Jean-Claude</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En vacances au Portugal, une famille passe des larmes de joie aux larmes de tristesse, entre problèmes sentimentaux et heureuses rencontres.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les Beaumont se réjouissent de partir en vacances au Portugal chez Nono et Francesca. Presque toute la famille est réunie : la jeune Frédérique, terrible et espiègle, Audrey, plus éprise d'absolu que jamais, et Paule, la soeur de Catherine qui lui confie ses amours avec un certain Charles. Jacques, très détendu, s'est découvert une passion pour la pêche. Chaque matin, il sort en tenue de pêcheur islandais. La bonne humeur générale n'est malheureusement que de courte durée. En effet, Paule, qui a découvert que Charles est marié, père de trois enfants, qu'il ne la rejoindra pas au Portugal, fait une tentative de suicide...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>La famille Beaumont poursuit ses péripéties au Portugal.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E219500.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486585" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T07:40:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Une famille formidable</TITRE>
+      <SOUSTITREDIF>Dure, dure la rentrée</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="219503" DATEMODIF="2016-12-30T15:19:05">
+        <TITREEMISSION>Une famille formidable</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="340" GENRESIMPLE="Téléfilm mélodramatique">Téléfilm sentimental</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="7543428">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Une famille formidable / Vrai</NOM>
+          </COLLECTION>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </PARTIE>
+          <SOUSTITRE>Dure, dure la rentrée</SOUSTITRE>
+          <ANNEEREALISATION>1993</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>105</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="13578">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Santoni</NOM>
+            <PRENOM>Joël</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="18090">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Duperey</NOM>
+            <PRENOM>Anny</PRENOM>
+            <ROLE>Catherine Beaumont </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7182">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Coq</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Jacques Beaumont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2765">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Spaak</NOM>
+            <PRENOM>Catherine</PRENOM>
+            <ROLE>Reine Grenier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39179">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vukotic</NOM>
+            <PRENOM>Milena</PRENOM>
+            <ROLE>Paule</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="75869">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caillaud</NOM>
+            <PRENOM>Cécile</PRENOM>
+            <ROLE>Audrey Beaumont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="73296">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sarfati</NOM>
+            <PRENOM>Roméo</PRENOM>
+            <ROLE>Nicolas Beaumont</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13463">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Khorsand</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Richard Matisse</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3656">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lauret</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Frédérique Beaumont</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>De retour de vacances, la famille Beaumont doit faire face à quelques déconvenues. Marc risque d'être licencié de l'école dans laquelle il travaille.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les vacances au Portugal sont terminées. La famille Beaumont s'éparpille à nouveau. Catherine supporte mal l'offensive de la solitude, d'autant que Jacques, pris en main par l'entreprenante Reine, est trop souvent absent, pris par de nombreux déplacements à l'étranger, déjeuners et dîners professionnels. Nicolas, toujours sous le coup de sa récente déception sentimentale, emménage non loin de chez ses amis Marc et Alexis et accepte un travail de mannequin. Pour sauver Marc d'un licenciement, prévisible depuis que l'école où il travaille a découvert son homosexualité, Nicolas s'efforce de lui arranger un mariage blanc. Il pense avoir trouvé l'épouse idéale, Elena, une styliste tchèque qui risque d'être expulsée car ses papiers ne sont pas en règle...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Des problèmes de société traités avec humour et sensibilité par des comédiens attachants.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E219503.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486586" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T09:30:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Arabesque</TITRE>
+      <SOUSTITREDIF>Pourquoi le base-ball peut-il être mortel ?</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="53703" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Arabesque</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7623">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Arabesque</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3142584">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Arabesque / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Murder, She Wrote</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Pourquoi le base-ball peut-il être mortel ?</SOUSTITRE>
+          <SOUSTITREORIGINAL>Three Strikes, You're Out</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1989</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>20</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="2810">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Robbie</NOM>
+            <PRENOM>Seymour</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="337">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lansbury</NOM>
+            <PRENOM>Angela</PRENOM>
+            <ROLE>Jessica Fletcher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="65343">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bryant</NOM>
+            <PRENOM>Todd</PRENOM>
+            <ROLE>Johnny Eaton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5829">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dunigan</NOM>
+            <PRENOM>Tim</PRENOM>
+            <ROLE>Charley Holcomb</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39007">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Billingslea</NOM>
+            <PRENOM>Beau</PRENOM>
+            <ROLE>Kel Murray</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9605">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Casey</NOM>
+            <PRENOM>Bernie</PRENOM>
+            <ROLE>Doc Evans</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13555">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dean</NOM>
+            <PRENOM>Rick</PRENOM>
+            <ROLE>Mike Warlop</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3619">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sorvino</NOM>
+            <PRENOM>Paul</PRENOM>
+            <ROLE>Al Sidell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19608">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Edwards</NOM>
+            <PRENOM>Vince</PRENOM>
+            <ROLE>Harry Dial</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92437">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Ross</NOM>
+            <PRENOM>Donald</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les carrières du neveu de Jessica, Johnny Eaton, et de son ami Charley Holcomb, tous deux joueurs de base-ball, sont fortement compromises par un meurtre.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Johnny, le neveu de Jessica, est un joueur de base-ball plein d'avenir. Avec son vieil ami Charley, ils réussissent, après des années d'efforts, à intégrer une équipe de haut niveau. Tout semble aller pour le mieux jusqu'à ce que le meurtre de Loretta, une supportrice, compromette leurs carrières...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E53703.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486587" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T10:25:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Arabesque</TITRE>
+      <SOUSTITREDIF>Le secret de la confession</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="32055" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Arabesque</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7623">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Arabesque</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4033993">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Arabesque / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Murder, She Wrote</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le secret de la confession</SOUSTITRE>
+          <SOUSTITREORIGINAL>Seal of the Confessional</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1989</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="8191">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>McEveety</NOM>
+            <PRENOM>Vincent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="337">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lansbury</NOM>
+            <PRENOM>Angela</PRENOM>
+            <ROLE>Jessica Fletcher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="426">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Block</NOM>
+            <PRENOM>Hunt</PRENOM>
+            <ROLE>le père Barnes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="255551">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kervin</NOM>
+            <PRENOM>Lance</PRENOM>
+            <ROLE>Eddie Frayne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24608">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bartlett</NOM>
+            <PRENOM>Bonnie</PRENOM>
+            <ROLE>Marilyn </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7079">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nye</NOM>
+            <PRENOM>Will</PRENOM>
+            <ROLE>Floyd</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="41383">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rhue</NOM>
+            <PRENOM>Madlyn</PRENOM>
+            <ROLE>Doris West</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="237">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Runyon</NOM>
+            <PRENOM>Jennifer</PRENOM>
+            <ROLE>Kelly Barrett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9733">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Horton</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Jack Hutchings</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="144740">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Kelsey</NOM>
+            <PRENOM>Lynne</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au confessionnal, un paroissien désespéré demande l'absolution pour un meurtre qu'il a commis. Mais un innocent est bientôt accusé du crime.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Evan West, l'un des hommes en vue de Cabot Cove, est retrouvé mort. Après une courte enquête, la police arrête Eddie Frayne. C'est alors que le père Donald Barnes rend visite à Jessica Fletcher et lui affirme que l'inculpé est innocent. L'homme d'Eglise, tenu par le secret de la confession, ne peut toutefois pas révéler le nom du vrai coupable. Jessica décide d'enquêter pour élucider l'affaire...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E32055.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486588" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T11:25:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Arabesque</TITRE>
+      <SOUSTITREDIF>Une opération indélicate</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="51563" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Arabesque</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7623">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Arabesque</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3142584">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Arabesque / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Murder, She Wrote</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Une opération indélicate</SOUSTITRE>
+          <SOUSTITREORIGINAL>Smooth Operators</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1989</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>12</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="406">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Shaw</NOM>
+            <PRENOM>Anthony</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="337">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lansbury</NOM>
+            <PRENOM>Angela</PRENOM>
+            <ROLE>Jessica Fletcher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30712">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Knight</NOM>
+            <PRENOM>Shirley</PRENOM>
+            <ROLE>Grace Fenton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45183">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martin</NOM>
+            <PRENOM>Barney</PRENOM>
+            <ROLE>l'inspecteur Hanratty</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1553">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Benedict</NOM>
+            <PRENOM>Dirk</PRENOM>
+            <ROLE>le docteur Latimer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Winter</NOM>
+            <PRENOM>Ed</PRENOM>
+            <ROLE>le capitaine Larson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21304">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Coster</NOM>
+            <PRENOM>Nicolas</PRENOM>
+            <ROLE>le docteur Craig Zachary</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4946">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Patrick</NOM>
+            <PRENOM>Dennis</PRENOM>
+            <ROLE>le docteur Markle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="34169">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Van Norden</NOM>
+            <PRENOM>Peter</PRENOM>
+            <ROLE>Sid Lantz</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="215408">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Siegel</NOM>
+            <PRENOM>Gerald K</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le corps d'un homme est retrouvé dans une rue de Manhattan. Il s'agit de Winston, comptable de l'hôpital Old York et ami de Jessica Fletcher.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le corps d'un vagabond retrouvé dans les bas quartiers de Manhattan est, contre toute attente, identifié comme étant celui de Winston, respectable comptable d'une clinique de luxe. Amie de l'inspecteur Hanratty chargé de l'enquête, Jessica assiste à l'interrogatoire de Grace, la fiancée de Winston, qui déclare qu'il avait l'intention de rendre publiques des irrégularités commises au sein de l'établissement...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E51563.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486589" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T12:25:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Arabesque</TITRE>
+      <SOUSTITREDIF>Chassez le naturel</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="26504" DATEMODIF="2015-10-15T02:56:52">
+        <TITREEMISSION>Arabesque</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7623">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Arabesque</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4033993">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Arabesque / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Murder, She Wrote</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Chassez le naturel</SOUSTITRE>
+          <SOUSTITREORIGINAL>Always a Thief</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1990</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>19</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="336">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Grauman</NOM>
+            <PRENOM>Walter</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="337">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lansbury</NOM>
+            <PRENOM>Angela</PRENOM>
+            <ROLE>Jessica Fletcher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16069">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Michell</NOM>
+            <PRENOM>Keith</PRENOM>
+            <ROLE>Dennis Stanton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12332">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sloyan</NOM>
+            <PRENOM>James</PRENOM>
+            <ROLE>Robert Butler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2061">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Swofford</NOM>
+            <PRENOM>Ken</PRENOM>
+            <ROLE>le lieutenant Perry Catalano</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="479">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Merrill</NOM>
+            <PRENOM>Dina</PRENOM>
+            <ROLE>Monica Douglas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30476">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Born</NOM>
+            <PRENOM>Roscoe</PRENOM>
+            <ROLE>Lanny Douglas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="144070">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Aharon</NOM>
+            <PRENOM>Ipale</PRENOM>
+            <ROLE>Mahmoud Amini</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9221">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blount</NOM>
+            <PRENOM>Lisa</PRENOM>
+            <ROLE>Andrea Bascomb Douglas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37632">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Fischer</NOM>
+            <PRENOM>Peter S</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dennis Stanton, ami de Jessica et ex-voleur de bijoux reconverti en agent d'assurances, se trouve mêlé à un meurtre commis dans la haute société...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C26504.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486590" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T13:20:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Arabesque</TITRE>
+      <SOUSTITREDIF>Un meurtre trop tentant</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="25746" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Arabesque</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7623">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Arabesque</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4033993">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Arabesque / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Murder, She Wrote</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Un meurtre trop tentant</SOUSTITRE>
+          <SOUSTITREORIGINAL>How to Make a Killing Without Really Trying</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1990</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>14</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="336">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Grauman</NOM>
+            <PRENOM>Walter</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="337">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lansbury</NOM>
+            <PRENOM>Angela</PRENOM>
+            <ROLE>Jessica Fletcher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="40811">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ivey</NOM>
+            <PRENOM>Lela</PRENOM>
+            <ROLE>Norma Pulaski</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7999">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maruzzo</NOM>
+            <PRENOM>Joe</PRENOM>
+            <ROLE>Rudy Bianco</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="680">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tighe</NOM>
+            <PRENOM>Kevin</PRENOM>
+            <ROLE>le lieutenant Moynihan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10568">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Byrnes</NOM>
+            <PRENOM>Edd</PRENOM>
+            <ROLE>Sid Cooper</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="143234">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brafa</NOM>
+            <PRENOM>Tony</PRENOM>
+            <ROLE>Gino</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3176">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brittany</NOM>
+            <PRENOM>Morgan</PRENOM>
+            <ROLE>Candice Ashcroft</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6451">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Granger</NOM>
+            <PRENOM>Farley</PRENOM>
+            <ROLE>Jerome Ashcroft</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="348486">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Leinenweber</NOM>
+            <PRENOM>Charles R</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le meurtre de Philip Royce, un courtier réputé de Wall Street, et également banquier attitré de Jessica, conduit à l'arrestation de Norma.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le meurtre de Philip Royce, un courtier réputé de Wall Street, et également banquier attitré de Jessica, conduit à l'arrestation de Norma, la secrétaire de la victime, et de son fiancé Rudy...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E25746.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486591" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T14:15:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Arabesque</TITRE>
+      <SOUSTITREDIF>L'envers du décor</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="26008" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Arabesque</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7623">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Arabesque</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4033993">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Arabesque / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Murder, She Wrote</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'envers du décor</SOUSTITRE>
+          <SOUSTITREORIGINAL>Murder According to Maggie</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1990</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>17</NUMERO>
+            <NOMBRE>22</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="235588">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Moxey</NOM>
+            <PRENOM>John Llewellyn</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="337">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lansbury</NOM>
+            <PRENOM>Angela</PRENOM>
+            <ROLE>Jessica Fletcher</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21249">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Canova</NOM>
+            <PRENOM>Diana</PRENOM>
+            <ROLE>Maggie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="20989">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hickman</NOM>
+            <PRENOM>Dwayne</PRENOM>
+            <ROLE>Brian Thursday</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4177">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thomerson</NOM>
+            <PRENOM>Tim</PRENOM>
+            <ROLE>Bert Rodgers</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6697">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Arndt</NOM>
+            <PRENOM>Denis</PRENOM>
+            <ROLE>le lieutenant Vincent Palermo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="38441">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Howard</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>le projectionniste</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39368">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Balsam</NOM>
+            <PRENOM>Talia</PRENOM>
+            <ROLE>Julie Pritzer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="143249">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Guilbert</NOM>
+            <PRENOM>Ann Morgan</PRENOM>
+            <ROLE>Harriet De Yol</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37632">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Fischer</NOM>
+            <PRENOM>Peter S</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le nouveau président d'une chaîne de télévision envisage de supprimer la diffusion d'une série à succès. Alors qu'il assiste à une projection, il est assassiné.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Brillante émule de Jessica, Maggie écrit pour la télévision les scénarios d'une série policière très prisée du public. Mais elle apprend que le nouveau PDG de la chaîne envisage de supprimer l'émission. Le producteur, Brian Thursday, désireux de le convaincre de son erreur, le convie à une projection au cours de laquelle il trouve la mort, mystérieusement assassiné...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E26008.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486592" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T15:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Walker, Texas Ranger</TITRE>
+      <SOUSTITREDIF>Danger imminent</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="28593" DATEMODIF="2017-01-11T16:39:27">
+        <TITREEMISSION>Walker, Texas Ranger</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="83215">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5260470">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Walker, Texas Ranger</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Danger imminent</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Reunion</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1994</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>22</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="3866">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Preece</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2119">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Norris</NOM>
+            <PRENOM>Chuck</PRENOM>
+            <ROLE>Cordell Walker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3867">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gilyard</NOM>
+            <PRENOM>Clarence</PRENOM>
+            <ROLE>James Trivette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298718">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilson</NOM>
+            <PRENOM>Sheree J</PRENOM>
+            <ROLE>Alex Cahill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12614">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whitman</NOM>
+            <PRENOM>Stuart</PRENOM>
+            <ROLE>Laredo Jake Boyd</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="182947">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Armstrong</NOM>
+            <PRENOM>RG</PRENOM>
+            <ROLE>Dodge</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9784">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jones</NOM>
+            <PRENOM>LQ</PRENOM>
+            <ROLE>Billy Selkirk</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="904">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kusatsu</NOM>
+            <PRENOM>Clyde</PRENOM>
+            <ROLE>le docteur Sweeney</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14340">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Masters</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>Julian Knox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="155754">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Thompson</NOM>
+            <PRENOM>Galen</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Avec l'aide d'un ami, revenu au Texas afin de venger la mort de son fils unique, Walker et Trivette découvrent l'existence d'un complot à l'encontre du sénateur Julian Knox...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E28593.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486593" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T16:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Walker, Texas Ranger</TITRE>
+      <SOUSTITREDIF>Danger imminent</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="28657" DATEMODIF="2017-01-11T16:39:29">
+        <TITREEMISSION>Walker, Texas Ranger</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="83215">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5260470">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Walker, Texas Ranger</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Danger imminent</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Reunion</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1994</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>23</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="3866">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Preece</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2119">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Norris</NOM>
+            <PRENOM>Chuck</PRENOM>
+            <ROLE>Cordell Walker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298718">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilson</NOM>
+            <PRENOM>Sheree J</PRENOM>
+            <ROLE>Alex</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14340">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Masters</NOM>
+            <PRENOM>Ben</PRENOM>
+            <ROLE>le sénateur Julian Knox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3867">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gilyard</NOM>
+            <PRENOM>Clarence</PRENOM>
+            <ROLE>James Trivette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12614">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whitman</NOM>
+            <PRENOM>Stuart</PRENOM>
+            <ROLE>Laredo Jake Boyd</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="182947">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Armstrong</NOM>
+            <PRENOM>RG</PRENOM>
+            <ROLE>Dodge</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9784">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jones</NOM>
+            <PRENOM>LQ</PRENOM>
+            <ROLE>Selkirk</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1986">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Banks</NOM>
+            <PRENOM>Jonathan</PRENOM>
+            <ROLE>Shelby Valentine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="155754">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Thompson</NOM>
+            <PRENOM>Galen</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le sénateur Knox, un coureur de jupons également connu pour son hypocrisie, essaie de gagner les faveurs d'Alex...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486594" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T17:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Walker, Texas Ranger</TITRE>
+      <SOUSTITREDIF>Les films interdits</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="33390" DATEMODIF="2017-01-11T15:04:39">
+        <TITREEMISSION>Walker, Texas Ranger</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="83215">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7125113">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Walker, Texas Ranger</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les films interdits</SOUSTITRE>
+          <SOUSTITREORIGINAL>Blue Movies</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1995</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>19</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="3866">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Preece</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2119">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Norris</NOM>
+            <PRENOM>Chuck</PRENOM>
+            <ROLE>Cordell Walker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3867">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gilyard</NOM>
+            <PRENOM>Clarence</PRENOM>
+            <ROLE>James Trivette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="81180">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Finley</NOM>
+            <PRENOM>Cameron</PRENOM>
+            <ROLE>Phil Forrester Jr</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14653">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Podewell</NOM>
+            <PRENOM>Cathy</PRENOM>
+            <ROLE>Audrey Hensley Forester</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="429">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Keel</NOM>
+            <PRENOM>Howard</PRENOM>
+            <ROLE>David Lamont Dale</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="241731">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hoy</NOM>
+            <PRENOM>Robert F</PRENOM>
+            <ROLE>le juge Radford</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="351628">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>DeRoxtra</NOM>
+            <PRENOM>Ron</PRENOM>
+            <ROLE>Philo Crane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="351629">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kennedy</NOM>
+            <PRENOM>Allen</PRENOM>
+            <ROLE>Squiggy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="141870">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Clements Jr</NOM>
+            <PRENOM>Calvin</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Walker tente de prouver qu'une personnalité de la ville est à l'origine de malversations financières, mais ses affirmations ne sont pas prises au sérieux.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Walker met tout en oeuvre pour prouver qu'une personnalité de la ville est à l'origine de malversations financières, mais ses affirmations sont remises en question...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C33390.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486595" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T18:00:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Walker, Texas Ranger</TITRE>
+      <SOUSTITREDIF>Mustangs en danger</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="20919" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Walker, Texas Ranger</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="83215">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7125113">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Walker, Texas Ranger</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mustangs en danger</SOUSTITRE>
+          <SOUSTITREORIGINAL>Mustangs</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1994</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="3868">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Mordente</NOM>
+            <PRENOM>Tony</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2119">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Norris</NOM>
+            <PRENOM>Chuck</PRENOM>
+            <ROLE>Cordell Walker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3867">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gilyard</NOM>
+            <PRENOM>Clarence</PRENOM>
+            <ROLE>James Trivette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298718">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilson</NOM>
+            <PRENOM>Sheree J</PRENOM>
+            <ROLE>Alex Cahill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1854">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Willingham</NOM>
+            <PRENOM>Noble</PRENOM>
+            <ROLE>CD Parker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="261106">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Westerman</NOM>
+            <PRENOM>Floyd</PRENOM>
+            <ROLE>Ray Firewalker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="202790">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Haynes</NOM>
+            <PRENOM>Jerry</PRENOM>
+            <ROLE>Hank Sweet</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="31886">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morrison</NOM>
+            <PRENOM>James</PRENOM>
+            <ROLE>Ned Travis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="261608">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Short</NOM>
+            <PRENOM>Sylvia</PRENOM>
+            <ROLE>Thelma Beck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="143527">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Dawson</NOM>
+            <PRENOM>Gordon T</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Deux éleveurs de bétail décident d'exterminer des chevaux sauvages qui traversent régulièrement leur propriété...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E20919.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486596" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T18:55:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Walker, Texas Ranger</TITRE>
+      <SOUSTITREDIF>Suspecté de vol</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="30490" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Walker, Texas Ranger</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="83215">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7125113">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Walker, Texas Ranger</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Suspecté de vol</SOUSTITRE>
+          <SOUSTITREORIGINAL>Trust No One</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1995</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>18</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="3868">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Mordente</NOM>
+            <PRENOM>Tony</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2119">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Norris</NOM>
+            <PRENOM>Chuck</PRENOM>
+            <ROLE>Cordell Walker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3867">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gilyard</NOM>
+            <PRENOM>Clarence</PRENOM>
+            <ROLE>James Trivette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298718">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilson</NOM>
+            <PRENOM>Sheree J</PRENOM>
+            <ROLE>Alex Cahill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7135">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hancock</NOM>
+            <PRENOM>Lou</PRENOM>
+            <ROLE>Mabel Shoop</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1980">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Culp</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Lyle Pike</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35976">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blocker</NOM>
+            <PRENOM>Dirk</PRENOM>
+            <ROLE>Buford Pike</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="57855">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chappell</NOM>
+            <PRENOM>Crystal</PRENOM>
+            <ROLE>Stacy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="23945">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frank</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Ron Packwood</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279451">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Kelbaugh</NOM>
+            <PRENOM>Rick</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Trivette est soupçonné d'être l'auteur d'un vol de cinq millions de dollars en petites coupures...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C30490.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486597" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T19:55:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Walker, Texas Ranger</TITRE>
+      <SOUSTITREDIF>Colère dans les rues</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="32095" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Walker, Texas Ranger</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="83215">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7329112">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Walker, Texas Ranger / 4</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Walker, Texas Ranger</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Colère dans les rues</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Covenant</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1995</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>26</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="3868">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Mordente</NOM>
+            <PRENOM>Tony</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2119">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Norris</NOM>
+            <PRENOM>Chuck</PRENOM>
+            <ROLE>Cordell Walker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="181904">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chudabala</NOM>
+            <PRENOM>Art</PRENOM>
+            <ROLE>Guzman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="251974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Navarro</NOM>
+            <PRENOM>Demetrius</PRENOM>
+            <ROLE>Sonny Portillo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="36811">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Labiosa</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>l'inspecteur Sal Ochoa</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="352470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rodriguez</NOM>
+            <PRENOM>Roland</PRENOM>
+            <ROLE>Paco Ortiz</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3867">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gilyard</NOM>
+            <PRENOM>Clarence</PRENOM>
+            <ROLE>James Trivette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298718">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilson</NOM>
+            <PRENOM>Sheree J</PRENOM>
+            <ROLE>Alex Cahill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1854">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Willingham</NOM>
+            <PRENOM>Noble</PRENOM>
+            <ROLE>CD Parker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="155754">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Thompson</NOM>
+            <PRENOM>Galen</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un jeune karatéka rejoint un gang dans l'intention de venger son père, blessé au cours d'une fusillade...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C32095.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486598" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T20:50:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Section de recherches</TITRE>
+      <SOUSTITREDIF>Entre toi et moi</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="37650427" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Section de recherches</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="261297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Section de recherches</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8318914">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Section de recherches / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Entre toi et moi</SOUSTITRE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="124622">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lemoine</NOM>
+            <PRENOM>Delphine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deluc</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Martin Bernier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279026">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caliari</NOM>
+            <PRENOM>Virginie</PRENOM>
+            <ROLE>Mathilde Delmas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Labaude</NOM>
+            <PRENOM>Chrystelle</PRENOM>
+            <ROLE>Nadia Angeli</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Enzo Ghemara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171288">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Du Jeu</NOM>
+            <PRENOM>Félicité</PRENOM>
+            <ROLE>Fanny Caradec</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="301821">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cabot</NOM>
+            <PRENOM>Morgane</PRENOM>
+            <ROLE>Juliette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="591989">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Corrion</NOM>
+            <PRENOM>Thibaut</PRENOM>
+            <ROLE>Nicolas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="191299">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacoste</NOM>
+            <PRENOM>Jean-Pascal</PRENOM>
+            <ROLE>Luc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="185952">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Le Pezennec</NOM>
+            <PRENOM>Marie-Anne</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La section de recherches est mobilisée pour en savoir plus sur la mort d'un jeune chanteur à succès, qui a laissé un message pour s'accuser d'un meurtre.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Yohann, jeune star de la chanson, est retrouvé sans vie dans le port de Bordeaux. Or, juste avant de mourir, il a laissé un message dans lequel il s'accuse d'un meurtre. Qui est sa victime ? Est-ce cette mystérieuse jeune fille qui l'a rejoint la veille ? Que s'est-il vraiment passé entre eux ? Toute la section de recherches est mobilisée pour tenter d'en savoir plus sur cette affaire. Pour progresser, les enquêteurs doivent absolument découvrir l'identité de la jeune fille. Le message de Yohann est analysé avec la plus grande précision. Mais cet indice est loin d'être suffisant pour espérer résoudre le mystère...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E37650427.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486599" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T21:55:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Section de recherches</TITRE>
+      <SOUSTITREDIF>Matador</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="37650428" DATEMODIF="2017-03-08T10:48:03">
+        <TITREEMISSION>Section de recherches</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="261297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Section de recherches</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8318914">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Section de recherches / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Matador</SOUSTITRE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>10</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="80209">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Le Roux</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deluc</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Martin Bernier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279026">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caliari</NOM>
+            <PRENOM>Virginie</PRENOM>
+            <ROLE>Mathilde Delmas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Labaude</NOM>
+            <PRENOM>Chrystelle</PRENOM>
+            <ROLE>Nadia Angeli</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Enzo Ghemara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171288">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Du Jeu</NOM>
+            <PRENOM>Félicité</PRENOM>
+            <ROLE>Fanny Caradec</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="339043">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lescarret</NOM>
+            <PRENOM>Julien</PRENOM>
+            <ROLE>El Vasco</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="63507">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Colombe</NOM>
+            <PRENOM>Vincent</PRENOM>
+            <ROLE>Eric</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="521013">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Corbet</NOM>
+            <PRENOM>France</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune matador est retrouvé mort dans la chapelle des arènes de Dax, la nuit de la naissance de son enfant. A-t-il été victime d'un commando anti-corrida ?</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A Dax, petite commune située dans les Landes, dans le Sud-Ouest de la France, la tauromachie est un sport développé. Un matin, un jeune matador est retrouvé mort dans la chapelle des arènes de la ville. Il a une puntilla, un poignard à lame courte destiné à achever le taureau à la fin d'une corrida, plantée dans la nuque. La nuit où il allait être père, il a été exécuté comme un animal dans l'arène. Les enquêteurs se rendent sur place et commencent leur travail. Ils se demandent si ce meurtre est l'oeuvre d'un fanatique anti-corrida ou une mise en scène destinée à brouiller les pistes...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E37650428.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486600" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-16T23:00:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Section de recherches</TITRE>
+      <SOUSTITREDIF>A la dérive</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="36668827" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>Section de recherches</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="261297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Section de recherches</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8318914">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Section de recherches / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>A la dérive</SOUSTITRE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="80209">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Le Roux</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deluc</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Martin Bernier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279026">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caliari</NOM>
+            <PRENOM>Virginie</PRENOM>
+            <ROLE>Mathilde Delmas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Labaude</NOM>
+            <PRENOM>Chrystelle</PRENOM>
+            <ROLE>Nadia Angeli</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Enzo Ghemara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171288">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Du Jeu</NOM>
+            <PRENOM>Félicité</PRENOM>
+            <ROLE>Fanny Caradec</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="191299">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacoste</NOM>
+            <PRENOM>Jean-Pascal</PRENOM>
+            <ROLE>Luc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="131126">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montiel</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>le procureur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9108">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stanczak</NOM>
+            <PRENOM>Wadeck</PRENOM>
+            <ROLE>Jean-Paul Renoir</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="392671">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Fadini</NOM>
+            <PRENOM>Valérie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors que tout le monde le pensait parti pour refaire sa vie, un officier de la police judiciaire est retrouvé sous les fondations d'une piscine.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un squelette a été mis au jour sous les fondations d'une piscine. La macabre découverte a eu lieu dans une luxueuse résidence. L'autopsie révèle qu'il s'agit d'un officier de la police judiciaire, un homme qui avait disparu. Tout le monde pensait qu'il avait choisi de tirer sa révérence volontairement : il avait en effet annoncé qu'il voulait changer de vie. Et sa compagne le soupçonnait d'entretenir une liaison amoureuse avec une autre femme. La victime a été tuée avec une balle du même calibre que son arme de service. Que s'est-il passé ? S'est-il suicidé ou a-t-il été tué ? L'enquête débute...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E36668827.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486601" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-17T00:05:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Section de recherches</TITRE>
+      <SOUSTITREDIF>L'homme aux deux visages</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="36904068" DATEMODIF="2017-05-30T16:31:06">
+        <TITREEMISSION>Section de recherches</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="261297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Section de recherches</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="8318914">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Section de recherches / 6</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'homme aux deux visages</SOUSTITRE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="27248">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Thérin</NOM>
+            <PRENOM>Jean-Marc</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deluc</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Martin Bernier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279026">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caliari</NOM>
+            <PRENOM>Virginie</PRENOM>
+            <ROLE>Mathilde Delmas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Labaude</NOM>
+            <PRENOM>Chrystelle</PRENOM>
+            <ROLE>Nadia Angeli</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Enzo Ghemara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171288">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Du Jeu</NOM>
+            <PRENOM>Félicité</PRENOM>
+            <ROLE>Fanny Caradec</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="191299">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacoste</NOM>
+            <PRENOM>Jean-Pascal</PRENOM>
+            <ROLE>Luc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="131126">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montiel</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>le procureur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="319340">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mollien</NOM>
+            <PRENOM>Elsa</PRENOM>
+            <ROLE>Elsa / Estelle Van Loo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="185952">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Le Pezennec</NOM>
+            <PRENOM>Marie-Anne</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Deux femmes prétendent connaître l'identité d'un homme repêché près d'une écluse, mais chacune présente un portrait très différent de la victime.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le corps d'un homme est repêché dans une écluse. La victime est François Roussel, un homme d'affaires de 45 ans domicilié à Bordeaux. Autour du cadavre, deux femmes s'affrontent. Son épouse dépeint un grand patron, à la tête d'une vaste imprimerie comptant 80 employés, disparu après avoir détourné un million d'euros. L'homme aurait abandonné sa famille en même temps que ses affaires. Sa nouvelle compagne dresse quant à elle un tout autre portrait, celui d'un SDF devenu menuisier et bénévole à la soupe populaire. Un homme, deux visages, une double vie pour une victime. Où se trouve la vérité ?...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E36904068.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486602" DATEMODIF="2018-01-23T17:49:00">
+      <DATEHEURE>2018-02-17T01:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Section de recherches</TITRE>
+      <SOUSTITREDIF>Hors-jeu</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="24240065" DATEMODIF="2017-11-29T09:28:56">
+        <TITREEMISSION>Section de recherches</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="261297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Section de recherches</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5766686">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Section de recherches / 5</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Hors-jeu</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2010</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>14</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="80209">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Le Roux</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="153667">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Delorme</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Bruno Tardieu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5695">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deluc</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Martin Bernier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="279026">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caliari</NOM>
+            <PRENOM>Virginie</PRENOM>
+            <ROLE>Mathilde Delmas</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14419">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Labaude</NOM>
+            <PRENOM>Chrystelle</PRENOM>
+            <ROLE>Nadia Angéli</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belghazi</NOM>
+            <PRENOM>Kamel</PRENOM>
+            <ROLE>Enzo Ghemara</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171288">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Du Jeu</NOM>
+            <PRENOM>Félicité</PRENOM>
+            <ROLE>Fanny Caradec</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="131126">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montiel</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>le procureur</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="191299">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacoste</NOM>
+            <PRENOM>Jean-Pascal</PRENOM>
+            <ROLE>Luc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="153667">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Delorme</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Bruno Tardieu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3111">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Jamet</NOM>
+            <PRENOM>Nicole</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une ancienne gloire du rugby bordelais a été assassinée : les agents mènent l'enquête afin de savoir si l'entourage de la victime est lié au crime.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Bruno Tardieu, ancienne gloire du rugby bordelais, devenu aveugle à la suite d'un accident, est assassiné dans la rue, en plein jour. Son courage pour surmonter son handicap était salué de tous. Qui a pu commettre un crime aussi odieux ? Les policiers commencent par enquêter sur les relations de la victime afin de savoir si, dans son entourage, quelqu'un lui en voulait particulièrement. Ils tentent également de déterminer si le meurtre de Bruno Tardieu pourrait être lié, d'une manière ou d'une autre, à son accident. Malgré tous leurs efforts, les agents doivent bien avouer que les pistes sont peu nombreuses...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E24240065.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171486706" DATEMODIF="2018-01-23T17:49:01">
+      <DATEHEURE>2018-02-17T02:05:00</DATEHEURE>
+      <DUREE>250</DUREE>
+      <TITRE>Interruption des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125510245" DATEMODIF="2018-01-23T17:49:00">
+        <TITREEMISSION>Interruption des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

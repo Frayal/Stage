@@ -1,0 +1,938 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:52:22-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="445">
+    <NOMCHAINE>C8</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-17">
+    <DIFFUSION CLEDIF="171863588" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T06:30:00</DATEHEURE>
+      <DUREE>150</DUREE>
+      <TITRE>Télé-achat</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125790662" DATEMODIF="2018-02-07T10:14:36">
+        <TITREEMISSION>Télé-achat</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="425" GENRESIMPLE="Magazine de services">Magazine de télé-achat</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6984">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Télé-achat</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Pour faire les boutiques sans sortir de chez soi.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171871601" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T09:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Direct Auto</TITRE>
+      <SOUSTITREDIF>Spécial montagne : Direct Auto part à L'Alpe d'Huez !</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125264385" DATEMODIF="2018-01-17T08:51:48">
+        <TITREEMISSION>Direct Auto</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="383" GENRESIMPLE="Magazine de société">Magazine de l'automobile</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6628">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Direct Auto</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Spécial montagne : Direct Auto part à L'Alpe d'Huez !</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="340226">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Galiffi</NOM>
+            <PRENOM>Grégory</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Des limousines ultra-technologiques aux SUV branchés en passant par des engins insolites, Grégory Galiffi et son équipe testent différents véhicules.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125264385.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171871602" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T10:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Direct Auto Express</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125772427" DATEMODIF="2018-02-07T10:14:36">
+        <TITREEMISSION>Direct Auto Express</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="383" GENRESIMPLE="Magazine de société">Magazine de l'automobile</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="7377159">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Direct Auto express</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une sélection des meilleurs reportages de «Direct Auto».</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125772427.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171871603" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T11:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Direct Auto</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125772425" DATEMODIF="2018-01-31T08:50:14">
+        <TITREEMISSION>Direct Auto</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="383" GENRESIMPLE="Magazine de société">Magazine de l'automobile</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6628">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Direct Auto</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="340226">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Galiffi</NOM>
+            <PRENOM>Grégory</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>Match Mercedes AMG GTR vs Honda NSX</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Renault Symbioz : la routière du futur !</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Volkswagen ID Buzz : le prochain combi !</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Camions, tracteurs... les machines du futur !</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>Retour vers le futur : les concepts français qui ont marqué l'histoire !</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125772425.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171871604" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T12:00:00</DATEHEURE>
+      <DUREE>85</DUREE>
+      <TITRE>Direct Auto Express</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125772428" DATEMODIF="2018-02-07T10:14:36">
+        <TITREEMISSION>Direct Auto Express</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="383" GENRESIMPLE="Magazine de société">Magazine de l'automobile</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="7377159">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Direct Auto express</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Une sélection des meilleurs reportages de «Direct Auto».</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125772428.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171871605" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T13:25:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>JT</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125772440" DATEMODIF="2018-02-07T10:14:36">
+        <TITREEMISSION>JT</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22154718">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / JT</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171871606" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T13:35:00</DATEHEURE>
+      <DUREE>105</DUREE>
+      <TITRE>Quand ma vie bascule</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="11298017" DATEMODIF="2017-05-31T14:01:14">
+        <TITREEMISSION>Quand ma vie bascule</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="322" GENRESIMPLE="Téléfilm de suspense">Téléfilm de suspense</GENRE>
+        <NATIONALITE CLE="16">
+          <PAYS>Etats-Unis - Canada</PAYS>
+          <LIBELLE>américano-canadien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Reckless Behavior : Caught on Tape / Stolen Life</TITREORIGINAL>
+          <ANNEEREALISATION>2007</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="4161">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Wrye</NOM>
+            <PRENOM>Donald</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="586357">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Annable</NOM>
+            <PRENOM>Odette</PRENOM>
+            <ROLE>Emma Norman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="331965">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sabato Jr</NOM>
+            <PRENOM>Antonio</PRENOM>
+            <ROLE>Greg Vlasi</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="473313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alexander</NOM>
+            <PRENOM>Tobias Jack</PRENOM>
+            <ROLE>Jimmy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="473314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Barker</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>David</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="543436">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Banks</NOM>
+            <PRENOM>Hannah</PRENOM>
+            <ROLE>Stefanie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="543437">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marshall</NOM>
+            <PRENOM>Hannah</PRENOM>
+            <ROLE>Lori</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="473317">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Edward</NOM>
+            <PRENOM>Mike</PRENOM>
+            <ROLE>Nick Bronson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="90031">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bruce</NOM>
+            <PRENOM>Alison</PRENOM>
+            <ROLE>madame Leister</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La vie d'une jeune enseignante devient un véritable enfer quand un inconnu diffuse sur Internet une fausse vidéo pornographique la mettant en scène.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En vacances dans une station balnéaire californienne, Emma Norman et ses amies, Lori et Stefanie, rencontrent le charmant Greg Vlasi. A son retour chez elle, Emma a la désagréable surprise de découvrir qu'une vidéo pornographique la mettant en scène circule sur Internet. Elle soupçonne Greg d'être à l'origine de ce film. En effet, celui-ci l'avait prise en photo sur la plage alors qu'elle était dans un état d'ébriété avancé. Il a visiblement retravaillé et truqué la vidéo avant de la mettre en ligne. Emma, qui est enseignante, doit affronter le jugement de ses proches. Renvoyée de l'école, elle est également abandonnée par David, son petit ami...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E11298017.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171871607" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T15:20:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>La voix de l'innocence</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="3964865" DATEMODIF="2016-09-13T09:39:36">
+        <TITREEMISSION>La voix de l'innocence</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="322" GENRESIMPLE="Téléfilm de suspense">Téléfilm de suspense</GENRE>
+        <NATIONALITE CLE="16">
+          <PAYS>Etats-Unis - Canada</PAYS>
+          <LIBELLE>américano-canadien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Plain Truth</TITREORIGINAL>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="12592">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Shapiro</NOM>
+            <PRENOM>Paul</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Ellie Harrison</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="81894">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pill</NOM>
+            <PRENOM>Alison</PRENOM>
+            <ROLE>Katie Fitch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8572">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Trotter</NOM>
+            <PRENOM>Kate</PRENOM>
+            <ROLE>Sarah Fitch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239237">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McClure</NOM>
+            <PRENOM>Alec</PRENOM>
+            <ROLE>Jacob Fitch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="323870">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martin-Smith</NOM>
+            <PRENOM>Andrew</PRENOM>
+            <ROLE>Samuel Stoflus</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="80919">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bockstael</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>George Calloway</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="72824">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hughes</NOM>
+            <PRENOM>Laura Leigh</PRENOM>
+            <ROLE>Lisa Munro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106242">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Akerman</NOM>
+            <PRENOM>Jeremy</PRENOM>
+            <ROLE>le juge</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="242774">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Laferrière</NOM>
+            <PRENOM>Yves</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une brillante avocate accepte de défendre une jeune Amish accusée d'avoir tué l'homme dont le cadavre a été retrouvé dans une ferme de la communauté.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un cadavre a été retrouvé dans une ferme d'une communauté amish de Pennsylvanie. Cette découverte bouleverse profondément la vie des paysans amish, confrontés à la violence de cet acte et à l'intrusion brutale de la société urbanisée dans leur monde paisible par l'arrivée des forces de l'ordre chargées de l'enquête. Les inspecteurs, quant à eux, restent perplexes : comment la victime a-t-elle été tuée ? Pourtant, rapidement, la police annonce qu'elle tient un suspect en la personne d'une jeune femme, Katie Fitch, membre de la communauté. Ellie, une brillante avocate, décide de défendre Katie. Elle se rend sur place et s'immerge dans cet univers étrange, dont elle ne connaît ni les règles, ni les usages...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Enquête dans une communauté amish : forcément intéressant !</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E3964865.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171871608" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T16:55:00</DATEHEURE>
+      <DUREE>130</DUREE>
+      <TITRE>Le long combat de Jane Doe</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="10898441" DATEMODIF="2017-06-17T23:19:12">
+        <TITREEMISSION>Le long combat de Jane Doe</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="324" GENRESIMPLE="Téléfilm dramatique">Téléfilm dramatique</GENRE>
+        <NATIONALITE CLE="158">
+          <PAYS>Canada - Grande-Bretagne</PAYS>
+          <LIBELLE>canado-britannique</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The Many Trials of One Jane Doe</TITREORIGINAL>
+          <ANNEEREALISATION>2002</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>105</DUREEEMI>
+          <APPRECIATION>0</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="8443">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Ciccoritti</NOM>
+            <PRENOM>Jerry</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="4732">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Crewson</NOM>
+            <PRENOM>Wendy</PRENOM>
+            <ROLE>Jane Doe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37925">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mackintosh</NOM>
+            <PRENOM>Steven</PRENOM>
+            <ROLE>Sean Dewart</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="467371">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Constible</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Cynthia Petersen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16745">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tierney</NOM>
+            <PRENOM>Jacob</PRENOM>
+            <ROLE>Eric Golden</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21641">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lewis</NOM>
+            <PRENOM>Gary</PRENOM>
+            <ROLE>Jeremy Sharp</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="82043">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Peterson</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>le docteur Daniels</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="119009">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whittaker</NOM>
+            <PRENOM>Jonathon</PRENOM>
+            <ROLE>Jim Hodgeson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="303305">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Holden-Ried</NOM>
+            <PRENOM>Kristen</PRENOM>
+            <ROLE>Harold Beckwith</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Victime d'un viol, une femme découvre que son agresseur n'en était pas à son coup d'essai et décide de porter plainte contre la police pour négligence.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Après avoir été violée, Jane Doe refuse d'être considérée comme une victime. En effet, elle a découvert que quatre femmes avant elle ont été agressées par le même homme et dans le même quartier. Bien qu'informée de l'idendité du violeur, la police n'a pas jugé utile d'en informer la population. Hors d'elle, Jane porte plainte contre les forces de l'ordre pour négligence ; un procès très médiatisé s'ensuit...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171871609" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T19:05:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Salut les Terriens !</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125772451" DATEMODIF="2018-01-30T18:10:01">
+        <TITREEMISSION>Salut les Terriens !</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2184454">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Salut les Terriens !</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="120649">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Ardisson</NOM>
+            <PRENOM>Thierry</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="84472">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Baffie</NOM>
+            <PRENOM>Laurent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="154226">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Blakowski</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="594391">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Villa</NOM>
+            <PRENOM>Tom</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="541366">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Vizorek</NOM>
+            <PRENOM>Alex</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Cinéma, chanson, théâtre, sport, mode, littérature et médias : Thierry Ardisson passe l'actualité culturelle à la moulinette et propose, marque de fabrique oblige, des interviews vérité et des questionnaires personnalisés à ses invités. L'homme en noir est entouré de ses fidèles chroniqueurs : Laurent Baffie, Stéphane Blakowski, Tom Villa, et Alex Vizorek.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125772451.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171863598" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T21:00:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <SURTITRE>Soirée spéciale Mathieu Madénian</SURTITRE>
+      <TITRE>Mathieu Madénian «En état d'urgence»</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121673951" DATEMODIF="2018-01-31T15:35:55">
+        <TITREEMISSION>Mathieu Madénian «En état d'urgence»</TITREEMISSION>
+        <FORMAT CLE="11">Spectacle</FORMAT>
+        <GENRE CLE="1115" GENRESIMPLE="Spectacle">One man show</GENRE>
+        <CS>
+          <LIEUENREGISTREMENT>Au Bataclan, à Paris, le 21 octobre 2017</LIEUENREGISTREMENT>
+        </CS>
+        <LESPERSONNES>
+          <PERSONNE CLE="429664">
+            <FONCTION>Interprète</FONCTION>
+            <NOM>Madénian</NOM>
+            <PRENOM>Mathieu</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="105">
+            <LETEXTE>Mise en scène de Kader Aoun.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans ce monologue aux accents pagnolesques, Mathieu Madénian raconte les péripéties de son quotidien. De ses déboires amoureux d'éternel adolescent presque marié à ses aventures médiatiques qui l'ont conduit du canapé de Michel Drucker aux colonnes de Charlie Hebdo, tout est prétexte à rire pour ce roi de l'autodérision. Il sait saisir ce qu'il y a d'universel dans chacune de ses histoires personnelles et réussit à parler de la vie de chacun simplement en racontant la sienne.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E121673951.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171863599" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-17T22:40:00</DATEHEURE>
+      <DUREE>140</DUREE>
+      <SURTITRE>Soirée spéciale Mathieu Madénian</SURTITRE>
+      <TITRE>Mathieu Madénian au Palace</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="95513474" DATEMODIF="2018-01-17T11:50:06">
+        <TITREEMISSION>Mathieu Madénian «One Man Show»</TITREEMISSION>
+        <FORMAT CLE="11">Spectacle</FORMAT>
+        <GENRE CLE="1115" GENRESIMPLE="Spectacle">One man show</GENRE>
+        <CS>
+          <LIEUENREGISTREMENT>au Palace, le 6 juin 2015</LIEUENREGISTREMENT>
+        </CS>
+        <LESPERSONNES>
+          <PERSONNE CLE="429664">
+            <FONCTION>Interprète</FONCTION>
+            <NOM>Madénian</NOM>
+            <PRENOM>Mathieu</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="105">
+            <LETEXTE>Mise en scène : Kader Aoun.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Bien connu pour ses interventions à la radio et à la télévision, Mathieu Madénian se produit également régulièrement sur scène. L'humoriste n'a besoin que d'un tabouret et d'un micro pour laisser libre cours à sa verve. Ses ex, le métro parisien, l'émission «Fort Boyard», sa grand-mère, ses parents, le pape Benoît XVI, les écologistes, Franck Ribéry, la communauté arménienne, une fraction non négligeable de la population féminine de Metz : tout le monde en prend pour son grade.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E95513474.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171871610" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-18T01:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>E-Sports European League</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>L'élite des joueurs professionnels et amateurs s'affrontent sur de célèbres jeux vidéo pour tenter de décrocher le titre de champion et un chèque de 20 000 euros.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125772429" DATEMODIF="2018-01-30T18:07:04">
+        <TITREEMISSION>E-Sports European League</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="1137" GENRESIMPLE="Magazine sportif">e-sport</GENRE>
+        <SPORT />
+        <PHOTO>IPTV_C125772429.jpg</PHOTO>
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="1250104">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Anav</NOM>
+          <PRENOM>Capucine</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171863601" DATEMODIF="2018-02-07T10:14:36">
+      <DATEHEURE>2018-02-18T02:00:00</DATEHEURE>
+      <DUREE>300</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125767018" DATEMODIF="2018-01-30T16:05:53">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

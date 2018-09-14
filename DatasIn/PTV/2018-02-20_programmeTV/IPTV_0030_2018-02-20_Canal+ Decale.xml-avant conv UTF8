@@ -1,0 +1,2627 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:54:04-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="30">
+    <NOMCHAINE>Canal+ Décalé</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-20">
+    <DIFFUSION CLEDIF="171658427" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T08:10:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Album de la semaine +</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125392194" DATEMODIF="2018-02-06T10:43:40">
+        <TITREEMISSION>Album de la semaine +</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="412" GENRESIMPLE="Magazine culturel">Magazine musical</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="10395112">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Album de la semaine +</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="105281">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Saunier</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Du rap au métal en passant par le rock, le blues ou la pop, ce rendez-vous musical part à la rencontre d'artistes qui débutent ou de groupes confirmés qui sont au coeur de l'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125392194.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170679993" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T08:15:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Made in Groland</TITRE>
+      <SOUSTITREDIF>Best of</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="107788193" DATEMODIF="2016-08-05T11:35:58">
+        <TITREEMISSION>Made in Groland</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9178495">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Made in Groland</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Best of</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="126214">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Moustic</NOM>
+            <PRENOM>Jules-Edouard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232103">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>De Daddy</NOM>
+            <PRENOM>Chiara</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Depuis plus de vingt ans, la présipauté de Groland propose un journal décalé qui se penche sur l'actualité du monde tel qu'il ne va pas. Epaulés par une équipe de reporters trublions, le présentateur vedette Jules-Edouard Moustic et sa coprésentatrice Chiara De Daddy analysent avec un sérieux tout relatif les grands événements de la semaine dans la présipauté et dans le reste du monde.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C107788193.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170679994" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T08:45:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Made in Groland</TITRE>
+      <SOUSTITREDIF>Best of</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="107575470" DATEMODIF="2016-07-29T11:07:03">
+        <TITREEMISSION>Made in Groland</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9178495">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Made in Groland</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Best of</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="126214">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Moustic</NOM>
+            <PRENOM>Jules-Edouard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232103">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>De Daddy</NOM>
+            <PRENOM>Chiara</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Depuis plus de vingt ans, la présipauté de Groland propose un journal décalé qui se penche sur l'actualité du monde tel qu'il ne va pas. Epaulés par une équipe de reporters trublions, le présentateur vedette Jules-Edouard Moustic et sa coprésentatrice Chiara De Daddy analysent avec un sérieux tout relatif les grands événements de la semaine dans la présipauté et dans le reste du monde.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C107575470.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658428" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T09:15:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>The Tonight Show Starring Jimmy Fallon</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623887" DATEMODIF="2018-01-26T11:01:42">
+        <TITREEMISSION>The Tonight Show Starring Jimmy Fallon</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14284100">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / The Tonight Show Starring Jimmy Fallon</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="261045">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Fallon</NOM>
+            <PRENOM>Jimmy</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec son élégance habituelle, Jimmy Fallon s'empare de sujets de société au fil de sketches mettant en scène des invités de renom. A chaque fois, des performances musicales rythment cette émission empreinte d'un humour joyeusement décalé.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623887.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170679996" DATEMODIF="2018-02-07T03:00:05">
+      <DATEHEURE>2018-02-20T10:00:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Hard Sun</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977115" DATEMODIF="2018-02-02T16:55:46">
+        <TITREEMISSION>Hard Sun</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29943305">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Hard Sun</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29943280">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Hard Sun / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Hard Sun</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="157891">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kirk</NOM>
+            <PRENOM>Brian</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="302902">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sturgess</NOM>
+            <PRENOM>Jim</PRENOM>
+            <ROLE>Charlie Hicks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="628632">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deyn</NOM>
+            <PRENOM>Agyness</PRENOM>
+            <ROLE>Elaine Renko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="268299">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Amuka-Bird</NOM>
+            <PRENOM>Nikki</PRENOM>
+            <ROLE>Grace Morrigan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="262878">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Riddell</NOM>
+            <PRENOM>Derek</PRENOM>
+            <ROLE>Roland Bell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="615069">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bea</NOM>
+            <PRENOM>Aisling</PRENOM>
+            <ROLE>Mari Butler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22011">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reed</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Sunny Ramachandran</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365328">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agnew</NOM>
+            <PRENOM>Stephen</PRENOM>
+            <ROLE>James Nimmo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1362995">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macari</NOM>
+            <PRENOM>Jojo</PRENOM>
+            <ROLE>Daniel Renko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="302032">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cross</NOM>
+            <PRENOM>Neil</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Deux inspecteurs de police sont amenés à faire équipe. Leur enquête sur la mort d'un pirate informatique les met sur la piste d'un incroyable secret.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'inspectrice de police Elaine Renko est amenée à faire équipe avec Charlie Hicks, qui a perdu son partenaire dans une fusillade. Ensemble, ils enquêtent sur la mort d'un pirate informatique, Lloyd Hammond. Très vite, le dossier Hammond s'avère explosif : un de ses amis informaticiens leur révèle que Lloyd avait fait une découverte incroyable. Une information qui vaut aux deux policiers d'être pris pour cibles par un tueur...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124977115.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170679997" DATEMODIF="2018-02-07T03:00:05">
+      <DATEHEURE>2018-02-20T10:55:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Hard Sun</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977123" DATEMODIF="2018-02-02T16:55:48">
+        <TITREEMISSION>Hard Sun</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29943305">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Hard Sun</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29943280">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Hard Sun / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Hard Sun</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="157891">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kirk</NOM>
+            <PRENOM>Brian</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="302902">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sturgess</NOM>
+            <PRENOM>Jim</PRENOM>
+            <ROLE>Charlie Hicks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="628632">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deyn</NOM>
+            <PRENOM>Agyness</PRENOM>
+            <ROLE>Elaine Renko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="268299">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Amuka-Bird</NOM>
+            <PRENOM>Nikki</PRENOM>
+            <ROLE>Grace Morrigan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="262878">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Riddell</NOM>
+            <PRENOM>Derek</PRENOM>
+            <ROLE>Roland Bell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1362995">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macari</NOM>
+            <PRENOM>Jojo</PRENOM>
+            <ROLE>Daniel Renko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="388761">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Burroughs</NOM>
+            <PRENOM>Lorraine</PRENOM>
+            <ROLE>Simone Hicks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="615069">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bea</NOM>
+            <PRENOM>Aisling</PRENOM>
+            <ROLE>Mari Butler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1216638">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alexander</NOM>
+            <PRENOM>Kae</PRENOM>
+            <ROLE>Angie Jones</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="302032">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cross</NOM>
+            <PRENOM>Neil</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Charlie échappe aux services secrets qui veulent le disque dur et enquête, avec Elaine, sur le meurtre de deux directeurs d'une agence de communication.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Charlie, effaré par sa découverte, contacte Grace Morrigan, agent des services secrets. Cette dernière le fait enlever pour récupérer le disque dur contenant ses informations. Parallèlement, Elaine persuade la presse de publier le dossier. Une enquête est en cours sur les meurtres de Dominic Vaughan et Sabina Kesinovic, qui dirigaient une agence de communication avec une associée. Pendant ce temps, Daniel reçoit une visite dans le service psychiatrique où il est interné...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124977123.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170679998" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T11:50:00</DATEHEURE>
+      <DUREE>56</DUREE>
+      <TITRE>L'effet papillon</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977176" DATEMODIF="2018-01-09T11:03:43">
+        <TITREEMISSION>L'effet papillon</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2058687">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'effet papillon</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="161949">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Roulier</NOM>
+            <PRENOM>Daphné</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Fidèle à son slogan, «Ce qui arrive aux uns a toujours des conséquences pour d'autres...», le magazine de l'actualité internationale propose un voyage à destination des endroits de la planète où il se passe quelque chose qui pourrait bien avoir des répercussions sur l'ensemble de la population mondiale. En plateau, Daphné Roulier reçoit le journaliste à l'origine du reportage diffusé pour évoquer le sujet proposé. Egalement au programme, le traditionnel biopic qui dresse le portrait d'une personnalité internationale qui fait l'actualité du moment et les rubriques et séries habituelles, «Comment j'ai pécho» et «Dictature Tour et Fuck le système».</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124977176.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170679999" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T12:46:00</DATEHEURE>
+      <DUREE>4</DUREE>
+      <TITRE>Cette semaine madame</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123261487" DATEMODIF="2017-11-17T11:19:34">
+        <TITREEMISSION>Cette semaine madame</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27971850">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Cette semaine madame</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1322730">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Seclin</NOM>
+            <PRENOM>Marion</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Marion Seclin examine l'actualité sous un angle faussement féminin et réellement féministe : une parodie qui joue avec les codes des médias.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123261487.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658429" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T12:50:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Canalbis</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380838" DATEMODIF="2018-01-23T08:17:51">
+        <TITREEMISSION>Canalbis</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27427778">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Canalbis</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1347375">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Jordi</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="109322">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Martin</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'émission qui fait tourner l'actu. Martin et Jordi reviennent, à leur façon, sur les faits plus ou moins marquants du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125380838.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658430" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T13:00:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Canalbis</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623058" DATEMODIF="2018-01-26T10:48:34">
+        <TITREEMISSION>Canalbis</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27427778">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Canalbis</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1347375">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Jordi</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="109322">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Martin</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'émission qui fait tourner l'actu. Martin et Jordi reviennent, à leur façon, sur les faits plus ou moins marquants du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623058.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658431" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T13:10:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Le tube</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623772" DATEMODIF="2018-01-26T10:56:41">
+        <TITREEMISSION>Le tube</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="11609899">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le tube</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="506917">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Ithurburu</NOM>
+            <PRENOM>Isabelle</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Télévision, radio, web, print, réseaux sociaux, Isabelle Ithurburu décrypte et analyse l'actualité des médias, reçoit en plateau un acteur clé de l'actualité médiatique et interroge un invité issu de la scène musicale ou de l'univers cinématographique sur son rapport aux médias.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623772.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680003" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T14:15:00</DATEHEURE>
+      <DUREE>85</DUREE>
+      <TITRE>Jarhead 3 : The Siege</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114206723" DATEMODIF="2017-12-12T11:24:39">
+        <TITREEMISSION>Jarhead 3 : le siège</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="319" GENRESIMPLE="Téléfilm d'aventures">Téléfilm de guerre</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Jarhead 3 : The Siege</TITREORIGINAL>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>89</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="587644">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kaufman</NOM>
+            <PRENOM>William</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="191262">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Weber</NOM>
+            <PRENOM>Charlie</PRENOM>
+            <ROLE>Evan Albright</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="310928">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adkins</NOM>
+            <PRENOM>Scott</PRENOM>
+            <ROLE>Gunn Raines</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1331691">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ainsley</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Hansen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1306427">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Valdez</NOM>
+            <PRENOM>Erik</PRENOM>
+            <ROLE>Lopez</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="46184">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Basco</NOM>
+            <PRENOM>Dante</PRENOM>
+            <ROLE>Blake Laureano</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="542925">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jackson</NOM>
+            <PRENOM>Sasha</PRENOM>
+            <ROLE>Olivia Winston</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1836">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Haysbert</NOM>
+            <PRENOM>Dennis</PRENOM>
+            <ROLE>Lincoln</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="483446">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hogan</NOM>
+            <PRENOM>Stephen</PRENOM>
+            <ROLE>Dan Cahill</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Des Marines, envoyés pour une mission de routine au Moyen-Orient pour protéger une ambassade américaine, sont confrontés à une attaque terroriste.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le caporal Evan Albright est envoyé, avec ses hommes, au Moyen-Orient, pour assurer la protection d'une ambassade américaine. Ce qu'ils imaginaient comme une mission de routine prend une tout autre tournure lorsque l'ambassade est attaquée par un groupe de terroristes. Les assaillants, extrêment bien équipés et armés, ont lancé cet assaut-surprise pour éliminer un informateur, qui se trouve dans le bâtiment. Albright et son unité sont pris de court, et la sécurité nationale se retrouve rapidement menacée. Il faut agir au plus vite, pour éviter que ne se déclenche une véritable crise internationale...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un film d'action à réserver aux amateurs du genre.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E114206723.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680004" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T15:40:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Kidnap</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>1</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111001757" DATEMODIF="2018-01-20T10:55:15">
+        <TITREEMISSION>Kidnap</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="218" GENRESIMPLE="Film d'aventures">Film d'action</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Kidnap</TITREORIGINAL>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>95</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="205222">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Prieto</NOM>
+            <PRENOM>Luis</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="18750">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berry</NOM>
+            <PRENOM>Halle</PRENOM>
+            <ROLE>Karla Dyson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364161">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Correa</NOM>
+            <PRENOM>Sage</PRENOM>
+            <ROLE>Frankie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364162">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinn</NOM>
+            <PRENOM>Chris</PRENOM>
+            <ROLE>Margo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="462944">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Temple</NOM>
+            <PRENOM>Lew</PRENOM>
+            <ROLE>Terry</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="59483">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>George</NOM>
+            <PRENOM>Jason</PRENOM>
+            <ROLE>David</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298809">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berry</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>l'homme barbu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="532560">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shiver</NOM>
+            <PRENOM>Arron</PRENOM>
+            <ROLE>Bill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1238692">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bedford</NOM>
+            <PRENOM>Kurtis</PRENOM>
+            <ROLE>Del</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="288444">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Jusid</NOM>
+            <PRENOM>Federico</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une femme emmène son fils au parc d'attractions. C'est là qu'une inconnue kidnappe l'enfant sous les yeux de sa mère, qui se lance à sa poursuite.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Karla Dyson, emmène Frankie, son fils, au parc d'attractions. C'est là qu'une inconnue kidnappe l'enfant. Karla, qui parvient à voir la voiture à bord de laquelle son fils est enlevé, se lance aussitôt à sa poursuite. Elle comprend que si elle n'agit pas immédiatement, elle pourrait ne jamais revoir Frankie. Mais dans l'urgence, Karla a perdu son téléphone portable, ce qui complique considérablement son entreprise. Elle ne peut joindre personne et n'arrive pas non plus à obtenir l'aide de la police...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Malgré des invraisemblances et un scénario quelque peu convenu, ce film d'action n'en reste pas moins efficace et distrayant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E111001757.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680005" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T17:10:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Le menu Bagel</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124895315" DATEMODIF="2018-01-05T14:48:39">
+        <TITREEMISSION>Le menu Bagel</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="29275635">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Le menu Bagel</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Chaque semaine, l'émission propose de retrouver les meilleurs moments des programmes incontournables produits par le Studio Bagel, des «Tutos» au «Dezapping», en passant par «Bapt &amp; Gaël» et «Le Tour de la question». Sketches, séries et parodies se succèdent dans cette compilation inédite.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124895315.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658432" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T17:50:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Album de la semaine +</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125392195" DATEMODIF="2018-02-06T10:43:33">
+        <TITREEMISSION>Album de la semaine +</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="412" GENRESIMPLE="Magazine culturel">Magazine musical</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="10395112">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Album de la semaine +</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="105281">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Saunier</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Du rap au métal en passant par le rock, le blues ou la pop, ce rendez-vous musical part à la rencontre d'artistes qui débutent ou de groupes confirmés qui sont au coeur de l'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125392195.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680007" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T18:00:00</DATEHEURE>
+      <DUREE>4</DUREE>
+      <TITRE>Cette semaine madame</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123261487" DATEMODIF="2017-11-17T11:19:34">
+        <TITREEMISSION>Cette semaine madame</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27971850">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Cette semaine madame</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1322730">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Seclin</NOM>
+            <PRENOM>Marion</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Marion Seclin examine l'actualité sous un angle faussement féminin et réellement féministe : une parodie qui joue avec les codes des médias.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123261487.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680008" DATEMODIF="2018-02-07T03:00:05">
+      <DATEHEURE>2018-02-20T18:04:00</DATEHEURE>
+      <DUREE>21</DUREE>
+      <TITRE>How I Met Your Mother</TITRE>
+      <SOUSTITREDIF>La Barn-mitzva</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="51608784" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>How I Met Your Mother</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7675">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / How I Met Your Mother</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="11734690">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / How I Met Your Mother / 8</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>How I Met Your Mother</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>8</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La Barn-mitzva</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Bro Mitzvah</SOUSTITREORIGINAL>
+          <DUREEEMI>20</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>22</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="26002">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Fryman</NOM>
+            <PRENOM>Pamela</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="24022">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macchio</NOM>
+            <PRENOM>Ralph</PRENOM>
+            <ROLE>lui-même</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="47783">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hannigan</NOM>
+            <PRENOM>Alyson</PRENOM>
+            <ROLE>Lily Aldrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="231470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Segel</NOM>
+            <PRENOM>Jason</PRENOM>
+            <ROLE>Marshall Eriksen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="401798">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Radnor</NOM>
+            <PRENOM>Josh</PRENOM>
+            <ROLE>Ted Mosby</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="116721">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Harris</NOM>
+            <PRENOM>Neil Patrick</PRENOM>
+            <ROLE>Barney Stinson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="253821">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smulders</NOM>
+            <PRENOM>Cobie</PRENOM>
+            <ROLE>Robin Scherbatsky</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24022">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Macchio</NOM>
+            <PRENOM>Ralph</PRENOM>
+            <ROLE>lui-même</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="405545">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Harris</NOM>
+            <PRENOM>Chris</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Barney se demande ce que ses amis lui ont préparé pour son enterrement de vie de garçon. Il ignore que cette nuit sera l'une des pires de sa vie.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Barney se demande ce que ses amis lui ont préparé pour son enterrement de vie de garçon. Très curieux, il ignore toutefois que cette nuit va être l'une des pires de sa vie : après l'apparition de Ralph Macchio en personne, c'est Quinn, l'ancienne fiancée de Barney, qui a été engagée pour jouer les strip-teaseuses...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E51608784.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680009" DATEMODIF="2018-02-07T03:00:05">
+      <DATEHEURE>2018-02-20T18:25:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>How I Met Your Mother</TITRE>
+      <SOUSTITREDIF>Quelque chose de vieux</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="51608833" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>How I Met Your Mother</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7675">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / How I Met Your Mother</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="11734690">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / How I Met Your Mother / 8</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>How I Met Your Mother</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>8</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Quelque chose de vieux</SOUSTITRE>
+          <SOUSTITREORIGINAL>Something Old</SOUSTITREORIGINAL>
+          <DUREEEMI>20</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>23</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="26002">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Fryman</NOM>
+            <PRENOM>Pamela</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="253821">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smulders</NOM>
+            <PRENOM>Cobie</PRENOM>
+            <ROLE>Robin Scherbatsky</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="231470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Segel</NOM>
+            <PRENOM>Jason</PRENOM>
+            <ROLE>Marshall Eriksen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="47783">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hannigan</NOM>
+            <PRENOM>Alyson</PRENOM>
+            <ROLE>Lily Aldrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="401798">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Radnor</NOM>
+            <PRENOM>Josh</PRENOM>
+            <ROLE>Ted Mosby</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="116721">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Harris</NOM>
+            <PRENOM>Neil Patrick</PRENOM>
+            <ROLE>Barney Stinson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="162147">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Thomas</NOM>
+            <PRENOM>Craig</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Ted aide Marshall et Lily à trier leurs affaires avant le départ. Robin cherche dans Central Park le bijou qu'elle y a enterré lorsqu'elle était plus jeune.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ted aide Marshall et Lily à trier leurs affaires avant le grand départ pour l'Italie. De son côté, Robin cherche dans Central Park le médaillon qu'elle y a enterré lorsqu'elle était plus jeune. Elle appelle Barney à l'aide, mais celui-ci est bien trop occupé à jouer avec son père...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E51608833.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680010" DATEMODIF="2018-02-07T03:00:05">
+      <DATEHEURE>2018-02-20T18:45:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>How I Met Your Mother</TITRE>
+      <SOUSTITREDIF>Quelque chose de nouveau</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="51608983" DATEMODIF="2017-10-12T19:36:46">
+        <TITREEMISSION>How I Met Your Mother</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7675">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / How I Met Your Mother</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="11734690">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / How I Met Your Mother / 8</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>How I Met Your Mother</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>8</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Quelque chose de nouveau</SOUSTITRE>
+          <SOUSTITREORIGINAL>Something New</SOUSTITREORIGINAL>
+          <DUREEEMI>20</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>24</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="26002">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Fryman</NOM>
+            <PRENOM>Pamela</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="253821">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smulders</NOM>
+            <PRENOM>Cobie</PRENOM>
+            <ROLE>Robin Scherbatsky</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="231470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Segel</NOM>
+            <PRENOM>Jason</PRENOM>
+            <ROLE>Marshall Eriksen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="47783">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hannigan</NOM>
+            <PRENOM>Alyson</PRENOM>
+            <ROLE>Lily Aldrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="401798">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Radnor</NOM>
+            <PRENOM>Josh</PRENOM>
+            <ROLE>Ted Mosby</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="116721">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Harris</NOM>
+            <PRENOM>Neil Patrick</PRENOM>
+            <ROLE>Barney Stinson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="410965">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Bays</NOM>
+            <PRENOM>Carter</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Marshall part passer une semaine avec sa mère, qui veut profiter de Marvin. Barney et Robin profitent de leur dernière soirée avant le mariage.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La mère de Marshall, qui vient d'apprendre le départ imminent de son fils et de sa famille pour Rome, veut à tout prix profiter de Marvin. Marshall décide alors d'aller passer une semaine avec elle. De leur côté, Barney et Robin profitent de leur dernière soirée avant le mariage, tandis que Ted explique à Lily qu'il compte quitter New York...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E51608983.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658433" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T19:10:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>The Tonight Show Starring Jimmy Fallon</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623888" DATEMODIF="2018-01-26T11:01:50">
+        <TITREEMISSION>The Tonight Show Starring Jimmy Fallon</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14284100">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / The Tonight Show Starring Jimmy Fallon</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="261045">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Fallon</NOM>
+            <PRENOM>Jimmy</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec son élégance habituelle, Jimmy Fallon s'empare de sujets de société au fil de sketches mettant en scène des invités de renom. A chaque fois, des performances musicales rythment cette émission empreinte d'un humour joyeusement décalé.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623888.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680012" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T19:55:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Groland le zapoï</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="116213435" DATEMODIF="2017-05-26T12:51:26">
+        <TITREEMISSION>Groland le zapoï</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22052810">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Groland le zapoï</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au programme de Groland le zapoï, le meilleur de la TV sélectionné par les incontournables reporters grolandais, Moustic, Michael Kael, Francis Kuntz, Gustave Kervern, Franki Ki et de nouvelles têtes de proue : infos, documentaires, reportages, publicités, reality shows, débats et autres programmes envoyés par le satellite présipautaire !</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C116213435.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680013" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T20:20:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Groland le zapoï</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="116912823" DATEMODIF="2017-06-02T16:29:18">
+        <TITREEMISSION>Groland le zapoï</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22052810">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Groland le zapoï</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE />
+            <SOUSTITRE>La poignée de main entre Donald Trump et Emmanuel Macron</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE />
+            <SOUSTITRE>Un Grolandais tente de remporter la Coupe du tournoi de Roland-Garros</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE />
+            <SOUSTITRE>Sur Gro6, «100% vrairidique»</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE />
+            <SOUSTITRE>Au Groland, fini les mensonges aux élections législatives</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE />
+            <SOUSTITRE>Sur Gro2, «Balade en terre inconnue»</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE />
+            <SOUSTITRE>A Groland, l'alcool au volant est un véritable problème</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C116912823.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658434" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T20:50:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Les Guignols</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623775" DATEMODIF="2018-01-26T10:57:11">
+        <TITREEMISSION>Les Guignols</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="18378919">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les Guignols</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec l'impertinence qu'on leur connait, les Guignols s'emparent de l'actualité. Leur regard savamment décalé égratigne les ténors de la politique française et les cadors de la scène internationale. Celles et ceux qui font - le plus souvent involontairement - l'actualité ont aussi droit à leur minute de gloire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623775.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680015" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T20:55:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Hard Sun</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977115" DATEMODIF="2018-02-02T16:55:46">
+        <TITREEMISSION>Hard Sun</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29943305">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Hard Sun</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29943280">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Hard Sun / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Hard Sun</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="157891">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kirk</NOM>
+            <PRENOM>Brian</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="302902">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sturgess</NOM>
+            <PRENOM>Jim</PRENOM>
+            <ROLE>Charlie Hicks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="628632">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deyn</NOM>
+            <PRENOM>Agyness</PRENOM>
+            <ROLE>Elaine Renko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="268299">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Amuka-Bird</NOM>
+            <PRENOM>Nikki</PRENOM>
+            <ROLE>Grace Morrigan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="262878">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Riddell</NOM>
+            <PRENOM>Derek</PRENOM>
+            <ROLE>Roland Bell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="615069">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bea</NOM>
+            <PRENOM>Aisling</PRENOM>
+            <ROLE>Mari Butler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22011">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reed</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Sunny Ramachandran</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1365328">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Agnew</NOM>
+            <PRENOM>Stephen</PRENOM>
+            <ROLE>James Nimmo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1362995">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macari</NOM>
+            <PRENOM>Jojo</PRENOM>
+            <ROLE>Daniel Renko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="302032">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cross</NOM>
+            <PRENOM>Neil</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Deux inspecteurs de police sont amenés à faire équipe. Leur enquête sur la mort d'un pirate informatique les met sur la piste d'un incroyable secret.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'inspectrice de police Elaine Renko est amenée à faire équipe avec Charlie Hicks, qui a perdu son partenaire dans une fusillade. Ensemble, ils enquêtent sur la mort d'un pirate informatique, Lloyd Hammond. Très vite, le dossier Hammond s'avère explosif : un de ses amis informaticiens leur révèle que Lloyd avait fait une découverte incroyable. Une information qui vaut aux deux policiers d'être pris pour cibles par un tueur...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124977115.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680016" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T21:50:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Hard Sun</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977123" DATEMODIF="2018-02-02T16:55:48">
+        <TITREEMISSION>Hard Sun</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29943305">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Hard Sun</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29943280">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Hard Sun / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Hard Sun</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="157891">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kirk</NOM>
+            <PRENOM>Brian</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="302902">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sturgess</NOM>
+            <PRENOM>Jim</PRENOM>
+            <ROLE>Charlie Hicks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="628632">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Deyn</NOM>
+            <PRENOM>Agyness</PRENOM>
+            <ROLE>Elaine Renko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="268299">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Amuka-Bird</NOM>
+            <PRENOM>Nikki</PRENOM>
+            <ROLE>Grace Morrigan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="262878">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Riddell</NOM>
+            <PRENOM>Derek</PRENOM>
+            <ROLE>Roland Bell</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1362995">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Macari</NOM>
+            <PRENOM>Jojo</PRENOM>
+            <ROLE>Daniel Renko</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="388761">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Burroughs</NOM>
+            <PRENOM>Lorraine</PRENOM>
+            <ROLE>Simone Hicks</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="615069">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bea</NOM>
+            <PRENOM>Aisling</PRENOM>
+            <ROLE>Mari Butler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1216638">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alexander</NOM>
+            <PRENOM>Kae</PRENOM>
+            <ROLE>Angie Jones</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="302032">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cross</NOM>
+            <PRENOM>Neil</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Charlie échappe aux services secrets qui veulent le disque dur et enquête, avec Elaine, sur le meurtre de deux directeurs d'une agence de communication.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Charlie, effaré par sa découverte, contacte Grace Morrigan, agent des services secrets. Cette dernière le fait enlever pour récupérer le disque dur contenant ses informations. Parallèlement, Elaine persuade la presse de publier le dossier. Une enquête est en cours sur les meurtres de Dominic Vaughan et Sabina Kesinovic, qui dirigaient une agence de communication avec une associée. Pendant ce temps, Daniel reçoit une visite dans le service psychiatrique où il est interné...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124977123.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658435" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T22:45:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Clique dimanche</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623455" DATEMODIF="2018-01-26T10:50:36">
+        <TITREEMISSION>Clique dimanche</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27538557">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Clique dimanche</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="251439">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Achour</NOM>
+            <PRENOM>Mouloud</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Après avoir défriché le monde des cultures et des idées et offert une expérience nouvelle sur le digital, «Clique dimanche» s'attaque à l'actualité chaude. Entouré de ses reporters, Mouloud Achour traite l'actualité de la semaine avec pédagogie, impertinence et différence dans une émission qui se veut ouverte au monde.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623455.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658436" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-20T23:35:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>The Tonight Show Starring Jimmy Fallon</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>1</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623888" DATEMODIF="2018-01-26T11:01:50">
+        <TITREEMISSION>The Tonight Show Starring Jimmy Fallon</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="14284100">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / The Tonight Show Starring Jimmy Fallon</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="261045">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Fallon</NOM>
+            <PRENOM>Jimmy</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec son élégance habituelle, Jimmy Fallon s'empare de sujets de société au fil de sketches mettant en scène des invités de renom. A chaque fois, des performances musicales rythment cette émission empreinte d'un humour joyeusement décalé.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623888.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658437" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-21T00:15:00</DATEHEURE>
+      <DUREE>14</DUREE>
+      <TITRE>Canalbis</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623059" DATEMODIF="2018-01-26T10:48:42">
+        <TITREEMISSION>Canalbis</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="27427778">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Canalbis</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1347375">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Jordi</NOM>
+          </PERSONNE>
+          <PERSONNE CLE="109322">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Martin</NOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'émission qui fait tourner l'actu. Martin et Jordi reviennent, à leur façon, sur les faits plus ou moins marquants du moment.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623059.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658438" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-21T00:29:00</DATEHEURE>
+      <DUREE>4</DUREE>
+      <TITRE>Les Guignols</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623775" DATEMODIF="2018-01-26T10:57:11">
+        <TITREEMISSION>Les Guignols</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="18378919">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les Guignols</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec l'impertinence qu'on leur connait, les Guignols s'emparent de l'actualité. Leur regard savamment décalé égratigne les ténors de la politique française et les cadors de la scène internationale. Celles et ceux qui font - le plus souvent involontairement - l'actualité ont aussi droit à leur minute de gloire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623775.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658439" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-21T00:33:00</DATEHEURE>
+      <DUREE>2</DUREE>
+      <TITRE>Catherine et Liliane</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623198" DATEMODIF="2018-01-26T10:49:49">
+        <TITREEMISSION>Catherine et Liliane</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="17311315">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Catherine et Liliane</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Toujours bon pied bon oeil, Catherine et Liliane vivent leur vie sans se soucier du qu'en-dira-t-on. Malgré les années qui passent, elles persistent à voir la vie du bon côté. Les deux amies ne manquent pas d'exprimer leur agacement face à toutes les petites tracasseries du quotidien. Heureusement, Catherine et Liliane sont astucieuses et ne s'en laissent pas conter.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125623198.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171658440" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-21T00:35:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Album de la semaine +</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125392195" DATEMODIF="2018-02-06T10:43:33">
+        <TITREEMISSION>Album de la semaine +</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="412" GENRESIMPLE="Magazine culturel">Magazine musical</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="10395112">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Album de la semaine +</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="105281">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Saunier</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Du rap au métal en passant par le rock, le blues ou la pop, ce rendez-vous musical part à la rencontre d'artistes qui débutent ou de groupes confirmés qui sont au coeur de l'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125392195.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680022" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-21T00:40:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Made in Groland</TITRE>
+      <SOUSTITREDIF>Best of</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="107788193" DATEMODIF="2016-08-05T11:35:58">
+        <TITREEMISSION>Made in Groland</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9178495">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Made in Groland</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Best of</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="126214">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Moustic</NOM>
+            <PRENOM>Jules-Edouard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232103">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>De Daddy</NOM>
+            <PRENOM>Chiara</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Depuis plus de vingt ans, la présipauté de Groland propose un journal décalé qui se penche sur l'actualité du monde tel qu'il ne va pas. Epaulés par une équipe de reporters trublions, le présentateur vedette Jules-Edouard Moustic et sa coprésentatrice Chiara De Daddy analysent avec un sérieux tout relatif les grands événements de la semaine dans la présipauté et dans le reste du monde.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C107788193.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680023" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-21T01:10:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Made in Groland</TITRE>
+      <SOUSTITREDIF>Best of</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="107575470" DATEMODIF="2016-07-29T11:07:03">
+        <TITREEMISSION>Made in Groland</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9178495">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Made in Groland</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Best of</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="126214">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Moustic</NOM>
+            <PRENOM>Jules-Edouard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1232103">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>De Daddy</NOM>
+            <PRENOM>Chiara</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Depuis plus de vingt ans, la présipauté de Groland propose un journal décalé qui se penche sur l'actualité du monde tel qu'il ne va pas. Epaulés par une équipe de reporters trublions, le présentateur vedette Jules-Edouard Moustic et sa coprésentatrice Chiara De Daddy analysent avec un sérieux tout relatif les grands événements de la semaine dans la présipauté et dans le reste du monde.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C107575470.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680024" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-21T01:40:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Mes amis</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="97582" DATEMODIF="2017-12-12T12:32:12">
+        <TITREEMISSION>Mes amis</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1998</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>97</DUREEEMI>
+          <APPRECIATION>1</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="92105">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hazanavicius</NOM>
+            <PRENOM>Michel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="7312">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Attal</NOM>
+            <PRENOM>Yvan</PRENOM>
+            <ROLE>Eric</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30292">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hazanavicius</NOM>
+            <PRENOM>Serge</PRENOM>
+            <ROLE>Fred</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="452">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Viard</NOM>
+            <PRENOM>Karin</PRENOM>
+            <ROLE>Lola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4864">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Demy</NOM>
+            <PRENOM>Mathieu</PRENOM>
+            <ROLE>Benoît</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="31273">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Abelanski</NOM>
+            <PRENOM>Lionel</PRENOM>
+            <ROLE>Christophe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9240">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Drucker</NOM>
+            <PRENOM>Léa</PRENOM>
+            <ROLE>Gilda</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25629">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Navarre</NOM>
+            <PRENOM>Elodie</PRENOM>
+            <ROLE>Isabelle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106301">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montalembert</NOM>
+            <PRENOM>Thibault de</PRENOM>
+            <ROLE>Marc</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92106">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Bource</NOM>
+            <PRENOM>Ludovic</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un producteur de sitcoms et un de ses comédiens cherchent désespérément à se débarrasser du cadavre d'une jeune femme avec laquelle ils ont passé la nuit.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Eric est un producteur de sitcoms en perte de vitesse. Après une nuit fort agitée passée en compagnie de son comédien principal, Fred, et d'une jeune femme, les deux hommes se réveillent aux côtés d'un cadavre. Pris de panique, les deux compères n'ont qu'une hâte : faire disparaître ce corps pour éviter le scandale. Mais, en raison des exigences de leur profession et des aléas de leur vie personnelle, ils sont obligés de laisser la dépouille dans le coffre de la décapotable d'Eric toute la journée. Les deux amis sont de plus en plus inquiets, à tel point que Fred n'est plus capable de donner la réplique à sa partenaire, une idiote qui a peur de vieillir...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Le futur réalisateur des «OSS 117» et de «The Artist» se faisait la main sur cette comédie qui n'a pas trouvé son public lors de sa sortie en salles.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E97582.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170680025" DATEMODIF="2018-02-06T10:56:43">
+      <DATEHEURE>2018-02-21T03:20:00</DATEHEURE>
+      <DUREE>290</DUREE>
+      <TITRE>Fin des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977230" DATEMODIF="2018-01-09T11:09:01">
+        <TITREEMISSION>Fin des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

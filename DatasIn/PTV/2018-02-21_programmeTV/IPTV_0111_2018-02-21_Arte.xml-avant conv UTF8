@@ -1,0 +1,2253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:49:31-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="111">
+    <NOMCHAINE>Arte</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="171606997" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T05:00:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>Berlin Live</TITRE>
+      <SOUSTITREDIF>William Patrick Corgan</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125114797" DATEMODIF="2018-01-18T16:23:13">
+        <TITREEMISSION>Berlin Live</TITREEMISSION>
+        <FORMAT CLE="7">Concert</FORMAT>
+        <GENRE CLE="73" GENRESIMPLE="Concert">Pop &amp; Rock</GENRE>
+        <CS>
+          <SOUSTITRE>William Patrick Corgan</SOUSTITRE>
+          <LIEUENREGISTREMENT>à Berlin, en 2017</LIEUENREGISTREMENT>
+        </CS>
+        <LESPERSONNES>
+          <PERSONNE CLE="15614">
+            <FONCTION>Interprète</FONCTION>
+            <NOM>Corgan</NOM>
+            <PRENOM>Billy</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="105">
+            <LETEXTE>Réalisation de Stefan Mathieu.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Avec «Ogilala», son dernier opus, le guitariste et chanteur des Smashing Pumpkins a donné à sa carrière solo un virage plus intimiste. Dans une atmosphère recueillie, il accompagne sobrement, au piano ou à la guitare, les morceaux de ce nouvel album.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171606998" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T06:15:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>X:enius</TITRE>
+      <SOUSTITREDIF>A l'autre bout du monde en deux heures ?</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113152851" DATEMODIF="2017-01-19T15:16:44">
+        <TITREEMISSION>X:enius</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="584436">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / X:enius</NOM>
+          </COLLECTION>
+          <SOUSTITRE>A l'autre bout du monde en deux heures ?</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1231853">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Matzko</NOM>
+            <PRENOM>Carolin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="481799">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mergner</NOM>
+            <PRENOM>Gunnar</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Les avions de demain coûteront moins cher, voleront plus vite et pollueront moins tandis que le volume du transport aérien mondial pourrait doubler en l'espace de vingt ans. C'est en tout cas ce que beaucoup imaginent. A quand les vols sans émissions de CO2 ? Et quel impact sur les infrastructures ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C113152851.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171606999" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T06:40:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Voyage aux Amériques</TITRE>
+      <SOUSTITREDIF>La Havane : au coeur de la ville</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124649331" DATEMODIF="2017-12-28T16:34:52">
+        <TITREEMISSION>Voyage aux Amériques</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="10817850">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Voyage aux Amériques</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>In the Americas</TITREORIGINAL>
+          <SOUSTITRE>La Havane : au coeur de la ville</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="626009">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Duncan</NOM>
+            <PRENOM>Daniel</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Galeries d'art, concerts de hip-hop ou d'électro, tables branchées, cours de danse : La Havane, capitale cubaine, vit un renouveau culturel exceptionnel.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124649331.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607000" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T07:05:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Arte journal junior</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125591530" DATEMODIF="2018-01-26T11:03:06">
+        <TITREEMISSION>Arte journal junior</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="403" GENRESIMPLE="Magazine jeunesse">Magazine jeunesse</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="19313708">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Arte journal junior</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1249166">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Haffner</NOM>
+            <PRENOM>Dorothee</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1250225">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kreuzer</NOM>
+            <PRENOM>Magali</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1215943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Höfchen</NOM>
+            <PRENOM>Carolyn</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1267321">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Rauschendorf</NOM>
+            <PRENOM>Frank</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un journal quotidien de six minutes pour les 10-14 ans. Au programme : un décryptage du monde et de ses enjeux à travers des sujets d'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125591530.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607001" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T07:15:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>360°-GEO</TITRE>
+      <SOUSTITREDIF>Au fil de la Lena en Sibérie</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="100644431" DATEMODIF="2016-01-08T10:44:07">
+        <TITREEMISSION>360°-GEO</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="7661989">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / 360°-GEO</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Au fil de la Lena en Sibérie</SOUSTITRE>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="582387">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dielhenn</NOM>
+            <PRENOM>Maja</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Depuis 35 ans, le capitaine Vassilievitch passe la belle saison sur le plus impétueux des fleuves sibériens, la Lena, à bord de son bateau de ravitaillement.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E100644431.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607002" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T08:00:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Invitation au voyage</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125553054" DATEMODIF="2018-01-24T17:47:40">
+        <TITREEMISSION>Invitation au voyage</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="426" GENRESIMPLE="Magazine de découvertes">Magazine du tourisme</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="24751255">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Invitation au voyage</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="204142">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Lorin</NOM>
+            <PRENOM>Linda</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE>Nichée entre l'océan Atlantique et la mer des Caraïbes, la Martinique est la terre d'Aimé Césaire, le père de la «négritude», courant littéraire et politique qui résonne bien au-delà de «l'île aux fleurs».</LETEXTE>
+            <SOUSTITRE>La Martinique, pays natal de Césaire</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE>Parsemé de châteaux, de vignes et de forêts, le Val de Loire fut le refuge des rois de France au XIIIe siècle, pendant la guerre de Cent Ans. Trois siècles plus tard, François Ier fait de cette vallée le berceau de la Renaissance.</LETEXTE>
+            <SOUSTITRE>Le Val de Loire, berceau de la Renaissance</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE>Créé au XVIIe siècle à la demande de la reine Marie de Médicis, le «Luco» est le plus ancien jardin de Paris. Peu de ses habitués savent qu'une ligne imaginaire, très utile en son temps, le traverse.</LETEXTE>
+            <SOUSTITRE>«L'incontournable» : à Paris, le jardin du Luxembourg</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607003" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T08:40:00</DATEHEURE>
+      <DUREE>135</DUREE>
+      <TITRE>La loi du lion</TITRE>
+      <SOUSTITREDIF>Frères de sang</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124802361" DATEMODIF="2018-01-03T15:40:45">
+        <TITREEMISSION>La loi du lion</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="29851739">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La loi du lion</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Frères de sang</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>3</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="330998">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Prümm</NOM>
+            <PRENOM>Owen</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Poussé par la faim, seul et désespéré, un jeune lionceau chassé par son père devient charognard avant de s'allier à un autre jeune mâle, lui-même banni.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124802361.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607004" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T10:55:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Curiosités animales</TITRE>
+      <SOUSTITREDIF>Des as du calcul : chevaux, fourmis et bambous</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125301834" DATEMODIF="2018-01-17T11:41:18">
+        <TITREEMISSION>Curiosités animales</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="15381409">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Curiosités animales</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Natural Curiosities</TITREORIGINAL>
+          <SOUSTITRE>Des as du calcul : chevaux, fourmis et bambous</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>22</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="560472">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Choudhury</NOM>
+            <PRENOM>Sharmila</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="323465">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Jeffkins</NOM>
+            <PRENOM>Hilary</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="95458">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Attenborough</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Depuis longtemps, les chercheurs se demandent si les animaux sont capables de compter, à l'image du cheval Hans, qui a fait sensation au début du XXe siècle.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607005" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T11:20:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>La Volga en 30 jours</TITRE>
+      <SOUSTITREDIF>Saint-Pétersbourg</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="108802355" DATEMODIF="2016-09-15T10:15:11">
+        <TITREEMISSION>La Volga en 30 jours</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="198">
+          <PAYS>Finlande</PAYS>
+          <LIBELLE>finlandais</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="22225669">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La Volga en 30 jours</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Saint-Pétersbourg</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1307653">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Achté</NOM>
+            <PRENOM>Inka</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'acteur finlandais Ville Haapasalo commence son périple à Saint-Pétersbourg, où il prend une pause gourmande dans un restaurant perché sur un toit.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607006" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T12:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>La Volga en 30 jours</TITRE>
+      <SOUSTITREDIF>Les Vikings de la Volga</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="108802376" DATEMODIF="2016-09-29T11:46:56">
+        <TITREEMISSION>La Volga en 30 jours</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="198">
+          <PAYS>Finlande</PAYS>
+          <LIBELLE>finlandais</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="22225669">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La Volga en 30 jours</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Les Vikings de la Volga</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1307653">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Achté</NOM>
+            <PRENOM>Inka</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>De fin mai à début juillet, la nuit ne tombe jamais totalement sur Saint-Pétersbourg : Ville Haapasalo assiste à la «levée des ponts», un événement majeur.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607007" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T12:50:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Arte journal</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125592018" DATEMODIF="2018-01-26T11:03:06">
+        <TITREEMISSION>Arte journal</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2964810">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Arte journal</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'actualité de la mi-journée en voix off.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125592018.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607008" DATEMODIF="2018-01-27T02:00:54">
+      <DATEHEURE>2018-02-21T13:00:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>Arte regards</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615143" DATEMODIF="2018-01-26T08:56:13">
+        <TITREEMISSION>Arte regards</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="369" GENRESIMPLE="Documentaire de société">Politique</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="24748770">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Arte regards</NOM>
+          </COLLECTION>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>28</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En prise avec un thème d'actualité, des reportages vont à la rencontre de citoyens européens et proposent une plongée inédite dans leurs réalités quotidiennes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125615143.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607009" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T13:35:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Chérie, je me sens rajeunir</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="12378" DATEMODIF="2017-11-20T15:10:42">
+        <TITREEMISSION>Chérie, je me sens rajeunir</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Monkey Business</TITREORIGINAL>
+          <ANNEEREALISATION>1952</ANNEEREALISATION>
+          <COULEUR CLE="2">en noir et blanc</COULEUR>
+          <DUREEEMI>97</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="5810">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hawks</NOM>
+            <PRENOM>Howard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="4545">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Grant</NOM>
+            <PRENOM>Cary</PRENOM>
+            <ROLE>Barnaby Fulton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="650">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rogers</NOM>
+            <PRENOM>Ginger</PRENOM>
+            <ROLE>Edwina Fulton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13051">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Coburn</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Oliver Oxley</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10836">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Monroe</NOM>
+            <PRENOM>Marilyn</PRENOM>
+            <ROLE>Lois Laurel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11733">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marlowe</NOM>
+            <PRENOM>Hugh</PRENOM>
+            <ROLE>Hank Entwhistle</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24887">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Letondal</NOM>
+            <PRENOM>Henri</PRENOM>
+            <ROLE>Jerome Kitzel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24687">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cornthwaite</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Zoldeck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24593">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Keating</NOM>
+            <PRENOM>Larry</PRENOM>
+            <ROLE>GJ Culverly</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19369">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Harline</NOM>
+            <PRENOM>Leigh</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un savant distrait avale par inadvertance une substance concoctée par un chimpanzé de laboratoire, qui s'avère être un élixir de jouvence très réussi.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le docteur Barnaby Fulton, un brillant chimiste dont la distraction est devenue légendaire, se consacre à la recherche d'un produit permettant un rajeunissement des tissus humains. Oliver Oxley, son patron, un vieillard émoustillé par sa pulpeuse secrétaire, Lois Laurel, attend les résultats de ses travaux avec impatience. Un moment d'inattention et l'un des chimpanzés du laboratoire, Esther, s'échappe de sa cage. L'animal se livre à ses propres manipulations, trouve la mixture trop amère et la rejette dans le distributeur d'eau. De retour, Barnaby Fulton, assoiffé, en ingurgite un verre. Il ne tarde pas à se sentir curieusement gai, dépose ses épaisses lunettes, oublie ses rhumatismes et emmène Lois à la piscine...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Sous les allures d'une vaste plaisanterie, Hawks s'en prend au culte de la jeunesse. Un chef-d'oeuvre d'humour et de finesse.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E12378.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607010" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T15:15:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Curiosités animales</TITRE>
+      <SOUSTITREDIF>Le crapaud et l'ornithorynque</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="89145832" DATEMODIF="2015-01-22T10:39:54">
+        <TITREEMISSION>Curiosités animales</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="15381409">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Curiosités animales</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Natural Curiosities</TITREORIGINAL>
+          <SOUSTITRE>Le crapaud et l'ornithorynque</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>30</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>5</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="250140">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dunleavy</NOM>
+            <PRENOM>Stephen</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'histoire de deux animaux extraordinaires : un crapaud qui a provoqué une tempête scientifique au début du XXe siècle et un animal australien médusant, l'ornithorynque.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E89145832.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607011" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T15:35:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>360°-GEO</TITRE>
+      <SOUSTITREDIF>Venezuela, chasseurs de mygales</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="96788144" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>360°-GEO</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="203">
+          <PAYS>France - Allemagne</PAYS>
+          <LIBELLE>franco-allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="7661989">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / 360°-GEO</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Venezuela, chasseurs de mygales</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="523798">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Arneth</NOM>
+            <PRENOM>Gordian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au Venezuela, le déclin des indiens Piaroa provoque celui des mygales, qu'ils consomment et considèrent comme comme des intermédiaires entre les morts et les vivants.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E96788144.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171586748" DATEMODIF="2018-01-27T02:00:54">
+      <DATEHEURE>2018-02-21T16:30:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Invitation au voyage</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125581265" DATEMODIF="2018-01-25T11:09:14">
+        <TITREEMISSION>Invitation au voyage</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="426" GENRESIMPLE="Magazine de découvertes">Magazine du tourisme</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="24751255">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Invitation au voyage</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="204142">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Lorin</NOM>
+            <PRENOM>Linda</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE>A l'automne 1826, le peintre descend la Loire pour capturer les lumières et les couleurs qui se reflètent dans ses eaux sauvages.</LETEXTE>
+            <SOUSTITRE>Turner le long de la Loire</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE>La cité californienne fut le berceau de la Beat Generation et des Black Panthers.</LETEXTE>
+            <SOUSTITRE>San Francisco, capitale de la contre-culture</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE>Au centre du jardin de la place de l'Orient, se cache une prouesse scientifique insoupçonnée.</LETEXTE>
+            <SOUSTITRE>L'incontournable : à Madrid, la plaza de Oriente</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607012" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T17:10:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>X:enius</TITRE>
+      <SOUSTITREDIF>Fruits et légumes : les cultures de masse riment-elles avec qualité ?</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="112420273" DATEMODIF="2016-12-28T18:15:29">
+        <TITREEMISSION>X:enius</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="584436">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / X:enius</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Fruits et légumes : les cultures de masse riment-elles avec qualité ?</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1231853">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Matzko</NOM>
+            <PRENOM>Carolin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="481799">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mergner</NOM>
+            <PRENOM>Gunnar</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Les fruits et les légumes cultivés de manière industrielle ont souvent peu en commun avec les variétés anciennes. Il s'agit d'hybrides à haut rendement qui résistent aux nuisibles. Résultat : chaque année, il faut racheter leurs graines et leurs semences. Quel est l'impact de cette production de masse sur l'environnement, les saveurs et la santé ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E112420273.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607013" DATEMODIF="2018-01-26T11:03:06">
+      <DATEHEURE>2018-02-21T17:40:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Curiosités animales</TITRE>
+      <SOUSTITREDIF>L'éléphant et le rat-taupe nu</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="89098705" DATEMODIF="2016-01-21T11:22:00">
+        <TITREEMISSION>Curiosités animales</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="15381409">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Curiosités animales</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Natural Curiosities</TITREORIGINAL>
+          <SOUSTITRE>L'éléphant et le rat-taupe nu</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>23</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>5</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="93516">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Jefkins</NOM>
+            <PRENOM>Hillary</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'éléphant et le rat-taupe nu paraissent âgés dès la naissance ; ils vivent pourtant bien plus longtemps que d'autres espèces de leur taille.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E89098705.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607014" DATEMODIF="2018-01-26T11:03:07">
+      <DATEHEURE>2018-02-21T18:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Le Brésil par la côte</TITRE>
+      <SOUSTITREDIF>L'Est</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="78500048" DATEMODIF="2017-08-29T15:02:04">
+        <TITREEMISSION>Le Brésil par la côte</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="13507355">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Le Brésil par la côte</NOM>
+          </COLLECTION>
+          <SOUSTITRE>L'Est</SOUSTITRE>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>5</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1222603">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>la Grandière</NOM>
+            <PRENOM>Ombline de</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="415820">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Moncadas</NOM>
+            <PRENOM>Nicolas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>A Salvador de Bahia, balade dans le quartier historique de la ville, puis rencontre avec Roberto, qui prend soin des petits bateaux traditionnels.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E78500048.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171587035" DATEMODIF="2018-01-27T02:00:54">
+      <DATEHEURE>2018-02-21T19:00:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Dehesa</TITRE>
+      <SOUSTITREDIF>L'harmonie ibérique</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125581288" DATEMODIF="2018-01-26T10:57:41">
+        <TITREEMISSION>Dehesa</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="368" GENRESIMPLE="Documentaire">Nature</GENRE>
+        <NATIONALITE CLE="191">
+          <PAYS>Espagne</PAYS>
+          <LIBELLE>espagnol</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <SOUSTITRE>L'harmonie ibérique</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1220122">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Perez</NOM>
+            <PRENOM>Carlos Fernando</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La vie secrète des espèces végétales et animales qui peuplent la dehesa, écosystème exceptionnel d'environ trois millions d'hectares dans le sud de l'Espagne.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607015" DATEMODIF="2018-01-26T11:03:07">
+      <DATEHEURE>2018-02-21T19:45:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Arte journal</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125591540" DATEMODIF="2018-01-26T11:03:07">
+        <TITREEMISSION>Arte journal</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2964810">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Arte journal</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'actualité internationale, décortiquée par une rédaction franco-allemande.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125591540.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607016" DATEMODIF="2018-01-27T02:00:54">
+      <DATEHEURE>2018-02-21T20:05:00</DATEHEURE>
+      <DUREE>43</DUREE>
+      <TITRE>28 minutes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125588341" DATEMODIF="2018-01-25T15:04:05">
+        <TITREEMISSION>28 minutes</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="7648713">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / 28 minutes</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="100560">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Quin</NOM>
+            <PRENOM>Elisabeth</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="395507">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Dély</NOM>
+            <PRENOM>Renaud</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="477246">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Daam</NOM>
+            <PRENOM>Nadia</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1311582">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Poret</NOM>
+            <PRENOM>Marc-Antoine de</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="174831">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Askolovitch</NOM>
+            <PRENOM>Claude</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="581051">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mauduit</NOM>
+            <PRENOM>Xavier</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1343641">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Le Calvez</NOM>
+            <PRENOM>Sandrine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="308421">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Saltiel</NOM>
+            <PRENOM>François</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="108475">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Nolte</NOM>
+            <PRENOM>Thibaut</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="605646">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chol</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="469878">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Trémolet de Villers</NOM>
+            <PRENOM>Vincent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="379360">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Forgeard</NOM>
+            <PRENOM>Benoît</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec curiosité et humour, Elisabeth Quin et son équipe s'emparent chaque jour de l'actualité pour en débattre, aux côtés de personnalités et de spécialistes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125588341.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171587060" DATEMODIF="2018-01-27T02:00:54">
+      <DATEHEURE>2018-02-21T20:48:00</DATEHEURE>
+      <DUREE>7</DUREE>
+      <TITRE>A Musée Vous, A Musée Moi</TITRE>
+      <SOUSTITREDIF>Les raboteurs de parquet – Cause toujours</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125581305" DATEMODIF="2018-01-25T11:17:58">
+        <TITREEMISSION>A Musée Vous, A Musée Moi</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="55" GENRESIMPLE="Série">Série à sketches</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29516637">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / A Musée Vous, A Musée moi</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29516613">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / A Musée Vous, A Musée moi / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les raboteurs de parquet – Cause toujours</SOUSTITRE>
+          <DUREEEMI>2</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>26</NUMERO>
+            <NOMBRE>30</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="485495">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Maruca</NOM>
+            <PRENOM>Fabrice</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="574114">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chesné</NOM>
+            <PRENOM>Florent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="551666">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Drion</NOM>
+            <PRENOM>Julien</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="392487">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laurent</NOM>
+            <PRENOM>Yannick</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="485495">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Maruca</NOM>
+            <PRENOM>Fabrice</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans un appartement haussmannien immortalisé par Gustave Caillebotte, trois ouvriers rabotent le parquet. Qui parle le plus travaille le moins...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171587093" DATEMODIF="2018-01-26T11:03:07">
+      <DATEHEURE>2018-02-21T20:55:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <SURTITRE>Spécial Berlinale</SURTITRE>
+      <TITRE>Les adieux à la reine</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="35118519" DATEMODIF="2015-01-06T08:54:24">
+        <TITREEMISSION>Les adieux à la reine</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="163" GENRESIMPLE="Drame">Drame</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>100</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+          <PALMARES>
+            <ANNEE>2012</ANNEE>
+            <FESTIVAL CLE="33">
+              <NOM>Prix Louis Delluc</NOM>
+              <PAYS>France</PAYS>
+              <RECOMPENSE CLE="34">Prix Louis Delluc</RECOMPENSE>
+            </FESTIVAL>
+          </PALMARES>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="308698">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Jacquot</NOM>
+            <PRENOM>Benoît</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="227830">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kruger</NOM>
+            <PRENOM>Diane</PRENOM>
+            <ROLE>Marie-Antoinette</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="398143">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Seydoux</NOM>
+            <PRENOM>Léa</PRENOM>
+            <ROLE>Sidonie Laborde</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="29845">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ledoyen</NOM>
+            <PRENOM>Virginie</PRENOM>
+            <ROLE>Gabrielle de Polignac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7744">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Beauvois</NOM>
+            <PRENOM>Xavier</PRENOM>
+            <ROLE>Louis XVI</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="269889">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lvovsky</NOM>
+            <PRENOM>Noémie</PRENOM>
+            <ROLE>madame Campan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3780">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Robin</NOM>
+            <PRENOM>Michel</PRENOM>
+            <ROLE>Jacob Nicolas Moreau</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24616">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Parmentier</NOM>
+            <PRENOM>Julie-Marie</PRENOM>
+            <ROLE>Honorine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="155559">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chammah</NOM>
+            <PRENOM>Lolita</PRENOM>
+            <ROLE>Louison</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="26509">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Coulais</NOM>
+            <PRENOM>Bruno</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La lectrice de Marie-Antoinette, dévouée à la reine, entre dans sa confidence et cède à son emprise lors des journées qui suivent le 14 juillet 1789.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Sidonie Laborde se réveille au matin du 14 juillet 1789. Journée banale, en somme, qui commence dans la mansarde qu'elle occupe sous les toits du château de Versailles et se poursuit par les menus épisodes de la vie de la cour. Madame Campan, le première femme de chambre de Marie-Antoinette, reproche à Sidonie, lectrice de la reine, de mal choisir ses ouvrages. Mais Marie-Antoinette semble apprécier la lecture que lui fait Sidonie. Plus tard, Sidonie refuse d'accorder crédit à la rumeur qui prête à la reine une liaison avec son amie Gabrielle de Polignac. Louison et Honorine, deux servantes de ses amies, raillent la crédulité de Sidonie. Puis arrive une nouvelle stupéfiante...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Benoît Jacquot réalise un beau portrait de femme, renforcé par l'interprétation de Diane Kruger.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E35118519.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171587451" DATEMODIF="2018-01-27T02:00:54">
+      <DATEHEURE>2018-02-21T22:25:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <SURTITRE>Spécial Berlinale</SURTITRE>
+      <TITRE>Cinékino</TITRE>
+      <SOUSTITREDIF>Royaume-Uni</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125581665" DATEMODIF="2018-01-25T11:31:23">
+        <TITREEMISSION>Cinékino</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="357" GENRESIMPLE="Documentaire culturel">Cinéma</GENRE>
+        <NATIONALITE CLE="203">
+          <PAYS>France - Allemagne</PAYS>
+          <LIBELLE>franco-allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="19027551">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Cinékino</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Royaume-Uni</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="400274">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Luthardt</NOM>
+            <PRENOM>Matthias</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>D'Alfred Hitchcok à Stephen Frears, de la muse Tilda Swinton au doyen Ken Loach, promenade parmi quelques chefs d'oeuvres et succès du cinéma britannique.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Doté d'un sens de l'humour unique, souvent teinté d'absurde, le cinéma britannique manie comme nul autre l'art du suspense, l'érotisme et la critique sociale. Il a donné naissance à des légendes, aussi bien chez les réalisateurs que chez les acteurs et leurs personnages. De Daniel Craig, dernier agent «007» en date, au Germano-irlandais Michael Fassbender, d'Alfred Hitchcok à Stephen Frears, de la muse Tilda Swinton au doyen Ken Loach, promenade parmi quelques chefs d'oeuvres et quantité d'énormes succès.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171587483" DATEMODIF="2018-01-27T02:00:54">
+      <DATEHEURE>2018-02-21T22:55:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <SURTITRE>Spécial Berlinale</SURTITRE>
+      <TITRE>Cinékino</TITRE>
+      <SOUSTITREDIF>Tchéquie et Slovaquie</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125581669" DATEMODIF="2018-02-01T11:23:32">
+        <TITREEMISSION>Cinékino</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="357" GENRESIMPLE="Documentaire culturel">Cinéma</GENRE>
+        <NATIONALITE CLE="203">
+          <PAYS>France - Allemagne</PAYS>
+          <LIBELLE>franco-allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="19027551">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Cinékino</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Tchéquie et Slovaquie</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="400274">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Luthardt</NOM>
+            <PRENOM>Matthias</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Contes ou films d'animation surréalistes : le cinéma tchèque et slovaque, qui a connu des moments d'effervescence créatrice, regorge de pépites.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Contes ou films d'animation surréalistes : le cinéma tchèque et slovaque, qui a connu des moments d'effervescence créatrice, regorge de pépites.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171588879" DATEMODIF="2018-01-27T02:00:54">
+      <DATEHEURE>2018-02-21T23:25:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <SURTITRE>Spécial Berlinale</SURTITRE>
+      <TITRE>La chasse aux fantômes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114253770" DATEMODIF="2018-01-25T11:38:28">
+        <TITREEMISSION>La chasse aux fantômes</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="251" GENRESIMPLE="Film documentaire">Film documentaire</GENRE>
+        <NATIONALITE CLE="2630">
+          <PAYS>France - Palestine</PAYS>
+          <LIBELLE>franco-palestinien</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Istiyad Ashbah</TITREORIGINAL>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>92</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="346098">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Andoni</NOM>
+            <PRENOM>Raed</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>D'anciens prisonniers palestiniens passés par les geôles de Al Moskobiya, principal centre pénitentiaire de Jérusalem, acceptent de rejouer leur détention.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171590017" DATEMODIF="2018-01-27T02:00:54">
+      <DATEHEURE>2018-02-22T00:55:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <SURTITRE>La lucarne : Spécial Berlinale</SURTITRE>
+      <TITRE>Avarie</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125582519" DATEMODIF="2018-01-25T11:49:42">
+        <TITREEMISSION>Avarie</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <NATIONALITE CLE="372">
+          <PAYS>Allemagne - France</PAYS>
+          <LIBELLE>germano-français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <TITREORIGINAL>Havarie</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>93</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="100050">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Scheffner</NOM>
+            <PRENOM>Philip</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 2012, un canot de sauvetage qui transporte treize personnes est repéré en mer Méditerranée, à quelques dizaines de milles marins des côtes espagnoles.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607017" DATEMODIF="2018-01-26T11:03:07">
+      <DATEHEURE>2018-02-22T02:30:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Fonko</TITRE>
+      <SOUSTITREDIF>Angola et Ghana</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="106690314" DATEMODIF="2018-01-04T11:39:36">
+        <TITREEMISSION>Fonko</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="367" GENRESIMPLE="Documentaire culturel">Musique</GENRE>
+        <NATIONALITE CLE="568">
+          <PAYS>Suède</PAYS>
+          <LIBELLE>suédois</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="21136036">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Fonko</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Angola et Ghana</SOUSTITRE>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>3</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1363789">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Jadama</NOM>
+            <PRENOM>Lamin Daniel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1363790">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lovén</NOM>
+            <PRENOM>Lars</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un portrait de l'Angola et du Ghana à travers les créations musicales d'une jeune génération toujours désireuse d'inventer de nouvelles sonorités.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'Afrique connaît une révolution musicale où les genres comme l'électro fusionnent avec les rythmes traditionnels. En Angola, le kuduro, un mouvement musical issu des bidonvilles, transcende les foules. Les jeunes Angolais se déhanchent sur ce style débridé que Sebem, l'un des pionniers du genre, a démocratisé. Longtemps associée aux marginaux, cette musique est aujourd'hui l'un des plus grands atouts culturels du pays. Mais la répression qui règne dans le pays menace la liberté d'expression des artistes. Contrairement au Ghana, où les musiciens remettent librement en question les traditions, usant de l'ironie et de la parodie à travers l'azonto.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E106690314.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607018" DATEMODIF="2018-01-26T11:03:07">
+      <DATEHEURE>2018-02-22T03:25:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Tracks</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125353766" DATEMODIF="2018-01-25T11:26:48">
+        <TITREEMISSION>Tracks</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="412" GENRESIMPLE="Magazine culturel">Magazine musical</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="1927780">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Tracks</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE>Keith &amp; Tex, à qui l'on doit le tube «Stop That Train», plongent dans la malle aux vinyles de «Tracks».</LETEXTE>
+            <SOUSTITRE>Keith &amp; Tex</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE>Ilic s'est imposé comme l'un des spécialiste de l'art contemporain assisté par ordinateur.</LETEXTE>
+            <SOUSTITRE>Dragan Ilic</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE>Le credo de Rootronica : renouer avec leurs racines pour réinventer la musique électro.</LETEXTE>
+            <SOUSTITRE>Rootronica</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="4">
+            <LETEXTE>Le réalisateur gore Sion Siono a confié à Ami Tomite le premier rôle d'«Antiporno»</LETEXTE>
+            <SOUSTITRE>Ami Tomite</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="5">
+            <LETEXTE>La marque de fabrique de Vincent Macaigne : l'excès.</LETEXTE>
+            <SOUSTITRE>Vincent Macaigne</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="6">
+            <LETEXTE>Grâce à ses orchestres de machines bricolées, le Québecois Martin Messier est devenu un magicien de la musique électro.</LETEXTE>
+            <SOUSTITRE>Martin Messier</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125353766.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607019" DATEMODIF="2018-01-26T11:03:07">
+      <DATEHEURE>2018-02-22T04:10:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Arte regards</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125615142" DATEMODIF="2018-01-26T08:56:07">
+        <TITREEMISSION>Arte regards</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="369" GENRESIMPLE="Documentaire de société">Politique</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="24748770">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Arte regards</NOM>
+          </COLLECTION>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>28</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En prise avec un thème d'actualité, des reportages vont à la rencontre de citoyens européens et proposent une plongée inédite dans leurs réalités quotidiennes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125615142.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171607456" DATEMODIF="2018-01-26T11:03:07">
+      <DATEHEURE>2018-02-22T04:40:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Fin des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125594152" DATEMODIF="2018-01-26T11:03:07">
+        <TITREEMISSION>Fin des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

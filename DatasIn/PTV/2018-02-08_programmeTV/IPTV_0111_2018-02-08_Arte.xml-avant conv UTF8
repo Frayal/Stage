@@ -1,0 +1,2633 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:49:24-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="111">
+    <NOMCHAINE>Arte</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-08">
+    <DIFFUSION CLEDIF="170866609" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T05:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Le Mythe de Carmen</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124631765" DATEMODIF="2017-12-28T11:19:26">
+        <TITREEMISSION>Le Mythe de Carmen</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="361" GENRESIMPLE="Documentaire culturel">Culture</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="582454">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Brüggemann</NOM>
+            <PRENOM>Axel</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Retour sur les plus brillantes mises en scènes et interprétations de cet opéra mythique, dédié à celle qui résume l'archétype de la femme fatale et émancipée.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>C'est aujourd'hui l'oeuvre la plus connue de Georges Bizet. Opéra-comique en quatre actes, «Carmen» résume l'archétype de la femme fatale. Rebelle, la jeune bohémienne andalouse travaille est avant tout émancipée, travaillant comme cigarière. Le documentariste allemand Axel Brüggemann s'est intéressé à ce personnage devenu mythique. Au fil d'images de mises en scène marquantes, mêlées à des séquences de fiction, plusieurs interprètes de renoms expriment sur leur vision du personnage. La dramaturgie et les motifs musicaux nourrissent la multiplicité de thématiques de cette oeuvre, qui ne rencontra aucun succès auprès du public, lors de sa création en 1875, Qui serait Carmen au XXIe siècle ?</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124631765.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866610" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T05:50:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>X:enius</TITRE>
+      <SOUSTITREDIF>Insomnie, le nouveau mal du siècle</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125063410" DATEMODIF="2018-01-11T12:46:20">
+        <TITREEMISSION>X:enius</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="584436">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / X:enius</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Insomnie, le nouveau mal du siècle</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1356192">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bled</NOM>
+            <PRENOM>Caroline du</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="481799">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mergner</NOM>
+            <PRENOM>Gunnar</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>En Allemagne, le nombre d'actifs souffrant d'insomnies a augmenté de 66% au cours des sept dernières années, et un insomniaque sur deux s'adonne à l'automédication. Les présentateurs de Xenius font analyser la qualité de leur sommeil afin de savoir si les problèmes sévères se détectent facilement.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125063410.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866611" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T06:15:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Les alliés cachés de notre organisme</TITRE>
+      <SOUSTITREDIF>Les fascias</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124800743" DATEMODIF="2018-01-03T14:38:31">
+        <TITREEMISSION>Les alliés cachés de notre organisme</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="373" GENRESIMPLE="Documentaire scientifique">Sciences et technique</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <SOUSTITRE>Les fascias</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="103744">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Esch</NOM>
+            <PRENOM>Kirsten</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Gros plan sur le tissu fascial, élément méconnu et vital de l'organisme qui suscite parmi les chercheurs en médecine un intérêt et un espoir croissants.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Cela fait plus de trente ans que la fasciathérapie a fait son apparition en Occident parmi les médecines douces. Le tissu fascial, qui entoure à la manière d'un bandage à la fois dense et irrégulier les éléments composant le corps - organes, muscles et os –, est encore peu connu. Ce gigantesque réseau de fibres blanchâtres, qui relie toutes ces parties et, surtout, leur permet de fonctionner ensemble, commence à dévoiler une partie de ses pouvoirs grâce aux études de plusieurs pionniers interrogés ici, anatomistes et médecins, notamment. Visibles à l'échographie, sensibles à l'acupuncture et à la pression manuelle, facilement endommagés par le stress et l'inaction physique, les fascias pourraient en effet se révéler l'origine méconnue de nombreuses pathologies, dont les douleurs dorsales.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124800743.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866612" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T07:10:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Arte journal junior</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125116782" DATEMODIF="2018-01-19T14:30:15">
+        <TITREEMISSION>Arte journal junior</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="403" GENRESIMPLE="Magazine jeunesse">Magazine jeunesse</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="19313708">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Arte journal junior</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1249166">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Haffner</NOM>
+            <PRENOM>Dorothee</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1250225">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Kreuzer</NOM>
+            <PRENOM>Magali</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1215943">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Höfchen</NOM>
+            <PRENOM>Carolyn</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1267321">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Rauschendorf</NOM>
+            <PRENOM>Frank</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Un journal quotidien de six minutes pour les 10-14 ans. Au programme : un décryptage du monde et de ses enjeux à travers des sujets d'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125116782.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866613" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T07:15:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>360°-GEO</TITRE>
+      <SOUSTITREDIF>Paco Pacos, belles bagnoles du Brésil</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="46482776" DATEMODIF="2012-12-19T16:33:43">
+        <TITREEMISSION>360°-GEO</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="7661989">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / 360°-GEO</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Paco Pacos, belles bagnoles du Brésil</SOUSTITRE>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="241463">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Drevs</NOM>
+            <PRENOM>Jan Hinrik</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans le Nord-Ouest du Brésil, un inventeur a mis au point de drôles de voitures, toutes élaborées à partir de pièces détachées : les Paco Pacos.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E46482776.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866614" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T08:00:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Invitation au voyage</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125063066" DATEMODIF="2018-01-11T10:37:57">
+        <TITREEMISSION>Invitation au voyage</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="426" GENRESIMPLE="Magazine de découvertes">Magazine du tourisme</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="24751255">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Invitation au voyage</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="204142">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Lorin</NOM>
+            <PRENOM>Linda</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE>Le comté anglais du Devon et ses landes brumeuses ont inspiré à Arthur Conan Doyle la suite des aventures de son célèbre détective.</LETEXTE>
+            <SOUSTITRE>Le Devon, second souffle de Sherlock Holmes</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE>Longue de 324 kilomètres, la Durance a fait mieux que traverser la Provence : elle l'a construite.</LETEXTE>
+            <SOUSTITRE>La Durance, au fil de la Provence</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE>Cet ensemble architectural exceptionnel, où se pressent les touristes en quête de quiétude, a joué un rôle déterminant dans l'histoire des États-Unis.</LETEXTE>
+            <SOUSTITRE>«L'incontournable» : à Amsterdam, le Béguinage</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125063066.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866615" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T08:40:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>La Corse, beauté sauvage</TITRE>
+      <SOUSTITREDIF>Un monde végétal</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="51229259" DATEMODIF="2013-04-17T15:31:00">
+        <TITREEMISSION>La Corse, beauté sauvage</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="10772373">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / La Corse, beauté sauvage</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Un monde végétal</SOUSTITRE>
+          <ANNEEREALISATION>2012</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>5</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="378319">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Froment</NOM>
+            <PRENOM>Jean</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au fil du temps, les Corses ont réussi à apprivoiser le maquis, luxuriant et odorant, qui recouvre plus de la moitié du territoire insulaire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E51229259.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866616" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T09:25:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Thorium, la face gâchée du nucléaire</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="108374698" DATEMODIF="2016-08-25T11:18:43">
+        <TITREEMISSION>Thorium, la face gâchée du nucléaire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="373" GENRESIMPLE="Documentaire scientifique">Sciences et technique</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>90</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="103688">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Tonelotto</NOM>
+            <PRENOM>Myriam</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Défendue par le physicien Alvin Weinberg jusqu'à sa mort en 2006, l'utiisation de thorium pour fabriquer de l'énergie nucléaire «verte» est aujourd'hui à l'étude.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une énergie nucléaire «verte» est-elle possible ? Le thorium, ce combustible alternatif découvert à la fin du XIXe siècle, représente une piste sérieuse pour sortir du plutonium. Si le nucléaire n'avait pas servi à bombarder Hiroshima et propulser des flottes militaires, les centrales fonctionneraient sans doute avec des réacteurs à sels fondus de thorium. Avec un corollaire d'effets environnementaux et climatiques. Pour cela, il aurait suffi de se pencher sur les travaux du physicien américain Alvin Weinberg qui, après avoir participé à la fabrication de la bombe atomique, a voulu travailler sur une utilisation civile et pacifique de l'atome. Mais les intérêts liés aux lobbies de l'énergie et de la défense en ont décidé autrement. Aujourd'hui, pourtant, l'idée d'un recours à des combustibles nucléaires liquides et à des réacteurs à sels fondus refait surface.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E108374698.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866617" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T11:20:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Les métamorphoses de l'ours polaire</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="99549467" DATEMODIF="2016-12-31T23:03:40">
+        <TITREEMISSION>Les métamorphoses de l'ours polaire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="368" GENRESIMPLE="Documentaire">Nature</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="123042">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Marion</NOM>
+            <PRENOM>Rémy</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="599579">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gravel</NOM>
+            <PRENOM>Charlène</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Menacé par le réchauffement climatique, l'ours polaire doit s'adapter pour ne pas disparaître : des observations sur cinq ans donnent des raisons d'espérer.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E99549467.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866618" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T12:05:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Kamtchatka : un printemps en Sibérie</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111998865" DATEMODIF="2016-12-27T14:54:13">
+        <TITREEMISSION>Kamtchatka : un printemps en Sibérie</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="368" GENRESIMPLE="Documentaire">Nature</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="247179">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Jaax</NOM>
+            <PRENOM>Sven</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au Kamchatka, une contrée de l'Extrême-Orient russe, la nature revit avec l'arrivée des beaux jours, à l'instar des ours, qui sortent de leur hibernation.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E111998865.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866619" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T12:50:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Arte journal</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125117789" DATEMODIF="2018-01-19T14:30:15">
+        <TITREEMISSION>Arte journal</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2964810">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Arte journal</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'actualité de la mi-journée en voix off.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125117789.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866620" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T13:00:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>Arte regards</TITRE>
+      <SOUSTITREDIF>Obésité infantile</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125152258" DATEMODIF="2018-01-19T14:30:01">
+        <TITREEMISSION>Arte regards</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="369" GENRESIMPLE="Documentaire de société">Politique</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="24748770">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Arte regards</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Obésité infantile</SOUSTITRE>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <DUREEEMI>28</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En prise avec un thème d'actualité, des reportages vont à la rencontre de citoyens européens et proposent une plongée inédite dans leurs réalités quotidiennes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125152258.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866621" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T13:35:00</DATEHEURE>
+      <DUREE>120</DUREE>
+      <TITRE>Que la fête commence</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="53931" DATEMODIF="2018-01-10T13:37:15">
+        <TITREEMISSION>Que la fête commence</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="256" GENRESIMPLE="Film historique">Film historique</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>1975</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>114</DUREEEMI>
+          <APPRECIATION>3</APPRECIATION>
+          <PALMARES>
+            <ANNEE>1976</ANNEE>
+            <FESTIVAL CLE="23">
+              <NOM>César</NOM>
+              <PAYS>France</PAYS>
+              <PARTICIPANT>
+                <PERSONNE CLE="1957">
+                  <NOM>Rochefort</NOM>
+                  <PRENOM>Jean</PRENOM>
+                </PERSONNE>
+                <RECOMPENSE CLE="28">Meilleur Acteur dans un Second rôle</RECOMPENSE>
+              </PARTICIPANT>
+              <PARTICIPANT>
+                <PERSONNE CLE="10012">
+                  <NOM>Tavernier</NOM>
+                  <PRENOM>Bertrand</PRENOM>
+                </PERSONNE>
+                <RECOMPENSE CLE="25">Meilleur Réalisateur</RECOMPENSE>
+              </PARTICIPANT>
+            </FESTIVAL>
+          </PALMARES>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="10012">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Tavernier</NOM>
+            <PRENOM>Bertrand</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3839">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Noiret</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Philippe d'Orléans</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1957">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rochefort</NOM>
+            <PRENOM>Jean</PRENOM>
+            <ROLE>l'abbé Dubois</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="295935">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marielle</NOM>
+            <PRENOM>Jean-Pierre</PRENOM>
+            <ROLE>le marquis de Pontcallec</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2982">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pascal</NOM>
+            <PRENOM>Christine</PRENOM>
+            <ROLE>Emilie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2840">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Vlady</NOM>
+            <PRENOM>Marina</PRENOM>
+            <ROLE>Marie-Madeleine de Parabère</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6330">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Adam</NOM>
+            <PRENOM>Alfred</PRENOM>
+            <ROLE>Villeroi</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15434">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desarthe</NOM>
+            <PRENOM>Gérard</PRENOM>
+            <ROLE>le duc de Bourbon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6070">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lejeune</NOM>
+            <PRENOM>Monique</PRENOM>
+            <ROLE>madame de Sabran</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12696">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Duhamel</NOM>
+            <PRENOM>Antoine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En 1719, un nobliau breton ruiné tente de se révolter contre l'arbitraire royal, mais devient malgré lui l'instrument de luttes d'influence.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En 1719, Philippe d'Orléans assure depuis quatre ans la régence du royaume de France. En Bretagne, où sévit la famine, une révolte éclate contre le pouvoir. Un nobliau ruiné, le marquis de Pontcallec, veut soulever la province. Il se rend à Paris, pour y rencontrer Philippe d'Orléans. Celui-ci est très occupé, la nuit, par de petits soupers galants et de fines débauches, mais gouverne le jour, en compagnie de l'abbé Dubois, son complice en parties fines. Dubois poursuit ses propres ambitions, un chapeau d'archevêque et l'alliance anglaise, quitte à écraser dans le sang une révolte bretonne balbutiante et peu dangereuse. Pontcallec est donc arrêté à son arrivée à Paris et condamné à la déportation vers la Louisiane...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un tableau magistral de la Régence, des ruelles aux palais, servi par une magnifique direction d'acteurs.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E53931.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170855972" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T15:35:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>360°-GEO</TITRE>
+      <SOUSTITREDIF>La migration des grues au Bhoutan</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="96074999" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>360°-GEO</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="203">
+          <PAYS>France - Allemagne</PAYS>
+          <LIBELLE>franco-allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="7661989">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / 360°-GEO</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La migration des grues au Bhoutan</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1266137">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Zimmermann</NOM>
+            <PRENOM>Udo A</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Chaque année, au mois d'octobre, les grues arrivent en nombre au Bhoutan pour passer l'hiver dans la vallée de Phobjikha, au coeur de l'Himalaya.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E96074999.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170855973" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T16:30:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Invitation au voyage</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125109827" DATEMODIF="2018-01-17T11:42:01">
+        <TITREEMISSION>Invitation au voyage</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="426" GENRESIMPLE="Magazine de découvertes">Magazine du tourisme</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="24751255">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Invitation au voyage</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="204142">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Lorin</NOM>
+            <PRENOM>Linda</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au sommaire :</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="1">
+            <LETEXTE>Cernée par le bleu de la mer Tyrrhénienne et formée par un volcan en éruption permanente, Stromboli, la plus impressionnante des îles Eoliennes, est un personnage à part entière dans l'oeuvre de Roberto Rossellini.</LETEXTE>
+            <SOUSTITRE>Stromboli, héroïne de Rossellini</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="2">
+            <LETEXTE>Les Cévennes ont servi de refuge aux protestants sous le règne de Louis XIV.</LETEXTE>
+            <SOUSTITRE>Les Cévennes, une histoire protestante</SOUSTITRE>
+          </TEXTE>
+          <TEXTE TYPE="3">
+            <LETEXTE>Dominant la ville reconstruite après-guerre, ses deux clochers fendent le ciel. Avec cinq millions de touristes par an, la cathédrale de Cologne est le monument le plus visité d'Allemagne.</LETEXTE>
+            <SOUSTITRE>L'incontournable : à Cologne, la cathédrale</SOUSTITRE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125109827.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170855974" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T17:10:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>X:enius</TITRE>
+      <SOUSTITREDIF>Superaliments</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125110419" DATEMODIF="2018-01-12T14:48:06">
+        <TITREEMISSION>X:enius</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="391" GENRESIMPLE="Magazine de découvertes">Magazine de découvertes</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="584436">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / X:enius</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Superaliments</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="1356192">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bled</NOM>
+            <PRENOM>Caroline du</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="481799">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mergner</NOM>
+            <PRENOM>Gunnar</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>La baie de goji, venue de Chine, les graines de chia, cultivées au Mexique, et le quinoa péruvien sont réputés pour avoir des superpouvoirs. Ils protègeraient contre l'hypertension et le cancer, et rendraient beaux et minces. Né aux Etats-Unis, l'engouement pour les superaliments s'est propagé en Europe.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125110419.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170855975" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T17:35:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Voyage aux Amériques</TITRE>
+      <SOUSTITREDIF>Mexique : la richesse culturelle de l'Etat de Oaxaca</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="100473942" DATEMODIF="2016-12-15T11:24:59">
+        <TITREEMISSION>Voyage aux Amériques</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="10817850">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Voyage aux Amériques</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>In the Americas</TITREORIGINAL>
+          <SOUSTITRE>Mexique : la richesse culturelle de l'Etat de Oaxaca</SOUSTITRE>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="626009">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Duncan</NOM>
+            <PRENOM>Daniel</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans l'Etat d'Oaxaca, David Yetman visite un marché zapotèque, découvre un mariage tehuana, observe des pêcheurs huave et passe la semaine sainte avec les Mixtèques.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E100473942.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866622" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T18:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Sous les étoiles</TITRE>
+      <SOUSTITREDIF>Les aurores boréales du Canada</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="119633572" DATEMODIF="2018-01-03T23:11:24">
+        <TITREEMISSION>Sous les étoiles</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="368" GENRESIMPLE="Documentaire">Nature</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="27288186">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Sous les étoiles</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Les aurores boréales du Canada</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>5</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="576397">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Fernando</NOM>
+            <PRENOM>Rohan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Après avoir sillonné le monde, le Japonais Yuichi Takasaka souhaite réaliser un rêve d'enfant : photographier une aurore boréale au-dessus de l'océan Arctique.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E119633572.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170855976" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T19:00:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>L'évolution en marche</TITRE>
+      <SOUSTITREDIF>Les chiens errants de Moscou</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125110561" DATEMODIF="2018-01-11T15:37:53">
+        <TITREEMISSION>L'évolution en marche</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="354" GENRESIMPLE="Documentaire">Animalier</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="14467677">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / L'évolution en marche</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Les chiens errants de Moscou</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>43</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>4</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="43309">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Riolon</NOM>
+            <PRENOM>Luc</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Plus on s'éloigne des centres urbains, plus les chiens ressemblent à des loups ; au coeur des villes, ils semblent décrypter les codes des hommes pour survivre.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125110561.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866623" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T19:45:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Arte journal</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125117223" DATEMODIF="2018-01-19T14:30:16">
+        <TITREEMISSION>Arte journal</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2964810">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Arte journal</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>L'actualité internationale, décortiquée par une rédaction franco-allemande.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125117223.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866624" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T20:05:00</DATEHEURE>
+      <DUREE>43</DUREE>
+      <TITRE>28 minutes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125116294" DATEMODIF="2018-01-11T15:50:56">
+        <TITREEMISSION>28 minutes</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="7648713">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / 28 minutes</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="100560">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Quin</NOM>
+            <PRENOM>Elisabeth</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="395507">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Dély</NOM>
+            <PRENOM>Renaud</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="477246">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Daam</NOM>
+            <PRENOM>Nadia</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1311582">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Poret</NOM>
+            <PRENOM>Marc-Antoine de</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="174831">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Askolovitch</NOM>
+            <PRENOM>Claude</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="581051">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Mauduit</NOM>
+            <PRENOM>Xavier</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1343641">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Le Calvez</NOM>
+            <PRENOM>Sandrine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="308421">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Saltiel</NOM>
+            <PRENOM>François</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="108475">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Nolte</NOM>
+            <PRENOM>Thibaut</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="605646">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Chol</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="469878">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Trémolet de Villers</NOM>
+            <PRENOM>Vincent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="379360">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Forgeard</NOM>
+            <PRENOM>Benoît</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Avec curiosité et humour, Elisabeth Quin et son équipe s'emparent chaque jour de l'actualité pour en débattre, aux côtés de personnalités et de spécialistes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125116294.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170861029" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T20:48:00</DATEHEURE>
+      <DUREE>7</DUREE>
+      <TITRE>A Musée Vous, A Musée Moi</TITRE>
+      <SOUSTITREDIF>Les amants – Positif</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125116693" DATEMODIF="2018-02-01T10:39:45">
+        <TITREEMISSION>A Musée Vous, A Musée Moi</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="55" GENRESIMPLE="Série">Série à sketches</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="29516637">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / A Musée Vous, A Musée moi</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29516613">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / A Musée Vous, A Musée moi / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les amants – Positif</SOUSTITRE>
+          <DUREEEMI>2</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>19</NUMERO>
+            <NOMBRE>30</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="485495">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Maruca</NOM>
+            <PRENOM>Fabrice</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="485495">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Maruca</NOM>
+            <PRENOM>Fabrice</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une scène de ménage d'après Magritte, entre un homme qui ne possède pas de corps et une femme particulièrement futée...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170861030" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T20:55:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>River</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121627565" DATEMODIF="2018-02-02T10:56:02">
+        <TITREEMISSION>River</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20351167">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / River</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28267511">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / River / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>River</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>60</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="41209">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Fywell</NOM>
+            <PRENOM>Tim</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="19475">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Skarsgard</NOM>
+            <PRENOM>Stellan</PRENOM>
+            <ROLE>John River</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106480">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Walker</NOM>
+            <PRENOM>Nicola</PRENOM>
+            <ROLE>Jackie «Stevie» Stevenson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14238">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Manville</NOM>
+            <PRENOM>Lesley</PRENOM>
+            <ROLE>Chrissie Read</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="578673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Akhtar</NOM>
+            <PRENOM>Adeel</PRENOM>
+            <ROLE>Ira King</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="108491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marsan</NOM>
+            <PRENOM>Eddie</PRENOM>
+            <ROLE>Thomas Cream</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="581369">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rich</NOM>
+            <PRENOM>Georgina</PRENOM>
+            <ROLE>Rosa Fallows</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364632">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bock</NOM>
+            <PRENOM>Souleiman</PRENOM>
+            <ROLE>Khaalid Mohamoud</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24256">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Norton</NOM>
+            <PRENOM>Jim</PRENOM>
+            <ROLE>Michael Bennigan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="325467">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Abi</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'examen du second portable de Stevie mène River et Ira sur la piste d'un certain Haider, jeune Somalien employé dans un fast-food, le Crystal Kebabs.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'examen du second portable de Stevie mène River et Ira sur la piste d'un certain Haider, jeune Somalien employé dans un fast-food, le Crystal Kebabs. Malgré les dénégations de son propriétaire, River poursuit ses investigations auprès du personnel de l'établissement. Parmi eux, se trouve Khaalid, qui s'entendait bien avec Haider. Il est convaincu que celui-ci, heureux dans son mariage, n'a pas pu entretenir de liaison avec Stevie. Répondant à l'avis de recherche lancé par la police, Michael Bennigan, l'oncle de Stevie, qui dirige une société de taxis, se manifeste à son tour. Il avait refusé de faire travailler Haider...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E121627565.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170861031" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T21:50:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>River</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121627704" DATEMODIF="2018-02-02T10:56:32">
+        <TITREEMISSION>River</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20351167">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / River</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28267511">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / River / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>River</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>60</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="384118">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hobbs</NOM>
+            <PRENOM>Jessica</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="19475">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Skarsgard</NOM>
+            <PRENOM>Stellan</PRENOM>
+            <ROLE>John River</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106480">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Walker</NOM>
+            <PRENOM>Nicola</PRENOM>
+            <ROLE>Jackie «Stevie» Stevenson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14238">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Manville</NOM>
+            <PRENOM>Lesley</PRENOM>
+            <ROLE>Chrissie Read</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="108491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marsan</NOM>
+            <PRENOM>Eddie</PRENOM>
+            <ROLE>Thomas Cream</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="578673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Akhtar</NOM>
+            <PRENOM>Adeel</PRENOM>
+            <ROLE>Ira King</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12118">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maloney</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Tom Read</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="581369">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rich</NOM>
+            <PRENOM>Georgina</PRENOM>
+            <ROLE>Rosa Fallows</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24800">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Teale</NOM>
+            <PRENOM>Owen</PRENOM>
+            <ROLE>Marcus McDonald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="325467">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Abi</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>River découvre que Tom, le mari de Chrissie, son alliée au sein du service, a lui aussi un second téléphone et qu'il a échangé des appels avec Stevie.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>River découvre que Tom, le mari de Chrissie, son alliée au sein du service, a lui aussi un second téléphone et qu'il a échangé des appels avec Stevie. Désemparée par la nouvelle, alors que sa vie conjugale bat de l'aile, Chrissie ne se laisse pas abattre. Elle mobilise ses effectifs pour percer à jour la nature des liens qui unissaient Stevie et Haider Djamal Abdi. L'étau se resserre autour d'un foyer d'accueil pour migrants à Whitechapel, où ce dernier a passé plusieurs mois. De son côté, Ira visionne les vidéos de surveillance de la bibliothèque. Un homme de ménage retient son attention...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E121627704.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170861032" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T22:50:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>River</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="121627717" DATEMODIF="2018-01-11T15:17:07">
+        <TITREEMISSION>River</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="20351167">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / River</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="28267511">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / River / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>River</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <DUREEEMI>60</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="384118">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hobbs</NOM>
+            <PRENOM>Jessica</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="19475">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Skarsgard</NOM>
+            <PRENOM>Stellan</PRENOM>
+            <ROLE>John River</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106480">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Walker</NOM>
+            <PRENOM>Nicola</PRENOM>
+            <ROLE>Jackie «Stevie» Stevenson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14238">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Manville</NOM>
+            <PRENOM>Lesley</PRENOM>
+            <ROLE>Chrissie Read</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="578673">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Akhtar</NOM>
+            <PRENOM>Adeel</PRENOM>
+            <ROLE>Ira King</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="108491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marsan</NOM>
+            <PRENOM>Eddie</PRENOM>
+            <ROLE>Thomas Cream</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12118">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maloney</NOM>
+            <PRENOM>Michael</PRENOM>
+            <ROLE>Tom Read</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1264486">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Convery</NOM>
+            <PRENOM>Turlough</PRENOM>
+            <ROLE>Frankie Stevenson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="24256">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Norton</NOM>
+            <PRENOM>Jim</PRENOM>
+            <ROLE>Michael Bennigan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="325467">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Morgan</NOM>
+            <PRENOM>Abi</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Ira poursuit ses recherches sur les affaires que suivaient Stevie avant sa mort. Il parvient à identifier une société de location de voitures.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Ira poursuit ses recherches sur les affaires que suivaient Stevie avant sa mort. Il parvient à identifier une agence d'intérim, une entreprise de recyclage et une importante société de location de voitures avec chauffeur, qui, toutes trois, ont pour actionnaire Michael Bennigan, l'oncle de la policière assassinée. Soupçonné d'avoir facilité l'obtention de visas ou de titres de séjour aux travailleurs clandestins qu'elles emploient, le juge Tom Read, l'époux de Chrissie, est dans la tourmente...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E121627717.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170861668" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-08T23:50:00</DATEHEURE>
+      <DUREE>80</DUREE>
+      <TITRE>Le dernier cochon</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124794887" DATEMODIF="2018-01-23T15:05:05">
+        <TITREEMISSION>Le dernier cochon</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="329" GENRESIMPLE="Téléfilm humoristique">Téléfilm humoristique</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Die letzte Sau</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>86</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="1195993">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lehmann</NOM>
+            <PRENOM>Aron</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="441431">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Euler</NOM>
+            <PRENOM>Golo</PRENOM>
+            <ROLE>Huber</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="369313">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thomass</NOM>
+            <PRENOM>Rosalie</PRENOM>
+            <ROLE>Birgit</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="60146">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Herbst</NOM>
+            <PRENOM>Christoph Maria</PRENOM>
+            <ROLE>Willi</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="264170">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Merten</NOM>
+            <PRENOM>Thorsten</PRENOM>
+            <ROLE>Imker Meier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1204869">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bading</NOM>
+            <PRENOM>Emma</PRENOM>
+            <ROLE>Julia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364641">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Greiner</NOM>
+            <PRENOM>Eckhard</PRENOM>
+            <ROLE>le prêtre du village</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="613048">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schimkat</NOM>
+            <PRENOM>Arnd</PRENOM>
+            <ROLE>l'agent Senkrecht</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="355341">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zillmann</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Gernot</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1206586">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Bojadzhiev</NOM>
+            <PRENOM>Boris</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune éleveur de porcs, ses machines et son cheptel après la chute d'une météorite. Il prend la route, emmenant sa dernière truie dans son side-car.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les temps sont durs pour Huber, jeune éleveur de porcs. Minée par la concurrence de l'agro-industrie, sa petite ferme est en faillite. Sa compagne Birgit vient de le quitter pour reprendre l'exploitation de son père, géant du secteur agricole, et son ami Willi se suicide après un braquage de banque qui tourne au désastre. Quand, comble de malchance, une météorite s'abat au beau milieu de sa ferme, Huber perd ses machines, sa grange et tous ses porcs, à l'exception d'une truie réfractaire. Acculé, criblé de dettes, Huber choisit de tout lâcher pour entamer une vie de vagabond sur les routes, avec pour destrier sa mobylette, pour arme un fusil rouillé et dans son side-car la truie rebelle. Le jeune casse-cou apprécie ce nouveau mode de vie mi-bohème mi-anarchiste...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un road-movie surprenant et joyeusement anti-système.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E124794887.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866625" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-09T01:10:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Occupied</TITRE>
+      <SOUSTITREDIF>Novembre</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="76889934" DATEMODIF="2017-12-13T17:36:53">
+        <TITREEMISSION>Occupied</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="527">
+          <PAYS>Norvège</PAYS>
+          <LIBELLE>norvégienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="17721995">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Occupied</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="17721976">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Occupied / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Okkupert</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Novembre</SOUSTITRE>
+          <SOUSTITREORIGINAL>November</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1273149">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Sorhaug</NOM>
+            <PRENOM>Eva</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="485797">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mestad</NOM>
+            <PRENOM>Henrik</PRENOM>
+            <ROLE>Jesper Berg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1218219">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Skar</NOM>
+            <PRENOM>Eldar</PRENOM>
+            <ROLE>Hans Martin Djupvik</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1218220">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hoel</NOM>
+            <PRENOM>Vergard</PRENOM>
+            <ROLE>Thomas Eriksen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="346882">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Torp</NOM>
+            <PRENOM>Ane Dahl</PRENOM>
+            <ROLE>Bente Norum</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1273335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Loven</NOM>
+            <PRENOM>Lisa</PRENOM>
+            <ROLE>Astrid Berg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1218223">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gudbrandsens</NOM>
+            <PRENOM>Ranghild</PRENOM>
+            <ROLE>Wenche Arnesen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="157664">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dapkunaite</NOM>
+            <PRENOM>Ingeborga</PRENOM>
+            <ROLE>Irina Sidorova</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1274787">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Naurbiev</NOM>
+            <PRENOM>Elishan</PRENOM>
+            <ROLE>Ilias Moussaiev</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1273150">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Solli</NOM>
+            <PRENOM>Tomas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Thomas a été découvert mort dans une rivière. Dans les rues d'Oslo, l'atmosphère est de plus en plus tendue. Les troupes russes sont déployées aux frontières.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dans les rues d'Oslo, l'atmopshère est de plus en plus tendue. Les troupes russes sont désormais déployées aux frontières. Jesper Berg et son ministre de la Défense ont convaincu Hans Martin, mis à pied par Wenche, d'accepter le poste que les Russes lui ont offert, et de jouer les taupes. Le corps sans vie de Thomas a été découvert dans une rivière. Le roi de Norvège demande à Jesper Berg, désavoué par son parti, de rester aux commandes. Celui-ci, qui s'apprêtait à se retirer, hésite. Mais les services secrets font état de la présence clandestine dans le pays de réseaux russes ayant déjà agi en Géorgie et en Tchétchénie. Berg lance un appel public à la vigilance, suscitant la colère de l'ambassadrice...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C76889934.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866626" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-09T02:00:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Occupied</TITRE>
+      <SOUSTITREDIF>Décembre</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="76889935" DATEMODIF="2017-12-13T17:36:56">
+        <TITREEMISSION>Occupied</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="527">
+          <PAYS>Norvège</PAYS>
+          <LIBELLE>norvégienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="17721995">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Occupied</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="17721976">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Occupied / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Okkupert</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Décembre</SOUSTITRE>
+          <SOUSTITREORIGINAL>December</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="273501">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Skjoldbjaerg</NOM>
+            <PRENOM>Erik</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="485797">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mestad</NOM>
+            <PRENOM>Henrik</PRENOM>
+            <ROLE>Jesper Berg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1218219">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Skar</NOM>
+            <PRENOM>Eldar</PRENOM>
+            <ROLE>Hans Martin Djupvik</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="532402">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hoel</NOM>
+            <PRENOM>Vegar</PRENOM>
+            <ROLE>Thomas Eriksen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="346882">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Torp</NOM>
+            <PRENOM>Ane Dahl</PRENOM>
+            <ROLE>Bente Norum</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1273335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Loven</NOM>
+            <PRENOM>Lisa</PRENOM>
+            <ROLE>Astrid Berg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="157664">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dapkunaite</NOM>
+            <PRENOM>Ingeborga</PRENOM>
+            <ROLE>Irina Sidorova</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1272400">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gudbrandsen</NOM>
+            <PRENOM>Ragnhild</PRENOM>
+            <ROLE>Wenche Arnesen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1275378">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morkrid</NOM>
+            <PRENOM>Veslemoy</PRENOM>
+            <ROLE>Ingrid Bo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1273150">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Solli</NOM>
+            <PRENOM>Tomas</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Jesper Berg continue d'exercer ses fonctions de Premier ministre, sous le regard critique de son ambassadeur, qui n'apprécie pas sa politique.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jesper Berg continue d'exercer ses fonctions de Premier ministre depuis l'ambassade américaine, sous le regard critique de son ambassadeur, qui n'apprécie pas sa politique. Les Américains estiment qu'il ne fera que jeter de l'huile sur le feu entre la Norvège et la Russie. Il finit par les convaincre d'inviter Irina Sidorova à l'ambassade. Wenche est déçue de voir Jesper privilégier la voie diplomatique. Elle entame un mouvement de résistance, tout en sachant que sa maladie l'empêchera bientôt de combattre. Bente sait que les Russes ont tué son mari. Comment continuer à collaborer avec eux ? Via Oskar, elle prend contact à son tour avec la résistance...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E76889935.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866627" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-09T02:45:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Occupied</TITRE>
+      <SOUSTITREDIF>Décembre</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="76889936" DATEMODIF="2017-12-13T17:36:57">
+        <TITREEMISSION>Occupied</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="969" GENRESIMPLE="Série dramatique">Série dramatique</GENRE>
+        <NATIONALITE CLE="527">
+          <PAYS>Norvège</PAYS>
+          <LIBELLE>norvégienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="17721995">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Occupied</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="17721976">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Occupied / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Okkupert</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Décembre</SOUSTITRE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>10</NUMERO>
+            <NOMBRE>10</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="273501">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Skjoldbjaerg</NOM>
+            <PRENOM>Erik</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="485797">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mestad</NOM>
+            <PRENOM>Henrik</PRENOM>
+            <ROLE>Jesper Berg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1218219">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Skar</NOM>
+            <PRENOM>Eldar</PRENOM>
+            <ROLE>Hans Martin Djupvik</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1218220">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hoel</NOM>
+            <PRENOM>Vergard</PRENOM>
+            <ROLE>Thomas Eriksen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="346882">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Torp</NOM>
+            <PRENOM>Ane Dahl</PRENOM>
+            <ROLE>Bente Norum</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1273335">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Loven</NOM>
+            <PRENOM>Lisa</PRENOM>
+            <ROLE>Astrid Berg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="157664">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dapkunaite</NOM>
+            <PRENOM>Ingeborga</PRENOM>
+            <ROLE>Irina Sidorova</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1272400">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Gudbrandsen</NOM>
+            <PRENOM>Ragnhild</PRENOM>
+            <ROLE>Wenche Arnesen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1275378">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morkrid</NOM>
+            <PRENOM>Veslemoy</PRENOM>
+            <ROLE>Ingrid Bo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1233706">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Nesbo</NOM>
+            <PRENOM>Jo</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les Américains, désireux de se débarrasser de Jesper, lui proposent un billet pour la Suisse. De son côté, Wenche essaie d'égarer les soupçons de la police.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les Américains, désireux de se débarrasser de Jesper, lui proposent un billet pour la Suisse, ce qu'il refuse. Il laisse entendre lors d'une interview que les Américains sont du côté de la Norvège. De son côté, Wenche fait tout pour égarer les soupçons de la police dans leur recherche d'Irina Sidorova. Au QG russe, de nouveaux leaders, plus militants, sont sur le point de prendre le contrôle. Des deux côtés, on attend l'affrontement. «Norvège libre» aide Jesper Berg à quitter le pays, mais l'action n'est pas désintéressée...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C76889936.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866628" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-09T03:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Les oubliés de l'histoire</TITRE>
+      <SOUSTITREDIF>René Dumont, l'homme qui voulait nourrir le monde</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="113153001" DATEMODIF="2017-01-24T18:03:52">
+        <TITREEMISSION>Les oubliés de l'histoire</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="363" GENRESIMPLE="Documentaire">Histoire</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="23741838">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Les oubliés de l'histoire</NOM>
+          </COLLECTION>
+          <SOUSTITRE>René Dumont, l'homme qui voulait nourrir le monde</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>26</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>12</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="24626">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Malaterre</NOM>
+            <PRENOM>Jacques</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="24626">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Malaterre</NOM>
+            <PRENOM>Jacques</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="356429">
+            <FONCTION>Auteur</FONCTION>
+            <NOM>Le Naour</NOM>
+            <PRENOM>Jean-Yves</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Agronome et tiers-mondiste, René Dumont, un des fondateurs de l'écologie politique en France, se présente en 1974 à l'élection présidentielle.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E113153001.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170866629" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-09T04:00:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Arte regards</TITRE>
+      <SOUSTITREDIF>Nostalgie du Duce</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="122973122" DATEMODIF="2017-11-17T11:52:13">
+        <TITREEMISSION>Arte regards</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="369" GENRESIMPLE="Documentaire de société">Politique</GENRE>
+        <NATIONALITE CLE="5">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemand</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="24748770">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Arte regards</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Nostalgie du Duce</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>28</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En prise avec un thème d'actualité, des reportages vont à la rencontre de citoyens européens et proposent une plongée inédite dans leurs réalités quotidiennes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C122973122.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="170912389" DATEMODIF="2018-02-07T08:56:25">
+      <DATEHEURE>2018-02-09T04:30:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Fin des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125148099" DATEMODIF="2018-01-19T14:30:16">
+        <TITREEMISSION>Fin des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

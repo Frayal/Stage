@@ -1,0 +1,1127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:11:23-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1402">
+    <NOMCHAINE>Numéro 23</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-12">
+    <DIFFUSION CLEDIF="171518932" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T06:20:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>JT morning</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125537939" DATEMODIF="2018-01-25T14:27:48">
+        <TITREEMISSION>JT morning</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="952" GENRESIMPLE="Journal">Journal</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="23292957">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / JT morning</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518933" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T06:30:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>P.J.</TITRE>
+      <SOUSTITREDIF>La fugue</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="242752" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>P.J.</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7946">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / P.J.</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4125138">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / P.J. / 5</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La fugue</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2001</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="11297">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Vergez</NOM>
+            <PRENOM>Gérard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3342">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wolkowitch</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>Vincent Fournier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10275">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schneider</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Bernard Léonetti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61610">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bach</NOM>
+            <PRENOM>Emmanuelle</PRENOM>
+            <ROLE>Agathe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="135132">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cramoisan</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Franck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91831">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lubansu</NOM>
+            <PRENOM>Raphaëlle</PRENOM>
+            <ROLE>Chloé Mathieu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Betton</NOM>
+            <PRENOM>Marc</PRENOM>
+            <ROLE>Meurteaux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91721">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Beido</NOM>
+            <PRENOM>Valérie Bagnou</PRENOM>
+            <ROLE>Nadine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44817">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desroses</NOM>
+            <PRENOM>Thierry</PRENOM>
+            <ROLE>Alain Porret</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="143945">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Nivaggioni</NOM>
+            <PRENOM>Jean-Luc</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un enfant abandonné se lance à la recherche de sa mère et découvre qu'elle a refait sa vie sans se soucier de son absence : il fugue aussitôt.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un enfant erre dans la gare du Nord. Elevé par sa grand-mère, il est à la recherche de sa mère. Franck et Agathe se chargent de l'affaire et découvrent bien vite que la femme a refait sa vie entretemps. Eprouvé par cette nouvelle, le garçon fugue à nouveau. De leur côté, Chloé et Vincent tentent de retrouver un livreur. Celui-ci a, en effet, agressé un homme dans un parking, bien décidé à se venger de son récent licenciement. Un étrange paquet arrive au commissariat : il contient du sperme venu des Etats-Unis. La future maman vient chercher son bien...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E242752.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518934" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T07:25:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>P.J.</TITRE>
+      <SOUSTITREDIF>Coupable</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="243950" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>P.J.</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7946">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / P.J.</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4125138">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / P.J. / 5</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Coupable</SOUSTITRE>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2001</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="11297">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Vergez</NOM>
+            <PRENOM>Gérard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3342">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wolkowitch</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>Vincent Fournier</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10275">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schneider</NOM>
+            <PRENOM>Charles</PRENOM>
+            <ROLE>Bernard Léonetti</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8974">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Betton</NOM>
+            <PRENOM>Marc</PRENOM>
+            <ROLE>le commissaire Meurteaux</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="21011">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bagnou-Beido</NOM>
+            <PRENOM>Valérie</PRENOM>
+            <ROLE>Nadine</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44817">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Desroses</NOM>
+            <PRENOM>Thierry</PRENOM>
+            <ROLE>Alain Porret</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91831">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lubansu</NOM>
+            <PRENOM>Raphaëlle</PRENOM>
+            <ROLE>Chloé Matthieu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="61610">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bach</NOM>
+            <PRENOM>Emmanuelle</PRENOM>
+            <ROLE>Agathe</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="135132">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cramoisan</NOM>
+            <PRENOM>Guillaume</PRENOM>
+            <ROLE>Franck</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="162409">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Carro</NOM>
+            <PRENOM>Gilles-Yves</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'équipe du commissariat enquête sur deux affaires : l'électrocution d'une femme et une plainte pour harcèlement sexuel dans une auto-école.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une femme est morte électrocutée. La police soupçonne un peu trop rapidement son mari. Celui-ci ferait certes un coupable idéal, mais Vincent parvient à démontrer que son épouse a été victime d'un simple et stupide accident. Pendant ce temps, une plainte pour harcèlement sexuel pousse Agathe à s'inscrire dans l'auto-école incriminée. Par ailleurs, les policiers se plaignent du fait que le graphisme de leur insigne ressemble au mot «Allah» écrit en arabe...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E243950.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518935" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T08:30:00</DATEHEURE>
+      <DUREE>90</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Loto, casinos, jeux : à qui profite le jackpot ?</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="110494585" DATEMODIF="2016-11-22T23:06:05">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Loto, casinos, jeux : à qui profite le jackpot ?</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Entre le loto, les casinos, les paris hippiques ou en ligne, un Français sur deux joue. Chaque année, les mises avoisinent les quarante milliards d'euros. Au casino de Forges-les-Eaux en Normandie, qui dispose de 300 machines à sous, tout est fait pour que les clients misent le plus possible, mais un dispositif sophistiqué permet aussi de détecter les tricheurs. La Française des Jeux, qui fête les 40 ans du Loto, a ouvert ses portes aux reporters.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E110494585.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518936" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T10:00:00</DATEHEURE>
+      <DUREE>185</DUREE>
+      <TITRE>Les grandes gueules</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125533365" DATEMODIF="2018-01-25T14:27:48">
+        <TITREEMISSION>Les grandes gueules</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="21919296">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les grandes gueules</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="468972">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Marschall</NOM>
+            <PRENOM>Alain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="468973">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Truchot</NOM>
+            <PRENOM>Olivier</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>La bande des grandes gueules accueille tout au long de l'année des intervenants représentatifs de la diversité de la société française et les sujets de société qui font l'actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125533365.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518937" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T13:05:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Police scientifique</TITRE>
+      <SOUSTITREDIF>Portrait-robot</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117504831" DATEMODIF="2017-06-19T23:12:36">
+        <TITREEMISSION>Police scientifique *2016</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="373" GENRESIMPLE="Documentaire scientifique">Sciences et technique</GENRE>
+        <NATIONALITE CLE="155">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="26200024">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Police scientifique *2016</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Portrait-robot</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au Canada, les enquêtes policières les plus minutieuses ne peuvent aboutir sans les précieux indices recueillis et analysés par la police scientifique.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C117504831.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518938" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T13:50:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Police scientifique</TITRE>
+      <SOUSTITREDIF>La piste de l'ADN</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117504855" DATEMODIF="2017-06-19T23:06:47">
+        <TITREEMISSION>Police scientifique *2016</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="373" GENRESIMPLE="Documentaire scientifique">Sciences et technique</GENRE>
+        <NATIONALITE CLE="155">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="26200024">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Police scientifique *2016</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La piste de l'ADN</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>12</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au Canada, les enquêtes policières les plus minutieuses ne peuvent aboutir sans les précieux indices recueillis et analysés par la police scientifique.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C117504855.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518939" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T14:45:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Police scientifique</TITRE>
+      <SOUSTITREDIF>La filature</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117504859" DATEMODIF="2017-06-19T23:12:36">
+        <TITREEMISSION>Police scientifique *2016</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="373" GENRESIMPLE="Documentaire scientifique">Sciences et technique</GENRE>
+        <NATIONALITE CLE="155">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadien</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="26200024">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Police scientifique *2016</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La filature</SOUSTITRE>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>13</NUMERO>
+            <NOMBRE>20</NOMBRE>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Au Canada, les enquêtes policières les plus minutieuses ne peuvent aboutir sans les précieux indices recueillis et analysés par la police scientifique.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C117504859.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518940" DATEMODIF="2018-01-30T03:17:40">
+      <DATEHEURE>2018-02-12T15:50:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>Redrum</TITRE>
+      <SOUSTITREDIF>Soif de vengeance</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125533469" DATEMODIF="2018-01-24T09:55:56">
+        <TITREEMISSION>Redrum</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="1112" GENRESIMPLE="Documentaire">Justice</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="11553382">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / Redrum</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Redrum</TITREORIGINAL>
+          <SOUSTITRE>Soif de vengeance</SOUSTITRE>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>25</DUREEEMI>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>16</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Illustration d'une enquête sur un meurtre, à partir de la découverte d'un corps les enquêteurs doivent reconstituer l'histoire et trouver le mobile.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125533469.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518941" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T16:25:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Touristes à Paris : entre rêve et arnaque</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="103034978" DATEMODIF="2017-11-07T10:49:54">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Touristes à Paris : entre rêve et arnaque</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Paris, capitale de la mode, ville Lumière, accueille chaque année plus de 65 millions de visiteurs. C'est une aubaine pour les professionnels du tourisme, qui rivalisent d'imagination pour attirer les clients. Vrais et faux guides , articles de souvenirs français fabriqués en Chine, ou concurrence féroce entre les bateaux-mouches : l'envers du décor est parfois peu reluisant. «Révélations» a enquêté sur la la guerre commerciale que se livrent en coulisse les tour opérateurs et les commerçants. Les touristes sont également des proies tentantes pour les voleurs qui sévissent dans la capitale. Au Champ de Mars, par exemple, des groupes de jeunes pickpockets détournent l'attention des touristes en brandissant de fausses pétitions, des plans ou des journaux pour détrousser leurs victimes.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E103034978.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518942" DATEMODIF="2018-01-30T03:17:48">
+      <DATEHEURE>2018-02-12T18:15:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>River Monsters</TITRE>
+      <SOUSTITREDIF>Le tueur de la banquise</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125534598" DATEMODIF="2018-01-24T10:01:00">
+        <TITREEMISSION>River Monsters</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5552362">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / River Monsters</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>River Monsters</TITREORIGINAL>
+          <SOUSTITRE>Le tueur de la banquise</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans cette neuvième saison, Jeremy Wade, pêcheur de l'extrême, part aux quatre coins du monde à la rencontre de prédateurs toujours aussi impressionnants.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518943" DATEMODIF="2018-01-30T03:17:51">
+      <DATEHEURE>2018-02-12T19:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>River Monsters</TITRE>
+      <SOUSTITREDIF>Le retour du poisson-chat tueur</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125534597" DATEMODIF="2018-01-24T10:00:44">
+        <TITREEMISSION>River Monsters</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5552362">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / River Monsters</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>River Monsters</TITREORIGINAL>
+          <SOUSTITRE>Le retour du poisson-chat tueur</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans cette neuvième saison, Jeremy Wade, pêcheur de l'extrême, part aux quatre coins du monde à la rencontre de prédateurs toujours aussi impressionnants.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518944" DATEMODIF="2018-01-30T03:17:54">
+      <DATEHEURE>2018-02-12T20:05:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>River Monsters</TITRE>
+      <SOUSTITREDIF>Le tueur des coraux</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125534600" DATEMODIF="2018-01-25T14:27:45">
+        <TITREEMISSION>River Monsters</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="362" GENRESIMPLE="Documentaire de société">Découvertes</GENRE>
+        <NATIONALITE CLE="147">
+          <PAYS>Grande-Bretagne</PAYS>
+          <LIBELLE>britannique</LIBELLE>
+        </NATIONALITE>
+        <DOCUMENTAIRE>
+          <COLLECTION CLE="5552362">
+            <TYPECOLLECTION CLE="11">Documentaire / Titre</TYPECOLLECTION>
+            <NOM>Documentaire / River Monsters</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>River Monsters</TITREORIGINAL>
+          <SOUSTITRE>Le tueur des coraux</SOUSTITRE>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <VOLET>
+            <LIBELLE>VOLET</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </VOLET>
+        </DOCUMENTAIRE>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Dans cette neuvième saison, Jeremy Wade, pêcheur de l'extrême, part aux quatre coins du monde à la rencontre de prédateurs toujours aussi impressionnants.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485133" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T20:55:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Melting-pot : cette France qui réussit</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>1</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125509860" DATEMODIF="2018-01-24T10:34:13">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Melting-pot : cette France qui réussit</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>En France, entreprendre relève parfois du parcours du combattant. Pourtant, certains jeunes réussissent à percer dans des domaines bien éloignés de leurs origines sociales. Pleins d'ambition, ils se sont inspirés de leur vécu pour briser le plafond de verre, et se créer un destin différent de celui de leurs parents. Stylistes, restaurateurs, ils ont été suivis pendant des semaines. Chacun a prouvé que la clé du succès, c'est la détermination.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125509860.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171485134" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-12T22:45:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Révélations</TITRE>
+      <SOUSTITREDIF>Gourous, guérisseurs, chamans : soignants ou charlatans ?</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="110756227" DATEMODIF="2016-11-08T17:02:51">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Gourous, guérisseurs, chamans : soignants ou charlatans ?</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Aujourd'hui, un Français sur deux a recours aux médecines douces ou parallèles. Ils seraient entre 3000 et 5000 en France à proposer une médecine alternative. Mais attention, dans ce maquis des guérisseurs, il y a aussi des escrocs. Les marabouts et désenvouteurs font leur publicité en laissant leurs cordonnées dans les boîtes aux lettres. Beaucoup plus grave, certains guérisseurs au fonctionnement sectaire profitent du désarroi des malades pour recommander l'abandon des médicaments et même de la chimiothérapie en cas de cancer. Lorsque l'on touche à l'inexplicable, comment se prémunir face aux dérives ? Enquête sur ce monde des guérisseurs où le meilleur peut côtoyer le pire.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E110756227.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518945" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-13T00:35:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Révélations</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="123145965" DATEMODIF="2018-02-06T17:18:44">
+        <TITREEMISSION>Révélations</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="423" GENRESIMPLE="Magazine de société">Magazine de société</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="9905014">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Révélations</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="520592">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Oughlis</NOM>
+            <PRENOM>Yasmine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>«Révélations» s'attache, à travers reportages et interviews sur le terrain, à décrypter les problématiques et l'évolution de la société, en France et autour du monde. Des enquêtes sur des sujets sociaux, économiques et culturels permettent d'analyser en profondeur des phénomènes qui ont gagné en influence ces dernières années.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C123145965.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171518946" DATEMODIF="2018-01-25T14:27:48">
+      <DATEHEURE>2018-02-13T02:25:00</DATEHEURE>
+      <DUREE>235</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125537940" DATEMODIF="2018-01-25T14:27:48">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

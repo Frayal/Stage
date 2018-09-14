@@ -1,0 +1,3425 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:46:57-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="2">
+    <NOMCHAINE>13eme RUE</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="171688509" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T05:20:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>R.I.S. Police scientifique</TITRE>
+      <SOUSTITREDIF>Dernier acte</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="11107018" DATEMODIF="2017-01-13T10:04:12">
+        <TITREEMISSION>R.I.S. Police scientifique</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7975">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5206218">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique / 4</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Dernier acte</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1257493">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Barbier</NOM>
+            <PRENOM>Christophe</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="171185">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cabrita</NOM>
+            <PRENOM>Barbara</PRENOM>
+            <ROLE>Julie Labro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="313180">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rajot</NOM>
+            <PRENOM>Pierre-Loup</PRENOM>
+            <ROLE>Hugo Chalonges</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caroit</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Gilles Sagnac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33439">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Metzger</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>Malik Berkaoui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="207840">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bargème</NOM>
+            <PRENOM>Aurélie</PRENOM>
+            <ROLE>Nathalie Giesbert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45035">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olmedo</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Pierre Morand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zahonero</NOM>
+            <PRENOM>Coraly</PRENOM>
+            <ROLE>Alessandra Joffrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="152194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tagbo</NOM>
+            <PRENOM>Claudia</PRENOM>
+            <ROLE>Martine Forest</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="470260">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Jacobs</NOM>
+            <PRENOM>Delinda</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un auteur de romans policiers meurt dans une librairie, assommé par un lustre monumental. Et une jeune femme est brûlée au troisième degré dans une cabine à UV.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un célèbre auteur de romans policiers a été invité par une librairie à donner lecture de son dernier ouvrage. Mais l'homme meurt brutalement, assommé par un lustre monumental. Hugo connaissait le romancier parce qu'il l'avait aidé sur un précédent livre. Il hérite de cette enquête délicate, qui va rapidement révéler des dessous peu reluisants. Pendant ce temps, une jeune femme est brûlée au troisième degré dans une cabine à UV. Pourtant, elle n'y est pas restée plus que le temps légal et la cabine a été soumise aux vérifications obligatoires. S'agirait-il d'un crime déguisé en accident ? Les experts enquêtent...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E11107018.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688510" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T06:10:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>R.I.S. Police scientifique</TITRE>
+      <SOUSTITREDIF>Partout où tu iras</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="11107019" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>R.I.S. Police scientifique</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7975">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5206218">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique / 4</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Partout où tu iras</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="45631">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Seban</NOM>
+            <PRENOM>Jean-Marc</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="171185">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cabrita</NOM>
+            <PRENOM>Barbara</PRENOM>
+            <ROLE>Julie Labro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="313180">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rajot</NOM>
+            <PRENOM>Pierre-Loup</PRENOM>
+            <ROLE>Hugo Chalonges</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caroit</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Gilles Sagnac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33439">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Metzger</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>Malik Berkaoui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="207840">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bargème</NOM>
+            <PRENOM>Aurélie</PRENOM>
+            <ROLE>Nathalie Giesbert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45035">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olmedo</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Pierre Morand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zahonero</NOM>
+            <PRENOM>Coraly</PRENOM>
+            <ROLE>Alessandra Joffrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="152194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tagbo</NOM>
+            <PRENOM>Claudia</PRENOM>
+            <ROLE>Martine Forest</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="468310">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Carrié</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un corps décomposé est découvert dans un amphithéâtre de la Sorbonne. Plus tard, c'est celui d'un cycliste qui est retrouvé dans le lac du bois de Boulogne.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>C'est la rentrée universitaire. Le corps décomposé d'une jeune fille est retrouvé dans un amphithéâtre de la Sorbonne. Après une reconstitution faciale, les experts déterminent qu'il s'agit d'une étudiante, qui est restée enfermée dans les locaux durant tout l'été. Un peu plus tard, le corps d'un cycliste est découvert dans le lac du bois de Boulogne. S'agit-il d'un meurtre ou d'un accident ?...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E11107019.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688511" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T07:05:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Commissaire Magellan</TITRE>
+      <SOUSTITREDIF>Grand large</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="98152684" DATEMODIF="2015-10-13T17:37:21">
+        <TITREEMISSION>Commissaire Magellan</TITREEMISSION>
+        <FORMAT CLE="2">Téléfilm</FORMAT>
+        <GENRE CLE="334" GENRESIMPLE="Téléfilm policier">Téléfilm policier</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <COLLECTION CLE="7249649">
+            <TYPECOLLECTION CLE="7">Téléfilm / Titre / Héros récurrent</TYPECOLLECTION>
+            <NOM>Téléfilm / Commissaire Magellan / Vrai</NOM>
+          </COLLECTION>
+          <PARTIE>
+            <LIBELLE>PARTIE</LIBELLE>
+            <NUMERO>20</NUMERO>
+          </PARTIE>
+          <SOUSTITRE>Grand large</SOUSTITRE>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="21783">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Guérin</NOM>
+            <PRENOM>François</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3121">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Spiesser</NOM>
+            <PRENOM>Jacques</PRENOM>
+            <ROLE>Simon Magellan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="174605">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kouchy</NOM>
+            <PRENOM>Selma</PRENOM>
+            <ROLE>Selma</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8147">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Besançon</NOM>
+            <PRENOM>Nathalie</PRENOM>
+            <ROLE>Florence Higel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14460">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Alane</NOM>
+            <PRENOM>Bernard</PRENOM>
+            <ROLE>Paul Gavrillac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="615349">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>De Stefano</NOM>
+            <PRENOM>Marie</PRENOM>
+            <ROLE>Cordelia Magellan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="13955">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mekki</NOM>
+            <PRENOM>Smaïl</PRENOM>
+            <ROLE>Nabil</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="18442">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Back</NOM>
+            <PRENOM>Yvon</PRENOM>
+            <ROLE>Gilles Lacoste</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="8028">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pallas</NOM>
+            <PRENOM>Cécile</PRENOM>
+            <ROLE>Patricia Lacoste</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="46583">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Porte</NOM>
+            <PRENOM>Frédéric</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le soir du baptême de son bateau, le skipper Loïc Kermadec est assassiné. Magellan découvre que le retour de la victime à Saignac dérangeait beaucoup de monde.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le soir du baptême de son bateau de course, le célèbre skipper Loïc Kermadec est assassiné. Qui aurait pu souhaiter sa mort ? Un concurrent déterminé à l'empêcher de prendre le départ de la prochaine course au large ? Un proche qu'il aurait trahi ? Le frère de son armateur, dont il est l'ennemi juré ? Lors de l'enquête, Magellan va découvrir les véritables raisons du retour de la victime à Saignac. Des raisons très personnelles qui avaient de quoi déranger beaucoup de gens autour de lui. L'un d'eux est forcément le coupable. Reste à savoir lequel s'est senti le plus menacé pour aller jusqu'à tuer...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Tourné dans un chantier naval des environs de Lille, un épisode qui met en valeur le patrimoine industriel du Nord.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E98152684.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688512" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T08:45:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Les enquêtes de l'inspecteur Wallander</TITRE>
+      <SOUSTITREDIF>L'homme qui souriait</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117551872" DATEMODIF="2017-06-08T13:56:24">
+        <TITREEMISSION>Les enquêtes de l'inspecteur Wallander</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="1797">
+          <PAYS>Suède - Grande-Bretagne</PAYS>
+          <LIBELLE>suédo-britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26335302">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les enquêtes de l'inspecteur Wallander</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26335283">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les enquêtes de l'inspecteur Wallander / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Wallander</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'homme qui souriait</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Man Who Smiled</SOUSTITREORIGINAL>
+          <DUREEEMI>90</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>3</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="7107">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Wilson</NOM>
+            <PRENOM>Andy</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="10081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Branagh</NOM>
+            <PRENOM>Kenneth</PRENOM>
+            <ROLE>Kurt Wallander</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="190451">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sibley</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Sten Torstensson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19284">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hedlund</NOM>
+            <PRENOM>Roland</PRENOM>
+            <ROLE>Gustaf Torstensson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="63488">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smart</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Anne-Britt Hoglund</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="522071">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shimmin</NOM>
+            <PRENOM>Sadie</PRENOM>
+            <ROLE>Lisa Holgersson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="456071">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hiddleston</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Magnus Martinsson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="82442">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McCabe</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>Nyberg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="470500">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Spark</NOM>
+            <PRENOM>Jeany</PRENOM>
+            <ROLE>Linda Wallander</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="44834">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Donald</NOM>
+            <PRENOM>Simon</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="412587">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cottan</NOM>
+            <PRENOM>Richard</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Wallander enquête sur la mort de l'un de ses amis et celle de son père, survenues dans des circonstances mystérieuses à quelques jours d'intervalle.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'inspecteur Wallander reçoit la visite de Sten Torstensson, l'un de ses amis avocats. Sten pense que son père Gustaf, avocat comme lui, a été assassiné. En effet, il a trouvé la mort dans un accident de voiture bien mystérieux. Le fils de la victime demande à Wallander de mener l'enquête au moment même où le policier, fatigué et déprimé, envisageait de remettre sa démission. Mais lorsque Sten est à son tour retrouvé mort, par pendaison, Wallander revient sur sa décision. Il demande à être chargé des deux enquêtes. Le commissaire oriente aussitôt ses recherches vers un abominable trafic d'organes...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E117551872.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688513" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T10:25:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>R.I.S. Police scientifique</TITRE>
+      <SOUSTITREDIF>Tu seras un homme</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="12454509" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>R.I.S. Police scientifique</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7975">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5206218">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique / 4</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Tu seras un homme</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>14</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="21783">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Guérin</NOM>
+            <PRENOM>François</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caroit</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Gilles Sagnac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="313180">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rajot</NOM>
+            <PRENOM>Pierre-Loup</PRENOM>
+            <ROLE>Hugo Chalonges</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33439">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Metzger</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>Malik Berkaoui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="207840">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bargème</NOM>
+            <PRENOM>Aurélie</PRENOM>
+            <ROLE>Nathalie Giesbert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171185">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cabrita</NOM>
+            <PRENOM>Barbara</PRENOM>
+            <ROLE>Julie Labro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45035">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olmedo</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Pierre Morand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zahonero</NOM>
+            <PRENOM>Coraly</PRENOM>
+            <ROLE>Alessandra Joffrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="152194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tagbo</NOM>
+            <PRENOM>Claudia</PRENOM>
+            <ROLE>Martine Forest</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="443517">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Clamart-Marsollat</NOM>
+            <PRENOM>Emilie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un adolescent a trouvé la mort au cours d'un camp pour les jeunes des cités. Parallèlement, le R.I.S. enquête sur un vol au domicile d'un collectionneur.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un adolescent, inscrit dans un camp destiné aux jeunes des cités, est retrouvé sans vie en pleine forêt. Le R.I.S enquête. Les policiers apprennent bientôt que l'éducateur en charge du camp, un homme au physique de colosse, a déjà été impliqué dans la mort d'une adolescente dix ans plus tôt. Parallèlement, le R.I.S. enquête sur un vol avec violence, survenu au domicile d'un collectionneur spécialisé dans les années 70. On lui a dérobé trois pièces importantes : des costumes de scène portés par Sylvie Vartan. L'équipe scientifique est plongée dans un univers où paillettes et sang se mélangent...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E12454509.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688514" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T11:20:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>FBI : portés disparus</TITRE>
+      <SOUSTITREDIF>Ces chers enfants</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2898209" DATEMODIF="2015-08-27T03:19:25">
+        <TITREEMISSION>FBI : portés disparus</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7735">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4558424">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Without a Trace</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Ces chers enfants</SOUSTITRE>
+          <SOUSTITREORIGINAL>Our Sons and Daughters</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="246261">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Holahan</NOM>
+            <PRENOM>Paul</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LaPaglia</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Jack Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montgomery</NOM>
+            <PRENOM>Poppy</PRENOM>
+            <ROLE>Samantha Spade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32554">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jean-Baptiste</NOM>
+            <PRENOM>Marianne</PRENOM>
+            <ROLE>Vivian Johnson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Close</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Martin Fitzgerald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murciano</NOM>
+            <PRENOM>Enrique</PRENOM>
+            <ROLE>Danny Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="291231">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murphy</NOM>
+            <PRENOM>Jonathan</PRENOM>
+            <ROLE>Ethan Sawyer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="291232">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Richards</NOM>
+            <PRENOM>Scott</PRENOM>
+            <ROLE>Rob Sawyer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="308051">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Acker</NOM>
+            <PRENOM>Jonny</PRENOM>
+            <ROLE>Ted</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="264946">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Bellucci</NOM>
+            <PRENOM>John</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Jack et son équipe mènent l'enquête sur la disparition d'un adolescent. Ils découvrent que sa petite amie participe régulièrement à des orgies.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le jeune Ethan Sawyer, un adolescent discret et sans histoires, disparaît de chez ses parents en pleine nuit. Sa mère avait remarqué qu'il était un peu perturbé, mais ignorait qu'il était en plein décrochage scolaire. Depuis quelque temps, Ethan avait complètement cessé d'aller à l'école et sortait toutes les nuits, sans que ses proches ne se doutent de rien. Jack et son équipe mènent une enquête auprès des amis du jeune disparu et apprennent qu'il allait très mal depuis qu'il avait découvert que sa petite amie participait à des orgies organisées entre jeunes gens. L'équipe du FBI espère retrouver Ethan vivant...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2898209.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688515" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T12:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>FBI : portés disparus</TITRE>
+      <SOUSTITREDIF>Incendie</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2972720" DATEMODIF="2015-08-27T03:19:27">
+        <TITREEMISSION>FBI : portés disparus</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7735">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4558424">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Without a Trace</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Incendie</SOUSTITRE>
+          <SOUSTITREORIGINAL>Trip Box</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="11335">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Nutter</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LaPaglia</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Jack Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Close</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Martin Fitzgerald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montgomery</NOM>
+            <PRENOM>Poppy</PRENOM>
+            <ROLE>Samantha Spade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murciano</NOM>
+            <PRENOM>Enrique</PRENOM>
+            <ROLE>Danny Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5897">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Taylor</NOM>
+            <PRENOM>Tamara</PRENOM>
+            <ROLE>Tracey MacAllister</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="154716">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Catrini</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Victor Cartwright</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="254606">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Colosimo</NOM>
+            <PRENOM>Vince</PRENOM>
+            <ROLE>Gus Finn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="108118">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>von Bargen</NOM>
+            <PRENOM>Daniel</PRENOM>
+            <ROLE>Patrick Finn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="241183">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Mirren</NOM>
+            <PRENOM>Simon</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Après avoir sauvé deux vies dans un incendie, un pompier disparaît sans laisser de traces. Les agents du FBI interrogent les collègues du disparu.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le pompier Scott MacAllister disparaît après un incendie au cours duquel il a sauvé deux collègues. L'équipe de Jack enquête sur le déroulement des événements auprès des pompiers dans l'espoir de récolter quelques indices. Par ailleurs, les agents du FBI apprennent que Scott avait téléphoné à son épouse avant l'incendie. Il lui avait avoué son intention de présenter sa démission. En interrogeant les collègues de Scott, les enquêteurs constatent que ceux qui étaient avec lui dans la fournaise leur cachent une partie de la vérité. Ils en viennent à les soupçonner d'avoir volontairement provoqué des incendies...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2972720.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688516" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T12:50:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>The Listener</TITRE>
+      <SOUSTITREDIF>Le fugitif</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92673802" DATEMODIF="2015-08-25T03:18:13">
+        <TITREEMISSION>The Listener</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="156">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="2343297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / The Listener</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="15952668">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / The Listener / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Listener</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le fugitif</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Fugitive</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="156435">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>McCutcheon</NOM>
+            <PRENOM>Don</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="54631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olejnik</NOM>
+            <PRENOM>Craig</PRENOM>
+            <ROLE>Toby Logan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="233263">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lemke</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Brian Becker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="479604">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Esmer</NOM>
+            <PRENOM>Ennis</PRENOM>
+            <ROLE>Ozman Bey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="217190">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smith</NOM>
+            <PRENOM>Lauren Lee</PRENOM>
+            <ROLE>Michelle McCluskey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="234513">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Francks</NOM>
+            <PRENOM>Rainbow</PRENOM>
+            <ROLE>Dev Clark</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="429073">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scrofano</NOM>
+            <PRENOM>Melanie</PRENOM>
+            <ROLE>Tia Tremblay</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="577216">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kondracki</NOM>
+            <PRENOM>Rayisa</PRENOM>
+            <ROLE>Emma Carver</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="204510">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Wilcock</NOM>
+            <PRENOM>Robin</PRENOM>
+            <ROLE>Sam Langston</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="363619">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Yorke</NOM>
+            <PRENOM>Brendon</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Oz demande à Toby d'enquêter sur la mort du père d'une fille qu'il apprécie. La victime aurait participé au détournement d'un avion à la précieuse cargaison.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Oz demande à Toby d'enquêter sur la mort du père d'une fille qu'il apprécie. Les premiers éléments de l'enquête révèlent que l'homme est un fugitif qui aurait détourné un avion comptenant des millions de dollars...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C92673802.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688517" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T13:50:00</DATEHEURE>
+      <DUREE>100</DUREE>
+      <TITRE>Les enquêtes de l'inspecteur Wallander</TITRE>
+      <SOUSTITREDIF>Les chiens de Riga</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="117549469" DATEMODIF="2018-01-07T23:17:16">
+        <TITREEMISSION>Les enquêtes de l'inspecteur Wallander</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="1797">
+          <PAYS>Suède - Grande-Bretagne</PAYS>
+          <LIBELLE>suédo-britannique</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="26335302">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les enquêtes de l'inspecteur Wallander</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="26335284">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les enquêtes de l'inspecteur Wallander / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Wallander</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les chiens de Riga</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Dogs of Riga</SOUSTITREORIGINAL>
+          <DUREEEMI>90</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>3</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="543062">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Campbell</NOM>
+            <PRENOM>Esther</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="10081">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Branagh</NOM>
+            <PRENOM>Kenneth</PRENOM>
+            <ROLE>Kurt Wallander</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="63488">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smart</NOM>
+            <PRENOM>Sarah</PRENOM>
+            <ROLE>Anne-Britt Hoglund</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="312657">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Staton</NOM>
+            <PRENOM>Rebekah</PRENOM>
+            <ROLE>Kristina</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="82442">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McCabe</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>Nyberg</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9642">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Reeves</NOM>
+            <PRENOM>Saskia</PRENOM>
+            <ROLE>Vanja Andersson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="618566">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Maris</NOM>
+            <PRENOM>Albert</PRENOM>
+            <ROLE>Peter Andersson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="190675">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kay</NOM>
+            <PRENOM>Barnaby</PRENOM>
+            <ROLE>Lennart Mattson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="421417">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hadfield</NOM>
+            <PRENOM>Mark</PRENOM>
+            <ROLE>Stefan Lindeman</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="537362">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Harness</NOM>
+            <PRENOM>Peter</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Wallander se rend en Lettonie pour enquêter sur la découverte de deux cadavres, échoués sur un radeau à Ystad : le policier doit se débrouiller seul.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les corps de deux Lettons sont découverts dans une barque qui a dérivé jusqu'au port de la ville suédoise d'Ystad. Couverts de tatouages typiques de la mafia russe, ils ont été torturés et sauvagement assassinés. L'inspecteur letton qui avait été envoyé en Suède pour suivre l'affaire est tué à son tour. Wallander se rend à Riga pour tenter de démêler l'écheveau compliqué d'un réseau de corruption qui étend ses ramifications dans la mafia. Bientôt, il ne sait plus à qui faire confiance et de qui se méfier...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E117549469.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688518" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T15:30:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>R.I.S. Police scientifique</TITRE>
+      <SOUSTITREDIF>Bonnes manières</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="12487549" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>R.I.S. Police scientifique</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7975">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5206218">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / R.I.S. Police scientifique / 4</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>4</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Bonnes manières</SOUSTITRE>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>16</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="92349">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Choquart</NOM>
+            <PRENOM>Alain</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2548">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Caroit</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Gilles Sagnac</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="313180">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rajot</NOM>
+            <PRENOM>Pierre-Loup</PRENOM>
+            <ROLE>Hugo Chalonges</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="33439">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Metzger</NOM>
+            <PRENOM>Stéphane</PRENOM>
+            <ROLE>Malik Berkaoui</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="207840">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bargème</NOM>
+            <PRENOM>Aurélie</PRENOM>
+            <ROLE>Nathalie Giesbert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171185">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Cabrita</NOM>
+            <PRENOM>Barbara</PRENOM>
+            <ROLE>Julie Labro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45035">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olmedo</NOM>
+            <PRENOM>Laurent</PRENOM>
+            <ROLE>Pierre Morand</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="37287">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Zahonero</NOM>
+            <PRENOM>Coraly</PRENOM>
+            <ROLE>Alessandra Joffrin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="152194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tagbo</NOM>
+            <PRENOM>Claudia</PRENOM>
+            <ROLE>Martine Forest</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="468310">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Carrié</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une organisatrice de rallyes pour jeunes gens fortunés est retrouvée morte au volant de sa décapotable de collection. La police enquête sur ses proches.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'organisatrice d'un rallye pour jeunes gens fortunés est retrouvée morte en pleine nuit au volant de sa luxueuse voiture, une décapotable de collection. Les enquêteurs s'interrogent sur la raison de son départ précipité. Qui fuyait-elle ? Un des participants du rallye ? Parallèlement, un certain Jean Bertillon, qui avait pour habitude de vivre cloîtré chez lui, est retrouvé assassiné au beau milieu de son salon. L'homme, peu sociable, avait été témoin d'un crime depuis les fenêtres de son domicile. L'équipe découvre également qu'il faisait chanter le meurtrier...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E12487549.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688519" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T16:35:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>Le fugitif</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2850727" DATEMODIF="2015-08-22T02:09:18">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3798506">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le fugitif</SOUSTITRE>
+          <SOUSTITREORIGINAL>Escape</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>11</NUMERO>
+            <NOMBRE>25</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="289771">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Segonzac</NOM>
+            <PRENOM>Jean de</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="19085">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Meloni</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Elliot Stabler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7475">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bierko</NOM>
+            <PRENOM>Craig</PRENOM>
+            <ROLE>Andy Eckerson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11395">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Flanagan</NOM>
+            <PRENOM>Fionnula</PRENOM>
+            <ROLE>Sheila Baxter</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="513">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Allen</NOM>
+            <PRENOM>Nancy</PRENOM>
+            <ROLE>Carin Healy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15129">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Noseworthy</NOM>
+            <PRENOM>Jack</PRENOM>
+            <ROLE>Jeremy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="176349">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ventimiglia</NOM>
+            <PRENOM>Milo</PRENOM>
+            <ROLE>Lee Healy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="448294">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Williams</NOM>
+            <PRENOM>Michael Kenneth</PRENOM>
+            <ROLE>Dion Duane Gamble</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="272760">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Kligman</NOM>
+            <PRENOM>Barbie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Deux criminels se sont évadés de prison : il semblerait que l'un d'eux aient décidé de se venger de son ex-petite amie, dont il a naguère violé le fils.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Deux criminels particulièrement dangereux ont réussi à s'évader de la prison dans laquelle ils étaient détenus. L'un d'eux, avant sa fuite, avait juré de se venger de son ex-petite amie, dont il avait violé le fils quelques années auparavant. Les inspecteurs Benson et Stabler sont alors avertis de ce funeste projet. Ils se mettent rapidement sur l'affaire. Les policiers doivent absolument retrouver le criminel avant qu'il n'arrive à New York, et qu'il mette sa menace à exécution. Il leur faut agir vite pour espérer le mettre hors d'état de nuire le plus rapidement possible, mais la mission est ardue. Le temps presse...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C2850727.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688520" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T17:25:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>FBI : portés disparus</TITRE>
+      <SOUSTITREDIF>Alice</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="3469234" DATEMODIF="2015-08-27T03:19:29">
+        <TITREEMISSION>FBI : portés disparus</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7735">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4558424">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Without a Trace</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Alice</SOUSTITRE>
+          <SOUSTITREORIGINAL>Hawks and Handsaws</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>12</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="16592">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hooks</NOM>
+            <PRENOM>Kevin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LaPaglia</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Jack Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Close</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Martin Fitzgerald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montgomery</NOM>
+            <PRENOM>Poppy</PRENOM>
+            <ROLE>Samantha Spade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32554">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jean-Baptiste</NOM>
+            <PRENOM>Marianne</PRENOM>
+            <ROLE>Vivian Johnson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murciano</NOM>
+            <PRENOM>Enrique</PRENOM>
+            <ROLE>Danny Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="4834">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>O'Connell</NOM>
+            <PRENOM>Jerry</PRENOM>
+            <ROLE>Joe Gibson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="295474">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Meisle</NOM>
+            <PRENOM>Kathryn</PRENOM>
+            <ROLE>Katherine Manning</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="169775">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Warshofsky</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Dave Santorum</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="160494">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Levin</NOM>
+            <PRENOM>Jennifer</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'équipe est à la recherche d'un avocat de la défense qui a disparu. Jack pense que les peurs récentes de cet homme pourraient être dues à une schizophrénie.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jack et son équipe se lancent à la recherche de Joe Gibson, un jeune avocat dont la voiture a été abandonnée dans un lieu qu'il ne fréquentait jamais. Les agents du FBI découvrent que, depuis quelque temps, Joe vivait dans la crainte irrationnelle d'un certain Peterson, au point d'avoir renforcé la sécurité de son appartement et de s'être procuré une arme à feu. Ce Peterson pourrait bien être un des clients dont Joe s'était plaint auprès de sa supérieure hiérarchique. Pourtant, au fil de l'enquête, Jack apprend que Joe voyait régulièrement un psychiatre. Le jeune avocat semblait souffrir de schizophrénie avec des symptômes paranoïaques, ce qui pourrait expliquer sa disparition...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E3469234.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688521" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T18:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>FBI : portés disparus</TITRE>
+      <SOUSTITREDIF>Joueurs vedettes</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="3658055" DATEMODIF="2015-08-27T03:19:33">
+        <TITREEMISSION>FBI : portés disparus</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7735">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4558424">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Without a Trace</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Joueurs vedettes</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Season</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>22</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1543">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Matheson</NOM>
+            <PRENOM>Tim</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LaPaglia</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Jack Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montgomery</NOM>
+            <PRENOM>Poppy</PRENOM>
+            <ROLE>Samantha Spade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Close</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Martin Fitzgerald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32554">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jean-Baptiste</NOM>
+            <PRENOM>Marianne</PRENOM>
+            <ROLE>Vivian Johnson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murciano</NOM>
+            <PRENOM>Enrique</PRENOM>
+            <ROLE>Danny Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="9148">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>DeKay</NOM>
+            <PRENOM>Tim</PRENOM>
+            <ROLE>Jim Cooper</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="39368">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Balsam</NOM>
+            <PRENOM>Talia</PRENOM>
+            <ROLE>Maria Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2084">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Getz</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Bryce Garrett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="160494">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Levin</NOM>
+            <PRENOM>Jennifer</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Jack Malone recherche un entraîneur de football, qui a disparu juste après avoir été renvoyé. Il apprend qu'on offre à sa femme un poste à Chicago.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jim Cooper, l'entraîneur d'une redoutable équipe universitaire de football américain, disparaît après avoir été licencié à cause des mauvaises performances de ses joueurs. L'équipe du FBI découvre qu'au cours de la saison, Cooper avait fait suspendre dix footballeurs qui ne se conformaient pas à son code de conduite. De son côté, Jack apprend que sa femme vient de se voir offrir un poste très intéressant à Chicago...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E3658055.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688522" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T19:00:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>La fin du voyage</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="3704692" DATEMODIF="2015-08-22T02:09:30">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4280783">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La fin du voyage</SOUSTITRE>
+          <SOUSTITREORIGINAL>Debt</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2004</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>23</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="146745">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Platt</NOM>
+            <PRENOM>David</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19085">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Meloni</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Elliot Stabler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="154188">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ming-Na</NOM>
+            <ROLE>Li Mei Wu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="316860">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Yang</NOM>
+            <PRENOM>Jack</PRENOM>
+            <ROLE>Ricky Yao</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="316861">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Yoo</NOM>
+            <PRENOM>Aaron</PRENOM>
+            <ROLE>Tommy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="10592">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chan</NOM>
+            <PRENOM>Kim</PRENOM>
+            <ROLE>monsieur Zhang</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="105920">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Doyle</NOM>
+            <PRENOM>Mike</PRENOM>
+            <ROLE>O'Halloran</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="198829">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Neal</NOM>
+            <PRENOM>Diane</PRENOM>
+            <ROLE>Casey Novak</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="201371">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Green</NOM>
+            <PRENOM>Amanda</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En enquêtant sur une double disparition, Benson et Stabler découvrent un réseau de prostitution organisé par un avocat corrompu et des criminels.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Benson et Stabler enquêtent sur la disparition d'une mère et de sa fille, une adolescente. Cette affaire les amène à mettre au jour un complot entre un avocat corrompu du service de l'immigration et des criminels. Ces derniers sont à la tête d'un réseau de prostitution constitué de femmes qu'ils ont fait entrer clandestinement dans le pays, emprisonnées et réduites à l'état d'esclaves. Révoltés, les inspecteurs cherchent à rassembler le maximum de preuves pour faire tomber les responsables de ce réseau. Ils devront redoubler de prudence pour ne pas se faire repérer ce qui réduirait à néant leurs efforts...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E3704692.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688523" DATEMODIF="2018-01-26T17:21:36">
+      <DATEHEURE>2018-02-21T19:55:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>The Listener</TITRE>
+      <SOUSTITREDIF>Cauchemar en cuisine</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="92455115" DATEMODIF="2015-08-25T03:18:11">
+        <TITREEMISSION>The Listener</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="156">
+          <PAYS>Canada</PAYS>
+          <LIBELLE>canadienne</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="2343297">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / The Listener</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="15952668">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / The Listener / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>The Listener</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Cauchemar en cuisine</SOUSTITRE>
+          <SOUSTITREORIGINAL>Amuse Bouche</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="250592">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Walsh</NOM>
+            <PRENOM>Bradley</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="54631">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Olejnik</NOM>
+            <PRENOM>Craig</PRENOM>
+            <ROLE>Toby Logan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="479604">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Esmer</NOM>
+            <PRENOM>Ennis</PRENOM>
+            <ROLE>Ozman Bey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="217190">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Smith</NOM>
+            <PRENOM>Lauren Lee</PRENOM>
+            <ROLE>Michelle McCluskey</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91526">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stebbings</NOM>
+            <PRENOM>Peter</PRENOM>
+            <ROLE>Alvin Klein</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="234513">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Francks</NOM>
+            <PRENOM>Rainbow</PRENOM>
+            <ROLE>Dev Clark</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="429073">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Scrofano</NOM>
+            <PRENOM>Melanie</PRENOM>
+            <ROLE>Tia Tremblay</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1197494">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Holden-Ried</NOM>
+            <PRENOM>Kris</PRENOM>
+            <ROLE>Adam Reynolds</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="486381">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Krill</NOM>
+            <PRENOM>Natalie</PRENOM>
+            <ROLE>Alex Kendrick</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="605110">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Ricci</NOM>
+            <PRENOM>Michelle</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un participant d'une émission culinaire meurt d'un choc anaphylactique en raison de son allergie aux arachides. S'agit-il d'un accident ou d'un meurtre ?</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Marcel, participant à un show télévisé sur la cuisine, est empoisonné en direct par une allergie à la cacahuète. L'enquête se voit grandement simplifiée par la présence d'une personne à la mémoire photographique...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E92455115.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688524" DATEMODIF="2018-01-27T02:00:18">
+      <DATEHEURE>2018-02-21T20:55:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>Opération d'infiltration</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="77553525" DATEMODIF="2015-08-22T02:11:28">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="13057762">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 15</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>15</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Opération d'infiltration</SOUSTITRE>
+          <SOUSTITREORIGINAL>Infernal Affairs</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="289771">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Segonzac</NOM>
+            <PRENOM>Jean de</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="274314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pino</NOM>
+            <PRENOM>Danny</PRENOM>
+            <ROLE>Nick Amaro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="499124">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giddish</NOM>
+            <PRENOM>Kelli</PRENOM>
+            <ROLE>Amanda Rollins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ice-T</NOM>
+            <ROLE>Odafin «Fin» Tutuola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14907">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belzer</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>John Munch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="50763">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Burke</NOM>
+            <PRENOM>Robert John</PRENOM>
+            <ROLE>le lieutenant Tucker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="76972">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Winters</NOM>
+            <PRENOM>Dean</PRENOM>
+            <ROLE>Brian Cassidy</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1220428">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>West</NOM>
+            <PRENOM>Megan</PRENOM>
+            <ROLE>Tanya Jenkins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="172873">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Fox</NOM>
+            <PRENOM>Kevin</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le lieutenant Tucker des services internes saisit la brigade. Une jeune femme a été violée par deux officiers. Cassidy mène une opération d'infiltration.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>La brigade est contactée par le lieutenant Tucker des services internes à propos d'une affaire de viol. Une jeune femme, Tanya Jenkins, a été agressée sexuellement par deux officiers en fonction. La victime se trouvait à ce moment-là en état d'ébriété. Amanda Rollins récupère la vidéo de surveillance. Elle découvre que deux officiers ont raccompagné Tanya Jenkins à son domicile et qu'ils en sont ressortis quelque temps après. Brian Cassidy récupère le dossier et organise une opération d'infiltration au sein de la brigade. Il cherche à prouver la culpabilité des deux suspects. La mission s'avère particulièrement délicate pour l'équipe...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E77553525.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688525" DATEMODIF="2018-01-27T02:00:18">
+      <DATEHEURE>2018-02-21T21:35:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>Une autre vie</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="67372568" DATEMODIF="2015-08-22T02:11:26">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="10603966">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 14</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>14</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Une autre vie</SOUSTITRE>
+          <SOUSTITREORIGINAL>Brief Interlude</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>23</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="281535">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Bray</NOM>
+            <PRENOM>Kevin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="274314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pino</NOM>
+            <PRENOM>Danny</PRENOM>
+            <ROLE>Nick Amaro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="499124">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giddish</NOM>
+            <PRENOM>Kelli</PRENOM>
+            <ROLE>Amanda Rollins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ice-T</NOM>
+            <ROLE>Odafin «Fin» Tutuola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14907">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belzer</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>John Munch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3209">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Florek</NOM>
+            <PRENOM>Dann</PRENOM>
+            <ROLE>le capitaine Cragen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="295554">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Thomas</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>Nat Randolph</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="225248">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Butler</NOM>
+            <PRENOM>Kerry</PRENOM>
+            <ROLE>Ariel Randolph</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une mère de famille canadienne, en visite à New York, est retrouvée plongée dans le coma à proximité de la maison du maire. Son profil trouble les enquêteurs.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Une mère de famille canadienne, en visite à New York, est retrouvée dans un état grave à proximité de la maison du maire. Selon les premiers éléments de l'enquête menée par Benson et Amaro, qui parviennent à retracer l'itinéraire de la victime, celle-ci aurait auparavant été rouée de coups et violée dans un canot sur l'East River, à Central Park. La gravité des blessures constatées sur la victime, désormais plongée dans un profond coma, motive l'équipe à mener une enquête plus poussée. Mais ce que les experts du crime découvrent sur la pauvre femme ne colle pas avec le comportement habituel d'une mère de famille, en charge de deux jeunes garçons...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E67372568.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688526" DATEMODIF="2018-01-27T02:00:18">
+      <DATEHEURE>2018-02-21T22:15:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>Petite dissonance</SOUSTITREDIF>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="78597602" DATEMODIF="2015-08-22T02:11:30">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="13057762">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 15</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>15</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Petite dissonance</SOUSTITRE>
+          <SOUSTITREORIGINAL>Dissonant Voices</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="47759">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Chapple</NOM>
+            <PRENOM>Alex</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="274314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pino</NOM>
+            <PRENOM>Danny</PRENOM>
+            <ROLE>Nick Amaro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="499124">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giddish</NOM>
+            <PRENOM>Kelli</PRENOM>
+            <ROLE>Amanda Rollins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ice-T</NOM>
+            <ROLE>Odafin «Fin» Tutuola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="388731">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Esparza</NOM>
+            <PRENOM>Raúl</PRENOM>
+            <ROLE>Rafael Barba</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="223397">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Porter</NOM>
+            <PRENOM>Billy</PRENOM>
+            <ROLE>Jackie Walker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="633074">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hayes</NOM>
+            <PRENOM>Hana</PRENOM>
+            <ROLE>Brooke Allen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1224900">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Katzman</NOM>
+            <PRENOM>Jake</PRENOM>
+            <ROLE>Jonah Allen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1222823">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Roche</NOM>
+            <PRENOM>John Paul</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Jackie Walker, un professeur de chant renommé, est accusé par l'un de ses élèves d'abus sexuels : la police mène une enquête serrée pour vérifier les faits.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jonah, un jeune garçon, accuse Jackie Walker, un professeur de chant rendu célèbre par une émission de téléréalité, de l'avoir abusé sexuellement. Olivia Benson est chargée de l'enquête. Elle commence par interroger la victime. Jonah lui parle alors de la séparation récente de ses parents. Olivia interroge aussi la soeur de Jonah, Brooke, 15 ans. L'adolescente avoue connaître les faits, mais sans y avoir prêté attention, car Jonah raconte beaucoup d'histoires. Pour vérifier les faits, Olivia et son équipe poursuivent leurs investigations. Ils découvrent rapidement que d'autres victimes de Jackie Walker existent. L'affaire prend un nouveau tournant...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E78597602.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688527" DATEMODIF="2018-01-27T02:00:18">
+      <DATEHEURE>2018-02-21T23:00:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>A la recherche de l'orphelin</SOUSTITREDIF>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="78598001" DATEMODIF="2015-08-22T02:11:34">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="13057762">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 15</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>15</NUMERO>
+          </SAISON>
+          <SOUSTITRE>A la recherche de l'orphelin</SOUSTITRE>
+          <SOUSTITREORIGINAL>Wednesday's Child</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>14</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="622626">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Belsey</NOM>
+            <PRENOM>Laura</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="3897">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Arquette</NOM>
+            <PRENOM>Rosanna</PRENOM>
+            <ROLE>Alexa Pierson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="274314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pino</NOM>
+            <PRENOM>Danny</PRENOM>
+            <ROLE>Nick Amaro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="499124">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giddish</NOM>
+            <PRENOM>Kelli</PRENOM>
+            <ROLE>Amanda Rollins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ice-T</NOM>
+            <ROLE>Odafin «Fin» Tutuola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="52898">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hickey</NOM>
+            <PRENOM>John Benjamin</PRENOM>
+            <ROLE>Tom Moore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="210402">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Markell</NOM>
+            <PRENOM>Jodie</PRENOM>
+            <ROLE>Lisa Moore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="612173">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Phillips</NOM>
+            <PRENOM>Jessica</PRENOM>
+            <ROLE>Pippa Fox</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3897">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Arquette</NOM>
+            <PRENOM>Rosanna</PRENOM>
+            <ROLE>Alexa Pierson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="480461">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Blauner</NOM>
+            <PRENOM>Peter</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune garçon disparaît. Les policiers doivent faire vite car il a été repéré avec deux criminels connus pour des violences envers des mineurs.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>A son retour d'un long voyage professionnel, Tom Moore découvre que son fils Nicky n'est pas dans son lit, ni ailleurs dans la maison. Les policiers se mettent rapidement au travail. Ils pensent que le garçon, qui souffre de troubles du comportement, a fui de lui-même. Cependant, ils sont inquiets car Nicky est diabétique et n'aura bientôt plus d'insuline. L'affaire devient encore plus tendue lorsque les inspecteurs se rendent compte que deux criminels connus pour des violences envers des mineurs ont été vus avec Nicky. Sa vie est désormais clairement menacée. Dans le même temps, Benson a de graves problèmes personnels...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E78598001.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688528" DATEMODIF="2018-01-26T17:21:37">
+      <DATEHEURE>2018-02-22T00:00:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>Mademoiselle parfaite</SOUSTITREDIF>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="27414329" DATEMODIF="2015-08-22T02:10:53">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5766685">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 12</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>12</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mademoiselle parfaite</SOUSTITRE>
+          <SOUSTITREORIGINAL>Totem</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2010</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>20</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1810">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Kaplan</NOM>
+            <PRENOM>Jonathan</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="12941">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Irons</NOM>
+            <PRENOM>Jeremy</PRENOM>
+            <ROLE>le docteur Tom Jackson  </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="86037">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mitchell</NOM>
+            <PRENOM>Elizabeth</PRENOM>
+            <ROLE>June Frye  </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="19085">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Meloni</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Elliot Stabler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="134648">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Tunie</NOM>
+            <PRENOM>Tamara</PRENOM>
+            <ROLE>Melinda Warner  </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ice-T</NOM>
+            <ROLE>Odafin «Fin» Tutuola  </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="22531">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Banes</NOM>
+            <PRENOM>Lisa</PRENOM>
+            <ROLE>Elaine Frye Cavanaugh</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="571054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Nowicki</NOM>
+            <PRENOM>Agatha</PRENOM>
+            <ROLE>Katie Cavanaugh  </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12941">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Irons</NOM>
+            <PRENOM>Jeremy</PRENOM>
+            <ROLE>le docteur Tom Jackson  </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="86037">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Mitchell</NOM>
+            <PRENOM>Elizabeth</PRENOM>
+            <ROLE>June Frye  </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="188769">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Greene</NOM>
+            <PRENOM>Jonathan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Benson et Stabler enquêtent sur le meurtre d'une petite fille. Ils sont aidés par Tom Jackson, psychiatre, qui les oriente vers une femme.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le cadavre d'une petite fille portée disparue est retrouvé dans un sac de voyage, devant une église. Les inspecteurs sont aidés dans leur enquête par Tom Jackson, psychiatre dont la fille a été agressée chez elle quelques mois auparavant. D'après le docteur Jackson, les circonstances de l'agression et du meurtre suggèrent que le coupable est une femme. Les enquêteurs ont du mal à le croire car les femmes capables de violer et de tuer des petites filles sont extrêmement rares. Ils finissent pourtant par se rendre à l'évidence en s'intéressant à la personnalité de June, le professeur de piano de la petite défunte...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E27414329.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688529" DATEMODIF="2018-01-26T17:21:37">
+      <DATEHEURE>2018-02-22T00:40:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>Brandy à jamais</SOUSTITREDIF>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="24261923" DATEMODIF="2015-08-22T02:10:49">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="5766685">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 12</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>12</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Brandy à jamais</SOUSTITRE>
+          <SOUSTITREORIGINAL>Possessed</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2011</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>12</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="115547">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Makris</NOM>
+            <PRENOM>Constantine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="19085">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Meloni</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>Elliot Stabler</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14907">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belzer</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>John Munch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ice-T</NOM>
+            <ROLE>Odafin «Fin» Tutuola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="562450">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Milano</NOM>
+            <PRENOM>Michelangelo</PRENOM>
+            <ROLE>Patrick Binder</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="237076">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Manning</NOM>
+            <PRENOM>Taryn</PRENOM>
+            <ROLE>Larissa Welsh</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="52464">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ratray</NOM>
+            <PRENOM>Devin</PRENOM>
+            <ROLE>Eldon Balogh  </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="677">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kelly</NOM>
+            <PRENOM>David Patrick</PRENOM>
+            <ROLE>Orville Underwood </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="310824">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Fagan</NOM>
+            <PRENOM>Brian</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une jeune femme a été retrouvée par son petit ami inconsciente, ligotée à une chaise, le prénom «Brandy» brodé sur sa culotte. Benson et Stabler enquêtent.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un soir, à New York, Patrick Binder se rend à l'appartement de sa petite amie, Larissa Welsh. Sur place, il la trouve inconsciente, ligotée à une chaise, le prénom «Brandy» brodé sur sa culotte. Binder ne remarque pas qu'un individu est tapi dans l'appartement. L'homme bondit et le roue de coups. Le couple, découvert inanimé, est transféré à l'hôpital. Benson et Stabler sont chargés de l'enquête. Bientôt, ils découvrent que seize ans plus tôt, Larissa avait accusé un certain Orville Underwood de l'avoir kidnappée, séquestrée, violée et obligée à tourner dans des films pornographiques sous le pseudonyme de «Brandy»...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E24261923.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688530" DATEMODIF="2018-01-26T17:21:37">
+      <DATEHEURE>2018-02-22T01:20:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>Entre les murs</SOUSTITREDIF>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="50194634" DATEMODIF="2015-09-23T14:50:38">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="10603966">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 14</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>14</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Entre les murs</SOUSTITRE>
+          <SOUSTITREORIGINAL>Girl Dishonored</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>20</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="91538">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dale</NOM>
+            <PRENOM>Holly</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="274314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pino</NOM>
+            <PRENOM>Danny</PRENOM>
+            <ROLE>Nick Amaro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="499124">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giddish</NOM>
+            <PRENOM>Kelli</PRENOM>
+            <ROLE>Amanda Rollins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ice-T</NOM>
+            <ROLE>Odafin Tutuola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3209">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Florek</NOM>
+            <PRENOM>Dann</PRENOM>
+            <ROLE>le capitaine Cragen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="575813">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Day</NOM>
+            <PRENOM>Skyler</PRENOM>
+            <ROLE>Renee Clark</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1219420">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Minifie</NOM>
+            <PRENOM>Colby</PRENOM>
+            <ROLE>Lindsay Bennett</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="7870">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Clohessy</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Leo Barth</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="23836">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Leight</NOM>
+            <PRENOM>Warren</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Olivia Benson s'intéresse à une fraternité étudiante qui commet des viols collectifs en toute impunité, les victimes refusant de porter plainte.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Au cours d'un week-end de bizutage, une jeune fille est victime d'un viol collectif. Les inspecteurs chargés de l'enquête se tournent vers une fraternité étudiante qui semble coutumière de ce genre de faits. Mais sous la pression générale, la jeune fille, prise de panique, décide finalement de retirer sa plainte. Benson n'entend toutefois pas en rester là. Déterminée, elle se lance à la recherche d'autres victimes et retrouve une étudiante qui a été agressée dans des conditions similaires un an auparavant. Afin d'oublier son agression, cette jeune fille s'inflige un traitement aux électrochocs...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E50194634.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688531" DATEMODIF="2018-01-26T17:21:37">
+      <DATEHEURE>2018-02-22T02:05:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>New York Unité Spéciale</TITRE>
+      <SOUSTITREDIF>Voleurs de vies</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="76949106" DATEMODIF="2015-08-22T02:11:27">
+        <TITREEMISSION>New York Unité Spéciale</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7931">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="13057762">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / New York Unité Spéciale / 15</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Law &amp; Order : Special Victims Unit</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>15</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Voleurs de vies</SOUSTITRE>
+          <SOUSTITREORIGINAL>Imprisoned Lives</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2013</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>24</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="117665">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Slovis</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="288470">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hargitay</NOM>
+            <PRENOM>Mariska</PRENOM>
+            <ROLE>Olivia Benson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="274314">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pino</NOM>
+            <PRENOM>Danny</PRENOM>
+            <ROLE>Nick Amaro</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="499124">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Giddish</NOM>
+            <PRENOM>Kelli</PRENOM>
+            <ROLE>Amanda Rollins</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="106042">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ice-T</NOM>
+            <ROLE>Odafin «Fin» Tutuola</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="14907">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belzer</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>John Munch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3209">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Florek</NOM>
+            <PRENOM>Dann</PRENOM>
+            <ROLE>le capitaine Cragen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="316243">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schreiber</NOM>
+            <PRENOM>Pablo</PRENOM>
+            <ROLE>William Lewis</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11327">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Irwin</NOM>
+            <PRENOM>Bill</PRENOM>
+            <ROLE>le docteur Lindstrom</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92696">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Martin</NOM>
+            <PRENOM>Julie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Benson est de retour dans la brigade après deux mois de congé forcé. Elle s'occupe aussitôt d'une nouvelle affaire concernant un enfant errant.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Olivia Benson est de retour au sein de sa brigade, après un congé forcé long de deux mois. Elle reprend son service et s'occupe d'une nouvelle affaire. Un jeune garçon abandonné est retrouvé errant dans Time Square. Alors que Benson et son équipe cherchent à retrouver le domicile de l'enfant, ils découvrent que deux femmes sont retenues prisonnières dans le sous-sol d'une maison depuis plus de dix ans. Par ailleurs, alors que Benson essaie de prouver qu'elle est tout à fait capable de reprendre ses fonctions, son collègue, le docteur Lindstrom, émet quelques réserves sur ses aptitudes. Il estime qu'elle n'est pas encore prête...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E76949106.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688532" DATEMODIF="2018-01-26T17:21:37">
+      <DATEHEURE>2018-02-22T03:00:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>FBI : portés disparus</TITRE>
+      <SOUSTITREDIF>Retombées</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2309805" DATEMODIF="2015-08-27T03:19:19">
+        <TITREEMISSION>FBI : portés disparus</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7735">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3981845">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Without a Trace</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Retombées</SOUSTITRE>
+          <SOUSTITREORIGINAL>Fall Out</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>22</NUMERO>
+            <NOMBRE>23</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="16592">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hooks</NOM>
+            <PRENOM>Kevin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LaPaglia</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Jack Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montgomery</NOM>
+            <PRENOM>Poppy</PRENOM>
+            <ROLE>Samantha Spade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30599">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Irwin</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Barry Mashburn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Close</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Martin Fitzgerald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32554">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jean-Baptiste</NOM>
+            <PRENOM>Marianne</PRENOM>
+            <ROLE>Vivian Johnson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murciano</NOM>
+            <PRENOM>Enrique</PRENOM>
+            <ROLE>Danny Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="326696">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dietlein Bennet</NOM>
+            <PRENOM>Marsha</PRENOM>
+            <ROLE>Sydney Harrison</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11934">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whitfield</NOM>
+            <PRENOM>Lynn</PRENOM>
+            <ROLE>Paula Van Doren</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239053">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Steinberg</NOM>
+            <PRENOM>Hank</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Désespéré par la mort de sa femme, un homme est amené à prendre plusieurs personnes en otages dans une librairie. Sam fait partie des victimes.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Barry Mashburn a été traumatisé par le 11 septembre 2001 : son épouse est décédée lors des attentats du World Trade Center à New York et il a perdu son emploi. Il tient Sydney Harrison, l'ancien employeur de sa femme, pour responsable de tous ses maux. Il fait irruption dans le bureau de celle-ci, la menace et la kidnappe. Il réclame ensuite une forte rançon. Les autorités décident de répondre à sa demande et l'argent est apporté, comme convenu, dans une librairie. Mais les choses tournent mal et Barry prend en otages les clients et le personnel de la boutique. Sam se trouve parmi eux. L'affection que lui porte Jack complique un peu plus les négociations...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2309805.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688533" DATEMODIF="2018-01-26T17:21:37">
+      <DATEHEURE>2018-02-22T03:40:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>FBI : portés disparus</TITRE>
+      <SOUSTITREDIF>Retombées</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="2327131" DATEMODIF="2015-08-27T03:19:19">
+        <TITREEMISSION>FBI : portés disparus</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7735">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="3981845">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / FBI : portés disparus / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Without a Trace</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Retombées</SOUSTITRE>
+          <SOUSTITREORIGINAL>Fall Out</SOUSTITREORIGINAL>
+          <DUREEEMI>42</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2003</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>23</NUMERO>
+            <NOMBRE>23</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="246261">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Holahan</NOM>
+            <PRENOM>Paul</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="472">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>LaPaglia</NOM>
+            <PRENOM>Anthony</PRENOM>
+            <ROLE>Jack Malone</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="83643">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Montgomery</NOM>
+            <PRENOM>Poppy</PRENOM>
+            <ROLE>Samantha Spade</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30599">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Irwin</NOM>
+            <PRENOM>Tom</PRENOM>
+            <ROLE>Barry Mashburn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="32554">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jean-Baptiste</NOM>
+            <PRENOM>Marianne</PRENOM>
+            <ROLE>Vivian Johnson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239054">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Murciano</NOM>
+            <PRENOM>Enrique</PRENOM>
+            <ROLE>Danny Taylor</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="30766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Close</NOM>
+            <PRENOM>Eric</PRENOM>
+            <ROLE>Martin Fitzgerald</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="255495">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Curtis</NOM>
+            <PRENOM>Thomas</PRENOM>
+            <ROLE>Peter</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="332027">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Marano</NOM>
+            <PRENOM>Laura</PRENOM>
+            <ROLE>Kate</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="239053">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Steinberg</NOM>
+            <PRENOM>Hank</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>La prise d'otages a pris une tournure critique : Samantha, blessée, est démasquée. Jack négocie avec le forcené afin qu'elle puisse être soignée.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Barry Mashburn a kidnappé une femme, qu'il a accepté de libérer contre une rançon. Samantha, qui s'est rendue sur les lieux de l'échange incognito, est également prise en otage lorsque Mashburn apprend qu'elle est un agent du FBI. Elle est enfermée avec d'autres victimes dans une librairie. Lorsque Jack Malone et ses coéquipiers comprennent que Samantha a été gravement blessée, ils tentent avant tout de trouver un moyen de la faire soigner. Jack négocie avec Mashburn pour qu'il accepte de l'échanger avec Samantha et qu'elle puisse recevoir des soins. L'équipe continue également de rechercher Sydney Harrison...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E2327131.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688534" DATEMODIF="2018-01-26T17:21:37">
+      <DATEHEURE>2018-02-22T04:25:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Fin des programmes</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646521" DATEMODIF="2018-01-26T16:49:08">
+        <TITREEMISSION>Fin des programmes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1056" GENRESIMPLE="Fin">Fin</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

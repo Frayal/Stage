@@ -3,7 +3,8 @@
 #################################################
 #-*- coding: utf-8 -*-
 '''
-
+NOTE A MOI MÊME: Qu'es que c'est chiant un fichier XML
+PLEASE PLEASE supprimez moi ce truc!
 '''
 
 '''
@@ -50,7 +51,7 @@ def Report(error):
 
 
 def processPTV(file):
-    irrelevant = ['LESPERSONNES','DOCUMENTAIRE','LESTEXTES','PHOTO','MAGAZINEXY','SERIE','NATIONALITE','FILMTELEFILM','CS','DOLBY51','PT2','VM','RATIO','PT1','DIRECT','INEDIT_CRYPTE','REDIF','HD','CSA','STM','@CLEDIF','DOLBY','@CLEEMI','CLAIR','DERDIF'
+    irrelevant = ['LESPERSONNES','DOCUMENTAIRE','LESTEXTES','PHOTO','MAGAZINEXY','SERIE','NATIONALITE','FILMTELEFILM','CS','DOLBY51','PT2','VM','RATIO','PT1','DIRECT','INEDIT_CRYPTE','REDIF','HD','CSA','STM','DOLBY','@CLEEMI','CLAIR','DERDIF'
                 ,'OCCULTATIONMOBILE','PREMDIF','GENRE','RESUME','TEMPSFORT','VOST','INEDIT_EN_CLAIR','@DATEMODIF','STEREO','NOUVEAUTE','PT3','DIFFERE','SURTITRE','SOUSTITREDIF','TITREEMISSION','DATE']
     tree = ET.parse(file)
     root = tree.getroot()

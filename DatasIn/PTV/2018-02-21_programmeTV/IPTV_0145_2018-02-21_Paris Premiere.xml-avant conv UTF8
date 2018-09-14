@@ -1,0 +1,2248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 12:11:42-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="145">
+    <NOMCHAINE>Paris Première</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-21">
+    <DIFFUSION CLEDIF="171688209" DATEMODIF="2018-01-26T17:01:44">
+      <DATEHEURE>2018-02-21T08:10:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>La matinale</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>1</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646451" DATEMODIF="2018-01-26T17:01:44">
+        <TITREEMISSION>La matinale</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="401" GENRESIMPLE="Magazine d'information">Magazine d'information</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="1944046">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / La matinale</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="120634">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Durand</NOM>
+            <PRENOM>Guillaume</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="392901">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Tabard</NOM>
+            <PRENOM>Guillaume</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="128719">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Grossiord</NOM>
+            <PRENOM>Michel</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Diffusion en simultané de la «Matinale» de Guillaume Durand, la tranche d'information de Radio Classique, avec un éditorial de Guillaume Tabard, un invité politique, la revue de presse de Michel Grossiord et un débat.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C125646451.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688210" DATEMODIF="2018-01-26T17:01:44">
+      <DATEHEURE>2018-02-21T09:00:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Paris Première boutique</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646452" DATEMODIF="2018-01-26T17:01:44">
+        <TITREEMISSION>Paris Première boutique</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="425" GENRESIMPLE="Magazine de services">Magazine de télé-achat</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6880">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Paris Première boutique</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="122124">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Dhostel</NOM>
+            <PRENOM>Pierre</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="122125">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Pascale</NOM>
+            <PRENOM>Valérie</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Pour faire les boutiques sans sortir de chez soi.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688211" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T10:05:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Caméra café</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114146601" DATEMODIF="2018-02-05T14:00:06">
+        <TITREEMISSION>Caméra café</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7657">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Caméra café</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="17080293">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Caméra café / 0</NOM>
+          </COLLECTION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="95267">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Devillers</NOM>
+            <PRENOM>Jean-Pierre</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="44359">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Solo</NOM>
+            <PRENOM>Bruno</PRENOM>
+            <ROLE>Hervé</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="314581">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Le Bolloc'h</NOM>
+            <PRENOM>Yvan</PRENOM>
+            <ROLE>Jean-Claude</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3626">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Savary</NOM>
+            <PRENOM>Jeanne</PRENOM>
+            <ROLE>Jeanne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="172031">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Decobert</NOM>
+            <PRENOM>Jeanne</PRENOM>
+            <ROLE>Fred</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="92188">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pesle</NOM>
+            <PRENOM>Alexandre</PRENOM>
+            <ROLE>Sylvain</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="115822">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Armelle</NOM>
+            <ROLE>Maeva</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6055">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Loeillet</NOM>
+            <PRENOM>Sylvie</PRENOM>
+            <ROLE>Carole</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="5383">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Chaillou</NOM>
+            <PRENOM>Gérard</PRENOM>
+            <ROLE>Jean-Guy</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En entreprise, tout le monde se croise régulièrement devant la machine à café, véritable institution devant laquelle se déroule la vie des employés.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Passage obligé de tout employé au sein de l'entreprise, la machine à café est le témoin privilégié de la vie de la «boîte», mais surtout des turpitudes de ses deux éléments perturbateurs, Jean-Claude Convenant et Hervé Dumont. Quand l'un ne pense qu'à ses week-ends en voiture, l'autre songe surtout au prochain mouvement de grève qu'il compte mener en tant que délégué du personnel. C'est compter sans les charmes des filles, Fred et Julie, qui ne manquent jamais de déconcentrer les deux complices. Lâchetés, compromissions, bévues, coups bas, méchanceté gratuite : la machine à café voit tout et entend tout.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C114146601.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688212" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T10:45:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Le clown</TITRE>
+      <SOUSTITREDIF>Mission forcée</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="143778" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Le clown</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="6">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemande</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7819">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Le clown</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7327">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Le clown / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Der Clown</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mission forcée</SOUSTITRE>
+          <SOUSTITREORIGINAL>Schöne Ferien</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1999</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="3099">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Rothemund</NOM>
+            <PRENOM>Sigi</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="25843">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martinek</NOM>
+            <PRENOM>Sven</PRENOM>
+            <ROLE>Max Zander</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25844">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frank</NOM>
+            <PRENOM>Diana</PRENOM>
+            <ROLE>Claudia Diehl</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25845">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Anzenhofer</NOM>
+            <PRENOM>Thomas</PRENOM>
+            <ROLE>Dobbs</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dumont</NOM>
+            <PRENOM>Sky</PRENOM>
+            <ROLE>Juan Alvarado</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1104">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kockisch</NOM>
+            <PRENOM>Uwe</PRENOM>
+            <ROLE>Hartmann</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="410491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ortega Sanchez</NOM>
+            <PRENOM>Oscar</PRENOM>
+            <ROLE>José</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3079">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laser</NOM>
+            <PRENOM>Dieter</PRENOM>
+            <ROLE>Görtz</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="58251">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Müller</NOM>
+            <PRENOM>Max</PRENOM>
+            <ROLE>Chris</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="222037">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Barth</NOM>
+            <PRENOM>Stefan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors qu'il souhaitait commencer une nouvelle vie, le Clown se voit contraint de reprendre ses activités, sous peine d'être dénoncé.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Bouleversé par la mort de son meilleur ami, Max Zander, dit «le Clown», décide de mettre un terme à ses activités pour débuter une nouvelle vie, sous le nom de Max Hecker. Mais son répit est de courte durée. Il est en effet contacté par une organisation secrète qui a suivi les aventures du Clown depuis ses débuts et exige que celles-ci se poursuivent, sous peine d'être dénoncé à la police. Une mission lui est alors confiée : retrouver deux têtes nucléaires portables, volées dans un entrepôt en Russie, dans le but d'être revendues à l'Ouest. Le Clown et son équipe prennent alors le départ pour le Portugal, où ils remontent une première piste. Juan Alvarado, un baron de la drogue, projette en effet de racheter des grenades à des soldats ukrainiens qui ont déserté...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E143778.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688213" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T11:35:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Le clown</TITRE>
+      <SOUSTITREDIF>Mission forcée</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="143779" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Le clown</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="6">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemande</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7819">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Le clown</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="7327">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Le clown / 3</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Der Clown</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Mission forcée</SOUSTITRE>
+          <SOUSTITREORIGINAL>Schöne Ferien</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1999</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>4</NUMERO>
+            <NOMBRE>12</NOMBRE>
+          </EPISODE>
+          <SOUSEPISODE>
+            <LIBELLE>SOUSEPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>2</NOMBRE>
+          </SOUSEPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="3099">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Rothemund</NOM>
+            <PRENOM>Sigi</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="25843">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martinek</NOM>
+            <PRENOM>Sven</PRENOM>
+            <ROLE>Max Zander </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25845">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Anzenhofer</NOM>
+            <PRENOM>Thomas</PRENOM>
+            <ROLE>Dobbs</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25844">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frank</NOM>
+            <PRENOM>Diana</PRENOM>
+            <ROLE>Claudia Diehl</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="12705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Dumont</NOM>
+            <PRENOM>Sky</PRENOM>
+            <ROLE>Juan Alvarado</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1104">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Kockisch</NOM>
+            <PRENOM>Uwe</PRENOM>
+            <ROLE>Hartmann</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="410491">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ortega Sanchez</NOM>
+            <PRENOM>Oscar</PRENOM>
+            <ROLE>José</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3079">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Laser</NOM>
+            <PRENOM>Dieter</PRENOM>
+            <ROLE>Görtz</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="58251">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Müller</NOM>
+            <PRENOM>Max</PRENOM>
+            <ROLE>Chris</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="222037">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Barth</NOM>
+            <PRENOM>Stefan</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Max et Dobbs mettent fin à un trafic de drogue mais se retrouvent poursuivis par les truands visés, qui n'apprécient guère cette ingérence dans leurs affaires.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le Clown et ses amis se trouvent toujours au Portugal pour tenter de mettre la main sur l'ex-policier Hartmann. Ce dernier a soigneusement préparé un nouveau trafic. Il voit par contre d'un mauvais oeil comment Alvarado se laisse entortiller par Claudia. Il s'arrange pour que Alvarado obtienne de fausses informations concernant le trafic. La couverture de Claudia est découverte et Max et Dobbs tombent dans un piège...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E143779.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688214" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T12:30:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Le clown</TITRE>
+      <SOUSTITREDIF>Petite soeur</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="254219" DATEMODIF="2017-01-11T19:00:44">
+        <TITREEMISSION>Le clown</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="4" GENRESIMPLE="Série d'aventures">Série d'action</GENRE>
+        <NATIONALITE CLE="6">
+          <PAYS>Allemagne</PAYS>
+          <LIBELLE>allemande</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7819">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Le clown</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4658573">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Le clown / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Der Clown</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Petite soeur</SOUSTITRE>
+          <SOUSTITREORIGINAL>Schwesterherz</SOUSTITREORIGINAL>
+          <DUREEEMI>45</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2001</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>6</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="91591">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Barth</NOM>
+            <PRENOM>Axel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="25843">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Martinek</NOM>
+            <PRENOM>Sven</PRENOM>
+            <ROLE>Max Zander</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25844">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Frank</NOM>
+            <PRENOM>Diana</PRENOM>
+            <ROLE>Claudia Diehl</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="25845">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Anzenhofer</NOM>
+            <PRENOM>Thomas</PRENOM>
+            <ROLE>Dobbs</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une call-girl est sur le point de compromettre la carrière d'un homme politique en vue.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Klaus Schreiber est un homme politique plein d'avenir. Dans quelques jours, il va être nommé président du parti de la FC1. Il est devenu la coqueluche des médias. Mais Schreiber est victime d'un chantage qui pourrait briser sa carrière. Petra, une call-girl, s'apprête en effet à diffuser un enregistrement sur lequel Schreiber commet un meurtre. Or, la jeune femme n'est autre que la demi-soeur de Claudia. Poussée par son petit ami à vendre les images, elle décide pourtant de s'en remettre à Claudia, en dépit de leurs différences. Des tueurs envoyés par Schreiber retrouvent sa trace. Changeant à nouveau d'idée, Petra donne rendez-vous au criminel...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E254219.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688215" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T13:15:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Numb3rs</TITRE>
+      <SOUSTITREDIF>Plagiat</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="13486537" DATEMODIF="2015-08-28T03:34:56">
+        <TITREEMISSION>Numb3rs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7939">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Numb3rs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2215774">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Numb3rs / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Numb3rs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Plagiat</SOUSTITRE>
+          <SOUSTITREORIGINAL>Greatest Hits</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>22</NUMERO>
+            <NOMBRE>23</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="12568">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gyllenhaal</NOM>
+            <PRENOM>Stephen</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="16204">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Winkler</NOM>
+            <PRENOM>Henry</PRENOM>
+            <ROLE>Roger Bloom</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="31811">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morrow</NOM>
+            <PRENOM>Rob</PRENOM>
+            <ROLE>Don Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="43698">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Krumholtz</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Charlie Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1219">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hirsch</NOM>
+            <PRENOM>Judd</PRENOM>
+            <ROLE>Alan Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91691">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ballard</NOM>
+            <PRENOM>Alimi</PRENOM>
+            <ROLE>David Sinclair</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88615">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bruno</NOM>
+            <PRENOM>Dylan</PRENOM>
+            <ROLE>Colby Granger</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="311705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brown</NOM>
+            <PRENOM>Sophina</PRENOM>
+            <ROLE>Nikki Betancourt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="217001">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rawat</NOM>
+            <PRENOM>Navi</PRENOM>
+            <ROLE>Amita Ramanujan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="16204">
+            <FONCTION>Guest star</FONCTION>
+            <NOM>Winkler</NOM>
+            <PRENOM>Henry</PRENOM>
+            <ROLE>Roger Bloom</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="150262">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Dettmann</NOM>
+            <PRENOM>Andrew</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Don est chargé de faire la lumière sur des braquages attribués à des «copycats», des imitateurs. Au cours de l'enquête, il retrouve un ancien agent du FBI.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'équipe de Don enquête sur le braquage d'une banque. Il s'est déroulé de la même manière qu'une autre attaque, commise en 2002 et jamais élucidée. Disposant de très peu d'indices, Nikki et Colby interrogent Roger Bloom, un agent du FBI tombé en disgrâce et proche de la retraite, un homme auquel ils ont déjà eu affaire par le passé. Celui-ci ne peut leur être d'aucun secours mais devient lui-même suspect lorsque les enquêteurs découvrent qu'il a récemment consulté les dossiers du braquage de 2002. Bloom s'est également intéressé à deux autres vols récents, commis selon le même mode opératoire...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E13486537.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688216" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T14:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Numb3rs</TITRE>
+      <SOUSTITREDIF>La légende de Rama et Sita</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="13486547" DATEMODIF="2015-08-28T03:34:57">
+        <TITREEMISSION>Numb3rs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7939">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Numb3rs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2215774">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Numb3rs / 5</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Numb3rs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>5</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La légende de Rama et Sita</SOUSTITRE>
+          <SOUSTITREORIGINAL>Angels and Devils</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2008</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>23</NUMERO>
+            <NOMBRE>23</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="193892">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Zakrzewski</NOM>
+            <PRENOM>Alex</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="31811">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morrow</NOM>
+            <PRENOM>Rob</PRENOM>
+            <ROLE>Don Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1219">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hirsch</NOM>
+            <PRENOM>Judd</PRENOM>
+            <ROLE>Alan Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="43698">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Krumholtz</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Charlie Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="284658">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>MacNicol</NOM>
+            <PRENOM>Peter</PRENOM>
+            <ROLE>Larry Fleinhardt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="419383">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sumika</NOM>
+            <PRENOM>Aya</PRENOM>
+            <ROLE>Liz Warner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91691">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ballard</NOM>
+            <PRENOM>Alimi</PRENOM>
+            <ROLE>David Sinclair</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="238735">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Diamond Phillips</NOM>
+            <PRENOM>Lou</PRENOM>
+            <ROLE>Ian Edgerton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="217001">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rawat</NOM>
+            <PRENOM>Navi</PRENOM>
+            <ROLE>Amita Ramanujan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="82115">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Sanzel</NOM>
+            <PRENOM>Ken</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Amita a été enlevée par le chef d'un inquiétant groupe sectaire. Désireux de la retrouver au plus vite, Don et Charlie acceptent l'aide de l'agent Ian Edgerton.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Médusée, Amita découvre qu'elle a été enlevée par les fidèles d'une secte. Cela pourrait ressembler à un fait divers ridicule si le gourou de cette organisation religieuse n'était en fait un sociopathe incontrôlable. Ne voulant pas perdre une seule minute, Don et Charlie mobilisent toute l'équipe. Mais retrouver la trace de ces illuminés s'avère plus compliqué que prévu. Don est convaincu qu'Amita court un grave danger. Charlie et lui se rendent compte qu'ils vont avoir besoin d'une aide extérieure, celle d'un expert : l'agent Ian Edgerton. Ne laissant rien paraître, Charlie s'inquiète du sort réservé à sa fiancée...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E13486547.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688217" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T14:50:00</DATEHEURE>
+      <DUREE>40</DUREE>
+      <TITRE>Numb3rs</TITRE>
+      <SOUSTITREDIF>Le clone</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="17172154" DATEMODIF="2015-08-28T03:35:00">
+        <TITREEMISSION>Numb3rs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7939">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Numb3rs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4330203">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Numb3rs / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Numb3rs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Le clone</SOUSTITRE>
+          <SOUSTITREORIGINAL>Hydra</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>5</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="65883">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Hemecker</NOM>
+            <PRENOM>Ralph</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="31811">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morrow</NOM>
+            <PRENOM>Rob</PRENOM>
+            <ROLE>Don Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="43698">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Krumholtz</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Charlie Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="217001">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rawat</NOM>
+            <PRENOM>Navi</PRENOM>
+            <ROLE>Amita Ramanujan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="537134">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Skinner</NOM>
+            <PRENOM>Emily</PRENOM>
+            <ROLE>CJ Bramon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="265794">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Camargo</NOM>
+            <PRENOM>Christian</PRENOM>
+            <ROLE>Trey Bramon</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="150699">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stanley</NOM>
+            <PRENOM>Taylor</PRENOM>
+            <ROLE>Anne Flynn</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91691">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ballard</NOM>
+            <PRENOM>Alimi</PRENOM>
+            <ROLE>David Sinclair</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1219">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hirsch</NOM>
+            <PRENOM>Judd</PRENOM>
+            <ROLE>Alan Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="385676">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Crouch</NOM>
+            <PRENOM>Sean</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le FBI recherche une fillette kidnappée par une femme. Le déroulement de l'enquête amène l'équipe de Don à penser que cet enfant pourrait être un clone.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le FBI recherche CJ, une fillette de 3 ans, kidnappée par une femme prénommée Anne, et dont le père, Trey Bramon, un brillant ingénieur, travaille pour un puissant laboratoire pharmaceutique. Voyant son enquête sans cesse entravée par les services de protection privée de la firme, l'équipe de Don soupçonne que cet enfant pourrait être un des premiers clones humains. Par ailleurs, Charlie et Amita évoquent le futur et la possibilité d'avoir des enfants...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E17172154.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688218" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T15:30:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Numb3rs</TITRE>
+      <SOUSTITREDIF>Au-delà du réel</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="17172157" DATEMODIF="2015-08-28T03:35:00">
+        <TITREEMISSION>Numb3rs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7939">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Numb3rs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4330203">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Numb3rs / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Numb3rs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Au-delà du réel</SOUSTITRE>
+          <SOUSTITREORIGINAL>Dreamland</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>6</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="12568">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Gyllenhaal</NOM>
+            <PRENOM>Stephen</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="31811">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morrow</NOM>
+            <PRENOM>Rob</PRENOM>
+            <ROLE>Don Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="43698">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Krumholtz</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Charlie Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91691">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ballard</NOM>
+            <PRENOM>Alimi</PRENOM>
+            <ROLE>David Sinclair</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1219">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hirsch</NOM>
+            <PRENOM>Judd</PRENOM>
+            <ROLE>Alan Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="59028">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mitchell</NOM>
+            <PRENOM>Silas Weir</PRENOM>
+            <ROLE>Darren Drew</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="23236">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Higgins</NOM>
+            <PRENOM>John Michael</PRENOM>
+            <ROLE>Floyd Mayborne</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88615">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bruno</NOM>
+            <PRENOM>Dylan</PRENOM>
+            <ROLE>Colby Granger</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="311705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brown</NOM>
+            <PRENOM>Sophina</PRENOM>
+            <ROLE>Nikki Betancourt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="363283">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Heuton</NOM>
+            <PRENOM>Cheryl</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le FBI est informé d'une mystérieuse activité détectée sur le site d'une base aérienne désaffectée. Un agent du Pentagone est désigné pour suivre l'enquête.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le FBI est informé d'une mystérieuse activité détectée sur le site d'une base aérienne désaffectée. Alors que de nombreuses théories paranormales émergent après la mort de plusieurs personnes, un agent du Pentagone vient suivre l'enquête de près...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E17172157.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688219" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T16:15:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Numb3rs</TITRE>
+      <SOUSTITREDIF>Ultimatum</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="17172171" DATEMODIF="2015-08-28T03:35:02">
+        <TITREEMISSION>Numb3rs</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="43" GENRESIMPLE="Série">Série policière</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="7939">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Numb3rs</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="4330203">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Numb3rs / 6</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Numb3rs</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>6</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Ultimatum</SOUSTITRE>
+          <SOUSTITREORIGINAL>Ultimatum</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2009</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>16</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="77894">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Smith</NOM>
+            <PRENOM>Dennis</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="31811">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morrow</NOM>
+            <PRENOM>Rob</PRENOM>
+            <ROLE>Don Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="43698">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Krumholtz</NOM>
+            <PRENOM>David</PRENOM>
+            <ROLE>Charlie Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="238735">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Diamond Phillips</NOM>
+            <PRENOM>Lou</PRENOM>
+            <ROLE>Ian Edgerton</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="88615">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bruno</NOM>
+            <PRENOM>Dylan</PRENOM>
+            <ROLE>Colby Granger</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="91691">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ballard</NOM>
+            <PRENOM>Alimi</PRENOM>
+            <ROLE>David Sinclair</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1219">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hirsch</NOM>
+            <PRENOM>Judd</PRENOM>
+            <ROLE>Alan Eppes</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="311705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Brown</NOM>
+            <PRENOM>Sophina</PRENOM>
+            <ROLE>Nikki Betancourt</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="214910">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Pyle</NOM>
+            <PRENOM>Missi</PRENOM>
+            <ROLE>Janet Galvin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="272788">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Port</NOM>
+            <PRENOM>Robert David</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Soupçonné du meurtre d'un indicateur, un agent est arrêté et placé en détention. Il parvient à s'évader et prend l'agent Colby Granger en otage.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'agent Edgerton enquête sur les agissements d'un dealer d'héroïne incarcéré, qui semble continuer à mener ses affaires depuis la prison. Pour en savoir plus, il doit rencontrer un indicateur qui possède des informations sur le suspect. Mais quand il arrive au lieu de rendez-vous, l'homme est mort. Soupçonné du meurtre, Edgerton est arrêté par les marshals et placé en détention. Lors de son interrogatoire, il réussit à s'échapper et prend en otage l'agent Granger. Il espère ainsi retourner la situation à son avantage et prouver son innocence grâce à l'intervention de Charlie. Toute l'équipe se mobilise pour négocier avec le preneur d'otage...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E17172171.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688220" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T17:00:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Les Têtes Brûlées</TITRE>
+      <SOUSTITREDIF>Promotion</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="17486" DATEMODIF="2015-08-21T02:24:12">
+        <TITREEMISSION>Les Têtes Brûlées</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="10" GENRESIMPLE="Série d'aventures">Série d'aventures</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="402402">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les Têtes Brûlées</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2395316">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les Têtes Brûlées / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Black Sheep Squadron</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Promotion</SOUSTITRE>
+          <SOUSTITREORIGINAL>The 200 Pound Gorilla</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1977</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="380">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Elcar</NOM>
+            <PRENOM>Dana</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2730">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Conrad</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Greg «Pépé» Boyington</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15663">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>West</NOM>
+            <PRENOM>Red</PRENOM>
+            <ROLE>le sergent Andrew «Andy» Micklin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2903">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Oakland</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>le général Moore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="380">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Elcar</NOM>
+            <PRENOM>Dana</PRENOM>
+            <ROLE>le colonel Lard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35976">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blocker</NOM>
+            <PRENOM>Dirk</PRENOM>
+            <ROLE>Jerome «Jerry» Bragg </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="265666">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>MacKay</NOM>
+            <PRENOM>Jeff</PRENOM>
+            <ROLE>Donald «Don» French </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="65557">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cannell</NOM>
+            <PRENOM>Stephen J</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Le général Moore décide de promouvoir le mécanicien en chef Andy Micklin au grade d'officier. Celui-ci refuse catégoriquement l'honneur qui lui est fait.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Le général Moore décide de promouvoir le mécanicien en chef Andy Micklin au grade d'officier. Contre toute attente, celui-ci refuse catégoriquement l'honneur qui lui est fait et se dispute avec Pépé à ce sujet. Tous deux tentent de convaincre l'autre en avançant des arguments imparables...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E17486.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688221" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T17:50:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Les Têtes Brûlées</TITRE>
+      <SOUSTITREDIF>Alerte au faucon</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="18239" DATEMODIF="2015-08-21T02:24:12">
+        <TITREEMISSION>Les Têtes Brûlées</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="10" GENRESIMPLE="Série d'aventures">Série d'aventures</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="402402">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les Têtes Brûlées</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2395316">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les Têtes Brûlées / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Black Sheep Squadron</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Alerte au faucon</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Hawk Flies on Sunday</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1977</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>3</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="2730">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Conrad</NOM>
+            <PRENOM>Robert</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="5154">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Ginty</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>le lieutenant Thomas Joseph «TJ» Wylie </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2730">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Conrad</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Greg «Pépé» Boyington</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15663">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>West</NOM>
+            <PRENOM>Red</PRENOM>
+            <ROLE>le sergent Andrew «Andy» Micklin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35976">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blocker</NOM>
+            <PRENOM>Dirk</PRENOM>
+            <ROLE>Jerome «Jerry» Bragg </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2903">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Oakland</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>le général Moore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="380">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Elcar</NOM>
+            <PRENOM>Dana</PRENOM>
+            <ROLE>le colonel Lard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171223">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stratton</NOM>
+            <PRENOM>WK</PRENOM>
+            <ROLE>Lawrence «Larry» Casey </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="6717">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McKay</NOM>
+            <PRENOM>Jeff</PRENOM>
+            <ROLE>le lieutenant Donald «Don» French</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="45043">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Abatemarco</NOM>
+            <PRENOM>Frank</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les Têtes Brûlées doivent abattre un amiral, mais la liaison qu'entretient TJ avec une Eurasienne, soupçonnée d'espionnage, compromet leur mission.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Les Têtes Brûlées ont reçu pour mission d'abattre l'amiral japonais Yamamoto, surnommé le Faucon. Malheureusement, TJ entretient une liaison avec une jolie Eurasienne, soupçonnée de livrer des informations à l'ennemi. Les supérieurs de la division estiment que cette femme pourrait très bien faire échouer la mission si elle était mise au courant de la stratégie imaginée pour éliminer le Faucon. En raison de l'idylle du lieutenant TJ, l'importante mission risque donc d'être retirée à l'équipe des Têtes Brûlées, qui espérait pourtant avoir le privilège d'ôter enfin la vie à ce redoutable ennemi...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E18239.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688222" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T18:50:00</DATEHEURE>
+      <DUREE>60</DUREE>
+      <TITRE>Les Têtes Brûlées</TITRE>
+      <SOUSTITREDIF>L'invulnérable</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="19048" DATEMODIF="2015-08-21T02:24:15">
+        <TITREEMISSION>Les Têtes Brûlées</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="10" GENRESIMPLE="Série d'aventures">Série d'aventures</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="402402">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les Têtes Brûlées</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2395316">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les Têtes Brûlées / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Black Sheep Squadron</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'invulnérable</SOUSTITRE>
+          <SOUSTITREORIGINAL>The Iceman</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1978</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="380">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Elcar</NOM>
+            <PRENOM>Dana</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2730">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Conrad</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Greg «Pépé» Boyington</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="11705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Jaeckel</NOM>
+            <PRENOM>Richard</PRENOM>
+            <ROLE>le major John Duncan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35976">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blocker</NOM>
+            <PRENOM>Dirk</PRENOM>
+            <ROLE>Jerome «Jerry» Bragg </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171223">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stratton</NOM>
+            <PRENOM>WK</PRENOM>
+            <ROLE>Lawrence «Larry» Casey </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2903">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Oakland</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>le général Moore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="265666">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>MacKay</NOM>
+            <PRENOM>Jeff</PRENOM>
+            <ROLE>Donald «Don» French </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="42119">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stuart</NOM>
+            <PRENOM>Jeb</PRENOM>
+            <ROLE>Jeb Pruitt </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="28990">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Bellisario</NOM>
+            <PRENOM>Donald P</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Pépé doit céder le commandement de ses hommes au major Duncan, très à cheval sur la discipline, pendant qu'il se rend aux Etats-Unis pour des essais.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Un pilote ennemi, surnommé «l'invulnérable» par les aviateurs américains, abat en plein vol l'un des as de l'escadre de Boyington. En raison de ce décès, c'est Pépé lui-même qui va devoir abandonner ses hommes pour se rendre aux Etats-Unis et tester les nouveaux prototypes de l'armée de l'air. Il sera donc absent du théâtre des opérations pour plusieurs semaines. En attendant son retour, les Têtes Brûlées sont placées sous le commandement du major John Duncan, officier très attaché à suivre à la lettre le manuel d'instruction. Celui-ci va être confronté à la conception très spéciale que les Têtes Brûlées se font de la discipline...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E19048.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688223" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T19:50:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>Les Têtes Brûlées</TITRE>
+      <SOUSTITREDIF>Les anges combattants</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="19588" DATEMODIF="2015-08-21T02:24:18">
+        <TITREEMISSION>Les Têtes Brûlées</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="10" GENRESIMPLE="Série d'aventures">Série d'aventures</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="402402">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les Têtes Brûlées</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="2395316">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les Têtes Brûlées / 2</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Black Sheep Squadron</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Les anges combattants</SOUSTITRE>
+          <SOUSTITREORIGINAL>Fighting Angels</SOUSTITREORIGINAL>
+          <DUREEEMI>52</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>1978</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="249330">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Dohen</NOM>
+            <PRENOM>Lawrence</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="2730">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Conrad</NOM>
+            <PRENOM>Robert</PRENOM>
+            <ROLE>Greg «Pépé» Boyington</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="380">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Elcar</NOM>
+            <PRENOM>Dana</PRENOM>
+            <ROLE>le colonel Lard</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="15663">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>West</NOM>
+            <PRENOM>Red</PRENOM>
+            <ROLE>Andrew Micklin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="42119">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stuart</NOM>
+            <PRENOM>Jeb</PRENOM>
+            <ROLE>Jeb Pruitt </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="35976">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Blocker</NOM>
+            <PRENOM>Dirk</PRENOM>
+            <ROLE>Jerome Bragg </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="2903">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Oakland</NOM>
+            <PRENOM>Simon</PRENOM>
+            <ROLE>le général Moore</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="171223">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Stratton</NOM>
+            <PRENOM>WK</PRENOM>
+            <ROLE>Lawrence Casey </ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="65557">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Cannell</NOM>
+            <PRENOM>Stephen J</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>L'île essuie une terrible attaque japonaise. Le colonel Lard et Pépé tentent de tenir la base en mettant à contribution les femmes de la caserne.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>L'île de Vella la Cava, sur laquelle se trouve la base des Têtes Brûlées, est soumise à une violente attaque des forces japonaises. Celles-ci réussissent même à prendre pied sur l'île, menaçant les installations. Tous les avions sont en l'air, tentant de repousser les assaillants ou portant assistance aux hommes se trouvant au sol ou sur mer. Si la situation est à peu près contrôlée dans les cieux et sur les flots, il n'en est pas de même sur terre. Le colonel Lard, le commandant Pépé Boyington et le sergent Micklin n'ont plus le choix : ils doivent demander aux infirmières de leur prêter main-forte...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E19588.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688224" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T20:45:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>L'instant glam</TITRE>
+      <SOUSTITREDIF>La chemise à carreaux</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="98969469" DATEMODIF="2015-11-30T17:11:45">
+        <TITREEMISSION>L'instant glam</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="409" GENRESIMPLE="Magazine de société">Magazine de la mode</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="11749368">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'instant glam</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La chemise à carreaux</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="271111">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Golovanoff</NOM>
+            <PRENOM>Alexandra</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>En une minute trente, tous les conseils d'Alexandra Golovanoff pour adopter le bon look.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_C98969469.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688225" DATEMODIF="2018-01-27T02:10:32">
+      <DATEHEURE>2018-02-21T20:50:00</DATEHEURE>
+      <DUREE>140</DUREE>
+      <TITRE>Zemmour et Naulleau</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>1</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125646516" DATEMODIF="2018-02-02T17:03:17">
+        <TITREEMISSION>Zemmour et Naulleau</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="964" GENRESIMPLE="Débat">Talk show</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6997320">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Zemmour et Naulleau</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="162322">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Naulleau</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="132653">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Zemmour</NOM>
+            <PRENOM>Eric</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1308871">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Bouton</NOM>
+            <PRENOM>Anaïs</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="566888">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Ventura</NOM>
+            <PRENOM>Alba</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="335511">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Sarroche</NOM>
+            <PRENOM>Sandrine</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Depuis sept ans, les deux Eric animent leur propre talk show politique, et seulement politique. Même si l'année 2017-2018 ne sera marquée par aucune échéance électorale majeure, les passions n'ont jamais été aussi exacerbées, si bien que chaque sujet de société peut donner lieu à des débats enflammés, dont Zemmour et Naulleau sont les chefs d'orchestre expérimentés.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E125646516.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688226" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-21T23:10:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>Les Grosses Têtes</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>1</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="103853238" DATEMODIF="2017-08-04T16:42:12">
+        <TITREEMISSION>Les Grosses Têtes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3130543">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les Grosses Têtes</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="119747">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Ruquier</NOM>
+            <PRENOM>Laurent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="163372">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Peroni</NOM>
+            <PRENOM>Jean-Jacques</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="149791">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Bénichou</NOM>
+            <PRENOM>Pierre</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="118637">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Gazan</NOM>
+            <PRENOM>Florian</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="129794">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Le Marchand</NOM>
+            <PRENOM>Karine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="140675">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Mabille</NOM>
+            <PRENOM>Bernard</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="76018">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Ladesou</NOM>
+            <PRENOM>Chantal</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Entouré des fidèles pensionnaires de l'émission, Laurent Ruquier présente un cocktail de blagues, de jeux de mots dont il a le secret, de curieuses devinettes et de culture générale. Fous rires, délires et bonne humeur sont au programme de ce rendez-vous indétrônable du rire à la française.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E103853238.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688227" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-22T00:25:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>Les Grosses Têtes</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>1</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="108424756" DATEMODIF="2017-08-04T16:42:22">
+        <TITREEMISSION>Les Grosses Têtes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3130543">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les Grosses Têtes</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="119747">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Ruquier</NOM>
+            <PRENOM>Laurent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="120100">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Bravo</NOM>
+            <PRENOM>Christine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="304010">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Beaugrand</NOM>
+            <PRENOM>Christophe</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="84472">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Baffie</NOM>
+            <PRENOM>Laurent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="76018">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Ladesou</NOM>
+            <PRENOM>Chantal</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="129794">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Le Marchand</NOM>
+            <PRENOM>Karine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="163372">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Peroni</NOM>
+            <PRENOM>Jean-Jacques</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Laurent Ruquier et les fidèles sociétaires des «Grosses Têtes» font rire la France entière aussi bien sur les ondes qu'à la télévision. Questions de culture générale et colles en tout genre sont le prétexte à une avalanche de bons mots, d'allusions grivoises, de bonne humeur et de rires de garnements. Chaque émission est aussi l'occasion de découvrir un invité mystère à travers son histoire et son actualité.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E108424756.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688228" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-22T01:40:00</DATEHEURE>
+      <DUREE>70</DUREE>
+      <TITRE>Les Grosses Têtes</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="102150709" DATEMODIF="2017-01-16T16:38:32">
+        <TITREEMISSION>Les Grosses Têtes</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="3130543">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Les Grosses Têtes</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="119747">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Ruquier</NOM>
+            <PRENOM>Laurent</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="14526">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Semoun</NOM>
+            <PRENOM>Elie</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="69164">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Geluck</NOM>
+            <PRENOM>Philippe</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="328794">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Bernier</NOM>
+            <PRENOM>Michèle</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="9107">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Dombasle</NOM>
+            <PRENOM>Arielle</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="294175">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Diament</NOM>
+            <PRENOM>Caroline</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="140675">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Mabille</NOM>
+            <PRENOM>Bernard</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Entouré des fidèles pensionnaires de l'émission, Laurent Ruquier présente un cocktail de blagues, de jeux de mots dont il a le secret, de curieuses devinettes et de culture générale. Fous rires, délires et bonne humeur sont au programme de ce rendez-vous indétrônable du rire à la française.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+        <PHOTO>IPTV_E102150709.jpg</PHOTO>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="171688229" DATEMODIF="2018-01-26T17:01:45">
+      <DATEHEURE>2018-02-22T02:50:00</DATEHEURE>
+      <DUREE>320</DUREE>
+      <TITRE>Programmes de la nuit</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>16:9</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>0</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="106692715" DATEMODIF="2018-02-05T14:00:07">
+        <TITREEMISSION>Programmes de la nuit</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="1057" GENRESIMPLE="Programme indéterminé">Programme indéterminé</GENRE>
+        <MAGAZINEXY />
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

@@ -1,0 +1,2130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Fichier créé par Les Agences TV SEAP le 07/02/2018 11:55:07-->
+<GRILLETV GRILLETV:noNamespaceSchemaLocation="SFR_IPTV.XSD" xmlns:GRILLETV="http://www.w3.org/2001/XMLSchema-instance">
+  <CHAINE CLE="1104">
+    <NOMCHAINE>Canal+ Réunion</NOMCHAINE>
+  </CHAINE>
+  <JOURNEE DATE="2018-02-17">
+    <DIFFUSION CLEDIF="172163526" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T02:10:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Trial and Error</TITRE>
+      <SOUSTITREDIF>Chapitre 1 : Un grand crime dans une petite ville</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114371296" DATEMODIF="2017-10-16T11:35:07">
+        <TITREEMISSION>Trial and Error</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="24882236">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Trial and Error</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="24882215">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Trial and Error / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Trial &amp; Error</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Chapitre 1 : Un grand crime dans une petite ville</SOUSTITRE>
+          <SOUSTITREORIGINAL>Chapter 1 : A Big Crime in a Small Town</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODEPILOTE>1</EPISODEPILOTE>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>1</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="474009">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Blitz</NOM>
+            <PRENOM>Jeffrey</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="386700">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>D'Agosto</NOM>
+            <PRENOM>Nicholas</PRENOM>
+            <ROLE>Josh Segal</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="376">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lithgow</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Larry Henderson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="372541">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mays</NOM>
+            <PRENOM>Jayma</PRENOM>
+            <ROLE>Carol Anne Keane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1303705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boyer</NOM>
+            <PRENOM>Steven</PRENOM>
+            <ROLE>Dwayne Reed</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1328850">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Rodriguez</NOM>
+            <PRENOM>Krysta</PRENOM>
+            <ROLE>Summer Henderson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1134732">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Parker</NOM>
+            <PRENOM>Angel</PRENOM>
+            <ROLE>Heidi Baker</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="184409">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shepherd</NOM>
+            <PRENOM>Sherri</PRENOM>
+            <ROLE>Anne Flatch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="157331">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Astrof</NOM>
+            <PRENOM>Jeff</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="318593">
+            <FONCTION>Scénariste</FONCTION>
+            <NOM>Miller</NOM>
+            <PRENOM>Matthew</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Jeune avocat new-yorkais, Josh Segal débarque en Caroline du Sud pour plaider sa première affaire : un professeur de poésie est accusé du meurtre de sa femme.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jeune avocat new-yorkais, Josh Segal débarque dans une petite ville de Caroline du Sud pour plaider sa première grosse affaire. Il doit défendre Larry Henderson, un professeur de poésie excentrique, soupçonné d'avoir assassiné sa femme. Sur place, il découvre que les deux limiers censés l'aider durant l'enquête préliminaire sont des bras cassés. L'inspecteur Dwayne se révèle gentil mais peu futé. Anne Flatch, qui travaille dans un bureau rempli d'animaux empaillés, a la mémoire défaillante. La mission de Josh s'annonce plus difficile que prévu, d'autant que Larry fait un coupable parfait...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163527" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T02:35:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Trial and Error</TITRE>
+      <SOUSTITREDIF>Chapitre 2 : La clé du problème</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="114478686" DATEMODIF="2017-10-16T11:35:10">
+        <TITREEMISSION>Trial and Error</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="31" GENRESIMPLE="Série humoristique">Série humoristique</GENRE>
+        <NATIONALITE CLE="8">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américaine</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="24882236">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Trial and Error</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="24882215">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Trial and Error / 1</NOM>
+          </COLLECTION>
+          <TITREORIGINAL>Trial &amp; Error</TITREORIGINAL>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Chapitre 2 : La clé du problème</SOUSTITRE>
+          <SOUSTITREORIGINAL>Chapter 2 : A Wrench in the Case</SOUSTITREORIGINAL>
+          <DUREEEMI>26</DUREEEMI>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>2</NUMERO>
+            <NOMBRE>13</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="386700">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>D'Agosto</NOM>
+            <PRENOM>Nicholas</PRENOM>
+            <ROLE>Josh Segal</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="376">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lithgow</NOM>
+            <PRENOM>John</PRENOM>
+            <ROLE>Larry Henderson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="207651">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belcher</NOM>
+            <PRENOM>Patricia</PRENOM>
+            <ROLE>la juge Horsedich</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="372541">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mays</NOM>
+            <PRENOM>Jayma</PRENOM>
+            <ROLE>Carol Anne Keane</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1303705">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boyer</NOM>
+            <PRENOM>Steven</PRENOM>
+            <ROLE>Dwayne Reed</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="184409">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shepherd</NOM>
+            <PRENOM>Sherri</PRENOM>
+            <ROLE>Anne Flatch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="463194">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Daly</NOM>
+            <PRENOM>Andrew</PRENOM>
+            <ROLE>Thom Hinkle</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Josh et son équipe découvrent un ADN appartenant à un autre homme dans la chambre à coucher de Larry, toujours stoïque après le meurtre de sa femme.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Dès l'ouverture de l'audience préliminaire, Josh sait que la partie ne sera pas gagnée d'avance pour son client : le ministère public semble avoir la juge de son côté et Larry, bien loin d'être bouleversé par la mort de sa femme, reste obsédé par la perte de sa clé à molette ! Fort heureusement, Tom Hinkle, l'expert médico-légal dépêché par Josh, réalise une sacrée découverte en  découvrant l'ADN d'un autre homme dans la chambre à coucher du couple...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163528" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T02:55:00</DATEHEURE>
+      <DUREE>5</DUREE>
+      <TITRE>Paf le chien</TITRE>
+      <SOUSTITREDIF>Massage à tabac</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118251021" DATEMODIF="2017-07-12T10:45:37">
+        <TITREEMISSION>Paf le chien</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="25145719">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Paf le chien</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Massage à tabac</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>15</NUMERO>
+            <NOMBRE>78</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="596856">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Vaucelle</NOM>
+            <PRENOM>Charles</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Paf, le chien de la petite Lola, est en réalité un super-héros canin, qui vole au secours de sa jeune maîtresse et de tous ceux qu'il aime.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163529" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T03:00:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Paf le chien</TITRE>
+      <SOUSTITREDIF>L'imprimante 3D</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="118467988" DATEMODIF="2017-10-20T14:09:13">
+        <TITREEMISSION>Paf le chien</TITREEMISSION>
+        <FORMAT CLE="6">Dessin animé</FORMAT>
+        <GENRE CLE="21" GENRESIMPLE="Dessin animé">Dessin animé</GENRE>
+        <NATIONALITE CLE="348">
+          <PAYS>France</PAYS>
+          <LIBELLE>français</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="25145719">
+            <TYPECOLLECTION CLE="10">Dessin animé / Titre</TYPECOLLECTION>
+            <NOM>Dessin animé / Paf le chien</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>L'imprimante 3D</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>23</NUMERO>
+            <NOMBRE>78</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="596856">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Vaucelle</NOM>
+            <PRENOM>Charles</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>La maman de Lola a acheté un imprimante 3D pour son travail. La petite fille trouve cet appareil génial, car elle peut fabriquer ses propres bracelets...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163530" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T03:10:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Mon chevalier et moi</TITRE>
+      <SOUSTITREDIF>Colbert sans peur</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="109693072" DATEMODIF="2017-03-13T14:50:16">
+        <TITREEMISSION>Mon chevalier et moi</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="220">
+          <PAYS>France - Belgique</PAYS>
+          <LIBELLE>franco-belge</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="21799812">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Mon chevalier et moi</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="21799792">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Mon chevalier et moi / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Colbert sans peur</SOUSTITRE>
+          <DUREEEMI>11</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>17</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="626769">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Christiaen</NOM>
+            <PRENOM>Joeri</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Jimmy et Cat découvrent que Colbert n'a jamais passé un de ses examens. Colbert doit donc partir en mission de terrain avec Henri et Jimmy pour garder son poste. Tandis que Wilfried offre de le remplacer temporairement au Bureau des Quêtes, Cat garde un oeil sur lui...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163531" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T03:20:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Les p'tits diables</TITRE>
+      <SOUSTITREDIF>La flûte anti-alien</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111695566" DATEMODIF="2016-12-15T16:15:45">
+        <TITREEMISSION>Les p'tits diables</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="5953511">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Les p'tits diables</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="23657860">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Les p'tits diables / 3</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>3</NUMERO>
+          </SAISON>
+          <SOUSTITRE>La flûte anti-alien</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>9</NUMERO>
+            <NOMBRE>50</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Chamailleries, disputes, traquenards, trahisons, coups montés, entourloupes. Tom, 6 ans et sa soeur Nina, 8 ans, sont comme chien et chat. Cette rivalité fraternelle les embarque dans de trépidantes aventures.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163532" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T03:30:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Kaeloo</TITRE>
+      <SOUSTITREDIF>Si on jouait à la marchande</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="20479323" DATEMODIF="2017-08-16T15:17:32">
+        <TITREEMISSION>Kaeloo</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="4132492">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Kaeloo</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="12205449">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Kaeloo / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Si on jouait à la marchande</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2010</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>18</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="516291">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Chapotot</NOM>
+            <PRENOM>Rémi</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Kaeloo joue à la marchande et installe un étal sur lequel elle vend des pommes. Moignon les lui vole pour garnir son stand...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163533" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T03:40:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>Kaeloo</TITRE>
+      <SOUSTITREDIF>Si on jouait à papa-maman</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="20692281" DATEMODIF="2017-08-16T15:17:32">
+        <TITREEMISSION>Kaeloo</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="7" GENRESIMPLE="Série d'animation">Série d'animation</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="4132492">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Kaeloo</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="12205449">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Kaeloo / 1</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>1</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Si on jouait à papa-maman</SOUSTITRE>
+          <DUREEEMI>7</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2010</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>19</NUMERO>
+            <NOMBRE>52</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="516291">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Chapotot</NOM>
+            <PRENOM>Rémi</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="102">
+            <LETEXTE>Kaeloo fait la maman, Mr Chat le papa, Coin-Coin la fille et Moignon le fils. Kaeloo réalise vite que ce n'est pas facile d'être mère de famille...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163534" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T04:15:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Le tube</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380932" DATEMODIF="2018-01-23T08:21:13">
+        <TITREEMISSION>Le tube</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="11609899">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Le tube</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="506917">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Ithurburu</NOM>
+            <PRENOM>Isabelle</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Télévision, radio, web, print, réseaux sociaux, Isabelle Ithurburu décrypte et analyse l'actualité des médias, reçoit en plateau un acteur clé de l'actualité médiatique et interroge un invité issu de la scène musicale ou de l'univers cinématographique sur son rapport aux médias.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163535" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T05:05:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Kidnap</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111001757" DATEMODIF="2018-01-20T10:55:15">
+        <TITREEMISSION>Kidnap</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="218" GENRESIMPLE="Film d'aventures">Film d'action</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Kidnap</TITREORIGINAL>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>95</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="205222">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Prieto</NOM>
+            <PRENOM>Luis</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="18750">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berry</NOM>
+            <PRENOM>Halle</PRENOM>
+            <ROLE>Karla Dyson</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364161">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Correa</NOM>
+            <PRENOM>Sage</PRENOM>
+            <ROLE>Frankie</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1364162">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>McGinn</NOM>
+            <PRENOM>Chris</PRENOM>
+            <ROLE>Margo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="462944">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Temple</NOM>
+            <PRENOM>Lew</PRENOM>
+            <ROLE>Terry</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="59483">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>George</NOM>
+            <PRENOM>Jason</PRENOM>
+            <ROLE>David</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="298809">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Berry</NOM>
+            <PRENOM>Christopher</PRENOM>
+            <ROLE>l'homme barbu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="532560">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Shiver</NOM>
+            <PRENOM>Arron</PRENOM>
+            <ROLE>Bill</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1238692">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bedford</NOM>
+            <PRENOM>Kurtis</PRENOM>
+            <ROLE>Del</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="288444">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Jusid</NOM>
+            <PRENOM>Federico</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Une femme emmène son fils au parc d'attractions. C'est là qu'une inconnue kidnappe l'enfant sous les yeux de sa mère, qui se lance à sa poursuite.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Karla Dyson, emmène Frankie, son fils, au parc d'attractions. C'est là qu'une inconnue kidnappe l'enfant. Karla, qui parvient à voir la voiture à bord de laquelle son fils est enlevé, se lance aussitôt à sa poursuite. Elle comprend que si elle n'agit pas immédiatement, elle pourrait ne jamais revoir Frankie. Mais dans l'urgence, Karla a perdu son téléphone portable, ce qui complique considérablement son entreprise. Elle ne peut joindre personne et n'arrive pas non plus à obtenir l'aide de la police...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Malgré des invraisemblances et un scénario quelque peu convenu, ce film d'action n'en reste pas moins efficace et distrayant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163536" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T06:40:00</DATEHEURE>
+      <DUREE>30</DUREE>
+      <TITRE>Canal Esport Club</TITRE>
+      <CSA>4</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="122548218" DATEMODIF="2017-11-03T12:13:52">
+        <TITREEMISSION>Canal Esport Club</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="1137" GENRESIMPLE="Magazine sportif">e-sport</GENRE>
+        <SPORT />
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="451634">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Morin</NOM>
+          <PRENOM>Olivier</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163537" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T07:10:00</DATEHEURE>
+      <DUREE>50</DUREE>
+      <TITRE>Baron Noir</TITRE>
+      <SOUSTITREDIF>Diprotodon</SOUSTITREDIF>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124634900" DATEMODIF="2018-01-24T14:06:02">
+        <TITREEMISSION>Baron Noir</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1120" GENRESIMPLE="Série">Série politique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="18801333">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Baron Noir</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29423777">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Baron Noir / 2</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Diprotodon</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>7</NUMERO>
+            <NOMBRE>8</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="1216003">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Chevrollier</NOM>
+            <PRENOM>Antoine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="52482">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Merad</NOM>
+            <PRENOM>Kad</PRENOM>
+            <ROLE>Philippe Rickwaert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="72912">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mouglalis</NOM>
+            <PRENOM>Anna</PRENOM>
+            <ROLE>Amélie Dorendeu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="531154">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Becker</NOM>
+            <PRENOM>Hugo</PRENOM>
+            <ROLE>Cyril Balsan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582489">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whettnall</NOM>
+            <PRENOM>Astrid</PRENOM>
+            <ROLE>Véronique Bosso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="329596">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Elbé</NOM>
+            <PRENOM>Pascal</PRENOM>
+            <ROLE>Stéphane Thorigny</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="318943">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morel</NOM>
+            <PRENOM>François</PRENOM>
+            <ROLE>Michel Vidal</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Philippe a terrassé le patron du FN à la télévision, exploitant l'idée d'un référendum sur la mixité scolaire. Thorigny conspire avec le centre.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Philippe a terrassé le patron du Front national à la télévision, exploitant l'idée d'un référendum sur la mixité scolaire. Thorigny conspire avec des dirigeants de centre gauche et de centre droit pour construire un mouvement capable de l'imposer à la prochaine présidentielle. Dans ce contexte de recomposition politique, Philippe veut rallier Kalhenberg à sa cause...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163538" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T08:00:00</DATEHEURE>
+      <DUREE>45</DUREE>
+      <TITRE>Baron Noir</TITRE>
+      <SOUSTITREDIF>Sorpasso</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>1</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124634901" DATEMODIF="2018-01-24T14:06:27">
+        <TITREEMISSION>Baron Noir</TITREEMISSION>
+        <FORMAT CLE="3">Série</FORMAT>
+        <GENRE CLE="1120" GENRESIMPLE="Série">Série politique</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <SERIE>
+          <COLLECTION CLE="18801333">
+            <TYPECOLLECTION CLE="9">Série / Titre</TYPECOLLECTION>
+            <NOM>Série / Baron Noir</NOM>
+          </COLLECTION>
+          <COLLECTION CLE="29423777">
+            <TYPECOLLECTION CLE="1">Série / Titre / Saison</TYPECOLLECTION>
+            <NOM>Série / Baron Noir / 2</NOM>
+          </COLLECTION>
+          <SAISON>
+            <LIBELLE>SAISON</LIBELLE>
+            <NUMERO>2</NUMERO>
+          </SAISON>
+          <SOUSTITRE>Sorpasso</SOUSTITRE>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <ANNEEREALISATION>2018</ANNEEREALISATION>
+          <EPISODE>
+            <LIBELLE>EPISODE</LIBELLE>
+            <NUMERO>8</NUMERO>
+            <NOMBRE>8</NOMBRE>
+          </EPISODE>
+        </SERIE>
+        <LESPERSONNES>
+          <PERSONNE CLE="79199">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Doueiri</NOM>
+            <PRENOM>Ziad</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1216003">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Chevrollier</NOM>
+            <PRENOM>Antoine</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="52482">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Merad</NOM>
+            <PRENOM>Kad</PRENOM>
+            <ROLE>Philippe Rickwaert</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="72912">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Mouglalis</NOM>
+            <PRENOM>Anna</PRENOM>
+            <ROLE>Amélie Dorendeu</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="531154">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Becker</NOM>
+            <PRENOM>Hugo</PRENOM>
+            <ROLE>Cyril Balsan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="582489">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Whettnall</NOM>
+            <PRENOM>Astrid</PRENOM>
+            <ROLE>Véronique Bosso</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="329596">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Elbé</NOM>
+            <PRENOM>Pascal</PRENOM>
+            <ROLE>Stéphane Thorigny</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="318943">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Morel</NOM>
+            <PRENOM>François</PRENOM>
+            <ROLE>Michel Vidal</ROLE>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Avec le déclenchement d'une émeute liée à la disparition de Mourad Adjaoui, Amélie fait face à une crise politique terrible, dont Vidal tire profit.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Avec le déclenchement d'une émeute liée à la disparition de Mourad Adjaoui, Amélie fait face à une crise politique terrible, dont Vidal profite pour casser définitivement la possibilité d'une union de la gauche et réduire à néant le rêve de Philippe. C'est dans ce contexte dramatique que Philippe décide de renouer avec Amélie...</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163539" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T08:45:00</DATEHEURE>
+      <DUREE>35</DUREE>
+      <TITRE>Album de la semaine</TITRE>
+      <SOUSTITREDIF>Dream Wife</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125380926" DATEMODIF="2018-01-24T14:08:28">
+        <TITREEMISSION>Album de la semaine</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="412" GENRESIMPLE="Magazine culturel">Magazine musical</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="6520">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / Album de la semaine</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Dream Wife</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="105281">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Saunier</NOM>
+            <PRENOM>Stéphane</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Après un EP sorti au printemps 2017, Dream Wife, un trio venu de Londres, présente son premier album éponyme, dans les bacs français depuis le 26 janvier dernier.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163540" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T09:20:00</DATEHEURE>
+      <DUREE>55</DUREE>
+      <TITRE>L'effet papillon</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977175" DATEMODIF="2018-01-09T11:03:37">
+        <TITREEMISSION>L'effet papillon</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="379" GENRESIMPLE="Magazine d'information">Magazine d'actualité</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="2058687">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / L'effet papillon</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="161949">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Roulier</NOM>
+            <PRENOM>Daphné</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Fidèle à son slogan, «Ce qui arrive aux uns a toujours des conséquences pour d'autres...», le magazine de l'actualité internationale propose un voyage à destination des endroits de la planète où il se passe quelque chose qui pourrait bien avoir des répercussions sur l'ensemble de la population mondiale. En plateau, Daphné Roulier reçoit le journaliste à l'origine du reportage diffusé pour évoquer le sujet proposé. Egalement au programme, le traditionnel biopic qui dresse le portrait d'une personnalité internationale qui fait l'actualité du moment et les rubriques et séries habituelles, «Comment j'ai pécho» et «Dictature Tour et Fuck le système».</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163541" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T10:15:00</DATEHEURE>
+      <DUREE>65</DUREE>
+      <TITRE>Jamel Comedy Kids</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>1</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="111317234" DATEMODIF="2018-02-05T23:07:50">
+        <TITREEMISSION>Jamel Comedy Kids</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="932" GENRESIMPLE="Divertissement">Divertissement</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22685218">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Jamel Comedy Kids</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="62672">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Debbouze</NOM>
+            <PRENOM>Jamel</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="512369">
+            <FONCTION>Invité</FONCTION>
+            <NOM>Adams</NOM>
+            <PRENOM>Kev</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Jamel Debbouze a décidé de décliner son célèbre show «Jamel comedy club» en une formule pour enfants de 5 à 10 ans, le «Jamel Comedy Kids». Sur scène, d'espiègles minots, qui n'ont évidemment pas leur langue dans leur poche, revisitent les sketches les plus connus des artistes comiques français. Chaque émission sera d'ailleurs parrainée par un humoriste.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163542" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T11:20:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>La 5ème vague</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="94508019" DATEMODIF="2017-12-12T11:18:17">
+        <TITREEMISSION>La 5ème vague</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="248" GENRESIMPLE="Film de science fiction">Film de science-fiction</GENRE>
+        <NATIONALITE CLE="7">
+          <PAYS>Etats-Unis</PAYS>
+          <LIBELLE>américain</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>The 5th Wave</TITREORIGINAL>
+          <ANNEEREALISATION>2016</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>112</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="530691">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Blakeson</NOM>
+            <PRENOM>J</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="331520">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moretz</NOM>
+            <PRENOM>Chloë Grace</PRENOM>
+            <ROLE>Cassie Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="178072">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Robinson</NOM>
+            <PRENOM>Nick</PRENOM>
+            <ROLE>Ben Parish</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1191641">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Monroe</NOM>
+            <PRENOM>Maika</PRENOM>
+            <ROLE>Ringer</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="72212">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bello</NOM>
+            <PRENOM>Maria</PRENOM>
+            <ROLE>Reznik</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="31382">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Schreiber</NOM>
+            <PRENOM>Liev</PRENOM>
+            <ROLE>Vosch</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="454463">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Siff</NOM>
+            <PRENOM>Maggie</PRENOM>
+            <ROLE>Lisa Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="89508">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Livingston</NOM>
+            <PRENOM>Ron</PRENOM>
+            <ROLE>Oliver Sullivan</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1209411">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Revolori</NOM>
+            <PRENOM>Tony</PRENOM>
+            <ROLE>Dumbo</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="520292">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Jackman</NOM>
+            <PRENOM>Henry</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Alors que le monde est en proie à une invasion extraterrestre stratégique et dévastatrice, une adolescente part à la recherche de son jeune frère.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Cassie Sullivan mène une vie d'adolescente ordinaire. Mais lorsque l'humanité subit une invasion stratégique d'extraterrestres ayant pour but de décimer la population en plusieurs étapes, la jeune fille se retrouve seule et tente de survivre sur les routes désertes des Etats-Unis où elle part à la recherche de son petit frère. Mais Cassie ne peut faire confiance à personne : les envahisseurs extraterrestres, appelés Les Autres, sont partout et ressemblent à tout le monde. De leurs côtés, les humains survivants doivent rester sur leurs gardes. Les Autres s'apprêtent en effet à lancer la cinquième vague de leur sombre dessein, celle qui fera définitivement disparaître l'espèce humaine...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Une adaptation du roman dystopique de Rick Yancey. Plutôt convaincant.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163543" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T13:10:00</DATEHEURE>
+      <DUREE>85</DUREE>
+      <TITRE>Alibi.com</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>0</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="106353438" DATEMODIF="2018-01-22T10:58:36">
+        <TITREEMISSION>Alibi.com</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="123" GENRESIMPLE="Comédie">Comédie</GENRE>
+        <NATIONALITE CLE="349">
+          <PAYS>France</PAYS>
+          <LIBELLE>française</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <ANNEEREALISATION>2017</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>90</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="423879">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Lacheau</NOM>
+            <PRENOM>Philippe</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="423879">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Lacheau</NOM>
+            <PRENOM>Philippe</PRENOM>
+            <ROLE>Grégory Van Huffel</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="291727">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Fontan</NOM>
+            <PRENOM>Elodie</PRENOM>
+            <ROLE>Flo Martin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1138019">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Arruti</NOM>
+            <PRENOM>Julien</PRENOM>
+            <ROLE>Augustin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="603709">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Boudali</NOM>
+            <PRENOM>Tarek</PRENOM>
+            <ROLE>Mehdi</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="261531">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bourdon</NOM>
+            <PRENOM>Didier</PRENOM>
+            <ROLE>Gérard / Jean-Claude</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="3078">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Baye</NOM>
+            <PRENOM>Nathalie</PRENOM>
+            <ROLE>madame Martin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="597925">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Madani</NOM>
+            <PRENOM>Nawell</PRENOM>
+            <ROLE>Cynthia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="590172">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Sadoun</NOM>
+            <PRENOM>Medi</PRENOM>
+            <ROLE>Garcia</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1217700">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Desprez</NOM>
+            <PRENOM>Maxime</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="1134148">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Tordjman</NOM>
+            <PRENOM>Michael</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Un jeune chef d'entreprise, qui a caché son activité à sa compagne, découvre que son futur beau-père est un client qu'il a aidé à couvrir une infidélité.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Greg s'est associé avec son ami Augustin afin de créer une entreprise un peu particulière. Envie de cacher la vérité à son ou sa conjoint(e) pour avoir du temps libre ou couvrir une infidélité ? C'est possible grâce à leur société Alibi.com, qui propose les meilleures excuses et stratagèmes possibles. Les affaires marchent très bien. Un client demande aux deux hommes et à leur employé Medhi de trouver une parade alors qu'il doit passer le week-end avec sa nouvelle conquête. Or, Greg découvre qu'il s'agit de Gérard, le père de sa fiancée Flo à qui il n'a rien rien dit sur son activité et qui ne supporte pas le mensonge...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Après «Babysitting» et «Babysitting 2», Philippe Lacheau revient avec une nouvelle comédie enjouée, aux dialogues percutants.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163544" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T14:35:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>Samedi sport</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125620217" DATEMODIF="2018-02-06T11:31:26">
+        <TITREEMISSION>Samedi sport</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="741" GENRESIMPLE="Magazine sportif">Multisports</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163545" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T14:45:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Rugby</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125620083" DATEMODIF="2018-01-29T11:35:09">
+        <TITREEMISSION>Rugby</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="797" GENRESIMPLE="Rugby">Rugby</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Top 14</LIBELLE>
+            <MANCHE>17e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Toulon / Stade Français</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163546" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T16:40:00</DATEHEURE>
+      <DUREE>20</DUREE>
+      <TITRE>Avant-match</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125619020" DATEMODIF="2018-02-06T11:31:26">
+        <TITREEMISSION>Avant-match</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163547" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T17:00:00</DATEHEURE>
+      <DUREE>115</DUREE>
+      <TITRE>Football</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>1</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <TEXTESPORT TYPE="102">
+        <LETEXTE>Seule équipe de Ligue 1 à avoir battu le Paris-SG lors de la phase aller du championnat, le Racing Club de Strasbourg peut craindre la revanche des coéquipiers d'Adrien Rabiot sur la pelouse du Parc.</LETEXTE>
+      </TEXTESPORT>
+      <EMISSION CLEEMI="125619752" DATEMODIF="2018-02-05T16:03:31">
+        <TITREEMISSION>Football</TITREEMISSION>
+        <FORMAT CLE="13">Emission sportive</FORMAT>
+        <GENRE CLE="641" GENRESIMPLE="Football">Football</GENRE>
+        <SPORT>
+          <CHAMPIONNAT>
+            <LIBELLE>Ligue 1 Conforama</LIBELLE>
+            <MANCHE>26e journée</MANCHE>
+          </CHAMPIONNAT>
+          <EVENEMENT>
+            <LIBELLE>Paris-SG / Strasbourg</LIBELLE>
+          </EVENEMENT>
+        </SPORT>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163548" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T18:55:00</DATEHEURE>
+      <DUREE>15</DUREE>
+      <TITRE>Le débrief</TITRE>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="122099621" DATEMODIF="2018-02-06T11:31:26">
+        <TITREEMISSION>Le débrief</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="642" GENRESIMPLE="Magazine sportif">Football</GENRE>
+        <SPORT />
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163549" DATEMODIF="2018-02-06T12:09:03">
+      <DATEHEURE>2018-02-17T19:10:00</DATEHEURE>
+      <DUREE>85</DUREE>
+      <TITRE>La Gaule d'Antoine</TITRE>
+      <SOUSTITREDIF>Les Hauts-de-France</SOUSTITREDIF>
+      <CSA>0</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="124977170" DATEMODIF="2018-02-06T12:09:09">
+        <TITREEMISSION>La Gaule d'Antoine</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="418" GENRESIMPLE="Magazine de société">Magazine de reportages</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="29946232">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / La Gaule d'Antoine</NOM>
+          </COLLECTION>
+          <SOUSTITRE>Les Hauts-de-France</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESPERSONNES>
+          <PERSONNE CLE="117237">
+            <FONCTION>Présentateur</FONCTION>
+            <NOM>Caunes</NOM>
+            <PRENOM>Antoine de</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Au programme de cette émission dans les Hauts-de-France : du rock, du Maroilles et du tuning de mobylette. Antoine de Caunes entreprend également une visite d'Etat au Touquet-Macron-Plage, avant de découvrir le Data Center d'OVH, la start-up française qui concurrence Google et Facebook depuis la «Roubaix Valley». Curiosités régionales, pépites, spécialités : cette nouvelle plongée déjantée est l'occasion pour Antoine de Caunes d'assister à un match du RC Lens au milieu du kop de supporters, mais aussi de reprendre a capella et le tube bientôt culte «Bienvenue Au Crotoy», de se produire sur la scène des très bananés Spunyboys, ou encore de s'initier à la culture frénétique des «gabbers». L'émission est ponctuée de rencontres insolites, notamment avec Panteros666, un artiste lillois, et Monsieur Poulpe, pour ne citer qu'eux.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163550" DATEMODIF="2018-02-06T12:09:24">
+      <DATEHEURE>2018-02-17T20:35:00</DATEHEURE>
+      <DUREE>75</DUREE>
+      <TITRE>La Gaule d'Antoine</TITRE>
+      <SOUSTITREDIF>La Nouvelle Aquitaine</SOUSTITREDIF>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="122918553" DATEMODIF="2018-02-06T12:09:51">
+        <TITREEMISSION>La Gaule d'Antoine</TITREEMISSION>
+        <FORMAT CLE="12">Magazine</FORMAT>
+        <GENRE CLE="418" GENRESIMPLE="Magazine de société">Magazine de reportages</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="29946232">
+            <TYPECOLLECTION CLE="19">Magazine / Titre</TYPECOLLECTION>
+            <NOM>Magazine / La Gaule d'Antoine</NOM>
+          </COLLECTION>
+          <SOUSTITRE>La Nouvelle Aquitaine</SOUSTITRE>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Dans cette nouvelle émission, Antoine de Caunes parcourt l'Hexagone, à la découverte des spécificités de ses régions. Il commence par la plus grande d'entre elles : la Nouvelle-Aquitaine. Il débute par le marathon du Médoc, avant de visiter la Cité du Vin, à Bordeaux, puis de rencontrer Michel Chasseuil, le plus grand collectionneur de vin du monde. Mais le voyage d'Antoine ne se limite pas à ses découvertes viticoles ; il s'intéresse également à la start-up Dronisos, avant de s'incruster chez les Hotu, un collectif de vidéastes bordelais. L'émission se poursuit au Pays Basque, puis à Lascaux et sa fameuse grotte, pour finir avec deux rencontres : Francky Balloney, directeur de la maison d'édition des Requins Marteaux, et Stéphanie Barthes, artiste taxidermiste.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163551" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T21:50:00</DATEHEURE>
+      <DUREE>25</DUREE>
+      <TITRE>Groland le zapoï</TITRE>
+      <CSA>2</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125623479" DATEMODIF="2018-01-26T10:51:56">
+        <TITREEMISSION>Groland le zapoï</TITREEMISSION>
+        <FORMAT CLE="16">Autre</FORMAT>
+        <GENRE CLE="957" GENRESIMPLE="Divertissement">Divertissement-humour</GENRE>
+        <MAGAZINEXY>
+          <COLLECTION CLE="22052810">
+            <TYPECOLLECTION CLE="20">XY / Titre</TYPECOLLECTION>
+            <NOM>XY / Groland le zapoï</NOM>
+          </COLLECTION>
+        </MAGAZINEXY>
+        <LESTEXTES>
+          <TEXTE TYPE="0">
+            <LETEXTE>Le très flegmatique Jules-Edouard Moustic présente les meilleurs moments des émissions diffusées sur le bouquet satellite grolandais, d'après une sélection méticuleusement réalisée par Benoît Delépine, Gustave Kervern et Francis Kuntz. Ensemble, les experts débattent et commentent leur choix.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163552" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T22:15:00</DATEHEURE>
+      <DUREE>95</DUREE>
+      <TITRE>Les oubliés</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>1</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="103148767" DATEMODIF="2017-12-26T16:45:58">
+        <TITREEMISSION>Les oubliés</TITREEMISSION>
+        <FORMAT CLE="1">Film</FORMAT>
+        <GENRE CLE="238" GENRESIMPLE="Film de guerre">Film de guerre</GENRE>
+        <NATIONALITE CLE="955">
+          <PAYS>Allemagne - Danemark</PAYS>
+          <LIBELLE>germano-danois</LIBELLE>
+        </NATIONALITE>
+        <FILMTELEFILM>
+          <TITREORIGINAL>Under sandet</TITREORIGINAL>
+          <ANNEEREALISATION>2015</ANNEEREALISATION>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+          <DUREEEMI>101</DUREEEMI>
+          <APPRECIATION>2</APPRECIATION>
+        </FILMTELEFILM>
+        <LESPERSONNES>
+          <PERSONNE CLE="518108">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Zandvliet</NOM>
+            <PRENOM>Martin</PRENOM>
+          </PERSONNE>
+          <PERSONNE CLE="632293">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Moller</NOM>
+            <PRENOM>Roland</PRENOM>
+            <ROLE>Carl Rasmussen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="601484">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Folsgaard</NOM>
+            <PRENOM>Mikkel Boe</PRENOM>
+            <ROLE>Ebbe Jensen</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="361186">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bro</NOM>
+            <PRENOM>Laura</PRENOM>
+            <ROLE>Karin</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="528766">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Hofmann</NOM>
+            <PRENOM>Louis</PRENOM>
+            <ROLE>Sebastian Schumann</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="402828">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Basman</NOM>
+            <PRENOM>Joel</PRENOM>
+            <ROLE>Helmut Morbach</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="558774">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Bökelmann</NOM>
+            <PRENOM>Oskar</PRENOM>
+            <ROLE>Ludwig Haffke</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1287925">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belton</NOM>
+            <PRENOM>Emil</PRENOM>
+            <ROLE>Ernst Lessner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1287926">
+            <FONCTION>Acteur</FONCTION>
+            <NOM>Belton</NOM>
+            <PRENOM>Oskar</PRENOM>
+            <ROLE>Werner Lessner</ROLE>
+          </PERSONNE>
+          <PERSONNE CLE="1240209">
+            <FONCTION>Musique</FONCTION>
+            <NOM>Martin</NOM>
+            <PRENOM>Sune</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>En mai 1945, quelques jours après la reddition de l'Allemagne nazie, un groupe de jeunes prisonniers allemands est affecté au déminage des plages danoises.</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>En mai 1945, quelques jours après la reddition de l'Allemagne nazie marquant la fin de la Seconde Guerre mondiale, un groupe de prisonniers de guerre allemands, adolescents pour la plupart, est envoyé au Danemark et affecté, comme deux mille autres des leurs, au déminage des plages, truffées de deux millions de mines terrestres enfouies précédemment par les forces d'occupation allemandes. Supervisé par le sergent Rasmussen, ce groupe de quatorze garçons va devoir effectuer ces dangereux travaux à mains nues. La moindre inattention peut leur coûter la vie. Entretenant une profonde haine envers les Allemands, l'implacable officier danois se sent bientôt habité par un conflit intérieur qui trouble son point de vue sur l'ennemi...</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="103">
+            <LETEXTE>Un drame historique très prenant, inspiré de fait réels et nommé à l'oscar du meilleur film étranger.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163553" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-17T23:50:00</DATEHEURE>
+      <DUREE>110</DUREE>
+      <TITRE>Fight+</TITRE>
+      <CSA>3</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>0</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>0</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="125390219" DATEMODIF="2018-01-19T13:02:18">
+        <TITREEMISSION>Fight+</TITREEMISSION>
+        <FORMAT CLE="14">Magazine sportif</FORMAT>
+        <GENRE CLE="585" GENRESIMPLE="Magazine sportif">Boxe</GENRE>
+        <SPORT />
+      </EMISSION>
+      <LESPERSONNES>
+        <PERSONNE CLE="406337">
+          <FONCTION>Présentateur</FONCTION>
+          <NOM>Velghe</NOM>
+          <PRENOM>Philippe</PRENOM>
+        </PERSONNE>
+      </LESPERSONNES>
+    </DIFFUSION>
+    <DIFFUSION CLEDIF="172163554" DATEMODIF="2018-02-06T11:31:26">
+      <DATEHEURE>2018-02-18T01:40:00</DATEHEURE>
+      <DUREE>10</DUREE>
+      <TITRE>French Bashing</TITRE>
+      <CSA>1</CSA>
+      <ATTRIBUTS>
+        <PT1>0</PT1>
+        <PT2>0</PT2>
+        <PT3>0</PT3>
+        <CLAIR>0</CLAIR>
+        <DOLBY>0</DOLBY>
+        <DOLBY51>0</DOLBY51>
+        <STEREO>1</STEREO>
+        <RATIO>4:3</RATIO>
+        <STM>1</STM>
+        <VOST>0</VOST>
+        <VM>0</VM>
+        <HD>1</HD>
+        <DIRECT>0</DIRECT>
+        <DIFFERE>0</DIFFERE>
+        <RESUME>0</RESUME>
+        <PREMDIF>1</PREMDIF>
+        <DERDIF>0</DERDIF>
+        <REDIF>0</REDIF>
+        <INEDIT_EN_CLAIR>0</INEDIT_EN_CLAIR>
+        <INEDIT_CRYPTE>0</INEDIT_CRYPTE>
+        <NOUVEAUTE>0</NOUVEAUTE>
+        <TEMPSFORT>0</TEMPSFORT>
+        <OCCULTATIONMOBILE>0</OCCULTATIONMOBILE>
+      </ATTRIBUTS>
+      <EMISSION CLEEMI="95639791" DATEMODIF="2018-01-10T14:53:04">
+        <TITREEMISSION>French Bashing</TITREEMISSION>
+        <FORMAT CLE="5">Documentaire</FORMAT>
+        <GENRE CLE="374" GENRESIMPLE="Documentaire de société">Société</GENRE>
+        <DOCUMENTAIRE>
+          <ANNEEREALISATION>2014</ANNEEREALISATION>
+          <DUREEEMI>80</DUREEEMI>
+          <COULEUR CLE="1">en couleurs</COULEUR>
+        </DOCUMENTAIRE>
+        <LESPERSONNES>
+          <PERSONNE CLE="566882">
+            <FONCTION>Réalisateur</FONCTION>
+            <NOM>Péretié</NOM>
+            <PRENOM>Jean-Baptiste</PRENOM>
+          </PERSONNE>
+        </LESPERSONNES>
+        <LESTEXTES>
+          <TEXTE TYPE="101">
+            <LETEXTE>Les Anglo-Saxons affectionnent tout particulièrement les clichés sur la France et les Français : quel est le rôle diplomatique du «French Bashing»?</LETEXTE>
+          </TEXTE>
+          <TEXTE TYPE="102">
+            <LETEXTE>Lâches, fainéants, efféminés, infidèles et grévistes de père en fils : les clichés sur les Français ont la vie douce. Les Anglo-Saxons, qui affectionnent tout particulièrement ces idées préconçues, se font un plaisir de les faire circuler de par le monde. Les sphères politiques et culturelles, notamment, en raffolent. L'amitié entre les Etats-Unis et la France, dont s'enorgueillissent les dirigeants nationaux, n'est-elle donc qu'un mythe ? Soucieux de renvoyer une image positive à l'étranger, les politiques s'efforcent aujourd'hui de redorer le blason du pays. Décryptage du rôle diplomatique du «French Bashing» et de ses conséquences.</LETEXTE>
+          </TEXTE>
+        </LESTEXTES>
+      </EMISSION>
+    </DIFFUSION>
+  </JOURNEE>
+</GRILLETV>

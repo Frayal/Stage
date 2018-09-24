@@ -198,6 +198,18 @@ def plot_res(df,pred,y):
     Report('--------------------------------------------------')
 
 
+def load_(fileX):
+    df = pd.read_csv(fileX)
+    df = df.replace([np.inf, -np.inf], np.nan)
+    df = df.fillna(1)
+    X_train = df.values
+    t = df.index.values
+
+    scaler = MinMaxScaler(feature_range=(0, 1))#StandardScaler()
+    s = StandardScaler()
+    X_train_minmax = scaler.fit_transform(X_train)
+    X_train_meanvar = s.fit_transform(X_train)
+    return  X_train_minmax,X_train_meanvar,t
 
 
 #################################################
@@ -206,48 +218,64 @@ def plot_res(df,pred,y):
 
 
 def main(argv):
-    global PATH_IN,PATH_SCRIPT,PATH_OUT
-    PATH_IN,PATH_SCRIPT,PATH_OUT = get_path()
-    if(len(argv)==0):
-        argv = [0.35]
-    THRESHOLD = float(argv)
-    ##### get files names ###
-    names = pd.read_csv('files.csv')
-    fileX_train = literal_eval(names['fileX_train'][0])
-    fileY_train = literal_eval(names['fileY_train'][0])
+    global PATH_IN, PATH_SCRIPT, PATH_OUT
+    PATH_IN, PATH_SCRIPT, PATH_OUT = get_path()
+    if (len(argv) == 2):
+        from keras.models import model_from_json
+        fileX = argv[0]
+        X_minmax, X_meanvar, t = load_(fileX)
+        json_file = open("model/LSTM.json", 'r')
+        loaded_model_json = json_file.read()
+        json_file.close()
+        LSTM = model_from_json(loaded_model_json)
+        # load weights into new model
+        LSTM.compile(loss='binary_crossentropy', optimizer='adamax', metrics=['accuracy'])
+        LSTM.load_weights("model/LSTM.h5")
+       # Report("Loaded LSTM from disk")
+        res = pd.DataFrame(LSTM.predict_proba(np.reshape(X_minmax,(X_minmax.shape[0],1,X_minmax.shape[1]))))
+        res.to_csv(str(fileX.split('.')[0])+'_temp_LSTM.csv',index=False)
+        return res
+    else:
+        if(len(argv)==0):
+            argv = [0.35]
+        THRESHOLD = float(argv)
+        ##### get files names ###
+        names = pd.read_csv('files.csv')
+        fileX_train = literal_eval(names['fileX_train'][0])
+        fileY_train = literal_eval(names['fileY_train'][0])
 
-    fileX_valid =literal_eval(names['fileX_valid'][0])
-    fileY_valid = literal_eval(names['fileY_valid'][0])
-    fileX_test =literal_eval(names['fileX_test'][0])
-    fileY_test = literal_eval(names['fileY_test'][0])
+        fileX_valid =literal_eval(names['fileX_valid'][0])
+        fileY_valid = literal_eval(names['fileY_valid'][0])
+        fileX_test =literal_eval(names['fileX_test'][0])
+        fileY_test = literal_eval(names['fileY_test'][0])
 
-    X_train,Y_train,_ = load(fileX_train,fileY_train)
-    X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
-    X_test,Y_test,t = load(fileX_test,fileY_test)
+        X_train,Y_train,_ = load(fileX_train,fileY_train)
+        X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
+        X_test,Y_test,t = load(fileX_test,fileY_test)
 
-    model = model_fit(X_train,Y_train,X_valid,Y_valid)
-    pred = model.predict_proba(X_test)
-    pred = np.clip(pred,0,1)
-    testPredict = list([1 if i[0]>THRESHOLD else 0 for i in pred])
+        model = model_fit(X_train,Y_train,X_valid,Y_valid)
+        pred = model.predict_proba(X_test)
+        pred = np.clip(pred,0,1)
+        testPredict = list([1 if i[0]>THRESHOLD else 0 for i in pred])
 
 
-    # plot results
-    plot_res(t,testPredict,Y_test)
+        # plot results
+        plot_res(t,testPredict,Y_test)
 
-    pred_valid = model.predict_proba(X_valid)
-    res_valid = pd.DataFrame(pred_valid)
-    res_valid.to_csv('LSTM_valid.csv',index=False)
+        pred_valid = model.predict_proba(X_valid)
+        res_valid = pd.DataFrame(pred_valid)
+        res_valid.to_csv('LSTM_valid.csv',index=False)
 
-    res = pd.DataFrame(pred)
-    res.to_csv('LSTM.csv',index=False)
+        res = pd.DataFrame(pred)
+        res.to_csv('LSTM.csv',index=False)
 
-    model_json = model.to_json()
-    with open("model/LSTM.json", "w") as json_file:
-        json_file.write(model_json)
-        # serialize weights to HDF5
-    model.save_weights("model/LSTM.h5")
-    return res
+        model_json = model.to_json()
+        with open("model/LSTM.json", "w") as json_file:
+            json_file.write(model_json)
+            # serialize weights to HDF5
+        model.save_weights("model/LSTM.h5")
+        return res
 
 if __name__ == "__main__":
     # execute only if run as a script
-    main(sys.argv[1])
+    main(sys.argv[1:])

@@ -177,6 +177,19 @@ def save_model(model):
     pickle.dump(model.clf1, open("model/XGB1.pickle.dat", "wb"))
     pickle.dump(model.clf2, open("model/XGB2.pickle.dat", "wb"))
 
+def load_(fileX):
+    df = pd.read_csv(fileX)
+    df = df.replace([np.inf, -np.inf], np.nan)
+    df = df.fillna(1)
+    X_train = df.values
+    t = df.index.values
+
+    scaler = MinMaxScaler(feature_range=(0, 1))#StandardScaler()
+    s = StandardScaler()
+    X_train_minmax = scaler.fit_transform(X_train)
+    X_train_meanvar = s.fit_transform(X_train)
+    return  X_train_minmax,X_train_meanvar,t
+
 
 #################################################
 ########### main with options ###################
@@ -184,39 +197,51 @@ def save_model(model):
 
 
 def main(argv):
-    global PATH_IN,PATH_SCRIPT,PATH_OUT
-    PATH_IN,PATH_SCRIPT,PATH_OUT = get_path()
-    if(len(argv)==0):
-        argv = [0.04]
-    THRESHOLD = float(argv)
-    #### get files names ###
-    names = pd.read_csv('files.csv')
-    fileX_train = literal_eval(names['fileX_train'][0])
-    fileY_train = literal_eval(names['fileY_train'][0])
+    global PATH_IN, PATH_SCRIPT, PATH_OUT
+    PATH_IN, PATH_SCRIPT, PATH_OUT = get_path()
+    if(len(argv)==2):
+        fileX = argv[0]
+        X_minmax, X_meanvar, t = load_(fileX)
+        XGB = []
+        XGB.append(pickle.load(open("model/XGB1.pickle.dat", "rb")))
+        XGB.append(pickle.load(open("model/XGB2.pickle.dat", "rb")))
+        res1 = XGB[0].predict(xgb.DMatrix(X_meanvar), ntree_limit=XGB[0].best_ntree_limit)
+        res2 = XGB[1].predict(xgb.DMatrix(X_meanvar), ntree_limit=XGB[1].best_ntree_limit)
+        res = pd.DataFrame([[1 - (r1 + r2) * 0.5, (r1 + r2) * 0.5] for r1, r2 in zip(res1, res2)])
+        res.to_csv(str(fileX.split('.')[0])+'_temp_XGB.csv',index=False)
+        return res
+    else:
+        if(len(argv)==0):
+            argv = [0.04]
+        THRESHOLD = float(argv)
+        #### get files names ###
+        names = pd.read_csv('files.csv')
+        fileX_train = literal_eval(names['fileX_train'][0])
+        fileY_train = literal_eval(names['fileY_train'][0])
 
-    fileX_valid =literal_eval(names['fileX_valid'][0])
-    fileY_valid = literal_eval(names['fileY_valid'][0])
-    fileX_test =literal_eval(names['fileX_test'][0])
-    fileY_test = literal_eval(names['fileY_test'][0])
-    X_train,Y_train,_ = load(fileX_train,fileY_train)
-    X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
-    X_test,Y_test,t = load(fileX_test,fileY_test)
+        fileX_valid =literal_eval(names['fileX_valid'][0])
+        fileY_valid = literal_eval(names['fileY_valid'][0])
+        fileX_test =literal_eval(names['fileX_test'][0])
+        fileY_test = literal_eval(names['fileY_test'][0])
+        X_train,Y_train,_ = load(fileX_train,fileY_train)
+        X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
+        X_test,Y_test,t = load(fileX_test,fileY_test)
 
-    model = model_fit(X_train,Y_train,X_valid,Y_valid)
-    pred = model.predict_proba(X_test)
-    testPredict = list([1 if i[1]>THRESHOLD else 0 for i in pred])
-    # plot results
-    plot_res(t,testPredict,Y_test)
+        model = model_fit(X_train,Y_train,X_valid,Y_valid)
+        pred = model.predict_proba(X_test)
+        testPredict = list([1 if i[1]>THRESHOLD else 0 for i in pred])
+        # plot results
+        plot_res(t,testPredict,Y_test)
 
-    res = pd.DataFrame(pred)
-    res.to_csv('xgb.csv',index=False)
+        res = pd.DataFrame(pred)
+        res.to_csv('xgb.csv',index=False)
 
-    pred_valid = model.predict_proba(X_valid)
-    res_valid = pd.DataFrame(pred_valid)
-    res_valid.to_csv('xgb_valid.csv',index=False)
-    save_model(model)
-    return res
+        pred_valid = model.predict_proba(X_valid)
+        res_valid = pd.DataFrame(pred_valid)
+        res_valid.to_csv('xgb_valid.csv',index=False)
+        save_model(model)
+        return res
 
 if __name__ == "__main__":
     # execute only if run as a script
-    main(sys.argv[1])
+    main(sys.argv[1:])

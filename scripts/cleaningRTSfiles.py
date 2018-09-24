@@ -85,13 +85,9 @@ def main(argv):
             for file in files:
                 if(file.split('.')[-1]=='csv'):
                     print(file)
-                    chaine,name = get_tuple(argv[1])
-                    if name == 0:
-                        Report("erreur dans la récupération des informations de la chaîne")
-                        return 0
                     departement = argv[0]
                     csp = argv[2]
-                    os.system("python "+PATH_SCRIPT+"cleaningRTSfiles.py "+str(file)+" " +str(departement)+' "'+str(chaine)+'" '+str(csp))
+                    os.system("python "+PATH_SCRIPT+"cleaningRTSfiles.py "+str(file)+" " +str(departement)+' "'+str(argv[1])+'" '+str(csp))
                 else:
                     pass
             Report("temps d'éxecution du script pour {0} fichiers: {1}({2} per file)".format(str(len(files)),str(time.time()-t),str((time.time()-t)/len(files))))
@@ -100,25 +96,29 @@ def main(argv):
             Report("Failed to clean all files: {1}".format(str(argv[0]), str(e)))
     else:
         try:
-            file = argv[0]
-            departement = argv[1]
-            chaine = argv[2]
-            csp = argv[3]
+            for chaine in argv[2].split('-'):
+                chaine,name = get_tuple(chaine)
+                if name == 0:
+                    Report("erreur dans la récupération des informations de la chaîne")
+                    return 0
+                file = argv[0]
+                departement = argv[1]
+                csp = argv[3]
 
-            f = file.split(".")[0]
-            f = f.split('_')
+                f = file.split(".")[0]
+                f = f.split('_')
 
-            df = pd.read_csv(PATH_IN+'/RTS/'+str(file),sep=';')
-            df = df.loc[df["IDCST"]== int(chaine)]
-            df = df.loc[df["DPT"]== int(departement)]
-            if(int(csp) == 0):
-                df = df.sum(axis = 0)
-            else:
-                df = df.loc[df["IDCIBLE"] == int(csp)]
-            df = df.drop(["IDCST","DPT","IDCIBLE"])
-            c= list(str(chaine))
-            chaine = "0"*(4-len(c))+chaine
-            df.to_csv(PATH_OUT+"RTS/"+str(f[0])+"_"+str(f[1])+"_"+str(departement)+"_"+str(chaine)+"_"+str(csp)+"_cleandata.csv",header=['values'],index= False)
+                df = pd.read_csv(PATH_IN+'/RTS/'+str(file),sep=';')
+                df = df.loc[df["IDCST"]== int(chaine)]
+                df = df.loc[df["DPT"]== int(departement)]
+                if(int(csp) == 0):
+                    df = df.sum(axis = 0)
+                else:
+                    df = df.loc[df["IDCIBLE"] == int(csp)]
+                df = df.drop(["IDCST","DPT","IDCIBLE"])
+                c= list(str(chaine))
+                chaine = "0"*(4-len(c))+chaine
+                df.to_csv(PATH_OUT+"RTS/"+str(f[0])+"_"+str(f[1])+"_"+str(departement)+"_"+str(chaine)+"_"+str(csp)+"_cleandata.csv",header=['values'],index= False)
         except Exception as e:
             Report("Failed to process {0}: {1}".format(str(argv[0]), str(e)))
 

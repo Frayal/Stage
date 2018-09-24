@@ -45,67 +45,65 @@ def get_temp_path():
     return datas['temp_path'].values[0]
 
 def pred(file,numb_folder):
+    relecture = True
+    EPSILON = 1e-15
+    f = ((file.split('.'))[0].split('_'))[2]
+    c = ((file.split('.'))[0].split('_'))[-1]
     try:
-        relecture = True
-        EPSILON = 1e-15
-        f = ((file.split('.'))[0].split('_'))[2]
-        c = ((file.split('.'))[0].split('_'))[-1]
-        PTV,proba = def_context.load_file(str(f),str(c))
-        if(len(PTV) == 0):
-            return 0
-        index_PTV = PTV.index[(PTV['debut'] <= 3*60) & (PTV['debut']+PTV['DUREE'] > 3*60+5)].tolist()[0]
-        def_context.Report('Starting with: %s'%(PTV['TITRE'].iloc[index_PTV]))
-        lastend = PTV['debut'].loc[index_PTV]
-        currentduree = PTV['DUREE'].loc[index_PTV]
-        newPTV = def_context.init_newPTV(PTV,str(c))
-        historyofpoints = def_context.init_history(str(c),PTV,lastend,currentduree)
-        temp_context = historyofpoints.iloc[0]
-        importantpts = def_context.get_important_points(c,PTV,index_PTV)
-        for i in range(3):
-            def_context.Report(str(i)+' '+str(c)+' '+str(f))
-            from predictPTV import main as pred1
-            l1,temp_newPTV1,temp_history1,index_PTV1,temp_context1 = pred1([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts,PATH_OUT+'T'+str(numb_folder)+'/'])
-            if(l1>0 and relecture):
-                def_context.Report("Utilisation de la relecture "+str(i)+' '+str(c)+' '+str(f))
-                from RLPTV import main as RL
-                l2,temp_newPTV2,temp_history2,index_PTV2,temp_context2 = RL([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts,PATH_OUT+'T'+str(numb_folder)+'/'])
-                if(l2>5):
-                    def_context.Report("Utilisation de l'arbre de décision",f,c,i)
-                    if(chaine == 'TF1'):
-                        from PTVTF1 import main as arbre1
-                        l3,temp_newPTV3,temp_history3,index_PTV3,temp_context3 = arbre1([str(c),str(f),i,newPTV.loc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts])
-                    elif(chaine == 'M6'):
-                        from PTVM6 import main as arbre2
-                        l3,temp_newPTV3,temp_history3,index_PTV3,temp_context3 = arbre2([str(c),str(f),i,newPTV.loc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts])
-                    else:
-                        l3>5
-                    if(l3>0):
-                        def_context.Report("AUCUNE DÉCISION NE CONVIENT",f,c)
-                        l,temp_newPTV,temp_history,index_PTV,temp_context = l2,temp_newPTV2,temp_history2,index_PTV2,temp_context2
-                    else:
-                        l,temp_newPTV,temp_history,index_PTV,temp_context = l3,temp_newPTV3,temp_history3,index_PTV3,temp_context3
-                else:
-                    l,temp_newPTV,temp_history,index_PTV,temp_context = l2,temp_newPTV2,temp_history2,index_PTV2,temp_context2
-            else:
-                l,temp_newPTV,temp_history,index_PTV,temp_context = l1,temp_newPTV1,temp_history1,index_PTV1,temp_context1
-            if(l == 4):
-                pass
-            else:
-                newPTV = pd.concat([newPTV,temp_newPTV.iloc[1:]])
-                historyofpoints = pd.concat([historyofpoints,temp_history])
-
-        newPTV['Heure'] = newPTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
-        historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
-        newPTV.to_html(PATH_IN+'new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.html')
-        newPTV.to_csv(PATH_IN+'new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.csv',index=False)
-        historyofpoints.to_html(PATH_IN+'hop/historyofpoints_'+str(f)+'_'+str(c)+'.html')
-        historyofpoints.to_csv(PATH_IN+'hop/historyofpoints_'+str(f)+'_'+str(c)+'.csv',index=False)
-        newPTV.to_html(PATH_OUT+'T'+str(numb_folder)+'/new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.html')
-        newPTV.to_csv(PATH_OUT+'T'+str(numb_folder)+'/new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.csv',index=False)
+        df = pd.read_csv(PATH_OUT+'T'+str(numb_folder)+'/new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.csv')
+        def_context.Report("file %s already exists. I won't do it again"%(PATH_OUT+'T'+str(numb_folder)+'/new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.csv'))
     except Exception as e:
-        exc_type, exc_obj, exc_tb = sys.exc_info()
-        fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        def_context.Report("Failed to process {0} at line {2} in {3}: {1}".format(str(file), str(e),sys.exc_info()[-1].tb_lineno,fname))
+        try:
+            def_context.Report(str(f)+"-"+str(c))
+            PTV,proba = def_context.load_file(str(f),str(c))
+            if(len(PTV) == 0):
+                return 0
+            index_PTV = PTV.index[(PTV['debut'] <= 3*60) & (PTV['debut']+PTV['DUREE'] > 3*60+5)].tolist()[0]
+            def_context.Report('Starting with: %s'%(PTV['TITRE'].iloc[index_PTV]))
+            lastend = PTV['debut'].loc[index_PTV]
+            currentduree = PTV['DUREE'].loc[index_PTV]
+            newPTV = def_context.init_newPTV(PTV,str(c))
+            historyofpoints = def_context.init_history(str(c),PTV,lastend,currentduree)
+            temp_context = historyofpoints.iloc[0]
+            importantpts = def_context.get_important_points(c,PTV,index_PTV)
+            #{#{#{#{#{#{#{#{{{{{{{{{{{{#############}}}}}}}}}}}}}}}}}}}
+            if(numb_folder == '0'):
+                if(c == 'TF1'):
+                    from PTVTF1 import main as arbre1
+                    l,temp_newPTV,temp_history,index_PTV,temp_context = arbre1([str(f),str(c)])
+                else:
+                    from PTVM6 import main as arbre2
+                    l,temp_newPTV,temp_history,index_PTV,temp_context = arbre2([str(f),str(c)])
+
+            else:
+                for i in range(3):
+                    def_context.Report(str(i)+' '+str(c)+' '+str(f))
+                    from predictPTV import main as pred1
+                    l1,temp_newPTV1,temp_history1,index_PTV1,temp_context1 = pred1([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts,PATH_OUT+'T'+str(numb_folder)+'/'])
+                    if(l1>0 and relecture):
+                        def_context.Report("Utilisation de la relecture "+str(i)+' '+str(c)+' '+str(f))
+                        from RLPTV import main as RL
+                        l,temp_newPTV,temp_history,index_PTV,temp_context = RL([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts,PATH_OUT+'T'+str(numb_folder)+'/'])
+                    else:
+                        l,temp_newPTV,temp_history,index_PTV,temp_context =l1,temp_newPTV1,temp_history1,index_PTV1,temp_context1
+                if(l == 4):
+                    pass
+                else:
+                    newPTV = pd.concat([newPTV,temp_newPTV.iloc[1:]])
+                    historyofpoints = pd.concat([historyofpoints,temp_history])
+
+            newPTV['Heure'] = newPTV['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
+            historyofpoints['Heure'] = historyofpoints['minute'].apply(lambda x: str(int(x/60))+':'+str(x%60))
+            newPTV.to_html(PATH_IN+'new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.html')
+            newPTV.to_csv(PATH_IN+'new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.csv',index=False)
+            historyofpoints.to_html(PATH_IN+'hop/historyofpoints_'+str(f)+'_'+str(c)+'.html')
+            historyofpoints.to_csv(PATH_IN+'hop/historyofpoints_'+str(f)+'_'+str(c)+'.csv',index=False)
+            newPTV.to_html(PATH_OUT+'T'+str(numb_folder)+'/new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.html')
+            newPTV.to_csv(PATH_OUT+'T'+str(numb_folder)+'/new_ptv/new_PTV_'+str(f)+'_'+str(c)+'.csv',index=False)
+        except Exception as e:
+            exc_type, exc_obj, exc_tb = sys.exc_info()
+            fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+            def_context.Report("Failed to process {0} at line {2} in {3}: {1}".format(str(file), str(e),sys.exc_info()[-1].tb_lineno,fname))
 
 def update_temp_path(i):
     datas = pd.read_csv('path.csv')
@@ -300,69 +298,71 @@ def main(argv):
     if(len(argv) == 0):
         print('bonjour')
         start = int(input("A quelle partie voulez vous commencer?"))
-        if(start<2):
-            chaines = str(input("Quelle Chaînes devont nous traiter?(separez les par un '-'"))
-            chaines = chaines.split('-')
+        if(start<1):
+            Chaines = str(input("Quelle Chaînes devont nous traiter?(separez les par un '-'):"))
+            chaines = Chaines.split('-')
             C = [[def_context.get_tuple(chaine)] for chaine in chaines]
         Processes = []
     if(len(argv) == 2):
         pred(argv[0],argv[1])
+        return 0
 
     ##### Première partie #####
-    if(start<=1):
+    if(start < 1):
         for chaine in chaines:
-            while(len(Processes)>= MAX_PROCESSES):
-                        time.sleep(5)
-                        for p in range(len(Processes)): # Check the processes in reverse order
-                            if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-                                del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
-
-            Processes.append(Popen(['python','cleaningRTSfiles.py','0',chaine,'0']))
-        for chaine in chaines:
-            while(len(Processes)>= MAX_PROCESSES):
-                        time.sleep(5)
-                        for p in range(len(Processes)): # Check the processes in reverse order
-                            if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-                                del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
+            while(len(Processes)>= MAX_PROCESSES/2):
+                    lenp = len(Processes)
+                    for p in range(lenp): # Check the processes in reverse order
+                        if Processes[lenp-1-p].poll() is not None: # If the process hasn't finished will return None
+                            del Processes[lenp-1-p] # Remove from list - this is why we needed reverse order
+                    time.sleep(5)
 
             Processes.append(Popen(['python','extractdatafromPTV.py',chaine]))
+        Processes.append(Popen(['python','cleaningRTSfiles.py','0',Chaines,'0']))
         ##### emptying the process queue ######
         while(len(Processes)):
+            lenp = len(Processes)
+            for p in range(lenp): # Check the processes in reverse order
+                if Processes[lenp-1-p].poll() is not None: # If the process hasn't finished will return None
+                    del Processes[lenp-1-p] # Remove from list - this is why we needed reverse order
             time.sleep(5)
-            for p in range(len(Processes)): # Check the processes in reverse order
-                if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-                    del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
         Processes.append(Popen(['python','processingdata.py']))
-
+    if(start<=1):
         while(len(Processes)):
+            lenp = len(Processes)
+            for p in range(lenp): # Check the processes in reverse order
+                if Processes[lenp-1-p].poll() is not None: # If the process hasn't finished will return None
+                    del Processes[lenp-1-p] # Remove from list - this is why we needed reverse order
             time.sleep(5)
-            for p in range(len(Processes)): # Check the processes in reverse order
-                if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-                    del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
         Processes.append(Popen(['python','predict.py']))
         while(len(Processes)):
+            lenp = len(Processes)
+            for p in range(lenp): # Check the processes in reverse order
+                if Processes[lenp-1-p].poll() is not None: # If the process hasn't finished will return None
+                    del Processes[lenp-1-p] # Remove from list - this is why we needed reverse order
             time.sleep(5)
-            for p in range(len(Processes)): # Check the processes in reverse order
-                if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-                    del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
     if (start <= 2):
         Processes = []
         pass_files = []
-        for i in range(1,31):
+        nb_files_true = 0
+        for i in range(31):
             update_temp_path(i)
             files = os.listdir(PATH_IN+'PTV/')
             nb_files = len(files)
+            nb_files_true =0
             for file in files:
                 if(file in pass_files):
                     pass
-                elif(i<5):
+                elif(i%10 != 0 or i ==0):
                     while (len(Processes)>= MAX_PROCESSES):
-                        for p in range(len(Processes)):  # Check the processes in reverse order
-                            if Processes[len(Processes)-1-p].poll() is not None:  # If the process hasn't finished will return None
-                                del Processes[len(Processes)-1-p]  # Remove from list - this is why we needed reverse order
+                        lenp = len(Processes)
+                        for p in range(lenp): # Check the processes in reverse order
+                            if Processes[lenp-1-p].poll() is not None: # If the process hasn't finished will return None
+                                del Processes[lenp-1-p] # Remove from list - this is why we needed reverse order
                         time.sleep(5)
-                        def_context.Report('process launch for %s at turn %s'%(file,i))
-                    Processes.append(Popen(['python', 'out.py', file,str(i)]))
+                    def_context.Report('process launch for %s at turn %s'%(file,i))
+                    Processes.append(Popen(['python', 'out.py', file ,str(i)]))
+                    nb_files_true +=1
                 else:
                     date = file.split('_')[2]
                     chaine = file.split('_')[-1].split('.')[0]
@@ -374,11 +374,15 @@ def main(argv):
                         pass_files.append(file)
                     else:
                         while(len(Processes)>= MAX_PROCESSES):
-                                for p in range(len(Processes)): # Check the processes in reverse order
-                                    if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-                                        del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
-                                time.sleep(5)
+                            lenp = len(Processes)
+                            for p in range(lenp): # Check the processes in reverse order
+                                if Processes[lenp-1-p].poll() is not None: # If the process hasn't finished will return None
+                                    del Processes[lenp-1-p] # Remove from list - this is why we needed reverse order
+                            time.sleep(5)
                         Processes.append(Popen(['python','out.py',file,str(i)]))
+                        time.sleep(2)
+                        nb_files_true +=1
+        def_context.Report("treated %s files instead of %s"%(nb_files*30,nb_files_true))
 ######### Toute les prédictions on été faites ########
     if(start<=3):
         os.system("python cost.py")
@@ -421,6 +425,7 @@ def main(argv):
                 res[col].loc[1] = 1-(res[col].loc[0])/res['count_'+col].loc[0]
                 def_context.Report('pour %s : %s erreurs soit %s '%(col,res[col][0],res[col][1]))
         res.to_csv('res_out.csv',index=False)
+    def_context.Report("EXIT THE PROGRAM WITH NO ERROR. Congratulation bro!")
 
 
 if __name__ == "__main__":

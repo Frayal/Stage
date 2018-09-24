@@ -155,26 +155,27 @@ def main(argv):
         Report("classic")
         l3 = os.system("python "+PATH_SCRIPT+"SVC.py 0.5")
         Report("NN")
-        #l4 = os.system("python "+PATH_SCRIPT+"NeuralNetwork.py 0.5")#TODO: add NN,LSTM back
+        l4 = os.system("python "+PATH_SCRIPT+"NeuralNetwork.py 0.5")#TODO: add NN,LSTM back
         Report("XGB")
         l5 = os.system("python "+PATH_SCRIPT+"XgBoost.py 0.5")
         Report("KNN")
         l6 = os.system("python "+PATH_SCRIPT+"KNN.py 0.5")
         Report("LSTM")
-        #l7 = os.system("python "+PATH_SCRIPT+"LSTM.py 0.5")#TODO: add NN,LSTM back
+        l7 = os.system("python "+PATH_SCRIPT+"LSTM.py 0.5")#TODO: add NN,LSTM back
         return 0
     if(str(argv[0]) == 'trainlogreg'):
         Report('training logistic regression...')
         l1 = pd.read_csv("lightGBM_valid.csv")
         l2 = pd.read_csv("catboost_valid.csv")
         l3 = pd.read_csv("SVC_valid.csv")
-        #l4 = pd.read_csv("NN_valid.csv")#TODO: add NN,LSTM back
+        l4 = pd.read_csv("NN_valid.csv")#TODO: add NN,LSTM back
         l5 = pd.read_csv("xgb_valid.csv")
         l6 = pd.read_csv("KNN_valid.csv")
-        #l7 = pd.read_csv("LSTM_valid.csv")#TODO: add NN,LSTM back
+        l7 = pd.read_csv("LSTM_valid.csv")#TODO: add NN,LSTM back
 
 
-        X_valid = pd.concat([l2,l3,l5,l6], axis=1).values #TODO: add NN,LSTM back
+        X_valid = pd.concat([l2,l3,l4,l5,l6,l7], axis=1).values #TODO: add NN,LSTM back
+        print(X_valid.shape)
         for i in [0.001]:
             Report("C="+str(i))
             np.random.seed(7)
@@ -196,12 +197,12 @@ def main(argv):
         #l1 = pd.read_csv("lightGBM.csv")
         l2 = pd.read_csv("catboost.csv")
         l3 = pd.read_csv("SVC.csv")
-        #l4 = pd.read_csv("NN.csv")#TODO: add NN,LSTM back
+        l4 = pd.read_csv("NN.csv")#TODO: add NN,LSTM back
         l5 = pd.read_csv("xgb.csv")
         l6 = pd.read_csv("KNN.csv")
-        #l7 = pd.read_csv("LSTM.csv")#TODO: add NN,LSTM back
+        l7 = pd.read_csv("LSTM.csv")#TODO: add NN,LSTM back
 
-        X = pd.concat([l2,l3,l5,l6], axis=1).values #TODO: add NN,LSTM back
+        X = pd.concat([l2,l3,l4,l5,l6,l7], axis=1).values #TODO: add NN,LSTM back
         np.random.seed(7)
         logistic = pickle.load(open('model/logistic_regression.sav', 'rb'))
         np.random.seed(7)

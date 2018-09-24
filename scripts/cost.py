@@ -177,16 +177,13 @@ def main(argv):
 			if( str(argv[0]) in [str(date),str(chaine)]):
 				print(argv[0])
 				while(len(Processes)>= MAX_PROCESSES):
+					lenp = len(Processes)
+					for p in range(lenp):  # Check the processes in reverse order
+						if Processes[enp - 1 - p].poll() is not None:  # If the process hasn't finished will return None
+							del Processes[lenp - 1 - p]  # Remove from list - this is why we needed reverse order
 					time.sleep(5)
-					for p in range(len(Processes)): # Check the processes in reverse order
-						if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-							del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
-				if(len(Processes)<MAX_PROCESSES):
-					Processes.append(Popen(['python','cost.py',str(chaine),str(date)]))
-				else:
-					Processes[0].wait()
-					Processes.pop(0)
-					Processes.append(Popen(['python','cost.py',str(chaine),str(date)]))
+
+				Processes.append(Popen(['python','cost.py',str(chaine),str(date)]))
 				def_context.Report('calcul des coûts pour la journée du %s sur la chaîne %s'%(date,chaine))
 			else:
 				continue
@@ -202,22 +199,20 @@ def main(argv):
 			while(len(Processes)>=5):
 				time.sleep(5)
 				for p in range(len(Processes)): # Check the processes in reverse order
-					if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-						del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
-						break
-			if(len(Processes)<MAX_PROCESSES):
-				Processes.append(Popen(['python','cost.py',str(chaine),str(date)]))
-			else:
-				Processes[0].wait()
-				Processes.pop(0)
-				Processes.append(Popen(['python','cost.py',str(chaine),str(date)]))
+					lenp = len(Processes)
+					for p in range(lenp):  # Check the processes in reverse order
+						if Processes[enp - 1 - p].poll() is not None:  # If the process hasn't finished will return None
+							del Processes[lenp - 1 - p]  # Remove from list - this is why we needed reverse order
+					time.sleep(5)
+			Processes.append(Popen(['python','cost.py',str(chaine),str(date)]))
 			def_context.Report('calcul des coûts pour la journée du %s sur la chaîne %s'%(date,chaine))
 			time.sleep(2)
 		while(len(Processes)):
+			lenp = len(Processes)
+			for p in range(lenp):  # Check the processes in reverse order
+				if Processes[enp - 1 - p].poll() is not None:  # If the process hasn't finished will return None
+					del Processes[lenp - 1 - p]  # Remove from list - this is why we needed reverse order
 			time.sleep(5)
-			for p in range(len(Processes)): # Check the processes in reverse order
-				if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-					del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
 		def_context.Report(len(files))
 		def_context.Report(time.time()-t)
 

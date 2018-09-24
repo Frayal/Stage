@@ -58,7 +58,7 @@ class Classifier(BaseEstimator):
 ########### Important functions #################
 #################################################
 #Duplicate of the def_context but as we use a different set of PATH and only the Report Functon
-#redefining them here is a better option. 
+#redefining them here is a better option.
 def Report(error):
     with open(LOG,'a+') as file:
         file.write(str(error)+' \n')
@@ -161,7 +161,18 @@ def save_model(model):
 
 
 
+def load_(fileX):
+    df = pd.read_csv(fileX)
+    df = df.replace([np.inf, -np.inf], np.nan)
+    df = df.fillna(1)
+    X_train = df.values
+    t = df.index.values
 
+    scaler = MinMaxScaler(feature_range=(0, 1))#StandardScaler()
+    s = StandardScaler()
+    X_train_minmax = scaler.fit_transform(X_train)
+    X_train_meanvar = s.fit_transform(X_train)
+    return  X_train_minmax,X_train_meanvar,t
 
 #################################################
 ########### main with options ###################
@@ -169,42 +180,52 @@ def save_model(model):
 
 
 def main(argv):
-    global PATH_IN,PATH_SCRIPT,PATH_OUT
-    PATH_IN,PATH_SCRIPT,PATH_OUT = get_path()
-    if(len(argv)==0):
-        argv = [0.2]
-    THRESHOLD = float(argv[0])
-    #### get files names ###
-    names = pd.read_csv('files.csv')
-    fileX_train = literal_eval(names['fileX_train'][0])
-    fileY_train = literal_eval(names['fileY_train'][0])
+    global PATH_IN, PATH_SCRIPT, PATH_OUT
+    PATH_IN, PATH_SCRIPT, PATH_OUT = get_path()
+    if (len(argv) == 2):
+        fileX = argv[0]
+        X_minmax, X_meanvar, t = load_(fileX)
+        CatBoost = []
+        CatBoost.append(CatBoostClassifier().load_model(fname="model/catboostmodel1"))
+        CatBoost.append(CatBoostClassifier().load_model(fname="model/catboostmodel2"))
+        res = pd.DataFrame([[1-(v[1]+l[1])*0.5,(v[1]+l[1])*0.5] for v,l in zip(CatBoost[0].predict_proba(X_meanvar),CatBoost[1].predict_proba(X_meanvar))])
+        res.to_csv(str(fileX.split('.')[0])+'_temp_cat.csv',index=False)
+        return res
+    else:
+        if(len(argv)==0):
+            argv = [0.2]
+        THRESHOLD = float(argv[0])
+        #### get files names ###
+        names = pd.read_csv('files.csv')
+        fileX_train = literal_eval(names['fileX_train'][0])
+        fileY_train = literal_eval(names['fileY_train'][0])
 
-    fileX_valid =literal_eval(names['fileX_valid'][0])
-    fileY_valid = literal_eval(names['fileY_valid'][0])
-    fileX_test =literal_eval(names['fileX_test'][0])
-    fileY_test = literal_eval(names['fileY_test'][0])
+        fileX_valid =literal_eval(names['fileX_valid'][0])
+        fileY_valid = literal_eval(names['fileY_valid'][0])
+        fileX_test =literal_eval(names['fileX_test'][0])
+        fileY_test = literal_eval(names['fileY_test'][0])
 
 
-    X_train,Y_train,_ = load(fileX_train,fileY_train)
-    X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
-    X_test,Y_test,t = load(fileX_test,fileY_test)
+        X_train,Y_train,_ = load(fileX_train,fileY_train)
+        X_valid,Y_valid,_ = load(fileX_valid,fileY_valid)
+        X_test,Y_test,t = load(fileX_test,fileY_test)
 
-    model = model_fit(X_train,Y_train,X_valid,Y_valid)
-    pred = model.predict_proba(X_test)
-    testPredict = list([1 if i[1]>THRESHOLD else 0 for i in pred])
+        model = model_fit(X_train,Y_train,X_valid,Y_valid)
+        pred = model.predict_proba(X_test)
+        testPredict = list([1 if i[1]>THRESHOLD else 0 for i in pred])
 
 
-    # plot results
-    plot_res(t,testPredict,Y_test)
+        # plot results
+        plot_res(t,testPredict,Y_test)
 
-    pred_valid = model.predict_proba(X_valid)
-    res_valid = pd.DataFrame(pred_valid)
-    res_valid.to_csv('catboost_valid.csv',index=False)
+        pred_valid = model.predict_proba(X_valid)
+        res_valid = pd.DataFrame(pred_valid)
+        res_valid.to_csv('catboost_valid.csv',index=False)
 
-    res = pd.DataFrame(pred)
-    res.to_csv('catboost.csv',index=False)
-    save_model(model)
-    return res
+        res = pd.DataFrame(pred)
+        res.to_csv('catboost.csv',index=False)
+        save_model(model)
+        return res
 
 if __name__ == "__main__":
     # execute only if run as a script

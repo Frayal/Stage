@@ -108,10 +108,9 @@ def load_file(date,c):
         PTV['fin'] = PTV['debut']+PTV['DUREE']
         #Report('IPTV_'+numero+'_'+date+'_'+nom+'.csv','pred_proba_'+str(JOINDATE)+'_'+numero+'.csv')
         proba = pd.read_csv(PATH_IN+'RTS/pred_proba_'+str(JOINDATE)+'_'+numero+'.csv').values
-
         return PTV,proba
     except:
-        Report("Fichier Non existant")
+        Report("Fichier Non existant: "+PATH_IN+'PTV/IPTV_'+numero+'_'+date+'_'+nom+'.csv')
         return [],[]
 
 def init_newPTV(PTV,chaine):
@@ -206,17 +205,21 @@ def find_threshold(cp,threshold):
     """
     global THRESHOLD
     num = 0
-    if(THRESHOLD>=0.60):
-        return 0.60
-    if(THRESHOLD<=0.35):
+    if(threshold>=0.60):
+        THRESHOLD = 0.6
+        return 0.6
+    if(threshold<=0.35):
+        THRESHOLD = 0.35
         return 0.35
     for c in cp:
-        if(cp>THRESHOLD):
+        if(c[0]>threshold):
             num+=1
         else:
             pass
-    if(60<num<100):
+    Report(num)
+    if(60<=num<=100):
         THRESHOLD = threshold
+        return threshold
     elif(num<60):
         return find_threshold(cp,threshold-0.01)
     elif(100<num):
@@ -655,4 +658,3 @@ def load_models(path = get_temp_path()):
     gb = pickle.load(open(path+"model_PTV/GradientBoostingClassifier.pickle.dat", "rb"))
     logistic = pickle.load(open(path+'model_PTV/logistic_regression.sav', "rb"))
     return XGB,CatBoost,rf,dt,gb,logistic
-

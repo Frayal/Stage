@@ -1516,6 +1516,7 @@ def main(argv):
         importantpts = def_context.get_important_points(c,PTV,index_PTV)
         temp_context = historyofpoints.iloc[0]
         THRESHOLD = def_context.find_threshold(proba,0.46)
+        def_context.Report(THRESHOLD)
         path = def_context.get_temp_path()
         for i in range(3):
             l,temp_newPTV,temp_history,index_PTV,temp_context = main([str(c),str(f),i,newPTV.iloc[newPTV.shape[0]-1],temp_context,index_PTV,importantpts,path])

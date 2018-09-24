@@ -221,18 +221,20 @@ def main(argv):
             elif(c == argv[1]):
                 def_context.Report(file)
                 while(len(Processes)>= MAX_PROCESSES):
+                    lenp = len(Processes)
+                    for p in range(lenp):  # Check the processes in reverse order
+                        if Processes[enp - 1 - p].poll() is not None:  # If the process hasn't finished will return None
+                            del Processes[lenp - 1 - p]  # Remove from list - this is why we needed reverse order
                     time.sleep(5)
-                    for p in range(len(Processes)): # Check the processes in reverse order
-                        if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-                            del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
                 Processes.append(Popen(['python',PATH_SCRIPT+'fasttrain.py',file]))
             else:
                 pass
         while(len(Processes)):
+            lenp = len(Processes)
+            for p in range(lenp):  # Check the processes in reverse order
+                if Processes[enp - 1 - p].poll() is not None:  # If the process hasn't finished will return None
+                    del Processes[lenp - 1 - p]  # Remove from list - this is why we needed reverse order
             time.sleep(5)
-            for p in range(len(Processes)): # Check the processes in reverse order
-                if Processes[len(Processes)-1-p].poll() is not None: # If the process hasn't finished will return None
-                    del Processes[len(Processes)-1-p] # Remove from list - this is why we needed reverse order
 
 
 if __name__ == "__main__":
